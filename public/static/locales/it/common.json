@@ -1,0 +1,133 @@
+{
+  "elements": {
+    "loading": "caricamento...",
+    "loading-right": "Caricamento...",
+    "loading-left": "….Caricamento",
+    "no-results": "Nessun risultato trovato"
+  },
+  "user": {
+    "name": "Nome",
+    "first-name": "Nome",
+    "last-name": "Cognome",
+    "email": {
+      "email-upper": "Email",
+      "email-lower": "email",
+      "your-email": "La tua email"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "Oggi",
+    "yesterday": "Ieri",
+    "days-ago": "giorni fa"
+  },
+
+  "social-links": {
+    "heading": "Social links",
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "YouTube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
+  },
+
+  "social": {
+    "heading": "Social links",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "youtube": "YouTube",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram"
+  },
+
+  "week-days": {
+    "monday": "Lunedì",
+    "tuesday": "Martedì",
+    "wednesday": "Mercoledì",
+    "thursday": "Giovedì",
+    "friday": "Venerdì",
+    "saturday": "Sabato",
+    "sunday": "Domenica"
+  },
+
+  "toast": {
+    "submit-success": "Il tuo annuncio è stato pubblicato!",
+    "server-error": "Input errato/Server non raggiungibile",
+    "logging-required": "È necessario effettuare il login",
+    "cannot-apply": "Ehi, questa è un'anteprima",
+    "preview": "Nell'Anteprima non puoi fare un'offerta",
+    "log-in": "Devi essere registrato per fare un'offerta",
+    "bidding-price": "Nessun prezzo d'offerta",
+    "price-lower": "L'offerta è inferiore al 20% del prezzo di listino",
+    "price-upper": "L'offerta è superiore al 20% del prezzo di listino",
+    "refresh-page": "Il server non risponde, si prega di aggiornare",
+    "not-send": "L'email non è stata inviata",
+    "contact-directly": "Contatta direttamente",
+    "email-send": "L'email è stata inviata",
+    "no-email": "L'email dell'annuncio non esiste",
+    "subscribed": "Congratulazioni, ti sei iscritto :)",
+    "already-applied": "Hai presentato la tua candidatura per questa posizione",
+    "already": "Già iscritto/ e-mail non valida",
+    "country-error": "Errore non specificato nell'inserimento della nazione",
+    "location-error": "Impossibile recuperare le località",
+    "unknown-error": "Errore sconosciuto del server",
+    "search-results": {
+      "found": "Trovato",
+      "items": "elementi"
+    },
+    "not-found": "Nessun nuovo risultato trovato"
+  },
+
+  "location": {
+    "country": "Nazione",
+    "state": "Stato/Regione",
+    "city": "Città",
+    "no-city": "Nessuna città",
+    "no-states": "Nessuno stato",
+    "states-not-registerd": "Nessuno stato registrato",
+    "cities-registerd": "Nessuna città registrata"
+  },
+
+  "items-per-page": {
+    "label": "Elementi",
+    "options": {
+      "nine": "9 elementi",
+      "eighteen": "18 elementi",
+      "twenty-seven": "27 elementi",
+      "thirty-six": "36 elementi",
+      "seventy-two": "72 elementi"
+    }
+  },
+
+  "month": {
+    "Jan": "Gennaio",
+    "Feb": "Febbraio",
+    "Mar": "Marzo",
+    "Apr": "Aprile",
+    "May": "Maggio",
+    "Jun": "Giugno",
+    "Jul": "Luglio",
+    "Aug": "Agosto",
+    "Sep": "Settembre",
+    "Oct": "Ottobre",
+    "Nov": "Novembre",
+    "Dec": "Dicembre"
+  },
+  "currency": {
+    "currency-label": "Valuta",
+    "no-currency": "Tutte"
+  },
+  "measurement": {
+    "label": "Unità di misura",
+    "system": {
+      "none": "Nessuna",
+      "metric": "Metrico",
+      "imperial": "Imperiale"
+    }
+  },
+  "user-box": {
+    "profile": "Profilo",
+    "log-out": "Esci"
+  },
+  "preview-close": "Chiudi anteprima"
+}

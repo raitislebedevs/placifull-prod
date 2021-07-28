@@ -1,0 +1,60 @@
+{
+  "labels": {
+    "about-me": "Chi sono",
+    "languages": "Lingue",
+    "computer-skills": "Competenze informatiche",
+    "education": "Istruzione",
+    "expierience": "Esperienza di lavoro",
+    "licenses": "Patente",
+    "expectations": "Aspettative sul lavoro",
+    "certification": "Attestati"
+  },
+  "gender": {
+    "label": "Sesso",
+    "male": "Maschile",
+    "women": "Femminile"
+  },
+  "expierience": {
+    "label": "Esperienza",
+    "uptoOne": "< 1 anno",
+    "oneToThree": "1 - 3 anni",
+    "threeToFive": "3 - 5 anni",
+    "fiveToTen": "5 - 10 anni",
+    "tenToFifteen": "10 - 15 anni",
+    "moreThanFifteen": "15+ anni"
+  },
+
+  "knowladge-gained": {
+    "selfTaught": "Autodidatta",
+    "course": "Corso",
+    "freelance": "Freelance",
+    "contractProject": "Contratto a progetto",
+    "fullTimeJob": "Impiego a tempo pieno",
+    "other": "Altro"
+  },
+  "qualification": {
+    "primary": "Primaria",
+    "secondary": "Secondaria",
+    "vocational": "Professionale",
+    "bachelors": "Diplomi",
+    "master": "Master",
+    "doctorate": "Laurea",
+    "other": "Altro"
+  },
+
+  "seniority": {
+    "title": "Anzianità",
+    "volunteer": "Volontario",
+    "intern": "Stagista",
+    "junior": "Junior",
+    "intermediate": "Intermedio",
+    "senior": "Senior",
+    "executive": "Direttore",
+    "ceo": "CEO",
+    "other": "Altro"
+  },
+
+  "avarage-grade": "Media dei voti",
+  "present": "Presenza",
+  "license-category": "Categoria dell'abilitazione"
+}

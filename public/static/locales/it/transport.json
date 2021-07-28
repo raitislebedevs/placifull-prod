@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "form": {
+      "currency": "Valuta",
+      "no-currency": "TUTTE",
+      "min-price": "Min: 0.00",
+      "max-price": "Max: 9,999,999,999",
+      "transport-brand": "Marca veicolo",
+      "transport-model": "Modello veicolo",
+      "min-age": "Età min.",
+      "max-age": "Età max.",
+      "submit": "Cerca ora",
+      "accordion": "Ricerca avanzata",
+      "accordion-right": {
+        "economy": {
+          "label": "Risparmio di carburante",
+          "items": {
+            "from": "Da: 0",
+            "to": "A: 999"
+          }
+        },
+        "speed": {
+          "label": "Velocità max.",
+          "items": {
+            "from": "Da: 0",
+            "to": "A: 999"
+          }
+        },
+        "millage": {
+          "label": "Percorrenza",
+          "items": {
+            "from": "Da: 0",
+            "to": "A: 9,999,999"
+          }
+        },
+        "units": "Unità"
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Ordina per",
+        "options": {
+          "price": "Prezzo",
+          "speed": "Velocità",
+          "millage": "Chilometraggio",
+          "fuel-economy": "Risparmio di carburante",
+          "popularity": "Popolarità",
+          "views": "Visualizzazioni",
+          "country": "Nazione",
+          "insert-date": "Data d'inserimento"
+        }
+      }
+    }
+  }
+}

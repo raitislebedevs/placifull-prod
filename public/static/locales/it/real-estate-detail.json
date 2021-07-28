@@ -1,0 +1,58 @@
+{
+  "header": {
+    "flag-button": "CONTRASSEGNA QUESTO CONTENUTO"
+  },
+  "detail-info": {
+    "button": "VOGLIO TRASLOCARE ORA"
+  },
+  "contact-times": {
+    "heading": "Orari di contatto preferiti"
+  },
+  "about": {
+    "heading": "Informazioni su",
+    "featured": "Promozione",
+    "notFeatured": "Non in promozione",
+    "rentTime": "per mese",
+    "inputTimeDays": "giorni fa"
+  },
+
+  "general-info": {
+    "heading": "Informazioni generali",
+    "property-area": "Area di proprietà",
+    "rooms": "Camere",
+    "year-built": "Anno di costruzione",
+    "price": "Prezzo",
+    "total-ultilities": "Totale utenze",
+    "move-in": "Data di arrivo",
+    "move-out": "Data di uscita",
+    "min-time": "Periodo minimo",
+    "bid-price": "Fai un'offerta per la proprietà",
+    "submit": "FAI UN'OFFERTA",
+    "bid-placeholder": "Fai un'offerta con il 20% di margine"
+  },
+
+  "contact-form": {
+    "heading": "Contatta direttamente il proprietario",
+    "form": {
+      "heading": "Scrivi la tua domanda qui",
+      "fullName": "Nome completo*",
+      "phoneNumber": "Numero di telefono*",
+      "email": "Indirizzo email*",
+      "message": "Il tuo messaggio*",
+      "submit": "INVIA MESSAGGIO"
+    }
+  },
+  "extra": {
+    "heading": "Altri oggetti elencati da questo profilo",
+    "table": {
+      "number": "N.",
+      "country": "Nazione",
+      "full-address": "Indirizzo completo",
+      "property-type": "Tipo di proprietà",
+      "price": "Prezzo",
+      "area": "Area",
+      "bed-rooms": "Camere",
+      "year-built": "Anno di costruzione"
+    }
+  }
+}

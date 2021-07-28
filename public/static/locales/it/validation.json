@@ -1,0 +1,86 @@
+{
+  "common": {
+    "name": "È richiesto il nome dell'annuncio.",
+    "currency": {
+      "required": "È richiesta la valuta."
+    },
+
+    "category": "È richiesta la categoria.",
+    "action": "È richiesta l'azione",
+    "condition": "È richiesta la condizione.",
+
+    "country": "È richiesta la nazione.",
+    "city": "Considera la città",
+    "description": {
+      "minLength": "La descrizione deve essere lunga 20 caratteri.",
+      "maxLength": "La descrizione non può superare i 1000 caratteri.",
+      "required": "È richiesta la descrizione."
+    },
+
+    "gallery": "È richiesta la galleria",
+
+    "price": {
+      "minLength": "Il prezzo deve essere maggiore di 0.",
+      "maxLength": "Il prezzo non può superare 999.999.999.999.00",
+      "required": "È richiesto il prezzo."
+    },
+    "phone": {
+      "minLength": "Il numero di telefono deve contenere 6 cifre.",
+      "maxLength": "Il numero di telefono non può superare le 20 cifre.",
+      "required": "Il numero di telefono è obbligatorio."
+    },
+    "email": {
+      "valid": "Si prega di fornire un'email valida",
+      "required": "È richiesta l'email. "
+    },
+    "contact": {
+      "required": "È richiesto l'orario di contatto"
+    }
+  },
+
+  "real-estate": {
+    "address": {
+      "mapPoint": "Si prega di contrassegnare l'indirizzo nella mappa",
+      "address": "È richiesto l'indirizzo dell'annuncio."
+    },
+    "rooms": "È richiesto il conteggio delle camere",
+    "area": "È richiesta l'area di proprietà",
+    "baths": "È richiesto il conteggio dei bagni"
+  },
+
+  "transport": {
+    "type": "È richiesto il tipo di veicolo",
+    "brand": {
+      "minLength": "Il nome del marchio deve essere lungo più di 0 caratteri.",
+      "maxLength": "Il nome della marca non può superare n caratteri.",
+      "required": "È richiesta la marca"
+    },
+
+    "model": {
+      "minLength": "Il nome del modello deve essere lungo più di 0 caratteri.",
+      "maxLength": "Il nome del modello non può superare n caratteri.",
+      "required": "È richiesto il nome del modello."
+    },
+    "address": {
+      "mapPoint": "È richiesto il luogo dell'incontro nella mappa",
+      "address": "È richiesto l'indirizzo dell'incontro nella mappa."
+    },
+    "engine": "È richiesto il tipo di motore è richiesto",
+    "gear": "È richiesto il cambio"
+  },
+
+  "job": {
+    "address": {
+      "mapPoint": "La posizione dell'ufficio è richiesta nella mappa",
+      "address": "È richiesto l'indirizzo dell'ufficio."
+    },
+    "gallery": "È richiesto il logo delle aziende",
+    "monthly-from": "È richiesto da quanto parte lo stipendio mensile",
+    "monthly-to": "È richiesto fino a quanto arriva lo stipendio mensile",
+    "logo-size": "La dimensione supera i 5 MB"
+  },
+  "email": {
+    "full-name": "Si prega di fornire il proprio nome",
+    "message": "È richiesto il messaggio"
+  }
+}

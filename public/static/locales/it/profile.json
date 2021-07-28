@@ -1,0 +1,384 @@
+{
+  "overview": {
+    "button-label": {
+      "change": "Cambia foto",
+      "delete": "Rimuovi foto",
+      "save-all": "Salva tutto",
+      "preview": "Anteprima"
+    },
+    "setting-label": "Acquistato",
+    "delete-avatar-modal": {
+      "header": "Rimuovi avatar",
+      "body": "Vuoi rimuovere il tuo avatar?",
+      "submit": "Rimuovi",
+      "cancel": "Cancella"
+    }
+  },
+  "hover-texts": {
+    "real-estate": "Messaggi immobiliari",
+    "transport": "Messaggi veicoli",
+    "job": "Messaggi di lavoro",
+    "browser": "Sfoglia CV"
+  },
+  "left-tab": {
+    "navigation": "Navigazione",
+    "titles": {
+      "profile": "Profilo",
+      "cv": "CV",
+      "real-estate": "Immobili",
+      "transport": "Veicoli",
+      "jobs": "Lavori",
+      "browser": "Sfoglia CV",
+      "payment": "Ricevute di pagamento",
+      "logout": "Esci"
+    }
+  },
+  "right-content": {
+    "prev-button": "Passo prec.",
+    "next-button": "Passo succ.",
+    "profile": {
+      "personal-details": {
+        "heading": "Dettagli personali:",
+        "labels": {
+          "profession": "Identità professionale",
+          "first-name": "Nome",
+          "last-name": "Cognome",
+          "email": "La tua email",
+          "phone-number": "Numero di telefono",
+          "about-me-heading": "Chi sono",
+          "about-me": "In cosa ti distingui?",
+          "country": "Nazione",
+          "state": "Stato/Regione",
+          "city": "Città",
+          "birth-date": "Data di nascita",
+          "gender": {
+            "label": "Sesso",
+            "men": "Maschile",
+            "women": "Femminile",
+            "not-specified": "Non mostrare"
+          },
+          "age": {
+            "label": "Mostra l'età",
+            "yes": "Sì",
+            "no": "No",
+            "only-birth-date": "Solo la data di nascita"
+          }
+        },
+        "button-save": "Salva le modifiche"
+      },
+      "password-form": {
+        "text": "Cambia password:",
+        "old-password": "Vecchia password",
+        "new-password": "Nuova password",
+        "confirm-password": "Conferma password",
+        "button-save": "Salva password",
+        "validation": {
+          "current-password-required": "Si prega di confermare la password",
+          "new-password-required": "Nuova password mancante",
+          "password-not-match": "Le password non coincidono",
+          "confirm-password-required": "Si prega di confermare la password"
+        }
+      },
+      "delete-form": {
+        "text": "Elimina account",
+        "content": "Vuoi eliminare l'account? Per favore, premi il pulsante 'Cancella' qui sotto",
+        "button-delete": "Elimina account"
+      },
+      "validation": {
+        "first-name": "È richiesto il nome",
+        "last-name": "È richiesto il cognome"
+      }
+    },
+    "tabs": {
+      "actions": {
+        "sell": "Per vendere",
+        "rent": "Per noleggiare",
+        "exchange": "Scambio"
+      },
+      "common": {
+        "button-edit": "Modifica",
+        "button-reviews": "Recensioni",
+        "button-delete": "Elimina",
+        "days-left": "giorni rimanenti",
+        "title": "I Miei Annunci",
+        "highest": "Offerta più alta",
+        "lowest": "Offerta più bassa"
+      },
+      "job": {
+        "count": "Conteggio dei candidati",
+        "avarage": "Offerta media",
+        "lowest": "Offerta più bassa",
+        "highest": "Offerta più alta",
+        "button": "Vedi tutte"
+      },
+      "browser": {
+        "common": {
+          "area": "Posizione lavorativa"
+        },
+        "title": "Sfoglia CV",
+        "search": {
+          "button": "Cerca",
+          "expirience": {
+            "label": "Esperienza",
+            "options": {}
+          },
+          "hourly-to": "Orario fino ",
+          "monthly-to": "Mensile fino",
+          "annual-to": "Annuale fino"
+        },
+        "table": {
+          "name": "Nome",
+          "email": "Email",
+          "phone": "Numero di telefono",
+          "salary": "Stipendio previsto"
+        }
+      },
+      "receipt": {
+        "title": "Cedolini",
+        "search": {
+          "search-from": "Seleziona data d'inizio",
+          "search-to": "Seleziona la data di fine",
+          "button": "Cerca"
+        },
+        "table": {
+          "order": "Ordine n.",
+          "date": "Data",
+          "premium": "Promozione",
+          "add-days": "Giorni extra",
+          "type": "Tipo di annuncio"
+        }
+      }
+    },
+    "cv": {
+      "title": "Curriculum",
+      "sections": {
+        "personal-details": {
+          "form": {
+            "title": "Dettagli personali:",
+            "first-name": "Nome",
+            "last-name": "Cognome",
+            "email": "Email",
+            "phone": "Telefono",
+            "birthday": "Compleanno",
+            "age": {
+              "label": "Mostra l'età",
+              "options": {
+                "yes": "Sì",
+                "no": "No",
+                "only-birthdate": "Solo la data di nascita"
+              }
+            },
+            "gender": {
+              "label": "Genere",
+              "options": {
+                "male": "Maschile",
+                "female": "Femminile",
+                "dont–show": "Non mostrare"
+              }
+            },
+            "about-me": "In cosa ti distingui?"
+          }
+        },
+        "education": {
+          "title": "Istruzione",
+          "accordion": {
+            "school": "Nome della scuola",
+            "country": "Nazione",
+            "from-date": "Dalla data",
+            "to-date": "Alla  data",
+            "study-area": "Ambito di studio",
+            "qualification": {
+              "title": "Qualifica",
+              "options": {
+                "primary": "Primaria",
+                "secondary": "Secondaria",
+                "vocational": "Professionale",
+                "bachelors": "Diplomi",
+                "master": "Master",
+                "doctorate": "Laurea",
+                "other": "Altro"
+              }
+            },
+            "best-fit": "Adeguatezza alla professione",
+            "grade": "Media dei voti",
+            "button-add": "Aggiungi istruzione"
+          }
+        },
+        "expierience": {
+          "title": "Esperienza di lavoro",
+
+          "company-name": "Nome azienda",
+          "from-date": "Dalla data",
+          "to-date": "Alla data",
+          "work-area": "Area d'impiego",
+          "position": "Posizione",
+          "position-description": "Descrizione della posizione",
+          "sector": "Settore d'impiego",
+          "seniority": {
+            "title": "Anzianità",
+            "options": {
+              "volunteer": "Volontario",
+              "intern": "Stagista",
+              "junior": "Junior",
+              "intermediate": "Intermedio",
+              "senior": "Senior",
+              "executive": "Dirigente",
+              "ceo": "CEO",
+              "other": "Altro"
+            }
+          },
+
+          "button-add": "Aggiungi esperienza"
+        },
+        "languages": {
+          "title": "Competenze linguistiche",
+          "accordion": {
+            "language": "Lingue",
+            "certificate": "Denominazione del Diploma",
+            "level": {
+              "label": "Livello",
+              "options": {
+                "a1": "A1",
+                "a2": "A2",
+                "b1": "B1",
+                "b2": "B2",
+                "c1": "C1",
+                "c2": "C2",
+                "native": "Madrelingua"
+              }
+            },
+            "button-add": "Aggiungi competenze"
+          }
+        },
+        "computer": {
+          "title": "Competenze informatiche",
+          "accordion": {
+            "skill-name": "Competenza informatica",
+            "knowladge-gained": {
+              "label": "Conoscenza acquisita",
+              "options": {
+                "selfTaught": "Autodidatta",
+                "course": "Corso",
+                "freelance": "Freelance",
+                "contractProject": "Contratto a progetto",
+                "fullTimeJob": "Impiego a tempo pieno",
+                "other": "Altro"
+              }
+            },
+            "expierience": {
+              "label": "Esperienza",
+              "uptoOne": "< 1 anno",
+              "oneToThree": "1-3 anni",
+              "threeToFive": "3-5 anni",
+              "fiveToTen": "5-10 anni",
+              "tenToFifteen": "10-15 anni",
+              "moreThanFifteen": "15+ anni"
+            },
+            "certificate": "Denominazione del Diploma",
+            "button-add": "Aggiungi competenze"
+          }
+        },
+        "licenses": {
+          "title": "Patente di guida",
+          "accordion": {
+            "country": "Nazione di emissione",
+            "expierience": {
+              "label": "Esperienza",
+              "uptoOne": "< 1 anno",
+              "oneToThree": "1-3 anni",
+              "threeToFive": "3-5 anni",
+              "fiveToTen": "5-10 anni",
+              "tenToFifteen": "10-15 anni",
+              "moreThanFifteen": "15+ anni"
+            },
+            "category": "Categoria della patente",
+            "button-add": "Aggiungi patente"
+          }
+        },
+        "expectations": {
+          "title": "Aspettative di lavoro",
+          "accordion": {
+            "title": "Aspettative di lavoro",
+            "interest": "Area d'interesse",
+            "position": "Posizione",
+            "seniority": {
+              "title": "Anzianità",
+              "options": {
+                "volunteer": "Volontario",
+                "intern": "Stagista",
+                "junior": "Junior",
+                "intermediate": "Intermedio",
+                "senior": "Senior",
+                "executive": "Dirigente",
+                "ceo": "CEO",
+                "other": "Altro"
+              }
+            },
+            "hourly": "Orario da",
+            "monthly": "Mensilmente da",
+            "yearly": "Annualmente da",
+            "button-add": "Aggiungi aspettative"
+          }
+        }
+      }
+    },
+    "browser-cv": {
+      "browser": "Sfoglia CV",
+      "search": "Cerca",
+      "work-expierience": "Esperienza di lavoro",
+      "work-expectations": "Aspettative di lavoro",
+      "education-fit": "Istruzione appropriata",
+      "salary-hourly": "Stipendio orario fino a",
+      "salary-monthly": "Stipendio mensile fino a",
+      "salary-annual": "Stipendio annuale fino a",
+      "seniority": "Anzianità",
+      "monthly": "/mensile",
+      "result-table": {
+        "nr": "N.",
+        "name": "Nome completo",
+        "email": "Email",
+        "phone": "Telefono",
+        "worked-as": "Ultima posizione",
+        "salary": "Stipendio previsto",
+        "cv": "CV",
+        "view": "Vedi"
+      }
+    },
+    "receipt": {
+      "title": "Cedolini",
+      "start-date": "Data d'inizio",
+      "end-date": "Data di fine",
+      "table": {
+        "reference": "Ordine #",
+        "date": "Data",
+        "purchase": "Piano",
+        "total": "Importo",
+        "status": "Status"
+      }
+    }
+  },
+  "toast": {
+    "succes": "Il profilo è stato aggiornato",
+    "fail": "Il profilo non è stato aggiornato",
+    "avatar": "Avatar aggiornato",
+    "avatar-fail": "Aggiornamento avatar fallito",
+    "avatar-remove": "Avatar rimosso",
+    "avatar-remove-fail": "L'Avatar non è stato rimosso",
+    "logout": "Disconnetti",
+    "password": "La password è stata modificata",
+    "password-fail": "La password non è stata modificata",
+    "item-deleted": "Annuncio rimosso"
+  },
+  "delete-modal": {
+    "header": "Rimuovi l'annuncio",
+    "body": "Sei sicuro di voler rimuovere questo annuncio?",
+    "cancel": "Cancella",
+    "delete": "Elimina"
+  },
+  "delete-account": {
+    "header": "Elimina account",
+    "body": "Sei sicuro di voler eliminare questo account?",
+    "cancel": "Cancella",
+    "delete": "Elimina"
+  }
+}

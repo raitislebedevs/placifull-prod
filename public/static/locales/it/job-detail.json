@@ -1,0 +1,63 @@
+{
+  "header": {
+    "salary-month": "/mese",
+    "buttons": {
+      "apply": "Applica ora",
+      "share": "Condividi lavoro"
+    }
+  },
+  "contact-form": {
+    "heading": "Contatta direttamente l'azienda",
+    "form": {
+      "heading": "Scrivi la tua domanda qui",
+      "fullName": "Nome e Cognome*",
+      "phoneNumber": "Numero di telefono*",
+      "email": "Indirizzo email*",
+      "message": "Il tuo messaggio",
+      "submit": "INVIA MESSAGGIO"
+    }
+  },
+  "about": {
+    "description": "Descrizione",
+    "requirements": "Requisiti",
+    "benefits": "Vantaggi"
+  },
+  "job-overview": {
+    "heading": "Panoramica sul lavoro",
+    "items": {
+      "offered-salary": "Stipendio offerto",
+      "languages": "Lingua",
+      "native": "Nazione di nascita",
+      "industry": "Azienda"
+    },
+    "views": "visualizzazioni",
+    "applicants": "candidati",
+    "salary": {
+      "monthly": "mensile",
+      "annual": "annuale",
+      "hourly": "orario"
+    }
+  },
+
+  "application": {
+    "header": "Ti candidi per",
+    "body": {
+      "proposal": "Stipendio offerto"
+    },
+    "info": "Il tuo CV sarà inviato per l'assunzione*"
+  },
+
+  "extra": {
+    "heading": "Lavori inseriti da questo profilo",
+    "table": {
+      "number": "N.",
+      "country": "Nazione",
+      "full-address": "Indirizzo della sede",
+      "position": "Posizione",
+      "contract": "Tipo di contratto",
+      "time": "Orario di lavoro",
+      "salary": "Stipendio a partire da",
+      "end-date": "Data di fine rapporto"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "contract-type": {
+    "label": "Tipo di contratto",
+    "options": {
+      "temporarly": "A tempo determinato",
+      "fullTime": "A tempo pieno",
+      "partTime": "A tempo parziale",
+      "remoteFullTime": "Da remoto (A tempo pieno)",
+      "remotePartTime": "Da remoto (A tempo parziale)",
+      "other": "Altro"
+    }
+  },
+  "working-time": {
+    "label": "Orario di lavoro",
+    "options": {
+      "officeHours": "Orario d'ufficio",
+      "shifts": "Turni",
+      "flexible": "Flessibile",
+      "other": "Altro"
+    }
+  },
+  "contact-times": {
+    "label": "Orario per essere contattato",
+    "placeholder": "Scegli l'orario preferito per essere contattato",
+    "not-specified": "Non specificato",
+    "options": {
+      "any-time": "A qualunque ora",
+      "working-days": "Giorni lavorativi",
+      "office-hours": "Ore d'ufficio",
+      "specific-times": "A orari determinati "
+    }
+  },
+  "features": {
+    "heading": "Caratteristiche",
+    "licenses": "Patente",
+    "education": "Istruzione/Laurea",
+    "expierience": "Esperienze lavorative",
+    "candiadate": "Il candidato dovrebbe essere in grado di",
+    "weOffer": "Noi offriamo"
+  },
+  "salary": {
+    "heading": "Stipendio",
+    "monthly-from": "Stipendio da",
+    "monthly-to": "Stipendio fino a",
+    "hourly-rate-from": "Paga oraria da",
+    "annual-from": "Stipendio annuale da",
+    "annual-to": "Stipendio annuale fino a",
+    "hourly-rate-to": "Paga oraria fino a"
+  },
+  "work-area": {
+    "label": "Posizioni lavorative",
+    "options": {
+      "intern": "Stagista",
+      "volunteerWork": "Volontario",
+      "stockExchange": "Borsa valori",
+      "administrationAssistance": "Amministrazione/Assistenza",
+      "constructionRealEstate": "Edilizia/Immobili",
+      "humanResources": "Risorse umane",
+      "securityRescue": "Servizi di sicurezza/Soccorso",
+      "military": "Carriera militare",
+      "electronicsTelecomunication": "Elettronica/Telecomunicazioni",
+      "freelanceTemporary": "Freelance/Posizione temporanea",
+      "energyElectricity": "Energia/Elettricità",
+      "pharmacy": "Farmacia",
+      "financeAccounting": "Finanza/Contabilità",
+      "infromationTechnology": "Tecnologia dell'informazione (IT)",
+      "jurisprudenceJustice": "Giurisprudenza/Giustizia",
+      "cultureArtEntertainemnt": "Cultura/Arte/Intrattenimento",
+      "sports": "Sport",
+      "qualityControl": "Controllo di qualità/gestione della qualità",
+      "agricutureEnvironmental": "Agricoltura/Scienze ambientali",
+      "medicineSocialCare": "Medicina/Assistenza sociale",
+      "mediaPublicRelations": "Media/Relazioni pubbliche",
+      "forestryWoodworkingMetalWorking": "Silvicoltura/Lavorazione del legno/Lavorazione dei metalli",
+      "marketingAdvertising": "Marketing/Pubblicità",
+      "productionIndustry": "Produzione/Industria",
+      "seasonalWork": "Lavoro stagionale",
+      "technicalScience": "Scienza tecniche",
+      "services": "Servizi",
+      "transportLogistics": "Trasporto/Logistica",
+      "tourismCateringHotels": "Turismo/Ristorazione/Hotel",
+      "managment": "Gestione",
+      "government": "Governativa",
+      "others": "Altri"
+    }
+  }
+}

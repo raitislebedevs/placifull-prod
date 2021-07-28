@@ -1,0 +1,77 @@
+{
+  "heading": "Invia annuncio",
+  "form": {
+    "submit": "Invia",
+    "submit-confirm": "Salvataggio….",
+    "preview-sneak-peak": "Creazione…...",
+    "preview": "Anteprima",
+    "currency": "Valuta",
+    "no-currency": "TUTTO",
+    "general-information": {
+      "heading": "Informazioni generali",
+      "transport-type": "Tipo del veicolo",
+      "action": "Azione",
+      "condition": "Condizioni",
+      "input-fields": {
+        "description": "Descrizione",
+        "brand": "Marca veicolo",
+        "model": "Modello veicolo",
+        "production-year": "Anno di produzione",
+        "price": "Prezzo",
+        "engine-type": "Tipo di motore",
+        "gear-box": "Cambio",
+        "millage": "Chilometraggio",
+        "speed": "Velocità max",
+        "fueal-economy": "Risparmio di carburante",
+        "seats": "Numero di posti",
+        "doors": "Numero di porte",
+        "name": "Nome dell'annuncio del veicolo"
+      }
+    },
+    "detail-information": {
+      "heading": "Informazioni dettagliate",
+      "contact": {
+        "heading": "Contatto",
+        "email": "Email",
+        "address": "Indirizzo",
+        "contact-times": {
+          "label": "Orario di contatto",
+          "placeholder": "Scegli l'orario preferito per essere contattato",
+          "options": {
+            "any-time": "In qualsiasi momento",
+            "working-days": "Giorni lavorativi",
+            "office-hours": "Orario d'ufficio",
+            "specific-times": "A orari specifici"
+          }
+        },
+        "listing-website": "Sito web: https://"
+      },
+      "features": {
+        "heading": "Caratteristiche",
+        "category": {
+          "equipment": "Equipaggiamento",
+          "interior": "Interni",
+          "steering-wheel": "Volante",
+          "seats": "Sedili",
+          "lights": "Fari",
+          "audio-video": "Audio/Video",
+          "mirrros": "Specchietti"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "Galleria",
+      "click-drop": "Clicca o trascina le immagini qui",
+      "video-url": "Video url: https://"
+    },
+    "contact-hours": {
+      "heading": "Orari di contatto",
+      "heading-tip": "Opzionale",
+      "accordion": {
+        "heading": "Aggiungi l'ora più adatta per l'incontro/conversazione...",
+        "start-time": "Dalle",
+        "end-time": "Alle"
+      }
+    }
+  }
+}

@@ -70,7 +70,12 @@
     "already": "Déjà abonné/ E-mail invalide",
     "country-error": "Erreur non spécifiée dans la saisie du pays",
     "location-error": "Impossible de retrouver les emplacements",
-    "unknown-error": "Erreur de serveur inconnue"
+    "unknown-error": "Erreur de serveur inconnue",
+    "search-results": {
+      "found": "Trouvé",
+      "items": "éléments"
+    },
+    "not-found": "N'a pas trouvé de nouveaux résultats"
   },
 
   "location": {
@@ -123,5 +128,6 @@
   "user-box": {
     "profile": "Profil ",
     "log-out": "Déconnexion "
-  }
+  },
+  "preview-close": "Fermer Aperçu"
 }

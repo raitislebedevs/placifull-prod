@@ -1,0 +1,64 @@
+{
+  "title": "Ricerca di annunci immobiliari",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "Prezzo min.",
+        "max-price": "Prezzo Max.",
+        "min-rooms": "Camere min.",
+        "max-rooms": "Camere max.",
+        "min-area": "Superficie min.",
+        "max-area": "Superficie min.",
+        "move-in-date": "Data di arrivo",
+        "move-out-date": "Data di partenza",
+        "currency": "Valuta"
+      },
+
+      "submit": "Cerca ora",
+      "accordion": "RICERCA AVANZATA",
+      "accordion-right": {
+        "utility-label": "Media costo utenze",
+        "utility": {
+          "from-price": "Da: 0,00",
+          "to-price": "A: 9,999,999,999"
+        },
+        "year-label": "Anno di costruzione",
+        "built": {
+          "from-year": "Dal: 1000",
+          "to-year": "Al: 9999"
+        },
+        "measurement-label": "Misurazione",
+        "system": {
+          "none": "Nessuna",
+          "metric": "Sistema Metrico decimale (metri)",
+          "imperial": "Sistema Imperiale (piedi)"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Ordina per",
+        "options": {
+          "price": "Prezzo",
+          "area": "Dimensione",
+          "rooms": "Camere",
+          "street-name": "Nome della via",
+          "popularity": "Popolarità",
+          "views": "Visualizzazioni",
+          "country": "Nazione",
+          "insert-date": "Data inserimento"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "Dal blog",
+    "see-more": "Leggi di più"
+  },
+  "error": {
+    "tags": "Si prega di contattarci indicando: 'Nessun tag trovato'"
+  },
+  "no-tags": "Nessuna caratteristica per questa opzione"
+}

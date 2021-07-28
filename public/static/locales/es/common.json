@@ -70,7 +70,12 @@
     "already": "Ya estás inscrito/ correo electrónico no válido",
     "country-error": "Error no especificado de información de país",
     "location-error": "No se ha podido obtener las ubicaciones",
-    "unknown-error": "Error de servidor desconocido"
+    "unknown-error": "Error de servidor desconocido",
+    "search-results": {
+      "found": "Encontrado",
+      "items": "Elementos"
+    },
+    "not-found": "No se encontraron nuevos resultados."
   },
 
   "location": {
@@ -123,5 +128,6 @@
   "user-box": {
     "profile": "Perfil",
     "log-out": "Cerrar sesión"
-  }
+  },
+  "preview-close": "Cerrar vista previa"
 }

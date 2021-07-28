@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "Categoria",
+    "options": {
+      "houses": "Casa",
+      "apartments": "Appartamento",
+      "land": "Terreno",
+      "farmhouse": "Casale",
+      "commercial": "Commerciale",
+      "exclusive": "Esclusivo",
+      "offices": "Ufficio",
+      "agents": "Agenzia immobiliare"
+    }
+  },
+  "action": {
+    "label": "Azione",
+    "options": {
+      "sell": "Vendi",
+      "rent": "Affitta",
+      "exchange": "Scambia"
+    }
+  },
+  "condition": {
+    "label": "Condizioni",
+    "label-land": "Tipo di proprietà",
+    "options": {
+      "brandNew": "Nuova",
+      "goodCondition": "Buone condizioni",
+      "medium": "Medie",
+      "requiresFixing": "Necessita di ristrutturazione",
+      "requiresConstruction": "Da costruire",
+      "residential": "Residenziale",
+      "comercial": "Commerciale",
+      "industrial": "Industriale",
+      "agricultural": "Agricola"
+    }
+  },
+  "contact-times": {
+    "label": "Orario di contatto",
+    "options": {
+      "anyTime": "A qualunque ora",
+      "workingDays": "Giorni lavorativi",
+      "officeHours": "Ore d'ufficio",
+      "specificTimes": "A orari specifici"
+    }
+  },
+  "features": {
+    "heading": "Caratteristiche",
+    "category": {
+      "kitchen": "Cucina",
+      "bathroom": "Bagno",
+      "living-room": "Soggiorno",
+      "bedroom": "Camera da letto",
+      "housing-extras": "Altri extra",
+      "land-type": "Tipo di terreno",
+      "buildingLand": "Area edificabile per",
+      "forest-properties": "Proprietà boschive",
+      "agriculture-properties": "Proprietà agricole"
+    }
+  },
+  "utilities": {
+    "heading": "Utenze",
+    "total": "Totale",
+    "items": {
+      "coldWater": "Acqua fredda",
+      "hotWater": "Acqua calda",
+      "electricity": "Elettricità",
+      "garbage": "Rifiuti",
+      "propertyManagement": "Spese di gestione",
+      "heating": "Riscaldamento",
+      "parking": "Parcheggio",
+      "others": "Altre"
+    }
+  }
+}

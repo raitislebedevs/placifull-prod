@@ -1,0 +1,15 @@
+{
+  "internal-error": "Errore sconosciuto dal server. Si prega di riprovare più tardi.",
+  "connection-error": "Impossibile connettersi al server. Si prega di riprovare più tardi.",
+  "server-not-reached": "È così imbarazzante! Non è possibile raggiungere il server. Per favore, contattaci o riprova più tardi.",
+  "Auth": {
+    "form": {
+      "error": {
+        "invalid": "E-mail o password non valida.",
+        "user": {
+          "not-exist": "L'utente con questa email è inesistente."
+        }
+      }
+    }
+  }
+}

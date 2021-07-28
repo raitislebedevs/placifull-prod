@@ -1,0 +1,56 @@
+{
+  "job-card": {
+    "location": "Luogo",
+    "salary": "Stipendio",
+    "button": "Vedi in dettaglio",
+    "contract-type": {
+      "label": "Tipo di contratto",
+      "options": {
+        "temporarly": "Tempo determinato",
+        "fullTime": "Tempo pieno",
+        "partTime": "Tempo parziale",
+        "remoteFullTime": "Remoto (Tempo pieno)",
+        "remotePartTime": "Remoto (Tempo parziale)",
+        "other": "Altro"
+      }
+    },
+    "working-schedule": {
+      "label": "Calendario di lavoro",
+      "options": {
+        "officeHours": "Orario d'ufficio",
+        "shifts": "Turni",
+        "flexible": "Flessibile",
+        "other": "Altro"
+      }
+    }
+  },
+
+  "transport-card": {
+    "gear-box": {
+      "label": "Cambio",
+      "options": {
+        "manual": "Manuale",
+        "automatic": "Automatico",
+        "other": "Altro"
+      }
+    }
+  },
+
+  "real-estate-card": {
+    "location": "Luogo",
+    "working-schedule": "Calendario di lavoro",
+    "salary": "Stipendio",
+    "contract-type": "Tipo di contratto",
+    "button": "Vedi in dettaglio"
+  },
+
+  "action": {
+    "label": "Azione",
+    "options": {
+      "sell": "Vendi",
+      "rent": "Noleggia",
+      "exchange": "Scambia",
+      "forParts": "Per ricambi"
+    }
+  }
+}

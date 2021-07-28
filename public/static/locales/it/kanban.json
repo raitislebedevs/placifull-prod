@@ -1,0 +1,41 @@
+{
+  "kanban": {
+    "save": "Salva scheda",
+    "saving": "Salvataggio…..",
+    "salary": {
+      "hour": "/ora",
+      "month": "/mese",
+      "year": "/anno"
+    },
+    "job-overview": {
+      "title": "Colloquio di lavoro",
+      "industry": "Azienda",
+      "languages-en": "Lingue (EN)",
+      "native": "Lingua madre",
+      "contract-type": "Tipo di contratto",
+      "working-time": "Orario di lavoro",
+      "expiry-date": "Data di scadenza"
+    },
+    "statistics": {
+      "title": "Statistiche",
+      "applicants": "Candidati",
+      "interviewed": "Intervistati",
+      "processing": "Elaborati",
+      "reviewed": "Recensiti",
+      "shortlisted": "Selezionati",
+      "hired": "Assunti"
+    },
+    "columns": {
+      "applicants": "Candidati registrati",
+      "reviewed": "Candidature recensite",
+      "shortlisted": "Selezionati",
+      "interviewed": "Candidati intervistati",
+      "pending": "In attesa di accettazione",
+      "accepted": "Candidati assunti",
+      "column-name": "Nuova colonna",
+      "edit": "Modifica"
+    },
+    "view-cv": "Vedi CV",
+    "remove": "Rimuovi"
+  }
+}

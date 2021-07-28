@@ -1,3 +1,6 @@
 {
-  "found": "404 - Pagina non trovata"
+  "found": "404 - Pagina non trovata",
+  "main-text": "Non è stato possibile raggiungere la pagina specificata!",
+  "sub-text": "Questa pagina non è stata trovata. Potresti aver digitato male l'indirizzo o la pagina potrebbe essere stata spostata o non esiste.",
+  "navigation": "Vai alla Pagina Iniziale"
 }

@@ -1,0 +1,35 @@
+{
+  "main": {
+    "success": "Il pagamento è andato a buon fine.",
+    "plan_update": "Non abbiamo potuto aggiornare il tuo piano.",
+    "card_not": "Non è stato effettuato l'addebito sulla tua carta",
+    "pay": "Paga €",
+    "processing": "In elaborazione….."
+  },
+  "placeholders": {
+    "name": "Jane Doe",
+    "email": "janedoe@placifull.com",
+    "phone": "(941) 555-7777"
+  },
+  "incomplete": {
+    "incomplete_cvc": "Il codice di sicurezza della tua carta è incompleto.",
+    "incomplete_expiry": "La data di scadenza della tua carta è incompleta.",
+    "incomplete_number": "Il numero della tua carta è incompleto."
+  },
+
+  "declined": {
+    "card_declined": "La tua carta è stata rifiutata"
+  },
+  "checkout": {
+    "billing": "Si prega di compilare i dati di fatturazione",
+    "card-details": "Si prega di fornire informazioni sulla carta",
+    "cancel": "Cancella"
+  },
+  "labels": {
+    "plan": "Piano",
+    "quantity": "Qtà",
+    "name": "Nome",
+    "email": "Email",
+    "phone": "N. di telefono"
+  }
+}

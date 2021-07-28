@@ -1,0 +1,16 @@
+{
+  "job-apply": {
+    "heading": "Sei sicuro di volerti candidare per:",
+    "proposed-salary": "Stipendio che ti aspetti di ricevere",
+    "close": "Chiudi",
+    "apply": "Applica",
+    "applying": "In elaborazione….",
+    "toast": {
+      "success": "Congratulazioni, ti sei candidato!",
+      "log-in": "Devi aver effettuato il login.",
+      "applied": "Ti sei già candidato",
+      "cv": "Ti preghiamo di aggiornare il tuo CV",
+      "just": "Hey, ti sei appena candidato :)"
+    }
+  }
+}

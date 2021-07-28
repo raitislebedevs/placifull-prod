@@ -1,0 +1,63 @@
+{
+  "header": {
+    "flag-button": "CONTRASSEGNA QUESTO CONTENUTO"
+  },
+  "detail-info": {
+    "button": "VOGLIO TRASFERIRMI ORA"
+  },
+  "contact-times": {
+    "heading": "Orari di contatto preferiti"
+  },
+
+  "promoted": "In promozione",
+
+  "about": {
+    "heading": "A riguardo",
+    "featured": "In promozione",
+    "notFeatured": "Non in promozione",
+    "rentTime": "per mese",
+    "inputTimeDays": "giorni fa"
+  },
+
+  "general-info": {
+    "heading": "Informazioni generali",
+    "brand": "Marca del veicolo",
+    "model": "Modello del veicolo",
+    "year": "Anno",
+    "price": "Prezzo",
+    "distance": "Chilometraggio",
+    "max-speed": "Velocità max.",
+    "fuel-economy": "Risparmio di carburante",
+    "seats": "Sedili",
+    "doors": "N. di porte",
+    "bid-price": "Fai un'offerta per il veicolo",
+    "submit": "Fai un'offerta",
+    "bid-placeholder": "Fai un'offerta con il 20% di margine"
+  },
+  "features": {
+    "heading": "Caratteristiche"
+  },
+  "contact-form": {
+    "not-specified": "Non specificato",
+    "heading": "Contatta direttamente il proprietario",
+    "form": {
+      "heading": "Scrivi la tua domanda qui",
+      "fullName": "Nome completo*",
+      "phoneNumber": "Numero di telefono*",
+      "email": "Indirizzo email*",
+      "message": "Il tuo messaggio*",
+      "submit": "INVIA MESSAGGIO"
+    }
+  },
+  "extra": {
+    "heading": "Altre inserzioni di veicoli di questo profilo",
+    "table": {
+      "number": "N.",
+      "country": "Nazione",
+      "brand-model": "Modello/Marca",
+      "price": "Prezzo",
+      "condition": "Condizioni",
+      "production-year": "Anno"
+    }
+  }
+}

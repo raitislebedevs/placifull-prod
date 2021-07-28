@@ -1,0 +1,61 @@
+{
+  "form": {
+    "currency": "Valuta",
+    "no-currency": "TUTTE",
+    "languages": {
+      "native": "Lingua madre",
+      "english": "Lingue in inglese"
+    },
+    "submit": "Cerca ora",
+    "accordion": {
+      "label": "RICERCA AVANZATA",
+      "searchFilter": {
+        "heading": "Caratteristiche",
+        "licenses": "Patente",
+        "education": "Istruzione/Diploma",
+        "expierience": "Esperienze passate",
+        "candiadate": "Il candidato è in grado di",
+        "benefits": "Benefits"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "Tariffa oraria",
+        "items": {
+          "from": "Da: 0",
+          "to": "A: 999,999"
+        }
+      },
+      "monthly-salary": {
+        "label": "Stipendio mensile",
+        "items": {
+          "from": "Da: 0",
+          "to": "A: 999,999,999"
+        }
+      },
+      "yearly-salary": {
+        "label": "Stipendio annuale",
+        "items": {
+          "from": "Da: 0",
+          "to": "A: 99,999,999,999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Ordina per",
+        "options": {
+          "monthly-salary": "Stipendio mensile",
+          "annual-salary": "Stipendio annuale",
+          "hourly-salary": "Tariffa oraria",
+          "popularity": "Popolarità",
+          "views": "Visualizzazioni",
+          "country": "Nazione ",
+          "insert-date": "Inserisci data"
+        }
+      }
+    }
+  }
+}

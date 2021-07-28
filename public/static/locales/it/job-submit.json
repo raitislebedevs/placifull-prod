@@ -1,0 +1,55 @@
+{
+  "heading": "Invia annuncio",
+  "form": {
+    "submit-confirm": "Salvataggio....",
+    "preview-sneak-peak": "Creazione….....",
+    "preview": "Anteprima",
+    "no-currency": "Valuta",
+    "no-features": "Si prega di selezionare una categoria di annunci",
+    "job-title": {
+      "title": "Titolo della posizione",
+      "placeholder": "Nome della posizione "
+    },
+    "company": "Denominazione azienda",
+    "submit": "INVIA",
+    "general-information": {
+      "heading": "Informazioni generali",
+      "input-fields": {
+        "description": "Descrizione della posizione",
+        "requirements": "Requisiti per la posizione",
+        "beneftis": "Benefits della posizione"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "Informazioni di contatto",
+        "detail-requirements": "Requisiti dettagliati"
+      },
+      "contact": {
+        "heading": "Contatti",
+        "email": "Email",
+        "phone": "Numero di telefono",
+        "address": "Indirizzo",
+        "listing-website": "Sito: https://"
+      }
+    },
+    "gallery": {
+      "heading": "Logo aziendale",
+      "click-drop": "CLICCA O TRASCINA QUI IL LOGO",
+      "video-url": "Video url: https://"
+    },
+    "contact-hours": {
+      "heading": "Orario di lavoro",
+      "heading-tip": "Opzionale",
+      "accordion": {
+        "heading": "Orari in cui il dipendente sarebbe tenuto a lavorare...",
+        "start-time": "Il lavoro inizia alle",
+        "end-time": "Il lavoro termina alle"
+      }
+    },
+    "input-languages": {
+      "label": "Conoscenza richiesta della lingua. (Inglese)",
+      "labelNative": "Conoscenza richiesta della lingua. (Madrelingua)"
+    }
+  }
+}
