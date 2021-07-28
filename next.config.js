@@ -8,7 +8,7 @@ module.exports = withImages({
     API_SUFFIX: process.env.API_SUFFIX,
   },
   future: {
-    webpack5: true,
+    webpack4: true,
     },
   rewrites: async () =>
     nextI18NextRewrites({
