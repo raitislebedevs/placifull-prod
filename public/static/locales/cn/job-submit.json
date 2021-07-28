@@ -1,0 +1,55 @@
+{
+  "heading": "提交列表",
+  "form": {
+    "submit-confirm": "保存中...",
+    "preview-sneak-peak": "生成中...",
+    "preview": "预览",
+    "no-currency": "货币",
+    "no-features": "请选择一个列表类别",
+    "job-title": {
+      "title": "职位名称",
+      "placeholder": "职位名称，例如：Placifull赞助人"
+    },
+    "company": "公司名字",
+    "submit": "提交",
+    "general-information": {
+      "heading": "基本信息",
+      "input-fields": {
+        "description": "职位描述",
+        "requirements": "职位要求",
+        "beneftis": "职位福利"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "联系信息",
+        "detail-requirements": "详细要求"
+      },
+      "contact": {
+        "heading": "联系我们",
+        "email": "电子邮件",
+        "phone": "电话",
+        "address": "地址",
+        "listing-website": "网站: https://"
+      }
+    },
+    "gallery": {
+      "heading": "公司标志",
+      "click-drop": "点击或拖动标志到这里",
+      "video-url": "视频网址: https://"
+    },
+    "contact-hours": {
+      "heading": "办公时间",
+      "heading-tip": "选择性",
+      "accordion": {
+        "heading": "员工需要工作的时间...",
+        "start-time": "工作开始于",
+        "end-time": "工作结束于"
+      }
+    },
+    "input-languages": {
+      "label": "需要了解的语言。 (英语)",
+      "labelNative": "需要了解的语言。 (母语)"
+    }
+  }
+}

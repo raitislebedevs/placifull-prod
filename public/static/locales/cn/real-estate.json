@@ -1,0 +1,64 @@
+{
+  "title": "搜索房地产列表",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "最低价格",
+        "max-price": "最高价格",
+        "min-rooms": "最低房间数量",
+        "max-rooms": "最高房间数量",
+        "min-area": "最小面积",
+        "max-area": "最大面积",
+        "move-in-date": "迁入日期",
+        "move-out-date": "迁出日期",
+        "currency": "货币"
+      },
+
+      "submit": "现在搜索",
+      "accordion": "进阶搜索",
+      "accordion-right": {
+        "utility-label": "物业账单范围",
+        "utility": {
+          "from-price": "从: 0.00",
+          "to-price": "至: 9,999,999,999"
+        },
+        "year-label": "建成年份",
+        "built": {
+          "from-year": "从: 1000",
+          "to-year": "至: 9999"
+        },
+        "measurement-label": "测量",
+        "system": {
+          "none": "无",
+          "metric": "公制 米",
+          "imperial": "英制 英尺"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "排序",
+        "options": {
+          "price": "价格",
+          "area": "地区",
+          "rooms": "房间",
+          "street-name": "街道名称",
+          "popularity": "知名度",
+          "views": "查看过",
+          "country": "国家",
+          "insert-date": "添加日期"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "来自博客",
+    "see-more": "查阅更多"
+  },
+  "error": {
+    "tags": "请联系我们说：'没有发现标签'"
+  },
+  "no-tags": "该选项没有任何功能"
+}

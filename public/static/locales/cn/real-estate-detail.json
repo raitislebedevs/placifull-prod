@@ -1,0 +1,58 @@
+{
+  "header": {
+    "flag-button": "标记此内容"
+  },
+  "detail-info": {
+    "button": "我想现在就搬进去"
+  },
+  "contact-times": {
+    "heading": "适合的联系时间"
+  },
+  "about": {
+    "heading": "关于",
+    "featured": "已推广",
+    "notFeatured": "未推广",
+    "rentTime": "每月",
+    "inputTimeDays": "天前"
+  },
+
+  "general-info": {
+    "heading": "基本信息",
+    "property-area": "物业面积",
+    "rooms": "房间",
+    "year-built": "建成年份",
+    "price": "价格",
+    "total-ultilities": "总公共设施",
+    "move-in": "迁入日期",
+    "move-out": "迁出日期",
+    "min-time": "最短期限",
+    "bid-price": "财产的投标价格",
+    "submit": "出价",
+    "bid-placeholder": "以20％的保证金出价"
+  },
+
+  "contact-form": {
+    "heading": "直接联系业主",
+    "form": {
+      "heading": "在此处写下您的问题",
+      "fullName": "全名*",
+      "phoneNumber": "电话号码*",
+      "email": "电子邮件地址*",
+      "message": "您的信息*",
+      "submit": "发送信息"
+    }
+  },
+  "extra": {
+    "heading": "该个人账号所列出的其他物品",
+    "table": {
+      "number": "号码",
+      "country": "国家",
+      "full-address": "完整地址",
+      "property-type": "物业类型",
+      "price": "价格",
+      "area": "面积",
+      "bed-rooms": "房间",
+      "year-built": "建成年份"
+    }
+  }
+}

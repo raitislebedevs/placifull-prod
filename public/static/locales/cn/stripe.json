@@ -1,0 +1,35 @@
+{
+  "main": {
+    "success": "支付成功。",
+    "plan_update": "我们无法更新您的配套。",
+    "card_not": "银行卡没有被收费。",
+    "pay": "支付€ ",
+    "processing": "处理中..."
+  },
+  "placeholders": {
+    "name": "Jane Doe",
+    "email": "janedoe@placifull.com",
+    "phone": "(941) 555-7777"
+  },
+  "incomplete": {
+    "incomplete_cvc": "您的银行卡的安全代码不完整。",
+    "incomplete_expiry": "您的银行卡的到期日不完整。",
+    "incomplete_number": "您的银行卡号不完整。"
+  },
+
+  "declined": {
+    "card_declined": "您的银行卡已被拒绝"
+  },
+  "checkout": {
+    "billing": "请填写帐单信息",
+    "card-details": "请提供银行卡信息",
+    "cancel": "取消"
+  },
+  "labels": {
+    "plan": "配套",
+    "quantity": "数量",
+    "name": "名字",
+    "email": "电子邮件",
+    "phone": "电话号码"
+  }
+}

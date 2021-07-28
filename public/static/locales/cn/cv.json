@@ -1,0 +1,60 @@
+{
+  "labels": {
+    "about-me": "关于我",
+    "languages": "语言",
+    "computer-skills": "电脑技术",
+    "education": "教育",
+    "expierience": "工作经验",
+    "licenses": "交通执照",
+    "expectations": "工作期待",
+    "certification": "证书"
+  },
+  "gender": {
+    "label": "性别",
+    "male": "男性",
+    "women": "女性"
+  },
+  "expierience": {
+    "label": "经验",
+    "uptoOne": "< 1 年",
+    "oneToThree": "1-3 年",
+    "threeToFive": "3-5 年",
+    "fiveToTen": "5-10 年",
+    "tenToFifteen": "10-15 年",
+    "moreThanFifteen": "15+ 年"
+  },
+
+  "knowladge-gained": {
+    "selfTaught": "自学",
+    "course": "课程",
+    "freelance": "自由职业者",
+    "contractProject": "合同项目",
+    "fullTimeJob": "全职工作",
+    "other": "其他"
+  },
+  "qualification": {
+    "primary": "小学",
+    "secondary": "中学",
+    "vocational": "职业教育",
+    "bachelors": "学士学位",
+    "master": "硕士",
+    "doctorate": "博士",
+    "other": "其他"
+  },
+
+  "seniority": {
+    "title": "资历",
+    "volunteer": "志愿者",
+    "intern": "实习生",
+    "junior": "初级",
+    "intermediate": "中级",
+    "senior": "高级",
+    "executive": "行政部门",
+    "ceo": "首席执行官",
+    "other": "其他"
+  },
+
+  "avarage-grade": "平均成绩",
+  "present": "目前",
+  "license-category": "许可证类别"
+}

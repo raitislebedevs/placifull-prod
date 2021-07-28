@@ -1,0 +1,56 @@
+{
+  "job-card": {
+    "location": "工作地点",
+    "salary": "工资",
+    "button": "查看详情",
+    "contract-type": {
+      "label": "合同类型",
+      "options": {
+        "temporarly": "暂时性的",
+        "fullTime": "全职",
+        "partTime": "兼职",
+        "remoteFullTime": "远程（全职）",
+        "remotePartTime": "远程（兼职）",
+        "other": "其他"
+      }
+    },
+    "working-schedule": {
+      "label": "工作时间",
+      "options": {
+        "officeHours": "办公时间",
+        "shifts": "轮班",
+        "flexible": "自由",
+        "other": "其他"
+      }
+    }
+  },
+
+  "transport-card": {
+    "gear-box": {
+      "label": "齿轮箱",
+      "options": {
+        "manual": "手动",
+        "automatic": "自动",
+        "other": "其他"
+      }
+    }
+  },
+
+  "real-estate-card": {
+    "location": "地点",
+    "working-schedule": "工作时间",
+    "salary": "工资",
+    "contract-type": "合同类型",
+    "button": "查看详情"
+  },
+
+  "action": {
+    "label": "行动",
+    "options": {
+      "sell": "出售",
+      "rent": "出租",
+      "exchange": "交换",
+      "forParts": "用于零件"
+    }
+  }
+}

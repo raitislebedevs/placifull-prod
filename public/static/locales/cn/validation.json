@@ -1,0 +1,86 @@
+{
+  "common": {
+    "name": "列表名称是必填项。",
+    "currency": {
+      "required": "货币是必填项。"
+    },
+
+    "category": "类别是必填项。",
+    "action": "行动是必填项。",
+    "condition": "状况是必填项。",
+
+    "country": "国家是必填项。",
+    "city": "考虑城市",
+    "description": {
+      "minLength": "描述必须是20个字符的长度。",
+      "maxLength": "描述不能超过1000个字符。",
+      "required": "描述是必填项。"
+    },
+
+    "gallery": "描述是必选项。",
+
+    "price": {
+      "minLength": "价格必须大于0。",
+      "maxLength": "价格不能超过999,999,999,999.00",
+      "required": "价格是必填项。"
+    },
+    "phone": {
+      "minLength": "电话号码必须包含6位数字。",
+      "maxLength": "电话号码不能超过20位数。",
+      "required": "电话号码是必填项。"
+    },
+    "email": {
+      "valid": "请提供一个有效的电子邮件",
+      "required": "电子邮件是必填项。"
+    },
+    "contact": {
+      "required": "联系时间是必填项。"
+    }
+  },
+
+  "real-estate": {
+    "address": {
+      "mapPoint": "请在地图上标记地址",
+      "address": "房源地址是必填项。"
+    },
+    "rooms": "房间数量是必填项。",
+    "area": "房产面积是必填项。",
+    "baths": "浴室数量是必填项。"
+  },
+
+  "transport": {
+    "type": "交通类型是必填项。",
+    "brand": {
+      "minLength": "品牌名必须是0以上的字符长度。",
+      "maxLength": "品牌名不能超过n个字符。",
+      "required": "品牌名是必填项。"
+    },
+
+    "model": {
+      "minLength": "模型名称必须是0以上的字符长度。",
+      "maxLength": "模型名称不能超过n个字符。",
+      "required": "模型名称是必填项。"
+    },
+    "address": {
+      "mapPoint": "地图上需要有会面的地方",
+      "address": "会面的地址是必填项。"
+    },
+    "engine": "引擎类型是必填项。",
+    "gear": "齿轮箱是必填项。"
+  },
+
+  "job": {
+    "address": {
+      "mapPoint": "地图中需要有办公点",
+      "address": "办公室地址是必填项。"
+    },
+    "gallery": "公司标志是必填项",
+    "monthly-from": "月薪（从）是必填项",
+    "monthly-to": "月薪（至）是必填项",
+    "logo-size": "尺寸大于5MB"
+  },
+  "email": {
+    "full-name": "请提供您的名字。",
+    "message": "信息是必填项。 "
+  }
+}

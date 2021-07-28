@@ -1,0 +1,16 @@
+{
+  "job-apply": {
+    "heading": "您确定您要申请：",
+    "proposed-salary": "预期工资",
+    "close": "关闭",
+    "apply": "申请",
+    "applying": "处理中....",
+    "toast": {
+      "success": "恭喜您，您已经申请了!",
+      "log-in": "您必须登录。",
+      "applied": "您已申请了。",
+      "cv": "请更新您的简历",
+      "just": "嘿，您刚刚申请了 :)"
+    }
+  }
+}

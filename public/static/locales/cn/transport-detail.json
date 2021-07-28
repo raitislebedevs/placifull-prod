@@ -1,0 +1,63 @@
+{
+  "header": {
+    "flag-button": "标记此内容"
+  },
+  "detail-info": {
+    "button": "我想现在就搬进去"
+  },
+  "contact-times": {
+    "heading": "最好的联系时间"
+  },
+
+  "promoted": "已推广",
+
+  "about": {
+    "heading": "关于",
+    "featured": "已推广",
+    "notFeatured": "未推广",
+    "rentTime": "每月",
+    "inputTimeDays": "天前"
+  },
+
+  "general-info": {
+    "heading": "基本信息",
+    "brand": "交通品牌",
+    "model": "交通型号",
+    "year": "年份",
+    "price": "价格",
+    "distance": "距离",
+    "max-speed": "最大速度",
+    "fuel-economy": "燃油效率",
+    "seats": "座位数",
+    "doors": "车门",
+    "bid-price": "交通的投标价格",
+    "submit": "投标价",
+    "bid-placeholder": "以20％的保证金出价"
+  },
+  "features": {
+    "heading": "特点"
+  },
+  "contact-form": {
+    "not-specified": "未说明",
+    "heading": "直接联系业主",
+    "form": {
+      "heading": "在此处写下您的问题",
+      "fullName": "全名*",
+      "phoneNumber": "电话号码*",
+      "email": "电子邮件地址*",
+      "message": "您的信息*",
+      "submit": "发送信息"
+    }
+  },
+  "extra": {
+    "heading": "该个人账号所列出的其他交通",
+    "table": {
+      "number": "号码",
+      "country": "国家",
+      "brand-model": "型号/品牌",
+      "price": "价格",
+      "condition": "状况",
+      "production-year": "年份"
+    }
+  }
+}

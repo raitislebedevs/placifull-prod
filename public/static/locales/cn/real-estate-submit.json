@@ -1,0 +1,53 @@
+{
+  "heading": "提交列表",
+  "form": {
+    "submit": "提交",
+    "submit-confirm": "保存中...",
+    "preview-sneak-peak": "生成中...",
+    "preview": "预览",
+    "no-currency": "全部",
+    "no-features": "请选择一个列表类别",
+    "general-information": {
+      "heading": "基本信息",
+      "currency-input": "货币",
+      "input-fields": {
+        "name": "您的列表名字",
+        "description": "描述",
+        "price": "价格",
+        "bed-rooms": "卧室",
+        "bath-rooms": "浴室",
+        "area": "房产面积",
+        "start-renting": "开始租房",
+        "end-renting": "终止租房",
+        "year-built": "建成年份"
+      }
+    },
+    "detail-information": {
+      "heading": "详细资料",
+      "contact": {
+        "heading": "联络",
+        "email": "电子邮件",
+        "address": "地址",
+        "contact-times": {
+          "label": "联系时间",
+          "placeholder": "选择适合的时间"
+        },
+        "listing-website": "网址 : https://"
+      }
+    },
+    "gallery": {
+      "real-estate": "图库",
+      "click-drop": "点击或拖动图片至此",
+      "video-url": "视频 https://"
+    },
+    "contact-hours": {
+      "heading": "联系时间",
+      "heading-tip": "选择性",
+      "accordion": {
+        "heading": "添加最合适的见面/对话时间...",
+        "start-time": "从",
+        "end-time": "至"
+      }
+    }
+  }
+}

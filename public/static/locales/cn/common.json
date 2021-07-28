@@ -1,0 +1,133 @@
+{
+  "elements": {
+    "loading": "加载中...",
+    "loading-right": "加载中...",
+    "loading-left": "加载中...",
+    "no-results": "未发现结果"
+  },
+  "user": {
+    "name": "名字",
+    "first-name": "名",
+    "last-name": "姓氏",
+    "email": {
+      "email-upper": "电邮",
+      "email-lower": "电邮",
+      "your-email": "您的电邮"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "今天",
+    "yesterday": "昨天",
+    "days-ago": "几天前"
+  },
+
+  "social-links": {
+    "heading": "社交链接",
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
+  },
+
+  "social": {
+    "heading": "社交链接",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "youtube": "Youtube",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram"
+  },
+
+  "week-days": {
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六",
+    "sunday": "星期日"
+  },
+
+  "toast": {
+    "submit-success": "您的列表已被公布!",
+    "server-error": "输入不正确/未到达服务器",
+    "logging-required": "需要登录",
+    "cannot-apply": "嘿，这是一个预览",
+    "preview": "在预览中，您不能投标",
+    "log-in": "您必须登录后才能投标",
+    "bidding-price": "无投标价格",
+    "price-lower": "出价低于挂牌价的20%。",
+    "price-upper": "出价高于挂牌价的20%。",
+    "refresh-page": "服务器没有反应，请刷新",
+    "not-send": "邮件未发送",
+    "contact-directly": "直接联系",
+    "email-send": "邮件已发送",
+    "no-email": "列表中的邮件不存在",
+    "subscribed": "恭喜您，您已经订阅了 :)",
+    "already-applied": "您已申请了这个职位",
+    "already": "已订阅/无效的电子邮件",
+    "country-error": "输入国家代号的未知错误",
+    "location-error": "无法检索位置",
+    "unknown-error": "未知的服务器错误",
+    "search-results": {
+      "found": "已发现",
+      "items": "物品"
+    },
+    "not-found": "没有发现新的结果"
+  },
+
+  "location": {
+    "country": "国家",
+    "state": "州/区域",
+    "city": "城市",
+    "no-city": "无城市",
+    "no-states": "无州",
+    "states-not-registerd": "无州注册",
+    "cities-registerd": "无城市注册"
+  },
+
+  "items-per-page": {
+    "label": "物品",
+    "options": {
+      "nine": "9 件物品",
+      "eighteen": "18 件物品",
+      "twenty-seven": "27 件物品",
+      "thirty-six": "36 件物品",
+      "seventy-two": "72 件物品"
+    }
+  },
+
+  "month": {
+    "Jan": "一月",
+    "Feb": "二月",
+    "Mar": "三月",
+    "Apr": "四月",
+    "May": "五月",
+    "Jun": "六月",
+    "Jul": "七月",
+    "Aug": "八月",
+    "Sep": "九月",
+    "Oct": "十月",
+    "Nov": "十一月",
+    "Dec": "十二月"
+  },
+  "currency": {
+    "currency-label": "货币",
+    "no-currency": "全部"
+  },
+  "measurement": {
+    "label": "测量",
+    "system": {
+      "none": "无",
+      "metric": "公制",
+      "imperial": "英制"
+    }
+  },
+  "user-box": {
+    "profile": "个人资料",
+    "log-out": "登出"
+  },
+  "preview-close": "关闭预览"
+}

@@ -1,0 +1,89 @@
+{
+  "currency": "€ ",
+  "payment-modal": {
+    "header": "配套购买详情",
+    "sub-header": "请从以下详情中选择您的配套",
+    "total-cost": "费用：",
+    "expiry-date": "有效期限：",
+    "expiry-label": "有效期限：",
+    "quantity": "数量：",
+    "quantity-label": "数量：",
+    "listed": "已列出：",
+    "purchase": "已购买：",
+    "extend-expiry": "延长期限",
+    "promote": "推广",
+    "subscription-valid": "该选项有效",
+    "days": "天数",
+    "browser-cv": "搜索简历",
+    "purchase-text": {
+      "user-held": "由用户拥有",
+      "purchase": "购买"
+    },
+    "form": {
+      "added-days": {
+        "label": "延长列表时间为",
+        "suffix": "天数"
+      },
+      "card-details": {
+        "label": "提供银行卡信息",
+        "card-holder": "持卡人",
+        "card-number": "银行卡号",
+        "card-date": "到期日",
+        "card-csv": "CSV"
+      },
+      "buttons": {
+        "decline": "拒绝",
+        "proceed": "继续"
+      },
+
+      "purchase-items": {
+        "intro": "介绍",
+        "single": "单项",
+        "quarterly": "季度",
+        "life": "年度"
+      },
+      "user-stock": {
+        "single": "单项",
+        "quartery": "季度",
+        "life": "年度"
+      }
+    }
+  },
+
+  "receipt-modal": {
+    "header": "总结细节",
+    "sub-header": "请在继续之前审查您的购买详情。",
+    "card-details": {
+      "card-holder": "持卡人",
+      "card-number": "银行卡的详细信息",
+      "card-date": "到期日"
+    },
+
+    "receipt-table": {
+      "plan": "配套",
+      "quantity": "数量",
+      "promote": "推广",
+      "extend-expiry": "延长期限",
+      "total": "总额",
+      "total-amount": "总金额：",
+      "price": "价格",
+      "expiry-date": "有效期限",
+      "no-expiry": "无",
+      "plans": {
+        "standalone": "单项",
+        "subscriptionQuarterly": "季",
+        "subscriptionYearly": "年",
+        "activeSubscription": "搜索简历"
+      }
+    },
+    "thank-you-message": "感谢您支持Placifull公司。 我们相信您会对您的选择感到满意。",
+    "buttons": {
+      "cancel": "取消",
+      "proceed": "支付并继续"
+    }
+  },
+  "error": {
+    "transaction": "交易失败",
+    "subscriptions": "订阅失败"
+  }
+}

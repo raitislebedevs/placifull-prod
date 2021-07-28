@@ -1,0 +1,41 @@
+{
+  "kanban": {
+    "save": "保存模板",
+    "saving": "保存中...",
+    "salary": {
+      "hour": "/小时",
+      "month": "/月",
+      "year": "/年"
+    },
+    "job-overview": {
+      "title": "工作简介",
+      "industry": "行业",
+      "languages-en": "语言 （英）",
+      "native": "语言（母语）",
+      "contract-type": "合同类型",
+      "working-time": "工作时间",
+      "expiry-date": "到期日期"
+    },
+    "statistics": {
+      "title": "统计数据",
+      "applicants": "申请人",
+      "interviewed": "已面试",
+      "processing": "处理中",
+      "reviewed": "审查",
+      "shortlisted": "入围者",
+      "hired": "录用"
+    },
+    "columns": {
+      "applicants": "申请人已申请",
+      "reviewed": "申请人已审查",
+      "shortlisted": "入围者",
+      "interviewed": "已面试申请人",
+      "pending": "等待接受",
+      "accepted": "申请人被录用",
+      "column-name": "新栏目",
+      "edit": "编辑"
+    },
+    "view-cv": "查看简历",
+    "remove": "移除"
+  }
+}

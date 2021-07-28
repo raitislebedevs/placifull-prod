@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "form": {
+      "currency": "货币",
+      "no-currency": "全部",
+      "min-price": "最小值：0.00",
+      "max-price": "最大值：9,999,999,999",
+      "transport-brand": "交通品牌",
+      "transport-model": "交通模型",
+      "min-age": "最小年龄值",
+      "max-age": "最大年龄值",
+      "submit": "马上搜索",
+      "accordion": "进阶搜索",
+      "accordion-right": {
+        "economy": {
+          "label": "燃油效率",
+          "items": {
+            "from": "从: 0",
+            "to": "至: 999"
+          }
+        },
+        "speed": {
+          "label": "最大速度",
+          "items": {
+            "from": "从: 0",
+            "to": "至: 999"
+          }
+        },
+        "millage": {
+          "label": "距离",
+          "items": {
+            "from": "从: 0",
+            "to": "至： 9,999,999"
+          }
+        },
+        "units": "单位"
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "排序",
+        "options": {
+          "price": "价钱",
+          "speed": "速度",
+          "millage": "里程",
+          "fuel-economy": "燃油效率",
+          "popularity": "知名度",
+          "views": "查看过",
+          "country": "国家",
+          "insert-date": "添加日期"
+        }
+      }
+    }
+  }
+}

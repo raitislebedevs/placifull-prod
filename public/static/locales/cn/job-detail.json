@@ -1,0 +1,63 @@
+{
+  "header": {
+    "salary-month": "/月",
+    "buttons": {
+      "apply": "立刻申请",
+      "share": "分享工作"
+    }
+  },
+  "contact-form": {
+    "heading": "直接与公司联系",
+    "form": {
+      "heading": "在此处写下您的问题",
+      "fullName": "全名*",
+      "phoneNumber": "电话号码*",
+      "email": "电子邮件地址*",
+      "message": "您的信息",
+      "submit": "发送信息"
+    }
+  },
+  "about": {
+    "description": "描述",
+    "requirements": "要求",
+    "benefits": "福利"
+  },
+  "job-overview": {
+    "heading": "工作简介",
+    "items": {
+      "offered-salary": "提供的工资",
+      "languages": "语言",
+      "native": "本地人",
+      "industry": "行业"
+    },
+    "views": "观看",
+    "applicants": "申请人",
+    "salary": {
+      "monthly": "每月",
+      "annual": "每年",
+      "hourly": "每小时"
+    }
+  },
+
+  "application": {
+    "header": "申请",
+    "body": {
+      "proposal": "拟议的工资"
+    },
+    "info": "您的简历将被发送到就业部门*。"
+  },
+
+  "extra": {
+    "heading": "本账号所列的工作",
+    "table": {
+      "number": "号码",
+      "country": "国家",
+      "full-address": "办公室地址",
+      "position": "职务",
+      "contract": "合同类型",
+      "time": "工作时间",
+      "salary": "工资从",
+      "end-date": "结束日期"
+    }
+  }
+}

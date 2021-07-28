@@ -1,0 +1,89 @@
+{
+  "color": {
+    "label": "颜色",
+    "options": {
+      "red": "红色",
+      "orange": "橙色",
+      "yellow": "黄色",
+      "green": "绿色",
+      "blue": "蓝色",
+      "violent": "紫色",
+      "pink": "粉红色",
+      "tan": "棕色",
+      "beige": "米色",
+      "white": "白色",
+      "silver": "银色",
+      "gray": "灰色",
+      "black": "黑色",
+      "brown": "褐色",
+      "gold": "金色",
+      "indigo": "靛蓝色",
+      "purple": "紫色",
+      "lime": "青柠色",
+      "azure": "天蓝色",
+      "other": "其他"
+    }
+  },
+  "gear-box": {
+    "label": "齿轮箱",
+    "options": {
+      "manual": "手动",
+      "automatic": "自动",
+      "other": "其他"
+    }
+  },
+  "engine": {
+    "label": "引擎类型",
+    "options": {
+      "diesel": "柴油",
+      "benzine": "汽油",
+      "gas": "气体",
+      "electric": "电动",
+      "other": "其他"
+    }
+  },
+  "features": {
+    "heading": "特点",
+    "category": {
+      "equipment": "装备",
+      "interior": "内饰",
+      "steering-wheel": "方向盘",
+      "seats": "座位",
+      "lights": "车灯",
+      "audio-video": "音频/视频",
+      "mirrors": "镜子"
+    }
+  },
+  "condition": {
+    "label": "状况",
+    "options": {
+      "brandNew": "全新的",
+      "likeNew": "像新的一样",
+      "used": "二手",
+      "requiresFixing": "需要修理",
+      "afterCrash": "发生过意外"
+    }
+  },
+
+  "transport-type": {
+    "label": "交通类型",
+    "options": {
+      "car": "私家车",
+      "truck": "卡车",
+      "motorcycle": "摩托车",
+      "boat": "船",
+      "airTransport": "航空运输",
+      "others": "其他"
+    }
+  },
+
+  "action": {
+    "label": "行动",
+    "options": {
+      "sell": "出售",
+      "rent": "出租",
+      "exchange": "交换",
+      "forParts": "为零件"
+    }
+  }
+}

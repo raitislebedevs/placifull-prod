@@ -1,0 +1,61 @@
+{
+  "form": {
+    "currency": "货币",
+    "no-currency": "全部",
+    "languages": {
+      "native": "母语",
+      "english": "语言的英文名字"
+    },
+    "submit": "马上搜索 ",
+    "accordion": {
+      "label": "进阶搜索",
+      "searchFilter": {
+        "heading": "特点",
+        "licenses": "交通执照",
+        "education": "学历/学位",
+        "expierience": "经验（年）",
+        "candiadate": "应试者能够",
+        "benefits": "福利"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "时薪",
+        "items": {
+          "from": "从: 0",
+          "to": "至: 999,999"
+        }
+      },
+      "monthly-salary": {
+        "label": "月薪",
+        "items": {
+          "from": "从: 0",
+          "to": "至: 999,999,999"
+        }
+      },
+      "yearly-salary": {
+        "label": "年薪",
+        "items": {
+          "from": "从: 0",
+          "to": "至: 99,999,999,999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "排序",
+        "options": {
+          "monthly-salary": "月薪",
+          "annual-salary": "年薪",
+          "hourly-salary": "时薪",
+          "popularity": "受欢迎程度",
+          "views": "已查看",
+          "country": "国家",
+          "insert-date": "添加日期"
+        }
+      }
+    }
+  }
+}

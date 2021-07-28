@@ -1,0 +1,77 @@
+{
+  "heading": "提交列表",
+  "form": {
+    "submit": "提交",
+    "submit-confirm": "保存中...",
+    "preview-sneak-peak": "生成中...",
+    "preview": "预览",
+    "currency": "货币",
+    "no-currency": "全部",
+    "general-information": {
+      "heading": "基本信息",
+      "transport-type": "交通类型",
+      "action": "行动",
+      "condition": "状况",
+      "input-fields": {
+        "description": "描述",
+        "brand": "交通品牌",
+        "model": "交通型号",
+        "production-year": "生产年份",
+        "price": "价格",
+        "engine-type": "引擎型号",
+        "gear-box": "齿轮箱",
+        "millage": "距离",
+        "speed": "最大速度",
+        "fueal-economy": "燃油效率",
+        "seats": "座位数量",
+        "doors": "门的数量",
+        "name": "交通列表名称"
+      }
+    },
+    "detail-information": {
+      "heading": "详细资料",
+      "contact": {
+        "heading": "联络",
+        "email": "电子邮件",
+        "address": "地址",
+        "contact-times": {
+          "label": "联系时间",
+          "placeholder": "选择合适的时间",
+          "options": {
+            "any-time": "任何时间",
+            "working-days": "工作日",
+            "office-hours": "办公时间",
+            "specific-times": "具体时间"
+          }
+        },
+        "listing-website": "网址 : https://"
+      },
+      "features": {
+        "heading": "特点",
+        "category": {
+          "equipment": "装备",
+          "interior": "内饰",
+          "steering-wheel": "方向盘",
+          "seats": "座位",
+          "lights": "车灯",
+          "audio-video": "音频/视频",
+          "mirrros": "镜子"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "图库",
+      "click-drop": "点击或拖动图片至此",
+      "video-url": "视频 https://"
+    },
+    "contact-hours": {
+      "heading": "联系时间",
+      "heading-tip": "选择性",
+      "accordion": {
+        "heading": "添加最合适的见面/通话时间...",
+        "start-time": "从",
+        "end-time": "至"
+      }
+    }
+  }
+}

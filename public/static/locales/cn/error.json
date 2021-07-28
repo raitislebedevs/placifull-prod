@@ -1,0 +1,15 @@
+{
+  "internal-error": "来自服务器的未知错误。请稍后再试。",
+  "connection-error": "无法连接到服务器。请稍后再试。",
+  "server-not-reached": "太尴尬了! 服务器无法接通。请联系我们，或稍后再试。",
+  "Auth": {
+    "form": {
+      "error": {
+        "invalid": "邮箱或密码无效。",
+        "user": {
+          "not-exist": "此邮箱的用户不存在"
+        }
+      }
+    }
+  }
+}

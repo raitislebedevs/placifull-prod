@@ -1,0 +1,87 @@
+{
+  "contract-type": {
+    "label": "合同类型",
+    "options": {
+      "temporarly": "暂时性的",
+      "fullTime": "全职",
+      "partTime": "兼职",
+      "remoteFullTime": "远程（全职）",
+      "remotePartTime": "远程（兼职）",
+      "other": "其他"
+    }
+  },
+  "working-time": {
+    "label": "工作时间",
+    "options": {
+      "officeHours": "办公时间",
+      "shifts": "轮班",
+      "flexible": "自由",
+      "other": "其他"
+    }
+  },
+  "contact-times": {
+    "label": "联系时间",
+    "placeholder": "选择理想的联系时间",
+    "not-specified": "未指定",
+    "options": {
+      "any-time": "任何时间",
+      "working-days": "工作日",
+      "office-hours": "办公时间",
+      "specific-times": "具体时间"
+    }
+  },
+  "features": {
+    "heading": "特点",
+    "licenses": "交通执照",
+    "education": "学历/学位",
+    "expierience": "工作经验（年）",
+    "candiadate": "应聘者应具备以下条件",
+    "weOffer": "我们提供"
+  },
+  "salary": {
+    "heading": "工资",
+    "monthly-from": "工资从",
+    "monthly-to": "工资至",
+    "hourly-rate-from": "时薪 从",
+    "annual-from": "年薪 从",
+    "annual-to": "年薪至",
+    "hourly-rate-to": "时薪至"
+  },
+  "work-area": {
+    "label": "工作区域",
+    "options": {
+      "intern": "实习生",
+      "volunteerWork": "志愿者工作",
+      "stockExchange": "证券交易",
+      "administrationAssistance": "行政管理/协助",
+      "constructionRealEstate": "建筑/房地产",
+      "humanResources": "人力资源",
+      "securityRescue": "保安/救援服务",
+      "military": "军事",
+      "electronicsTelecomunication": "电子/电信",
+      "freelanceTemporary": "自由职业者/临时职位",
+      "energyElectricity": "能源/电力",
+      "pharmacy": "药业",
+      "financeAccounting": "金融/会计",
+      "infromationTechnology": "信息技术(IT)",
+      "jurisprudenceJustice": "法学/司法",
+      "cultureArtEntertainemnt": "文化/艺术/娱乐",
+      "sports": "体育",
+      "qualityControl": "质量控制/质量管理",
+      "agricutureEnvironmental": "农业/环境科学",
+      "medicineSocialCare": "医学/社会护理",
+      "mediaPublicRelations": "媒体/公关",
+      "forestryWoodworkingMetalWorking": "林业/木业/金属加工",
+      "marketingAdvertising": "市场营销/广告",
+      "productionIndustry": "生产/工业",
+      "seasonalWork": "季节性工作",
+      "technicalScience": "技术科学",
+      "services": "服务业",
+      "transportLogistics": "运输/物流",
+      "tourismCateringHotels": "旅游业/餐饮业/酒店",
+      "managment": "管理学",
+      "government": "政府机构",
+      "others": "其他"
+    }
+  }
+}
