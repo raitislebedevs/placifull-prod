@@ -1,0 +1,216 @@
+{
+  "common": {},
+  "real-estate": {
+    "header": {
+      "flag-button": "FLAG THIS CONTENT"
+    },
+    "detail-info": {
+      "button": "I WANT TO MOVE IN NOW"
+    },
+    "contact-times": {
+      "heading": "Preferable Contact Times"
+    },
+    "ultilities": {
+      "heading": "Utilities",
+      "total": "Total",
+      "items": {
+        "coldWater": "Cold Water",
+        "hotWater": "Hot Water",
+        "electricity": "Electricity",
+        "garbage": "Garbage",
+        "propertyManagement": "Property Management",
+        "heating": "Heating",
+        "parking": "Parking",
+        "others": "Others"
+      }
+    },
+    "action": {
+      "forRent": "For Rent",
+      "forSale": "For Sale",
+      "forExchange": "For Exchange"
+    },
+    "about": {
+      "heading": "About",
+      "featured": "Promoted",
+      "notFeatured": "Not Promoted",
+      "rentTime": "per month",
+      "inputTimeDays": "days ago"
+    },
+
+    "general-info": {
+      "heading": "General Information",
+      "property-area": "Property Area",
+      "rooms": "Rooms",
+      "year-built": "Year Built",
+      "price": "Price",
+      "total-ultilities": "Total Ultilities",
+      "move-in": "Move In Date",
+      "move-out": "Move Out Date",
+      "min-time": "Minimum Time",
+      "bid-price": "Bid Price for Property",
+      "submit": "BID",
+      "bid-placeholder": "Bid in 20 % margin"
+    },
+    "features": {
+      "heading": "Features"
+    },
+    "contact-form": {
+      "heading": "Contact the Owner Directly",
+      "form": {
+        "heading": "Write your question from here",
+        "fullName": "Full Name*",
+        "phoneNumber": "Phone Number*",
+        "email": "Email Address*",
+        "message": "Your Message",
+        "submit": "SEND MESSAGE"
+      }
+    },
+    "extra": {
+      "heading": "Other Objects listed by this Profile",
+      "table": {
+        "number": "Nr.",
+        "country": "Country",
+        "full-address": "Full address",
+        "property-type": "Property Type",
+        "price": "Price",
+        "area": "Area",
+        "bed-rooms": "Rooms",
+        "year-built": "Year Built",
+        "condition": {
+          "label": "Condition",
+          "brandNew": "Brand New",
+          "goodCondition": "Good Condition",
+          "medium": "Medium",
+          "requiresFixing": "Requires Fixing",
+          "requiresConstruction": "Requires Construction",
+          "residential": "Residential",
+          "comercial": "Commercial",
+          "industrial": "Industrial",
+          "agricultural": "Agricultural"
+        }
+      }
+    },
+    "social": {
+      "heading": "Social Links",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "youtube": "Youtube",
+      "twitter": "Twitter"
+    },
+
+    "toastify": {
+      "preview": "In Preview you can't bid",
+      "log-in": "You must be Logged in for Bidding",
+      "bidding-price": "You must Choose a bidding Price",
+      "price-lower": "The bid is lower than 20 % of Listing Price",
+      "price-upper": "The bid is higher than 20 % of Listing Price"
+    }
+  },
+  "trasnport-detail": {
+    "header": {
+      "flag-button": "FLAG THIS CONTENT"
+    },
+    "detail-info": {
+      "button": "I WANT TO MOVE IN NOW"
+    },
+    "contact-times": {
+      "heading": "Preferable Contact Times"
+    },
+    "ultilities": {
+      "heading": "Utilities",
+      "total": "Total",
+      "items": {
+        "coldWater": "Cold Water",
+        "hotWater": "Hot Water",
+        "electricity": "Electricity",
+        "garbage": "Garbage",
+        "propertyManagement": "Property Management",
+        "heating": "Heating",
+        "parking": "Parking",
+        "others": "Others"
+      }
+    },
+    "action": {
+      "forRent": "For Rent",
+      "forSale": "For Sale",
+      "forExchange": "For Exchange"
+    },
+    "about": {
+      "heading": "About",
+      "featured": "Promoted",
+      "notFeatured": "Not Promoted",
+      "rentTime": "per month",
+      "inputTimeDays": "days ago"
+    },
+
+    "general-info": {
+      "heading": "General Information",
+      "brand": "Transport Brand",
+      "model": "Transport Model",
+      "year": "Year",
+      "price": "Price",
+      "distance": "Distance",
+      "max-speed": "Max Speed",
+      "fuel-economy": "Fuel Economy",
+      "seats": "Seats",
+      "doors": "Bid Price for Property",
+      "engine-type": "Engine Type",
+      "gear-box": "Gear Box",
+      "color": "Color"
+    },
+    "features": {
+      "heading": "Features"
+    },
+    "contact-form": {
+      "heading": "Contact the Owner Directly",
+      "form": {
+        "heading": "Write your question from here",
+        "fullName": "Full Name*",
+        "phoneNumber": "Phone Number*",
+        "email": "Email Address*",
+        "message": "Your Message",
+        "submit": "SEND MESSAGE"
+      }
+    },
+    "extra": {
+      "heading": "Other Objects listed by this Profile",
+      "table": {
+        "number": "Nr.",
+        "country": "Country",
+        "full-address": "Full address",
+        "property-type": "Property Type",
+        "price": "Price",
+        "area": "Area",
+        "bed-rooms": "Rooms",
+        "year-built": "Year Built",
+        "condition": {
+          "label": "Condition",
+          "brandNew": "Brand New",
+          "goodCondition": "Good Condition",
+          "medium": "Used",
+          "requiresFixing": "Requires Fixing",
+          "requiresConstruction": "Requires Construction",
+          "residential": "Residential",
+          "comercial": "Commercial",
+          "industrial": "Industrial",
+          "agricultural": "Agricultural"
+        }
+      }
+    },
+    "social": {
+      "heading": "Social Links",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "youtube": "Youtube",
+      "twitter": "Twitter"
+    },
+
+    "toastify": {
+      "preview": "In Preview you can't bid",
+      "log-in": "You must be Logged in for Bidding",
+      "bidding-price": "You must Choose a bidding Price",
+      "price-lower": "The bid is lower than 20 % of Listing Price",
+      "price-upper": "The bid is higher than 20 % of Listing Price"
+    }
+  }
+}

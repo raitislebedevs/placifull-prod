@@ -1,0 +1,382 @@
+{
+  "overview": {
+    "button-label": {
+      "change": "Change Picture",
+      "delete": "Delete Picture",
+      "save-all": "Save All",
+      "preview": "Preview"
+    },
+    "setting-label": "Purchached",
+    "delete-avatar-modal": {
+      "header": "Delete avatar",
+      "body": "Do you want to delete your avatar?",
+      "submit": "Delete",
+      "cancel": "Cancel"
+    }
+  },
+  "hover-texts": {
+    "real-estate": "Real Estate Posts",
+    "transport": "Transport Posts",
+    "job": "Job Posts",
+    "browser": "Browser CV"
+  },
+  "left-tab": {
+    "navigation": "Navigation",
+    "titles": {
+      "profile": "Profile",
+      "cv": "CV",
+      "real-estate": "Real Estate",
+      "transport": "Transport",
+      "jobs": "Jobs",
+      "browser": "Browser CV",
+      "payment": "Payment Receipts",
+      "logout": "Logout"
+    }
+  },
+  "right-content": {
+    "prev-button": "Prev Step",
+    "next-button": "Next Step",
+    "profile": {
+      "personal-details": {
+        "heading": "Personal Detail:",
+        "labels": {
+          "profession": "Profession of Identiry",
+          "first-name": "First Name",
+          "last-name": "Last Name",
+          "email": "Your Email",
+          "phone-number": "Phone Nr.",
+          "about-me-heading": "About Me",
+          "about-me": "What's different about you?",
+          "country": "Country",
+          "state": "State/Region",
+          "city": "City",
+          "birth-date": "Birth Date",
+          "gender": {
+            "label": "Sex",
+            "men": "Male",
+            "women": "Female",
+            "not-specified": "Don't show"
+          },
+          "age": {
+            "label": "Show age",
+            "yes": "Yes",
+            "no": "No",
+            "only-birth-date": "Only Birth Date"
+          }
+        },
+        "button-save": "Save Changes"
+      },
+      "password-form": {
+        "text": "Change password:",
+        "old-password": "Old password",
+        "new-password": "New password",
+        "confirm-password": "Confirm password",
+        "button-save": "Save password",
+        "validation": {
+          "current-password-required": "Please Confirm Pasword",
+          "new-password-required": "New Password Missing",
+          "password-not-match": "Passwords don't match",
+          "confirm-password-required": "Please confirm password"
+        }
+      },
+      "delete-form": {
+        "text": "Delete Account:",
+        "content": "Do you want to delete the account? Please press below 'Delete' button",
+        "button-delete": "Delete Account"
+      },
+      "validation": {
+        "first-name": "First name required",
+        "last-name": "Last name required"
+      }
+    },
+    "tabs": {
+      "actions": {
+        "sell": "For Sell",
+        "rent": "For Rent",
+        "exchange": "Exchange"
+      },
+      "common": {
+        "button-edit": "Edit",
+        "button-reviews": "Reviews",
+        "button-delete": "Delete",
+        "days-left": "days left",
+        "title": "My Listings",
+        "highest": "Highest Bid",
+        "lowest": "Lowest Bid"
+      },
+      "job": {
+        "count": "Applicant Count",
+        "avarage": "Avarage Offer",
+        "lowest": "Lowest Offer",
+        "highest": "Highest Offer",
+        "button": "See All"
+      },
+      "browser": {
+        "common": { "area": "Working Area" },
+        "title": "Browse CV",
+        "search": {
+          "button": "Search",
+          "expirience": {
+            "label": "Expierience",
+            "options": {}
+          },
+          "hourly-to": "Hourly To",
+          "monthly-to": "Monthly To",
+          "annual-to": "Annual To"
+        },
+        "table": {
+          "name": "Name",
+          "email": "Email",
+          "phone": "Phone number",
+          "salary": "Expected Salary"
+        }
+      },
+      "receipt": {
+        "title": "Payment Receipts",
+        "search": {
+          "search-from": "Select Start Date",
+          "search-to": "Select End Date",
+          "button": "Search"
+        },
+        "table": {
+          "order": "Order Nr.",
+          "date": "Date",
+          "premium": "Promoted",
+          "add-days": "Extra Days",
+          "type": "Listing type"
+        }
+      }
+    },
+    "cv": {
+      "title": "Curriculum Vitaes",
+      "sections": {
+        "personal-details": {
+          "form": {
+            "title": "Personal Details",
+            "first-name": "First name",
+            "last-name": "Last name",
+            "email": "Email",
+            "phone": "Phone",
+            "birthday": "Birthday",
+            "age": {
+              "label": "Show age",
+              "options": {
+                "yes": "Yes",
+                "no": "No",
+                "only-birthdate": "Only Birth Date"
+              }
+            },
+            "gender": {
+              "label": "Gender",
+              "options": {
+                "male": "Male",
+                "female": "Female",
+                "dont–show": "Don't show"
+              }
+            },
+            "about-me": "What's different about you?"
+          }
+        },
+        "education": {
+          "title": "Education",
+          "accordion": {
+            "school": "School Name",
+            "country": "Country",
+            "from-date": "From Date",
+            "to-date": "To Date",
+            "study-area": "Field of Study",
+            "qualification": {
+              "title": "Qualification",
+              "options": {
+                "primary": "Primary",
+                "secondary": "Secondary",
+                "vocational": "Vocational",
+                "bachelors": "Bachelors",
+                "master": "Master",
+                "doctorate": "Doctorate",
+                "other": "Other"
+              }
+            },
+            "best-fit": "Profession Fit",
+            "grade": "Average Grade",
+            "button-add": "Add Education"
+          }
+        },
+        "expierience": {
+          "title": "Work Experience",
+
+          "company-name": "Company Name",
+          "from-date": "From Date",
+          "to-date": "To Date",
+          "work-area": "Work Area",
+          "position": "Position",
+          "position-description": "Position Description",
+          "sector": "Employment Sector",
+          "seniority": {
+            "title": "Seniority",
+            "options": {
+              "volunteer": "Volunteer",
+              "intern": "Intern",
+              "junior": "Juniour",
+              "intermediate": "Intermediate",
+              "senior": "Senior",
+              "executive": "Executive",
+              "ceo": "CEO",
+              "other": "Other"
+            }
+          },
+
+          "button-add": "Add Experience"
+        },
+        "languages": {
+          "title": "Language Skills",
+          "accordion": {
+            "language": "Language",
+            "certificate": "Name of Certificate",
+            "level": {
+              "label": "Level",
+              "options": {
+                "a1": "A1",
+                "a2": "A2",
+                "b1": "B1",
+                "b2": "B2",
+                "c1": "C1",
+                "c2": "C2",
+                "native": "Native"
+              }
+            },
+            "button-add": "Add Skill"
+          }
+        },
+        "computer": {
+          "title": "Computer Skills",
+          "accordion": {
+            "skill-name": "Computer Skill",
+            "knowladge-gained": {
+              "label": "Knowladge Gained",
+              "options": {
+                "selfTaught": "Self Taught",
+                "course": "Course",
+                "freelance": "Freelance",
+                "contractProject": "Contract Project",
+                "fullTimeJob": "Full Time Employment",
+                "other": "Other"
+              }
+            },
+            "expierience": {
+              "label": "Expierience",
+              "uptoOne": "< 1 year",
+              "oneToThree": "1-3 years",
+              "threeToFive": "3-5 years",
+              "fiveToTen": "5-10 years",
+              "tenToFifteen": "10-15 years",
+              "moreThanFifteen": "15+ years"
+            },
+            "certificate": "Certification Name",
+            "button-add": "Add Skill"
+          }
+        },
+        "licenses": {
+          "title": "Transportation License",
+          "accordion": {
+            "country": "Issue Country",
+            "expierience": {
+              "label": "Expierience",
+              "uptoOne": "< 1 year",
+              "oneToThree": "1-3 years",
+              "threeToFive": "3-5 years",
+              "fiveToTen": "5-10 years",
+              "tenToFifteen": "10-15 years",
+              "moreThanFifteen": "15+ years"
+            },
+            "category": "License Category",
+            "button-add": "Add Licence"
+          }
+        },
+        "expectations": {
+          "title": "Work Expectations",
+          "accordion": {
+            "title": "Work Expectations",
+            "interest": "Area of Interest",
+            "position": "Position",
+            "seniority": {
+              "title": "Seniority",
+              "options": {
+                "volunteer": "Volunteer",
+                "intern": "Intern",
+                "junior": "Juniour",
+                "intermediate": "Intermediate",
+                "senior": "Senior",
+                "executive": "Executive",
+                "ceo": "CEO",
+                "other": "Other"
+              }
+            },
+            "hourly": "Hourly from",
+            "monthly": "Monthly from",
+            "yearly": "Yearly from",
+            "button-add": "Add Expectation"
+          }
+        }
+      }
+    },
+    "browser-cv": {
+      "browser": "Browser CV",
+      "search": "Search",
+      "work-expierience": "Working expierience",
+      "work-expectations": "Work expectations",
+      "education-fit": "Education fit",
+      "salary-hourly": "Hourly salary till",
+      "salary-monthly": "Monthly salary till",
+      "salary-annual": "Monthly salary till",
+      "seniority": "Seniority",
+      "monthly": " /monthly",
+      "result-table": {
+        "nr": "Nr.",
+        "name": "Full Name",
+        "email": "Email",
+        "phone": "Phone",
+        "worked-as": "Last Position",
+        "salary": "Expected Salary",
+        "cv": "CV",
+        "view": "View"
+      }
+    },
+    "receipt": {
+      "title": "Payment Receipts",
+      "start-date": "Start Date",
+      "end-date": "End Date",
+      "table": {
+        "reference": "Order #",
+        "date": "Date",
+        "purchase": "Plan",
+        "total": "Amount",
+        "status": "Status"
+      }
+    }
+  },
+  "toast": {
+    "succes": "Profile Was Updated",
+    "fail": "Profile was not Updated",
+    "avatar": "Avatar Updated",
+    "avatar-fail": "Failed to Update Avatar",
+    "avatar-remove": "Avatar Removed",
+    "avatar-remove-fail": "Avatar was not removed",
+    "logout": "Loged Out",
+    "password": "Password Was Changed",
+    "password-fail": "Password was not changed",
+    "item-deleted": "Listing Deleted"
+  },
+  "delete-modal": {
+    "header": "Delete listing",
+    "body": "Are you sure you want to delete this listnig?",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  },
+  "delete-account": {
+    "header": "Delete Account",
+    "body": "Are you sure you want to delete your account?",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  }
+}

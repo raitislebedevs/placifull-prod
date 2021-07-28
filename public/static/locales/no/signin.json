@@ -1,0 +1,23 @@
+{
+  "heading": "Logg inn",
+  "form": {
+    "your-email": "Skriv inn e-post",
+    "email": "E-post",
+    "password": "Passord",
+    "submit": "Logg inn",
+    "remember-me": "Husk meg",
+    "forgot-password": "Glemt passord?",
+    "or": "Eller logg inn med",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "Ingen konto?",
+    "sign-up": "Opprett konto",
+    "error": {
+      "email-invalid": "Ugyldig e-post",
+      "email-required": "E-postadresse kreves",
+      "password-required": "Passord kreves"
+    },
+    "success": "Velkommen tilbake!",
+    "already-login": "Allerede logget inn"
+  }
+}

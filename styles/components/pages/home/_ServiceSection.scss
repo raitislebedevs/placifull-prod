@@ -1,0 +1,80 @@
+.home-container__service-section {
+  margin-top: 100px;
+  .service-section__title {
+    margin-bottom: 24px;
+    .title {
+      font-size: 30px;
+    }
+  }
+  .service-section__service {
+    .service__option {
+      top: 80px !important;
+      position: sticky;
+      .option__item {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .service__content {
+      .dropdown-icon {
+        font-size: 12px;
+        margin-left: 5px;
+      }
+
+      .learn__more {
+        color: theme-color("primary");
+        animation: rightleft 1.5s infinite alternate ease-in-out;
+        cursor: pointer;
+      }
+      .about__us__icons {
+        font-size: 32px;
+        .instagram {
+          display: inline;
+        }
+        .facebook {
+          color: #3b5998;
+          display: inline;
+        }
+        .twitter {
+          color: #1da1f2;
+          display: inline;
+        }
+      }
+    }
+  }
+  .service__option.nav.nav-pills {
+    .nav-link {
+      border: 1px solid theme-color("primary");
+      transition: all 0.5s ease;
+      &:hover {
+        background: theme-color("primary");
+        color: white;
+        padding: 0.49rem 1rem;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .tab-content {
+    .service__content {
+      .service__contentText {
+        vertical-align: middle;
+        display: flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+@keyframes rightleft {
+  0% {
+    -webkit-transform: translateX(0);
+    opacity: 0.75;
+  }
+  100% {
+    -webkit-transform: translateX(1em);
+    opacity: 1;
+  }
+}

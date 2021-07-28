@@ -1,0 +1,15 @@
+.pagination {
+  justify-content: center;
+  li {
+    margin: 0 5px;
+    .page-link{
+      border-radius: 50% !important;
+      width: 35px;
+      height: 35px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

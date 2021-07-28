@@ -1,0 +1,58 @@
+{
+  "header": {
+    "flag-button": "MARCAR ESTE CONTENIDO"
+  },
+  "detail-info": {
+    "button": "QUIERO MUDARME AHORA"
+  },
+  "contact-times": {
+    "heading": "Horario de contacto preferente"
+  },
+  "about": {
+    "heading": "Detalles anuncio",
+    "featured": "Promocionado",
+    "notFeatured": "No Promocionado",
+    "rentTime": "por mes",
+    "inputTimeDays": "hace días"
+  },
+
+  "general-info": {
+    "heading": "Información General",
+    "property-area": "Superficie de la propiedad",
+    "rooms": "Habitaciones",
+    "year-built": "Año de construcción",
+    "price": "Precio",
+    "total-ultilities": "Servicios generales",
+    "move-in": "Fecha de entrada",
+    "move-out": "Fecha de salida",
+    "min-time": "Tiempo mínimo",
+    "bid-price": "Precio de oferta de la propiedad",
+    "submit": "OFERTA",
+    "bid-placeholder": "Oferta con 20 % de margen"
+  },
+
+  "contact-form": {
+    "heading": "Contactar directamente con el propietario",
+    "form": {
+      "heading": "Escriba su pregunta aquí",
+      "fullName": "Nombre Completo*",
+      "phoneNumber": "Número de teléfono*",
+      "email": "Dirección de correo electrónico*",
+      "message": "Tu mensaje*",
+      "submit": "ENVIAR MENSAJE"
+    }
+  },
+  "extra": {
+    "heading": "Otros elementos mostrados por este perfil",
+    "table": {
+      "number": "Nº.",
+      "country": "País",
+      "full-address": "Dirección completa",
+      "property-type": "Tipo de propiedad",
+      "price": "Precio",
+      "area": "Superficie",
+      "bed-rooms": "Habitaciones",
+      "year-built": "Año de construcción"
+    }
+  }
+}

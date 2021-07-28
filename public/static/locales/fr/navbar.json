@@ -1,0 +1,13 @@
+{
+  "home": "ACCUEIL",
+  "opportunities": {
+    "base": "OPPORTUNITÉS",
+    "real-estate": "IMMOBILIER",
+    "vehicles": "VÉHICULES",
+    "job-search": "RECHERCHE D’EMPLOI"
+  },
+  "help": "AIDE",
+  "sign-in": "SE CONNECTER",
+  "register": "S’INSCRIRE",
+  "add-listing": "AJOUTER UNE ANNONCE"
+}

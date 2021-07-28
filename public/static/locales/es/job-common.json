@@ -1,0 +1,87 @@
+{
+  "contract-type": {
+    "label": "Tipo de Contrato",
+    "options": {
+      "temporarly": "Temporal",
+      "fullTime": "A tiempo completo",
+      "partTime": "A tiempo parcial",
+      "remoteFullTime": "A distancia (tiempo completo)",
+      "remotePartTime": "A distancia (Tiempo Parcial)",
+      "other": "Otros"
+    }
+  },
+  "working-time": {
+    "label": "Horario de trabajo",
+    "options": {
+      "officeHours": "Horario de oficina",
+      "shifts": "Por turnos",
+      "flexible": "Flexible",
+      "other": "Otros"
+    }
+  },
+  "contact-times": {
+    "label": "Horas de contacto",
+    "placeholder": "Elija la hora de contacto que prefiera",
+    "not-specified": "No especificado",
+    "options": {
+      "any-time": "Cualquier hora",
+      "working-days": "Días laborables",
+      "office-hours": "Horario de oficina",
+      "specific-times": "Horarios específicos"
+    }
+  },
+  "features": {
+    "heading": "Características",
+    "licenses": "Licencia de conducción",
+    "education": "Formación/Titulación",
+    "expierience": "Experiencia en años",
+    "candiadate": "El candidato debe ser capaz de",
+    "weOffer": "Ofrecemos"
+  },
+  "salary": {
+    "heading": "Salario",
+    "monthly-from": "Salario desde",
+    "monthly-to": "Salario hasta",
+    "hourly-rate-from": "Salario hora desde",
+    "annual-from": "Salario anual desde",
+    "annual-to": "Salario anual hasta",
+    "hourly-rate-to": "Salario hora hasta"
+  },
+  "work-area": {
+    "label": "Área de trabajo",
+    "options": {
+      "intern": "Becario/a",
+      "volunteerWork": "Trabajo voluntario",
+      "stockExchange": "Bolsa de Valores",
+      "administrationAssistance": "Administración/Asistente",
+      "constructionRealEstate": "Construcción/Inmobiliario",
+      "humanResources": "Recursos Humanos",
+      "securityRescue": "Seguridad/Servicios de salvamento",
+      "military": "Militar",
+      "electronicsTelecomunication": "Electrónica/Telecomunicaciones",
+      "freelanceTemporary": "Trabajo autónomo/Temporal",
+      "energyElectricity": "Energía/Electricidad",
+      "pharmacy": "Farmacia",
+      "financeAccounting": "Finanzas/Contabilidad",
+      "infromationTechnology": "Tecnología de la Información (TI)",
+      "jurisprudenceJustice": "Jurisprudencia/Justicia",
+      "cultureArtEntertainemnt": "Cultura/Arte/Entretenimiento",
+      "sports": "Deportes",
+      "qualityControl": "Control de Calidad/Gestión de la Calidad",
+      "agricutureEnvironmental": "Agricultura/Ciencias Ambientales",
+      "medicineSocialCare": "Medicina/Cuidado Social",
+      "mediaPublicRelations": "Medios de Comunicación/Relaciones públicas",
+      "forestryWoodworkingMetalWorking": "Silvicultura/Trabajo de la madera/Trabajo del metal",
+      "marketingAdvertising": "Marketing/Publicidad",
+      "productionIndustry": "Producción/Industria",
+      "seasonalWork": "Trabajo de temporada",
+      "technicalScience": "Ciencias Técnicas",
+      "services": "Servicios",
+      "transportLogistics": "Transporte/Logística",
+      "tourismCateringHotels": "Turismo/Catering/Hoteles",
+      "managment": "Dirección",
+      "government": "Gobierno",
+      "others": "Otros"
+    }
+  }
+}

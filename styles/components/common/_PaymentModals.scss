@@ -1,0 +1,244 @@
+.payment__modal {
+  .payment__modal--header {
+    height: auto;
+    min-height: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header__text {
+      .header__main__text {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .header__sub__text {
+        font-size: 13px;
+      }
+    }
+    .total__amount__text {
+      font-size: 14px;
+      margin-left: 15px;
+      em {
+        color: theme-color("primary");
+        font-weight: 600;
+      }
+    }
+  }
+  .added__cost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .extra__day__input {
+      margin-top: 3px;
+    }
+    .cost__label {
+      padding-right: 5px;
+    }
+    .toggle_button_on {
+      padding: 1px;
+      border: 1px solid theme-color("primary");
+      vertical-align: text-bottom;
+      left: 30px;
+    }
+    .toggle_button_off {
+      border: 2px solid #eee;
+      vertical-align: text-bottom;
+    }
+
+    .custom-check-box {
+      display: none;
+      & + label {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        border-radius: 4px;
+        background-color: #fff;
+        border: 2px solid theme-color("primary");
+        vertical-align: middle;
+        cursor: pointer;
+        position: relative;
+        margin: 0px 0px 5px 8px;
+
+        &::after {
+          box-sizing: border-box;
+          content: "";
+          position: absolute;
+          width: 7px;
+          height: 13px;
+          border: 2px solid #fff;
+          border-top: none;
+          border-left: none;
+          transform-origin: bottom right;
+          transform: translateX(0px) translateY(0px) rotate(45deg);
+        }
+      }
+      &:checked {
+        & + label {
+          background-color: theme-color("primary");
+          &::before {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+      }
+    }
+  }
+
+  .purchase__options {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    @include media-breakpoint-down(xs) {
+      flex-wrap: wrap;
+    }
+    .price__option__container {
+      margin-left: 2px;
+      margin-right: 2px;
+      border: 2px solid #eee;
+      border-radius: 7px;
+      position: relative;
+      min-width: 100px;
+      height: 73px;
+      width: 130px;
+      @include media-breakpoint-down(xs) {
+        margin-top: 5px;
+      }
+      @media (min-width: 150px) and (max-width: 317px) {
+        width: 100%;
+      }
+
+      &.profile {
+        height: 93px;
+      }
+      &.active {
+        color: theme-color("primary");
+        border: 2px solid theme-color("primary");
+        padding: -1px;
+      }
+      .price__header {
+        position: absolute;
+        font-size: 13px;
+        top: 20px;
+        left: 15px;
+      }
+      .profile__pruchased {
+        position: absolute;
+        top: 40px;
+        left: 15px;
+        font-weight: 600;
+      }
+
+      .profile__standalone {
+        position: absolute;
+        top: 50px;
+        left: 15px;
+        font-weight: 600;
+      }
+      .price__cost {
+        position: absolute;
+        top: 40px;
+        left: 15px;
+        font-weight: 600;
+      }
+      .price__icon {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+      }
+    }
+  }
+  .card__header__text {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+}
+
+.receipt_modal_container {
+  .receipt__modal {
+    .receipt__modal--header {
+      align-items: center;
+      .header__text {
+        .header__main__text {
+          font-size: 16px;
+          font-weight: 750;
+        }
+        .header__sub__text {
+          font-size: 12px;
+          font-weight: 505;
+        }
+      }
+    }
+    .receipt__card__details {
+      margin-bottom: 15px;
+      margin-top: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border: 1px solid #eee;
+      border-right: none;
+      border-left: none;
+      height: auto;
+      font-size: 13px;
+      em {
+        font-weight: 600;
+      }
+      .receipt__card__info {
+        padding-bottom: 10px;
+      }
+    }
+    .purchase__summary__details {
+      margin: 0px;
+      background-color: lighten($color: #eee, $amount: 4);
+      border: 2px solid #eee;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 10px;
+      //The first div selects the Col elements
+      div {
+        padding: 0px;
+        div {
+          padding: 5px;
+          &:nth-child(2) {
+            padding: 5px;
+            font-size: 12px;
+            font-weight: normal;
+            border-top: 2px solid #eee;
+            background-color: #fff;
+          }
+        }
+      }
+      .right__boarder {
+        border-right: 2px solid #eee;
+      }
+    }
+    .purchase__summary__price {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 15px;
+      font-size: 13px;
+      height: 45px;
+      strong {
+        color: theme-color("primary");
+        padding-left: 15px;
+        font-size: 20px;
+      }
+    }
+
+    .receipt__footer__info {
+      display: flex;
+      border: 2px solid #eee;
+      color: grey;
+      border-radius: 5px;
+      padding: 10px;
+      height: auto;
+      background-color: lighten($color: #eee, $amount: 4);
+      font-size: 12px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "home": "PÁGINA INICIAL",
+  "opportunities": {
+    "base": "OPORTUNIDADES",
+    "real-estate": "IMOBILIÁRIA",
+    "vehicles": "VEÍCULOS",
+    "job-search": "EMPREGOS"
+  },
+  "help": "AJUDA & SUPORTE",
+  "sign-in": "ACESSAR",
+  "register": "CADASTRAR-SE",
+  "add-listing": "ADICIONAR À LISTA"
+}

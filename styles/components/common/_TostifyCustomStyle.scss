@@ -1,0 +1,117 @@
+/** Used to define container behavior: width, position: fixed etc... 
+The full classes are found here: https://fkhadra.github.io/react-toastify/how-to-style/
+
+**/
+
+/** Classes for the displayed toast **/
+.Toastify__toast {
+  //This is for the boarder to look round and smooth
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 400px;
+  //margin-left: -100px;
+  .message__field {
+    display: inline;
+  }
+  .tostify__icon {
+    display: inline;
+    height: 45px;
+    width: auto;
+    padding-left: 5px;
+  }
+  .text {
+    white-space: nowrap;
+    text-align: center;
+    color: black;
+  }
+}
+
+.Toastify__toast--info {
+  background-color: #e5effa;
+  border: 1px solid #0168da;
+  position: relative;
+  padding: 0px;
+
+  .message__field {
+    position: absolute;
+    left: 65px;
+    top: 5px;
+
+    .heading {
+      color: #0168da;
+      font-weight: bold;
+    }
+  }
+  .Toastify__progress-bar {
+    background-color: #bbd6f3;
+  }
+}
+.Toastify__toast--success {
+  background-color: #ebf7ee;
+  border: 1px solid #3fbe62;
+  position: relative;
+  padding: 0px;
+
+  .message__field {
+    position: absolute;
+    left: 65px;
+    top: 5px;
+    .heading {
+      color: #3fbe62;
+      font-weight: bold;
+    }
+  }
+  .Toastify__progress-bar {
+    background-color: #bee5c8;
+  }
+}
+.Toastify__toast--warning {
+  background-color: #fef7ea;
+  border: 1px solid #ef9400;
+  position: relative;
+  padding: 0px;
+
+  .message__field {
+    position: absolute;
+    left: 65px;
+    top: 5px;
+    .heading {
+      color: #ef9400;
+      font-weight: bold;
+    }
+  }
+  .Toastify__progress-bar {
+    background-color: #fbe6c3;
+  }
+}
+.Toastify__toast--error {
+  background-color: #fcedea;
+  border: 1px solid #ec4e2c;
+  position: relative;
+  padding: 0px;
+
+  .message__field {
+    position: absolute;
+    left: 65px;
+    top: 5px;
+    .heading {
+      color: #ec4e2c;
+      font-weight: bold;
+    }
+  }
+  .Toastify__progress-bar {
+    background-color: #f6cdc4;
+  }
+}
+
+.Toastify__close-button > svg {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: black;
+}
+.Toastify__close-button:hover,
+.Toastify__close-button:focus {
+  color: black;
+  background-color: white;
+}

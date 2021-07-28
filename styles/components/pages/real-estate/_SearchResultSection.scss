@@ -1,0 +1,46 @@
+.real-estate-container__search-result {
+  .search-result__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .search-result__items {
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    .items__loading {
+      text-align: center;
+      padding: 100px 0px;
+      width: 100%;
+    }
+    .items__wrapper {
+      width: 33%;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      @include media-breakpoint-down(md) {
+        width: 50%;
+      }
+      @include media-breakpoint-down(sm) {
+        width: 100%;
+      }
+      .item-card {
+        @include media-breakpoint-down(lg) {
+          width: 270px;
+        }
+        @include media-breakpoint-down(md) {
+          width: 320px;
+        }
+      }
+    }
+  }
+  .search-result__paginate {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+}

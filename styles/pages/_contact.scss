@@ -1,0 +1,6 @@
+.contact-container{
+  padding: 30px 0;
+  @import '../components/pages/contact/Header';
+  @import '../components/pages/contact/Map';
+  @import '../components/pages/contact/ContactForm';
+}

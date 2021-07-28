@@ -1,0 +1,384 @@
+{
+  "overview": {
+    "button-label": {
+      "change": "Changer la photo",
+      "delete": "Supprimer la photo",
+      "save-all": "Tout sauvegarder",
+      "preview": "Aperçu"
+    },
+    "setting-label": "Acheté",
+    "delete-avatar-modal": {
+      "header": "Supprimer l'avatar",
+      "body": "Voulez-vous supprimer votre avatar ?",
+      "submit": "Supprimer",
+      "cancel": "Annuler"
+    }
+  },
+  "hover-texts": {
+    "real-estate": "Annonces immobilières",
+    "transport": "Annonces véhicules",
+    "job": "Offres d'emploi",
+    "browser": "Navigateur CV"
+  },
+  "left-tab": {
+    "navigation": "Recherche",
+    "titles": {
+      "profile": "Profil",
+      "cv": "CV",
+      "real-estate": "Immobilier",
+      "transport": "Véhicules",
+      "jobs": "Emplois",
+      "browser": "Navigateur CV",
+      "payment": "Reçus de paiement",
+      "logout": "Se déconnecter"
+    }
+  },
+  "right-content": {
+    "prev-button": "Étape précédente",
+    "next-button": "L'étape suivante",
+    "profile": {
+      "personal-details": {
+        "heading": "Détails personnels : ",
+        "labels": {
+          "profession": "Profession et identité",
+          "first-name": "Prénom",
+          "last-name": "Nom de famille",
+          "email": "Votre e-mail",
+          "phone-number": "Numéro de téléphone.",
+          "about-me-heading": "À propos de moi",
+          "about-me": "Qu'est-ce qui est différent à votre sujet ?",
+          "country": "Pays",
+          "state": "État/Région",
+          "city": "Ville",
+          "birth-date": "Date de naissance",
+          "gender": {
+            "label": "Genre",
+            "men": "Homme",
+            "women": "Femme",
+            "not-specified": "Ne pas afficher"
+          },
+          "age": {
+            "label": "Afficher l'âge",
+            "yes": "Oui",
+            "no": "Non",
+            "only-birth-date": "Uniquement la date de naissance"
+          }
+        },
+        "button-save": "Sauvegarder les modifications"
+      },
+      "password-form": {
+        "text": "Changer le mot de passe:",
+        "old-password": "Ancien mot de passe",
+        "new-password": "Nouveau mot de passe",
+        "confirm-password": "Confirmez le mot de passe",
+        "button-save": "Sauvegarder le mot de passe",
+        "validation": {
+          "current-password-required": "Veuillez confirmer le mot de passe",
+          "new-password-required": "Nouveau mot de passe manquant",
+          "password-not-match": "Les mots de passe ne correspondent pas",
+          "confirm-password-required": "Veuillez confirmer le mot de passe"
+        }
+      },
+      "delete-form": {
+        "text": "Supprimer le compte:",
+        "content": "Voulez-vous supprimer le compte ? Veuillez appuyer sur le bouton ci-dessous « Supprimer »",
+        "button-delete": "Supprimer le compte"
+      },
+      "validation": {
+        "first-name": "Prénom obligatoire",
+        "last-name": "Nom de famille obligatoire "
+      }
+    },
+    "tabs": {
+      "actions": {
+        "sell": "À vendre",
+        "rent": "A louer",
+        "exchange": "Échange"
+      },
+      "common": {
+        "button-edit": "Modifier",
+        "button-reviews": "Commentaires",
+        "button-delete": "Supprimer",
+        "days-left": "Jours restants",
+        "title": "Mes annonces",
+        "highest": "Offre la plus élevée",
+        "lowest": "Offre la plus basse"
+      },
+      "job": {
+        "count": "Nombre de candidats",
+        "avarage": "Offre moyenne",
+        "lowest": "Offre la plus basse",
+        "highest": "Offre la plus élevée",
+        "button": "Voir tout"
+      },
+      "browser": {
+        "common": {
+          "area": "Lieu de travail"
+        },
+        "title": "Parcourir les CV",
+        "search": {
+          "button": "Chercher",
+          "expirience": {
+            "label": "Expérience",
+            "options": {}
+          },
+          "hourly-to": "Horaire à",
+          "monthly-to": "Mensuel à",
+          "annual-to": "Annuel à"
+        },
+        "table": {
+          "name": "Nom",
+          "email": "E-mail",
+          "phone": "Numéro de téléphone",
+          "salary": "Salaire souhaité "
+        }
+      },
+      "receipt": {
+        "title": "Reçus de paiement",
+        "search": {
+          "search-from": "Sélectionnez la date de début",
+          "search-to": "Sélectionnez la date de fin",
+          "button": "Chercher"
+        },
+        "table": {
+          "order": "N° de commande",
+          "date": "Date",
+          "premium": "Mise à la Une",
+          "add-days": "Jours supplémentaires",
+          "type": "Type d'annonce"
+        }
+      }
+    },
+    "cv": {
+      "title": "Curriculum Vitaes",
+      "sections": {
+        "personal-details": {
+          "form": {
+            "title": "Détails personnels",
+            "first-name": "Prénom",
+            "last-name": "Nom de famille",
+            "email": "E-mail",
+            "phone": "Téléphone",
+            "birthday": "Date d'anniversaire",
+            "age": {
+              "label": "Afficher l'âge",
+              "options": {
+                "yes": "Oui",
+                "no": "Non",
+                "only-birthdate": "Uniquement la date de naissance"
+              }
+            },
+            "gender": {
+              "label": "Genre",
+              "options": {
+                "male": "Homme",
+                "female": "Femme",
+                "dont–show": "Ne pas afficher"
+              }
+            },
+            "about-me": "Qu'est-ce qui est différent à votre sujet ?"
+          }
+        },
+        "education": {
+          "title": "Éducation",
+          "accordion": {
+            "school": "Nom de l'école",
+            "country": "Pays",
+            "from-date": "Depuis la date",
+            "to-date": "jusqu'à la date",
+            "study-area": "Domaine d'études",
+            "qualification": {
+              "title": "Qualification",
+              "options": {
+                "primary": "Primaire",
+                "secondary": "Secondaire",
+                "vocational": "Professionnel",
+                "bachelors": "License",
+                "master": "Maîtrise",
+                "doctorate": "Doctorat",
+                "other": "Autre"
+              }
+            },
+            "best-fit": "Correspond à la profession",
+            "grade": "Note moyenne",
+            "button-add": "Ajouter une formation"
+          }
+        },
+        "expierience": {
+          "title": "Expérience professionnelle",
+
+          "company-name": "Nom de l'entreprise",
+          "from-date": "Depuis la date",
+          "to-date": "Jusqu'à la date",
+          "work-area": "Département de travail",
+          "position": "Position",
+          "position-description": "Description du poste",
+          "sector": "Secteur d'emploi",
+          "seniority": {
+            "title": "Ancienneté",
+            "options": {
+              "volunteer": "Bénévole",
+              "intern": "Stagiaire ",
+              "junior": "Junior",
+              "intermediate": "Intermédiaire",
+              "senior": "Sénior",
+              "executive": "Exécutif",
+              "ceo": "PDG",
+              "other": "Autre"
+            }
+          },
+
+          "button-add": "Ajouter des expériences"
+        },
+        "languages": {
+          "title": "Compétences linguistiques",
+          "accordion": {
+            "language": "Langue",
+            "certificate": "Nom du Certificat",
+            "level": {
+              "label": "Niveau",
+              "options": {
+                "a1": "A1",
+                "a2": "A2",
+                "b1": "B1",
+                "b2": "B2",
+                "c1": "C1",
+                "c2": "C2",
+                "native": "native"
+              }
+            },
+            "button-add": "Ajouter une compétence"
+          }
+        },
+        "computer": {
+          "title": "Compétences informatiques",
+          "accordion": {
+            "skill-name": "Compétences en informatique",
+            "knowladge-gained": {
+              "label": "Connaissances acquises",
+              "options": {
+                "selfTaught": "Autodidacte",
+                "course": "Formations",
+                "freelance": "Free-lance",
+                "contractProject": "Contrat de Projet",
+                "fullTimeJob": "Emploi à temps plein",
+                "other": "Autre"
+              }
+            },
+            "expierience": {
+              "label": "Expérience",
+              "uptoOne": "< 1 an",
+              "oneToThree": "1-3 ans",
+              "threeToFive": "3-5 ans",
+              "fiveToTen": "5-10 ans",
+              "tenToFifteen": "10-15 ans",
+              "moreThanFifteen": "15+ ans"
+            },
+            "certificate": "Nom de la certification",
+            "button-add": "Ajouter une compétence"
+          }
+        },
+        "licenses": {
+          "title": "Permis de conduire ",
+          "accordion": {
+            "country": "Pays d'émission",
+            "expierience": {
+              "label": "Expérience",
+              "uptoOne": "< 1 an",
+              "oneToThree": "1-3 ans",
+              "threeToFive": "3-5 ans",
+              "fiveToTen": "5-10 ans",
+              "tenToFifteen": "10-15 ans",
+              "moreThanFifteen": "15+ ans"
+            },
+            "category": "Catégorie de licence",
+            "button-add": "Ajouter une licence"
+          }
+        },
+        "expectations": {
+          "title": "Attentes professionnelles",
+          "accordion": {
+            "title": "Attentes professionnelles",
+            "interest": "Domaines d'intérêt",
+            "position": "Position",
+            "seniority": {
+              "title": "Ancienneté",
+              "options": {
+                "volunteer": "Bénévole",
+                "intern": "Stagiaire ",
+                "junior": "Junior",
+                "intermediate": "Intermédiaire",
+                "senior": "Sénior",
+                "executive": "Exécutif",
+                "ceo": "PDG",
+                "other": "Autre"
+              }
+            },
+            "hourly": "Taux horaire à partir de",
+            "monthly": "Mensuel à partir de",
+            "yearly": "Annuel à partir de",
+            "button-add": "Ajouter une attente"
+          }
+        }
+      }
+    },
+    "browser-cv": {
+      "browser": "Navigateur CV",
+      "search": "Chercher",
+      "work-expierience": "Expérience de travail",
+      "work-expectations": "Attentes professionnelles",
+      "education-fit": "Adéquation à l'éducation",
+      "salary-hourly": "Salaire horaire jusqu'à",
+      "salary-monthly": "Salaire mensuel jusqu'à",
+      "salary-annual": "Salaire mensuel jusqu'à",
+      "seniority": "Ancienneté",
+      "monthly": "/mensuel",
+      "result-table": {
+        "nr": "No. ",
+        "name": "Nom complet",
+        "email": "E-mail",
+        "phone": "Téléphone",
+        "worked-as": "Dernière position,",
+        "salary": "Salaire souhaité ",
+        "cv": "CV",
+        "view": "Voir"
+      }
+    },
+    "receipt": {
+      "title": "Reçus de paiement",
+      "start-date": "Date de début",
+      "end-date": "Date de fin",
+      "table": {
+        "reference": "Commande #",
+        "date": "Date",
+        "purchase": "Forfait",
+        "total": "Montant",
+        "status": "Statut"
+      }
+    }
+  },
+  "toast": {
+    "succes": "Le profil a été mis à jour",
+    "fail": "Le profil n'a pas été mis à jour",
+    "avatar": "Avatar mis à jour",
+    "avatar-fail": "Échec de la mise à jour de l'avatar",
+    "avatar-remove": "Avatar supprimé",
+    "avatar-remove-fail": "L'avatar n'a pas été supprimé",
+    "logout": "Déconnecté",
+    "password": "Le mot de passe a été modifié",
+    "password-fail": "Le mot de passe n'a pas été modifié",
+    "item-deleted": "Annonce supprimée"
+  },
+  "delete-modal": {
+    "header": "Supprimer l'annonce",
+    "body": "Êtes-vous sûr de vouloir supprimer cette annonce ?",
+    "cancel": "Annuler",
+    "delete": "Supprimer"
+  },
+  "delete-account": {
+    "header": "Supprimer le compte",
+    "body": "Êtes-vous sûr de vouloir supprimer votre compte ?",
+    "cancel": "Annuler",
+    "delete": "Supprimer"
+  }
+}

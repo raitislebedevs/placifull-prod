@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "Dirbkite su mumis."
+        }
+      },
+      "menu-2": {
+        "text-head": "Įmonė",
+        "items": {
+          "item-1": "Apie mus",
+          "item-2": "Komanda",
+          "item-3": "Karjera",
+          "item-4": "Tinklaraštis"
+        }
+      },
+      "menu-3": {
+        "text-head": "Greitosios nuorodos",
+        "items": {
+          "item-1": "Prisijungimas",
+          "item-2": "Registracija",
+          "item-3": "Nekilnojamasis turtas",
+          "item-4": "Transportas",
+          "item-5": "Darbas",
+          "item-6": "Sąlygos"
+        }
+      },
+      "menu-4": {
+        "text-head": "Naujienlaiškis",
+        "items": {
+          "item-1": "Užsiregistruok ir gauk naujausius patarimus į savo el. paštą",
+          "item-2": "Įvesk savo el. paštą",
+          "item-3": "Tavo el. paštas ",
+          "item-4": "Prenumeruoti"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "Placifull. Mes rūpinames jumis"
+    },
+    "right": "Placifull Komanda"
+  }
+}

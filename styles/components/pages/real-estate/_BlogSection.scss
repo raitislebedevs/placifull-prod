@@ -1,0 +1,29 @@
+.real-estate-container__blog{
+  .blog__heading{
+    margin-bottom: 40px;
+  }
+  .blog__items{
+    .items__item-wrapper{
+      margin-bottom: 20px;
+      .item-wrapper__title{
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .item-wrapper__date{
+        margin: 8px 0;
+        font-size: 13px;
+        color:gray;
+        font-weight: 600;
+      }
+      .item-wrapper__description{
+        line-height: 1.2;
+        font-size: 14px;
+      }
+      .item-wrapper__see-more{
+        margin-top: 5px;
+        font-size: 13px;
+      }
+    }
+    margin-bottom: 40px;
+  }
+}

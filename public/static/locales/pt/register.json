@@ -1,0 +1,27 @@
+{
+  "heading": "Cadastro",
+  "form": {
+    "first-name": "Primeiro nome",
+    "last-name": "Sobrenome",
+    "your-email": "Endereço eletrônico",
+    "email": "E-mail",
+    "password": "Senha",
+    "confirm-password": "Confirme a senha",
+    "submit": "Enviar",
+    "terms-text": "Eu aceito",
+    "terms-link": "Termos e Condições",
+    "error": {
+      "email-invalid": "Endereço eletrônico inválido",
+      "email-required": "Endereço eletrônico necessário",
+      "password-required": "Senha necessária",
+      "first-name-required": "Primeiro nome necessário",
+      "last-name-required": "Sobrenome necessário"
+    }
+  },
+  "or": "Ou acesse via",
+  "facebook": "Facebook",
+  "google": "Google",
+  "account": "Já possui uma conta?",
+  "sign-in": "Acessar",
+  "success-text": "Ótimo! Vamos começar!"
+}

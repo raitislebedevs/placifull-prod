@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "Aide",
+    "info": {
+      "text": "Contact Whatsapp",
+      "phone": "+336 9999999999"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "Informations de contact",
+      "items": {
+        "item-1": {
+          "label": "Adresse",
+          "description": "14 rue du Patis"
+        },
+        "item-2": {
+          "label": "Numéro de téléphone",
+          "description": "+371 28247226"
+        },
+        "item-3": {
+          "label": "Email",
+          "description": "exemple@gmail.com"
+        },
+        "item-4": {
+          "label": "Service client",
+          "description": "support@example.com"
+        }
+      }
+    },
+    "form": {
+      "heading": "Formulaire",
+      "name": "Nom",
+      "email": "Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "submit": "Envoyer le message"
+    }
+  }
+}

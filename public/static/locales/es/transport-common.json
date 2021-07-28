@@ -1,0 +1,89 @@
+{
+  "color": {
+    "label": "Color",
+    "options": {
+      "red": "Rojo",
+      "orange": "Naranja",
+      "yellow": "Amarillo",
+      "green": "Verde",
+      "blue": "Azul",
+      "violent": "Violeta",
+      "pink": "Rosa",
+      "tan": "Siena",
+      "beige": "Beige",
+      "white": "Blanco",
+      "silver": "Plata",
+      "gray": "Gris",
+      "black": "Negro",
+      "brown": "Marrón",
+      "gold": "Oro",
+      "indigo": "Índigo",
+      "purple": "Púrpura",
+      "lime": "Lima",
+      "azure": "Azul celeste",
+      "other": "Otros"
+    }
+  },
+  "gear-box": {
+    "label": "Caja de cambios",
+    "options": {
+      "manual": "Manual",
+      "automatic": "Automática",
+      "other": "Otros"
+    }
+  },
+  "engine": {
+    "label": "Tipo de motor",
+    "options": {
+      "diesel": "Diesel",
+      "benzine": "Gasolina",
+      "gas": "Gas",
+      "electric": "Eléctrico",
+      "other": "Otros"
+    }
+  },
+  "features": {
+    "heading": "Características",
+    "category": {
+      "equipment": "Equipamiento",
+      "interior": "Interior",
+      "steering-wheel": "Volante",
+      "seats": "Asientos",
+      "lights": "Luces",
+      "audio-video": "Audio/Video",
+      "mirrors": "Espejos"
+    }
+  },
+  "condition": {
+    "label": "Condición",
+    "options": {
+      "brandNew": "Nuevo",
+      "likeNew": "Semi nuevo",
+      "used": "Usado",
+      "requiresFixing": "Requiere de arreglo",
+      "afterCrash": "Accidentado"
+    }
+  },
+
+  "transport-type": {
+    "label": "Tipo de transporte",
+    "options": {
+      "car": "Coche",
+      "truck": "Camión",
+      "motorcycle": "Motocicleta",
+      "boat": "Barcos",
+      "airTransport": "Transporte aéreo",
+      "others": "Otros"
+    }
+  },
+
+  "action": {
+    "label": "Acción",
+    "options": {
+      "sell": "Venta",
+      "rent": "Alquiler",
+      "exchange": "Intercambio",
+      "forParts": "Por piezas"
+    }
+  }
+}

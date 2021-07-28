@@ -1,0 +1,20 @@
+export const REAL_ESATE = {
+  STANDALONE: 3.99,
+  QUARTERLY: 83.99,
+  YEARLY: 719.99,
+};
+export const TRANSPORT = {
+  STANDALONE: 3.99,
+  QUARTERLY: 83.99,
+  YEARLY: 719.99,
+};
+export const JOBS = {
+  STANDALONE: 7.99,
+  QUARTERLY: 117.59,
+  YEARLY: 1007.99,
+};
+export const OTHERS = {
+  BROWSERCV: 39.99,
+  DAYLY: 0.11,
+  PROMOTED: 1.5,
+};

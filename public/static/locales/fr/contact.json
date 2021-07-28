@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "Assistenza e supporto",
+    "info": {
+      "text": "Numero WhatsApp",
+      "phone": "+371 9999999999"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "Recapiti",
+      "items": {
+        "item-1": {
+          "label": "Località",
+          "description": "4758 Nancy Street"
+        },
+        "item-2": {
+          "label": "Numero di telefono",
+          "description": "+1 919-571-2528"
+        },
+        "item-3": {
+          "label": "Email",
+          "description": "hello@example.com"
+        },
+        "item-4": {
+          "label": "Assistenza clienti",
+          "description": "support@example.com"
+        }
+      }
+    },
+    "form": {
+      "heading": "Modulo",
+      "name": "Nome",
+      "email": "Email",
+      "subject": "Oggetto",
+      "message": "Messaggio",
+      "submit": "Invia il messaggio"
+    }
+  }
+}

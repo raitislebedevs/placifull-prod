@@ -1,0 +1,77 @@
+{
+  "heading": "Soumettre l'annonce",
+  "form": {
+    "submit": "Soumettre",
+    "submit-confirm": "Sauvegarde en cours ...",
+    "preview-sneak-peak": "Création en cours ...",
+    "preview": "Aperçu",
+    "currency": "Devise",
+    "no-currency": "TOUTES",
+    "general-information": {
+      "heading": "Informations générales",
+      "transport-type": "Type de Véhicule",
+      "action": "Action",
+      "condition": "État",
+      "input-fields": {
+        "description": "Description",
+        "brand": "Marque de véhicule",
+        "model": "Modèle de véhicule",
+        "production-year": "Année de fabrication",
+        "price": "Prix",
+        "engine-type": "Type de moteur",
+        "gear-box": "Boîte de vitesses",
+        "millage": "Kilométrage",
+        "speed": "Vitesse maximale",
+        "fueal-economy": "Consommation",
+        "seats": "Nombre de places",
+        "doors": "Nombre de portes",
+        "name": "Titre de l'annonce"
+      }
+    },
+    "detail-information": {
+      "heading": "Informations détaillées",
+      "contact": {
+        "heading": "Contact",
+        "email": "E-mail",
+        "address": "Adresse",
+        "contact-times": {
+          "label": "Horaires de contact",
+          "placeholder": "Choisissez l'heure préférée pour vous contacter",
+          "options": {
+            "any-time": "À tout moment",
+            "working-days": "Jours de travail",
+            "office-hours": "Heures de bureau",
+            "specific-times": "Heures spécifiques"
+          }
+        },
+        "listing-website": "Site Web : https://"
+      },
+      "features": {
+        "heading": "Caractéristiques",
+        "category": {
+          "equipment": "Équipement",
+          "interior": "Intérieur",
+          "steering-wheel": "Volant",
+          "seats": "Sièges",
+          "lights": "Lumières",
+          "audio-video": "Audio Video",
+          "mirrros": "Miroirs"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "Galerie ",
+      "click-drop": "CLIQUEZ OU FAITES GLISSER LES IMAGES ICI",
+      "video-url": "URL de la vidéo : https://"
+    },
+    "contact-hours": {
+      "heading": "Horaires de prise de contact",
+      "heading-tip": "Optionnel",
+      "accordion": {
+        "heading": "Ajoutez les heures les plus appropriées pour les rendez-vous/appels...",
+        "start-time": "De",
+        "end-time": "Jusqu'à"
+      }
+    }
+  }
+}

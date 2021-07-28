@@ -1,0 +1,63 @@
+{
+  "header": {
+    "salary-month": "/mois",
+    "buttons": {
+      "apply": "Postuler maintenant",
+      "share": "Partager l'emploi"
+    }
+  },
+  "contact-form": {
+    "heading": "Contacter l'entreprise directement",
+    "form": {
+      "heading": "Écrivez votre question à partir d'ici",
+      "fullName": "Nom complet*",
+      "phoneNumber": "Numéro de téléphone*",
+      "email": "Adresse e-mail*",
+      "message": "Votre message",
+      "submit": "ENVOYER LE MESSAGE"
+    }
+  },
+  "about": {
+    "description": "Description",
+    "requirements": "Critères ",
+    "benefits": "Avantages"
+  },
+  "job-overview": {
+    "heading": "Présentation du poste à pouvoir",
+    "items": {
+      "offered-salary": "Salaire offert",
+      "languages": "Language",
+      "native": "Originaire de",
+      "industry": "Industrie"
+    },
+    "views": "vues",
+    "applicants": "candidats",
+    "salary": {
+      "monthly": "mensuel",
+      "annual": "annuel",
+      "hourly": "taux horaire"
+    }
+  },
+
+  "application": {
+    "header": "Postuler pour",
+    "body": {
+      "proposal": "Salaire proposé"
+    },
+    "info": "Votre CV va être envoyé à l'employeur"
+  },
+
+  "extra": {
+    "heading": "Emplois listés par ce profil",
+    "table": {
+      "number": "No. ",
+      "country": "Pays",
+      "full-address": "Adresse du bureau",
+      "position": "Intitulé de poste",
+      "contract": "Type de contrat",
+      "time": "Horaires de travail",
+      "salary": "Salaire à partir de",
+      "end-date": "Date de fin"
+    }
+  }
+}

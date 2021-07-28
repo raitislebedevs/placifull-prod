@@ -1,0 +1,27 @@
+{
+  "heading": "S’inscrire",
+  "form": {
+    "first-name": "Prénom",
+    "last-name": "Nom",
+    "your-email": "Votre adresse mail",
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirm-password": "Confirmer le mot de passe",
+    "submit": "S’inscrire",
+    "terms-text": "J’accepte",
+    "terms-link": "les termes et conditions.",
+    "error": {
+      "email-invalid": "L’adresse mail n’est pas valide.",
+      "email-required": "Une adresse mail est requise.",
+      "password-required": "Un mot de passe est requis.",
+      "first-name-required": "Un prénom est requis.",
+      "last-name-required": "Un nom est requis."
+    }
+  },
+  "or": "Ou se connecter avec",
+  "facebook": "Facebook",
+  "google": "Google",
+  "account": "Vous avez déjà un compte ?",
+  "sign-in": "Se connecter",
+  "success-text": "Hourra, commençons !"
+}

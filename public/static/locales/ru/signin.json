@@ -1,0 +1,23 @@
+{
+  "heading": "Войти",
+  "form": {
+    "your-email": "Укажите email",
+    "email": "Email",
+    "password": "Пароль",
+    "submit": "Авторизоваться",
+    "remember-me": "Запомнить меня",
+    "forgot-password": "Забыли пароль?",
+    "or": "Или войти под аккаунтом",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "Нет аккаунта?",
+    "sign-up": "Зарегистрироваться",
+    "error": {
+      "email-invalid": "Email недействителен.",
+      "email-required": "Требуется указать email.",
+      "password-required": "Требуется указать пароль"
+    },
+    "success": "С возвращением!",
+    "already-login": "Пытаетесь войти второй раз?"
+  }
+}

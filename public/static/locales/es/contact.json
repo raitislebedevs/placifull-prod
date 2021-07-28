@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "Ayuda y Soporte",
+    "info": {
+      "text": "Número de Whatsapp",
+      "phone": ""
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "Información de Contacto",
+      "items": {
+        "item-1": {
+          "label": "Ubicación",
+          "description": "Calle Salvador 12"
+        },
+        "item-2": {
+          "label": "Número de Teléfono",
+          "description": "0034 123 44 55 66"
+        },
+        "item-3": {
+          "label": "Correo electrónico",
+          "description": "algo@gmail.com"
+        },
+        "item-4": {
+          "label": "Atención al cliente",
+          "description": ""
+        }
+      }
+    },
+    "form": {
+      "heading": "Formulario",
+      "name": "Nombre Completo",
+      "email": "Correo electrónico",
+      "subject": "Tema",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje"
+    }
+  }
+}

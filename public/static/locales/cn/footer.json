@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "开始浏览并搜索您所欲购买的房屋以及所需的事物。"
+        }
+      },
+      "menu-2": {
+        "text-head": "公司",
+        "items": {
+          "item-1": "关于我们",
+          "item-2": "团队",
+          "item-3": "事业",
+          "item-4": "博客"
+        }
+      },
+      "menu-3": {
+        "text-head": "快速链接",
+        "items": {
+          "item-1": "登录",
+          "item-2": "注册",
+          "item-3": "房地产",
+          "item-4": "运输",
+          "item-5": "职业",
+          "item-6": "服务条款"
+        }
+      },
+      "menu-4": {
+        "text-head": "简讯",
+        "items": {
+          "item-1": "注册并通过电子邮件获得最新提示。",
+          "item-2": "输入您的邮箱帐号",
+          "item-3": "您的邮箱",
+          "item-4": "订阅"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "太好了，我们将为您服务"
+    },
+    "right": "Placifull 团队"
+  }
+}

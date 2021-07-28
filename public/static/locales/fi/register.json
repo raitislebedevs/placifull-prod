@@ -1,0 +1,27 @@
+{
+  "heading": "Rekisteröidy",
+  "form": {
+    "first-name": "Etunimi",
+    "last-name": "Sukunimi",
+    "your-email": "Syötä Sähköposti",
+    "email": "Sähköposti",
+    "password": "Salasana",
+    "confirm-password": "Vahvista Salasana",
+    "submit": "Rekisteröidy",
+    "terms-text": "Hyväksyn",
+    "terms-link": "Käyttöehdot",
+    "error": {
+      "email-invalid": "Sähköposti ei kelpaa.",
+      "email-required": "Sähköposti vaaditaan.",
+      "password-required": "Salasana vaaditaan",
+      "first-name-required": "Etunimi vaaditaan",
+      "last-name-required": "Sukunimi vaaditaan"
+    }
+  },
+  "or": "Vaihtoehtoinen Rekisteröinti",
+  "facebook": "Facebook",
+  "google": "Google",
+  "account": "Onko sinulla jo tili?",
+  "sign-in": "Kirjaudu sisään",
+  "success-text": "Hurraa, Aloitetaan!"
+}

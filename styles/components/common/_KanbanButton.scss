@@ -1,0 +1,11 @@
+.add_button {
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  color: brown;
+  &:hover {
+    font-size: 55px;
+    color: darken($color: brown, $amount: 8);
+    cursor: pointer;
+  }
+}

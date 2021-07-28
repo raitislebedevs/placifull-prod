@@ -1,0 +1,341 @@
+import { useState, useEffect } from 'react';
+import { Button, Spinner } from 'react-bootstrap';
+import { connect } from 'react-redux';
+import { VacancyListingService } from 'services';
+import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
+import JobValidation from './jobValidation';
+import { ContactHours, SocialLinks } from 'components/common';
+import GeneralInformation from '../JobForm/GeneralInformation';
+import DetailInformation from '../JobForm/DetailInformation';
+import Preview from '../JobForm/Preview';
+import Gallery from '../JobForm/Gallery';
+import { dayCostJobs, defaultExpiryDays } from 'constants/listingDetails';
+import { ListingPayment, StripeContainer } from '../index';
+import useSubscription from 'hooks/useSubscription';
+import useJobPost from 'hooks/useJobPost';
+import { useRouter } from 'next/router';
+import { addDays } from 'utils/standaloneFunctions';
+
+const JobPost = (props) => {
+  const { t, user } = props;
+  const router = useRouter();
+  const [isLoading, setIsLoading] = useState(false);
+  const [isStripe, setIsStripe] = useState(false);
+  const [paymentDetails, setPaymentDetails] = useState({});
+  const [submitCurrency, setsubmitCurrency] = useState('');
+  const [addressPosition, setAddressPosition] = useState(null);
+  const [previewJobModal, setPreviewJobModal] = useState(false);
+  const [previewItem, setPreviewItem] = useState({});
+  const [paymentModal, setPaymentModal] = useState(false);
+  const [tagOptions, setTagOptions] = useState([]);
+  const [handleInputSubscriptions, getSubscriptions] = useSubscription(
+    user?.id,
+    'jobs'
+  );
+  const initial = {
+    tags: [],
+    title: '',
+    companyName: '',
+  };
+  const [
+    inputValues,
+    setInputValues,
+    handleOnChange,
+    handleCheckBoxChange,
+    handleFeatureItemCheckbox,
+  ] = useJobPost(initial);
+
+  useEffect(() => {
+    if (addressPosition?.position) {
+      setInputValues((prev) => ({
+        ...prev,
+        longitude: addressPosition?.position?.lng,
+        latitude: addressPosition?.position?.lat,
+      }));
+    }
+  }, [addressPosition]);
+
+  const getPayload = (inputValues) => {
+    var expiryDate = addDays(new Date(), defaultExpiryDays);
+
+    let payload = {
+      companyName: inputValues?.companyName || null,
+      positionHeader: inputValues?.title || null,
+      vacancyOption: inputValues?.vacancyOption || null,
+      contractType: inputValues?.contractType || null,
+      workingTime: inputValues?.workingTime || null,
+      insertDate: new Date(),
+
+      country: inputValues?.jobCountry || null,
+      state: inputValues?.jobState || null,
+      city: inputValues?.jobCity || null,
+      fullAddress: inputValues?.fullAddress || null,
+
+      positionDescription: inputValues?.jobDescription || null,
+      positionRequirements: inputValues?.jobRequirements || null,
+      positionBenefits: inputValues?.jobOffer || null,
+
+      enLanguages: inputValues?.languagesEnglish || null,
+      nativeLanguages: inputValues?.languagesNative || null,
+
+      phone: inputValues?.jobPhone || null,
+      email: inputValues?.jobEmail || null,
+      websiteLink: inputValues?.jobListingWebsite || null,
+      contactTime: inputValues?.jobContactTimes || null,
+      currency: inputValues?.jobCurrency || null,
+      officeAddress: inputValues?.officeAddress || null,
+      latitude: inputValues?.latitude || null,
+      longitude: inputValues?.longitude || null,
+
+      videoLink: inputValues?.jobVideoLink || null,
+
+      tags: inputValues?.tags || null,
+
+      contactHours: {
+        monday_open: inputValues?.jobmonday_open || null,
+        monday_close: inputValues?.jobmonday_close || null,
+        tuesday_open: inputValues?.jobtuesday_open || null,
+        tuesday_close: inputValues?.jobtuesday_close || null,
+        wednesday_open: inputValues?.jobwednesday_open || null,
+        wednesday_close: inputValues?.jobwednesday_close || null,
+        thursday_open: inputValues?.jobthursday_open || null,
+        thursday_close: inputValues?.jobthursday_close || null,
+        friday_open: inputValues?.jobfriday_open || null,
+        friday_close: inputValues?.jobfriday_close || null,
+        saturday_open: inputValues?.jobsaturday_open || null,
+        saturday_close: inputValues?.jobsaturday_close || null,
+        sunday_open: inputValues?.jobsunday_open || null,
+        sunday_close: inputValues?.jobsunday_close || null,
+      },
+      socialLinks: {
+        facebookLink: inputValues?.facebookLink || null,
+        instagramLink: inputValues?.instagramLink || null,
+        youtubeLink: inputValues?.youtubeLink || null,
+        twitterLink: inputValues?.twitterLink || null,
+      },
+
+      monthlySalaryFrom: inputValues?.monthlySalaryFrom || null,
+      monthlySalaryTo: inputValues?.monthlySalaryTo || null,
+
+      annualSalaryFrom: inputValues?.annualSalaryFrom || null,
+      annualSalaryTo: inputValues?.annualSalaryTo || null,
+
+      hourlySalaryFrom: inputValues?.hourlySalaryFrom || null,
+      hourlySalaryTo: inputValues?.hourlySalaryTo || null,
+
+      expiryDate: expiryDate || null,
+      user: user?.id || null,
+    };
+
+    return payload;
+  };
+
+  const handleSubmit = async (e, paymentDetails) => {
+    e.preventDefault();
+
+    setPaymentDetails(paymentDetails);
+    setIsStripe(true);
+  };
+
+  const handleDataSubmit = async (e, paymentDetails) => {
+    e.preventDefault();
+    setIsLoading(true);
+    try {
+      const listingId = await uploadListing();
+      await handleInputSubscriptions(paymentDetails, listingId);
+
+      TostifyCustomContainer('success', t('common:toast.submit-success'));
+      getSubscriptions(user.id);
+      setTimeout(() => {
+        router.push(`/job-search/${listingId}`);
+      }, 5000);
+    } catch (e) {
+      TostifyCustomContainer('error', t('common:toast.server-error'));
+    }
+
+    setIsLoading(false);
+  };
+
+  const uploadListing = async () => {
+    let payload = getPayload(inputValues);
+
+    //Upload images during entry creation
+    //https://strapi.io/documentation/developer-docs/latest/development/plugins/upload.html#upload-file-during-entry-creation
+    const formData = new FormData();
+    formData.append('data', JSON.stringify(payload));
+    formData.append(`files.companyLogo`, inputValues?.companyLogo);
+
+    const { data, error } = await VacancyListingService.CREATE(formData);
+    if (error) throw error?.message;
+    return data.id;
+  };
+
+  const handlePayment = async (e) => {
+    e.preventDefault();
+    if (!user?.id) {
+      TostifyCustomContainer('info', t('common:toast.logging-required'));
+      //return;
+    }
+    let validation = inputValues;
+    validation.size = inputValues?.companyLogo?.size;
+    const { errors } = await JobValidation(validation, t);
+    if (errors) {
+      for (let i = 0; i < 3; i++) {
+        if (errors[i]) TostifyCustomContainer('warning', errors[i]);
+      }
+      //return;
+    }
+
+    setPaymentModal(true);
+  };
+
+  const handlePreview = async (e) => {
+    e.preventDefault();
+    if (!user?.id) {
+      TostifyCustomContainer('info', t('common:toast.logging-required'));
+      return;
+    }
+
+    let validation = inputValues;
+    validation.size = inputValues?.companyLogo?.size;
+
+    const { errors } = await JobValidation(validation, t);
+    if (errors) {
+      for (let i = 0; i < 3; i++) {
+        if (errors[i]) TostifyCustomContainer('warning', errors[i]);
+      }
+      return;
+    }
+
+    try {
+      let localPreviewItem = getPayload(inputValues);
+      localPreviewItem['companyLogo'] = inputValues?.companyLogo;
+      localPreviewItem['currency'] = submitCurrency;
+      localPreviewItem['isPreview'] = true;
+      localPreviewItem['Applicants'] = [];
+      let userTags = localPreviewItem?.tags;
+
+      let previewTags = [];
+      if (userTags) {
+        for (let i = 0; i < userTags?.length; ++i) {
+          tagOptions.forEach((item, index) => {
+            if (item.id == userTags[i]) previewTags.push(item);
+          });
+        }
+      }
+      localPreviewItem['tags'] = previewTags;
+      setPreviewItem(localPreviewItem);
+      setPreviewJobModal(true);
+    } catch (e) {
+      TostifyCustomContainer('error', e.message);
+    }
+  };
+
+  return (
+    <div className="submit-container__form">
+      <GeneralInformation
+        inputValues={inputValues}
+        handleOnChange={handleOnChange}
+        setInputValues={setInputValues}
+        submitCurrency={submitCurrency}
+        setsubmitCurrency={setsubmitCurrency}
+        t={t}
+      />
+      <DetailInformation
+        inputValues={inputValues}
+        addressPosition={addressPosition}
+        setAddressPosition={setAddressPosition}
+        handleCheckBoxChange={handleCheckBoxChange}
+        handleFeatureItemCheckbox={handleFeatureItemCheckbox}
+        handleOnChange={handleOnChange}
+        submitCurrency={submitCurrency}
+        tagOptions={tagOptions}
+        setTagOptions={setTagOptions}
+        t={t}
+      />
+      <Gallery
+        inputValues={inputValues}
+        handleOnChange={handleOnChange}
+        t={t}
+      />
+      <SocialLinks
+        prefix="job"
+        inputValues={inputValues}
+        handleOnChange={handleOnChange}
+        t={t}
+      />
+      <ContactHours
+        prefix="job"
+        sectionHeading={t('job-submit:form.contact-hours.heading')}
+        sectionHeadingTip={t('job-submit:form.contact-hours.heading-tip')}
+        heading={t('job-submit:form.contact-hours.accordion.heading')}
+        inputValues={inputValues}
+        handleOnChange={handleOnChange}
+        t={t}
+      />
+      <div className="form__button-container">
+        <Button
+          variant="outline-primary"
+          disabled={previewJobModal || isLoading}
+          onClick={!previewJobModal ? handlePreview : null}
+          size="lg"
+          className="button-container__buttonOutline"
+        >
+          {previewJobModal ? (
+            <>
+              <Spinner as="span" animation="border" size="sm" role="status" />{' '}
+              {t('job-submit:form.preview-sneak-peak')}
+            </>
+          ) : (
+            <>{t('job-submit:form.preview')}</>
+          )}
+        </Button>
+        <Button
+          variant="primary"
+          disabled={isLoading || previewJobModal}
+          type="submit"
+          size="lg"
+          className="button-container__button"
+          onClick={(e) => handlePayment(e)}
+        >
+          {isLoading ? (
+            <>
+              <Spinner as="span" animation="border" size="sm" role="status" />{' '}
+              {t('job-submit:form.submit-confirm')}
+            </>
+          ) : (
+            <>{t('job-submit:form.submit')}</>
+          )}
+        </Button>
+      </div>
+      <Preview
+        previewModal={previewJobModal}
+        setPreviewModal={setPreviewJobModal}
+        previewItem={previewItem}
+        t={t}
+      />
+      <ListingPayment
+        handleSubmit={handleSubmit}
+        paymentModal={paymentModal}
+        setPaymentModal={setPaymentModal}
+        user={user}
+        plan={'jobs'}
+        dayCost={dayCostJobs}
+        t={t}
+      />{' '}
+      <StripeContainer
+        handleDataSubmit={handleDataSubmit}
+        show={isStripe}
+        setIsStripe={setIsStripe}
+        paymentDetails={paymentDetails}
+        onHide={() => setIsStripe(false)}
+      />
+    </div>
+  );
+};
+
+export const mapStateToProps = (state) => ({
+  user: state.connectionReducer.user,
+});
+
+export default connect(mapStateToProps)(JobPost);

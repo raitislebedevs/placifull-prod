@@ -1,0 +1,23 @@
+{
+  "heading": "登录",
+  "form": {
+    "your-email": "用户邮箱",
+    "email": "邮箱帐号",
+    "password": "密码",
+    "submit": "登入",
+    "remember-me": "记住密码",
+    "forgot-password": "忘记密码？",
+    "or": "或其他登录方式",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "没有账号？",
+    "sign-up": "注册帐号",
+    "error": {
+      "email-invalid": "邮箱不存在",
+      "email-required": "请提供邮箱",
+      "password-required": "请提供密码"
+    },
+    "success": "欢迎回来！",
+    "already-login": "尝试登录两次了？"
+  }
+}

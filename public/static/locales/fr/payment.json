@@ -1,0 +1,89 @@
+{
+  "currency": "€ ",
+  "payment-modal": {
+    "header": "Détails d'achat du forfait",
+    "sub-header": "Veuillez sélectionner votre forfait depuis les détails ci-dessous",
+    "total-cost": "Coût:",
+    "expiry-date": "Date d'expiration:",
+    "expiry-label": "Date d'expiration",
+    "quantity": "Quantité:",
+    "quantity-label": "Quantité",
+    "listed": "Publié :",
+    "purchase": "Acheté:",
+    "extend-expiry": "Reporter la date d'expiration",
+    "promote": "Mettre en avant",
+    "subscription-valid": "Option valide",
+    "days": "jours",
+    "browser-cv": "Recherche de CV",
+    "purchase-text": {
+      "user-held": "Détenu par l'utilisateur",
+      "purchase": "Acheter"
+    },
+    "form": {
+      "added-days": {
+        "label": "Prolonger la publication de",
+        "suffix": "Jours"
+      },
+      "card-details": {
+        "label": "Fournir les informations de la carte",
+        "card-holder": "Titulaire de la carte",
+        "card-number": "Numéro de carte",
+        "card-date": "Date d'expiration",
+        "card-csv": "CSV"
+      },
+      "buttons": {
+        "decline": "Décliner",
+        "proceed": "Procéder"
+      },
+
+      "purchase-items": {
+        "intro": "Introduction",
+        "single": "Unique",
+        "quarterly": "Trimestriel",
+        "life": "Annuel"
+      },
+      "user-stock": {
+        "single": "Unique",
+        "quartery": "Trimestriel",
+        "life": "Annuel"
+      }
+    }
+  },
+
+  "receipt-modal": {
+    "header": "Récapitulatif des Détails ",
+    "sub-header": "Veuillez vérifier les détails de votre achat avant de continuer.",
+    "card-details": {
+      "card-holder": "Nom du titulaire de la carte",
+      "card-number": "Détails de la carte",
+      "card-date": "Date d'expiration"
+    },
+
+    "receipt-table": {
+      "plan": "Forfait",
+      "quantity": "Quantité",
+      "promote": "Mettre à la Une",
+      "extend-expiry": "Reporter la date d'expiration",
+      "total": "Total",
+      "total-amount": "Montant total:",
+      "price": "Prix",
+      "expiry-date": "Date d'expiration",
+      "no-expiry": "Aucune",
+      "plans": {
+        "standalone": "Unique",
+        "subscriptionQuarterly": "Trimestriel",
+        "subscriptionYearly": "Annuel",
+        "activeSubscription": "Rechercher un CV"
+      }
+    },
+    "thank-you-message": "Merci de soutenir l'entreprise Placifull. Nous pensons que vous serez satisfait de votre choix.",
+    "buttons": {
+      "cancel": "Annuler",
+      "proceed": "Payer et continuer"
+    }
+  },
+  "error": {
+    "transaction": "La transaction a échoué",
+    "subscriptions": "L'abonnement n'a pas été souscrit"
+  }
+}

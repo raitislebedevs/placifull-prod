@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "Začněte s procházením a objevte svůj důma mnoho dalšího."
+        }
+      },
+      "menu-2": {
+        "text-head": "Společnost",
+        "items": {
+          "item-1": "O nás",
+          "item-2": "Tým",
+          "item-3": "Kariéra",
+          "item-4": "Blog"
+        }
+      },
+      "menu-3": {
+        "text-head": "Rychlé Odkazy",
+        "items": {
+          "item-1": "Přihlášení",
+          "item-2": "Registrace",
+          "item-3": "Nemovitosti",
+          "item-4": "Přeprava",
+          "item-5": "Práce",
+          "item-6": "Podmínky Služeb"
+        }
+      },
+      "menu-4": {
+        "text-head": "Zpravodaj",
+        "items": {
+          "item-1": "Zaregistrujte se a získávejte nejnovější tipy na svůj email.",
+          "item-2": "Zadejte svůj email",
+          "item-3": "Váš email",
+          "item-4": "Odebírat"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "Placifull. Staráme se o Vás"
+    },
+    "right": "Tým Placifull"
+  }
+}

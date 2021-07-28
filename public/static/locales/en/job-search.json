@@ -1,0 +1,61 @@
+{
+  "form": {
+    "currency": "Currency",
+    "no-currency": "ALL",
+    "languages": {
+      "native": "Native Languages",
+      "english": "Langueges in English"
+    },
+    "submit": "Search Now",
+    "accordion": {
+      "label": "ADVANCED SEARCH",
+      "searchFilter": {
+        "heading": "Features",
+        "licenses": "Transport License",
+        "education": "Education/Degree",
+        "expierience": "Expierience in Years",
+        "candiadate": "Candidate is able to:",
+        "benefits": "Benefits"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "Hourly Rate",
+        "items": {
+          "from": "From: 0",
+          "to": "To: 999,999"
+        }
+      },
+      "monthly-salary": {
+        "label": "Monthly Salary",
+        "items": {
+          "from": "From: 0",
+          "to": "To: 999,999,999"
+        }
+      },
+      "yearly-salary": {
+        "label": "Yearly Salary",
+        "items": {
+          "from": "From: 0",
+          "to": "To: 99,999,999,999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Sort by",
+        "options": {
+          "monthly-salary": "Monthly salary",
+          "annual-salary": "Annual salary",
+          "hourly-salary": "Hourly rate",
+          "popularity": "Popularity",
+          "views": "Viewed",
+          "country": "Country",
+          "insert-date": "Insert Date"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "Commencez à parcourir le site et cherchez votre maison et ce dont vous avez besoin"
+        }
+      },
+      "menu-2": {
+        "text-head": "La Société",
+        "items": {
+          "item-1": "À propos",
+          "item-2": "L’équipe",
+          "item-3": "Carrière",
+          "item-4": "Blog"
+        }
+      },
+      "menu-3": {
+        "text-head": "Accès rapides",
+        "items": {
+          "item-1": "Se connecter",
+          "item-2": "S’inscrire",
+          "item-3": "Immobilier",
+          "item-4": "Transports",
+          "item-5": "Emplois",
+          "item-6": "Conditions d’utilisation"
+        }
+      },
+      "menu-4": {
+        "text-head": "Newsletter",
+        "items": {
+          "item-1": "S’inscrire et recevoir nos derniers conseils par mail",
+          "item-2": "Veuillez entrer votre email",
+          "item-3": "Votre adresse mail",
+          "item-4": "S’abonner"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "Pacifull. Nous faisons attention à vous."
+    },
+    "right": "L’équipe Pacifull"
+  }
+}

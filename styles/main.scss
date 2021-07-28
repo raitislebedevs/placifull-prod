@@ -1,0 +1,19 @@
+//abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+//themes
+@import "themes/default";
+
+//plugin
+@import "~bootstrap/scss/bootstrap";
+
+//base
+@import "base/normalize";
+
+//pages
+@import "pages/index";
+
+//component
+@import "components/layouts/index";
+@import "components/common/index";

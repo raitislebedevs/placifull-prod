@@ -1,0 +1,392 @@
+.real-estate-item-card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgba(255, 0, 0, 0.33);
+  position: relative;
+  width: 100%;
+
+  .bottom-real-estate-item__tag {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    padding: 0 10px;
+    font-size: 14px;
+    &:hover {
+      transition: 0.5s all;
+      color: white;
+      border: 1px solid theme-color("primary");
+      background-color: theme-color("primary");
+    }
+  }
+
+  .real-estate-item-card__price-tag {
+    height: 30px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: -8px;
+    top: 5px;
+    z-index: 1;
+    font-size: 14px;
+    color: white;
+    font-weight: 900;
+    border-radius: 5px 0px 5px 0.5px;
+    background-color: theme-color("primary-green");
+    padding: 5px;
+    &::after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 8px 0px 0px 8px;
+      border-color: #ababab transparent transparent transparent;
+      content: "";
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+    }
+  }
+  .real-estate-item-card__image-cover {
+    height: 250px;
+    width: 100%;
+    border-radius: 5px;
+    .image-cover__carousel-container {
+      height: 100%;
+      .react-multi-carousel-track {
+        height: 100%;
+        .cover__item {
+          height: 100%;
+          .carousel-container__item {
+            height: 100%;
+            width: 100%;
+            position: relative;
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: block;
+            transition: 0.5s background-size;
+            background-color: #a0a0a0;
+            &::after {
+              opacity: 0.3;
+              background: linear-gradient(
+                to bottom,
+                transparent 0%,
+                black 100%
+              );
+              background-color: rgba(0, 0, 0, 0.1);
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              height: 100%;
+              width: 100%;
+              content: "";
+            }
+            &:hover {
+              background-size: 115% 115%;
+              .item__name-address {
+                bottom: 30px;
+              }
+            }
+            .item__name-address {
+              position: absolute;
+              bottom: 15px;
+              left: 15px;
+              z-index: 1;
+              transition: 0.75s all;
+              .name-address__address {
+                border: 1px solid white;
+                color: #fff;
+                box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+                font-size: 9px;
+                text-transform: uppercase;
+                font-weight: 800;
+                border-radius: 5px;
+                padding: 3px 5px;
+                width: fit-content;
+                .wrapper__icon {
+                  transform: translateY(-2px);
+                  margin-right: 5px;
+                }
+              }
+              .name-address__name {
+                text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+                color: #fff;
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 2px;
+                margin-top: 5px;
+              }
+            }
+          }
+        }
+      }
+      .react-multiple-carousel__arrow {
+        min-height: 30px !important;
+        min-width: 30px !important;
+        z-index: 10 !important;
+      }
+      .react-multiple-carousel__arrow::before {
+        font-size: 15px !important;
+      }
+    }
+  }
+  .real-estate-item-card__information {
+    height: 150px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .information__name {
+      font-weight: 600;
+      font-size: 18px;
+      color: black;
+      &:hover {
+        color: theme-color("primary");
+      }
+    }
+    .information__upper-real-estate-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .upper-real-estate-item__wrapper {
+        display: flex;
+        align-items: center;
+        color: #726262;
+        .wrapper__icon {
+          margin-right: 7px;
+        }
+        .wrapper__text {
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+    }
+    .inforamtion__bottom-real-estate-item {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .real-estate-item-card__ratings {
+        position: absolute;
+        bottom: 30px;
+        color: gold;
+        z-index: 2;
+        left: 20px;
+      }
+      .real-estate-item-card__count {
+        font-size: 12px;
+        color: theme-color("primary");
+        position: absolute;
+        right: 20px;
+        z-index: 2;
+        bottom: 30px;
+        .viewed__icon {
+          margin-right: 3px;
+          margin-bottom: 3px;
+        }
+      }
+    }
+  }
+}
+
+.slick-dots {
+  li {
+    button {
+      &::before {
+        font-size: 14px;
+        transition: 0.2s all;
+        color: theme-color("primary");
+      }
+    }
+  }
+  li.slick-active {
+    button {
+      &::before {
+        color: theme-color("primary");
+      }
+    }
+  }
+}
+
+.react-multiple-carousel__arrow {
+  z-index: 10 !important;
+}
+
+.map_pop_up {
+  .real-estate-item-card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(255, 0, 0, 0.33);
+    position: relative;
+    width: 100%;
+
+    .real-estate-item-card__price-tag {
+      height: 16px;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+      position: absolute;
+      left: -8px;
+      top: 5px;
+      z-index: 1;
+      font-size: 10px;
+      color: white;
+      font-weight: 700;
+      border-radius: 5px 0px 5px 0.5px;
+      background-color: theme-color("primary-green");
+      padding: 2px;
+      &::after {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 8px 0px 0px 8px;
+        border-color: #ababab transparent transparent transparent;
+        content: "";
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+      }
+    }
+    .real-estate-item-card__image-cover {
+      height: 125px;
+      width: 211px;
+      border-radius: 5px;
+      .image-cover__carousel-container {
+        height: 100%;
+        .react-multi-carousel-track {
+          height: 100%;
+          .cover__item {
+            height: 100%;
+            .carousel-container__item {
+              height: 100%;
+              width: 100%;
+              position: relative;
+              background-size: 100% 100%;
+              background-position: center;
+              background-repeat: no-repeat;
+              display: block;
+              transition: 0.5s background-size;
+              background-color: #a0a0a0;
+              &::after {
+                opacity: 0.3;
+                background: linear-gradient(
+                  to bottom,
+                  transparent 0%,
+                  black 100%
+                );
+                background-color: rgba(0, 0, 0, 0.1);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                content: "";
+              }
+              &:hover {
+                background-size: 105% 105%;
+                .item__name-address {
+                  bottom: 18px;
+                }
+              }
+              .item__name-address {
+                position: absolute;
+                bottom: 15px;
+                left: 15px;
+                z-index: 1;
+                transition: 0.75s all;
+                .name-address__address {
+                  border: 1px solid white;
+                  color: #fff;
+                  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+                  font-size: 9px;
+                  text-transform: uppercase;
+                  font-weight: 800;
+                  border-radius: 5px;
+                  padding: 3px 5px;
+                  width: fit-content;
+                  .wrapper__icon {
+                    transform: translateY(-2px);
+                    margin-right: 5px;
+                  }
+                }
+                .name-address__name {
+                  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: bold;
+                  margin-bottom: 2px;
+                  margin-top: 5px;
+                }
+              }
+            }
+          }
+        }
+        .react-multiple-carousel__arrow {
+          min-height: 22px !important;
+          min-width: 22px !important;
+          z-index: 10 !important;
+        }
+        .react-multiple-carousel__arrow::before {
+          font-size: 10px !important;
+        }
+      }
+    }
+    .real-estate-item-card__information {
+      height: 90px;
+      padding: 0px 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .information__name {
+        font-weight: 600;
+        font-size: 14px;
+        color: black;
+        &:hover {
+          color: theme-color("primary");
+        }
+      }
+      .information__upper-real-estate-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .upper-real-estate-item__wrapper {
+          display: flex;
+          align-items: center;
+          color: #726262;
+          .wrapper__icon {
+            margin-right: 7px;
+          }
+          .wrapper__text {
+            font-size: 12px;
+            font-weight: 400;
+          }
+        }
+      }
+      .inforamtion__bottom-real-estate-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .real-estate-item-card__ratings {
+          position: absolute;
+          color: gold;
+          z-index: 2;
+          bottom: 7px;
+          left: 10px;
+        }
+        .real-estate-item-card__count {
+          font-size: 12px;
+          color: theme-color("primary");
+          position: absolute;
+          right: 10px;
+          bottom: 7px;
+          z-index: 2;
+          .viewed__icon {
+            margin-right: 3px;
+            margin-bottom: 3px;
+          }
+        }
+      }
+    }
+  }
+}

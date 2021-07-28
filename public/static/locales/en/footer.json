@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "Start Your Journey",
+        "items": {
+          "item-1": "What Are you waiting for? Start looking for your dream house, the perfect car, dream job and in country you always wanted to live in."
+        }
+      },
+      "menu-2": {
+        "text-head": "Company",
+        "items": {
+          "item-1": "About us",
+          "item-2": "Team",
+          "item-3": "Career",
+          "item-4": "Blog"
+        }
+      },
+      "menu-3": {
+        "text-head": "Quick Links",
+        "items": {
+          "item-1": "Login",
+          "item-2": "Register",
+          "item-3": "Real Estate",
+          "item-4": "Transportation",
+          "item-5": "Jobs",
+          "item-6": "Terms of Services"
+        }
+      },
+      "menu-4": {
+        "text-head": "Newsletter",
+        "items": {
+          "item-1": "",
+          "item-2": "This field is required",
+          "item-3": "Your email",
+          "item-4": "Subscribe"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "Placifull. We care for you with"
+    },
+    "right": "Placifull Team"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "heading": "Accedi",
+  "form": {
+    "your-email": "Fornisci un indirizzo email",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Registrati",
+    "remember-me": "Ricordami",
+    "forgot-password": "Hai dimenticato la password?",
+    "or": "Oppure accedi con",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "Non hai un account?",
+    "sign-up": "Registrati",
+    "error": {
+      "email-invalid": "L'email non è valida.",
+      "email-required": "L'email è obbligatoria.",
+      "password-required": "È necessaria la password"
+    },
+    "success": "Bentornato!",
+    "already-login": "Hai dovuto accedere due volte?"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "home": "ホーム",
+  "opportunities": {
+    "base": "採用機会",
+    "real-estate": "不動産",
+    "vehicles": "車両",
+    "job-search": "就職活動"
+  },
+  "help": "ヘルプセンター",
+  "sign-in": "サインイン",
+  "register": "ログイン",
+  "add-listing": "リストを追加"
+}

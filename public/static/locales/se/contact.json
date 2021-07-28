@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "Hjälp och support",
+    "info": {
+      "text": "WhatsApp kontaktnummer",
+      "phone": "+46 (0)712345678"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "Kontaktinformation",
+      "items": {
+        "item-1": {
+          "label": "Placering",
+          "description": "Kungsgatan 15"
+        },
+        "item-2": {
+          "label": "Telefonnummer",
+          "description": "+46 (0)712345678"
+        },
+        "item-3": {
+          "label": "E-mail",
+          "description": "exempel@gmail.com"
+        },
+        "item-4": {
+          "label": "Kundservice",
+          "description": "support@example.com"
+        }
+      }
+    },
+    "form": {
+      "heading": "Form",
+      "name": "Namn",
+      "email": "E-mail",
+      "subject": "Ämne",
+      "message": "Meddelande",
+      "submit": "Skicka meddelandet"
+    }
+  }
+}

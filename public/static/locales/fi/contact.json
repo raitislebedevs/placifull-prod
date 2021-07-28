@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "Ohje ja Tuki",
+    "info": {
+      "text": "WhatsApp-numero",
+      "phone": "+371 9999999999"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "Yhteystiedot",
+      "items": {
+        "item-1": {
+          "label": "Sijainti",
+          "description": "4758 Nancy Street"
+        },
+        "item-2": {
+          "label": "Puhelinnumero",
+          "description": "+1 919-571-2528"
+        },
+        "item-3": {
+          "label": "Sähköposti",
+          "description": "hei@esimerkki.fi"
+        },
+        "item-4": {
+          "label": "Asiakaspalvelu",
+          "description": "asiakaspalvelu@esimerkki.fi"
+        }
+      }
+    },
+    "form": {
+      "heading": "Lomake",
+      "name": "Nimi",
+      "email": "Sähköposti",
+      "subject": "Aihe",
+      "message": "Viesti",
+      "submit": "Lähetä Viesti"
+    }
+  }
+}

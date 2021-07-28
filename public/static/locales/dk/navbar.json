@@ -1,0 +1,13 @@
+{
+  "home": "HJEM",
+  "opportunities": {
+    "base": "VALGMULIGHEDER",
+    "real-estate": "FAST EJENDOM",
+    "vehicles": "KØRETØJER",
+    "job-search": "JOBSØGNING"
+  },
+  "help": "HJÆLP OG SUPPORT",
+  "sign-in": "LOG IND",
+  "register": "REGISTRER",
+  "add-listing": "TILFØJ"
+}

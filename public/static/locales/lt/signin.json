@@ -1,0 +1,23 @@
+{
+  "heading": "Prisijungimas",
+  "form": {
+    "your-email": "Įvesk savo el. paštą",
+    "email": "El. paštas",
+    "password": "Slaptažodis",
+    "submit": "Prisijungti",
+    "remember-me": "Atsiminti mane",
+    "forgot-password": "Pamiršai slaptažodį?",
+    "or": "Arba prisijunk su",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "Neturi paskyros?",
+    "sign-up": "Registruokis",
+    "error": {
+      "email-invalid": "El. paštas yra netinkamas",
+      "email-required": "El. paštas yra privalomas",
+      "password-required": "Slaptažodis yra privalomas"
+    },
+    "success": "Sveiki sugrįžę!",
+    "already-login": "Bandai prisijungti antrą kartą?"
+  }
+}

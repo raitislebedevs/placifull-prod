@@ -1,0 +1,6 @@
+.real-estate-container{
+  width: 100%;
+  @import '../components/pages/real-estate/HeroSection';
+  @import '../components/pages/real-estate/SearchResultSection';
+  @import '../components/pages/real-estate/BlogSection';
+}

@@ -1,0 +1,127 @@
+{
+  "elements": {
+    "loading": "cargando...",
+    "loading-right": "Cargando...",
+    "loading-left": "...Cargando",
+    "no-results": "No se han encontrado resultados"
+  },
+  "user": {
+    "name": "Nombre",
+    "first-name": "Nombre",
+    "last-name": "Apellido",
+    "email": {
+      "email-upper": "Correo electrónico",
+      "email-lower": "correo electrónico",
+      "your-email": "Su correo electrónico"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "days-ago": "hace días"
+  },
+
+  "social-links": {
+    "heading": "Enlaces a Redes Sociales",
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
+  },
+
+  "social": {
+    "heading": "Enlaces a Redes Sociales",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "youtube": "Youtube",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram"
+  },
+
+  "week-days": {
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo"
+  },
+
+  "toast": {
+    "submit-success": "¡Tu anuncio fue publicado!",
+    "server-error": "Entrada incorrecta/servidor no alcanzado",
+    "logging-required": "Es necesario iniciar sesión",
+    "cannot-apply": "Ojo, esto es una vista previa",
+    "preview": "En la vista previa no se puede ofertar",
+    "log-in": "Debe iniciar sesión para ofertar",
+    "bidding-price": "No hay precio de oferta",
+    "price-lower": "La oferta es inferior al 20% del precio de venta",
+    "price-upper": "La oferta es superior al 20% del precio de venta",
+    "refresh-page": "El servidor no responde, por favor actualice",
+    "not-send": "El correo electrónico no fue enviado",
+    "contact-directly": "Contactar directamente",
+    "email-send": "El correo electrónico ha sido enviado",
+    "no-email": "El correo electrónico del anuncio no existe",
+    "subscribed": "Enhorabuena, se ha suscrito :)",
+    "already-applied": "Te inscribiste a esta posición",
+    "already": "Ya estás inscrito/ correo electrónico no válido",
+    "country-error": "Error no especificado de información de país",
+    "location-error": "No se ha podido obtener las ubicaciones",
+    "unknown-error": "Error de servidor desconocido"
+  },
+
+  "location": {
+    "country": "País",
+    "state": "Estado/Región",
+    "city": "Ciudad",
+    "no-city": "No hay ciudades",
+    "no-states": "No hay estados",
+    "states-not-registerd": "No hay estados registrados",
+    "cities-registerd": "No hay ciudades registradas"
+  },
+
+  "items-per-page": {
+    "label": "Anuncios",
+    "options": {
+      "nine": "9 anuncios",
+      "eighteen": "18 anuncios",
+      "twenty-seven": "27 anuncios",
+      "thirty-six": "36 anuncios",
+      "seventy-two": "72 anuncios"
+    }
+  },
+
+  "month": {
+    "Jan": "Enero",
+    "Feb": "Febrero",
+    "Mar": "Marzo",
+    "Apr": "Abril",
+    "May": "Mayo",
+    "Jun": "Junio",
+    "Jul": "Julio",
+    "Aug": "Agosto",
+    "Sep": "Septiembre",
+    "Oct": "Octubre",
+    "Nov": "Noviembre",
+    "Dec": "Diciembre"
+  },
+  "currency": {
+    "currency-label": "Moneda",
+    "no-currency": "Todos"
+  },
+  "measurement": {
+    "label": "Medida",
+    "system": {
+      "none": "Ninguno",
+      "metric": "Métrico",
+      "imperial": "Imperial"
+    }
+  },
+  "user-box": {
+    "profile": "Perfil",
+    "log-out": "Cerrar sesión"
+  }
+}

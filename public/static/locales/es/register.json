@@ -1,0 +1,27 @@
+{
+  "heading": "Registrarse",
+  "form": {
+    "first-name": "Nombre",
+    "last-name": "Apellido",
+    "your-email": "Correo electrónico",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirm-password": "repetir contraseña",
+    "submit": "Registrarse",
+    "terms-text": "Acepto",
+    "terms-link": "Términos y condiciones",
+    "error": {
+      "email-invalid": "Correo electrónico inválido",
+      "email-required": "Se requiere correo electrónico",
+      "password-required": "Se requiere contraseña",
+      "first-name-required": "Nombre requerido",
+      "last-name-required": "Apellido requerido"
+    }
+  },
+  "or": "O iniciar sesión con",
+  "facebook": "Facebook",
+  "google": "Google",
+  "account": "Ya tienes cuenta?",
+  "sign-in": "Inicia sesión",
+  "success-text": "Excelente, Empecemos!"
+}

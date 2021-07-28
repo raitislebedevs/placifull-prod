@@ -1,0 +1,27 @@
+{
+  "heading": "Registrer",
+  "form": {
+    "first-name": "Fornavn",
+    "last-name": "Efternavn",
+    "your-email": "Angiv e-mail",
+    "email": "E-mail",
+    "password": "Adgangskode",
+    "confirm-password": "Bekræft adgangskode",
+    "submit": "Registrer",
+    "terms-text": "Jeg accepterer",
+    "terms-link": "Vilkår og betingelser",
+    "error": {
+      "email-invalid": "Ugyldig e-mail",
+      "email-required": "E-mail påkrævet",
+      "password-required": "Adgangskode påkrævet",
+      "first-name-required": "Fornavn påkrævet",
+      "last-name-required": "Efternavn påkrævet"
+    }
+  },
+  "or": "Eller log ind med",
+  "facebook": "Facebook",
+  "google": "Google",
+  "account": "Har du allerede en konto?",
+  "sign-in": "Log ind",
+  "success-text": "Sådan, lad os komme i gang!"
+}

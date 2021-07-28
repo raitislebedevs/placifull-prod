@@ -1,0 +1,215 @@
+*,
+*:focus,
+*:hover {
+  outline: none !important;
+}
+
+body,
+html,
+#__next {
+  height: 100%;
+  overflow: hidden;
+}
+
+#__next {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+}
+
+a {
+  transition: 0.2s color;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+p {
+  margin-bottom: 0;
+}
+.dropdown {
+  .dropdown-menu {
+    border-color: hsl(0, 0%, 80%);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    border: none;
+    .dropdown-item {
+      &:hover {
+        background-color: $dark-red-transparent;
+      }
+    }
+  }
+}
+
+.form-group {
+  position: relative;
+  &:focus-within {
+    .form-label-inline {
+      top: -5px;
+      font-size: 10px;
+    }
+  }
+
+  .form-label {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    color: $black-text;
+  }
+
+  .form-label-inline {
+    position: absolute;
+    transition: 0.2s all;
+    z-index: 10;
+    user-select: none;
+    max-width: 100%;
+    overflow: hidden;
+    color: #7a7676;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    top: 0.375rem;
+    left: 0.75rem;
+    cursor: text;
+  }
+
+  .form-label-inline--has-text {
+    top: -5px;
+    font-size: 10px;
+  }
+  .form-control {
+    box-shadow: none;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    color: #3c4858;
+    height: 48px;
+    font-size: 13.5px;
+    border-radius: 5px;
+    transition: all 0.3s ease, height 0s;
+    &:hover {
+      border: 1px solid #b1b1b1;
+    }
+    &:focus {
+      border: 1px solid theme-color("primary");
+    }
+    &:not(:placeholder-shown) ~ .form-label-inline {
+      color: red !important;
+    }
+  }
+  .form-control[readonly] {
+    background-color: #e9ecef;
+    cursor: default;
+    opacity: 1;
+  }
+  .input-group {
+    flex-wrap: nowrap;
+  }
+  .form-control-container {
+    width: 100%;
+    position: relative;
+  }
+  .form-control-container > .form-control:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-control-container--has-append {
+    .form-control {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      position: relative;
+      z-index: 2;
+    }
+  }
+  .Dropdown-root {
+    .Dropdown-control {
+      cursor: pointer;
+      height: 48px;
+      border: 1px solid #dee2e6;
+      padding: 11px 20px 11px 10px;
+      font-size: 14px;
+      .Dropdown-arrow {
+        top: 22px;
+        right: 6px;
+      }
+    }
+    .Dropdown-menu {
+      .Dropdown-option.is-selected {
+        background-color: transparentize(
+          $color: theme-color("primary"),
+          $amount: 0.8
+        );
+      }
+    }
+  }
+  .Dropdown-prepend {
+    .Dropdown-control {
+      border-radius: 5px 0 0 5px;
+    }
+  }
+  .Dropdown-append {
+    .Dropdown-control {
+      border-radius: 0 5px 5px 0;
+    }
+  }
+  .auto-complete-container {
+    position: absolute;
+    z-index: 2000;
+    width: 100%;
+    min-height: 48px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 5px;
+    box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.16);
+    .auto-complete-container__result-wrapper {
+      min-height: 48px;
+      padding: 10px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      &:hover {
+        background-color: transparentize(
+          $color: theme-color("primary"),
+          $amount: 0.8
+        );
+      }
+    }
+  }
+}
+
+textarea.form-control {
+  padding-top: 10px;
+}
+
+.error-text {
+  color: theme-color("danger");
+  margin: 7px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.success-text {
+  color: theme-color("success");
+  margin: 7px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sup-square {
+  &::after {
+    content: "2";
+    font-size: 10px;
+    vertical-align: super;
+  }
+}

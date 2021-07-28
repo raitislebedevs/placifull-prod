@@ -1,0 +1,23 @@
+{
+  "heading": "Logga in",
+  "form": {
+    "your-email": "Skriv in e-mail",
+    "email": "E-mail",
+    "password": "Lösenord",
+    "submit": "Logga in",
+    "remember-me": "Kom ihåg mig",
+    "forgot-password": "Glömt lösenord?",
+    "or": "Eller logga in med",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "Inget konto?",
+    "sign-up": "Skapa konto",
+    "error": {
+      "email-invalid": "Ogiltig e-mail",
+      "email-required": "E-mail krävs",
+      "password-required": "Lösenord krävs"
+    },
+    "success": "Välkommen tillbaka!",
+    "already-login": "Redan inloggad"
+  }
+}

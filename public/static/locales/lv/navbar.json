@@ -1,0 +1,15 @@
+{
+  "home": "Sākums",
+  "opportunities": {
+    "base": "Iespājas",
+    "real-estate": "Īpašumi",
+    "vehicles": "Transports",
+    "job-search": "Darbs",
+    "personal-company": "Biznesam",
+    "invest": "Investēt"
+  },
+  "help": "Palīdzība & Atbalsts",
+  "sign-in": "Pieslēgties",
+  "register": "Reģistrēties",
+  "add-listing": "Ievietot"
+}

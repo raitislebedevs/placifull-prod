@@ -1,0 +1,64 @@
+{
+  "title": "Search for Real Estate Listing",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "Min Price",
+        "max-price": "Max Price",
+        "min-rooms": "Min Rooms",
+        "max-rooms": "Max Rooms",
+        "min-area": "Min Area",
+        "max-area": "Max Area",
+        "move-in-date": "Move in From Date",
+        "move-out-date": "Move in To Date",
+        "currency": "Currency"
+      },
+
+      "submit": "Search Now",
+      "accordion": "ADVANCED SEARCH",
+      "accordion-right": {
+        "utility-label": "Utility Bill Range",
+        "utility": {
+          "from-price": "From: 0.00",
+          "to-price": "To: 9,999,999,999"
+        },
+        "year-label": "Year Built",
+        "built": {
+          "from-year": "From: 1000",
+          "to-year": "To: 9999"
+        },
+        "measurement-label": "Measurement",
+        "system": {
+          "none": "None",
+          "metric": "Metric m",
+          "imperial": "Imperial ft"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Sort by",
+        "options": {
+          "price": "Price",
+          "area": "Area",
+          "rooms": "Rooms",
+          "street-name": "Street name",
+          "popularity": "Popularity",
+          "views": "Viewed",
+          "country": "Country",
+          "insert-date": "Insert Date"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "From the blog",
+    "see-more": "Read more"
+  },
+  "error": {
+    "tags": "Please contact us saying:'No Tags Found'"
+  },
+  "no-tags": "No features for this option"
+}

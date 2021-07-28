@@ -1,0 +1,63 @@
+{
+  "header": {
+    "flag-button": "SIGNALER CE CONTENU"
+  },
+  "detail-info": {
+    "button": "JE VEUX EMMÉNAGER MAINTENANT"
+  },
+  "contact-times": {
+    "heading": "Horaires de prise de contact préférables"
+  },
+
+  "promoted": "Mise à la Une",
+
+  "about": {
+    "heading": "À propos",
+    "featured": "Mise à la Une",
+    "notFeatured": "Non Mise à la Une",
+    "rentTime": "par mois",
+    "inputTimeDays": "il y a quelques jours"
+  },
+
+  "general-info": {
+    "heading": "Informations générales",
+    "brand": "Marque de véhicule",
+    "model": "Modèle de véhicule",
+    "year": "Année",
+    "price": "Prix",
+    "distance": "Kilométrage",
+    "max-speed": "Vitesse maximale",
+    "fuel-economy": "Consommation de carburant",
+    "seats": "Places",
+    "doors": "Portes",
+    "bid-price": "Montant de l'offre pour le Véhicule",
+    "submit": "OFFRE D'ACHAT",
+    "bid-placeholder": "Faites une offre dans une marge de 20 %"
+  },
+  "features": {
+    "heading": "Caractéristiques"
+  },
+  "contact-form": {
+    "not-specified": "Non précisé",
+    "heading": "Contacter le propriétaire directement",
+    "form": {
+      "heading": "Écrivez votre question ici",
+      "fullName": "Nom complet*",
+      "phoneNumber": "Numéro de téléphone*",
+      "email": "Adresse e-mail*",
+      "message": "Votre message",
+      "submit": "ENVOYER LE MESSAGE"
+    }
+  },
+  "extra": {
+    "heading": "Autres véhicules listés par ce profil",
+    "table": {
+      "number": "No.",
+      "country": "Pays",
+      "brand-model": "Modèle/Marque",
+      "price": "Prix",
+      "condition": "État",
+      "production-year": "Année"
+    }
+  }
+}

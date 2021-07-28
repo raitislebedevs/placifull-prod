@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "Hjelp og support",
+    "info": {
+      "text": "WhatsApp kontakt nummer",
+      "phone": "+47 12345678"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "Kontaktinformasjon",
+      "items": {
+        "item-1": {
+          "label": "Plassering",
+          "description": "Storgata 15"
+        },
+        "item-2": {
+          "label": "Telefonnummer",
+          "description": "+47 12345678"
+        },
+        "item-3": {
+          "label": "E-post",
+          "description": "eksempel@gmail.com"
+        },
+        "item-4": {
+          "label": "Kundeservice",
+          "description": "support@example.com"
+        }
+      }
+    },
+    "form": {
+      "heading": "Skjema",
+      "name": "Navn",
+      "email": "E-post",
+      "subject": "Emne",
+      "message": "Beskjed",
+      "submit": "Send meldingen"
+    }
+  }
+}

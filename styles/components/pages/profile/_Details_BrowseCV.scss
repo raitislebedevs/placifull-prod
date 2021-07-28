@@ -1,0 +1,90 @@
+.right-content__browse-cv {
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.13);
+  padding: 1.25rem;
+  border-radius: 5px;
+  .browse-cv__heading {
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+  }
+
+  .browse-cv__filter-area {
+    .form-group {
+      margin-bottom: 0.7rem;
+      position: relative;
+      > svg {
+        position: absolute;
+        z-index: 99;
+        right: 10px;
+        top: 30%;
+        font-size: 23px;
+        color: theme-color("primary");
+      }
+
+      #start_date,
+      #end_date {
+        height: 42px;
+      }
+    }
+  }
+
+  .browse-cv__result-area {
+    overflow-x: scroll;
+    table {
+      border: 1px solid #dee2e6;
+      border-radius: 8px;
+      border-collapse: separate;
+      border-spacing: 0;
+      .minimum_wide {
+        min-width: 150px;
+      }
+      thead {
+        th {
+          border: none;
+          background: #fcfcfc;
+          border-radius: 8px;
+          padding: 0.75rem 0.35rem;
+          vertical-align: middle;
+        }
+      }
+
+      td,
+      th {
+        font-size: 15px;
+        button {
+          border-radius: 8px;
+        }
+        .result__area-status {
+          text-align: center;
+          color: white;
+          border-radius: 8px;
+          font-size: 14px;
+          min-width: 70px;
+          &.paid {
+            background: #04df68;
+          }
+
+          &.not_paid {
+            background: #fec400;
+          }
+        }
+        .form-check {
+          input {
+            width: 18px;
+            height: 18px;
+          }
+        }
+      }
+
+      tbody {
+        td {
+          padding: 0.75rem 0.35rem;
+        }
+      }
+    }
+
+    .items__loading {
+      text-align: center;
+      padding: 50px 0px;
+    }
+  }
+}

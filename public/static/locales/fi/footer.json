@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "Aloita talon ja tarvitsemiesi esineiden etsiminen."
+        }
+      },
+      "menu-2": {
+        "text-head": "Yhtiö",
+        "items": {
+          "item-1": "Meistä",
+          "item-2": "Tiimi",
+          "item-3": "Ura",
+          "item-4": "Blogi"
+        }
+      },
+      "menu-3": {
+        "text-head": "Pikalinkkejä",
+        "items": {
+          "item-1": "Kirjaudu sisään",
+          "item-2": "Rekisteröidy",
+          "item-3": "Kiinteistöjä",
+          "item-4": "Kuljetus",
+          "item-5": "Työpaikat",
+          "item-6": "Palveluehdot"
+        }
+      },
+      "menu-4": {
+        "text-head": "Uutiskirje",
+        "items": {
+          "item-1": "Rekisteröidy ja saa uusimmat vinkit sähköpostitse.",
+          "item-2": "Syötä sähköpostisi",
+          "item-3": "Sähköpostisi",
+          "item-4": "Tilaa"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "Placifull. Välitämme sinusta"
+    },
+    "right": "mellä. Placifull Tiimi"
+  }
+}

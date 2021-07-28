@@ -1,0 +1,27 @@
+{
+  "heading": "Reģistrēties",
+  "form": {
+    "first-name": "Vārds",
+    "last-name": "Uzvārds",
+    "your-email": "Norādiet E-pastu",
+    "email": "E-pasts",
+    "password": "Parole",
+    "confirm-password": "Apstiprināt Paroli",
+    "submit": "Reģistrēties",
+    "terms-text": "Es Piekrītu",
+    "terms-link": "Noteikumiem",
+    "error": {
+      "email-invalid": "Nepareizs e-pasta formāts",
+      "email-required": "E-pasts ir vajadzīgs",
+      "password-required": "Parole ir nepieciešama",
+      "first-name-required": "Vārds ir nepieciešams",
+      "last-name-required": "Uzvārds ir nepieciešams"
+    }
+  },
+  "or": "Vai Pievienoties Ar",
+  "facebook": "Facebook",
+  "google": "Google",
+  "account": "Jums jau ir savs konts?",
+  "sign-in": "Pievienoties",
+  "success-text": "Urrā, Saksim Darboties! "
+}

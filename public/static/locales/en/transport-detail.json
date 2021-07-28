@@ -1,0 +1,63 @@
+{
+  "header": {
+    "flag-button": "FLAG THIS CONTENT"
+  },
+  "detail-info": {
+    "button": "I WANT TO MOVE IN NOW"
+  },
+  "contact-times": {
+    "heading": "Preferable Contact Times"
+  },
+
+  "promoted": "Promoted",
+
+  "about": {
+    "heading": "About",
+    "featured": "Promoted",
+    "notFeatured": "Not Promoted",
+    "rentTime": "per month",
+    "inputTimeDays": "days ago"
+  },
+
+  "general-info": {
+    "heading": "General Information",
+    "brand": "Transport Brand",
+    "model": "Transport Model",
+    "year": "Year",
+    "price": "Price",
+    "distance": "Distance",
+    "max-speed": "Max Speed",
+    "fuel-economy": "Fuel Economy",
+    "seats": "Seats",
+    "doors": "Doors",
+    "bid-price": "Bid Price for Transportation",
+    "submit": "BID",
+    "bid-placeholder": "Bid in 20 % margin"
+  },
+  "features": {
+    "heading": "Features"
+  },
+  "contact-form": {
+    "not-specified": "Not Specified",
+    "heading": "Contact the Owner Directly",
+    "form": {
+      "heading": "Write your question from here",
+      "fullName": "Full Name*",
+      "phoneNumber": "Phone Number*",
+      "email": "Email Address*",
+      "message": "Your Message",
+      "submit": "SEND MESSAGE"
+    }
+  },
+  "extra": {
+    "heading": "Other transports listed by this profile",
+    "table": {
+      "number": "Nr.",
+      "country": "Country",
+      "brand-model": "Model/Brand",
+      "price": "Price",
+      "condition": "Condition",
+      "production-year": "Year"
+    }
+  }
+}

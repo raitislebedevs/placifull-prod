@@ -1,0 +1,55 @@
+.terms__hero__section {
+  // background-color: darken($color: snow, $amount: 1);
+  background-image: url('../../../../public/static/images/background/termsBG.jpg');
+  background-position: top;
+  height: 265px;
+  width: auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: unset;
+  .terms__header__link {
+    padding:0 8%;
+    .terms__header__title {
+      display: flex;
+      color:theme-color('primary');
+      font-size:30px;
+      font-weight:600;
+      padding: 105px 0 90px 0;
+    }
+
+    .terms__header__navbar {
+      text-align: center;
+      padding-top: 0px;
+      .breadcrumb{
+        width: max-content;
+        background-color: #ffffff;
+        justify-content: center;
+        margin: 0 auto;
+        border-radius: 12px;
+        max-width: 100%;
+
+
+        .breadcrumb-item{
+          padding:0;
+
+          &::before{
+            content: unset;
+          }
+          &.active{
+            color: theme-color('primary');
+            font-weight: 550;
+
+          }
+          a{
+            font-weight: 550;
+            color:black;
+            svg{
+              margin: 0 8px ;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

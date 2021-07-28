@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "Bantuan dan Dukungan",
+    "info": {
+      "text": "Nomor Whatsapp",
+      "phone": "+371 9999999999"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "Informasi Kontak",
+      "items": {
+        "item-1": {
+          "label": "Lokasi",
+          "description": "4758 Nancy Street"
+        },
+        "item-2": {
+          "label": "Nomor Telepon",
+          "description": "+1 919-571-2528"
+        },
+        "item-3": {
+          "label": "Email",
+          "description": "hello@example.com"
+        },
+        "item-4": {
+          "label": "Layanan Pelanggan",
+          "description": "support@example.com"
+        }
+      }
+    },
+    "form": {
+      "heading": "",
+      "name": "Nama",
+      "email": "Email",
+      "subject": "Subyek",
+      "message": "Pesan",
+      "submit": "Kirim Pesan"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "home": "主页",
+  "opportunities": {
+    "base": "机会",
+    "real-estate": "房地产",
+    "vehicles": "交通工具",
+    "job-search": "求职"
+  },
+  "help": "帮助和支持",
+  "sign-in": "登入",
+  "register": "注册",
+  "add-listing": "添加清单"
+}

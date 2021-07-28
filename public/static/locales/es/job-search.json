@@ -1,0 +1,61 @@
+{
+  "form": {
+    "currency": "Moneda",
+    "no-currency": "TODOS",
+    "languages": {
+      "native": "Idiomas nativos",
+      "english": "Idiomas en inglés"
+    },
+    "submit": "Buscar ahora",
+    "accordion": {
+      "label": "BÚSQUEDA AVANZADA",
+      "searchFilter": {
+        "heading": "Características",
+        "licenses": "Licencia de conducción",
+        "education": "Educación/Titulación",
+        "expierience": "Experiencia en años",
+        "candiadate": "El candidato es capaz de:",
+        "benefits": "Beneficios"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "Salario por hora",
+        "items": {
+          "from": "Desde: 0",
+          "to": "Hasta: 999,999"
+        }
+      },
+      "monthly-salary": {
+        "label": "Salario mensual",
+        "items": {
+          "from": "Desde: 0",
+          "to": "Hasta: 999,999,999"
+        }
+      },
+      "yearly-salary": {
+        "label": "Salario anual",
+        "items": {
+          "from": "Desde: 0",
+          "to": "Hasta: 99,999,999,999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Ordenar por",
+        "options": {
+          "monthly-salary": "Salario mensual",
+          "annual-salary": "Salario anual",
+          "hourly-salary": "Salario por hora",
+          "popularity": "Popularidad",
+          "views": "Visto",
+          "country": "País",
+          "insert-date": "Insertar fecha"
+        }
+      }
+    }
+  }
+}

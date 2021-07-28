@@ -1,0 +1,23 @@
+{
+  "heading": "S’identifier",
+  "form": {
+    "your-email": "Veuillez entrer votre adresse mail.",
+    "email": "Email",
+    "password": "Mot de passe",
+    "submit": "Se connecter",
+    "remember-me": "Se souvenir de moi",
+    "forgot-password": "Mot de passe oublié ?",
+    "or": "Ou se connecter avec",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "Vous n’avez pas encore de compte ?",
+    "sign-up": "S’inscrire",
+    "error": {
+      "email-invalid": "Cette adresse n’est pas valide",
+      "email-required": "Adresse mail requise",
+      "password-required": "Mot de passe requis"
+    },
+    "success": "Nous sommes heureux de vous revoir !",
+    "already-login": "Vous essayez de vous connecter à nouveau ?"
+  }
+}

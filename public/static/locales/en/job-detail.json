@@ -1,0 +1,63 @@
+{
+  "header": {
+    "salary-month": "/month",
+    "buttons": {
+      "apply": "Apply Now",
+      "share": "Share Job"
+    }
+  },
+  "contact-form": {
+    "heading": "Contact the company directly",
+    "form": {
+      "heading": "Write your question from here",
+      "fullName": "Full Name*",
+      "phoneNumber": "Phone Number*",
+      "email": "Email Address*",
+      "message": "Your Message",
+      "submit": "SEND MESSAGE"
+    }
+  },
+  "about": {
+    "description": "Description",
+    "requirements": "Requirements",
+    "benefits": "Benefits"
+  },
+  "job-overview": {
+    "heading": "Job Overview",
+    "items": {
+      "offered-salary": "Offered Salary",
+      "languages": "Language",
+      "native": "Native",
+      "industry": "Indiustry"
+    },
+    "views": "views",
+    "applicants": "applicants",
+    "salary": {
+      "monthly": "monthly",
+      "annual": "annual",
+      "hourly": "hourly"
+    }
+  },
+
+  "application": {
+    "header": "Apply for",
+    "body": {
+      "proposal": "Proposed Salary"
+    },
+    "info": "Your CV will be send to the employment*"
+  },
+
+  "extra": {
+    "heading": "Jobs listed by this profile",
+    "table": {
+      "number": "Nr.",
+      "country": "Country",
+      "full-address": "Office address",
+      "position": "Position",
+      "contract": "Contract type",
+      "time": "Working time",
+      "salary": "Salary from",
+      "end-date": "End date"
+    }
+  }
+}

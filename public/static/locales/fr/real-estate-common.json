@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "Catégorie",
+    "options": {
+      "houses": "Maison",
+      "apartments": "Appartement",
+      "land": "Terrain",
+      "farmhouse": "Maison de campagne",
+      "commercial": "Commercial",
+      "exclusive": "Exclusif",
+      "offices": "Bureau",
+      "agents": "Agence immobilière"
+    }
+  },
+  "action": {
+    "label": "Action",
+    "options": {
+      "sell": "Vendre",
+      "rent": "Louer",
+      "exchange": "Échanger"
+    }
+  },
+  "condition": {
+    "label": "État",
+    "label-land": "Type de propriété",
+    "options": {
+      "brandNew": "Neuf",
+      "goodCondition": "Bonne condition",
+      "medium": "Moyen",
+      "requiresFixing": "Nécessite des réparations ",
+      "requiresConstruction": "Nécessite une construction",
+      "residential": "Résidentiel",
+      "comercial": "Commercial",
+      "industrial": "Industriel",
+      "agricultural": "Agricole"
+    }
+  },
+  "contact-times": {
+    "label": "Horaires de prise de contact",
+    "options": {
+      "anyTime": "À tout moment ",
+      "workingDays": "Jours de travail",
+      "officeHours": "Heures de bureaux ",
+      "specificTimes": "Horaires spécifiques"
+    }
+  },
+  "features": {
+    "heading": "Caractéristiques",
+    "category": {
+      "kitchen": "Cuisine",
+      "bathroom": "Salle de bains",
+      "living-room": "Salon",
+      "bedroom": "Chambre à coucher",
+      "housing-extras": "Autres extras",
+      "land-type": "Type de terrain",
+      "buildingLand": "Terrain à bâtir pour",
+      "forest-properties": "Propriétés forestières",
+      "agriculture-properties": "Propriétés agricoles"
+    }
+  },
+  "utilities": {
+    "heading": "Installations",
+    "total": "Total",
+    "items": {
+      "coldWater": "Eau froide",
+      "hotWater": "Eau chaude",
+      "electricity": "Électricité",
+      "garbage": "Ordures",
+      "propertyManagement": "Gestion de la propriété",
+      "heating": "Chauffage",
+      "parking": "Parking",
+      "others": "Autres"
+    }
+  }
+}

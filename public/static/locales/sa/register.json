@@ -1,0 +1,27 @@
+{
+  "heading": "التسجيل",
+  "form": {
+    "first-name": "الأسم الأول",
+    "last-name": "أسم العائله",
+    "your-email": "أدخل البريد الألكتروني",
+    "email": "البريد الألكتروني",
+    "password": "كلمة المرور",
+    "confirm-password": "تأكيد كلمة المرور",
+    "submit": "تسجيل",
+    "terms-text": "أوافق",
+    "terms-link": "الشروط & الأحكام",
+    "error": {
+      "email-invalid": "البريد الألكتروني غير صحيح",
+      "email-required": "البريد الألكتروني مطلوب",
+      "password-required": "كلمة المرور مطلوبه",
+      "first-name-required": "الأسم الأول مطلوب",
+      "last-name-required": "أسم العائله مطلوب"
+    }
+  },
+  "or": "أو سجل الدخول بواسطة",
+  "facebook": "فيسبوك",
+  "google": "جوجل",
+  "account": "لديك حساب بالفعل؟",
+  "sign-in": "تسجيل الدخول",
+  "success-text": "أسرع، لنبدأ !"
+}

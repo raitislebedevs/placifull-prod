@@ -1,0 +1,72 @@
+{
+  "navigation": {
+    "home": "HOME",
+    "opportunities": {
+      "base": "OPPORTUNITIES",
+      "real-estate": "REAL ESTATE",
+      "vehicles": "VEHICLES",
+      "job-search": "JOB SEARCH",
+      "personal-company": "PERSONAL COMPANY",
+      "invest": "INVEST IN IDEA"
+    },
+    "help": "HELP & SUPPORT",
+    "sign-in": "SIGN IN",
+    "register": "REGISTER",
+    "add-listing": "ADD LISTING"
+  },
+
+  "not-found": {
+    "found": "404 - Page Not Found",
+    "main-text": "We couldn't navigate to the specified Page!",
+    "sub-text": " This page was not found. you may have mistyped the address or the page may have been moved or does not exist.",
+    "navigation": "Go To Homepage"
+  },
+
+  "footer": {
+    "top": {
+      "list-menu": {
+        "menu-1": {
+          "text-head": "",
+          "items": {
+            "item-1": "What Are you waiting for? Start looking for your dream house, the perfect car or find the dream job you always wanted."
+          }
+        },
+        "menu-2": {
+          "text-head": "Company",
+          "items": {
+            "item-1": "About us",
+            "item-2": "Team",
+            "item-3": "Career",
+            "item-4": "Blog"
+          }
+        },
+        "menu-3": {
+          "text-head": "Quick Links",
+          "items": {
+            "item-1": "Login",
+            "item-2": "Register",
+            "item-3": "Real Estate",
+            "item-4": "Transportation",
+            "item-5": "Jobs",
+            "item-6": "Terms of Services"
+          }
+        },
+        "menu-4": {
+          "text-head": "Newsletter",
+          "items": {
+            "item-1": "",
+            "item-2": "This field is required",
+            "item-3": "Your email",
+            "item-4": "Subscribe"
+          }
+        }
+      }
+    },
+    "bottom": {
+      "left": {
+        "copy-right": "Placifull. We care for you with"
+      },
+      "right": "Placifull Team"
+    }
+  }
+}

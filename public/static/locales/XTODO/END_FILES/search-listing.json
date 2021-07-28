@@ -1,0 +1,642 @@
+{
+  "common": {},
+  "real-estate": {
+    "title": "Search for Real Estate Listing",
+    "hero": {
+      "form": {
+        "category": {
+          "label": "Category",
+          "options": {
+            "house": "House",
+            "apartment": "Apartment",
+            "land": "Land",
+            "farmhouse": "Farmhouse",
+            "comercial": "Comercial",
+            "exclusive": "Exclusive",
+            "offices": "Office",
+            "agents": "Real-Estate Agency"
+          }
+        },
+        "action": {
+          "label": "Action",
+          "options": {
+            "sell": "Sell",
+            "rent": "Rent",
+            "exchange": "Exchange"
+          }
+        },
+        "property-info": {
+          "label": "Condition",
+          "label-land": "Property Type",
+          "options": {
+            "brand-new": "Brand New",
+            "good-condition": "Good Condition",
+            "avarage": "Medium",
+            "requires-fixing": "Requires Fixing",
+            "requires-construction": "Requires Construction",
+            "residential": "Residential",
+            "comercial": "Commercial",
+            "industrial": "Industrial",
+            "agricultural": "Agricultural"
+          }
+        },
+        "location": {
+          "country": "Country",
+          "state": "State/Region",
+          "city": "City"
+        },
+
+        "search-fields": {
+          "min-price": "Min Price",
+          "max-price": "Max Price",
+          "min-rooms": "Min Rooms",
+          "max-rooms": "Max Rooms",
+          "min-area": "Min Area",
+          "max-area": "Max Area",
+          "move-in-date": "Move in Date",
+          "move-out-date": "Move out Date",
+          "currency": "Currency"
+        },
+
+        "submit": "Search Now",
+        "accordion": {
+          "label": "ADVANCED SEARCH",
+          "categories": {
+            "category-1": {
+              "label": "Kitchen"
+            },
+            "category-2": {
+              "label": "Bathroom"
+            },
+            "category-3": {
+              "label": "Living Room"
+            },
+            "category-4": {
+              "label": "Bedroom"
+            },
+            "category-5": {
+              "label": "Other Extras"
+            },
+            "category-6": {
+              "label": "Forest Area"
+            },
+            "category-7": {
+              "label": "Farmland Area"
+            }
+          }
+        },
+        "accordion-right": {
+          "utility-label": "Utility Bill Range",
+          "utility": {
+            "from-price": "From: 0.00",
+            "to-price": "To: 9,999"
+          },
+          "year-label": "Year Built",
+          "built": {
+            "from-year": "From ",
+            "to-year": "To "
+          }
+        }
+      }
+    },
+    "search-result": {
+      "filters": {
+        "filter-1": {
+          "label": "Items",
+          "options": {
+            "option-1": "9 items",
+            "option-2": "18 items",
+            "option-3": "27 items",
+            "option-4": "36 items",
+            "option-5": "72 items"
+          }
+        },
+        "filter-2": {
+          "label": "Sort by",
+          "options": {
+            "option-1": "Price",
+            "option-2": "Area",
+            "option-3": "Rooms",
+            "option-4": "Street name",
+            "option-5": "Popularity",
+            "option-6": "Viewed",
+            "option-7": "Country"
+          }
+        }
+      }
+    },
+    "blog": {
+      "heading": "From the blog",
+      "see-more": "Read more"
+    },
+    "error": {
+      "tags": "Please contact us saying:'No Tags Found'"
+    },
+    "no-tags": "No features for this option"
+  },
+  "transport": {
+    "hero": {
+      "form": {
+        "input-1": {
+          "label": "Choose Transport",
+          "options": {
+            "option-1": "Car",
+            "option-2": "Truck",
+            "option-3": "Motorcycle",
+            "option-4": "Boats",
+            "option-5": "Air-Transport",
+            "option-6": "Others"
+          }
+        },
+        "input-2": {
+          "label": "Chose Action",
+          "options": {
+            "option-1": "Rent",
+            "option-2": "Buy",
+            "option-3": "For Parts",
+            "option-4": "Change"
+          }
+        },
+        "input-3": {
+          "label": "Choose Coniditon",
+          "options": {
+            "option-0": "Any Condition",
+            "option-1": "Brand New",
+            "option-2": "Good Condition",
+            "option-3": "Medium",
+            "option-4": "Requires Fixing",
+            "option-5": "Requires Construction"
+          }
+        },
+        "input-4": {
+          "label": "Choose Country"
+        },
+        "input-5": {
+          "label": "Choose Region"
+        },
+        "input-6": {
+          "label": "Choose City"
+        },
+        "input-7": {
+          "label": "Min: $ 0"
+        },
+        "input-8": {
+          "label": "Max: $ 9,999,999"
+        },
+        "input-9": {
+          "label": "Car Brand"
+        },
+        "input-10": {
+          "label": "Car Model"
+        },
+        "input-11": {
+          "label": "Min Age"
+        },
+        "input-12": {
+          "label": "Max Age"
+        },
+        "input-13": {
+          "label": "Engine",
+          "options": {
+            "option-1": "Diesel",
+            "option-2": "Benzine",
+            "option-3": "Gas",
+            "option-4": "Electric",
+            "option-5": "Other"
+          }
+        },
+        "input-14": {
+          "label": "Gear Box",
+          "options": {
+            "option-1": "Manual",
+            "option-2": "Automatic",
+            "option-3": "Other"
+          }
+        },
+        "input-15": {
+          "label": "Body Work",
+          "options": {
+            "option-1": "Sedan",
+            "option-2": "Pickapp",
+            "option-3": "Chebacks",
+            "option-4": "Off-Road",
+            "option-5": "Something Else",
+            "option-6": "Others"
+          }
+        },
+        "input-16": {
+          "label": "Colour",
+          "options": {
+            "option-1": "Blue",
+            "option-2": "Yellow",
+            "option-3": "Red",
+            "option-4": "Black",
+            "option-5": "Ocean Blue",
+            "option-6": "Sky Datk"
+          }
+        },
+        "submit": "Search Now",
+        "accordion": {
+          "label": "ADVANCED SEARCH",
+          "categories": {
+            "category-1": {
+              "label": "Equipment",
+              "items": {
+                "item-1": "Stūres hidropastiprinātājs",
+                "item-2": "Elektr. stūres pastiprinātājs",
+                "item-3": "Kondicionieris",
+                "item-4": "Klimata kontrole",
+                "item-5": "Autonomais sildītājs",
+                "item-6": "Salona gaisa filtrs",
+                "item-7": "Borta dators",
+                "item-8": "Riepu spiediena kontrole",
+                "item-9": "Parkošanās sens. aizmugurē",
+                "item-10": "Parkošanās sens. priekšā",
+                "item-11": "Atpakaļskata kamera",
+                "item-12": "Nakts redzamības kamera",
+                "item-13": "Panorāmas redzam. kameras",
+                "item-14": "Distances kontrole",
+                "item-15": "Lietus sensors",
+                "item-16": "Kruīza kontrole",
+                "item-17": "Adaptīvā kruīzkontrole",
+                "item-18": "Gājēju detektors",
+                "item-19": "Automātiska parkošana",
+                "item-20": "Ceļa zīmju atpazīš. sistēma",
+                "item-21": "Klusuma zonu asistents",
+                "item-22": "Palīgsistēma braukš. joslās",
+                "item-23": "Avārijas bremzēšanas sist.",
+                "item-24": "Keyless Go",
+                "item-25": "Sistēma Starts-Stop",
+                "item-26": "El. bagāžnieka aizvēršana",
+                "item-27": "El. aizmugures saulessargs",
+                "item-28": "El. durvju aizvēršana",
+                "item-29": "Jumta reliņi",
+                "item-30": "Sakabes āķis",
+                "item-31": "Lūka",
+                "item-32": "Panorāmas lūka",
+                "item-33": "Pilnpiedziņa 4x4",
+                "item-34": "Pneimopiekare",
+                "item-35": "Spoileris",
+                "item-36": "Sliekšņi",
+                "item-37": "Sporta pakete",
+                "item-38": "Servisa grāmatiņa",
+                "item-39": "Vieglmetāla diski"
+              }
+            },
+            "category-2": {
+              "label": "Interior",
+              "items": {
+                "item-1": "Ādas apdare",
+                "item-2": "Roku balsti",
+                "item-3": "Tonēti aizmugurējie logi",
+                "item-4": "Saulessargi logiem",
+                "item-5": "Isofix stiprinājumi",
+                "item-6": "Ledusskapis",
+                "item-7": "Televizors",
+                "item-8": "Led gaismas"
+              }
+            },
+            "category-3": {
+              "label": "Steering wheel",
+              "items": {
+                "item-1": "Regulējama",
+                "item-2": "El. regulējama",
+                "item-3": "Daudzfunkcionāla",
+                "item-4": "Sporta",
+                "item-5": "Apsildāma",
+                "item-6": "Ar atmiņu"
+              }
+            },
+            "category-4": {
+              "label": "Seats",
+              "items": {
+                "item-1": "El. regulējami",
+                "item-2": "Apsildāmi",
+                "item-3": "Sporta",
+                "item-4": "Recaro",
+                "item-5": "Ventilējami",
+                "item-6": "Masāžas",
+                "item-7": "Ar atmiņu",
+                "item-8": "Masāžas aizm.",
+                "item-9": "Apsildāmi aizm."
+              }
+            },
+            "category-5": {
+              "label": "Lights",
+              "items": {
+                "item-1": "Xenona",
+                "item-2": "Bi xenona",
+                "item-3": "LED",
+                "item-4": "LED bremžugunis",
+                "item-5": "Papild. bremžu signāls",
+                "item-6": "Miglas lukturi",
+                "item-7": "Lampu mazgātāji",
+                "item-8": "Automāt. tuvās gaismas",
+                "item-9": "Automāt. tālās gaismas",
+                "item-10": "Adaptīvās tālās gaismas"
+              }
+            },
+            "category-6": {
+              "label": "Audio/Video",
+              "items": {
+                "item-1": "FM/AM",
+                "item-2": "CD",
+                "item-3": "CD mainītājs",
+                "item-4": "DVD",
+                "item-5": "DVD mainītājs",
+                "item-6": "MP3",
+                "item-7": "USB",
+                "item-8": "SDcard",
+                "item-9": "HDD",
+                "item-10": "TV",
+                "item-11": "LCD",
+                "item-12": "Navigācija",
+                "item-13": "Tel./mob.",
+                "item-14": "Bluetooth",
+                "item-15": "Hands-free",
+                "item-16": "Subwoofer"
+              }
+            },
+            "category-7": {
+              "label": "Mirrors",
+              "items": {
+                "item-1": "El. regulējami",
+                "item-2": "Apsildāmi",
+                "item-3": "Aptumšojošie",
+                "item-4": "Sporta",
+                "item-5": "El. nolokāmi",
+                "item-6": "Ar atmiņu"
+              }
+            }
+          }
+        },
+        "accordion-right": {
+          "category-1": {
+            "label": "Litres Per 100/km",
+            "items": {
+              "item-1": "From: 0",
+              "item-2": "To: 250"
+            }
+          },
+          "category-2": {
+            "label": "Max Speed km/h",
+            "items": {
+              "item-1": "From: 0",
+              "item-2": "To: 999"
+            }
+          },
+          "category-3": {
+            "label": "Millage",
+            "items": {
+              "item-1": "From: 0",
+              "item-2": "To: 9999999"
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "job": {
+    "hero": {
+      "form": {
+        "input-1": {
+          "label": "Work Area",
+          "options": {
+            "option-1": "Intern",
+            "option-2": "Volunteer Work",
+            "option-3": "Stock Exchange",
+            "option-4": "Administration/Assistance",
+            "option-5": "Construction/Real-Estate",
+            "option-6": "Human Resources",
+            "option-7": "Security/Rescue Services",
+            "option-8": "Military",
+            "option-9": "Electronics/Telecommunications",
+            "option-10": "Freelance/Temporary Position",
+            "option-11": "Energy/Electricity",
+            "option-12": "Pharmacy",
+            "option-13": "Finance/Accounting",
+            "option-14": "Infromation Technology (IT)",
+            "option-15": "Jurisprudence/Justice",
+            "option-16": "Culture/Art/Entertainment",
+            "option-17": "Sports",
+            "option-18": "Quality Control/Quality Management",
+            "option-19": "Agriculture/Environmental Science",
+            "option-20": "Medixcine/ Social Care",
+            "option-21": "Media/Public relations",
+            "option-22": "Forestry/Woodworking/MetalWorking",
+            "option-23": "Marketing/Advertising",
+            "option-24": "Production/Industry",
+            "option-25": "Seasonal Work",
+            "option-26": "Technical Sciences",
+            "option-27": "Services",
+            "option-28": "Transport/Logistics",
+            "option-29": "Tourism/Catering/Hotels",
+            "option-30": "Managment",
+            "option-31": "Government",
+            "option-32": "Others"
+          }
+        },
+        "input-2": {
+          "label": "Contract Type",
+          "options": {
+            "option-1": "Temporarly",
+            "option-2": "Full Time",
+            "option-3": "Part Time",
+            "option-4": "Remote (Full Time)",
+            "option-5": "Remote (Part Time)",
+            "option-6": "Other"
+          }
+        },
+        "input-3": {
+          "label": "Work Time",
+          "options": {
+            "option-1": "Concrete",
+            "option-2": "Shifts",
+            "option-3": "Flexible",
+            "option-4": "Other"
+          }
+        },
+        "input-4": {
+          "label": "Choose Country"
+        },
+        "input-5": {
+          "label": "Choose Region"
+        },
+        "input-6": {
+          "label": "Choose City"
+        },
+        "submit": "Search Now",
+        "accordion": {
+          "label": "ADVANCED SEARCH",
+          "categories": {
+            "category-1": {
+              "label": "Transport License (EU standard)",
+              "items": {
+                "item-1": "Passanger Car",
+                "item-2": "Motorcycle",
+                "item-3": "With Trailer",
+                "item-4": "With Semi-Trailer",
+                "item-5": "Truck",
+                "item-6": "Bus",
+                "item-7": "Tractor",
+                "item-8": "Air Transport",
+                "item-9": "Water Transport",
+                "item-10": "None Standart",
+                "item-11": "Others"
+              }
+            },
+            "category-2": {
+              "label": "Education/Degree",
+              "items": {
+                "item-1": "Non-needed",
+                "item-2": "High School",
+                "item-3": "Collage",
+                "item-4": "Vacational",
+                "item-5": "Undergraduate",
+                "item-6": "Bachelor's degree",
+                "item-7": "Master's degree",
+                "item-8": "Doctorate degree"
+              }
+            },
+            "category-3": {
+              "label": "Expierience in Years",
+              "items": {
+                "item-1": "0-1 Years",
+                "item-2": "1-3 Years",
+                "item-3": "3-5 Years",
+                "item-4": "5-10 Years",
+                "item-5": "10+ years",
+                "item-6": "Any Expierience"
+              }
+            },
+            "category-4": {
+              "label": "Candidate Should be Able to",
+              "items": {
+                "item-1": "Travel Abrod",
+                "item-2": "Use Personal Car",
+                "item-3": "Work in Shifts",
+                "item-4": "Meet With Clients",
+                "item-5": "Find New Clients",
+                "item-6": "Learn New Things",
+                "item-7": "Hold Under Pressure",
+                "item-8": "Train Clients/Colleges"
+              }
+            },
+            "category-5": {
+              "label": "We Offer",
+              "items": {
+                "item-1": "Insuarance",
+                "item-2": "Extra Vacation Days",
+                "item-3": "Sikness Days",
+                "item-4": "Work Remotly",
+                "item-5": "Free Parking At Office",
+                "item-6": "Paid Phone Bills",
+                "item-7": "Place To Live",
+                "item-8": "Office Gym",
+                "item-9": "Office Events",
+                "item-10": "Vacation House",
+                "item-11": "Paid Travel Expenses"
+              }
+            }
+          }
+        },
+        "accordion-right": {
+          "category-1": {
+            "label": "Hourly Rate",
+            "items": {
+              "item-1": "From: 0 $",
+              "item-2": "To: 9,999 $"
+            }
+          },
+          "category-2": {
+            "label": "Monthly Salary",
+            "items": {
+              "item-1": "From: 0",
+              "item-2": "To: 9,999,999 $"
+            }
+          },
+          "category-3": {
+            "label": "Yearly Salary",
+            "items": {
+              "item-1": "From: 0",
+              "item-2": "To: 99,999,999 $"
+            }
+          }
+        },
+        "searchFilter": {
+          "heading": "Features",
+          "category-1": {
+            "label": "Transport License",
+            "items": {
+              "item-1": "Passanger Car",
+              "item-2": "Motorcycle",
+              "item-3": "With Trailer",
+              "item-4": "With Semi-Trailer",
+              "item-5": "Truck",
+              "item-6": "Bus",
+              "item-7": "Tractor",
+              "item-8": "Air Transport",
+              "item-9": "Water Transport",
+              "item-10": "None Standart",
+              "item-11": "Others"
+            }
+          },
+          "category-2": {
+            "label": "Education/Degree",
+            "items": {
+              "item-1": "Non-needed",
+              "item-2": "High School",
+              "item-3": "Collage",
+              "item-4": "Vacational",
+              "item-5": "Undergraduate",
+              "item-6": "Bachelor's degree",
+              "item-7": "Master's degree",
+              "item-8": "Doctorate degree"
+            }
+          },
+          "category-3": {
+            "label": "Expierience in Years",
+            "items": {
+              "item-1": "0-1 Years",
+              "item-2": "1-3 Years",
+              "item-3": "3-5 Years",
+              "item-4": "5-10 Years",
+              "item-5": "10+ years",
+              "item-6": "Any Expierience"
+            }
+          },
+          "category-4": {
+            "label": "Able to",
+            "items": {
+              "item-1": "Travel Abrod",
+              "item-2": "Use Personal Car",
+              "item-3": "Work in Shifts",
+              "item-4": "Meet With Clients",
+              "item-5": "Find New Clients",
+              "item-6": "Learn New Things",
+              "item-7": "Hold Under Pressure",
+              "item-8": "Train Clients/Colleges"
+            }
+          },
+          "category-5": {
+            "label": "Benefits",
+            "items": {
+              "item-1": "Insuarance",
+              "item-2": "Extra Vacation Days",
+              "item-3": "Sikness Days",
+              "item-4": "Work Remotly",
+              "item-5": "Free Parking At Office",
+              "item-6": "Paid Phone Bills",
+              "item-7": "Place To Live",
+              "item-8": "Office Gym",
+              "item-9": "Office Events",
+              "item-10": "Vacation House",
+              "item-11": "Paid Travel Expenses"
+            }
+          }
+        }
+      }
+    }
+  }
+}

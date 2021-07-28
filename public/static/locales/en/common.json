@@ -1,0 +1,131 @@
+{
+  "elements": {
+    "loading": "loading...",
+    "loading-left": "...Loading",
+    "loading-right": "Loading...",
+    "no-results": "No results found"
+  },
+  "user": {
+    "name": "Name",
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "email": {
+      "email-upper": "Email",
+      "email-lower": "email",
+      "your-email": "Your email"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "days-ago": "days ago"
+  },
+
+  "social-links": {
+    "heading": "Social links",
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
+  },
+
+  "social": {
+    "heading": "Social links",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "youtube": "Youtube",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram"
+  },
+
+  "week-days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+
+  "toast": {
+    "submit-success": "Your Listing Was Published!",
+    "server-error": "Incorrect Input. Server not Reached",
+    "logging-required": "Logging In is required",
+    "cannot-apply": "Hey, this is a preview",
+    "preview": "In Preview you can't bid",
+    "log-in": "You must be Logged in for Bidding",
+    "bidding-price": "No Bidding Price",
+    "price-lower": "Bid is lower than 20 % of Listing Price",
+    "price-upper": "Bid is higher than 20 % of Listing Price",
+    "refresh-page": "Server did not respond, please refresh",
+    "not-send": "Email was not send",
+    "contact-directly": "Contact directly",
+    "email-send": "Email was send",
+    "no-email": "Listing email does not exist",
+    "subscribed": "Congratulations, You have subscribed :)",
+    "already": "Already subscribed/ invalid email",
+    "already-applied": "You did apply to this position",
+    "no-cv": "No CV found.",
+    "country-error": "Not Specified Error in Country Input",
+    "location-error": "Couldn't retrieve locations",
+    "unknown-error": "Unknown server error",
+    "search-results": {
+      "found": "Found ",
+      "items": " items"
+    },
+    "not-found": "Did not found new results"
+  },
+
+  "location": {
+    "country": "Country",
+    "state": "State/Region",
+    "city": "City",
+    "no-city": "No Cities",
+    "no-states": "No States",
+    "states-not-registerd": "No states Registered",
+    "cities-registerd": "No cities registered"
+  },
+
+  "items-per-page": {
+    "label": "Items",
+    "options": {
+      "nine": "9 items",
+      "eighteen": "18 items",
+      "twenty-seven": "27 items",
+      "thirty-six": "36 items",
+      "seventy-two": "72 items"
+    }
+  },
+
+  "month": {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December"
+  },
+  "currency": {
+    "currency-label": "Currency",
+    "no-currency": "All"
+  },
+  "measurement": {
+    "label": "Measurement",
+    "system": {
+      "none": "None",
+      "metric": "Metric",
+      "imperial": "Imperial"
+    }
+  },
+  "user-box": { "profile": "Profile", "log-out": "Log out" },
+  "preview-close": "Close Preview"
+}

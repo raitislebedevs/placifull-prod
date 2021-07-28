@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "Begynne å bla og søke etter eiendom og nødvendige elementer"
+        }
+      },
+      "menu-2": {
+        "text-head": "Selskap",
+        "items": {
+          "item-1": "Om oss",
+          "item-2": "Team",
+          "item-3": "Ledige stillinger",
+          "item-4": "Blogg"
+        }
+      },
+      "menu-3": {
+        "text-head": "Hurtige lenker",
+        "items": {
+          "item-1": "Logg inn",
+          "item-2": "Registrer",
+          "item-3": "Fast eiendom",
+          "item-4": "Transport",
+          "item-5": "Jobs",
+          "item-6": "Vilkår for bruk"
+        }
+      },
+      "menu-4": {
+        "text-head": "Nyhetsbrev",
+        "items": {
+          "item-1": "Registrer deg og motta de siste tipsene via e-post",
+          "item-2": "Indtast din e-mail",
+          "item-3": "Din e-post",
+          "item-4": "Registrer"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "Placifull. Vi tar vare på deg"
+    },
+    "right": "Placifull Team"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "color": {
+    "label": "Color",
+    "options": {
+      "red": "Red",
+      "orange": "Orange",
+      "yellow": "Yellow",
+      "green": "Green",
+      "blue": "Blue",
+      "violent": "Violet",
+      "pink": "Pink",
+      "tan": "Tan",
+      "beige": "Beige",
+      "white": "White",
+      "silver": "Silver",
+      "gray": "Gray",
+      "black": "Black",
+      "brown": "Brown",
+      "gold": "Gold",
+      "indigo": "Indigo",
+      "purple": "Purple",
+      "lime": "Lime",
+      "azure": "Azure",
+      "other": "Other"
+    }
+  },
+  "gear-box": {
+    "label": "Gear Box",
+    "options": {
+      "manual": "Manual",
+      "automatic": "Automatic",
+      "other": "Other"
+    }
+  },
+  "engine": {
+    "label": "Engine Type",
+    "options": {
+      "diesel": "Diesel",
+      "benzine": "Benzine",
+      "gas": "Gas",
+      "electric": "Electric",
+      "other": "Other"
+    }
+  },
+  "features": {
+    "heading": "Features",
+    "category": {
+      "equipment": "Equipment",
+      "interior": "Interior",
+      "steering-wheel": "Steering wheel",
+      "seats": "Seats",
+      "lights": "Lights",
+      "audio-video": "Audio/Video",
+      "mirrors": "Mirrors"
+    }
+  },
+  "condition": {
+    "label": "Condition",
+    "options": {
+      "brandNew": "Brand New",
+      "likeNew": "Like New",
+      "used": "Used",
+      "requiresFixing": "Requires Fixing",
+      "afterCrash": "After Crash"
+    }
+  },
+
+  "transport-type": {
+    "label": "Transport Type",
+    "options": {
+      "car": "Car",
+      "truck": "Truck",
+      "motorcycle": "Motorcycle",
+      "boat": "Boats",
+      "airTransport": "Air Transport",
+      "others": "Others"
+    }
+  },
+
+  "action": {
+    "label": "Action",
+    "options": {
+      "sell": "Sell",
+      "rent": "Rent",
+      "exchange": "Exchange",
+      "forParts": "For parts"
+    }
+  }
+}

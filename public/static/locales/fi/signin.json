@@ -1,0 +1,23 @@
+{
+  "heading": "Kirjaudu sisään",
+  "form": {
+    "your-email": "Syötä Sähköposti",
+    "email": "Sähköposti",
+    "password": "Salasana",
+    "submit": "Kirjaudu sisään",
+    "remember-me": "Muista minut",
+    "forgot-password": "Unohtuiko Salasana?",
+    "or": "Vaihtoehtoinen Kirjautuminen",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "Eikö sinulla ole tiliä?",
+    "sign-up": "Rekisteröidy",
+    "error": {
+      "email-invalid": "Sähköposti ei kelpaa.",
+      "email-required": "Sähköposti vaaditaan.",
+      "password-required": "Salasana vaaditaan"
+    },
+    "success": "Tervetuloa Takaisin!",
+    "already-login": "Yritätkö kirjautua sisään kahdesti?"
+  }
+}

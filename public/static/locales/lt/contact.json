@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "Pagalba",
+    "info": {
+      "text": "WhatsApp numeris",
+      "phone": "+371 9999999999"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "Kontaktai",
+      "items": {
+        "item-1": {
+          "label": "Adresas",
+          "description": "Rusova gatvė 7-5"
+        },
+        "item-2": {
+          "label": "Telefono numeris",
+          "description": "+371 28247226"
+        },
+        "item-3": {
+          "label": "El. paštas",
+          "description": "name.lastname@gmail.com"
+        },
+        "item-4": {
+          "label": "Klientų aptarnavimas",
+          "description": "SupportYeah@us.com"
+        }
+      }
+    },
+    "form": {
+      "heading": "Forma",
+      "name": "Vardas",
+      "email": "El. paštas",
+      "subject": "Tema",
+      "message": "Žinutė",
+      "submit": "Siųsti žinutę"
+    }
+  }
+}

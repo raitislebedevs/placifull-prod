@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "Börja med att surfa och söka efter fastigheter och nödvändiga objekt"
+        }
+      },
+      "menu-2": {
+        "text-head": "Företag",
+        "items": {
+          "item-1": "Om oss",
+          "item-2": "Team",
+          "item-3": "Karriär",
+          "item-4": "Blogg"
+        }
+      },
+      "menu-3": {
+        "text-head": "Snabblänkar",
+        "items": {
+          "item-1": "Logga in",
+          "item-2": "Registrer",
+          "item-3": "Fastighet",
+          "item-4": "Transport",
+          "item-5": "Jobb",
+          "item-6": "Användarvillkor"
+        }
+      },
+      "menu-4": {
+        "text-head": "Nyhetsbrev",
+        "items": {
+          "item-1": "Registrera dig och få de senaste tipsen via e-post",
+          "item-2": "Indtast din e-mail",
+          "item-3": "Din e-mail",
+          "item-4": "Registrera"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "Placifull. Vi tar hand om dig"
+    },
+    "right": "Placifull Team"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "header": {
+    "flag-button": "SIGNALER CE CONTENU"
+  },
+  "detail-info": {
+    "button": "JE VEUX EMMÉNAGER MAINTENANT"
+  },
+  "contact-times": {
+    "heading": "Horaires de prise contact préférables"
+  },
+  "about": {
+    "heading": "À propos ",
+    "featured": "Mise à la Une",
+    "notFeatured": "Non mise à la une",
+    "rentTime": "par mois",
+    "inputTimeDays": "il y a quelques jours"
+  },
+
+  "general-info": {
+    "heading": "Informations générales",
+    "property-area": "Surface de la propriété",
+    "rooms": "Pièces",
+    "year-built": "Année de construction",
+    "price": "Prix",
+    "total-ultilities": "Total des dépenses utilitaires",
+    "move-in": "Date d'entrée dans les lieux",
+    "move-out": "Date de sortie des lieux",
+    "min-time": "Durée minimale",
+    "bid-price": "Montant de l'offre pour la propriété",
+    "submit": "OFFRE ",
+    "bid-placeholder": "Faites une offre dans une marge de 20 %"
+  },
+
+  "contact-form": {
+    "heading": "Contacter le propriétaire directement",
+    "form": {
+      "heading": "Écrivez votre question ici",
+      "fullName": "Nom complet*",
+      "phoneNumber": "Numéro de téléphone*",
+      "email": "Adresse e-mail*",
+      "message": "Votre message*",
+      "submit": "ENVOYER LE MESSAGE"
+    }
+  },
+  "extra": {
+    "heading": "Autres biens listés par ce profil",
+    "table": {
+      "number": "No.",
+      "country": "Pays",
+      "full-address": "Adresse complète",
+      "property-type": "Type de propriété",
+      "price": "Prix",
+      "area": "Surface",
+      "bed-rooms": "Pièces",
+      "year-built": "Année de construction"
+    }
+  }
+}

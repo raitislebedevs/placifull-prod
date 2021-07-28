@@ -1,0 +1,211 @@
+.modalHeader.custom {
+  position: absolute;
+  right: 0px;
+}
+.transport__id__left {
+  .left-section__about {
+    margin-bottom: 25px;
+    .about__heading {
+      margin-bottom: 15px;
+      color: $black-text;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .about__description {
+      font-size: 14px;
+      line-height: 19px;
+      color: $black-text;
+    }
+  }
+
+  .left-section__general-info {
+    margin-bottom: 25px;
+    border-top: 1px solid #fafafa;
+    padding-top: 25px;
+    .general-info__heading {
+      margin-bottom: 15px;
+      color: #1f1f1f;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .general-info__items {
+      .items__wrapper {
+        width: 100%;
+        .wrapper__heading {
+          font-weight: 500;
+          font-size: 14px;
+        }
+        .wrapper__value {
+          width: 100%;
+          font-size: 15px;
+          font-weight: 550;
+        }
+      }
+      .items__form {
+        height: 100%;
+        .offer__price {
+          margin-bottom: 10px;
+          font-weight: 600;
+        }
+        .row {
+          height: 100%;
+        }
+        .form-group {
+          width: 100%;
+        }
+        .form__label {
+          margin-bottom: 5px;
+          font-weight: 700;
+          font-size: 13px;
+          text-transform: none;
+          line-height: 40px;
+        }
+        .form__input-value {
+          height: 50px;
+          width: 100%;
+          font-size: 15px;
+          background: whitesmoke;
+          padding: 9px 12px;
+          border: none;
+          border-radius: 12px;
+        }
+        .form__button {
+          border-radius: 20px;
+          width: 100%;
+          font-size: 16px;
+          font-weight: 600;
+          text-transform: uppercase;
+          height: 100%;
+        }
+      }
+      .items__col {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 15px;
+        .form-group {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .left-section__features {
+    margin-bottom: 25px;
+    border-top: 1px solid #fafafa;
+    padding-top: 25px;
+    .features__heading {
+      margin-bottom: 15px;
+      color: #1f1f1f;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .category__header {
+      font-size: 16px;
+      color: theme-color("primary");
+      margin-bottom: 16px;
+      font-weight: 700;
+      padding: 4px;
+      text-align: left;
+      border-bottom: 1px solid theme-color("primary");
+    }
+    .features__wrapper {
+      margin-top: 20px;
+      .features__items {
+        margin-top: 15px;
+        font-weight: 700;
+        .items__wrapper {
+          padding: 5px 9px;
+          font-size: 14px;
+          font-weight: 500;
+          margin-bottom: 10px;
+          .wrapper__icon {
+            font-size: 12px;
+            margin-right: 8px;
+            font-weight: 200;
+            color: theme-color("primary");
+          }
+        }
+      }
+    }
+  }
+}
+
+.transport__id__left,
+.transport__right__section {
+  @include media-breakpoint-down(md) {
+    margin-top: 0px;
+  }
+  .right-section__information--mobile {
+    display: none;
+  }
+  .right-section__information {
+    position: relative;
+    margin-bottom: 30px;
+    .information__cover {
+      width: 100%;
+      height: 475px;
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: black;
+        font-weight: bold;
+        font-size: 24px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        z-index: 99;
+      }
+      .next {
+        right: -15px;
+        border-radius: 3px 0 0 3px;
+      }
+      .prev {
+        left: -15px;
+        border-radius: 3px 0 0 3px;
+      }
+      .carousel-with-custom-dots {
+        padding-bottom: 125px;
+      }
+      .custom-dot {
+        border: none;
+        margin: 10px;
+        outline: none;
+        height: 100%;
+        flex: 1;
+        background: none;
+        img {
+          width: 100%;
+          border-radius: 10%;
+          max-width: 120px;
+          min-width: 120px;
+          height: 90px;
+          object-fit: cover;
+        }
+      }
+      .custom-dot--active {
+        transform: scale(1.1);
+        outline: auto;
+      }
+      .carousel-with-custom-dots {
+        height: 100%;
+        .react-multi-carousel-track {
+          height: 100%;
+          .cover__item {
+            height: 100%;
+            .item__image {
+              height: 100%;
+              width: 100%;
+              object-fit: cover;
+              border-radius: 15px;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

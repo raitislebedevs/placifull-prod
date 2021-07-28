@@ -1,0 +1,53 @@
+{
+  "heading": "Enviar anuncio",
+  "form": {
+    "submit": "Enviar",
+    "submit-confirm": "Guardar...",
+    "preview-sneak-peak": "Generando...",
+    "preview": "Vista previa",
+    "no-currency": "TODO",
+    "no-features": "Por favor, seleccione una categoría de anuncio",
+    "general-information": {
+      "heading": "Información general",
+      "currency-input": "Moneda",
+      "input-fields": {
+        "name": "Título de su anuncio",
+        "description": "Descripción",
+        "price": "Precio",
+        "bed-rooms": "Habitaciones",
+        "bath-rooms": "Baños",
+        "area": "Superficie de la propiedad",
+        "start-renting": "Inicio del alquiler",
+        "end-renting": "Fin del alquiler",
+        "year-built": "Año de construcción"
+      }
+    },
+    "detail-information": {
+      "heading": "Información detallada",
+      "contact": {
+        "heading": "Contacto",
+        "email": "Correo electrónico",
+        "address": "Dirección",
+        "contact-times": {
+          "label": "Horario de contacto",
+          "placeholder": "Elija la hora que prefiera"
+        },
+        "listing-website": "Página web: https://"
+      }
+    },
+    "gallery": {
+      "real-estate": "Galería",
+      "click-drop": "HAGA CLIC O ARRASTRE LAS IMÁGENES AQUÍ",
+      "video-url": "Video https://"
+    },
+    "contact-hours": {
+      "heading": "Horario de contacto",
+      "heading-tip": "Opcional",
+      "accordion": {
+        "heading": "Añade la hora más adecuada para el encuentro/conversación...",
+        "start-time": "Desde",
+        "end-time": "Hasta"
+      }
+    }
+  }
+}

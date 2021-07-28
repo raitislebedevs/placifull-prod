@@ -1,0 +1,55 @@
+{
+  "heading": "Enviar anuncio",
+  "form": {
+    "submit-confirm": "Guardando...",
+    "preview-sneak-peak": "Generando...",
+    "preview": "Vista previa",
+    "no-currency": "Moneda",
+    "no-features": "Por favor, seleccione una categoría de anuncio",
+    "job-title": {
+      "title": "Título del Puesto",
+      "placeholder": "Nombre del cargo, por ejemplo, Patrocinador de Placifull."
+    },
+    "company": "Nombre de la empresa",
+    "submit": "ENVIAR",
+    "general-information": {
+      "heading": "Información General",
+      "input-fields": {
+        "description": "Descripción del puesto",
+        "requirements": "Requisitos del puesto",
+        "beneftis": "Beneficios del puesto"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "Información de contacto",
+        "detail-requirements": "Requisitos detallados"
+      },
+      "contact": {
+        "heading": "Contacto",
+        "email": "Correo electrónico",
+        "phone": "Número de teléfono",
+        "address": "Dirección",
+        "listing-website": "Página web: https://"
+      }
+    },
+    "gallery": {
+      "heading": "Logotipo de la empresa",
+      "click-drop": "HAGA CLIC O ARRASTRE EL LOGOTIPO AQUÍ",
+      "video-url": "URL del vídeo: https://"
+    },
+    "contact-hours": {
+      "heading": "Horario de trabajo",
+      "heading-tip": "Opcional",
+      "accordion": {
+        "heading": "Horas en las que el empleado deberá trabajar...",
+        "start-time": "El trabajo comienza a las",
+        "end-time": "El trabajo termina a las"
+      }
+    },
+    "input-languages": {
+      "label": "Idiomas que se requiere conocer. (inglés)",
+      "labelNative": "Idiomas que se requiere conocer (nativo)"
+    }
+  }
+}

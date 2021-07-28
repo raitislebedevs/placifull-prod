@@ -1,0 +1,16 @@
+{
+  "home": "HOME",
+  "opportunities": {
+    "base": "OPPORTUNITIES",
+    "real-estate": "REAL ESTATE",
+    "vehicles": "TRANSPORT",
+    "job-search": "JOB SEARCH",
+    "education-interests": "Education of Interests",
+    "personal-company": "PERSONAL COMPANY",
+    "invest": "INVEST IN IDEA"
+  },
+  "help": "HELP & SUPPORT",
+  "sign-in": "SIGN IN",
+  "register": "REGISTER",
+  "add-listing": "ADD LISTING"
+}

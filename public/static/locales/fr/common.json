@@ -1,0 +1,127 @@
+{
+  "elements": {
+    "loading": "téléchargement en cours... ",
+    "loading-right": "téléchargement en cours... ",
+    "loading-left": "... téléchargement en cours ",
+    "no-results": "Aucun résultat trouvé "
+  },
+  "user": {
+    "name": "Nom",
+    "first-name": "Prénom",
+    "last-name": "Nom de Famille",
+    "email": {
+      "email-upper": "Email",
+      "email-lower": "email",
+      "your-email": "Votre adresse email"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "Aujourd'hui ",
+    "yesterday": "Hier",
+    "days-ago": "Il y a plusieurs jours"
+  },
+
+  "social-links": {
+    "heading": "Liens Media Sociaux",
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
+  },
+
+  "social": {
+    "heading": "Liens Media Sociaux",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "youtube": "Youtube",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram"
+  },
+
+  "week-days": {
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche "
+  },
+
+  "toast": {
+    "submit-success": "Votre annonce a été publiée !",
+    "server-error": "Entrée incorrecte/serveur non joignable ",
+    "logging-required": "La connexion est requise",
+    "cannot-apply": "Hé, ceci est un aperçu",
+    "preview": "Dans Aperçu, vous ne pouvez pas faire une offre",
+    "log-in": "Vous devez être connecté pour faire une offre",
+    "bidding-price": "Pas d'offre",
+    "price-lower": "L'offre est inférieure à 20 % du Prix donné dans L'annonce",
+    "price-upper": "L'offre est plus de 20 % du Prix donné dans L'annonce",
+    "refresh-page": "Le serveur n'a pas répondu, veuillez actualiser",
+    "not-send": "L'e-mail n'a pas été envoyé",
+    "contact-directly": "Contacter directement",
+    "email-send": "L'e-mail a été envoyé",
+    "no-email": "L'adresse e-mail associée à l'annonce n'existe pas",
+    "subscribed": "Félicitations, Vous êtes abonné :)",
+    "already-applied": "Vous avez postulé à ce poste",
+    "already": "Déjà abonné/ E-mail invalide",
+    "country-error": "Erreur non spécifiée dans la saisie du pays",
+    "location-error": "Impossible de retrouver les emplacements",
+    "unknown-error": "Erreur de serveur inconnue"
+  },
+
+  "location": {
+    "country": "Pays",
+    "state": "État/Région",
+    "city": "Ville",
+    "no-city": "Aucune ville",
+    "no-states": "Aucun État",
+    "states-not-registerd": "Aucun état enregistré",
+    "cities-registerd": "Aucune ville enregistrée"
+  },
+
+  "items-per-page": {
+    "label": "Annonces",
+    "options": {
+      "nine": "9 annonces",
+      "eighteen": "18 annonces",
+      "twenty-seven": "27 annonces",
+      "thirty-six": "36 annonces",
+      "seventy-two": "72 annonces"
+    }
+  },
+
+  "month": {
+    "Jan": "Janvier ",
+    "Feb": "Février ",
+    "Mar": "Mars",
+    "Apr": "Avril",
+    "May": "Mai",
+    "Jun": "Juin ",
+    "Jul": "Juillet ",
+    "Aug": "Août ",
+    "Sep": "Septembre ",
+    "Oct": "Octobre ",
+    "Nov": "Novembre ",
+    "Dec": "Décembre "
+  },
+  "currency": {
+    "currency-label": "Devise",
+    "no-currency": "Toutes"
+  },
+  "measurement": {
+    "label": "Mesurement",
+    "system": {
+      "none": "Aucun",
+      "metric": "Métrique",
+      "imperial": "Impérial"
+    }
+  },
+  "user-box": {
+    "profile": "Profil ",
+    "log-out": "Déconnexion "
+  }
+}

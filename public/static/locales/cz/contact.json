@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "Nápověda a Podpora",
+    "info": {
+      "text": "Číslo WhatsApp",
+      "phone": "+371 9999999999"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "Kontaktní Údaje",
+      "items": {
+        "item-1": {
+          "label": "Umístění",
+          "description": "4758 Nancy Street"
+        },
+        "item-2": {
+          "label": "Telefonní Číslo",
+          "description": "+1 919-571-2528"
+        },
+        "item-3": {
+          "label": "Email",
+          "description": "hello@example.com"
+        },
+        "item-4": {
+          "label": "Uživatelská Podpora",
+          "description": "support@example.com"
+        }
+      }
+    },
+    "form": {
+      "heading": "Formulář",
+      "name": "Jméno",
+      "email": "Email",
+      "subject": "Předmět",
+      "message": "Zpráva",
+      "submit": "Odeslat Zprávu"
+    }
+  }
+}

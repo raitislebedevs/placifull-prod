@@ -1,0 +1,87 @@
+{
+  "contract-type": {
+    "label": "Type de Contrat",
+    "options": {
+      "temporarly": "Temporaire",
+      "fullTime": "À plein temps",
+      "partTime": "À temps partiel",
+      "remoteFullTime": "À distance (à temps plein)",
+      "remotePartTime": "À distance (à temps partiel)",
+      "other": "Autre"
+    }
+  },
+  "working-time": {
+    "label": "Horaires de travail",
+    "options": {
+      "officeHours": "Horaires de bureaux",
+      "shifts": "Rotations",
+      "flexible": "Horaires variables",
+      "other": "Autre"
+    }
+  },
+  "contact-times": {
+    "label": "Heure de prise de contact",
+    "placeholder": "Choisissez l'heure de contact préférable",
+    "not-specified": "Non précisé",
+    "options": {
+      "any-time": "À tout moment",
+      "working-days": "Jours de travail",
+      "office-hours": "Heures de bureaux ",
+      "specific-times": "Heures spécifiques"
+    }
+  },
+  "features": {
+    "heading": "Caractéristiques",
+    "licenses": "Permis de conduires",
+    "education": "Niveau d'étude / Diplôme ",
+    "expierience": "Expérience en années",
+    "candiadate": "Le candidat devrait être en mesure de",
+    "weOffer": "Nous offrons"
+  },
+  "salary": {
+    "heading": "Salaire",
+    "monthly-from": "Salaire à partir de",
+    "monthly-to": "Salaire jusqu'à ",
+    "hourly-rate-from": "Taux horaire à partir de",
+    "annual-from": "Salaire annuel à partir de",
+    "annual-to": "Salaire annuel jusqu'à ",
+    "hourly-rate-to": "Taux horaire jusqu'à "
+  },
+  "work-area": {
+    "label": "Secteur d'activité ",
+    "options": {
+      "intern": "Stage",
+      "volunteerWork": "Bénévolat",
+      "stockExchange": "Bourse",
+      "administrationAssistance": "Administratif/Assistant",
+      "constructionRealEstate": "Construction et immobilier",
+      "humanResources": "Ressources humaines",
+      "securityRescue": "Services de sécurité/sauvetage",
+      "military": "Militaire",
+      "electronicsTelecomunication": "Électronique/Télécommunications",
+      "freelanceTemporary": "Freelance/travail temporaire",
+      "energyElectricity": "Énergie/Électricité",
+      "pharmacy": "Pharmacie",
+      "financeAccounting": "Finances/Comptabilité",
+      "infromationTechnology": "Technologie de l'information (IT)",
+      "jurisprudenceJustice": "Jurisprudence/Justice",
+      "cultureArtEntertainemnt": "Culture/Art/Divertissement",
+      "sports": "Sports",
+      "qualityControl": "Contrôle de qualité/Gestion de gestion",
+      "agricutureEnvironmental": "Agriculture/sciences de l'environnement",
+      "medicineSocialCare": "Médecine/ Soins sociaux",
+      "mediaPublicRelations": "Médias/relations publiques",
+      "forestryWoodworkingMetalWorking": "Foresterie/Travail du bois/Travail des métaux",
+      "marketingAdvertising": "Publicité Marketing",
+      "productionIndustry": "Production/Industrie",
+      "seasonalWork": "Travail saisonnier",
+      "technicalScience": "Sciences techniques",
+      "services": "Prestations de service",
+      "transportLogistics": "Transport/Logistique",
+      "tourismCateringHotels": "Tourisme/Restauration/Hôtellerie",
+      "managment": "Gestion",
+      "government": "Gouvernement",
+      "others": "Autres"
+    }
+  }
+}

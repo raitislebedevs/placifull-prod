@@ -1,0 +1,18 @@
+.mandatory__field {
+  color: red;
+}
+
+.decorator__container {
+  .form-group {
+    margin-bottom: 0.7rem;
+    position: relative;
+    > svg {
+      position: absolute;
+      z-index: 99;
+      right: 10px;
+      top: 30%;
+      font-size: 23px;
+      color: theme-color("primary");
+    }
+  }
+}

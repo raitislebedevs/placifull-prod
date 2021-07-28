@@ -1,0 +1,44 @@
+.home-container__job-section {
+  margin-top: 100px;
+  .job-section__left {
+    text-align: left;
+    @include media-breakpoint-down(md) {
+      text-align: center;
+    }
+    .left-badge {
+      border-radius: 12px;
+      background-color: rgba(47, 85, 212, 0.1) !important;
+      border: 1px solid rgba(47, 85, 212, 0.1) !important;
+      display: inline-block;
+      letter-spacing: 0.5px;
+      padding: 4px 8px;
+      font-weight: 600;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      color: $home-color !important;
+      font-size: 11px;
+    }
+    .left-title {
+      letter-spacing: 0.5px;
+      margin: 16px 0px 24px 0px;
+      font-size: 30px !important;
+    }
+    .left-button {
+      margin-top: 1.5rem;
+      width: 100px;
+      box-shadow: 0 3px 5px 0 rgb(47 85 212 / 30%);
+    }
+  }
+  .job-section__right {
+    .job__list-items {
+      .featured__items__loading {
+        text-align: center;
+        padding: 200px 0px;
+      }
+      .right__slick-item {
+        padding: 15px;
+      }
+    }
+  }
+}

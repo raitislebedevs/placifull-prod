@@ -1,0 +1,7 @@
+.hero__map {
+  height: 100%;
+  width: 100%;
+  @include media-breakpoint-down(md){
+    height: 300px;
+  }
+};

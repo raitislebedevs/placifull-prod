@@ -1,0 +1,6 @@
+.job-search-container {
+  width: 100%;
+  @import "../components/pages/job-search/HeroSection";
+  @import "../components/pages/job-search/SearchResultSection";
+  @import "../components/pages/job-search/BlogSection";
+}

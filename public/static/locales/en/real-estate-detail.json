@@ -1,0 +1,58 @@
+{
+  "header": {
+    "flag-button": "FLAG THIS CONTENT"
+  },
+  "detail-info": {
+    "button": "I WANT TO MOVE IN NOW"
+  },
+  "contact-times": {
+    "heading": "Preferable Contact Times"
+  },
+  "about": {
+    "heading": "About",
+    "featured": "Promoted",
+    "notFeatured": "Not Promoted",
+    "rentTime": "per month",
+    "inputTimeDays": "days ago"
+  },
+
+  "general-info": {
+    "heading": "General Information",
+    "property-area": "Property Area",
+    "rooms": "Rooms",
+    "year-built": "Year Built",
+    "price": "Price",
+    "total-ultilities": "Total Ultilities",
+    "move-in": "Move In Date",
+    "move-out": "Move Out Date",
+    "min-time": "Minimum Time",
+    "bid-price": "Bid Price for Property",
+    "submit": "BID",
+    "bid-placeholder": "Bid in 20 % margin"
+  },
+
+  "contact-form": {
+    "heading": "Contact the Owner Directly",
+    "form": {
+      "heading": "Write your question from here",
+      "fullName": "Full Name*",
+      "phoneNumber": "Phone Number*",
+      "email": "Email Address*",
+      "message": "Your Message*",
+      "submit": "SEND MESSAGE"
+    }
+  },
+  "extra": {
+    "heading": "Other Objects listed by this Profile",
+    "table": {
+      "number": "Nr.",
+      "country": "Country",
+      "full-address": "Full address",
+      "property-type": "Property Type",
+      "price": "Price",
+      "area": "Area",
+      "bed-rooms": "Rooms",
+      "year-built": "Year Built"
+    }
+  }
+}

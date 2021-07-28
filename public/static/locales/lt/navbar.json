@@ -1,0 +1,13 @@
+{
+  "home": "PRADŽIA",
+  "opportunities": {
+    "base": "GALIMYBĖS",
+    "real-estate": "NEK. TURTAS",
+    "vehicles": "TRANSPORTAS",
+    "job-search": "DARBO PAIEŠKA"
+  },
+  "help": "PAGALBA",
+  "sign-in": "PRISIJUNGIMAS",
+  "register": "REGISTRACIJA",
+  "add-listing": "ĮDĖTI"
+}

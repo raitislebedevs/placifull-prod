@@ -1,0 +1,13 @@
+{
+  "home": "HJEM",
+  "opportunities": {
+    "base": "Valgmuligheter",
+    "real-estate": "FAST EIENDOM",
+    "vehicles": "BILER OSV.",
+    "job-search": "JOBB SØK"
+  },
+  "help": "HJELP OG SUPPORT",
+  "sign-in": "LOGG INN",
+  "register": "REGISTRERE",
+  "add-listing": "LEGG TIL"
+}

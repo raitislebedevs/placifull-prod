@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "Legen Sie Los! suchen Sie Ihr neues Zuhause und die Objekte die Sie benötigen."
+        }
+      },
+      "menu-2": {
+        "text-head": "Firma",
+        "items": {
+          "item-1": "Über uns",
+          "item-2": "Team",
+          "item-3": "Karriere",
+          "item-4": "Blog"
+        }
+      },
+      "menu-3": {
+        "text-head": "Quicklinks",
+        "items": {
+          "item-1": "Anmelden",
+          "item-2": "Registrieren",
+          "item-3": "Immobilienmakler",
+          "item-4": "Transport",
+          "item-5": "Jobs",
+          "item-6": "Nutzungsbedingungen"
+        }
+      },
+      "menu-4": {
+        "text-head": "Newsletter",
+        "items": {
+          "item-1": "Melden Sie sich an und eralten Sie die neuesten Tips per Email",
+          "item-2": "Email-Adresse",
+          "item-3": "Ihre Email- Adresse",
+          "item-4": "Abonnieren"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "Placifull. Wir kümmern uns um Sie"
+    },
+    "right": "Placifull Team"
+  }
+}

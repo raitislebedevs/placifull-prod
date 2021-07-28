@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "المساعده & الدعم",
+    "info": {
+      "text": "رقم الواتساب",
+      "phone": "+371 9999999999"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "معلومات الاتصال",
+      "items": {
+        "item-1": {
+          "label": "الموقع",
+          "description": "شارع نانسي رقم 4758"
+        },
+        "item-2": {
+          "label": "رقم الهاتف",
+          "description": "+1 919-571-2528"
+        },
+        "item-3": {
+          "label": "البريد الألكتروني",
+          "description": "hello@example.com"
+        },
+        "item-4": {
+          "label": "خدمة العميل",
+          "description": "support@example.com"
+        }
+      }
+    },
+    "form": {
+      "heading": "النموذج",
+      "name": "الأسم",
+      "email": "البريد الألكتروني",
+      "subject": "الموضوع",
+      "message": "الرسائل",
+      "submit": "أرسل رساله"
+    }
+  }
+}

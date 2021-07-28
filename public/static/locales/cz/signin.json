@@ -1,0 +1,23 @@
+{
+  "heading": "Přihlášení",
+  "form": {
+    "your-email": "Zadejte Email",
+    "email": "Email",
+    "password": "Heslo",
+    "submit": "Přihlásit se",
+    "remember-me": "Zapamatovat si mě",
+    "forgot-password": "Zapomněli jste heslo?",
+    "or": "Nebo se přihlaste pomocí",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "Ještě nemáte účet?",
+    "sign-up": "Zaregistrujte se",
+    "error": {
+      "email-invalid": "Email je neplatný",
+      "email-required": "Email je povinný",
+      "password-required": "Heslo je povinné"
+    },
+    "success": "Vítejte Zpět!",
+    "already-login": "Pokoušíte se přihlásit znovu?"
+  }
+}

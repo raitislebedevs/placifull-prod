@@ -1,0 +1,60 @@
+{
+  "labels": {
+    "about-me": "À propos de moi",
+    "languages": "Langues",
+    "computer-skills": "Compétences informatiques",
+    "education": "Éducation",
+    "expierience": "Expérience professionnelle",
+    "licenses": "Permis de conduire",
+    "expectations": "Attentes professionnelles",
+    "certification": "Diplômes"
+  },
+  "gender": {
+    "label": "Genre",
+    "male": "Homme",
+    "women": "Femme"
+  },
+  "expierience": {
+    "label": "Expérience",
+    "uptoOne": "< 1 an",
+    "oneToThree": "1-3 ans",
+    "threeToFive": "3-5 ans",
+    "fiveToTen": "5-10 ans",
+    "tenToFifteen": "10-15 ans",
+    "moreThanFifteen": "15+ ans"
+  },
+
+  "knowladge-gained": {
+    "selfTaught": "Autodidacte",
+    "course": "Formations",
+    "freelance": "Free-lance",
+    "contractProject": "Contrat de Projet",
+    "fullTimeJob": "Emploi à temps plein",
+    "other": "Autre"
+  },
+  "qualification": {
+    "primary": "Primaire",
+    "secondary": "Secondaire",
+    "vocational": "Professionnel",
+    "bachelors": "License",
+    "master": "Maîtrise",
+    "doctorate": "Doctorat",
+    "other": "Autre"
+  },
+
+  "seniority": {
+    "title": "Degré d'expérience ",
+    "volunteer": "Bénévole",
+    "intern": "Stagiaire",
+    "junior": "Junior",
+    "intermediate": "Intermédiaire",
+    "senior": "Sénior",
+    "executive": "Exécutif",
+    "ceo": "PDG",
+    "other": "Autre"
+  },
+
+  "avarage-grade": "Notation moyenne",
+  "present": "Actuelle ",
+  "license-category": "Catégorie de permis"
+}

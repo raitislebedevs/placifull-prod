@@ -1,0 +1,55 @@
+{
+  "heading": "Submit Listing",
+  "form": {
+    "submit-confirm": "Saving...",
+    "preview-sneak-peak": "Generating...",
+    "preview": "Preview",
+    "no-currency": "Currency",
+    "no-features": "Please Select a Listing category",
+    "job-title": {
+      "title": "Position Title",
+      "placeholder": "Name of the Position e.g. Placifull Patron."
+    },
+    "company": "Company Name",
+    "submit": "SUBMIT",
+    "general-information": {
+      "heading": "General Information",
+      "input-fields": {
+        "description": "Position Description",
+        "requirements": "Position Requirements",
+        "beneftis": "Position Benefits"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "Contact Information",
+        "detail-requirements": "Detailed Requirements"
+      },
+      "contact": {
+        "heading": "Contact",
+        "email": "Email",
+        "phone": "Phone number",
+        "address": "Address",
+        "listing-website": "Website: https://"
+      }
+    },
+    "gallery": {
+      "heading": "Company Logo",
+      "click-drop": "CLICK OR DRAG LOGO HERE",
+      "video-url": "Video url: https://"
+    },
+    "contact-hours": {
+      "heading": "Working Hours",
+      "heading-tip": "Optional",
+      "accordion": {
+        "heading": "Times when Employee would be required to work...",
+        "start-time": "Work Starts at",
+        "end-time": "Work Finishes at"
+      }
+    },
+    "input-languages": {
+      "label": "Languages Required to know. (English)",
+      "labelNative": "Languages Required to know. (Native)"
+    }
+  }
+}

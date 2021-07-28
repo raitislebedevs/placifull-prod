@@ -1,0 +1,16 @@
+{
+  "job-apply": {
+    "heading": "¿Seguro que quieres inscribirte?",
+    "proposed-salary": "Salario esperado",
+    "close": "Cerrar",
+    "apply": "Inscribirse",
+    "applying": "En proceso...",
+    "toast": {
+      "success": "Enhorabuena, ¡ya te has inscrito!",
+      "log-in": "Debes iniciar sesión.",
+      "applied": "Ya te inscribiste.",
+      "cv": "Por favor, actualiza tu CV",
+      "just": "Hey, acabas de inscribirte :)"
+    }
+  }
+}

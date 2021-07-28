@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "帮助和支持",
+    "info": {
+      "text": "WhatsApp 电话号码",
+      "phone": "+371 9999999999"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "联络信息",
+      "items": {
+        "item-1": {
+          "label": "位置",
+          "description": "南希街 4758号"
+        },
+        "item-2": {
+          "label": "电话号码",
+          "description": "+1 919-571-2528"
+        },
+        "item-3": {
+          "label": "邮箱",
+          "description": "kevinyongfy@yahoo.com"
+        },
+        "item-4": {
+          "label": "客服",
+          "description": "support@example.com"
+        }
+      }
+    },
+    "form": {
+      "heading": "表格",
+      "name": "姓名",
+      "email": "邮箱",
+      "subject": "主题",
+      "message": "信息",
+      "submit": "发送信息"
+    }
+  }
+}

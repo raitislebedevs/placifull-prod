@@ -1,0 +1,74 @@
+.job-container__header {
+  margin: -20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding: 25px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 3px 10px 0 rgba(0, 0, 0, 0.14);
+  min-height: 200px;
+  .ratings {
+    .job-item-card__ratings {
+      color: gold;
+      z-index: 2;
+      margin-left: 10px;
+      font-size: 20px;
+    }
+  }
+
+  .vacancy__logo__container {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    .vacancy__logo {
+      border-radius: 5px;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .job__main__info {
+    padding-top: 25px;
+    div {
+      padding-bottom: 5px;
+    }
+    .job__label {
+      display: flex;
+      background-color: black;
+      color: aliceblue;
+      justify-content: center;
+      border-radius: 5px;
+      font-size: 13px;
+      font-weight: 400;
+      width: 75%;
+      padding: 2px;
+    }
+    .job__name {
+      color: brown;
+
+      font-size: 24px;
+      font-weight: 900;
+    }
+    .job__location,
+    .job__company {
+      font-size: 13px;
+    }
+    .job__salary {
+      font-weight: 1000;
+      em {
+        font-weight: 500;
+      }
+    }
+  }
+
+  .job-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .button-container {
+      .header-buttons {
+        margin: 10px;
+        min-width: 150px;
+      }
+    }
+  }
+}

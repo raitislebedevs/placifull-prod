@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "Hjælp og support",
+    "info": {
+      "text": "WhatsApp kontaktnummer",
+      "phone": "+45 12345678"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "Kontaktinformation",
+      "items": {
+        "item-1": {
+          "label": "Placering",
+          "description": "Hovedgaden 15"
+        },
+        "item-2": {
+          "label": "Telefonnummer",
+          "description": "+45 12345678"
+        },
+        "item-3": {
+          "label": "E-mail",
+          "description": "eksempel@gmail.com"
+        },
+        "item-4": {
+          "label": "Kundeservice",
+          "description": "support@example.com"
+        }
+      }
+    },
+    "form": {
+      "heading": "Formular",
+      "name": "Navn",
+      "email": "E-mail",
+      "subject": "Emne",
+      "message": "Besked",
+      "submit": "Send besked"
+    }
+  }
+}

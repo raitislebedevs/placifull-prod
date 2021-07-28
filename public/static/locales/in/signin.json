@@ -1,0 +1,23 @@
+{
+  "heading": "लॉग इन करें",
+  "form": {
+    "your-email": "ईमेल प्रदान करें",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "submit": "साइन इन करें",
+    "remember-me": "विवरण याद रखें",
+    "forgot-password": "पासवर्ड भूल गए हैं?",
+    "or": "या लॉगिन करें",
+    "facebook": "फेसबुक",
+    "google": "गूगल ",
+    "not-account": "अकाउंट नहीं है?",
+    "sign-up": "साइन अप करें",
+    "error": {
+      "email-invalid": "ईमेल वैध नहीं है।",
+      "email-required": "ईमेल जरूरी है।",
+      "password-required": "पासवर्ड जरूरी है।"
+    },
+    "success": "फिर से स्वागत है!",
+    "already-login": "दो बार लॉग इन करने की कोशिश कर रहे हैं?"
+  }
+}

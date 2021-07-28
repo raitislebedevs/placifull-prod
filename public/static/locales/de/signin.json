@@ -1,0 +1,23 @@
+{
+  "heading": "Anmelden",
+  "form": {
+    "your-email": "Email erteilen",
+    "email": "Email-Adresse",
+    "password": "Passwort",
+    "submit": "Anmeldung",
+    "remember-me": "Angemeldet bleiben",
+    "forgot-password": "Passwort vergessen?",
+    "or": "Anmelden mit",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "Kein Konto?",
+    "sign-up": "Registrieren",
+    "error": {
+      "email-invalid": "Email ungültig",
+      "email-required": "Email erforderlich",
+      "password-required": "Passwort benötigt"
+    },
+    "success": "Willkommen zurück",
+    "already-login": "Versuchen Sie sich nochmal einzuloggen?"
+  }
+}

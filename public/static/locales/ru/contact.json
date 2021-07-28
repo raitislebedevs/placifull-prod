@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "Помощь и поддержка",
+    "info": {
+      "text": "Номер WhatsApp",
+      "phone": "+371 9999999999"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "Контактная информация",
+      "items": {
+        "item-1": {
+          "label": "Местоположение",
+          "description": "ул. Русова, 7/5"
+        },
+        "item-2": {
+          "label": "Телефон",
+          "description": "+1 919-571-2528"
+        },
+        "item-3": {
+          "label": "Email",
+          "description": "hello@example.com"
+        },
+        "item-4": {
+          "label": "Обслуживание клиентов",
+          "description": "support@example.com"
+        }
+      }
+    },
+    "form": {
+      "heading": "Форма",
+      "name": "ФИО",
+      "email": "Email",
+      "subject": "Тема",
+      "message": "Сообщение",
+      "submit": "Отправить сообщение"
+    }
+  }
+}

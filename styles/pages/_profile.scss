@@ -1,0 +1,9 @@
+.profile-container {
+  width: 100%;
+  padding: 0 12%;
+  @import "../components/pages/profile/Details";
+  @import "../components/pages/profile/Overview";
+}
+
+@import "../components/pages/profile/Curriculam_Vitaes";
+@import "../components/pages/profile/Job_Applicants";

@@ -1,0 +1,18 @@
+@mixin label-overflow{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@mixin dropdown-override {
+  padding: 5px 15px;
+  border-radius: 0;
+  border: none;
+  box-shadow:  0px 2px 9px 3px rgba(86, 86, 86, 0.15);
+}
+
+@mixin background-image($width,$height){
+	background: center center / 100% no-repeat;
+	height: $height;
+	width: $width;
+}

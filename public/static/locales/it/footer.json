@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "Inizia a navigare e a cercare la tua casa e gli Accessori di cui hai bisogno."
+        }
+      },
+      "menu-2": {
+        "text-head": "Azienda",
+        "items": {
+          "item-1": "Chi siamo",
+          "item-2": "Team",
+          "item-3": "Opportunità lavorative",
+          "item-4": "Blog"
+        }
+      },
+      "menu-3": {
+        "text-head": "Link rapidi",
+        "items": {
+          "item-1": "Accedi",
+          "item-2": "Registrati",
+          "item-3": "Immobili",
+          "item-4": "Mezzi di trasporto",
+          "item-5": "Lavori",
+          "item-6": "Termini di servizio"
+        }
+      },
+      "menu-4": {
+        "text-head": "Newsletter",
+        "items": {
+          "item-1": "Iscriviti e riceverai gli ultimi consigli via email.",
+          "item-2": "Scrivi la tua email",
+          "item-3": "La tua email",
+          "item-4": "Abbonati"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "Placifull. Ci prendiamo cura di te"
+    },
+    "right": "Il team Placifull"
+  }
+}

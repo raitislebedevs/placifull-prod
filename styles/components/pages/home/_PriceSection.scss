@@ -1,0 +1,86 @@
+.home-container__price-section {
+  margin-top: 100px;
+  padding: 100px 0px;
+  .price-section__head {
+    text-align: center;
+    padding-bottom: 30px;
+    .head__title {
+      font-size: 30px;
+      letter-spacing: 0.5px;
+    }
+  }
+  .price-section__nav-pills {
+    .nav-pills__wrapper {
+      text-align: center;
+      .wrapper__list-option {
+        background: #f4f6fa;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 50rem !important;
+        display: inline-block !important;
+        justify-content: center !important;
+        border: 1px solid #e9ecef !important;
+        .list-option__item {
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        .list-option__active {
+          background-color: $dark-red;
+          color: $white;
+          border-radius: 50rem !important;
+        }
+      }
+    }
+  }
+  .price-section__wrapper-option {
+    .wrapper-option__list-option {
+      .list-option__list-card {
+        margin-top: 30px;
+        .list-card__item {
+          @include media-breakpoint-down(md) {
+            padding-left: 25%;
+          }
+          @include media-breakpoint-down(xs) {
+            padding-left: 5%;
+          }
+          transition: all 0.5s ease;
+          border-radius: 6px !important;
+          background-color: #f8f9fc !important;
+          border: 0 !important;
+          border-bottom: 3px solid #adb5bd !important;
+          .item__name {
+            font-weight: 700 !important;
+            text-transform: uppercase !important;
+            margin-bottom: 1.5rem !important;
+          }
+          .item__active {
+            color: $dark-red !important;
+          }
+        }
+        .active {
+          transform: scale(1.05);
+          @include media-breakpoint-down(sm) {
+            transform: scale(1) !important;
+          }
+          z-index: 2;
+          box-shadow: 0 0 3px rgba(60, 72, 88, 0.15) !important;
+          border-color: $dark-red !important;
+        }
+      }
+    }
+  }
+}
+.position-relative-bottom {
+  position: relative !important;
+  .shape-bottom {
+    color: $footer-bg-color !important;
+    transform: scale(2);
+    width: 100%;
+    overflow: hidden !important;
+    position: absolute;
+    pointer-events: none;
+    right: 0;
+    bottom: -2px;
+    left: 0;
+  }
+}

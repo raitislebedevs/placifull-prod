@@ -1,0 +1,15 @@
+{
+  "internal-error": "Nezināma kļūda no servera. Mēģiniet vēlāk vēlreiz. ",
+  "connection-error": "Nevar pieslēgties serverim. Mēģiniet vēlāk vēlreiz. ",
+  "server-not-reached": "Ak cik apkaunojoši! Serveris ir nesasniedzams. Lūdzu mēģiniet vēlreiz, vai sazinieties ar mums. ",
+  "Auth": {
+    "form": {
+      "error": {
+        "invalid": "Nepareiza parola vai E-pasts",
+        "user": {
+          "not-exist": "Lietotājs ar šo e-pastu neeksistē"
+        }
+      }
+    }
+  }
+}

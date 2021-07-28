@@ -1,0 +1,203 @@
+{
+  "heading": "Ievietot Sludinājumu",
+  "form": {
+    "submit": "Iesniegt",
+    "submit-confirm": "Saglabā...",
+    "preview-sneak-peak": "Ģenerē...",
+    "preview": "Priekšskatīt",
+    "general-information": {
+      "heading": "Pamatinformācija",
+      "choose-currency-input": "Valūta",
+      "input-1": {
+        "label": "Kategorija",
+        "options": {
+          "option-1": "Māja",
+          "option-2": "Dzīvoklis",
+          "option-3": "Zeme",
+          "option-4": "Komerctelpas",
+          "option-5": "Ekskluzīvs"
+        }
+      },
+      "input-2": {
+        "label": "Darbīa",
+        "options": {
+          "option-1": "Pārdod",
+          "option-2": "Īrēt",
+          "option-3": "Apmainīt"
+        }
+      },
+      "input-3": {
+        "label": "Stāvoklis",
+        "options": {
+          "option-1": "Pilnīgi Jauns",
+          "option-2": "Labā Kārtībā",
+          "option-3": "Apmierinošs",
+          "option-4": "Nepieciešams Remonts",
+          "option-5": "Nepieciešama Rekonstrukcija"
+        }
+      },
+      "input-4": {
+        "label": "Valsts",
+        "options": {
+          "option-1": "Option 1"
+        }
+      },
+      "input-5": {
+        "label": "Rajons/Novads",
+        "options": {
+          "option-1": "Option 1"
+        }
+      },
+      "input-6": {
+        "label": "Pilsēta",
+        "options": {
+          "option-1": "Option 1"
+        }
+      },
+      "input-7": {
+        "label": "Vārds"
+      },
+      "input-8": {
+        "label": "Apraksts"
+      },
+      "input-9": {
+        "label": "Cena"
+      },
+      "input-10": {
+        "label": "Istabas"
+      },
+      "input-11": {
+        "label": "Platība"
+      },
+      "input-12": {
+        "label": "Ievākšanās Datums"
+      },
+      "input-13": {
+        "label": "Izvākšanās Datums"
+      },
+      "input-14": {
+        "label": "Minimālais Īres Laiks",
+        "day": "dienas",
+        "month": "mēneši",
+        "year": "gadi"
+      }
+    },
+    "detail-information": {
+      "heading": "Detelizēta Informācija",
+      "contact": {
+        "heading": "Kontaktinformācija",
+        "input-2": "e-pasts",
+        "input-3": "Adrese",
+        "input-4": {
+          "label": "Sazināšanās Laiks",
+          "placeholder": "Labākais Sazināšanās Laiks",
+          "options": {
+            "option-1": "Jebkurā Laikā",
+            "option-2": "Darba Dienās",
+            "option-3": "Ofisa stundās",
+            "option-4": "Specifiskos laikos"
+          }
+        },
+        "input-5": "Mājas lapa"
+      },
+      "features": {
+        "heading": "Iespējas",
+        "category-1": {
+          "label": "Virtuve",
+          "items": {
+            "item-1": "Iebvūvētā Virtuve",
+            "item-2": "Saldētava",
+            "item-3": "Ledusskapis",
+            "item-4": "Mikroviļņu krāsns",
+            "item-5": "Cepeškrāsns",
+            "item-6": "Nosūcējs",
+            "item-7": "Iebūvētais Apgaismojums"
+          }
+        },
+        "category-2": {
+          "label": "Vannas istaba",
+          "items": {
+            "item-1": "Vanna",
+            "item-2": "Duša",
+            "item-3": "Veļas mašīna",
+            "item-4": "Apsildāmā Grīda"
+          }
+        },
+        "category-3": {
+          "label": "Dzīvojamā Istaba",
+          "items": {
+            "item-1": "TV",
+            "item-2": "Mēbeles",
+            "item-3": "Ēdam Galds",
+            "item-4": "Augi",
+            "item-5": "Kamīns"
+          }
+        },
+        "category-4": {
+          "label": "Guļamsistaba",
+          "items": {
+            "item-1": "TV",
+            "item-2": "Iebūvētais skapis",
+            "item-3": "Skapis",
+            "item-4": "Gulta"
+          }
+        },
+        "category-5": {
+          "label": "Citas Ekstras",
+          "items": {
+            "item-1": "Balkons",
+            "item-2": "Veļās telpa",
+            "item-3": "Sauna",
+            "item-4": "Sporta Zāle",
+            "item-5": "Bezmaksas Stāvieta",
+            "item-6": "Kīno zāle",
+            "item-7": "Pagrabs",
+            "item-8": "Garāža",
+            "item-9": "Pagalms",
+            "item-10": "Baseins"
+          }
+        }
+      },
+      "utilities": {
+        "heading": "Komunālie",
+        "input-1": "Aukstais Ūdens",
+        "input-2": "Karstais Ūdens",
+        "input-3": "Elektrība",
+        "input-4": "Atkritumu izvešana",
+        "input-5": "Apsaimniekošana",
+        "input-6": "Apkure",
+        "input-7": "Autostāvieta",
+        "input-8": "Citi",
+        "input-9": "Kopā"
+      }
+    },
+    "gallery": {
+      "real-estate": "Galaerija",
+      "input-1": "PIEVIENO VAI VELC UN ATALAD",
+      "input-2": "Video https://"
+    },
+    "social": {
+      "heading": "Sociālās vietnes",
+      "input-1": "Facebook",
+      "input-2": "Instagram",
+      "input-3": "Youtube",
+      "input-4": "Twitter"
+    },
+    "contact-hours": {
+      "heading": "Sazināšanās laiki",
+      "heading-tip": "Neobligāti",
+      "accordion": {
+        "heading": "Izvēlies ērtākos laikus kad tevi sasniegt...",
+        "day-monday": "Pirmdiena",
+        "day-tuesday": "Otradiena",
+        "day-wednesday": "Trešdiena",
+        "day-thursday": "Ceturtdiena",
+        "day-friday": "Piektdiena",
+        "day-saturday": "Sestdiena",
+        "day-sunday": "Svētdiena",
+        "start-time": "No",
+        "end-time": "Līdz"
+      }
+    }
+  }
+}

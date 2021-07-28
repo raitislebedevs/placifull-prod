@@ -1,0 +1,63 @@
+{
+  "heading": {
+    "login": "Login",
+    "password-change": "Password Change",
+    "register": "Register",
+    "revocer": "Recover Account"
+  },
+
+  "forms": {
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "your-email": "Your Email",
+    "email": "Email",
+    "email-placeholder": "Enter your email address",
+    "email-address": "Email address",
+    "password": "Password",
+    "new-password": "New Password",
+    "change-password": "Change Password",
+    "confirm-password": "Confirm Password",
+    "password-placeholder": "Type an unguessable password",
+    "sign-in": "Sign in",
+    "sign-up": "Sign Up",
+    "submit-register": "Register",
+    "submit-send": "Send",
+    "terms-text": "I Accept",
+    "terms-link": "Terms & Conditions",
+    "no-account": "Don't have an account?",
+    "remember-me": "Remember me"
+  },
+
+  "heading-texts": {
+    "or-signuo": "Or Signup With",
+    "or-login": "Or Login With",
+    "facebook": "Facebook",
+    "google": "Google",
+    "account": "Already have an account ?",
+    "sign-in": "Sign in",
+    "remember-account": "Remembered your password?",
+    "forgot-password": "Forgot Password?"
+  },
+  "success": {
+    "sign-in": "Welcome Back!",
+    "register": "Register successfully.",
+    "password": "Password is changed",
+    "reset-email": "Email with the reset Link has successfully been send. "
+  },
+  "error": {
+    "new-password-required": "Password can't be empty.",
+    "password-not-match": "Good try, passowrds does not match!",
+    "email-invalid": "Email is not valid.",
+    "email-required": "Email is required.",
+    "password-required": "Password is required",
+    "first-name-required": "First name is required",
+    "last-name-required": "Last name is required",
+    "confirm-password-required": "Please confirm your password",
+    "accept-terms": "Accept Terms & Conditions is required"
+  },
+
+  "description": {
+    "dont-quit": "We are half way there! Don't quit yet as we are nearly there...",
+    "enter-email-address": "Please enter your email address. You will receive a link to create a new password via email."
+  }
+}

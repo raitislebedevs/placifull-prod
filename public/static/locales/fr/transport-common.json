@@ -1,0 +1,89 @@
+{
+  "color": {
+    "label": "Couleur",
+    "options": {
+      "red": "Rouge",
+      "orange": "Orange",
+      "yellow": "Jaune",
+      "green": "Vert",
+      "blue": "Bleu",
+      "violent": "Violet",
+      "pink": "Rose",
+      "tan": "Bronze",
+      "beige": "Beige",
+      "white": "Blanc",
+      "silver": "Argent",
+      "gray": "Gris",
+      "black": "Noir",
+      "brown": "Marron",
+      "gold": "Or",
+      "indigo": "Indigo",
+      "purple": "Mauve",
+      "lime": "Chaux",
+      "azure": "Bleu azur",
+      "other": "Autre"
+    }
+  },
+  "gear-box": {
+    "label": "Boîte de vitesses",
+    "options": {
+      "manual": "Manuelle",
+      "automatic": "Automatique",
+      "other": "Autre"
+    }
+  },
+  "engine": {
+    "label": "Type de moteur",
+    "options": {
+      "diesel": "Diesel",
+      "benzine": "Essence",
+      "gas": "Gaz",
+      "electric": "Électrique",
+      "other": "Autre"
+    }
+  },
+  "features": {
+    "heading": "Caractéristiques",
+    "category": {
+      "equipment": "Équipement",
+      "interior": "Intérieur",
+      "steering-wheel": "Volant",
+      "seats": "Places",
+      "lights": "Lumières",
+      "audio-video": "Audio Video",
+      "mirrors": "Miroirs"
+    }
+  },
+  "condition": {
+    "label": "État",
+    "options": {
+      "brandNew": "Neuf",
+      "likeNew": "Comme neuf",
+      "used": "Utilisé",
+      "requiresFixing": "Nécessite des réparations",
+      "afterCrash": "Accidenté"
+    }
+  },
+
+  "transport-type": {
+    "label": "Type de véhicule",
+    "options": {
+      "car": "Voiture",
+      "truck": "Camion",
+      "motorcycle": "Moto",
+      "boat": "Bateaux",
+      "airTransport": "Véhicule aérien",
+      "others": "Autres"
+    }
+  },
+
+  "action": {
+    "label": "Action",
+    "options": {
+      "sell": "Vendre",
+      "rent": "Louer",
+      "exchange": "Échanger",
+      "forParts": "Pour pièces"
+    }
+  }
+}

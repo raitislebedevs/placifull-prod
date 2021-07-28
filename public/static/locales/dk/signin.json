@@ -1,0 +1,23 @@
+{
+  "heading": "Login",
+  "form": {
+    "your-email": "Angiv e-mail",
+    "email": "E-mail",
+    "password": "Adgangskode",
+    "submit": "Log ind",
+    "remember-me": "Husk mig",
+    "forgot-password": "Glemt adgangskode?",
+    "or": "Eller log ind med",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "Ingen konto?",
+    "sign-up": "Opret",
+    "error": {
+      "email-invalid": "Ugyldig e-mail",
+      "email-required": "E-mail påkrævet",
+      "password-required": "Adgangskode påkrævet"
+    },
+    "success": "Velkommen tilbage!",
+    "already-login": "Allerede logget ind"
+  }
+}

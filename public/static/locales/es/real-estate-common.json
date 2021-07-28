@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "Categoría",
+    "options": {
+      "houses": "Casa",
+      "apartments": "Apartamento",
+      "land": "Terreno",
+      "farmhouse": "Casa de campo",
+      "commercial": "Local Comercial",
+      "exclusive": "Exclusivo",
+      "offices": "Oficina",
+      "agents": "Agencia inmobiliaria"
+    }
+  },
+  "action": {
+    "label": "Acción",
+    "options": {
+      "sell": "Venta",
+      "rent": "Alquiler",
+      "exchange": "Intercambio"
+    }
+  },
+  "condition": {
+    "label": "Condición",
+    "label-land": "Tipo de propiedad",
+    "options": {
+      "brandNew": "Nuevo",
+      "goodCondition": "Buen estado",
+      "medium": "Medio",
+      "requiresFixing": "Necesita arreglo",
+      "requiresConstruction": "Requiere construcción",
+      "residential": "Residencial",
+      "comercial": "Comercial",
+      "industrial": "Industrial",
+      "agricultural": "Agrícola"
+    }
+  },
+  "contact-times": {
+    "label": "Horario de contacto",
+    "options": {
+      "anyTime": "Cualquier momento",
+      "workingDays": "Días laborables",
+      "officeHours": "Horario de oficina",
+      "specificTimes": "Horarios específicos"
+    }
+  },
+  "features": {
+    "heading": "Características",
+    "category": {
+      "kitchen": "Cocina",
+      "bathroom": "Cuarto de baño",
+      "living-room": "Sala de estar",
+      "bedroom": "Dormitorio",
+      "housing-extras": "Otros Extras",
+      "land-type": "Tipo de terreno",
+      "buildingLand": "Terreno para construir",
+      "forest-properties": "Propiedades forestales",
+      "agriculture-properties": "Propiedades agrícolas"
+    }
+  },
+  "utilities": {
+    "heading": "Servicios públicos",
+    "total": "Total",
+    "items": {
+      "coldWater": "Agua fría",
+      "hotWater": "Agua caliente",
+      "electricity": "Electricidad",
+      "garbage": "Cuarto de limpieza",
+      "propertyManagement": "Gestión de la propiedad",
+      "heating": "Calefacción",
+      "parking": "Aparcamiento",
+      "others": "Otros"
+    }
+  }
+}

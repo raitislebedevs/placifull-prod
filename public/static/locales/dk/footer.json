@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "Begynd at browse, og søg efter dit hus og nødvendige genstande"
+        }
+      },
+      "menu-2": {
+        "text-head": "Virksomhed",
+        "items": {
+          "item-1": "Om os",
+          "item-2": "Team",
+          "item-3": "Ledige stillinger",
+          "item-4": "Blog"
+        }
+      },
+      "menu-3": {
+        "text-head": "Hurtige links",
+        "items": {
+          "item-1": "Login",
+          "item-2": "Registrer",
+          "item-3": "Fast ejendom",
+          "item-4": "Transport",
+          "item-5": "Jobs",
+          "item-6": "Servicevilkår"
+        }
+      },
+      "menu-4": {
+        "text-head": "Nyhedsbrev",
+        "items": {
+          "item-1": "Tilmeld og modtag seneste tips via e-mail",
+          "item-2": "Indtast din e-mail",
+          "item-3": "Din e-mail",
+          "item-4": "Tilmeld  "
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "Placifull. Vi tager os af dig"
+    },
+    "right": "Placifull Team"
+  }
+}

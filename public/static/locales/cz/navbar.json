@@ -1,0 +1,13 @@
+{
+  "home": "DOMŮ",
+  "opportunities": {
+    "base": "PŘÍLEŽITOSTI",
+    "real-estate": "NEMOVITOSTI",
+    "vehicles": "VOZIDLA",
+    "job-search": "HLEDÁNÍ PRÁCE"
+  },
+  "help": "NÁPOVĚDA A PODPORA",
+  "sign-in": "PŘIHLÁSIT SE",
+  "register": "ZAREGISTROVAT SE",
+  "add-listing": "PŘIDAT POLOŽKU"
+}

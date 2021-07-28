@@ -1,0 +1,13 @@
+{
+  "home": "KOTI",
+  "opportunities": {
+    "base": "TILAISUUKSIA",
+    "real-estate": "KIINTEISTÖJÄ",
+    "vehicles": "AJONEUVOJA",
+    "job-search": "TYÖNHAKU"
+  },
+  "help": "OHJE JA TUKI",
+  "sign-in": "KIRJAUDU SISÄÄN",
+  "register": "REKISTERÖIDY",
+  "add-listing": "LISÄÄ ILMOITUS"
+}

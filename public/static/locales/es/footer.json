@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "Empieza a navegar y encuentra tu nuevo hogar u Objetos que puedas necesitar"
+        }
+      },
+      "menu-2": {
+        "text-head": "Empresa",
+        "items": {
+          "item-1": "Sobre Nosotros",
+          "item-2": "Equipo",
+          "item-3": "Carrera",
+          "item-4": "Blog"
+        }
+      },
+      "menu-3": {
+        "text-head": "Enlaces",
+        "items": {
+          "item-1": "Iniciar sesión",
+          "item-2": "Registrarse",
+          "item-3": "Bienes raíces",
+          "item-4": "Trasnporte",
+          "item-5": "Empleos",
+          "item-6": "Términos de Servicio"
+        }
+      },
+      "menu-4": {
+        "text-head": "Boletín",
+        "items": {
+          "item-1": "Suscríbete al boletín para recibir tips vía Email",
+          "item-2": "Correo Electrónico",
+          "item-3": "Su correo electrónico",
+          "item-4": "Suscribirme"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "Placifull. Nos preocupamos por ti"
+    },
+    "right": "Equipo Placifull"
+  }
+}

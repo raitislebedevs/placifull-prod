@@ -1,0 +1,55 @@
+{
+  "heading": "Soumettre l'annonce",
+  "form": {
+    "submit-confirm": "Sauvegarde en cours ...",
+    "preview-sneak-peak": "Processus en cours...",
+    "preview": "Aperçu",
+    "no-currency": "Devise",
+    "no-features": "Veuillez sélectionner une catégorie d'annonce",
+    "job-title": {
+      "title": "Intitulé du poste",
+      "placeholder": "Nom du poste ex. Patron Placifull."
+    },
+    "company": "Nom de l'entreprise",
+    "submit": "SOUMETTRE ",
+    "general-information": {
+      "heading": "Information Générale",
+      "input-fields": {
+        "description": "Description du poste",
+        "requirements": "Exigences du poste",
+        "beneftis": "Avantages du poste"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "Contact pour information",
+        "detail-requirements": "Description Détaillée "
+      },
+      "contact": {
+        "heading": "Contact",
+        "email": "E-mail",
+        "phone": "Numéro de téléphone",
+        "address": "Adresse",
+        "listing-website": "Site Web : https://"
+      }
+    },
+    "gallery": {
+      "heading": "Logo de l'entreprise",
+      "click-drop": "CLIQUEZ OU FAITES GLISSER LE LOGO ICI",
+      "video-url": "URL de vidéo : https://"
+    },
+    "contact-hours": {
+      "heading": "Heures de travail ",
+      "heading-tip": "Optionnel",
+      "accordion": {
+        "heading": "Horaires pendant lesquels l'employé devra travailler ...",
+        "start-time": "Le travail commence à",
+        "end-time": "Le travail fini à"
+      }
+    },
+    "input-languages": {
+      "label": "Langues demandées. (Anglais)",
+      "labelNative": "Langues demandées. (Native)"
+    }
+  }
+}

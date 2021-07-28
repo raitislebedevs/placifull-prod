@@ -1,0 +1,23 @@
+{
+  "heading": "Acesso",
+  "form": {
+    "your-email": "Informe seu endereço eletrônico",
+    "email": "E-mail",
+    "password": "Senha",
+    "submit": "Acessar",
+    "remember-me": "Lembre-me",
+    "forgot-password": "Esqueceu a senha?",
+    "or": "Ou acesse via",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "Não possui uma conta?",
+    "sign-up": "Cadastrar-se",
+    "error": {
+      "email-invalid": "Endereço eletrônico inválido",
+      "email-required": "Endereço eletrônico necessário",
+      "password-required": "Senha necessária"
+    },
+    "success": "Bem-vindo de volta!",
+    "already-login": "Tentando acessar novamente?"
+  }
+}

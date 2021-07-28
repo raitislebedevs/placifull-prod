@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "Atbalsts & Palīdzība",
+    "info": {
+      "text": "Whatsapp Kontaktālrunis",
+      "phone": "+371 9999999999"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "Kontaktinformācija",
+      "items": {
+        "item-1": {
+          "label": "Lokācija",
+          "description": "Rusova Iela 7- 5"
+        },
+        "item-2": {
+          "label": "Telefona Numurs",
+          "description": "+371 28247226"
+        },
+        "item-3": {
+          "label": "Epasts",
+          "description": "raitis.lebedevs@gmail.com"
+        },
+        "item-4": {
+          "label": "Klientu aprūpe",
+          "description": "SupportYeah@us.com"
+        }
+      }
+    },
+    "form": {
+      "heading": "Forma",
+      "name": "Vārds",
+      "email": "Epasts",
+      "subject": "Tēma",
+      "message": "Ziņa",
+      "submit": "Sūtīt Ziņu"
+    }
+  }
+}

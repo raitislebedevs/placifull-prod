@@ -1,0 +1,9 @@
+.home-container{
+  width: 100%;
+  @import '../components/pages/home/HeroSection';
+  @import '../components/pages/home/RealEstateSection';
+  @import '../components/pages/home/JobSection';
+  @import '../components/pages/home/TransportationSection'; 
+  @import '../components/pages/home/ServiceSection';
+  @import '../components/pages/home/PriceSection';
+}

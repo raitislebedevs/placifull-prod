@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "Mulai browsing dan cari rumah dan obyek yang anda butuhkan."
+        }
+      },
+      "menu-2": {
+        "text-head": "Perusahaan",
+        "items": {
+          "item-1": "Tentang Kami",
+          "item-2": "Tim",
+          "item-3": "Karir",
+          "item-4": "Blog"
+        }
+      },
+      "menu-3": {
+        "text-head": "Tautan Cepat",
+        "items": {
+          "item-1": "Masuk",
+          "item-2": "Mendaftar",
+          "item-3": "Perumahan",
+          "item-4": "Transportasi",
+          "item-5": "Pekerjaan",
+          "item-6": "Syarat dan Ketentuan"
+        }
+      },
+      "menu-4": {
+        "text-head": "Buletin",
+        "items": {
+          "item-1": "Mendaftar dan dapatkan tips terbaru melalui email",
+          "item-2": "Tuliskan email anda",
+          "item-3": "Email anda",
+          "item-4": "Berlangganan"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "Placifull. Kami peduli dengan Anda"
+    },
+    "right": "Tim Placifull"
+  }
+}

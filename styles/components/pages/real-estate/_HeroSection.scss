@@ -1,0 +1,10 @@
+.real-estate-container__hero {
+  position: relative;
+  margin-bottom: 120px;
+  height: 550px;
+  @include media-breakpoint-down(md) {
+    height: auto;
+  }
+  @import "./HeroSection_Map";
+  @import "./HeroSection_SearchForm";
+}

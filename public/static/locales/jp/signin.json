@@ -1,0 +1,23 @@
+{
+  "heading": "ログイン",
+  "form": {
+    "your-email": "メールアドレスの入力が必要です",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "submit": "サインイン",
+    "remember-me": "ログインしたままにする",
+    "forgot-password": "パスワードを忘れた場合",
+    "or": "ログインはまたは",
+    "facebook": "Facebook",
+    "google": "グーグル",
+    "not-account": "登録していますか？",
+    "sign-up": "登録を開始",
+    "error": {
+      "email-invalid": "無効なメールアドレス",
+      "email-required": "メールアドレスが必要です",
+      "password-required": "パスワードが必要です"
+    },
+    "success": "いらっしゃいませ！",
+    "already-login": "ログインしていますか？"
+  }
+}

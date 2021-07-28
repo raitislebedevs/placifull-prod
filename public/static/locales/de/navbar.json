@@ -1,0 +1,13 @@
+{
+  "home": "Homepage",
+  "opportunities": {
+    "base": "Chancen",
+    "real-estate": "Immobilien",
+    "vehicles": "Fahrzeuge",
+    "job-search": "Job Suche"
+  },
+  "help": "Hilfe & Kundendienst",
+  "sign-in": "Anmelden",
+  "register": "Registrieren",
+  "add-listing": "Anzeige abgeben"
+}

@@ -1,0 +1,60 @@
+{
+  "labels": {
+    "about-me": "About Me",
+    "languages": "Languages",
+    "computer-skills": "Computer Skills",
+    "education": "Education",
+    "expierience": "Work Expierience",
+    "licenses": "Transport License",
+    "expectations": "Work Expectations",
+    "certification": "Certification"
+  },
+  "gender": {
+    "label": "Sex",
+    "male": "Male",
+    "women": "Female"
+  },
+  "expierience": {
+    "label": "Expierience",
+    "uptoOne": "< 1 year",
+    "oneToThree": "1-3 years",
+    "threeToFive": "3-5 years",
+    "fiveToTen": "5-10 years",
+    "tenToFifteen": "10-15 years",
+    "moreThanFifteen": "15+ years"
+  },
+
+  "knowladge-gained": {
+    "selfTaught": "Self Taught",
+    "course": "Course",
+    "freelance": "Freelance",
+    "contractProject": "Contract Project",
+    "fullTimeJob": "Full Time Employment",
+    "other": "Other"
+  },
+  "qualification": {
+    "primary": "Primary",
+    "secondary": "Secondary",
+    "vocational": "Vocational",
+    "bachelors": "Bachelors",
+    "master": "Master",
+    "doctorate": "Doctorate",
+    "other": "Other"
+  },
+
+  "seniority": {
+    "title": "Seniority",
+    "volunteer": "Volunteer",
+    "intern": "Intern",
+    "junior": "Juniour",
+    "intermediate": "Intermediate",
+    "senior": "Senior",
+    "executive": "Executive",
+    "ceo": "CEO",
+    "other": "Other"
+  },
+
+  "avarage-grade": "Avarage Grade",
+  "present": "Present",
+  "license-category": "License Category"
+}

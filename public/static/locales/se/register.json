@@ -1,0 +1,27 @@
+{
+  "heading": "Registrera",
+  "form": {
+    "first-name": "Förnamn",
+    "last-name": "Efternamn",
+    "your-email": "Skriv in e-mail",
+    "email": "E-mail",
+    "password": "Lösenord",
+    "confirm-password": "Bekräfta lösenord",
+    "submit": "Registrera",
+    "terms-text": "Jag accepterar",
+    "terms-link": "Villkor",
+    "error": {
+      "email-invalid": "Ogiltig e-mail",
+      "email-required": "E-mail krävs",
+      "password-required": "Lösenord krävs",
+      "first-name-required": "Förnamn krävs",
+      "last-name-required": "Efternamn krävs"
+    }
+  },
+  "or": "Eller logga in med",
+  "facebook": "Facebook",
+  "google": "Google",
+  "account": "Har du redan ett konto?",
+  "sign-in": "Logga in",
+  "success-text": "Hurra, låt oss komma igång!"
+}

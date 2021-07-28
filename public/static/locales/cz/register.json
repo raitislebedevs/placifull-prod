@@ -1,0 +1,27 @@
+{
+  "heading": "Registrace",
+  "form": {
+    "first-name": "Jméno",
+    "last-name": "Příjmení",
+    "your-email": "Zadejte Email",
+    "email": "Email",
+    "password": "Heslo",
+    "confirm-password": "Potvrdit Heslo",
+    "submit": "Zaregistrovat",
+    "terms-text": "Přijímám",
+    "terms-link": "Všeobecné obchodní podmínky",
+    "error": {
+      "email-invalid": "Email je neplatný",
+      "email-required": "Email je povinný",
+      "password-required": "Heslo je povinné",
+      "first-name-required": "Jméno je povinné",
+      "last-name-required": "Příjmení je povinné"
+    }
+  },
+  "or": "Nebo se zaregistrujte pomocí",
+  "facebook": "Facebook",
+  "google": "Google",
+  "account": "Už máte účet?",
+  "sign-in": "Přihlaste se",
+  "success-text": "Hurá, Můžeme Začít!"
+}

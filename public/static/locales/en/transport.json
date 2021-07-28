@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "form": {
+      "currency": "Currency",
+      "no-currency": "ALL",
+      "min-price": "Min: 0.00",
+      "max-price": "Max: 9,999,999,999",
+      "transport-brand": "Transport Brand",
+      "transport-model": "Transport Model",
+      "min-age": "Min Age",
+      "max-age": "Max Age",
+      "submit": "Search Now",
+      "accordion": "ADVANCED SEARCH",
+      "accordion-right": {
+        "economy": {
+          "label": "Fuel Economy",
+          "items": {
+            "from": "From: 0",
+            "to": "To: 999"
+          }
+        },
+        "speed": {
+          "label": "Max Speed",
+          "items": {
+            "from": "From: 0",
+            "to": "To: 999"
+          }
+        },
+        "millage": {
+          "label": "Distance",
+          "items": {
+            "from": "From: 0",
+            "to": "To: 9,999,999"
+          }
+        },
+        "units": "Units"
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Sort by",
+        "options": {
+          "price": "Price",
+          "speed": "Speed",
+          "millage": "Millage",
+          "fuel-economy": "Fuel economy",
+          "popularity": "Popularity",
+          "views": "Viewed",
+          "country": "Country",
+          "insert-date": "Insert Date"
+        }
+      }
+    }
+  }
+}

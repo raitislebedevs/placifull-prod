@@ -1,0 +1,64 @@
+{
+  "title": "Rechercher des annonces immobilières",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "Prix min.",
+        "max-price": "Prix Max",
+        "min-rooms": "Nombre minimum de Chambres",
+        "max-rooms": "Nombre maximal de chambres",
+        "min-area": "Surface minimale",
+        "max-area": "Surface maximale",
+        "move-in-date": "Emménagement à partir de la date",
+        "move-out-date": "Dénagement au plus tard le",
+        "currency": "Devise"
+      },
+
+      "submit": "Rechercher maintenant",
+      "accordion": "RECHERCHE AVANCÉE",
+      "accordion-right": {
+        "utility-label": "Montant moyen des factures de consommation ",
+        "utility": {
+          "from-price": "De : 0.00",
+          "to-price": "À : 9,999,999,9999"
+        },
+        "year-label": "Année de construction",
+        "built": {
+          "from-year": "À partir de : 1000",
+          "to-year": "À : 9999"
+        },
+        "measurement-label": "Mesurement",
+        "system": {
+          "none": "Aucun",
+          "metric": "Métrique m",
+          "imperial": "Pied impérial"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Trier par",
+        "options": {
+          "price": "Prix",
+          "area": "Surface",
+          "rooms": "Pièces",
+          "street-name": "Nom de rue",
+          "popularity": "Popularité",
+          "views": "Nombre de vues",
+          "country": "Pays",
+          "insert-date": "Date de publication"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "Le Blog",
+    "see-more": "Lire la suite"
+  },
+  "error": {
+    "tags": "Veuillez nous contacter en écrivant : 'Aucune étiquette trouvée'"
+  },
+  "no-tags": "Aucune fonctionnalité pour cette option"
+}

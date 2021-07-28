@@ -1,0 +1,6 @@
+export { default as HeroSection } from './HeroSection'
+export { default as RealEstateSection } from './RealEstateSection'
+export { default as TransportationSection } from './TransportationSection'
+export { default as JobSection } from './JobSection'
+export { default as ServiceSection } from './ServiceSection'
+export { default as PriceSection } from './PriceSection'

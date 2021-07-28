@@ -1,0 +1,271 @@
+{
+  "hero-section": {
+    "head": {
+      "line-1": "Placifull where Simplicity meets ",
+      "line-2": "Carefully Crafted Solutions to Fulfill Your Dream",
+      "line-3": "Search Jobs, Real Estate and Transportation to suit all your needs in every corner of the world.",
+      "options": {
+        "text-1": "Reliability",
+        "text-2": "Consistency",
+        "text-3": "Affordability",
+        "text-4": "Reachability"
+      }
+    },
+    "button": "Get Started"
+  },
+  "real-estate-section": {
+    "badge": "Promoted Items",
+    "head": {
+      "line-1": "Real Estate",
+      "line-2": "Most promoted items on ",
+      "line-3": "Placifull",
+      "line-4": " that requires your full attention."
+    },
+    "button": "See All"
+  },
+  "transportation-section": {
+    "badge": "Promoted Items",
+    "head": {
+      "line-1": "Transportation",
+      "line-2": "These transports on ",
+      "line-3": "Placifull",
+      "line-4": " calls for your time."
+    },
+    "button": "See All"
+  },
+  "job-section": {
+    "badge": "Promoted Items",
+    "head": {
+      "line-1": "Premium Jobs",
+      "line-2": "Thirsting for a change? At ",
+      "line-3": "Placifull ",
+      "line-4": "find the dream job you always wanted."
+    },
+    "jobs": {
+      "location": "Location",
+      "working-schedule": "Working Schedule",
+      "salary": "Salary",
+      "working-place": "Working Place",
+      "button": "View Detail"
+    },
+    "button": "See More"
+  },
+  "service-section": {
+    "head": {
+      "line-1": "What we are about!",
+      "line-2": "Explore what we value the most. In ",
+      "line-3": "Placifull",
+      "line-4": " we listen what you have to say."
+    },
+    "services": {
+      "service-1": {
+        "open-modal": "Learn More",
+        "name": "Listing Opportunities",
+        "description": "Our main focus is to help people move to a different country. Moving abroad opens up many challanges, so we are here to help you with the search tools you need. Job, house, transportation all can be found in one place. You don't need to search elsewhere.",
+
+        "modal": {
+          "header": "Explore",
+          "description": "Placifull is determined to make moving abroad easier for you and your family. Our primary concern is to offer you all available job listings according to your requirements and qualifications. Placifull believes in helping you to meet all challenges that come with a new life, and you will not need to search any further once you have used our services. Our team does all the hard work for you and all you have to do is select from the job listings we provide. However, our work does not end here and we will continue to be of great use as you start your new job.",
+          "close-button": "Close"
+        }
+      },
+      "service-2": {
+        "open-modal": "Help Us Now",
+        "name": "Help Us Improve",
+        "description": "We are a small team behind the curtains, so any changes you suggest we will be looking at and would add to our voting board. ",
+
+        "modal": {
+          "header": "Improve",
+          "description": "Our team is comprised of passionate people who work hard to help you achieve your dreams. Therefore, we are quite focused on taking and implementing helpful suggestions from our regular users. If there is anything you find in our services that you think could be improved upon, do not hesitate to drop a note on our voting board. As soon as the suggestion reaches ten thousand up-votes, we are bound to implement the changes. We want our users to know that their opinions are most valuable to us.",
+          "close-button": "Close",
+          "contact-button": "Get In Touch"
+        }
+      },
+      "service-3": {
+        "name": "Like & Share",
+        "description": "If you find our services useful and life-changing, it would be very helpful for us if you spread the word about our platform to all your friends and family. Promoting and sharing our work will help us grow further and serve you better."
+      },
+      "service-4": {
+        "open-modal": "Improve Us Now",
+        "name": "Improve our Quality",
+        "description": "Something does not work? Payment didn't go through? Don't hesitate to contact us with the complaint, we will look at it as a priority.",
+        "modal": {
+          "header": "Quality",
+          "description": "Placifull is a quality-centered brand and we believe our entire worth is in the quality of the services we provide. We whole-heartedly assure you that we do not compromise on our quality and standards. If you find something on our platform that is not working as smoothly as it should, report the problem to us at your earliest and we will fix it as soon as we can. Your experience with Placifull is of utmost importance and we will enhance and upgrade our system to suit you better.",
+          "close-button": "Close",
+          "contact-button": "Get In Touch"
+        }
+      },
+      "service-5": {
+        "open-modal": "Applly Now",
+        "name": "Carrear Opportunities",
+        "description": "We work hard and we rest hard. Do you want to be part of us? Then write us. You choose what you want to work at, where and with the salary you want. If we like it YOU will be hired.",
+        "modal": {
+          "header": "Carrrear",
+          "description": "Our job listings are unique and you will not find what we offer anywhere else. We offer an exciting working hour scheme that will mean you only have to work 4 days a week, and 8 hours each day instead of 12. On the Fridays of every week, you will be given the option to visit the office or not. You can definitely use the extra time to catch up on friends, exercise, practice your hobbies, and much more! Pacifull makes sure quality time with your friends and family is not interrupted due to your job. This is why the platform also makes sure you get enough vacation time, starting with 20 days and you can get up to 28 days of vacation every year. That gives a total of . It is almost impossible to find a work schedule as fruitful as this, so wait no longer and apply to Placifull.",
+          "close-button": "Close",
+          "contact-button": "Apply Now"
+        },
+        "modal-apply": {
+          "form": {
+            "header": "Give us your proposition!",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email Address",
+            "phone": "Phone",
+            "dreamJob": "What would you like to work as?",
+            "applyText": "Why should we hire you?",
+            "salary": "Expected Salary (monthly)",
+            "positionName": "Position name",
+            "apply": "I am Ready!"
+          }
+        }
+      }
+    },
+    "learn-more": "Learn More"
+  },
+  "price-section": {
+    "badge": "",
+    "head": {
+      "line-1": "Our Listing Rates"
+    },
+    "prices": {
+      "price-1": {
+        "name": "Real Estate",
+        "tiers": {
+          "tier-2": {
+            "name": "Single Post",
+            "offer-1": "Pay once, use whenever needed.",
+            "offer-2": "Listings posted for up to 395 days",
+            "offer-3": "Freedom to Follow user bids",
+            "offer-4": "Remove any time",
+            "button": "Try Now"
+          },
+          "tier-3": {
+            "name": "Quarterly",
+            "offer-1": "8 active items",
+            "offer-2": "List up to 395 days",
+            "offer-3": "Follow user bids",
+            "offer-4": "Close whenever you want and use again",
+            "button": "Try Now"
+          },
+          "tier-4": {
+            "name": "Annually",
+            "offer-1": "20 active items",
+            "offer-2": "List up to 120 days",
+            "offer-3": "Freedome to follow user bids",
+            "offer-4": "Close whenever, and Re-open on need",
+            "button": "Try Now"
+          }
+        }
+      },
+      "price-2": {
+        "name": "Transportation",
+        "tiers": {
+          "tier-2": {
+            "name": "Single Post",
+            "offer-1": "Pay once, use whenever needed.",
+            "offer-2": "Listings posted for up to 395 days",
+            "offer-3": "Freedom to Follow user bids",
+            "offer-4": "Remove any time",
+            "button": "Try Now"
+          },
+          "tier-3": {
+            "name": "Quarterly",
+            "offer-1": "8 active items",
+            "offer-2": "List up to 395 days",
+            "offer-3": "Follow user bids",
+            "offer-4": "Close whenever you want and use again",
+            "button": "Try Now"
+          },
+          "tier-4": {
+            "name": "Annually",
+            "offer-1": "20 active items",
+            "offer-2": "List up to 120 days",
+            "offer-3": "Freedome to follow user bids",
+            "offer-4": "Close whenever, and Re-open on need",
+            "button": "Try Now"
+          }
+        }
+      },
+      "price-3": {
+        "name": "Jobs",
+        "tiers": {
+          "tier-2": {
+            "name": "Single Post",
+            "offer-1": "Pay once, use whenever needed.",
+            "offer-2": "Listings posted for up to 395 days",
+            "offer-3": "Freedom to Follow user bids",
+            "offer-4": "Remove any time",
+            "button": "Try Now"
+          },
+          "tier-3": {
+            "name": "Quarterly",
+            "offer-1": "8 active items",
+            "offer-2": "List up to 395 days",
+            "offer-3": "Follow user bids",
+            "offer-4": "Close whenever you want and use again",
+            "button": "Try Now"
+          },
+          "tier-4": {
+            "name": "Annually",
+            "offer-1": "20 active items",
+            "offer-2": "List up to 120 days",
+            "offer-3": "Freedome to follow user bids",
+            "offer-4": "Close whenever, and Re-open on need",
+            "button": "Try Now"
+          }
+        }
+      },
+      "price-4": {
+        "name": "Others",
+        "tiers": {
+          "tier-1": {
+            "name": "Free",
+            "offer-1": "Browser Listings",
+            "offer-2": "Rate Listings",
+            "offer-3": "Be part oF us",
+            "offer-4": "Share the word",
+            "button": "Try Now"
+          },
+          "tier-2": {
+            "name": "Promoted Item",
+            "offer-1": "Pay on submit",
+            "offer-2": "Promoted area",
+            "offer-3": "Marked as featured",
+            "button": "Try Now"
+          },
+          "tier-3": {
+            "name": "Search CV",
+            "offer-1": "Yearly Purchase",
+            "offer-3": "Browser CV's",
+            "button": "Try Now"
+          },
+          "tier-4": {
+            "name": "Add Extra days",
+            "offer-1": "Extend the listing days",
+            "offer-2": "Choose day count",
+            "offer-3": "Up to 365 days",
+            "offer-4": "Starting from 0.11 € per day",
+            "button": "Try Now"
+          }
+        }
+      }
+    },
+    "off": "Off",
+    "modal": {
+      "no-user": {
+        "title": "Post Listing Information",
+        "header": "Please log in",
+        "body": "Please Log in to the website as otherwise we can't provide you with a good tracability.",
+        "log": "Log In"
+      },
+      "post": {
+        "title": "Please choose option",
+        "body": " Do you want to Purchase new options for your profile or use the existing ones?",
+        "post": "No, post listing",
+        "purchase": "Yes, purchase"
+      }
+    }
+  }
+}

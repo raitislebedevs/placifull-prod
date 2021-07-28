@@ -1,0 +1,27 @@
+{
+  "heading": "Mendaftar",
+  "form": {
+    "first-name": "Nama Depan",
+    "last-name": "Nama Belakang",
+    "your-email": "Berikan Email",
+    "email": "Email",
+    "password": "Kata Sandi",
+    "confirm-password": "Konfirmasi Kata Sandi",
+    "submit": "Mendaftar ",
+    "terms-text": "Saya Menerima",
+    "terms-link": "Syarat dan Ketentuan",
+    "error": {
+      "email-invalid": "Email tidak valid",
+      "email-required": "Diperlukan Email",
+      "password-required": "Diperlukan Kata Sandi",
+      "first-name-required": "Diperlukan Nama Depan",
+      "last-name-required": "Diperlukan Nama Belakang"
+    }
+  },
+  "or": "Atau Mendaftar Dengan",
+  "facebook": "Facebook",
+  "google": "Google",
+  "account": "Sudah memiliki akun?",
+  "sign-in": "Masuk",
+  "success-text": "Hore, mari mulai!"
+}

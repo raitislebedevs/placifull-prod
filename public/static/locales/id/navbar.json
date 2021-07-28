@@ -1,0 +1,13 @@
+{
+  "home": "Beranda",
+  "opportunities": {
+    "base": "Kesempatan",
+    "real-estate": "Perumahan",
+    "vehicles": "Kendaraan",
+    "job-search": "Pencarian Pekerjaan"
+  },
+  "help": "Bantuan dan Dukungan",
+  "sign-in": "Masuk",
+  "register": "Mendaftar",
+  "add-listing": "Tambahkan Daftar"
+}

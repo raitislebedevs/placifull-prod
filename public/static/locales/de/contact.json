@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "Hilfe & Kundendienst",
+    "info": {
+      "text": "WhatsAppnummer",
+      "phone": ""
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "Kontakt Information",
+      "items": {
+        "item-1": {
+          "label": "Standorte",
+          "description": "Hauptstrasse 124"
+        },
+        "item-2": {
+          "label": "Telefonnummer",
+          "description": "0049 123 444 55 66"
+        },
+        "item-3": {
+          "label": "Email",
+          "description": "something@gmail.com"
+        },
+        "item-4": {
+          "label": "Kundendiest",
+          "description": ""
+        }
+      }
+    },
+    "form": {
+      "heading": "Formular",
+      "name": "Name",
+      "email": "Email-Adresse",
+      "subject": "Thema",
+      "message": "Nachricht",
+      "submit": "Nachricht versenden"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "heading": "Registrati",
+  "form": {
+    "first-name": "Nome",
+    "last-name": "Cognome",
+    "your-email": "Fornisci un indirizzo email",
+    "email": "Email",
+    "password": "Password",
+    "confirm-password": "Conferma password",
+    "submit": "Registrati",
+    "terms-text": "Accetto",
+    "terms-link": "Termini e Condizioni",
+    "error": {
+      "email-invalid": "L'email non è valida.",
+      "email-required": "L'email è obbligatoria.",
+      "password-required": "È necessaria la password",
+      "first-name-required": "È necessario il nome",
+      "last-name-required": "È necessario il cognome"
+    }
+  },
+  "or": "o Accedi con",
+  "facebook": "Facebook",
+  "google": "Google",
+  "account": "Hai già un account?",
+  "sign-in": "Effettua l'accesso",
+  "success-text": "Evviva, Iniziamo!"
+}

@@ -1,0 +1,64 @@
+{
+  "title": "Buscar anuncios de inmuebles",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "Precio mínimo",
+        "max-price": "Precio máximo",
+        "min-rooms": "Mínimo de habitaciones",
+        "max-rooms": "Máximo de habitaciones",
+        "min-area": "Superficie mínima",
+        "max-area": "Superficie máxima",
+        "move-in-date": "Fecha de entrada desde",
+        "move-out-date": "Fecha de entrada hasta",
+        "currency": "Moneda"
+      },
+
+      "submit": "Buscar ahora",
+      "accordion": "BÚSQUEDA AVANZADA",
+      "accordion-right": {
+        "utility-label": "Rango de facturación de servicios públicos",
+        "utility": {
+          "from-price": "Desde: 0.00",
+          "to-price": "Hasta: 9,999,999,999"
+        },
+        "year-label": "Año de construcción",
+        "built": {
+          "from-year": "Desde: 1000",
+          "to-year": "Hasta: 9999"
+        },
+        "measurement-label": "Medida",
+        "system": {
+          "none": "Ninguna",
+          "metric": "Métrico m2",
+          "imperial": "Pies anglosajones"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Ordenar por",
+        "options": {
+          "price": "Precio",
+          "area": "Superficie",
+          "rooms": "Habitaciones",
+          "street-name": "Nombre de la calle",
+          "popularity": "Popularidad",
+          "views": "Visto",
+          "country": "País",
+          "insert-date": "Insertar fecha"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "Desde el blog",
+    "see-more": "Leer más"
+  },
+  "error": {
+    "tags": "Póngase en contacto con nosotros diciendo: 'No se encontraron etiquetas'"
+  },
+  "no-tags": "No hay características para esta opción"
+}

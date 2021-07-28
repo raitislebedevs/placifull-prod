@@ -1,0 +1,53 @@
+{
+  "heading": "Soumettre l'annonce",
+  "form": {
+    "submit": "Soumettre",
+    "submit-confirm": "Sauvegarde en cours ...",
+    "preview-sneak-peak": "Création en cours ...",
+    "preview": "Aperçu",
+    "no-currency": "TOUTES",
+    "no-features": "Veuillez sélectionner une catégorie d'annonce",
+    "general-information": {
+      "heading": "Informations générales",
+      "currency-input": "Devise",
+      "input-fields": {
+        "name": "Titre de l'annonce",
+        "description": "Description",
+        "price": "Prix",
+        "bed-rooms": "Chambres",
+        "bath-rooms": "Salles de bain",
+        "area": "Surface de la propriété",
+        "start-renting": "Commencement de la location",
+        "end-renting": "Fin de la location",
+        "year-built": "Année de construction"
+      }
+    },
+    "detail-information": {
+      "heading": "Informations détaillées",
+      "contact": {
+        "heading": "Contact",
+        "email": "E-mail",
+        "address": "Adresse",
+        "contact-times": {
+          "label": "Horaires de contact",
+          "placeholder": "Choisissez l'heure préférable"
+        },
+        "listing-website": "Site Web : https://"
+      }
+    },
+    "gallery": {
+      "real-estate": "Galerie",
+      "click-drop": "CLIQUEZ OU FAITES GLISSER LES IMAGES ICI",
+      "video-url": "Vidéo https://"
+    },
+    "contact-hours": {
+      "heading": "Horaires de contact",
+      "heading-tip": "Optionnel",
+      "accordion": {
+        "heading": "Ajoutez le moment le plus approprié pour un rendez-vous/ une discussion ...",
+        "start-time": "De",
+        "end-time": "Jusqu'à"
+      }
+    }
+  }
+}

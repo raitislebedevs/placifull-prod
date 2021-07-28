@@ -1,0 +1,53 @@
+{
+  "heading": "Submit Listing",
+  "form": {
+    "submit": "Submit",
+    "submit-confirm": "Saving...",
+    "preview-sneak-peak": "Generating...",
+    "preview": "Preview",
+    "no-currency": "ALL",
+    "no-features": "Please Select a Listing category",
+    "general-information": {
+      "heading": "General Information",
+      "currency-input": "Currency",
+      "input-fields": {
+        "name": "Your Listing Name",
+        "description": "Description",
+        "price": "Price",
+        "bed-rooms": "Bed Rooms",
+        "bath-rooms": "Baths",
+        "area": "Property Area",
+        "start-renting": "Start Renting",
+        "end-renting": "End Renting",
+        "year-built": "Year Built"
+      }
+    },
+    "detail-information": {
+      "heading": "Detail Information",
+      "contact": {
+        "heading": "Contact",
+        "email": "Email",
+        "address": "Address",
+        "contact-times": {
+          "label": "Contact Time",
+          "placeholder": "Choose Preferable Time"
+        },
+        "listing-website": "Website: https://"
+      }
+    },
+    "gallery": {
+      "real-estate": "Gallery",
+      "click-drop": "CLICK OR DRAG IMAGES HERE",
+      "video-url": "Video https://"
+    },
+    "contact-hours": {
+      "heading": "Contact hours",
+      "heading-tip": "Optional",
+      "accordion": {
+        "heading": "Add the most suitable time for meetup/conversation...",
+        "start-time": "From",
+        "end-time": "Till"
+      }
+    }
+  }
+}

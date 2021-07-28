@@ -1,0 +1,29 @@
+{
+  "heading": "Register",
+  "form": {
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "your-email": "Your Email",
+    "email": "Email",
+    "password": "Password",
+    "confirm-password": "Confirm Password",
+    "submit": "Register",
+    "terms-text": "I Accept",
+    "terms-link": "Terms & Conditions",
+    "error": {
+      "email-invalid": "Email is not valid.",
+      "email-required": "Email is required.",
+      "password-required": "Password is required",
+      "first-name-required": "First name is required",
+      "last-name-required": "Last name is required",
+      "confirm-password-required": "Please confirm your password",
+      "accept-terms": "Accept Terms & Conditions is required"
+    }
+  },
+  "or": "Or Signup With",
+  "facebook": "Facebook",
+  "google": "Google",
+  "account": "Already have an account ?",
+  "sign-in": "Sign in",
+  "success-text": "Register successfully."
+}

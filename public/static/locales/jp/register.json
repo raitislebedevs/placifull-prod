@@ -1,0 +1,27 @@
+{
+  "heading": "登録する",
+  "form": {
+    "first-name": "名前",
+    "last-name": "名字",
+    "your-email": "メールアドレスの入力が必要です",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "confirm-password": "パスワード確認",
+    "submit": "登録する",
+    "terms-text": "賛成です",
+    "terms-link": "利用規約",
+    "error": {
+      "email-invalid": "無効なメールアドレス",
+      "email-required": "メールアドレスが必要です",
+      "password-required": "パスワードが必要です",
+      "first-name-required": "名前が必要です",
+      "last-name-required": "名字が必要です"
+    }
+  },
+  "or": "その他の登録オプション",
+  "facebook": "Facebook",
+  "google": "グーグル",
+  "account": "登録していますか？",
+  "sign-in": "サインイン",
+  "success-text": "よし、これで開始！"
+}

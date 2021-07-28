@@ -1,0 +1,23 @@
+{
+  "heading": "Masuk",
+  "form": {
+    "your-email": "Berikan Email",
+    "email": "Email",
+    "password": "Password ",
+    "submit": "Masuk",
+    "remember-me": "Ingat saya",
+    "forgot-password": "Lupa kata sandi?",
+    "or": "Atau login dengan",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "Tidak memiliki akun?",
+    "sign-up": "Daftar",
+    "error": {
+      "email-invalid": "Email tidak valid",
+      "email-required": "Email diperlukan",
+      "password-required": "Kata sandi diperlukan"
+    },
+    "success": "Selamat datang kembali!",
+    "already-login": "Mencoba untuk masuk kedua kalinya?"
+  }
+}

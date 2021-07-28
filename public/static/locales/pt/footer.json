@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "Comece a navegar e procure sua casa e os objetos de que você precisa."
+        }
+      },
+      "menu-2": {
+        "text-head": "Empresa",
+        "items": {
+          "item-1": "Quem somos",
+          "item-2": "Equipe",
+          "item-3": "Carreiras",
+          "item-4": "Blog"
+        }
+      },
+      "menu-3": {
+        "text-head": "Links úteis",
+        "items": {
+          "item-1": "Acesso",
+          "item-2": "Cadastro",
+          "item-3": "Imobiliária",
+          "item-4": "Transporte",
+          "item-5": "Empregos",
+          "item-6": "Termos e Condições"
+        }
+      },
+      "menu-4": {
+        "text-head": "Notícias",
+        "items": {
+          "item-1": "Cadastre-se e receba dicas via e-mail",
+          "item-2": "Digite seu endereço eletrônico",
+          "item-3": "E-mail",
+          "item-4": "Inscrever-me"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "Placifull. Cuidamos de você com"
+    },
+    "right": "Equipe Placifull"
+  }
+}

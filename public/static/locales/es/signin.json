@@ -1,0 +1,23 @@
+{
+  "heading": "Iniciar sesión",
+  "form": {
+    "your-email": "Proporciona tu correo",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submit": "Iniciar sesión",
+    "remember-me": "Recordar Usuario",
+    "forgot-password": "Olvidó Contraseña",
+    "or": "Iniciar cuenta con",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "No tienes cuenta?",
+    "sign-up": "Registrarse",
+    "error": {
+      "email-invalid": "Email Inválido",
+      "email-required": "Email requerido",
+      "password-required": "Contraseña requerida"
+    },
+    "success": "Bienvenido devuelta",
+    "already-login": "Intentando iniciar sesión de nuevo?"
+  }
+}

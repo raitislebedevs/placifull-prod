@@ -1,0 +1,80 @@
+.detail-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  .accordion__header {
+    background: theme-color("primary");
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 3px 1px rgb(165 42 42 / 29%);
+    display: flex;
+    justify-content: space-between;
+    svg {
+      margin-top: 3px;
+    }
+  }
+  .detail-container__right-content {
+    .form-group {
+      .form-label {
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: none;
+      }
+    }
+    @import "./Details_Profile";
+    @import "./Details_RealEstate";
+    @import "./Details_Transport";
+    @import "./Details_Jobs";
+    @import "./Details_CV";
+    @import "./Details_BrowseCV";
+    @import "./Curriculam_Vitaes";
+  }
+
+  .detail-container__left-tab {
+    box-shadow: none;
+    position: sticky;
+    padding: 20px;
+    box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    top: 70px;
+    margin-bottom: 40px;
+    .layout-md {
+      @include media-breakpoint-down(md) {
+        padding-top: 0px;
+        margin-top: 7px;
+      }
+    }
+    .left-tab__item {
+      display: block;
+      box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.13);
+      text-align: center;
+      padding: 20px 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      @include media-breakpoint-down(md) {
+        padding: 10px;
+      }
+      .item__title {
+        margin-top: 5px;
+        font-size: 14px;
+      }
+      &:hover {
+        color: $white;
+        background-color: $dark-red;
+      }
+    }
+    .left-tab__selected {
+      color: $white;
+      background-color: $dark-red;
+    }
+    .sticky {
+      position: sticky;
+      top: 80px;
+      @include media-breakpoint-down(md) {
+        top: 0px;
+      }
+    }
+  }
+}

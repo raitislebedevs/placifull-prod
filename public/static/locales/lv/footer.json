@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "Sākiet Darboties Ar mums"
+        }
+      },
+      "menu-2": {
+        "text-head": "Kompānija",
+        "items": {
+          "item-1": "Par mums",
+          "item-2": "Komanda",
+          "item-3": "Karjera",
+          "item-4": "Blogs"
+        }
+      },
+      "menu-3": {
+        "text-head": "Īssaites",
+        "items": {
+          "item-1": "Pieslēgties",
+          "item-2": "Reģistrēties",
+          "item-3": "Nekustamie Īpašumi",
+          "item-4": "Transports",
+          "item-5": "Darbs",
+          "item-6": "Noteikumi"
+        }
+      },
+      "menu-4": {
+        "text-head": "Ziņas",
+        "items": {
+          "item-1": "Pieraksties uz jaunumiem",
+          "item-2": "Ieraksti E-pastu",
+          "item-3": "tavs Epasts",
+          "item-4": "Saņemt jaunumus"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "PlacifulĀ Mēs rūpējamies par tevi"
+    },
+    "right": "Placigull Team"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "home": "HEM",
+  "opportunities": {
+    "base": "VALMÖJLIGHETER",
+    "real-estate": "FASTIGHET",
+    "vehicles": "FORDON",
+    "job-search": "JOBBSÖKANDE"
+  },
+  "help": "HJÄLP OCH SUPPORT",
+  "sign-in": "LOGGA IN",
+  "register": "REGISTRERA",
+  "add-listing": "LÄGG TILL"
+}

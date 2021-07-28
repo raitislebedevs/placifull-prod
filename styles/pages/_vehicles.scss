@@ -1,0 +1,6 @@
+.vehicles-container {
+  width: 100%;
+  @import "../components/pages/vehicles/HeroSection";
+  @import "../components/pages/vehicles/SearchResultSection";
+  @import "../components/pages/vehicles/BlogSection";
+}

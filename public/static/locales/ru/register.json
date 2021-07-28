@@ -1,0 +1,27 @@
+{
+  "heading": "Зарегистрироваться",
+  "form": {
+    "first-name": "Имя",
+    "last-name": "Фамилия",
+    "your-email": "Укажите email",
+    "email": "Email",
+    "password": "Пароль",
+    "confirm-password": "Подтвердить пароль",
+    "submit": "Зарегистрироваться",
+    "terms-text": "Я согласен",
+    "terms-link": "Правила и условия",
+    "error": {
+      "email-invalid": "Email недействителен.",
+      "email-required": "Требуется указать email.",
+      "password-required": "Требуется указать пароль",
+      "first-name-required": "Требуется указать имя",
+      "last-name-required": "Требуется указать фамилию"
+    }
+  },
+  "or": "Или зарегистрироваться под аккаунтом",
+  "facebook": "Facebook",
+  "google": "Google",
+  "account": "Уже есть аккаунт?",
+  "sign-in": "Войти",
+  "success-text": "Ура! Итак, начнем!"
+}

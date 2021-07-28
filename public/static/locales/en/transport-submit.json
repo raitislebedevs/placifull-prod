@@ -1,0 +1,77 @@
+{
+  "heading": "Submit Listing",
+  "form": {
+    "submit": "Submit",
+    "submit-confirm": "Saving...",
+    "preview-sneak-peak": "Generating...",
+    "preview": "Preview",
+    "currency": "Currency",
+    "no-currency": "ALL",
+    "general-information": {
+      "heading": "General Information",
+      "transport-type": "Transport Type",
+      "action": "Action",
+      "condition": "Condition",
+      "input-fields": {
+        "description": "Description",
+        "brand": "Transport Brand",
+        "model": "Transport Model",
+        "production-year": "Production Year",
+        "price": "Price",
+        "engine-type": "Engine Type",
+        "gear-box": "Gear Box",
+        "millage": "Distance",
+        "speed": "Max Speed",
+        "fueal-economy": "Fual Economy",
+        "seats": "Number of Seats",
+        "doors": "Number of Doors",
+        "name": "Transport listing name"
+      }
+    },
+    "detail-information": {
+      "heading": "Detail Information",
+      "contact": {
+        "heading": "Contact",
+        "email": "Email",
+        "address": "Address",
+        "contact-times": {
+          "label": "Contact Time",
+          "placeholder": "Choose Preferable Contact Time",
+          "options": {
+            "any-time": "Any time",
+            "working-days": "Working days",
+            "office-hours": "Office Hours",
+            "specific-times": "Specific Times"
+          }
+        },
+        "listing-website": "Website: https://"
+      },
+      "features": {
+        "heading": "Features",
+        "category": {
+          "equipment": "Equipment",
+          "interior": "Interior",
+          "steering-wheel": "Steering wheel",
+          "seats": "Seats",
+          "lights": "Lights",
+          "audio-video": "Audio/Video",
+          "mirrros": "Mirrors"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "Gallery",
+      "click-drop": "CLICK OR DRAG IMAGES HERE",
+      "video-url": "Video url: https://"
+    },
+    "contact-hours": {
+      "heading": "Contact hours",
+      "heading-tip": "Optional",
+      "accordion": {
+        "heading": "Add the most suitable times for meetup/ call...",
+        "start-time": "From",
+        "end-time": "Till"
+      }
+    }
+  }
+}

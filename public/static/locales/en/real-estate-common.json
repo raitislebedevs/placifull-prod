@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "Category",
+    "options": {
+      "houses": "House",
+      "apartments": "Apartment",
+      "land": "Land",
+      "farmhouse": "Farmhouse",
+      "commercial": "Comercial",
+      "exclusive": "Exclusive",
+      "offices": "Office",
+      "agents": "Real-Estate Agency"
+    }
+  },
+  "action": {
+    "label": "Action",
+    "options": {
+      "sell": "Sell",
+      "rent": "Rent",
+      "exchange": "Exchange"
+    }
+  },
+  "condition": {
+    "label": "Condition",
+    "label-land": "Property Type",
+    "options": {
+      "brandNew": "Brand New",
+      "goodCondition": "Good Condition",
+      "medium": "Medium",
+      "requiresFixing": "Requires Fixing",
+      "requiresConstruction": "Requires Construction",
+      "residential": "Residential",
+      "comercial": "Commercial",
+      "industrial": "Industrial",
+      "agricultural": "Agricultural"
+    }
+  },
+  "contact-times": {
+    "label": "Contact Time",
+    "options": {
+      "anyTime": "Any time",
+      "workingDays": "Working days",
+      "officeHours": "Office Hours",
+      "specificTimes": "Specific Times"
+    }
+  },
+  "features": {
+    "heading": "Features",
+    "category": {
+      "kitchen": "Kitchen",
+      "bathroom": "Bathroom",
+      "living-room": "Living Room",
+      "bedroom": "Bedroom",
+      "housing-extras": "Other Extras",
+      "land-type": "Land type",
+      "buildingLand": "Building Land for",
+      "forest-properties": "Forest Properties",
+      "agriculture-properties": "Agriculture Properties"
+    }
+  },
+  "utilities": {
+    "heading": "Utilities",
+    "total": "Total",
+    "items": {
+      "coldWater": "Cold Water",
+      "hotWater": "Hot Water",
+      "electricity": "Electricity",
+      "garbage": "Garbage",
+      "propertyManagement": "Property Management",
+      "heating": "Heating",
+      "parking": "Parking",
+      "others": "Others"
+    }
+  }
+}
