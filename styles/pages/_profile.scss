@@ -1,6 +1,10 @@
 .profile-container {
   width: 100%;
-  padding: 0 12%;
+  padding: 0 10%;
+  @include media-breakpoint-down(md) {
+    padding: 0px;
+    margin: 0px;
+  }
   @import "../components/pages/profile/Details";
   @import "../components/pages/profile/Overview";
 }
