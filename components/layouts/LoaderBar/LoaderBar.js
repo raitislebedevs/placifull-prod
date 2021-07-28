@@ -29,7 +29,7 @@ const LoaderBar = (props) => {
         } else if (newProgress >= 50) {
           step = 0.05;
         }
-      }, 500);
+      }, 250);
     }
     return () => {
       clearInterval(interval);
