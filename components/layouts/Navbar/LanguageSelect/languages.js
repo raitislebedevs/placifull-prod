@@ -94,7 +94,42 @@ const languages = [
   {
     value: {
       lang: 'sa',
+      flag: 'AE',
+    },
+    label: 'العربية',
+  },
+  {
+    value: {
+      lang: 'sa',
+      flag: 'DZ',
+    },
+    label: 'العربية',
+  },
+  {
+    value: {
+      lang: 'sa',
       flag: 'SA',
+    },
+    label: 'العربية',
+  },
+  {
+    value: {
+      lang: 'sa',
+      flag: 'TN',
+    },
+    label: 'العربية',
+  },
+  {
+    value: {
+      lang: 'sa',
+      flag: 'LY',
+    },
+    label: 'العربية',
+  },
+  {
+    value: {
+      lang: 'sa',
+      flag: 'EG',
     },
     label: 'العربية',
   },
