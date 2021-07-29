@@ -1,0 +1,55 @@
+{
+  "heading": "إرسال القائمة",
+  "form": {
+    "submit-confirm": "حِفظ...",
+    "preview-sneak-peak": "توليد...",
+    "preview": "مُعاينة",
+    "no-currency": "العُملة",
+    "no-features": "يُرجى تحديد فئة القائمة",
+    "job-title": {
+      "title": "المُسّمى ّالوظيفي",
+      "placeholder": "اسم الوظيفة؛ على سبيل المثال،  راعي منصّة بلاسيفول."
+    },
+    "company": "اسم الشركة",
+    "submit": "إرسال",
+    "general-information": {
+      "heading": "معلومات عامة",
+      "input-fields": {
+        "description": "توصيف الوظيفة",
+        "requirements": "مُتطلّبات الوظيفة",
+        "beneftis": "مزايا الوظيفة"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "معلومات الاتّصال",
+        "detail-requirements": "المتطلّبات التّفصيلية"
+      },
+      "contact": {
+        "heading": "الاتّصال",
+        "email": "البريد الإلكتروني",
+        "phone": "رقم الهاتف",
+        "address": "العنوان",
+        "listing-website": "الموقع: https://"
+      }
+    },
+    "gallery": {
+      "heading": "شِعار الشّركة",
+      "click-drop": "أنقر أو اسحب الشّعار هنا",
+      "video-url": "رابط الفيديو: https://"
+    },
+    "contact-hours": {
+      "heading": "ساعات العمل",
+      "heading-tip": "اختياري",
+      "accordion": {
+        "heading": "الأوقات التي يُطلب فيها من المُوظف أن يعمل...",
+        "start-time": "يبدأ العمل على السّاعة",
+        "end-time": "ينتهي العمل على السّاعة"
+      }
+    },
+    "input-languages": {
+      "label": "اللغات المطلوب معرفتها.  (الإنجليزية)",
+      "labelNative": "اللغات المطلوب معرفتها.  (الأصلية)"
+    }
+  }
+}

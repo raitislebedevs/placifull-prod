@@ -1,0 +1,89 @@
+{
+  "currency": "€ ",
+  "payment-modal": {
+    "header": "تفاصيل خُطّة الشِّراء",
+    "sub-header": "يُرجى اختيار خطّتك من التّفاصيل الواردة أدناه",
+    "total-cost": "التّكلفة:",
+    "expiry-date": "تاريخ انتهاء الصّلاحية:",
+    "expiry-label": "تاريخ انتهاء الصّلاحية:",
+    "quantity": "الكمية:",
+    "quantity-label": "الكمية:",
+    "listed": "المُدرَجة:",
+    "purchase": "المُشتَراة:",
+    "extend-expiry": "تمديد انتهاء الصّلاحية",
+    "promote": "ترويج",
+    "subscription-valid": "الخيار صالح",
+    "days": "الأيّام",
+    "browser-cv": "بحث عن السِّيرة الذّاتية",
+    "purchase-text": {
+      "user-held": "مملوكة للمستخدم",
+      "purchase": "شِراء"
+    },
+    "form": {
+      "added-days": {
+        "label": "تمديد القائمة بـ:",
+        "suffix": "أيّام"
+      },
+      "card-details": {
+        "label": "تقديم معلوماتٍ عن البطاقة",
+        "card-holder": "حامل البطاقة",
+        "card-number": "رقم البطاقة",
+        "card-date": "تاريخ انتهاء الصلاحية",
+        "card-csv": "سي إس في"
+      },
+      "buttons": {
+        "decline": "رفْض",
+        "proceed": "مُتَابَعة"
+      },
+
+      "purchase-items": {
+        "intro": "مُقدّمة",
+        "single": "وحِيد",
+        "quarterly": "فصلِياً",
+        "life": "سنوياً"
+      },
+      "user-stock": {
+        "single": "وحِيد",
+        "quartery": "فصلِياً",
+        "life": "سنوياً"
+      }
+    }
+  },
+
+  "receipt-modal": {
+    "header": "تفاصيل المُلخّص",
+    "sub-header": "يُرجى مراجعة تفاصيل الشّراء الخاصة بك قبل  أن تُتابِع.",
+    "card-details": {
+      "card-holder": "اسم حامل البطاقة",
+      "card-number": "معلوماتٍ عن البطاقة",
+      "card-date": "تاريخ انتهاء الصّلاحية"
+    },
+
+    "receipt-table": {
+      "plan": "الخُطّة",
+      "quantity": "الكمّية",
+      "promote": "تمّ التّرويج لها",
+      "extend-expiry": "تمديد انتهاء الصّلاحية",
+      "total": "المجموع",
+      "total-amount": "المبلغ الإجمالي:",
+      "price": "السّعر",
+      "expiry-date": "تاريخ انتهاء الصلاحية",
+      "no-expiry": "لا شيء",
+      "plans": {
+        "standalone": "وحِيد",
+        "subscriptionQuarterly": "فصلِي",
+        "subscriptionYearly": "السّنة",
+        "activeSubscription": "بحث عن السِّيرة الذّاتية"
+      }
+    },
+    "thank-you-message": "شُكرا على دعمك لشركة بلاسيفول. نحنُ مُتأكّدون من أنّك ستكون راضِياً عن اختيارك.،",
+    "buttons": {
+      "cancel": "إلغاء",
+      "proceed": "دفْع & مُتَابَعة"
+    }
+  },
+  "error": {
+    "transaction": "فشِلَت العملية",
+    "subscriptions": "فَشَل عملية الاشتراك"
+  }
+}

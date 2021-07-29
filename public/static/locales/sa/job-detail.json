@@ -1,0 +1,63 @@
+{
+  "header": {
+    "salary-month": " /في الشّهر",
+    "buttons": {
+      "apply": "تقدّم بطلب وظيفةٍ الآن",
+      "share": "مُشاركة الوظيفة"
+    }
+  },
+  "contact-form": {
+    "heading": "تواصل مع الشركة مباشرة",
+    "form": {
+      "heading": "أكتب سؤالك هنا",
+      "fullName": "الاسم بالكامل*",
+      "phoneNumber": "رقم الهاتف*",
+      "email": "عنوان البريد الإلكتروني*",
+      "message": "رسالَتَك",
+      "submit": "أرسل رسالة"
+    }
+  },
+  "about": {
+    "description": "وصف",
+    "requirements": "المتطلّبات",
+    "benefits": "المزايا"
+  },
+  "job-overview": {
+    "heading": "لمحة عامة عن الوظيفة",
+    "items": {
+      "offered-salary": "الرّاتب المُقَدَّم",
+      "languages": "اللّغة",
+      "native": "الأصلية ",
+      "industry": "الصّناعة"
+    },
+    "views": "المُشاهدات",
+    "applicants": "المُتقدّمون للوظيفة",
+    "salary": {
+      "monthly": "شهرياً",
+      "annual": "سنوياً",
+      "hourly": "بالسّاعة"
+    }
+  },
+
+  "application": {
+    "header": "التقدّم بطلب وظيفة",
+    "body": {
+      "proposal": "الرّاتب المُقتَرَح"
+    },
+    "info": "ستُرسَل سيرتك الذاتية إلى وِكالة التوظيف *"
+  },
+
+  "extra": {
+    "heading": "الوظائف المُدرَجة حسب هذا المِلفّ الشّخصي ",
+    "table": {
+      "number": "العدد",
+      "country": "البلد",
+      "full-address": "عنوان المكتب",
+      "position": "الوظيفة",
+      "contract": "نوع العقد",
+      "time": "وقت العمل",
+      "salary": "راتِب ابتداءً من",
+      "end-date": "تاريخ الانتهاء"
+    }
+  }
+}

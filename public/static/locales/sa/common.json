@@ -1,0 +1,133 @@
+{
+  "elements": {
+    "loading": "...جارٍ التّحميل",
+    "loading-right": "...جارٍ التّحميل",
+    "loading-left": " جارٍ التّحميل...",
+    "no-results": "لم يتمّ العُثور على نتائج"
+  },
+  "user": {
+    "name": "الاسم",
+    "first-name": "الاسم الأول",
+    "last-name": "الاسم الأخير",
+    "email": {
+      "email-upper": "البريد الإلكتروني",
+      "email-lower": "البريد الإلكتروني",
+      "your-email": "بريدك الإلكتروني"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "اليوم",
+    "yesterday": "أمس",
+    "days-ago": "أيّام مضت"
+  },
+
+  "social-links": {
+    "heading": "الرّوابط الاجتماعية",
+    "facebook": "فيسبوك: https: //",
+    "twitter": "تويتر: https: //",
+    "youtube": " يوتيوب: https: //   ",
+    "pinterest": "بينتيريست: https: //",
+    "instagram": "انستغرام: https: //"
+  },
+
+  "social": {
+    "heading": "الرّوابط الاجتماعية",
+    "facebook": "فيسبوك",
+    "twitter": "تويتر",
+    "youtube": "يوتيوب",
+    "pinterest": "بينتيريست",
+    "instagram": "انستغرام"
+  },
+
+  "week-days": {
+    "monday": "الاثنين",
+    "tuesday": "الثلاثاء",
+    "wednesday": "الأربعاء",
+    "thursday": "الخميس",
+    "friday": "الجمعة",
+    "saturday": "السبت",
+    "sunday": "الأحد"
+  },
+
+  "toast": {
+    "submit-success": "تمّ نشر قائمتك!",
+    "server-error": "إدخال غير صحيح/لم يتمّ الوصول إلى الخادم",
+    "logging-required": "تسجيل الدّخول إجباري",
+    "cannot-apply": "مهلاً، هذه مُعاينة",
+    "preview": "في المُعاينة لا يمكنك أن تُقدِّم عرضاً",
+    "log-in": "يجب أن تقوم بتسجيل الدّخول لتتمكّن من تقديم عرض",
+    "bidding-price": "ليس هناك أسعارا للعروض",
+    "price-lower": "العرض أقلّ من 20٪ من سعر القائمة",
+    "price-upper": "العرض أعلى من 20٪ من سعر القائمة",
+    "refresh-page": "لم يستجِب الخادم ، يُرجى التّحديث",
+    "not-send": "لم يتم إرسال البريد الإلكتروني",
+    "contact-directly": "الاتّصال مباشرة",
+    "email-send": "تمّ إرسال البريد الإلكتروني",
+    "no-email": "قائمة البريد الإلكتروني غير موجودة",
+    "subscribed": "تهانينا، لقد اشتركت :)",
+    "already-applied": "لقد تقدّمت بطلب لهذه الوظيفة",
+    "already": "مُسَجّلٌ من قبل/ بريد إلكتروني غير صالح",
+    "country-error": "خطأ غير محدّد في إدخال البلد",
+    "location-error": "تعذّر استرجاع المواقع",
+    "unknown-error": "خطأ غير معروف في الخادم",
+    "search-results": {
+      "found": "وجد",
+      "items": "العناصر"
+    },
+    "not-found": "لم يتم العثور على نتائج جديدة"
+  },
+
+  "location": {
+    "country": "البلد",
+    "state": "الدّولة/المنطقة",
+    "city": "المدينة",
+    "no-city": "لا توجد مُدُن",
+    "no-states": "لا توجد دول",
+    "states-not-registerd": "لا توجد دول مُسجَّلة",
+    "cities-registerd": "لا توجد مُدُن مُسجَّلة"
+  },
+
+  "items-per-page": {
+    "label": "العناصر",
+    "options": {
+      "nine": " 9عناصر",
+      "eighteen": "18عنصر",
+      "twenty-seven": "27عنصر",
+      "thirty-six": "36عنصر",
+      "seventy-two": "72عنصر"
+    }
+  },
+
+  "month": {
+    "Jan": "يناير",
+    "Feb": " فبراير",
+    "Mar": "مارس",
+    "Apr": "أبريل",
+    "May": "مايو",
+    "Jun": "يونيو",
+    "Jul": "تموز",
+    "Aug": "أغسطس",
+    "Sep": "أيلول",
+    "Oct": "أكتوبر",
+    "Nov": "نوفمبر",
+    "Dec": "ديسمبر"
+  },
+  "currency": {
+    "currency-label": "العُملة",
+    "no-currency": "الكلّ"
+  },
+  "measurement": {
+    "label": "القياس",
+    "system": {
+      "none": "لا شيء",
+      "metric": "متري",
+      "imperial": "إمبراطوري"
+    }
+  },
+  "user-box": {
+    "profile": "الملفّ الشّخصي",
+    "log-out": "تسجيل الخروج"
+  },
+  "preview-close": "إغلاق المعاينة"
+}

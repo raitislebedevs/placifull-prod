@@ -1,0 +1,384 @@
+{
+  "overview": {
+    "button-label": {
+      "change": "تغيير الصّورة",
+      "delete": "حذف الصّورة",
+      "save-all": "حِفظ الكلّ",
+      "preview": "مُعاينة"
+    },
+    "setting-label": "مُشتَراة",
+    "delete-avatar-modal": {
+      "header": "حذف الصّورة الرّمزية",
+      "body": "هل تُريدُ حذف صورتك الرّمزية؟",
+      "submit": "حذف",
+      "cancel": "إلغاء"
+    }
+  },
+  "hover-texts": {
+    "real-estate": "وظائف في مجال العَقارات",
+    "transport": "وظائف في مجال النّقل",
+    "job": "وظائف شاغرة",
+    "browser": "مُتصفِّح السِّيرة الذّاتية"
+  },
+  "left-tab": {
+    "navigation": "التّنقّل (الإبحار)",
+    "titles": {
+      "profile": "المِلَفّ الشّخصي",
+      "cv": "السِّيرة الذّاتية",
+      "real-estate": "العِقارات",
+      "transport": "النّقل",
+      "jobs": "الوظائف",
+      "browser": "مُتصفِّح السِّيرة الذّاتية",
+      "payment": "إيصالات الدّفع",
+      "logout": "تسجيل الخروج"
+    }
+  },
+  "right-content": {
+    "prev-button": "الخُطوة السّابقة",
+    "next-button": "الخُطوة التاّلية",
+    "profile": {
+      "personal-details": {
+        "heading": "التّفاصيل الشّخصية:",
+        "labels": {
+          "profession": " الهوية المِهنية",
+          "first-name": "الاسم الاول",
+          "last-name": "الاسم الأخير",
+          "email": "بريدك الالكتروني",
+          "phone-number": "رقم الهاتف",
+          "about-me-heading": "نُبذةً عنّي",
+          "about-me": "ما الذي يجعلُك مختلفًا؟",
+          "country": "البلد",
+          "state": "الولاية/المنطقة",
+          "city": "المدينة",
+          "birth-date": "تاريخ الميلاد",
+          "gender": {
+            "label": "الجنس",
+            "men": "ذكر",
+            "women": "أنثى",
+            "not-specified": "إخفاء"
+          },
+          "age": {
+            "label": "إظهار العُمر",
+            "yes": "نعم",
+            "no": "لا",
+            "only-birth-date": "تاريخ الميلاد فقط"
+          }
+        },
+        "button-save": "حِفظ التّعديلات"
+      },
+      "password-form": {
+        "text": "تغيير كلمة المرور :",
+        "old-password": "كلمة المرور القديمة",
+        "new-password": "كلمة مرور جديدة",
+        "confirm-password": "تأكيد كلمة المرور",
+        "button-save": "حِفظ كلمة المرور",
+        "validation": {
+          "current-password-required": "يُرجى تأكيد كلمة المرور",
+          "new-password-required": "كلمة مرور جديدة مفقودة",
+          "password-not-match": "كلمتَيْ المرور غير متطابقتيْن",
+          "confirm-password-required": "يُرجى تأكيد كلمة المرور"
+        }
+      },
+      "delete-form": {
+        "text": "حذف الحساب:",
+        "content": "هل تريد حذف الحساب؟ يُرجى الضّغط على زر'حذف' أدناه",
+        "button-delete": "حذف الحساب"
+      },
+      "validation": {
+        "first-name": "الاسم الأول مطلوب",
+        "last-name": "الاسم الأخير مطلوب"
+      }
+    },
+    "tabs": {
+      "actions": {
+        "sell": "للبيع",
+        "rent": "للإيجار",
+        "exchange": "تبادل"
+      },
+      "common": {
+        "button-edit": "تعديل",
+        "button-reviews": "التّقييمات",
+        "button-delete": "حذف",
+        "days-left": "الأيام المتبقية",
+        "title": "القوائم الخاصة بي",
+        "highest": "أعلى مُناقصة",
+        "lowest": "أدنى مُناقصة"
+      },
+      "job": {
+        "count": "عدد المتقدِّمين للوظيفة",
+        "avarage": "مُتوسِّط ​​العرض",
+        "lowest": "أدنى عرض",
+        "highest": "أعلى عرض",
+        "button": "عرض الكُلّ"
+      },
+      "browser": {
+        "common": {
+          "area": "منطقة العمل"
+        },
+        "title": "مُتصفِّح السِّيرة الذّاتية",
+        "search": {
+          "button": "بحث",
+          "expirience": {
+            "label": "الخبرة",
+            "options": {}
+          },
+          "hourly-to": "بالسّاعة إلى",
+          "monthly-to": "شهريا إلى",
+          "annual-to": "سنويا إلى"
+        },
+        "table": {
+          "name": "الاسم",
+          "email": "البريد الاكتروني",
+          "phone": "رقم الهاتف",
+          "salary": "الرّاتب المُتوقَّع"
+        }
+      },
+      "receipt": {
+        "title": "إيصالات الدّفع",
+        "search": {
+          "search-from": "حدّد تاريخ البدء",
+          "search-to": "حدّد تاريخ الانتهاء",
+          "button": "بحث"
+        },
+        "table": {
+          "order": "طلبية رقم",
+          "date": "التّاريخ",
+          "premium": "تمّ التّرويج لها",
+          "add-days": "أيام إضافية",
+          "type": "نوع القائمة"
+        }
+      }
+    },
+    "cv": {
+      "title": "السِّيَر الذّاتية",
+      "sections": {
+        "personal-details": {
+          "form": {
+            "title": "تفاصيل شخصية",
+            "first-name": "الاسم الأول",
+            "last-name": "الاسم الأخير",
+            "email": "بريد إلكتروني",
+            "phone": "هاتف",
+            "birthday": "عيد الميلاد",
+            "age": {
+              "label": "إظهار العُمر",
+              "options": {
+                "yes": "نعم",
+                "no": "لا",
+                "only-birthdate": "تاريخ الميلاد فقط"
+              }
+            },
+            "gender": {
+              "label": "الجِنس",
+              "options": {
+                "male": "ذكر",
+                "female": "أنثى",
+                "dont–show": "إخفاء"
+              }
+            },
+            "about-me": "ما الذي يجعلُك مختلفًا؟"
+          }
+        },
+        "education": {
+          "title": "التّعليم",
+          "accordion": {
+            "school": "اسم المدرسة",
+            "country": "البلد",
+            "from-date": "من تاريخ ",
+            "to-date": "إلى تاريخ",
+            "study-area": "مجال الدراسة",
+            "qualification": {
+              "title": "المؤهِّل",
+              "options": {
+                "primary": "ابتدائي",
+                "secondary": "ثانوي",
+                "vocational": "مِهني",
+                "bachelors": "بكالوريوس",
+                "master": "ماجستير",
+                "doctorate": "دكتوراه",
+                "other": "غير ذلك"
+              }
+            },
+            "best-fit": "تَناسُب المهنة",
+            "grade": "مُتوسِّط الدّرجة",
+            "button-add": "أضِف التعليم"
+          }
+        },
+        "expierience": {
+          "title": "خِبرة العَمل",
+
+          "company-name": "اسم الشّركة",
+          "from-date": "من تاريخ",
+          "to-date": "إلى تاريخ",
+          "work-area": "منطقة العمل",
+          "position": "الوظيفة",
+          "position-description": "توصيف الوظيفة",
+          "sector": "قِطاع العَمَل",
+          "seniority": {
+            "title": "الأقدمية",
+            "options": {
+              "volunteer": "مُتطوِّع",
+              "intern": "متدرب",
+              "junior": "مُبتدِأ",
+              "intermediate": "مُتوسّط",
+              "senior": "طالب تخرّج",
+              "executive": "إطار",
+              "ceo": "مُدير تنفيذي",
+              "other": "غير ذلك"
+            }
+          },
+
+          "button-add": "إضافة الخبرة"
+        },
+        "languages": {
+          "title": "مهارات اللّغة",
+          "accordion": {
+            "language": "اللّغة",
+            "certificate": "اسم الشّهادة",
+            "level": {
+              "label": "المُستوى",
+              "options": {
+                "a1": "A1",
+                "a2": "A2",
+                "b1": "B1",
+                "b2": "B2",
+                "c1": "C1",
+                "c2": "C2",
+                "native": "أصلية"
+              }
+            },
+            "button-add": "إضافة مهارة"
+          }
+        },
+        "computer": {
+          "title": "مهارات الحاسوب",
+          "accordion": {
+            "skill-name": "مهارات الحاسوب",
+            "knowladge-gained": {
+              "label": "المَعارِف المُكتَسَبة",
+              "options": {
+                "selfTaught": "عِصامي",
+                "course": "دورة تدريبية",
+                "freelance": "مُستقلّ (عمل حرّ)",
+                "contractProject": "مشروع عقد",
+                "fullTimeJob": "عمل بدوام كامل",
+                "other": "غير ذلك"
+              }
+            },
+            "expierience": {
+              "label": "الخِبرة",
+              "uptoOne": "أقلّ من سنة",
+              "oneToThree": "من 1 إلى 3 سنوات",
+              "threeToFive": "من 3 إلى 5 سنوات",
+              "fiveToTen": "من 5 إلى 10 سنوات",
+              "tenToFifteen": " من 10 إلى 15 سنوات",
+              "moreThanFifteen": "أكثر من 15 سنة"
+            },
+            "certificate": "اسم الشّهادة",
+            "button-add": "إضافة مهارة"
+          }
+        },
+        "licenses": {
+          "title": "رُخصة النّقل",
+          "accordion": {
+            "country": "بلد الإصدار",
+            "expierience": {
+              "label": "الخِبرة",
+              "uptoOne": "أقلّ من سنة",
+              "oneToThree": "من 1 إلى 3 سنوات",
+              "threeToFive": "من 3 إلى 5 سنوات",
+              "fiveToTen": "من 5 إلى 10 سنوات",
+              "tenToFifteen": "من 10 إلى 15 سنوات",
+              "moreThanFifteen": "أكثر من 15 سنة"
+            },
+            "category": "فئة الرُّخصة",
+            "button-add": "إضافة رُخصة"
+          }
+        },
+        "expectations": {
+          "title": "توقُّعات العمل",
+          "accordion": {
+            "title": "توقُّعات العمل",
+            "interest": "مجال الاهتمام",
+            "position": "الوظيفة",
+            "seniority": {
+              "title": "الأقدمية",
+              "options": {
+                "volunteer": "مُتطوِّع",
+                "intern": "متدرِّب",
+                "junior": "مُبتدِأ",
+                "intermediate": "مُتوسّط",
+                "senior": "طالب تخرّج",
+                "executive": "إطار",
+                "ceo": "مُدير تنفيذي",
+                "other": "غير ذلك"
+              }
+            },
+            "hourly": "بالسّاعة إلى",
+            "monthly": "شهريا إلى",
+            "yearly": "سنويا إلى",
+            "button-add": "إضافة توقّع"
+          }
+        }
+      }
+    },
+    "browser-cv": {
+      "browser": "مُتصفِّح السِّيرة الذّاتية",
+      "search": "بحث",
+      "work-expierience": "الخِبرة المِهنية",
+      "work-expectations": "توقُّعات العمل",
+      "education-fit": "تناسُب التّعليم",
+      "salary-hourly": "الرّاتب بالسّاعة حتى",
+      "salary-monthly": "الرّاتب الشّهري حتى",
+      "salary-annual": "الرّاتب الشّهري حتى",
+      "seniority": "الأقدمية",
+      "monthly": "شهرياً/",
+      "result-table": {
+        "nr": "العدد  ",
+        "name": "الاسم بالكامل",
+        "email": "البريد الإلكتروني",
+        "phone": "هاتف",
+        "worked-as": "آخر وظيفة تمّ تقلُّدّها،",
+        "salary": "الرّاتب المُتوقَّع",
+        "cv": "السِّيرة الذّاتية",
+        "view": "عرض"
+      }
+    },
+    "receipt": {
+      "title": "إيصالات الدّفع",
+      "start-date": "تاريخ البِدء",
+      "end-date": "تاريخ الانتهاء",
+      "table": {
+        "reference": "الطّلبية #  ",
+        "date": "التّاريخ",
+        "purchase": "الخُطّة",
+        "total": "المبلغ",
+        "status": "الحالة"
+      }
+    }
+  },
+  "toast": {
+    "succes": "تم تحديث الملفّ الشّخصي",
+    "fail": "لم يتمّ تحديث الملفّ الشّخصي",
+    "avatar": "تم تحديث الصّورة الرّمزية",
+    "avatar-fail": "فشَل تحديث الصّورة الرّمزية",
+    "avatar-remove": "تمّ إزالة الصّورة الرّمزية",
+    "avatar-remove-fail": "لم تتمّ إزالة الصّورة الرّمزية",
+    "logout": "تم تسجيل الخروج",
+    "password": "تمّ تغيير كلمة المرور",
+    "password-fail": "لم يتمّ تغيير كلمة المرور",
+    "item-deleted": "تمّ حذف القائمة"
+  },
+  "delete-modal": {
+    "header": "حذف القائمة",
+    "body": "هل أنت مُتأكّد من أنّك تريد حذف هذه القائمة؟",
+    "cancel": "إلغاء",
+    "delete": "حذف "
+  },
+  "delete-account": {
+    "header": "حذف الحساب",
+    "body": "هل انت مُتأكّد من أنّك تريد حذف حسابك؟",
+    "cancel": "إلغاء",
+    "delete": "حذف"
+  }
+}

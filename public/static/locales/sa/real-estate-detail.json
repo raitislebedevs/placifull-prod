@@ -1,0 +1,58 @@
+{
+  "header": {
+    "flag-button": "الإبلاغ عن هذا المحتوى"
+  },
+  "detail-info": {
+    "button": "أريد أن أنتقِل الآن"
+  },
+  "contact-times": {
+    "heading": "أوقات الاتّصال المُفضّلة"
+  },
+  "about": {
+    "heading": "بخصوص",
+    "featured": "تمّ ترويجها",
+    "notFeatured": "لم يتمّ ترويجها",
+    "rentTime": "شهريا",
+    "inputTimeDays": "أيّامٌ مضت"
+  },
+
+  "general-info": {
+    "heading": "معلومات عامة",
+    "property-area": "منطقة الملكية",
+    "rooms": "الغُرَف",
+    "year-built": "سنة البناء",
+    "price": "السّعر",
+    "total-ultilities": "مجموع المرافِق",
+    "move-in": "تاريخ الانتقال",
+    "move-out": "تاريخ المُغادرة",
+    "min-time": "الحدّ الأدنى من الوقت",
+    "bid-price": "سعر المُناقصة للعقار",
+    "submit": "مُناقصة",
+    "bid-placeholder": "مُناقصة بهامِش  20%"
+  },
+
+  "contact-form": {
+    "heading": "الاتّصال بالمالك مباشرة",
+    "form": {
+      "heading": "أكتب سؤالك هنا",
+      "fullName": "الاسم بالكامل*",
+      "phoneNumber": "رقم الهاتف*",
+      "email": "عنوان البريد الإلكتروني*",
+      "message": "رسالتك*",
+      "submit": "إرسال رسالة"
+    }
+  },
+  "extra": {
+    "heading": "الأشياء الأخرى المُدرَجة حسب هذا المِلفّ الشّخصي ",
+    "table": {
+      "number": "العدد",
+      "country": "البلد",
+      "full-address": "العنوان الكامل",
+      "property-type": "نوع الملكية",
+      "price": "السّعر",
+      "area": "المِنطقة",
+      "bed-rooms": "الغرف",
+      "year-built": "سنة البِناء"
+    }
+  }
+}

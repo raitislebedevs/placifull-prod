@@ -1,0 +1,87 @@
+{
+  "contract-type": {
+    "label": "نوع العقد",
+    "options": {
+      "temporarly": "مؤقّت",
+      "fullTime": "دوام كامل",
+      "partTime": "دوام جُزئي",
+      "remoteFullTime": "عن بعد (دوام كامل)",
+      "remotePartTime": "عن بعد (دوام جزئي)",
+      "other": "غير ذلك"
+    }
+  },
+  "working-time": {
+    "label": "وقت العمل",
+    "options": {
+      "officeHours": "ساعات العمل",
+      "shifts": "الفِرَق",
+      "flexible": "قابِلة للتّعديل (المرونة)",
+      "other": "غير ذلك"
+    }
+  },
+  "contact-times": {
+    "label": "وقت الاتّصال",
+    "placeholder": "اِختر وقت الاتّصال المُفضّل",
+    "not-specified": "غير محدّد",
+    "options": {
+      "any-time": "في أيّ وقت",
+      "working-days": "أيام العمل",
+      "office-hours": "ساعات العمل",
+      "specific-times": "أوقات محددة"
+    }
+  },
+  "features": {
+    "heading": "الخصائص",
+    "licenses": "رخصة النقل",
+    "education": " التعليم/ الشّهادة",
+    "expierience": "الخِبرة بالسّنوات",
+    "candiadate": "ينبغي أن يكون المُرشَّح قادرًا على ",
+    "weOffer": "نحن نُقدِّم"
+  },
+  "salary": {
+    "heading": "الرّاتب",
+    "monthly-from": "راتِب ابتداءً من",
+    "monthly-to": "راتِب إلى",
+    "hourly-rate-from": "الأجر بالسّاعة ابتداءً من",
+    "annual-from": "راتب سنوي  ابتداءً من",
+    "annual-to": "راتب سنوي إلى",
+    "hourly-rate-to": "الأجر بالسّاعة إلى"
+  },
+  "work-area": {
+    "label": "منطقة العمل",
+    "options": {
+      "intern": "متدرِّب",
+      "volunteerWork": "عمل تطوُّعي",
+      "stockExchange": "سوق الأوراق المالية",
+      "administrationAssistance": "الإدارة/ المساعَدة",
+      "constructionRealEstate": "البناء/ العقارات",
+      "humanResources": "الموارد البشرية",
+      "securityRescue": "خدمات الأمن/ الإنقاذ",
+      "military": "عسكرية",
+      "electronicsTelecomunication": "إلكترونيات/ اتّصالات سلكية ولاسلكية",
+      "freelanceTemporary": "وظيفة مستقلّة/مُؤقتة",
+      "energyElectricity": "الطاقة/ الكهرباء",
+      "pharmacy": "صيدلية",
+      "financeAccounting": "المالية/المحاسبة",
+      "infromationTechnology": "تكنولوجيا المعلومات (IT)",
+      "jurisprudenceJustice": "الفقه القانوني/ العدالة",
+      "cultureArtEntertainemnt": "ثقافة/ فن/ ترفيه",
+      "sports": "الألعاب الرّياضية",
+      "qualityControl": "الألعاب الرّياضية",
+      "agricutureEnvironmental": "الزراعة/ علوم البيئة",
+      "medicineSocialCare": "الطب/ الرعاية الاجتماعية",
+      "mediaPublicRelations": "وسائط الإعلام/العلاقات العامة",
+      "forestryWoodworkingMetalWorking": "الحراجة/النّجارة/الأشغال المعدنية",
+      "marketingAdvertising": "التسويق/الدِّعاية",
+      "productionIndustry": "الإنتاج/ الصناعة",
+      "seasonalWork": "العمل الموسمي",
+      "technicalScience": "العلوم التقنية",
+      "services": "الخدمات",
+      "transportLogistics": "النقل/اللوجستيات",
+      "tourismCateringHotels": "سياحة/ التموين بالطّعام/ فنادق",
+      "managment": "الإدارة",
+      "government": "الحكومة",
+      "others": "أشياء أخرى"
+    }
+  }
+}

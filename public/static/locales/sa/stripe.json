@@ -1,0 +1,35 @@
+{
+  "main": {
+    "success": "تمّت عملية الدّفع بنجاح...",
+    "plan_update": "لم نتمكّن من تحديث خُطّتك.",
+    "card_not": "لم يتمّ شحن البطاقة.",
+    "pay": "دَفْع €",
+    "processing": "مُعَالجة..."
+  },
+  "placeholders": {
+    "name": "جين دو",
+    "email": "janedoe@placifull.com",
+    "phone": "(941) 555-7777"
+  },
+  "incomplete": {
+    "incomplete_cvc": "رمز الحِماية لبطاقتك ناقِص.",
+    "incomplete_expiry": "تاريخ انتهاء صلاحية بطاقتك ناقِص.",
+    "incomplete_number": "رقم بطاقتك ناقِص."
+  },
+
+  "declined": {
+    "card_declined": "تم رفض بطاقتك"
+  },
+  "checkout": {
+    "billing": "يُرجى ملء معلومات الفواتير",
+    "card-details": "يُرجى تقديم معلوماتٍ عن البطاقة",
+    "cancel": "إلغاء"
+  },
+  "labels": {
+    "plan": "الخُطّة",
+    "quantity": "الكمّية",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الهاتف"
+  }
+}

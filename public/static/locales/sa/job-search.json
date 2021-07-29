@@ -1,0 +1,61 @@
+{
+  "form": {
+    "currency": "العُملة",
+    "no-currency": "الكُلّ",
+    "languages": {
+      "native": "اللّغات الأصلية",
+      "english": "اللّغات باللغة الإنجليزية"
+    },
+    "submit": "اِبحث الآن",
+    "accordion": {
+      "label": "بحث متقدّم",
+      "searchFilter": {
+        "heading": "الخصائص",
+        "licenses": "رخصة النّقل",
+        "education": "التعليم/ الشّهادة",
+        "expierience": "الخِبرة بالسّنوات",
+        "candiadate": "ينبغي أن يكون المُرشَّح قادرًا على:",
+        "benefits": "المزايا"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "الأجر بالسّاعة ",
+        "items": {
+          "from": "ابتداءً من: 0",
+          "to": "إلى: 999,999      "
+        }
+      },
+      "monthly-salary": {
+        "label": "الرّاتب الشّهري",
+        "items": {
+          "from": "ابتداءً من: 0",
+          "to": "إلى: 999,999,999"
+        }
+      },
+      "yearly-salary": {
+        "label": "الرّاتب السّنوي",
+        "items": {
+          "from": "من: 0",
+          "to": "إلى: 99,999,999,999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "الفرز حسب",
+        "options": {
+          "monthly-salary": "الرّاتب الشّهري",
+          "annual-salary": "الراّتب السّنوي",
+          "hourly-salary": "الأجر بالسّاعة ",
+          "popularity": "الشّعبية",
+          "views": "شُوهِد",
+          "country": "البلد",
+          "insert-date": "إدراج التاريخ"
+        }
+      }
+    }
+  }
+}

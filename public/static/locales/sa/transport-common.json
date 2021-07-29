@@ -1,0 +1,89 @@
+{
+  "color": {
+    "label": "اللّون",
+    "options": {
+      "red": "أحمر",
+      "orange": "برتقالي",
+      "yellow": "أصفر",
+      "green": "أخضر",
+      "blue": "أزرق",
+      "violent": "البنفسجي",
+      "pink": "وردي",
+      "tan": "أسمر",
+      "beige": "بِيج",
+      "white": "أبيض",
+      "silver": "فِضِّي",
+      "gray": "رمادي",
+      "black": "أسود",
+      "brown": "بنّي",
+      "gold": "ذهبي",
+      "indigo": "نيلي (أزرق غامِق)",
+      "purple": "بنفسجي",
+      "lime": "لِيمي",
+      "azure": "لَازَوَرْدِي",
+      "other": "غير ذلك"
+    }
+  },
+  "gear-box": {
+    "label": "علبة التّثروس",
+    "options": {
+      "manual": "يدوي",
+      "automatic": "أوتوماتيكي",
+      "other": "غير ذلك"
+    }
+  },
+  "engine": {
+    "label": "نوع المُحرِّك",
+    "options": {
+      "diesel": "الدِّيزل",
+      "benzine": "بنزين",
+      "gas": "غاز",
+      "electric": "كهربائي",
+      "other": "غير ذلك"
+    }
+  },
+  "features": {
+    "heading": "الخصائص",
+    "category": {
+      "equipment": "المُعّدّات",
+      "interior": "الدّاخل",
+      "steering-wheel": "مِقوَد",
+      "seats": "المَقاعد",
+      "lights": "الأضواء",
+      "audio-video": "صوت/ فيديو",
+      "mirrors": "المرايا"
+    }
+  },
+  "condition": {
+    "label": "الحالة",
+    "options": {
+      "brandNew": "جديدة",
+      "likeNew": "مثل الجديدة",
+      "used": "مُستَعمَلة",
+      "requiresFixing": "تحتاجُ إلى إصلاح",
+      "afterCrash": "بعد حادث سير"
+    }
+  },
+
+  "transport-type": {
+    "label": "نوع النّقل",
+    "options": {
+      "car": "سيّارة",
+      "truck": "شاحنة",
+      "motorcycle": "درّاجة نارية",
+      "boat": "قوارِب",
+      "airTransport": "نقل جوِّي",
+      "others": "غير ذلك"
+    }
+  },
+
+  "action": {
+    "label": "الإجراء",
+    "options": {
+      "sell": "بيع",
+      "rent": "إيجار",
+      "exchange": "تبادل",
+      "forParts": "لقِطَع الغِيار"
+    }
+  }
+}

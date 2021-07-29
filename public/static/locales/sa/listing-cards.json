@@ -1,0 +1,56 @@
+{
+  "job-card": {
+    "location": "الموقع",
+    "salary": "الرَّاتِب",
+    "button": "عرض التّفاصيل",
+    "contract-type": {
+      "label": "نوع العقد",
+      "options": {
+        "temporarly": "مؤقّتا",
+        "fullTime": "دوام كامل",
+        "partTime": "دوام جُزئي",
+        "remoteFullTime": "عن بعد (بدوام كامل)",
+        "remotePartTime": "عن بعد (بدوام جُزئي)",
+        "other": "غير ذلك"
+      }
+    },
+    "working-schedule": {
+      "label": "جدول العمل",
+      "options": {
+        "officeHours": "ساعات العمل",
+        "shifts": "الفِرَق",
+        "flexible": "قابلة للتّعديل (المرونة)",
+        "other": "غير ذلك"
+      }
+    }
+  },
+
+  "transport-card": {
+    "gear-box": {
+      "label": "عُلبة التّثروس",
+      "options": {
+        "manual": "يدوي",
+        "automatic": "أوتوماتيكي",
+        "other": "غير ذلك"
+      }
+    }
+  },
+
+  "real-estate-card": {
+    "location": "الموقع",
+    "working-schedule": "جدوَل العمل",
+    "salary": "الرّاتب",
+    "contract-type": "نوع العقد",
+    "button": "عرض التّفاصيل"
+  },
+
+  "action": {
+    "label": "الإجراء",
+    "options": {
+      "sell": "بيع",
+      "rent": "إيجار",
+      "exchange": "تبادُل",
+      "forParts": "لِقِطع الغيار"
+    }
+  }
+}

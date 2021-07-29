@@ -1,0 +1,53 @@
+{
+  "heading": "إرسال القائمة",
+  "form": {
+    "submit": "إرسال",
+    "submit-confirm": "حِفظ...",
+    "preview-sneak-peak": "توليد...",
+    "preview": "مُعايَنة",
+    "no-currency": "الكُلّ",
+    "no-features": "يُرجى اختيار فئة القائمة",
+    "general-information": {
+      "heading": "معلومات عامة",
+      "currency-input": "العُملة",
+      "input-fields": {
+        "name": "اسم قائمَتك",
+        "description": "وصف",
+        "price": "السِّعر",
+        "bed-rooms": "غرف نوم",
+        "bath-rooms": "الحمّامات",
+        "area": "مساحة المِلكية",
+        "start-renting": "بِدء الإيجار",
+        "end-renting": "إنهاء الإيجار",
+        "year-built": "سنة البِناء"
+      }
+    },
+    "detail-information": {
+      "heading": "معلومات عامة",
+      "contact": {
+        "heading": "الاتّصال",
+        "email": "البريد الإلكتروني",
+        "address": "العُنوان",
+        "contact-times": {
+          "label": "وقت الاتّصال",
+          "placeholder": "اِختَر الوقت المُفضَّل"
+        },
+        "listing-website": "الموقع:: https: //"
+      }
+    },
+    "gallery": {
+      "real-estate": "مَعرَض الصّور",
+      "click-drop": "أنقُر أو اسحب الصّور هنا",
+      "video-url": "فيديو: https://"
+    },
+    "contact-hours": {
+      "heading": "ساعات الاتّصال",
+      "heading-tip": "اختياري",
+      "accordion": {
+        "heading": "إضافة الوقت الأنسب لإجراء لقاءٍ/ مُحادثة ...",
+        "start-time": "من",
+        "end-time": "حتّى"
+      }
+    }
+  }
+}

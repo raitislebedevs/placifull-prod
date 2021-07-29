@@ -1,0 +1,77 @@
+{
+  "heading": "إرسال القائمة",
+  "form": {
+    "submit": "إرسال",
+    "submit-confirm": "حِفظ...",
+    "preview-sneak-peak": "توليد...",
+    "preview": "مُعاينة",
+    "currency": "مُعايَنة",
+    "no-currency": "الكُلّ",
+    "general-information": {
+      "heading": "معلومات عامّة",
+      "transport-type": "نوع النّقل",
+      "action": "الإجراء",
+      "condition": "الحالة",
+      "input-fields": {
+        "description": "وصف",
+        "brand": "العلامة التّجارية للنّقل",
+        "model": "نموذج النّقل",
+        "production-year": "سنة الإنتاج",
+        "price": "السّعر",
+        "engine-type": "نوع المُحرِّك",
+        "gear-box": "عُلبة التُّروس",
+        "millage": "المسافة",
+        "speed": "السّرعة القُصوى",
+        "fueal-economy": "الاقتصاد في استهلاك الوقود",
+        "seats": "عدد المقاعد",
+        "doors": "عدد الأبواب",
+        "name": "اسم قائمة النّقل"
+      }
+    },
+    "detail-information": {
+      "heading": "معلومات مُفصّلة",
+      "contact": {
+        "heading": "الاتّصال",
+        "email": "البريد الإلكتروني",
+        "address": "العُنوان",
+        "contact-times": {
+          "label": "وقت الاتّصال",
+          "placeholder": "اِختَر وقت الاتّصال المُفضّل",
+          "options": {
+            "any-time": "في أيّ وقت",
+            "working-days": "أيّام العمل",
+            "office-hours": "ساعات العمل",
+            "specific-times": "أوقات مُحدّدة"
+          }
+        },
+        "listing-website": "الموقع الإلكتروني: https://"
+      },
+      "features": {
+        "heading": "الخصائص",
+        "category": {
+          "equipment": "المُعدّات",
+          "interior": "الدّاخل",
+          "steering-wheel": "مِقوَد",
+          "seats": "المَقاعِد",
+          "lights": "الأضواء",
+          "audio-video": "صوت/ فيديو",
+          "mirrros": "المرايا"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "معرض الصّور",
+      "click-drop": "انقُر أو اسحب الصّور هنا",
+      "video-url": "رابط الفيديو: https://"
+    },
+    "contact-hours": {
+      "heading": "ساعات الاتّصال",
+      "heading-tip": "اختياري",
+      "accordion": {
+        "heading": "إضافة الأوقات المُناسِبة لإجراء لقاءٍ/ مُحادثة ...",
+        "start-time": "من",
+        "end-time": "حتّى"
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "labels": {
+    "about-me": "بخصوصي",
+    "languages": "اللّغات",
+    "computer-skills": "مهارات الحاسوب",
+    "education": "التّعليم",
+    "expierience": "الخِبرة المهنية",
+    "licenses": "رُخصة النّقل",
+    "expectations": "التوقّعات بشأن العمل",
+    "certification": "الشّهادة"
+  },
+  "gender": {
+    "label": "الجنس",
+    "male": "ذكر",
+    "women": "أنثى"
+  },
+  "expierience": {
+    "label": "الخِبرة",
+    "uptoOne": "أقلّ من سنة",
+    "oneToThree": "من 1 إلى 3 سنوات",
+    "threeToFive": "من 3 إلى 5 سنوات",
+    "fiveToTen": "من 5 إلى 10 سنوات",
+    "tenToFifteen": "من 10 إلى 15 سنة",
+    "moreThanFifteen": "أكثر من 15 سنة "
+  },
+
+  "knowladge-gained": {
+    "selfTaught": "عصامي",
+    "course": "دورة تدريبية",
+    "freelance": "مُستقلّ (عمل حرّ)",
+    "contractProject": "مشروع عقد",
+    "fullTimeJob": "عمل بدوام كامل",
+    "other": "غير ذلك"
+  },
+  "qualification": {
+    "primary": "ابتدائي",
+    "secondary": "ثانوي",
+    "vocational": "مهني",
+    "bachelors": "بكالوريوس",
+    "master": "ماجستير",
+    "doctorate": "دكتوراه",
+    "other": "غير ذلك"
+  },
+
+  "seniority": {
+    "title": "الأقدمية",
+    "volunteer": "مُتطوّع",
+    "intern": "متدرّب",
+    "junior": "مُبتدئ",
+    "intermediate": "مُتوسّط",
+    "senior": "طالب تخرّج",
+    "executive": "إطار",
+    "ceo": "مدير تنفيذي",
+    "other": "غير ذلك"
+  },
+
+  "avarage-grade": "درجه متوسّطة",
+  "present": "الحالي",
+  "license-category": "فئة التّرخيص"
+}

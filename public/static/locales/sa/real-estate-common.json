@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "الفئة",
+    "options": {
+      "houses": "منزل",
+      "apartments": "شُقّة",
+      "land": "قطعة أرض",
+      "farmhouse": "مزرعة",
+      "commercial": "تجاري",
+      "exclusive": "حصري",
+      "offices": "المكتب",
+      "agents": "وكالة عقارات"
+    }
+  },
+  "action": {
+    "label": "الإجراء",
+    "options": {
+      "sell": "بيع",
+      "rent": "إيجار",
+      "exchange": "تبادل"
+    }
+  },
+  "condition": {
+    "label": "الحالة",
+    "label-land": "نوع الملكية",
+    "options": {
+      "brandNew": "جديدة",
+      "goodCondition": "في حالة جيّدة",
+      "medium": "متوسّط",
+      "requiresFixing": "تحتاجُ إلى إصلاح",
+      "requiresConstruction": "تتطلّب البناء",
+      "residential": "سكني",
+      "comercial": "تجاري",
+      "industrial": "صناعي",
+      "agricultural": "زراعي"
+    }
+  },
+  "contact-times": {
+    "label": "وقت الاتّصال",
+    "options": {
+      "anyTime": "في أيّ وقت",
+      "workingDays": "أيّام العمل",
+      "officeHours": "ساعات العمل",
+      "specificTimes": "أوقات مُحدّدة"
+    }
+  },
+  "features": {
+    "heading": "الخصائص",
+    "category": {
+      "kitchen": "مطبخ",
+      "bathroom": "حمّام",
+      "living-room": "غرفة المعيشة",
+      "bedroom": "غرفة نوم",
+      "housing-extras": "إضافات أخرى",
+      "land-type": "نوع الأرض",
+      "buildingLand": "أرض للبناء من أجل",
+      "forest-properties": "المُمتلكات الحَرَجية",
+      "agriculture-properties": "المُمتلكات الزّراعية"
+    }
+  },
+  "utilities": {
+    "heading": "المرافق",
+    "total": "المجموع",
+    "items": {
+      "coldWater": "ماء بارد",
+      "hotWater": "ماء ساخن",
+      "electricity": "كهرباء",
+      "garbage": "القُمامة",
+      "propertyManagement": "إدارة الممتلكات",
+      "heating": "التّدفئة",
+      "parking": "موقف السّيارات",
+      "others": "أخرى"
+    }
+  }
+}

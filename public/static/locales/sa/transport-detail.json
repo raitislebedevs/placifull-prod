@@ -1,0 +1,63 @@
+{
+  "header": {
+    "flag-button": "الإبلاغ عن هذا المحتوى"
+  },
+  "detail-info": {
+    "button": "أريد الإنتقال الآن"
+  },
+  "contact-times": {
+    "heading": "أوقات الاتّصال المُفضّلة"
+  },
+
+  "promoted": "تمّ التّرويج لها",
+
+  "about": {
+    "heading": "بخصوص",
+    "featured": "تمّ التّرويج لها",
+    "notFeatured": "لم يتمّ التّرويج لها",
+    "rentTime": "شهريا",
+    "inputTimeDays": "أيّام مضت"
+  },
+
+  "general-info": {
+    "heading": "معلومات عامة",
+    "brand": "العلامة التّجارية للنّقل",
+    "model": "نموذج النّقل",
+    "year": "السّنة",
+    "price": "السّعر",
+    "distance": "المسافة",
+    "max-speed": "السّرعة القُصوى",
+    "fuel-economy": "الاقتصاد في استهلاك الوقود",
+    "seats": "المقاعد",
+    "doors": "الأبواب",
+    "bid-price": "سعر المُناقصة للنقل",
+    "submit": "مُناقصة",
+    "bid-placeholder": "مُناقصة بهامِش  20%"
+  },
+  "features": {
+    "heading": "الخصائص"
+  },
+  "contact-form": {
+    "not-specified": "غير محدّدة",
+    "heading": "الاتّصال بالمالك مباشرة",
+    "form": {
+      "heading": "أكتب سؤالك هنا",
+      "fullName": "الاسم بالكامل*",
+      "phoneNumber": "رقم الهاتف*",
+      "email": "عنوان البريد الإلكتروني*",
+      "message": "رسالتك*",
+      "submit": "إرسال رسالة"
+    }
+  },
+  "extra": {
+    "heading": "الأشياء الأخرى المُدرَجة حسبَ هذا المِلفّ الشّخصي ",
+    "table": {
+      "number": "العدد",
+      "country": "البلد",
+      "brand-model": "النّموذج/ العلامة التّجارية",
+      "price": "السّعر",
+      "condition": "الحالة",
+      "production-year": "السّنة"
+    }
+  }
+}

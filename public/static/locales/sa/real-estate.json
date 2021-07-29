@@ -1,0 +1,64 @@
+{
+  "title": "البحث عن قائمة العقارات",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "السّعر الأدنى",
+        "max-price": "السّعر الأقصى",
+        "min-rooms": "الحدّ الأدنى للغُرف",
+        "max-rooms": "الحدّ الأقصى للغُرف",
+        "min-area": "الحدّ الأدنى للمساحة",
+        "max-area": "الحدّ الأقصى للمساحة",
+        "move-in-date": "تاريخ الانتقال",
+        "move-out-date": "تاريخ المُغادَرة",
+        "currency": "العُملة"
+      },
+
+      "submit": "إبحَث الآن",
+      "accordion": "بحث مُتقدِّم",
+      "accordion-right": {
+        "utility-label": "نطاق فواتير المرافق العامّة",
+        "utility": {
+          "from-price": "ابتداءً من: 0,00",
+          "to-price": "إلى: 9,999,999,999"
+        },
+        "year-label": "سنة البناء",
+        "built": {
+          "from-year": "ابتداءً من: 1000",
+          "to-year": "إلى: 9999"
+        },
+        "measurement-label": "قياس",
+        "system": {
+          "none": "لا شيء",
+          "metric": "متري (م)",
+          "imperial": "إمبراطوري (قدم)"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "فرز حسب",
+        "options": {
+          "price": "السّعر",
+          "area": "المِساحة",
+          "rooms": "الغُرف",
+          "street-name": "اسم الشّارع",
+          "popularity": "الشّعبية",
+          "views": "المشاهدة",
+          "country": "البلد",
+          "insert-date": "أدخِل التّاريخ"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "من المُدوَّنة",
+    "see-more": "إقرأ المزيد"
+  },
+  "error": {
+    "tags": "يُرجى الاتّصال بنا قائلا: 'لم يتمّ العثور على علامات"
+  },
+  "no-tags": "لا توجد خصائص لهذا الخيار"
+}
