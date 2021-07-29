@@ -1,0 +1,58 @@
+{
+  "header": {
+    "flag-button": "PAŽYMĖTI ŠĮ TURINĮ"
+  },
+  "detail-info": {
+    "button": "NORIU PERSIKRAUSTYTI DABAR"
+  },
+  "contact-times": {
+    "heading": "Pageidaujami susisiekimo laikai"
+  },
+  "about": {
+    "heading": "Apie",
+    "featured": "Reklamuojama",
+    "notFeatured": "Nereklamuojama",
+    "rentTime": "Per mėnesį",
+    "inputTimeDays": "dienų prieš"
+  },
+
+  "general-info": {
+    "heading": "Bendra informacija",
+    "property-area": "Nuosavybės plotas",
+    "rooms": "Kambariai",
+    "year-built": "Pastatymo metai",
+    "price": "Kaina",
+    "total-ultilities": "Iš viso komunalinėms paslaugoms",
+    "move-in": "Įsikraustymo data ",
+    "move-out": "Išsikraustymo data",
+    "min-time": "Minimalus laikas",
+    "bid-price": "Siūlyti kainą",
+    "submit": "SIŪLYTI",
+    "bid-placeholder": "Siūlykite 20% pelno skirtumo"
+  },
+
+  "contact-form": {
+    "heading": "Susisiekite su savininku",
+    "form": {
+      "heading": "Savo klausimą įrašykite čia",
+      "fullName": "Pilnas vardas",
+      "phoneNumber": "Telefono numeris",
+      "email": "El. Paštas",
+      "message": "Jūsų žinutė",
+      "submit": "Siųsti žinutę"
+    }
+  },
+  "extra": {
+    "heading": "Kiti šio savininko objektai",
+    "table": {
+      "number": "Nr.",
+      "country": "Šalis",
+      "full-address": "Pilnas adresas",
+      "property-type": "Nuosavybės tipas",
+      "price": "Kaina",
+      "area": "Zona",
+      "bed-rooms": "Kambariai",
+      "year-built": "Pastatymo metai"
+    }
+  }
+}

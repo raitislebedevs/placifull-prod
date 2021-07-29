@@ -1,0 +1,77 @@
+{
+  "heading": "Pateikti pasiūlymą",
+  "form": {
+    "submit": "Pateikti",
+    "submit-confirm": "Saugoma…",
+    "preview-sneak-peak": "Generuojama…",
+    "preview": "Peržiūra",
+    "currency": "Valiuta",
+    "no-currency": "VISI",
+    "general-information": {
+      "heading": "Bendra informacija",
+      "transport-type": "Transporto priemonės tipas",
+      "action": "Veiksmas",
+      "condition": "Būklė",
+      "input-fields": {
+        "description": "Aprašymas",
+        "brand": "Transporto priemonės prekinis ženklas",
+        "model": "Transporto priemonės modelis",
+        "production-year": "Pagaminimo metai",
+        "price": "Kaina",
+        "engine-type": "Variklio tipas",
+        "gear-box": "Pavarų dėžė",
+        "millage": "Distancija",
+        "speed": "Maksimalus greitis",
+        "fueal-economy": "Kuro sąnaudos",
+        "seats": "Vietų skaičius",
+        "doors": "Durų skaičius",
+        "name": "Transporto priemonės pasiūlymo pavadinimas"
+      }
+    },
+    "detail-information": {
+      "heading": "Bendra informacija",
+      "contact": {
+        "heading": "Kontaktai",
+        "email": "El. Paštas",
+        "address": "Adresas",
+        "contact-times": {
+          "label": "Susisiekimo laikas",
+          "placeholder": "Pasirinkite pageidaujamą susisiekimo laiką",
+          "options": {
+            "any-time": "Bet kada",
+            "working-days": "Savaitės dienomis",
+            "office-hours": "Darbo valandomis",
+            "specific-times": "Konkrečiu laiku"
+          }
+        },
+        "listing-website": "Svetainė: gttps://"
+      },
+      "features": {
+        "heading": "Funkcijos",
+        "category": {
+          "equipment": "Įranga",
+          "interior": "Interjeras",
+          "steering-wheel": "Vairas",
+          "seats": "Sėdynės",
+          "lights": "Lempos",
+          "audio-video": "Audio/Video sistema",
+          "mirrros": "Veidrodžiai"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "Galerija",
+      "click-drop": "Pasirinkite arba vilkite nuotraukas čia",
+      "video-url": "Vaizdo įrašo url: https://"
+    },
+    "contact-hours": {
+      "heading": "Susisiekimo valandos",
+      "heading-tip": "Nenurodyta",
+      "accordion": {
+        "heading": "Nurodykite jums tinkamiausią laiką susitikimui/pokalbiui…",
+        "start-time": "Nuo",
+        "end-time": "Iki"
+      }
+    }
+  }
+}

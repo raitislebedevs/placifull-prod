@@ -1,0 +1,86 @@
+{
+  "common": {
+    "name": "Būtinas sąrašo pavadinimas.",
+    "currency": {
+      "required": "Privalote nurodyti valiutą"
+    },
+
+    "category": "Privalote nurodyti kategoriją",
+    "action": "Privalote nurodyti veiksmą",
+    "condition": "Privalote nurodyti būklę",
+
+    "country": "Privalote nurodyti šalį",
+    "city": "Apsvarstykite miestą",
+    "description": {
+      "minLength": "Aprašymas negali viršyti 1000 simbolių",
+      "maxLength": "Aprašymas privalo turėti bent 20 simbolių",
+      "required": "Privalote pridėti aprašymą"
+    },
+
+    "gallery": "Privalote pridėti galeriją",
+
+    "price": {
+      "minLength": "Kaina privalo būti aukštesnė nei 0.",
+      "maxLength": "Kaina negali viršyti 999,999,999,999.00",
+      "required": "Privalote nurodyti kainą"
+    },
+    "phone": {
+      "minLength": "Telefono numeris privalo turėti bent 6 skaitmenis",
+      "maxLength": "Telefono numeris negali viršyti 20 skaitmenų",
+      "required": "Privalote nurodyti telefono numerį"
+    },
+    "email": {
+      "valid": "Prašome nurodyti teisinga El. Pašto adresą",
+      "required": "Privalote nurodyti El. Pašto adresą"
+    },
+    "contact": {
+      "required": "Privalote nurodyti susisiekimo laiką"
+    }
+  },
+
+  "real-estate": {
+    "address": {
+      "mapPoint": "Prašome nurodyti adresą žemėlapyje",
+      "address": "Privalote nurodyti skelbimo adresą"
+    },
+    "rooms": "Privalote nurodyti kambarių skaičių",
+    "area": "Privalote nurodyti nuosavybės zoną",
+    "baths": "Privalote nurodyti vonios kambarių kiekį"
+  },
+
+  "transport": {
+    "type": "Privalote nurodyti transporto priemonės tipą",
+    "brand": {
+      "minLength": "Prekinis ženklas privalo turėti 0+ simbolius",
+      "maxLength": "Prekinis ženklas negali viršyti n simbolių",
+      "required": "Privalote nurodyti prekinį ženklą"
+    },
+
+    "model": {
+      "minLength": "Modelio pavadinimas privalo turėti 0+ simbolius",
+      "maxLength": "Modelio pavadinimas negali viršyti n simbolių",
+      "required": "Privalote nurodyti modelio pavadinimą"
+    },
+    "address": {
+      "mapPoint": "Privalote nurodyti susitikimo vietą žemėlapyje",
+      "address": "Privalote nurodyti susitikimo adresą"
+    },
+    "engine": "Privalote nurodyti variklio tipą",
+    "gear": "Privalote nurodyti pavarų dėžės tipą"
+  },
+
+  "job": {
+    "address": {
+      "mapPoint": "Privalote nurodyti biuro vietą žemėlapyje",
+      "address": "Privalote nurodyti biuro adresą"
+    },
+    "gallery": "Privalote pridėti kompanijos logotipą",
+    "monthly-from": "Privalote nurodyti 'mėnesinė alga - nuo'",
+    "monthly-to": "Privalote nurodyti 'mėnesinė alga - iki'",
+    "logo-size": "Dydis yra didesnis nei 5 MB"
+  },
+  "email": {
+    "full-name": "Prašome nurodyti savo vardą",
+    "message": "Privalote pridėti žinutę"
+  }
+}

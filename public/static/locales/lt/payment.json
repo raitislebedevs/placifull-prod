@@ -1,0 +1,89 @@
+{
+  "currency": "€ ",
+  "payment-modal": {
+    "header": "Planuokite pirkimą",
+    "sub-header": "Prašome pasirinkti jūsų planą iš toliau pateiktos informacijos",
+    "total-cost": "Kaina:",
+    "expiry-date": "Galiojimo data:",
+    "expiry-label": "Galiojimo data",
+    "quantity": "Kiekis:",
+    "quantity-label": "Kiekis",
+    "listed": "Paskelbta:",
+    "purchase": "Įsigyta:",
+    "extend-expiry": "Pratęstas galiojimo laikas",
+    "promote": "Reklamuoti",
+    "subscription-valid": "Parinktis galioja",
+    "days": "dieną/ų",
+    "browser-cv": "CV paieška",
+    "purchase-text": {
+      "user-held": "Priklauso vartotojui",
+      "purchase": "Pirkimas"
+    },
+    "form": {
+      "added-days": {
+        "label": "Pratęsti paiešką",
+        "suffix": "dienai/oms"
+      },
+      "card-details": {
+        "label": "Pateikite banko informaciją",
+        "card-holder": "Kortelės savininkas",
+        "card-number": "Kortelės numeris",
+        "card-date": "Galioja iki",
+        "card-csv": "CSV"
+      },
+      "buttons": {
+        "decline": "Atšaukti",
+        "proceed": "Tęsti"
+      },
+
+      "purchase-items": {
+        "intro": "Įnašas",
+        "single": "Pilnas",
+        "quarterly": "Kas ketvirtį",
+        "life": "Kasmet"
+      },
+      "user-stock": {
+        "single": "Pilnas",
+        "quartery": "Kas ketvirtį",
+        "life": "Kasmet"
+      }
+    }
+  },
+
+  "receipt-modal": {
+    "header": "Užsakymo informacija",
+    "sub-header": "Prieš tęsdami, peržiūrėkite pirkimo informanciją.",
+    "card-details": {
+      "card-holder": "Kortelės savininko vardas",
+      "card-number": "Kortelės numeris",
+      "card-date": "Galioja iki"
+    },
+
+    "receipt-table": {
+      "plan": "Planas",
+      "quantity": "Kiekis",
+      "promote": "Reklama",
+      "extend-expiry": "Pratęstas galiojimo laikas",
+      "total": "Viso",
+      "total-amount": "Viso kiekis: ",
+      "price": "Kaina",
+      "expiry-date": "Galiojimo laikas",
+      "no-expiry": "Nepasirinkta",
+      "plans": {
+        "standalone": "Pilnas",
+        "subscriptionQuarterly": "Kas ketvirtį",
+        "subscriptionYearly": "Kasmet",
+        "activeSubscription": "CV paieška"
+      }
+    },
+    "thank-you-message": "Dėkojame kad palaikote Placifull kompaniją. Tikimės, kad liksite patenkinti savo pasirinkimu. ",
+    "buttons": {
+      "cancel": "Atšaukti",
+      "proceed": "Mokėti & Tęsti"
+    }
+  },
+  "error": {
+    "transaction": "Operacija nepavyko",
+    "subscriptions": "Prenumerata nepavyko"
+  }
+}

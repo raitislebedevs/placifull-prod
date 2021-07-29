@@ -1,0 +1,133 @@
+{
+  "elements": {
+    "loading": "kraunama…",
+    "loading-right": "Kraunama…",
+    "loading-left": "…Kraunama",
+    "no-results": "Nieko nerasta"
+  },
+  "user": {
+    "name": "Vardas",
+    "first-name": "Vardas",
+    "last-name": "Pavardė",
+    "email": {
+      "email-upper": "Elektroninis paštas",
+      "email-lower": "elektroninis paštas",
+      "your-email": "Jūsų elektroninis paštas"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "Šiandien",
+    "yesterday": "Vakar",
+    "days-ago": "dienų prieš"
+  },
+
+  "social-links": {
+    "heading": "Socialiniai saitai",
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
+  },
+
+  "social": {
+    "heading": "Socialiniai saitai",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "youtube": "Youtube",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram"
+  },
+
+  "week-days": {
+    "monday": "Pirmadienis",
+    "tuesday": "Antradienis",
+    "wednesday": "Trečiadienis",
+    "thursday": "Ketvirtadienis",
+    "friday": "Penktadienis",
+    "saturday": "Šeštadienis",
+    "sunday": "Sekmadienis"
+  },
+
+  "toast": {
+    "submit-success": "Jūsų įrašas buvo paskelbtas!",
+    "server-error": "Neteisingai įvesta/Serveris nepasiektas",
+    "logging-required": "Būtina prisijungti",
+    "cannot-apply": "Hey, tai yra peržiūra",
+    "preview": "Norint siūlyti kaina, privalote prisijungti",
+    "log-in": "Pasiūlymų kainos nėra",
+    "bidding-price": "Pasiūlymų kainos nėra",
+    "price-lower": "Pasiūlyta kaina yra žemesnė nei 20% paskelbtų kainų",
+    "price-upper": "Pasiūlyta kaina yra aukštesnė nei 20% paskelbtų kainų",
+    "refresh-page": "Serveris neatsako, prašome perkrauti",
+    "not-send": "El. Laiškas nebuvo išsiųstas",
+    "contact-directly": "Susisiekite su mumis",
+    "email-send": "El. Laiškas išsiųstas",
+    "no-email": "El. Pašto adresas neegzistuoja",
+    "subscribed": "Sveikiname, užsiprenumeravote :)",
+    "already-applied": "Jūs jau aplikavote šiai pozicijai",
+    "already": "Jau užprenumeravote/neteisingas El. Paštas",
+    "country-error": "Nežinoma klaida",
+    "location-error": "Nepavyko gauti vietų",
+    "unknown-error": "Nežinoma serverio klaida",
+    "search-results": {
+      "found": "Rasta",
+      "items": "Skelbimų"
+    },
+    "not-found": "Naujų rezultatų nerasta"
+  },
+
+  "location": {
+    "country": "Šalis",
+    "state": "Valstybė/regionas",
+    "city": "Miestas",
+    "no-city": "Nėra miestų",
+    "no-states": "Nėra valstybių",
+    "states-not-registerd": "Nėra registruotų valstybių",
+    "cities-registerd": "Nėra registruotų miestų"
+  },
+
+  "items-per-page": {
+    "label": "Skelbimai",
+    "options": {
+      "nine": "9 skelbimai",
+      "eighteen": "18 skelbimų",
+      "twenty-seven": "27 skelbimai",
+      "thirty-six": "36 skelbimai",
+      "seventy-two": "72 skelbimai"
+    }
+  },
+
+  "month": {
+    "Jan": "Sausis",
+    "Feb": "Vasaris",
+    "Mar": "Kovas",
+    "Apr": "Balandis",
+    "May": "Gegužė",
+    "Jun": "Birželis",
+    "Jul": "Liepa",
+    "Aug": "Rugpjūtis",
+    "Sep": "Rugsėjis",
+    "Oct": "Spalis",
+    "Nov": "Lapkritis",
+    "Dec": "Gruodis"
+  },
+  "currency": {
+    "currency-label": "Valiuta",
+    "no-currency": "Visi"
+  },
+  "measurement": {
+    "label": "Išmatavimai",
+    "system": {
+      "none": "Nieko",
+      "metric": "Metrika",
+      "imperial": "Imperialas"
+    }
+  },
+  "user-box": {
+    "profile": "Profilis",
+    "log-out": "Atsijungti"
+  },
+  "preview-close": "Uždaryti peržiūrą"
+}

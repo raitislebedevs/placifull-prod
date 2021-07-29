@@ -1,0 +1,56 @@
+{
+  "job-card": {
+    "location": "Vieta",
+    "salary": "Atlyginimas",
+    "button": "Žiūrėti detales",
+    "contract-type": {
+      "label": "Kontrakto tipas",
+      "options": {
+        "temporarly": "Laikinas",
+        "fullTime": "Pilnas etatas",
+        "partTime": "Nepilnas etatas",
+        "remoteFullTime": "Nuotolinis (Pilnu etatu)",
+        "remotePartTime": "Nuotolinis (Nepilnu etatu)",
+        "other": "Kita"
+      }
+    },
+    "working-schedule": {
+      "label": "Darbo tvarkaraštis",
+      "options": {
+        "officeHours": "Darbo valandos",
+        "shifts": "Pamainos",
+        "flexible": "Lankstu",
+        "other": "Kita"
+      }
+    }
+  },
+
+  "transport-card": {
+    "gear-box": {
+      "label": "Pavarų dėžė",
+      "options": {
+        "manual": "Rankinė",
+        "automatic": "Automatinė",
+        "other": "Kita"
+      }
+    }
+  },
+
+  "real-estate-card": {
+    "location": "Vieta",
+    "working-schedule": "Darbo tvarkaraštis",
+    "salary": "Atlyginimas",
+    "contract-type": "Kontrakto tipas",
+    "button": "Žiūrėti detales"
+  },
+
+  "action": {
+    "label": "Veiksmas",
+    "options": {
+      "sell": "Parduoti",
+      "rent": "Nuomotis",
+      "exchange": "Keisti",
+      "forParts": "Dalimis"
+    }
+  }
+}

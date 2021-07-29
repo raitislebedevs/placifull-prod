@@ -1,0 +1,53 @@
+{
+  "heading": "Pateikti siūlymą",
+  "form": {
+    "submit": "Pateikti",
+    "submit-confirm": "Saugoma…",
+    "preview-sneak-peak": "Generuojama…",
+    "preview": "Peržiūra",
+    "no-currency": "VISI",
+    "no-features": "Prašome pasirinkti siūlymų kategoriją",
+    "general-information": {
+      "heading": "Bendra informacija",
+      "currency-input": "Valiuta",
+      "input-fields": {
+        "name": "Jūsų Siūlymų Pavadinimas",
+        "description": "Aprašymas",
+        "price": "Kaina",
+        "bed-rooms": "Miegamieji",
+        "bath-rooms": "Vonios kambariai",
+        "area": "Nuosavybės zona",
+        "start-renting": "Nuomos pradžia",
+        "end-renting": "Nuomos pabaiga",
+        "year-built": "Pastatymo metai"
+      }
+    },
+    "detail-information": {
+      "heading": "Detali informacija",
+      "contact": {
+        "heading": "Kontaktai",
+        "email": "El. Paštas",
+        "address": "Adresas",
+        "contact-times": {
+          "label": "Susisiekimo laikas",
+          "placeholder": "Pasirinkite pageidaujamą susisiekimo laiką"
+        },
+        "listing-website": "Svetainė: https://"
+      }
+    },
+    "gallery": {
+      "real-estate": "Galerija",
+      "click-drop": "Paspauskite arba vilkite nuotraukas čia",
+      "video-url": "Vaizdo įrašas https://"
+    },
+    "contact-hours": {
+      "heading": "Susisiekimo laikas ",
+      "heading-tip": "Neprivaloma",
+      "accordion": {
+        "heading": "Pridėkite jums labiausiai tinkamą laiką susitikimui/pokalbiui…",
+        "start-time": "Nuo",
+        "end-time": "Iki"
+      }
+    }
+  }
+}

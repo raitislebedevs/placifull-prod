@@ -1,0 +1,16 @@
+{
+  "job-apply": {
+    "heading": "Ar tikrai norite aplikuoti šiam darbui: ",
+    "proposed-salary": "Numatomas atlyginimas",
+    "close": "Uždaryti",
+    "apply": "Aplikuoti",
+    "applying": "Apdorojama…",
+    "toast": {
+      "success": "Sveikiname, jūs aplikavote!",
+      "log-in": "Jūs turite būti prisijungęs.",
+      "applied": "Jūs jau aplikavote.",
+      "cv": "Atnaujinkite savo CV",
+      "just": "Hey, jūs katik aplikavote :)"
+    }
+  }
+}

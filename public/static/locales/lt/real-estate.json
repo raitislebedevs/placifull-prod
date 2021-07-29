@@ -1,0 +1,64 @@
+{
+  "title": "Ieškokite nekilnojamojo turto pasiūlymų",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "Minimali kaina",
+        "max-price": "Maksimali kaina",
+        "min-rooms": "Minimalus kambarių kiekis",
+        "max-rooms": "Maksimalus kambarių kiekis",
+        "min-area": "Minimali zona",
+        "max-area": "Maksimali zona",
+        "move-in-date": "Įsikraustyti nuo",
+        "move-out-date": "Įsikraustyti iki",
+        "currency": "Valiuta"
+      },
+
+      "submit": "Ieškoti dabar",
+      "accordion": "DETALI PAIEŠKA",
+      "accordion-right": {
+        "utility-label": "Komunalinių sąskaitų diapazonas",
+        "utility": {
+          "from-price": "Nuo: 0.00",
+          "to-price": "Iki: 9,999,999,999"
+        },
+        "year-label": "Pastatymo metai",
+        "built": {
+          "from-year": "Nuo: 1000",
+          "to-year": "Iki: 9999"
+        },
+        "measurement-label": "Išmatavimai",
+        "system": {
+          "none": "Nėra",
+          "metric": "Metrais m",
+          "imperial": "Imperialais ft"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Rūšiuoti pagal",
+        "options": {
+          "price": "Kainą",
+          "area": "Zoną",
+          "rooms": "Kambarių kiekį",
+          "street-name": "Gatvės pavadinimą",
+          "popularity": "Populiarumą",
+          "views": "Peržiūras",
+          "country": "Šalį",
+          "insert-date": "Paskelbimo datą"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "Iš tinklaraščio",
+    "see-more": "Skaityti daugiau"
+  },
+  "error": {
+    "tags": "Prašome susisiekti nurodant: 'Žymos nerastos' "
+  },
+  "no-tags": "Funkcijos nerastos šiam pasirinkimui"
+}

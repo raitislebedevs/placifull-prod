@@ -1,0 +1,35 @@
+{
+  "main": {
+    "success": "Apmokėjimas sėkmingas.",
+    "plan_update": "Mes negalėjome atnaujinti jūsų plano.",
+    "card_not": "Kortelė nebuvo papildyta.",
+    "pay": "Mokėti € ",
+    "processing": "Jungiama…"
+  },
+  "placeholders": {
+    "name": "Jane Doe",
+    "email": "janedoe@placifull.com",
+    "phone": "(941) 555-7777"
+  },
+  "incomplete": {
+    "incomplete_cvc": "Jūsų kortelės kodas neteisingai įvestas",
+    "incomplete_expiry": "Jūsų kortelės galiojimo data neteisingai įvesta",
+    "incomplete_number": "Jūsų kortelės numeris neteisingai įvestas"
+  },
+
+  "declined": {
+    "card_declined": "Jūsų kortelė buvo atmesta"
+  },
+  "checkout": {
+    "billing": "Prašome užpildyti mokėjimo informaciją",
+    "card-details": "Prašome nurodyti kortelės detales",
+    "cancel": "Atšaukti"
+  },
+  "labels": {
+    "plan": "Planas",
+    "quantity": "Kiekis",
+    "name": "Vardas",
+    "email": "El. Paštas",
+    "phone": "Telefono numeris"
+  }
+}

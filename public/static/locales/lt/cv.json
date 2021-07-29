@@ -1,0 +1,60 @@
+{
+  "labels": {
+    "about-me": "Apie mane",
+    "languages": "Kalbos",
+    "computer-skills": "Kompiuteriniai įgūdžiai",
+    "education": "Išsilavinimas",
+    "expierience": "Darbo patirtis",
+    "licenses": "Vairuotojo pažymėjimas",
+    "expectations": "Darbo lūkesčiai",
+    "certification": "Sertifikatai"
+  },
+  "gender": {
+    "label": "Lytis",
+    "male": "Vyras",
+    "women": "Moteris"
+  },
+  "expierience": {
+    "label": "Patirtis",
+    "uptoOne": "< 1 metų",
+    "oneToThree": "1-3 metų",
+    "threeToFive": "3-5 metų",
+    "fiveToTen": "5-10 metų",
+    "tenToFifteen": "10-15 metų",
+    "moreThanFifteen": "15+ metų"
+  },
+
+  "knowladge-gained": {
+    "selfTaught": "Savamokslis",
+    "course": "Kursai",
+    "freelance": "Laisvai samdomas",
+    "contractProject": "Sutartis projektui",
+    "fullTimeJob": "Dirbantis pilnu etatu",
+    "other": "Kita"
+  },
+  "qualification": {
+    "primary": "Pradinis išsilavinimas",
+    "secondary": "Pagrindinis  išsilavinimas",
+    "vocational": "Profesinis išsilavinimas",
+    "bachelors": "Bakalaurinis išsilavinimas",
+    "master": "Magistro išsilavinimas",
+    "doctorate": "Daktaro išsilavinimas",
+    "other": "Kita"
+  },
+
+  "seniority": {
+    "title": "Aukštas pareigas užimantis darbuotojas",
+    "volunteer": "Savanoris",
+    "intern": "Praktikantas",
+    "junior": "Jaunesnysis darbuotojas",
+    "intermediate": "Tarpinis darbuotojas",
+    "senior": "Vyresnysis darbuotojas",
+    "executive": "Vykdomasis darbuotojas",
+    "ceo": "Generalinis direktorius",
+    "other": "Kita"
+  },
+
+  "avarage-grade": "Vidutinis pažymys",
+  "present": "Dabartinis",
+  "license-category": "Pažymos kategorija"
+}

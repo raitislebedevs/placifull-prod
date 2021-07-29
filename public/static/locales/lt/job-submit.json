@@ -1,0 +1,55 @@
+{
+  "heading": "Pateikti sąrašą",
+  "form": {
+    "submit-confirm": "Saugoma…",
+    "preview-sneak-peak": "Generuajama…",
+    "preview": "Peržiūrėti",
+    "no-currency": "Valiuta",
+    "no-features": "Prašome pasirinkti skelbimų kategoriją",
+    "job-title": {
+      "title": "Pozicijos pavadinimas ",
+      "placeholder": "Pareigos pavadinimas, pvz. Placifull globėjas"
+    },
+    "company": "Kompanijos pavadinimas",
+    "submit": "PATEIKTI",
+    "general-information": {
+      "heading": "Bendra informacija",
+      "input-fields": {
+        "description": "Pozicijos aprašymas",
+        "requirements": "Pozicijos reikalavimai",
+        "beneftis": "Pozicijos privalumai"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "Kontaktinė informancija",
+        "detail-requirements": "Detalūs reikalavimai"
+      },
+      "contact": {
+        "heading": "Kontaktai",
+        "email": "El. Paštas",
+        "phone": "Telefono numeris",
+        "address": "Adresas",
+        "listing-website": "Svetainė: https://"
+      }
+    },
+    "gallery": {
+      "heading": "Kompanijos logotipas",
+      "click-drop": "Pasirinkite arba vilkite logotipą čia",
+      "video-url": "Vaizdo įrašo url: kttps://"
+    },
+    "contact-hours": {
+      "heading": "Darbo valandos",
+      "heading-tip": "Neprivaloma",
+      "accordion": {
+        "heading": "Darbuotojas privalės darbuotis šiais laikais…",
+        "start-time": "Darbo pradžia",
+        "end-time": "Darbo pabaiga"
+      }
+    },
+    "input-languages": {
+      "label": "Kalbos, kurias reikia mokėti. (Anglų)",
+      "labelNative": "Kalbos, kurias reikia mokėti. (Gimtoji)"
+    }
+  }
+}

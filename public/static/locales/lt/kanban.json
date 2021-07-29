@@ -1,0 +1,41 @@
+{
+  "kanban": {
+    "save": "Išsaugoti įrašą",
+    "saving": "Saugoma…",
+    "salary": {
+      "hour": "/Valanda",
+      "month": "/Mėnuo",
+      "year": "/Metai"
+    },
+    "job-overview": {
+      "title": "Darbo apžvalga",
+      "industry": "Industrija",
+      "languages-en": "Kalbos (EN)",
+      "native": "Gimtoji kalba",
+      "contract-type": "Kontrakto tipas",
+      "working-time": "Darbo laikas",
+      "expiry-date": "Galiojimo laikas"
+    },
+    "statistics": {
+      "title": "Statistika",
+      "applicants": "Kandidatai",
+      "interviewed": "Apklausti",
+      "processing": "Apdorojami",
+      "reviewed": "Peržiūrėta",
+      "shortlisted": "Įtraukti į sąrašą",
+      "hired": "Pasamdyta"
+    },
+    "columns": {
+      "applicants": "Aplikavę kandidatai",
+      "reviewed": "Peržiūrėti kandidatai",
+      "shortlisted": "Įtraukti į sąrašą",
+      "interviewed": "Apklausti kandidatai",
+      "pending": "Laukiama patvirtinimo",
+      "accepted": "Pasamdyti kandidatai",
+      "column-name": "Naujas stulpelis",
+      "edit": "Redaguoti"
+    },
+    "view-cv": "Peržiūrėti CV",
+    "remove": "Pašalinti"
+  }
+}

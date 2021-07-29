@@ -1,0 +1,87 @@
+{
+  "contract-type": {
+    "label": "Kontrakto tipas",
+    "options": {
+      "temporarly": "Laikinas",
+      "fullTime": "Pilnas etatas",
+      "partTime": "Nepilnas etatas",
+      "remoteFullTime": "Nuotolinis (Pilnu etatu)",
+      "remotePartTime": "Nuotolinis (Nepilnu etatu)",
+      "other": "Kita"
+    }
+  },
+  "working-time": {
+    "label": "Darbo laikas",
+    "options": {
+      "officeHours": "Darbo valandos",
+      "shifts": "Pamainos",
+      "flexible": "Lankstus",
+      "other": "Kita"
+    }
+  },
+  "contact-times": {
+    "label": "Susisiekimo laikas",
+    "placeholder": "Pasirinkite pageidaujamą susisiekimo laiką",
+    "not-specified": "Nenurodyta",
+    "options": {
+      "any-time": "Bet kada",
+      "working-days": "Darbo dienomis",
+      "office-hours": "Darbo valandomis",
+      "specific-times": "Konkretus laikas"
+    }
+  },
+  "features": {
+    "heading": "Funkcijos",
+    "licenses": "Vairuotojo pažymėjimas",
+    "education": "Išsilavinimas/Laipsnis",
+    "expierience": "Patirtis (Metais)",
+    "candiadate": "Kandidatas turėtų galėti",
+    "weOffer": "Mes siūlome"
+  },
+  "salary": {
+    "heading": "Atlyginimas",
+    "monthly-from": "Atlyginimas nuo",
+    "monthly-to": "Atlyginimas iki",
+    "hourly-rate-from": "Valandinis tarifas nuo",
+    "annual-from": "Metinis atlyginimas nuo",
+    "annual-to": "Metinis atlyginimas iki",
+    "hourly-rate-to": "Valandinis tarifas iki"
+  },
+  "work-area": {
+    "label": "Darbo sritis",
+    "options": {
+      "intern": "Praktikantas",
+      "volunteerWork": "Savanoris",
+      "stockExchange": "Vertybinių popierių birža",
+      "administrationAssistance": "Administravimas / Pagalba",
+      "constructionRealEstate": "Statyba / Nekilnojamas turtas",
+      "humanResources": "Žmogiškieji ištekliai",
+      "securityRescue": "Apsaugos / Gelbėjimo tarnybos",
+      "military": "Karinė tarnyba / Karo apsauga",
+      "electronicsTelecomunication": "Elektronika / Telekomunikacijos",
+      "freelanceTemporary": "Laisvai samdomas / Laikinas darbas",
+      "energyElectricity": "Energija / Elektra",
+      "pharmacy": "Vaistinė",
+      "financeAccounting": "Finansai / Apskaita",
+      "infromationTechnology": "Informacinės technologijos (IT)",
+      "jurisprudenceJustice": "Jurisprudencija / Teisė",
+      "cultureArtEntertainemnt": "Kultūra / Menas / Pramogos",
+      "sports": "Sportas",
+      "qualityControl": "Kokybės kontrolė / Kokybės valdymas",
+      "agricutureEnvironmental": "Žemininkystė / Aplinkosauga",
+      "medicineSocialCare": "Medicina / Socialinė globa",
+      "mediaPublicRelations": "Žiniasklaida / Viešieji ryšiai",
+      "forestryWoodworkingMetalWorking": "Miškininkystė / Medienos apdirbimas / Metalo apdirbimas",
+      "marketingAdvertising": "Rinkodara / Reklamos sritis",
+      "productionIndustry": "Gamyba / Pramonė",
+      "seasonalWork": "Sezoninis darbas",
+      "technicalScience": "Technikos mokslai",
+      "services": "Paslaugos",
+      "transportLogistics": "Transportas / Logistika",
+      "tourismCateringHotels": "Turizmas / Maitinimas / Viešbučiai",
+      "managment": "Vadyba",
+      "government": "Vyriausybė",
+      "others": "Kita"
+    }
+  }
+}

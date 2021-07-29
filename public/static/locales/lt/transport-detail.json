@@ -1,0 +1,63 @@
+{
+  "header": {
+    "flag-button": "PAŽYMĖTI ŠĮ TURINĮ"
+  },
+  "detail-info": {
+    "button": "NORIU ĮSIKRAUSTYTI DABAR"
+  },
+  "contact-times": {
+    "heading": "Pageidaujami susisiekimo laikai"
+  },
+
+  "promoted": "Siūloma",
+
+  "about": {
+    "heading": "Apie",
+    "featured": "Reklamuojama",
+    "notFeatured": "Nereklamuojama",
+    "rentTime": "Per mėnesį",
+    "inputTimeDays": "dienų prieš"
+  },
+
+  "general-info": {
+    "heading": "Bendra informacija",
+    "brand": "Transporto prekinis ženklas",
+    "model": "Transporto modelis",
+    "year": "Pagaminimo metai",
+    "price": "Kaina",
+    "distance": "Distancija",
+    "max-speed": "Maksimalus greitis",
+    "fuel-economy": "Kuro saanaudos",
+    "seats": "Vietų skaičius",
+    "doors": "Durų skaičius",
+    "bid-price": "Siūlyti kainą transporto priemonei",
+    "submit": "SIŪLYTI",
+    "bid-placeholder": "Siūlyti 20% pelno skirtumo"
+  },
+  "features": {
+    "heading": "Funkcijos"
+  },
+  "contact-form": {
+    "not-specified": "Nenurodyta",
+    "heading": "Susisiekite su savininku",
+    "form": {
+      "heading": "Savo klausimą įrašykite čia",
+      "fullName": "Pilnas vardas*",
+      "phoneNumber": "Telefono numeris*",
+      "email": "El. Paštas*",
+      "message": "Jūsų žinutė",
+      "submit": "Siųsti žinutę"
+    }
+  },
+  "extra": {
+    "heading": "Kitos transporto priemonės siūlomos šio savininko",
+    "table": {
+      "number": "Nr.",
+      "country": "Šalis",
+      "brand-model": "Modelis/Prekės ženklas",
+      "price": "Kaina",
+      "condition": "Būklė",
+      "production-year": "Metai"
+    }
+  }
+}

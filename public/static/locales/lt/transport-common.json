@@ -1,0 +1,89 @@
+{
+  "color": {
+    "label": "Spalva",
+    "options": {
+      "red": "Raudona",
+      "orange": "Oranžinė",
+      "yellow": "Geltona",
+      "green": "Žalia",
+      "blue": "Mėlyna",
+      "violent": "Violetinė",
+      "pink": "Rožinė",
+      "tan": "Tano",
+      "beige": "Kūno ",
+      "white": "Balta",
+      "silver": "Sidabrinė",
+      "gray": "Pilka",
+      "black": "Juoda",
+      "brown": "Ruda",
+      "gold": "Auksinė",
+      "indigo": "Indigo",
+      "purple": "Purpurinė",
+      "lime": "Laimo",
+      "azure": "Ažūrinė",
+      "other": "Kita"
+    }
+  },
+  "gear-box": {
+    "label": "Pavarų dėžė",
+    "options": {
+      "manual": "Rankinė",
+      "automatic": "Automatinė",
+      "other": "Kita"
+    }
+  },
+  "engine": {
+    "label": "Variklio tipas",
+    "options": {
+      "diesel": "Dyzelinas",
+      "benzine": "Benzinas",
+      "gas": "Dujos",
+      "electric": "Elektrinis",
+      "other": "Kita"
+    }
+  },
+  "features": {
+    "heading": "Funkcijos",
+    "category": {
+      "equipment": "Įranga",
+      "interior": "Interjeras",
+      "steering-wheel": "Vairas",
+      "seats": "Sėdynės",
+      "lights": "Lempos",
+      "audio-video": "Audio/Video sistema",
+      "mirrors": "Veidrodžiai"
+    }
+  },
+  "condition": {
+    "label": "Būklė",
+    "options": {
+      "brandNew": "Nauja",
+      "likeNew": "Beveik nauja",
+      "used": "Naudota",
+      "requiresFixing": "Reikia patvarkyti",
+      "afterCrash": "Daužta"
+    }
+  },
+
+  "transport-type": {
+    "label": "Transporto priemonės tipas",
+    "options": {
+      "car": "Automobilis",
+      "truck": "Sunkvežimis",
+      "motorcycle": "Motociklas",
+      "boat": "Laivai",
+      "airTransport": "Oro transportas",
+      "others": "Kita"
+    }
+  },
+
+  "action": {
+    "label": "Veiksmas",
+    "options": {
+      "sell": "Parduoti",
+      "rent": "Nuomoti",
+      "exchange": "Keisti",
+      "forParts": "Dalimis"
+    }
+  }
+}

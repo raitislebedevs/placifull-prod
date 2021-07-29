@@ -1,0 +1,61 @@
+{
+  "form": {
+    "currency": "Valiuta",
+    "no-currency": "Visi",
+    "languages": {
+      "native": "Gimtoji kalba",
+      "english": "Anglų kalba"
+    },
+    "submit": "Ieškoti dabar",
+    "accordion": {
+      "label": "Detali paieška",
+      "searchFilter": {
+        "heading": "Funkcijos",
+        "licenses": "Vairuotojo pažymėjimas",
+        "education": "Išsilavinimas/Laipsnis",
+        "expierience": "Patirtis (Metais)",
+        "candiadate": "Kandidatas gali:",
+        "benefits": "Privalumai"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "Valandinis tarifas",
+        "items": {
+          "from": "Nuo: 0",
+          "to": "Iki: 999,999,999"
+        }
+      },
+      "monthly-salary": {
+        "label": "Mėnesinis atlyginimas",
+        "items": {
+          "from": "Nuo: 0",
+          "to": "Iki: 999,999,999"
+        }
+      },
+      "yearly-salary": {
+        "label": "Metinis atlyginimas",
+        "items": {
+          "from": "Nuo: 0",
+          "to": "Iki: 999,999,999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Rūšiuoti pagal",
+        "options": {
+          "monthly-salary": "Mėnesinį atlyginimą",
+          "annual-salary": "Metinį atlyginimą",
+          "hourly-salary": "Valandinį tarifą",
+          "popularity": "Populiarumą",
+          "views": "Peržiūras",
+          "country": "Šalį",
+          "insert-date": "Paskelbimo datą"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "Kategorija",
+    "options": {
+      "houses": "Namas",
+      "apartments": "Butas",
+      "land": "Žemės sklypas",
+      "farmhouse": "Žemininkystės paskirtims",
+      "commercial": "Komercinis pastatas",
+      "exclusive": "Išskirtiniai",
+      "offices": "Biurai",
+      "agents": "Nekilnojamojo turto agentūra"
+    }
+  },
+  "action": {
+    "label": "Veiksmas",
+    "options": {
+      "sell": "Parduoti",
+      "rent": "Nuomoti",
+      "exchange": "Keisti"
+    }
+  },
+  "condition": {
+    "label": "Būklė",
+    "label-land": "Nuosavybės tipas",
+    "options": {
+      "brandNew": "Naujas",
+      "goodCondition": "Geros būklės",
+      "medium": "Vidutinis",
+      "requiresFixing": "Reikia pataisyti",
+      "requiresConstruction": "Reikia perstatyti",
+      "residential": "Gyvenamasis",
+      "comercial": "Komercinis",
+      "industrial": "Pramoninis",
+      "agricultural": "Žemės ūkio"
+    }
+  },
+  "contact-times": {
+    "label": "Susisiekimo laikas",
+    "options": {
+      "anyTime": "Bet kada",
+      "workingDays": "Savaitės dienomis",
+      "officeHours": "Darbo valandomis",
+      "specificTimes": "Konkrečiu laiku"
+    }
+  },
+  "features": {
+    "heading": "Funkcijos",
+    "category": {
+      "kitchen": "Virtuvė",
+      "bathroom": "Vonios kambarys",
+      "living-room": "Svetainė",
+      "bedroom": "Miegamasis",
+      "housing-extras": "Kiti priedai",
+      "land-type": "Žemės sklypo tipas",
+      "buildingLand": "Statybinė žemė",
+      "forest-properties": "Miško savybės",
+      "agriculture-properties": "Žemės ūkio savybės"
+    }
+  },
+  "utilities": {
+    "heading": "Komunalinės paslaugos",
+    "total": "Iš viso",
+    "items": {
+      "coldWater": "Šaltas vanduo",
+      "hotWater": "Karštas vanduo",
+      "electricity": "Elektra",
+      "garbage": "Atliekos",
+      "propertyManagement": "Turto Valdymas",
+      "heating": "Šildymas",
+      "parking": "Automobiliu stovėjimo aikštelė",
+      "others": "Kiti"
+    }
+  }
+}

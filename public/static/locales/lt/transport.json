@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "form": {
+      "currency": "Valiuta",
+      "no-currency": "VISI",
+      "min-price": "Minimumas: 0.00",
+      "max-price": "Maksimumas: 9,999,999,999",
+      "transport-brand": "Transporto priemonės modelis",
+      "transport-model": "Transporto priemonės prekinis ženklas",
+      "min-age": "Minimalus amžius",
+      "max-age": "Maksimalus amžius",
+      "submit": "Ieškoti dabar",
+      "accordion": "DETALI PAIEŠKA",
+      "accordion-right": {
+        "economy": {
+          "label": "Kuro sąnaudos",
+          "items": {
+            "from": "Nuo: 0",
+            "to": "Iki: 999"
+          }
+        },
+        "speed": {
+          "label": "Maksimalus greitis",
+          "items": {
+            "from": "Nuo: 0 ",
+            "to": "Iki: 999"
+          }
+        },
+        "millage": {
+          "label": "Kilometražas",
+          "items": {
+            "from": "Nuo: 0",
+            "to": "Iki: 9,999,999"
+          }
+        },
+        "units": "Vienetai"
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Rūšiuoti pagal",
+        "options": {
+          "price": "Kainą",
+          "speed": "Greitį",
+          "millage": "Kilometražą",
+          "fuel-economy": "Kuro sąnaudas",
+          "popularity": "Populiarumą",
+          "views": "Peržiūras",
+          "country": "Šalį",
+          "insert-date": "Paskelbimo datą"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "header": {
+    "salary-month": "/mėnuo",
+    "buttons": {
+      "apply": "Aplikuoti dabar",
+      "share": "Dalintis darbu"
+    }
+  },
+  "contact-form": {
+    "heading": "Susisiekite su kompanija",
+    "form": {
+      "heading": "Įrašykite savo klausimą čia",
+      "fullName": "Pilnas vardas*",
+      "phoneNumber": "Telefono numeris*",
+      "email": "El. Pašto adresas",
+      "message": "Jūsų žinutė",
+      "submit": "Siųsti žinutę"
+    }
+  },
+  "about": {
+    "description": "Aprašymas",
+    "requirements": "Reikalavimai",
+    "benefits": "Privalumai"
+  },
+  "job-overview": {
+    "heading": "Darbo apžvalga",
+    "items": {
+      "offered-salary": "Siūlomas atlyginimas",
+      "languages": "Kalba",
+      "native": "Gimtoji",
+      "industry": "Industrija"
+    },
+    "views": "Peržiūros",
+    "applicants": "Kandidatai",
+    "salary": {
+      "monthly": "Kas mėnesį",
+      "annual": "Kasmet",
+      "hourly": "Kas valandą"
+    }
+  },
+
+  "application": {
+    "header": "Aplikuokite pozicijai",
+    "body": {
+      "proposal": "Siūlomas atlyginimas"
+    },
+    "info": "Jūsų CV bus išsiųstas darbdaviui"
+  },
+
+  "extra": {
+    "heading": "Kiti šio darbdavio siūlomi darbai ",
+    "table": {
+      "number": "Nr.",
+      "country": "Šalis",
+      "full-address": "Biuro adresas",
+      "position": "Pozicija",
+      "contract": "Kontrakto tipas",
+      "time": "Darbo laikas",
+      "salary": "Atlyginimas nuo",
+      "end-date": "Pabaigos data"
+    }
+  }
+}
