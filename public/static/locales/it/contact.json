@@ -1,40 +1,40 @@
 {
   "header": {
-    "heading": "Aide",
+    "heading": "Assistenza e supporto",
     "info": {
-      "text": "Contact Whatsapp",
-      "phone": "+336 9999999999"
+      "text": "Numero WhatsApp",
+      "phone": "+371 9999999999"
     }
   },
   "contact-form": {
     "contact": {
-      "heading": "Informations de contact",
+      "heading": "Recapiti",
       "items": {
         "item-1": {
-          "label": "Adresse",
-          "description": "14 rue du Patis"
+          "label": "Località",
+          "description": "4758 Nancy Street"
         },
         "item-2": {
-          "label": "Numéro de téléphone",
-          "description": "+371 28247226"
+          "label": "Numero di telefono",
+          "description": "+1 919-571-2528"
         },
         "item-3": {
           "label": "Email",
-          "description": "exemple@gmail.com"
+          "description": "hello@example.com"
         },
         "item-4": {
-          "label": "Service client",
+          "label": "Assistenza clienti",
           "description": "support@example.com"
         }
       }
     },
     "form": {
-      "heading": "Formulaire",
-      "name": "Nom",
+      "heading": "Modulo",
+      "name": "Nome",
       "email": "Email",
-      "subject": "Sujet",
-      "message": "Message",
-      "submit": "Envoyer le message"
+      "subject": "Oggetto",
+      "message": "Messaggio",
+      "submit": "Invia il messaggio"
     }
   }
 }
