@@ -93,48 +93,6 @@ const languages = [
   },
   {
     value: {
-      lang: 'sa',
-      flag: 'AE',
-    },
-    label: 'العربية',
-  },
-  {
-    value: {
-      lang: 'sa',
-      flag: 'DZ',
-    },
-    label: 'العربية',
-  },
-  {
-    value: {
-      lang: 'sa',
-      flag: 'SA',
-    },
-    label: 'العربية',
-  },
-  {
-    value: {
-      lang: 'sa',
-      flag: 'TN',
-    },
-    label: 'العربية',
-  },
-  {
-    value: {
-      lang: 'sa',
-      flag: 'LY',
-    },
-    label: 'العربية',
-  },
-  {
-    value: {
-      lang: 'sa',
-      flag: 'EG',
-    },
-    label: 'العربية',
-  },
-  {
-    value: {
       lang: 'it',
       flag: 'IT',
     },
@@ -177,6 +135,76 @@ const languages = [
   //   },
   //   label: 'Suomea',
   // },
+  {
+    value: {
+      lang: 'sa',
+      flag: 'AE',
+    },
+    label: 'العربية',
+  },
+  {
+    value: {
+      lang: 'sa',
+      flag: 'DZ',
+    },
+    label: 'العربية',
+  },
+  {
+    value: {
+      lang: 'sa',
+      flag: 'SA',
+    },
+    label: 'العربية',
+  },
+  {
+    value: {
+      lang: 'sa',
+      flag: 'TN',
+    },
+    label: 'العربية',
+  },
+  {
+    value: {
+      lang: 'sa',
+      flag: 'LY',
+    },
+    label: 'العربية',
+  },
+  {
+    value: {
+      lang: 'sa',
+      flag: 'EG',
+    },
+    label: 'العربية',
+  },
+  {
+    value: {
+      lang: 'sa',
+      flag: 'SD',
+    },
+    label: 'العربية',
+  },
+  {
+    value: {
+      lang: 'sa',
+      flag: 'YE',
+    },
+    label: 'العربية',
+  },
+  {
+    value: {
+      lang: 'sa',
+      flag: 'OM',
+    },
+    label: 'العربية',
+  },
+  {
+    value: {
+      lang: 'sa',
+      flag: 'IQ',
+    },
+    label: 'العربية',
+  },
 ];
 
 export default languages;
