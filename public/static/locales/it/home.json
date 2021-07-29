@@ -1,270 +1,270 @@
 {
   "hero-section": {
     "head": {
-      "line-1": "Placifull dove la semplicità incontra ",
-      "line-2": "Soluzioni studiate attentamente per realizzare il tuo sogno",
-      "line-3": "Cerca Lavori, Immobili e Veicoli per soddisfare tutte le tue esigenze in ogni angolo del mondo.",
+      "line-1": "بلاسيفول، حيث تلتقي البساطة",
+      "line-2": "مع حلولٍ مُحكَمة الصِّياغة لتحقيق حُلمك",
+      "line-3": "اِبحث عن الوظائف والعقارات ووسائل النّقل لتلبية جميع احتياجاتك في كلّ ركنٍ من أركان العالم.",
       "options": {
-        "text-1": "Affidabilità",
-        "text-2": "Coerenza",
-        "text-3": "Convenienza",
-        "text-4": "Accessibilità"
+        "text-1": "المصداقية",
+        "text-2": "الاتّساق",
+        "text-3": "القدرة على تحمُّل التّكاليف",
+        "text-4": "قابلية الوُصول"
       }
     },
-    "button": "Iniziamo"
+    "button": "اِبدَأ"
   },
   "real-estate-section": {
-    "badge": "Articoli in promozione",
+    "badge": "إعلانات مُميّزة",
     "head": {
-      "line-1": "Immobili",
-      "line-2": "Gli articoli più promozionati su",
-      "line-3": "Placifull",
-      "line-4": "che richiedono tutta la tua attenzione."
+      "line-1": "العقارات",
+      "line-2": "الإعلانات الأكثر تميّزاً",
+      "line-3": "بلاسيفول",
+      "line-4": "التي تتطلّب اهتمامَك الكامل"
     },
-    "button": "Vedi tutti"
+    "button": "الاطّلاع على الكلّ"
   },
   "transportation-section": {
-    "badge": "Articoli in promozione",
+    "badge": "الولاية/ المنطقة",
     "head": {
-      "line-1": "Veicoli",
-      "line-2": "Questi veicoli su",
-      "line-3": "Placifull",
-      "line-4": "richiedono la tua attenzione."
+      "line-1": "وسائل النّقل",
+      "line-2": "هذه المواصلات في",
+      "line-3": "بلاسيفول",
+      "line-4": "تستحقّ وقتَك"
     },
-    "button": "Vedi tutti"
+    "button": "الاطّلاع على الكلّ"
   },
   "job-section": {
-    "badge": "Articoli in promozione",
+    "badge": "إعلاناتٌ مُميّزة",
     "head": {
-      "line-1": "Offerte di lavoro Premium",
-      "line-2": "Assetato di un cambiamento? Su",
-      "line-3": "Placifull",
-      "line-4": "troverai il lavoro che hai sempre sognato."
+      "line-1": "وظائف استثنائية",
+      "line-2": "مُتعطِّش للتّغيير؟ في",
+      "line-3": "بلاسيفول",
+      "line-4": "اِبحَث عن وظيفة الأحلام التي كنتَ ترغب فيها دائمًا."
     },
     "jobs": {
-      "location": "Località",
-      "working-schedule": "Orario lavorativo",
-      "salary": "Retribuzione",
-      "working-place": "Luogo di lavoro",
-      "button": "Vedi dettaglio"
+      "location": "الموقع",
+      "working-schedule": "جدول العمل",
+      "salary": "الرّاتب",
+      "working-place": "مكان العمل",
+      "button": "عرض التّفاصيل"
     },
-    "button": "Vedi altro"
+    "button": "شاهِد المزيد"
   },
   "service-section": {
     "head": {
-      "line-1": "Di cosa si tratta!",
-      "line-2": "Scopri cosa apprezziamo di più. In ",
-      "line-3": "Placifull",
-      "line-4": "ascoltiamo quello che hai da dire."
+      "line-1": "من نحنُ!",
+      "line-2": "اِسكتشف أكثر ما نُقدِّره. في",
+      "line-3": " بلاسيفول،",
+      "line-4": " نستمع إلى ما تريد أن تقوله."
     },
     "services": {
       "service-1": {
-        "open-modal": "Per saperne di più",
-        "name": "Annunci delle opportunità",
-        "description": "Il nostro obiettivo principale è aiutare le persone a trasferirsi in un altro paese. Trasferirsi all'estero apre molte sfide, quindi siamo qui per aiutarti con gli strumenti di ricerca di cui hai bisogno. Lavoro, casa, veicoli, tutto può essere trovato in un solo posto. Non hai bisogno di cercare altrove.",
+        "open-modal": "اِعرِف المزيد",
+        "name": "قائمة الفرص المتاحة",
+        "description": "ينصبُّ تركيزنا الأساسي على مساعدة الناس على الانتقال إلى بلد مختلف. إنّ الانتقال إلى الخارج يفتجُ العديد من التّحدِّيات، لذلك نحنُ هنا لمساعدتك بخصوص أدوات البحث التي تحتاجُها. يُمكن العثور على الوظيفة والمنزل والمواصلات في مكان واحد. لا تحتاج إلى البحث في مكانٍ آخر.",
 
         "modal": {
-          "header": "Esplora",
-          "description": "Placifull ha il compito di rendere il trasferimento all'estero più facile per te e la tua famiglia. La nostra preoccupazione principale è di offrirti tutte le offerte di lavoro disponibili secondo le tue esigenze e qualifiche. Placifull vuole aiutarti ad affrontare tutte le sfide che si presentano con una nuova vita, e non avrai bisogno di cercare altro una volta che avrai utilizzato i nostri servizi. Il nostro team svolge tutto il lavoro impegnativo al posto tuo e tutto quello che dovrai fare sarà scegliere tra le offerte di lavoro che ti forniremo. Tuttavia, il nostro lavoro non finisce qui e continueremo ad aiutarti con grande impegno quando inizierai il tuo nuovo lavoro.",
-          "close-button": "Chiudi"
+          "header": "اِستَكشِف",
+          "description": "يلتزم موقع بلاسيفول بتسهيل انتقالك أنت وعائلتك إلى الخارج. يتمثّل الشّاغل الرّئيسي لدينا في تقديم جميع قوائم الوظائف المُتاحة لك وفقًا لمتطلباتك ومؤهّلاتك. يُؤمنُ بلاسيفول بوجوب مُساعدته لك في التّصدّي لكلّ التّحدّيات التي تُصاحِب حياةً جديدة، ولن تضطرّ للبحث بعيداً بمجرّد أن تستخدم خدماتنا. يقومُ فريقُنا بكلِّ العمل المُضني نيابةً عنك، وكلّ ما عليك فعله هو أن تختار من بين عُروض العمل التي نُقدّمها. ومع ذلك، فإنّ عملنا  لا يتوقّف عند هذا الحدّ، وسنستمرّ في إفادتك عندما تبدأ وظيفتك الجديدة.",
+          "close-button": "غلق"
         }
       },
       "service-2": {
-        "open-modal": "Aiutaci",
-        "name": "Aiutaci a migliorare",
-        "description": "Siamo una piccola squadra dietro le quinte, quindi tutti i cambiamenti che suggerisci li guarderemo e li aggiungeremo alla nostra scheda di voto.",
+        "open-modal": "ساعِدنا الآن",
+        "name": "ساعدنا لنتحسّن",
+        "description": "نحن فريقٌ صغير خلف السّتائر، لذا سننظر في أيِّ تغييراتٍ تقترحُها أنت، وسنضيفها إلى لوحة تصويتِنا.",
 
         "modal": {
-          "header": "Migliora",
-          "description": "Il nostro team è composto da persone appassionate che lavorano duramente per aiutarti a realizzare i tuoi sogni. Per questo motivo, siamo molto concentrati nell'accettare e implementare suggerimenti utili da parte dei nostri utenti abituali. Se c'è qualcosa che trovi nei nostri servizi che pensi possa essere migliorato, non esitare a lasciare una nota sulla nostra scheda di voto. Non appena il suggerimento raggiungerà i diecimila voti, saremo obbligati ad attuare le modifiche. Vogliamo che i nostri utenti sappiano che le loro opinioni sono molto importanti per noi.",
-          "close-button": "Chiudi",
-          "contact-button": "Rimaniamo in contatto"
+          "header": "تحسين",
+          "description": "يتكوّن فريقنا من أشخاصٍ شغوفين، يعملون بجدّ لمساعدتك في تحقيق أحلامك. ولذلك، نسعى جاهدين إلى أخذ الاقتراحات المفيدة من مستخدمينا المنتظمين وتنفيذها.  إذا وجدتَ أيّ شيءٍ في خدماتنا تعتقدُ أنّه يُمكن تحسينه، فلا تتردّد في ترك ملاحظة على لوحة  تصويتنا. وبمجرّد أن يصل الاقتراح إلى عشرة آلاف تصويتٍ مُؤيِّد، سيتوجّبُ علينا تنفيذ التّغييرات. نريد أن يعرف مستخدمونا أنّ آرائهم هي الأكثر قيمة بالنّسبة لنا.",
+          "close-button": "غلق",
+          "contact-button": "اِبقَ على اِتّصالٍ "
         }
       },
       "service-3": {
-        "name": "Metti un like e condividi",
-        "description": "Se trovi che i nostri servizi siano utili e ti possano cambiare la vita, sarebbe molto importante per noi se tu diffondessi la nostra piattaforma a tutti i tuoi amici e familiari. Promuovere e condividere il nostro lavoro ci aiuterà a crescere ulteriormente e a servirti meglio."
+        "name": "اعجاب & مشاركة",
+        "description": "إذا وجدتَ خدماتنا مفيدة ومن المُمكن أن تُغيِّر حياتك، فسيكون من المفيد جدًا لنا أن تُعَرّف أنت بمنصّتنا لجميع أصدقائك وعائلتك. سيساعدنا الترويج لعملنا ومشاركته على النّمو أكثر وخدمتك بشكلٍ أفضل."
       },
       "service-4": {
-        "open-modal": "Aiutaci a migliorare ora",
-        "name": "Migliora la nostra qualità",
-        "description": "Qualcosa non funziona? Il pagamento non è andato a buon fine? Non esitare a contattarci esponendo il tuo problema, lo considereremo come una priorità.",
+        "open-modal": "ساهِم في تحسين خدماتنا الآن",
+        "name": "تحسين الجودة لدينا",
+        "description": "هناك خطبٌ ما؟  لم يتمّ الدّفع؟ لا تتردّد في الاتّصال بنا لإبلاغنا بشكواك، سنعالجها على أساس الأولوية.",
         "modal": {
-          "header": "Qualità",
-          "description": "Placifull è un marchio incentrato sulla qualità e crediamo che tutto il nostro valore sia proprio nella qualità dei servizi che forniamo. Ti assicuriamo sinceramente che non scendiamo a compromessi sulla nostra qualità e sui nostri standard. Se trovi qualcosa sulla nostra piattaforma che non funziona bene come dovrebbe, segnalaci il problema al più presto e lo risolveremo il prima possibile. La tua esperienza con Placifull è della massima importanza e noi miglioreremo e aggiorneremo il nostro sistema per soddisfarti al meglio.",
-          "close-button": "Chiudi",
-          "contact-button": "Rimaniamo in contatto"
+          "header": "الجودة",
+          "description": "بلاسيفول هي علامةٌ تجارية قائمة على الجودة. ونعتقد أن قيمتنا الكاملة تكمُن في نوعية الخدمات التي نقدّمها. كما نؤكِّدُ لكم من صميم قلوبنا أننا لا نتنازل عن الجودة والمعايير لدينا. إذا وجدت شيئًا ما على نظامنا الأساسي لا يعمل بسلاسة ٍكما ينبغي، فأبلغنا بالمشكلة في أقرب وقتٍ ممكن وسنصلحها في أقرب وقت ممكن. تُعتَبر تجربتك مع بلاسيفول ذات أهمّية قُصوى وسنعمل على تحسين نظامنا وتحديثِه ليُناسبك بشكلٍ أفضل.",
+          "close-button": "غلق",
+          "contact-button": "اِبقَ على اِتّصالٍ "
         }
       },
       "service-5": {
-        "open-modal": "Applica ora",
-        "name": "Opportunità di carriera",
-        "description": "Lavoriamo duramente e ci riposiamo molto. Vuoi essere dei nostri? Allora scrivici. Scegli tu quale lavoro, dove e lo stipendio che vorresti. Se la cosa ci piace TU sarai assunto..,",
+        "open-modal": "قدِّم طلبك الآن",
+        "name": "فُرَص وظيفية",
+        "description": "نحن نعمل بجدّ ونستريح بشكلٍ جيّدا. هل تريد أن تكون جزءًا من فريقِنا؟ إذن، اكتُب لنا.  اِختَرْ ما تريد أن تعمل، وأين، والرّاتب الذي ترغب أن تتقضاه. وإذا أعجبَنا ذلك، فسيتّم تعيينك.،",
         "modal": {
-          "header": "Carriera",
-          "description": "Le nostre offerte di lavoro sono uniche e non troverai altrove ciò che noi offriamo. Proponiamo un eccitante orario di lavoro che ti farà lavorare solo 4 giorni a settimana, e 8 ore ogni giorno invece di 12. Il venerdì di ogni settimana, ti verrà data la possibilità di recarti in ufficio oppure no. Puoi sicuramente usare il tempo extra per ritrovare gli amici, fare esercizio, praticare i tuoi hobby e molto altro! Pacifull si assicura che il tempo di qualità con i tuoi amici e la tua famiglia non sia interrotto a causa del tuo lavoro. Questo è il motivo per cui la piattaforma fa anche in modo che tu abbia abbastanza giorni di ferie, iniziando da 20 giorni e potrai arrivare fino a 28 giorni di vacanza ogni anno. È quasi impossibile trovare un orario di lavoro vantaggioso come questo, quindi non aspettare oltre e invia la tua candidatura a Placifull.",
-          "close-button": "Chiudi",
-          "contact-button": "Applica ora"
+          "header": "الحياة المِهنِية",
+          "description": " تُعَدّ عروض العمل لدينا فريدة من نوعها ولن تجد ما نُقدِّمه نحنُ في أي مكانٍ آخر. نحنُ نُقدّم مخططً ساعات عمل مثير ، يسمَحُ لك بالعمل 4 أيام فقط في الأسبوع ، و 8 ساعات في اليوم بدلاً من 12 ساعة. في أيام الجمعة من كل أسبوع، ستُتاح لك فُرصة الذّهاب إلى المكتب من عدمه. يُمكنك بالتأكيد استخدام الوقت الإضافي لتتواصل مع أصدقائك وممارسة الرياضة وممارسة هواياتك وأشياء أخرى كثيرة! تحرِصُ مِنَصّة بلاسيفول على أنّ الوقت الذي تقضيه مع الأصدقاء والعائلة لا يتخلّله أيّ انقطاعٍ بسبب عملِك. ولهذا السّبب، تَحرِصُ  المِنَصّةُ أيضًا على أن تحصُلَ على وقتٍ كافٍ من الإجازة ، بدءًا من 20 يومًا؛ ويمكنك الحصول على ما يصل إلى 28 يومًا من الإجازة كلّ عام. وهذا يعطي ما مجموعه (عدد) . يكاد يكون من المُستحيل العثور على جدول عملٍ مُثمرٍ مثل هذا الجدول، لذا لا  تنتظر  أكثر من ذلك وقدِّم طلبك لدى بلاسيفول ",
+          "close-button": "غلق",
+          "contact-button": "تقدّم بطلب عملٍ الآن"
         },
         "modal-apply": {
           "form": {
-            "header": "Presentaci la tua proposta!",
-            "firstName": "Nome",
-            "lastName": "Cognome",
-            "email": "Indirizzo email",
-            "phone": "Telefono",
-            "dreamJob": "Quale lavoro ti piacerebbe fare?",
-            "applyText": "Perché dovremmo assumerti?",
-            "salary": "Stipendio che ti aspetti di ricevere (mensile)",
-            "positionName": "Posizione lavorativa",
-            "apply": "Sono pronto!"
+            "header": "اِعطنا اقتراحك!",
+            "firstName": "الاسم الأول",
+            "lastName": "الاسم الأخير",
+            "email": "عنوان البريد الإلكتروني",
+            "phone": "هاتف",
+            "dreamJob": "ماذا تريد أن تعمل؟",
+            "applyText": "لماذا ينبغي لنا أن نُوظِّفك؟",
+            "salary": "الراتب المتوقع (شهرياً)",
+            "positionName": "اِسم الوظيفة",
+            "apply": "أنا مستعد!"
           }
         }
       }
     },
-    "learn-more": "Scopri di più"
+    "learn-more": "معرفة المزيد"
   },
   "price-section": {
     "badge": "",
     "head": {
-      "line-1": "Le nostre tariffe per gli annunci"
+      "line-1": "أسعار نشر الإعلانات لدينا"
     },
     "prices": {
       "price-1": {
-        "name": "Immobili",
+        "name": "العقارات",
         "tiers": {
           "tier-2": {
-            "name": "Post singolo",
-            "offer-1": "Paga solo una volta, puoi usarlo ogni volta che ti serve",
-            "offer-2": "Annunci pubblicati per un massimo di 365 giorni",
-            "offer-3": "Libertà di seguire le offerte degli utenti",
-            "offer-4": "Rimuovi in qualsiasi momento",
-            "button": "Prova ora"
+            "name": "منشور  واحد",
+            "offer-1": "ادفع مرّة واحدة، واستخدِمه عند الحاجة.",
+            "offer-2": "تُنشَر الإعلانات لمدّة تصلُ إلى 395 يوما",
+            "offer-3": "حريّة متابعة عروض المُستخدِم",
+            "offer-4": "اِحذِف في أيّ وقت",
+            "button": "جرِّب الآن"
           },
           "tier-3": {
-            "name": "Trimestrale",
-            "offer-1": "8 elementi attivi",
-            "offer-2": "Annunci fino a 365 giorni",
-            "offer-3": "Segui le offerte degli utenti",
-            "offer-4": "Chiudi quando vuoi e utilizza ancora.",
-            "button": "Prova ora"
+            "name": "فصليّاً",
+            "offer-1": "  8 إعلانات نشطة    ",
+            "offer-2": "مُدرَجة إلى غاية 395 يوما",
+            "offer-3": "مُتابعة عروض المستخدِم",
+            "offer-4": "حذف وإعادة النّشر وقتما تشاء",
+            "button": "جرِّب الآن"
           },
           "tier-4": {
-            "name": "Annuale",
-            "offer-1": "20 elementi attivi",
-            "offer-2": "Annunci fino a 120 giorni",
-            "offer-3": "Libertà di seguire le offerte degli utenti",
-            "offer-4": "Chiudi quando vuoi, e riapri in caso di necessità",
-            "button": "Prova ora"
+            "name": "سنويّاً",
+            "offer-1": "20 إعلانٍ نشط ً",
+            "offer-2": "مُدرَجة إلى غاية  120 يومًا",
+            "offer-3": "حرّية متابعة عروض المُستخدِم",
+            "offer-4": "حذف وإعادة النّشر وقتما تشاء",
+            "button": "جرِّب الآن"
           }
         }
       },
       "price-2": {
-        "name": "Veicoli",
+        "name": "المركبات",
         "tiers": {
           "tier-2": {
-            "name": "Post singolo",
-            "offer-1": "Paga solo una volta, puoi usarlo ogni volta che ti serve",
-            "offer-2": "Annunci pubblicati per un massimo di 365 giorni",
-            "offer-3": "Libertà di seguire le offerte degli utenti",
-            "offer-4": "Rimuovi in qualsiasi momento",
-            "button": "Prova ora"
+            "name": "منشور  واحد",
+            "offer-1": "ادفع مرّة واحدة، واستخدِمه عند الحاجة.",
+            "offer-2": "تُنشَر الإعلانات لمدّة تصلُ إلى 395 يومًا",
+            "offer-3": "حرّية متابعة عروض المُستخدِم",
+            "offer-4": "اِحذِف في أيّ وقت",
+            "button": "جرِّب الآن"
           },
           "tier-3": {
-            "name": "Trimestrale",
-            "offer-1": "8 elementi attivi",
-            "offer-2": "Annunci fino a 365 giorni",
-            "offer-3": "Segui le offerte degli utenti",
-            "offer-4": "Chiudi quando vuoi e utilizza ancora.",
-            "button": "Prova ora"
+            "name": "فصليّاً",
+            "offer-1": " 8 إعلانات نشطة",
+            "offer-2": "مُدرَجة إلى غاية 395 يوما",
+            "offer-3": "مُتابعة عُروض المستخدِم",
+            "offer-4": "حذف وإعادة النّشر وقتما تشاء",
+            "button": "جرِّب الآن"
           },
           "tier-4": {
-            "name": "Annuale",
-            "offer-1": "20 elementi attivi",
-            "offer-2": "Annunci fino a 120 giorni",
-            "offer-3": "Libertà di seguire le offerte degli utenti",
-            "offer-4": "Chiudi quando vuoi, e riapri in caso di necessità",
-            "button": "Prova ora"
+            "name": "سنويّاً",
+            "offer-1": "20عنصُراً نشِطا",
+            "offer-2": "مُدرَجة إلى غاية 120 يومًا",
+            "offer-3": "حرّية متابعة عروض المُستخدِم",
+            "offer-4": "حذف وإعادة النّشر وقتما تشاء",
+            "button": "جرِّب الآن"
           }
         }
       },
       "price-3": {
-        "name": "Lavori",
+        "name": "الوظائف",
         "tiers": {
           "tier-2": {
-            "name": "Post singolo",
-            "offer-1": "Paga solo una volta, puoi usarlo ogni volta che ti serve",
-            "offer-2": "Annunci pubblicati per un massimo di 365 giorni",
-            "offer-3": "Libertà di seguire le offerte degli utenti",
-            "offer-4": "Rimuovi in qualsiasi momento",
-            "button": "Prova ora"
+            "name": "منشور  واحد",
+            "offer-1": "ادفع مرّة واحدة، واستخدِمه عند الحاجة.",
+            "offer-2": "تُنشَر الإعلانات لمدّة تصلُ إلى 395 يوما",
+            "offer-3": "حرّية متابعة عروض المُستخدِم",
+            "offer-4": "اِحذِف في أيّ وقت",
+            "button": "جرِّب الآن"
           },
           "tier-3": {
-            "name": "Trimestrale",
-            "offer-1": "8 elementi attivi",
-            "offer-2": "Annunci fino a 365 giorni",
-            "offer-3": "Segui le offerte degli utenti",
-            "offer-4": "Chiudi quando vuoi e utilizza ancora.",
-            "button": "Prova ora"
+            "name": "فصليّاً",
+            "offer-1": " 8عناصر نشطة",
+            "offer-2": "مُدرَجة إلى غاية  395 يوما",
+            "offer-3": "مُتابعة عُروض المستخدِم",
+            "offer-4": "حذف وإعادة النّشر وقتما تشاء",
+            "button": "جرِّب الآن"
           },
           "tier-4": {
-            "name": "Annuale",
-            "offer-1": "20 elementi attivi",
-            "offer-2": "Annunci fino a 120 giorni",
-            "offer-3": "Libertà di seguire le offerte degli utenti",
-            "offer-4": "Chiudi quando vuoi, e riapri in caso di necessità",
-            "button": "Prova ora"
+            "name": "سنويّاً",
+            "offer-1": "20عنصُراً نشِطا",
+            "offer-2": "مُدرَجة إلى غاية  120 يومًا",
+            "offer-3": "حرّية متابعة عروض المُستخدِم",
+            "offer-4": "حذف وإعادة النّشر وقتما تشاء",
+            "button": "جرِّب الآن"
           }
         }
       },
       "price-4": {
-        "name": "Altri",
+        "name": "أخرى",
         "tiers": {
           "tier-1": {
-            "name": "Gratis",
-            "offer-1": "Sfoglia gli annunci",
-            "offer-2": "Tariffe per gli annunci",
-            "offer-3": "Entra nel nostro team",
-            "offer-4": "Condividi le notizie",
-            "button": "Prova ora"
+            "name": "مجّاني",
+            "offer-1": "قوائم المتصفِّحات",
+            "offer-2": "قوائم الأسعار",
+            "offer-3": "كن جزءا من فريقنا",
+            "offer-4": "شارك الكلمة",
+            "button": "جرِّب الآن"
           },
           "tier-2": {
-            "name": "Articolo in promozione",
-            "offer-1": "Paga al momento dell'invio",
-            "offer-2": "Area promossa",
-            "offer-3": "Contrassegnato in evidenza",
-            "button": "Prova ora"
+            "name": "إعلانٌ مُميّز",
+            "offer-1": "إدفع عند الارسال",
+            "offer-2": "قطاع نشر مُميز",
+            "offer-3": "صُنِّفَت على أنّها مُميّزة",
+            "button": "جرِّب الآن"
           },
           "tier-3": {
-            "name": "Cerca CV",
-            "offer-1": "Acquisto annuale",
-            "offer-3": "Sfoglia i CV",
-            "button": "Prova ora"
+            "name": "البحث عن السّيرة الذّاتية",
+            "offer-1": "شراء سنوي",
+            "offer-3": "متصفّح السِّيَر الذاتية ",
+            "button": "جرِّب الآن"
           },
           "tier-4": {
-            "name": "Aggiungi giorni extra",
-            "offer-1": "Prolunga i giorni di pubblicazione",
-            "offer-2": "Scegli il conteggio dei giorni",
-            "offer-3": "Fino a 365 giorni",
-            "offer-4": "A partire da €0,11 al giorno",
-            "button": "Prova ora"
+            "name": "إضافة أيام إضافية",
+            "offer-1": "تمديد أيام التّسجيل",
+            "offer-2": "اختيار عدد الأيام",
+            "offer-3": "حتى 365 يومًا",
+            "offer-4": "ابتداءً من 0,11 يورو في اليوم",
+            "button": "جرِّب الآن"
           }
         }
       }
     },
-    "off": "Spento",
+    "off": "في إجازة",
     "modal": {
       "no-user": {
-        "title": "Informazioni per la pubblicazione dell'annuncio",
-        "header": "Si prega di effettuare l'accesso",
-        "body": "Si prega di effettuare l'accesso al sito web, altrimenti non possiamo fornire una buona tracciabilità.",
-        "log": "Accedi"
+        "title": "عرض معلوماتٍ عن القائمة.",
+        "header": "يُرجى تسجيل الدّخول",
+        "body": "يُرجى الدخول إلى الموقع ، وإلا فلن نتمكّن من تزويدك بإمكانية تعقّبٍ جيدة.",
+        "log": "تسجيل الدّخول"
       },
       "post": {
-        "title": "Si prega di scegliere un'opzione",
-        "body": "Vuoi acquistare nuove opzioni per il tuo profilo o usare quelle esistenti?",
-        "post": "No, pubblica l'annuncio",
-        "purchase": "Sì, acquista"
+        "title": "يُرجى اختيار خيار واحدٍ",
+        "body": "هل ترغب في شراء خيارات جديدة لملفّك الشّخصي أو استخدام الخيارات الموجودة؟",
+        "post": "لا، إعلان منشور",
+        "purchase": "نعم، أشتري"
       }
     }
   }
