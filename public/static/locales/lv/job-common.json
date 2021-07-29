@@ -1,0 +1,87 @@
+{
+  "contract-type": {
+    "label": "Līguma tips",
+    "options": {
+      "temporarly": "Pagaidu",
+      "fullTime": "Pilna laika",
+      "partTime": "Nepilna laika",
+      "remoteFullTime": "Attālināti (pilna laika)",
+      "remotePartTime": "Attālināti (nepilna laika)",
+      "other": "Cits"
+    }
+  },
+  "working-time": {
+    "label": "Darba laiks",
+    "options": {
+      "officeHours": "Biroja darba laiks",
+      "shifts": "Darbs maiņās",
+      "flexible": "Elastīģs",
+      "other": "Cits"
+    }
+  },
+  "contact-times": {
+    "label": "Sazināšanās laiks",
+    "placeholder": "Izvēlieties sazināšanās laikus",
+    "not-specified": "Nav precizēts",
+    "options": {
+      "any-time": "Jebkurā laikā",
+      "working-days": "Darba dienās",
+      "office-hours": "Biroja darba laika",
+      "specific-times": "Precizētos laikos"
+    }
+  },
+  "features": {
+    "heading": "Iespējas",
+    "licenses": "Transporta licence",
+    "education": "Izglītība",
+    "expierience": "Pieredze gados",
+    "candiadate": "Kandidātam jāspēj",
+    "weOffer": "Mēs piedāvājam"
+  },
+  "salary": {
+    "heading": "Alga",
+    "monthly-from": "Alga no",
+    "monthly-to": "Alga līdz",
+    "hourly-rate-from": "Stundas likme no",
+    "annual-from": "Stundas likme līdz",
+    "annual-to": "Gada alga līdz",
+    "hourly-rate-to": "Stundas likme līdz"
+  },
+  "work-area": {
+    "label": "Darba Joma",
+    "options": {
+      "intern": "Prakse",
+      "volunteerWork": "Brīvprātīgais darbs",
+      "stockExchange": "Birža",
+      "administrationAssistance": "Administratīvais darbs / Asistēšana",
+      "constructionRealEstate": "Celtniecība / Nekustamie Īpašumi",
+      "humanResources": "Cilvēkresursi",
+      "securityRescue": "Aizsardzība/Glābšanas dienesti",
+      "military": "Armija",
+      "electronicsTelecomunication": "Elektronika / Telekomunikācija",
+      "freelanceTemporary": "Pagaidu darbs",
+      "energyElectricity": "Enerģētika/Elektroenerģija",
+      "pharmacy": "Farmācija",
+      "financeAccounting": "Finanses/Grāmatvedība",
+      "infromationTechnology": "Infromācijas Tehnoloģija",
+      "jurisprudenceJustice": "Jurisprudence/Tieslietas",
+      "cultureArtEntertainemnt": "Kūltūra/Izklaide",
+      "sports": "Sports",
+      "qualityControl": "Kvalitātes vadība / Kvalitātes kontrole",
+      "agricutureEnvironmental": "Lauksaumniecība / Vides zinātne",
+      "medicineSocialCare": "Medicīna / Sociālā aprūpe",
+      "mediaPublicRelations": "Mediji/Sabiedriskās attiecības",
+      "forestryWoodworkingMetalWorking": "Mežšaumniecība/Kokapstrāde/Metālapstrāde",
+      "marketingAdvertising": "Reklāmas/Mārketings",
+      "productionIndustry": "Rūpniecība/Ražošana",
+      "seasonalWork": "Sezonālais darbs",
+      "technicalScience": "Tehniskās zinātnes",
+      "services": "Pakalpojumi",
+      "transportLogistics": "Transports/Loģistika",
+      "tourismCateringHotels": "Tūrisms/Ēdināšana/Viesnīcas",
+      "managment": "Vadība",
+      "government": "Valsts Pārvalde",
+      "others": "Cits"
+    }
+  }
+}

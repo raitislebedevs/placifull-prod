@@ -1,0 +1,271 @@
+{
+  "hero-section": {
+    "head": {
+      "line-1": "Placifull kur vienkāršība satiek ",
+      "line-2": "Rūpīgi veidots risinājums, tavu sapņu sasniegšanai",
+      "line-3": "Meklē Darbu, Nekustamos Īpašumus un Transportu visapkārt pasaulē, kurš atbilst visām tavām prasībām",
+      "options": {
+        "text-1": "Uzticamību",
+        "text-2": "Konsistenci",
+        "text-3": "Pieejamību",
+        "text-4": "Sasniedzamību"
+      }
+    },
+    "button": "Sāc"
+  },
+  "real-estate-section": {
+    "badge": "Izceltie Sludinājumi",
+    "head": {
+      "line-1": "Nekustamie Īpašumi",
+      "line-2": "Visvairāk izceltie sludinājumi uz",
+      "line-3": "Placifull",
+      "line-4": "kuri prasa tavu pilnu uzmanību"
+    },
+    "button": "Skatīt Visus"
+  },
+  "transportation-section": {
+    "badge": "Izceltie Sludinājumi",
+    "head": {
+      "line-1": "Transports",
+      "line-2": "Šie transportlīdzekļi ",
+      "line-3": "Placifull",
+      "line-4": "prasa tavu laiku"
+    },
+    "button": "Skatīt Visus"
+  },
+  "job-section": {
+    "badge": "Izceltie Sludinājumi",
+    "head": {
+      "line-1": "Labākas darba vietas",
+      "line-2": "Slāpes pēc pārmaiņām? Pie",
+      "line-3": "Placifull",
+      "line-4": "atrodi savu sapņu darbu, kuru tu vienmēr esi vēlējies"
+    },
+    "jobs": {
+      "location": "Lokācija",
+      "working-schedule": "Darba Laiks",
+      "salary": "Alga",
+      "working-place": "Darba Vieta",
+      "button": "Skatīt detaļas"
+    },
+    "button": "Skatīt vairāk"
+  },
+  "service-section": {
+    "head": {
+      "line-1": "Kas mēs esam?",
+      "line-2": "Izpēti ko mēs visvairāk novērtējam. Pie",
+      "line-3": "Placifull",
+      "line-4": "Mēs ieklausāmies kas tev ir sakāms"
+    },
+    "services": {
+      "service-1": {
+        "open-modal": "Uzzināt vairāk",
+        "name": "Sludinājumu iespējas",
+        "description": "Mūsu galvenais mērķis ir palīdzēt cilvēkiem pārcelties uz citu valsti. Pārcelšanās uz ārzemēm paver daudz izaicinājumu, tāpēc mēs esam šeit, lai palīdzētu jums izmantot nepieciešamos meklēšanas rīkus. Darbs, māja, transports ir atrodami vienuviet. Jums vairs nav jāmeklē citur.",
+
+        "modal": {
+          "header": "Izpētiet",
+          "description": "Placifull ir apņēmības pilns atvieglot pārcelšanos uz ārzemēm jums un jūsu ģimenei. Mūsu galvenais mērķis ir piedāvāt jums visus pieejamos darba piedāvājumus atbilstoši jūsu prasībām un kvalifikācijai. Placifull tic, ka palīdzēs jums tikt galā ar visām problēmām, kas saistītas ar jaunas dzīves sākšanu, un pēc mūsu pakalpojumu izmantošanas jums vairs nebūs jāmeklē nekas citur. Mūsu komanda veic visu smago darbu jūsu vietā, un viss, kas jums jādara, ir izvēlēties no mūsu piedāvātajiem darba sludinājumiem. Tomēr mūsu darbs šeit nebeidzas, un mēs turpināsim būt ļoti noderīgi, kad sākat savu jauno darbu.",
+          "close-button": "Aizvērt"
+        }
+      },
+      "service-2": {
+        "open-modal": "Palīdziet Mums Tagad",
+        "name": "Palīdziet mūs uzlabot",
+        "description": "Mēs esam neliela komanda aiz aizkulisēm. tāpēc visas izmaiņas, kuras jūs iesakāt mums izskatīt mēs pievienosim tās mūsu balsošanas dēlim.",
+
+        "modal": {
+          "header": "Uzlabot",
+          "description": "Mūsu komandā ir aizrautīgi cilvēki, kuri smagi strādā, lai palīdzētu jums sasniegt jūsu sapņus. Tāpēc mēs pievēršam lielu uzmanību mūsu uzticamo lietotāju priekšlikumiem. Ja mūsu produktā vēlaties ko uzlabot, tad drošī atraksti savu ieteikumu un mēs to pievienosim balsošanas dēlim. Tiklīdz ierosinājums sasniedz desmit tūkstošus balsu, mēs pieliksim visas pūles lai to ieviestu. Mēs vēlamies, lai mūsu lietotāji zinātu, ka viņu viedoklis mums ir nozimīgs.",
+          "close-button": "Aizvērt",
+          "contact-button": "Sazināties"
+        }
+      },
+      "service-3": {
+        "name": "Ieteikt & Dalīties",
+        "description": "Ja platformas pakalpojumi jums ir bijuši noderīgi un dzīvē vērtīgi, tad mēs būsim pateicīgi, ja jūs dalītos ar saviem dragiem un ģimenes locekļiem ar šo pieredzi. Šādi mēs varēsim augt un ar laiku piedāvāt jums labākas iespējas. "
+      },
+      "service-4": {
+        "open-modal": "Uzlabot tūlīt",
+        "name": "Uzlabot kvalitāti",
+        "description": "Atradi kas nestrādā? Māksājums neizdevās? Nevilcinies sazināties ar mums par radušos problēmu, izskatīsim to kā prioritāti. ",
+        "modal": {
+          "header": "Kvalitāte",
+          "description": "Placifull ir uz kvalitāti vērsts zīmols, un mēs uzskatām, ka mūsu sniegtajiem pakalpojumiem vajadzētu liecināt par kvalitāti. Mēs no sirds apliecinām, ka mēs nepieļaujam kompromisu attiecībā uz mūsu kvalitāti un standartiem. Ja esi mūsi platformā atradis kļūdu, kādu nedarbojušos funkcionalitāti, ziņo par radušos problēmu. Mēs to izskatīsiem pēc iespējas ātrak un centīsiemies rast risinājumu, kas jūs iepriecinās. Jūsu pieredze ar Placifull mums ir ļoti svarīga. Ar prieku uzlabosim to, lai tā labāk jums kalpotu. ",
+          "close-button": "Aizvērt",
+          "contact-button": "Sazināties"
+        }
+      },
+      "service-5": {
+        "open-modal": "Pieteikties",
+        "name": "Karjeras Iespējas",
+        "description": "Mēs cītīgi stradājam un kārtīgi atpūšamies. Vai vēlies būt daļa no mums? Tad negaidi, raksti mums. Izvēlies ko vēlies strādāt, no kuras pasaules vietas un par kādu algu. Ja redzēsim tev pielietojumu, pieņemsim darbā. ",
+        "modal": {
+          "header": "Karjera",
+          "description": "Darbs pie mums ir unikāls un jūs neatradīsit tādu pašu piedāvājumu, nekur citur. Mēs piedāvājam netipisku darba stundas, kas nozimē, ka obligāti jāstrādā ir 4 dienas nedēļā, bet tās pašas 8 stundas 12 stundu vietā. Katras nedēļas piektdienās jums tiks dota iespēja apmeklēt biroju vai nē. Iegūto laiku jūs varat izmantot, lai satiktos ar draugiem, vingrotu, praktizētu savus vaļaspriekus un daudz ko citu! Placifull nodrošina, ka kvalitatīvs laiks ar draugiem un ģimeni netiek pārtraukts jūsu darba dēļ. Tāpēc mēs arī nodrišinam pietiekami daudz atvaļinājuma dienas sākot no 20, beidzot ar 28 dienām. Tāpēc vairs negaidi nāc strādāt pie mums uz Placifull!",
+          "close-button": "Aizvērt",
+          "contact-button": "Pieteikties tagad"
+        },
+        "modal-apply": {
+          "form": {
+            "header": "Kāds ir jūsu priekšlikums?",
+            "firstName": "Vārds",
+            "lastName": "Uzvārds",
+            "email": "E-pasts",
+            "phone": "Tālrunis",
+            "dreamJob": "Kādā amatā tu vēlētos strādāt?",
+            "applyText": "Kāpēc mums tevi pieņemt?",
+            "salary": "Vēlamais atalgojums (mēnesī)?",
+            "positionName": "Pozīcijas nosaukums",
+            "apply": "Es esmu gatavs"
+          }
+        }
+      }
+    },
+    "learn-more": "Uzzināt vairak"
+  },
+  "price-section": {
+    "badge": "",
+    "head": {
+      "line-1": "Mūsu cenu likmes"
+    },
+    "prices": {
+      "price-1": {
+        "name": "Nekustamie Īpašumi",
+        "tiers": {
+          "tier-2": {
+            "name": "Viens Sludinājums",
+            "offer-1": "Maksā vienreiz, izmanto kad vajag",
+            "offer-2": "Sludinājuma termiņs līdz pat 395 dienām.",
+            "offer-3": "Brīvība sekot lietotāju likmēm",
+            "offer-4": "Izņem jebkurā laikā",
+            "button": "Izmēģināt"
+          },
+          "tier-3": {
+            "name": "Ceturksni",
+            "offer-1": "8 aktīvi sludinājumi",
+            "offer-2": "Termiņs līdz 395 dienām",
+            "offer-3": "Seko lietotāju likmēm",
+            "offer-4": "Izņem un ieliec atkal",
+            "button": "Izmēģināt"
+          },
+          "tier-4": {
+            "name": "Gada",
+            "offer-1": "20 aktīvi sludinājumi",
+            "offer-2": "Termiņs līdz 120 dienām",
+            "offer-3": "Brīvība sekot lietotāju likmēm",
+            "offer-4": "Aizver un atver, kad vēlies",
+            "button": "Izmēģināt"
+          }
+        }
+      },
+      "price-2": {
+        "name": "Transports",
+        "tiers": {
+          "tier-2": {
+            "name": "Viens Sludinājums",
+            "offer-1": "Maksā vienreiz, izmanto kad vajag",
+            "offer-2": "Sludinājuma termiņs līdz pat 395 dienām.",
+            "offer-3": "Brīvība sekot lietotāju likmēm",
+            "offer-4": "Izņem jebkurā laikā",
+            "button": "Izmēģināt"
+          },
+          "tier-3": {
+            "name": "Ceturksni",
+            "offer-1": "8 aktīvi sludinājumi",
+            "offer-2": "Termiņs līdz 395 dienām",
+            "offer-3": "Seko lietotāju likmēm",
+            "offer-4": "Izņem un ieliec atkal",
+            "button": "Izmēģināt"
+          },
+          "tier-4": {
+            "name": "Gada",
+            "offer-1": "20 aktīvi sludinājumi",
+            "offer-2": "Termiņs līdz 120 dienām",
+            "offer-3": "Brīvība sekot lietotāju likmēm",
+            "offer-4": "Aizver un atver, kad vēlies",
+            "button": "Izmēģināt"
+          }
+        }
+      },
+      "price-3": {
+        "name": "Darbs",
+        "tiers": {
+          "tier-2": {
+            "name": "Viens Sludinājums",
+            "offer-1": "Maksā vienreiz, izmanto kad vajag",
+            "offer-2": "Sludinājuma termiņs līdz pat 395 dienām.",
+            "offer-3": "Brīvība sekot lietotāju likmēm",
+            "offer-4": "Izņem jebkurā laikā",
+            "button": "Izmēģināt"
+          },
+          "tier-3": {
+            "name": "Ceturksni",
+            "offer-1": "8 aktīvi sludinājumi",
+            "offer-2": "Termiņs līdz 395 dienām",
+            "offer-3": "Seko lietotāju likmēm",
+            "offer-4": "Izņem un ieliec atkal",
+            "button": "Izmēģināt"
+          },
+          "tier-4": {
+            "name": "Gada",
+            "offer-1": "20 aktīvi sludinājumi",
+            "offer-2": "Termiņs līdz 120 dienām",
+            "offer-3": "Brīvība sekot lietotāju likmēm",
+            "offer-4": "Aizver un atver, kad vēlies",
+            "button": "Izmēģināt"
+          }
+        }
+      },
+      "price-4": {
+        "name": "Cits",
+        "tiers": {
+          "tier-1": {
+            "name": "Bez maksas",
+            "offer-1": "Aplūko sludinājumus",
+            "offer-2": "Novertē sludinājumus",
+            "offer-3": "Esi daļa no mums",
+            "offer-4": "Dalies par mums",
+            "button": "Izmēģināt"
+          },
+          "tier-2": {
+            "name": "Izceltie sludinājumi",
+            "offer-1": "Maksā kad apstiprini",
+            "offer-2": "Izceltā sadaļa",
+            "offer-3": "Atzīmēts kā īpašs",
+            "button": "Izmēģināt"
+          },
+          "tier-3": {
+            "name": "Meklēt CV",
+            "offer-1": "Gada maksājums",
+            "offer-3": "Aplūkot CV",
+            "button": "Izmēģināt"
+          },
+          "tier-4": {
+            "name": "Papildus dienas",
+            "offer-1": "Pagarini Termiņu",
+            "offer-2": "Izvēlies dienu skaitu",
+            "offer-3": "Līdz pat 365 dienām",
+            "offer-4": "Sākot no 0.11€ pa dienu",
+            "button": "Izmēģināt"
+          }
+        }
+      }
+    },
+    "off": "Atlaide",
+    "modal": {
+      "no-user": {
+        "title": "Pievienot sludinājuma informāciju",
+        "header": "Lūdzu ienākat sistēmā",
+        "body": "Lūdzu, piesakieties vietnē",
+        "log": "Pieslēgties"
+      },
+      "post": {
+        "title": "Izvēlieties opciju",
+        "body": "Vai vēlaties iegādāties jaunas iespējas savam profilam vai izmantot esošās?",
+        "post": "Nē, publicēt sludinājumu",
+        "purchase": "Jā, vēlos iegādāties"
+      }
+    }
+  }
+}

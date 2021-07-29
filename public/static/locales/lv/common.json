@@ -1,0 +1,133 @@
+{
+  "elements": {
+    "loading": "procesē…",
+    "loading-right": "Procesē…",
+    "loading-left": "…Procesē",
+    "no-results": "Resultāti nav atrasti"
+  },
+  "user": {
+    "name": "Nosaukums",
+    "first-name": "Vārds",
+    "last-name": "Uzvārds",
+    "email": {
+      "email-upper": "E-pasts",
+      "email-lower": "e-pasts",
+      "your-email": "Tavs e-pasts"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "Šodien",
+    "yesterday": "Vakar",
+    "days-ago": "dienas iepriekš"
+  },
+
+  "social-links": {
+    "heading": "Sociālie tīkli",
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
+  },
+
+  "social": {
+    "heading": "Sociālie tīkli",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "youtube": "Youtube",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram"
+  },
+
+  "week-days": {
+    "monday": "Pirmdiena",
+    "tuesday": "Otradiena",
+    "wednesday": "Trešdiena",
+    "thursday": "Ceturtdiena",
+    "friday": "Piektdiena",
+    "saturday": "Sestdiena",
+    "sunday": "Svētdiena"
+  },
+
+  "toast": {
+    "submit-success": "Tavs Sludinājums tika publicēts",
+    "server-error": "Serveris netika sasniegts",
+    "logging-required": "Nepieciešama autentifikācija",
+    "cannot-apply": "Hey, šis ir priekštatījums",
+    "preview": "Priekštatījumā nevar solīt",
+    "log-in": "Tev jābut autentificētam",
+    "bidding-price": "Nav solīšanas cena",
+    "price-lower": "Piedāvājums ir zemāks par 20% no sludinājuma cenas",
+    "price-upper": "Piedāvājums ir augstāks par 20% no sludinājuma cenas",
+    "refresh-page": "Nav atbildes no servera, atjaunininiet pārluku. ",
+    "not-send": "E-pasts netika nosūtīts",
+    "contact-directly": "Sazinieties tieši",
+    "email-send": "E-pasts tika nosūtīts",
+    "no-email": "Sludinājuma e-pasts neeksistē",
+    "subscribed": "Apsveicu, tu esi pieteicis :) ",
+    "already-applied": "Tu esi pietiecies uz šo pozīciju",
+    "already": "Jau esi pieteicies/nepareiz e-pasts",
+    "country-error": "Nespecifiska kļūda valstu datos",
+    "location-error": "Nespēja iegūt atrašanās vietas",
+    "unknown-error": "Nezināma servera kļūda",
+    "search-results": {
+      "found": "Atrasts ",
+      "items": "skudinājums"
+    },
+    "not-found": "Jaunu rezūltāti netika atrasti"
+  },
+
+  "location": {
+    "country": "Valsts",
+    "state": "Novads/Reģions",
+    "city": "Pilsēta",
+    "no-city": "Nav pilsētu",
+    "no-states": "Nav Novadu",
+    "states-not-registerd": "Nav reģistrēti novadi",
+    "cities-registerd": "Nav reģistrētas pilsētas"
+  },
+
+  "items-per-page": {
+    "label": "Vienības",
+    "options": {
+      "nine": "9 vienības",
+      "eighteen": "18 vienības",
+      "twenty-seven": "27 vienības",
+      "thirty-six": "36 vienības",
+      "seventy-two": "72 vienības"
+    }
+  },
+
+  "month": {
+    "Jan": "Janvāris",
+    "Feb": "Februāris",
+    "Mar": "Marts",
+    "Apr": "Aprīlis",
+    "May": "Maijs",
+    "Jun": "Jūnijs",
+    "Jul": "Jūlijs",
+    "Aug": "Augusts",
+    "Sep": "Septembris",
+    "Oct": "Oktobris",
+    "Nov": "Novembris",
+    "Dec": "Decembris"
+  },
+  "currency": {
+    "currency-label": "Valūtas",
+    "no-currency": "Visas"
+  },
+  "measurement": {
+    "label": "Mērvienības",
+    "system": {
+      "none": "Neviena",
+      "metric": "Metriskās",
+      "imperial": "Imperālās"
+    }
+  },
+  "user-box": {
+    "profile": "Profils",
+    "log-out": "Iziet"
+  },
+  "preview-close": "Aizvērt Priekštatījumu"
+}

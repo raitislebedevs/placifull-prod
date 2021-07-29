@@ -1,0 +1,60 @@
+{
+  "labels": {
+    "about-me": "Par mani",
+    "languages": "Valodas",
+    "computer-skills": "Datorprasmes",
+    "education": "Izgļītība",
+    "expierience": "Darba pieredze",
+    "licenses": "Transporta aplīecības",
+    "expectations": "Darba vēlmes",
+    "certification": "Sertifikāti"
+  },
+  "gender": {
+    "label": "Dzimums",
+    "male": "Vīrietis",
+    "women": "Sieviete"
+  },
+  "expierience": {
+    "label": "Pieredze",
+    "uptoOne": "< 1 gadi",
+    "oneToThree": "1-3 gadi",
+    "threeToFive": "3-5 gadi",
+    "fiveToTen": "5-10 gadi",
+    "tenToFifteen": "10-15 gadi",
+    "moreThanFifteen": "15+ gadi"
+  },
+
+  "knowladge-gained": {
+    "selfTaught": "Pašmācībā",
+    "course": "Kursi",
+    "freelance": "Ārštata",
+    "contractProject": "Līgumdarbs",
+    "fullTimeJob": "Pilna laika slodze",
+    "other": "Cits"
+  },
+  "qualification": {
+    "primary": "Pamatskola",
+    "secondary": "Vidusskola",
+    "vocational": "Arodskola",
+    "bachelors": "Bakalaura grāds",
+    "master": "Maģistra grāds",
+    "doctorate": "Doktora grāds",
+    "other": "Cits"
+  },
+
+  "seniority": {
+    "title": "Stāžs",
+    "volunteer": "Brīvprātīgais",
+    "intern": "Prakse",
+    "junior": "Jaunākais",
+    "intermediate": "Vidējais",
+    "senior": "Vecākais",
+    "executive": "Izpilddirektors",
+    "ceo": "CEO",
+    "other": "Cits"
+  },
+
+  "avarage-grade": "Vidējā atzīme",
+  "present": "Pašreiz",
+  "license-category": "Licences kategorija"
+}
