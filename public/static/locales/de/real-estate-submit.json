@@ -1,0 +1,53 @@
+{
+  "heading": "Inserat absenden",
+  "form": {
+    "submit": "Absenden",
+    "submit-confirm": "Sparen...",
+    "preview-sneak-peak": "Erzeugen...",
+    "preview": "Vorschau",
+    "no-currency": "ALLE",
+    "no-features": "Bitte wählen Sie eine Inserat-Kategorie",
+    "general-information": {
+      "heading": "Allgemeine Informationen",
+      "currency-input": "Währung",
+      "input-fields": {
+        "name": "Ihr Inserat-Name",
+        "description": "Beschreibung",
+        "price": "Preis",
+        "bed-rooms": "Bett Zimmer",
+        "bath-rooms": "Bäder",
+        "area": "Grundstücksfläche",
+        "start-renting": "Beginn Vermietung",
+        "end-renting": "Ende Vermietung",
+        "year-built": "Jahr gebaut"
+      }
+    },
+    "detail-information": {
+      "heading": "Detail-Informationen",
+      "contact": {
+        "heading": "Kontakt",
+        "email": "E-Mail",
+        "address": "Adresse",
+        "contact-times": {
+          "label": "Kontakt Zeit",
+          "placeholder": "Wählen Sie eine bevorzugte Zeit"
+        },
+        "listing-website": "Website: https://"
+      }
+    },
+    "gallery": {
+      "real-estate": "Galerie",
+      "click-drop": "BILDER ANKLICKEN ODER HIERHER ZIEHEN",
+      "video-url": "Video: https://"
+    },
+    "contact-hours": {
+      "heading": "Kontakt Stunden",
+      "heading-tip": "Optional",
+      "accordion": {
+        "heading": "Fügen Sie die beste Zeit für ein Treffen/Gespräch hinzu...",
+        "start-time": "Von",
+        "end-time": "Bis"
+      }
+    }
+  }
+}

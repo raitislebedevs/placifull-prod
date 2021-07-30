@@ -1,0 +1,87 @@
+{
+  "contract-type": {
+    "label": "Vertragstyp",
+    "options": {
+      "temporarly": "Vorübergehend",
+      "fullTime": "Vollzeit",
+      "partTime": "Teilzeit",
+      "remoteFullTime": "Remote (Vollzeit)",
+      "remotePartTime": "Remote (Teilzeit)",
+      "other": "Andere"
+    }
+  },
+  "working-time": {
+    "label": "Arbeitszeiten",
+    "options": {
+      "officeHours": "Bürozeiten",
+      "shifts": "Schichten",
+      "flexible": "Flexibel",
+      "other": "Sonstiges"
+    }
+  },
+  "contact-times": {
+    "label": "Kontaktzeit",
+    "placeholder": "Wählen Sie eine bevorzugte Kontaktzeit",
+    "not-specified": "Nicht spezifiziert",
+    "options": {
+      "any-time": "Beliebige Zeit",
+      "working-days": "Arbeitstage",
+      "office-hours": "Bürozeiten",
+      "specific-times": "Bestimmte Zeiten"
+    }
+  },
+  "features": {
+    "heading": "Merkmale",
+    "licenses": "Führerschein ",
+    "education": "Ausbildung/Hochschulabschluss",
+    "expierience": "Berufserfahrung in Jahren",
+    "candiadate": "BewerberIn sollte in der Lage sein",
+    "weOffer": "Wir bieten"
+  },
+  "salary": {
+    "heading": "Gehalt",
+    "monthly-from": "Gehalt von",
+    "monthly-to": "Gehalt bis",
+    "hourly-rate-from": "Stundensatz von",
+    "annual-from": "Jahresgehalt von",
+    "annual-to": "Jahresgehalt bis",
+    "hourly-rate-to": "Stundensatz bis"
+  },
+  "work-area": {
+    "label": "Tätigkeitsbereich",
+    "options": {
+      "intern": "Praktikant",
+      "volunteerWork": "Ehrenamtliche Arbeit",
+      "stockExchange": "Börse",
+      "administrationAssistance": "Verwaltung/Assistenz",
+      "constructionRealEstate": "Bau/Immobilie",
+      "humanResources": "Personalwesen",
+      "securityRescue": "Sicherheit/Rettungsdienste",
+      "military": "Militär",
+      "electronicsTelecomunication": "Elektronik/Telekommunikation",
+      "freelanceTemporary": "Freiberufliche/vorübergehende Position",
+      "energyElectricity": "Energie/Elektrizität",
+      "pharmacy": "Pharmazie",
+      "financeAccounting": "Finanzen/Buchhaltung",
+      "infromationTechnology": "Infromationstechnologie (IT)",
+      "jurisprudenceJustice": "Jurisprudenz/Justiz",
+      "cultureArtEntertainemnt": "Kultur/Kunst/Unterhaltung",
+      "sports": "Sport",
+      "qualityControl": "Qualitätskontrolle/Qualitätsmanagement",
+      "agricutureEnvironmental": "Landwirtschaft/Umweltwissenschaften",
+      "medicineSocialCare": "Medizin/Sozialwesen",
+      "mediaPublicRelations": "Medien/Öffentlichkeitsarbeit",
+      "forestryWoodworkingMetalWorking": "Forstwirtschaft/Holzbearbeitung/Metallverarbeitung",
+      "marketingAdvertising": "Marketing/Werbung",
+      "productionIndustry": "Produktion/Industrie",
+      "seasonalWork": "Saisonarbeit",
+      "technicalScience": "Technische Wissenschaften",
+      "services": "Dienstleistungen",
+      "transportLogistics": "Transport/Logistik",
+      "tourismCateringHotels": "Tourismus/Gastronomie/Hotels",
+      "managment": "Verwaltung",
+      "government": "Regierung",
+      "others": "Andere"
+    }
+  }
+}

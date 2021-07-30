@@ -1,0 +1,384 @@
+{
+  "overview": {
+    "button-label": {
+      "change": "更改图片",
+      "delete": "删除图片",
+      "save-all": "全部保存",
+      "preview": "预览"
+    },
+    "setting-label": "已购买",
+    "delete-avatar-modal": {
+      "header": "删除头像",
+      "body": "请问您想删除您的头像吗？",
+      "submit": "删除",
+      "cancel": "取消"
+    }
+  },
+  "hover-texts": {
+    "real-estate": "房地产帖子",
+    "transport": "交通帖子",
+    "job": "招聘帖子",
+    "browser": "简历浏览器"
+  },
+  "left-tab": {
+    "navigation": "导航",
+    "titles": {
+      "profile": "个人资料",
+      "cv": "简历",
+      "real-estate": "房地产",
+      "transport": "交通",
+      "jobs": "招聘",
+      "browser": "简历浏览器",
+      "payment": "付款收据",
+      "logout": "登出"
+    }
+  },
+  "right-content": {
+    "prev-button": "上一步",
+    "next-button": "下一步",
+    "profile": {
+      "personal-details": {
+        "heading": "个人资料：",
+        "labels": {
+          "profession": "职业类型",
+          "first-name": "名",
+          "last-name": "姓氏",
+          "email": "您的电子邮件",
+          "phone-number": "手机号码",
+          "about-me-heading": "关于我",
+          "about-me": "您有什么地方与众不同？",
+          "country": "国家",
+          "state": "州/地区",
+          "city": "城市",
+          "birth-date": "出生日期",
+          "gender": {
+            "label": "性别",
+            "men": "男性",
+            "women": "女性",
+            "not-specified": "不显示"
+          },
+          "age": {
+            "label": "显示年龄",
+            "yes": "是",
+            "no": "不",
+            "only-birth-date": "只显示出生日期"
+          }
+        },
+        "button-save": "保存修改"
+      },
+      "password-form": {
+        "text": "更改密码：",
+        "old-password": "旧密码",
+        "new-password": "新密码",
+        "confirm-password": "确认密码",
+        "button-save": "保存密码",
+        "validation": {
+          "current-password-required": "请确认密码",
+          "new-password-required": "新密码丢失",
+          "password-not-match": "密码不匹配",
+          "confirm-password-required": "请确认密码"
+        }
+      },
+      "delete-form": {
+        "text": "删除账户：",
+        "content": "您想删除账户吗？ 请按下方的 '删除' 按钮",
+        "button-delete": "删除账户"
+      },
+      "validation": {
+        "first-name": "需要填写名字",
+        "last-name": "需要填写姓氏"
+      }
+    },
+    "tabs": {
+      "actions": {
+        "sell": "出售",
+        "rent": "出租",
+        "exchange": "交换"
+      },
+      "common": {
+        "button-edit": "编辑",
+        "button-reviews": "评语",
+        "button-delete": "删除",
+        "days-left": "剩余天数",
+        "title": "我的列表",
+        "highest": "最高出价",
+        "lowest": "最低出价"
+      },
+      "job": {
+        "count": "申请人数",
+        "avarage": "平均报价",
+        "lowest": "最低报价",
+        "highest": "最高报价",
+        "button": "查看全部"
+      },
+      "browser": {
+        "common": {
+          "area": "工作区域"
+        },
+        "title": "浏览简历",
+        "search": {
+          "button": "搜索",
+          "expirience": {
+            "label": "经验",
+            "options": {}
+          },
+          "hourly-to": "时薪至",
+          "monthly-to": "月薪至",
+          "annual-to": "年薪至"
+        },
+        "table": {
+          "name": "姓名",
+          "email": "电子邮件",
+          "phone": "电话",
+          "salary": "预期工资"
+        }
+      },
+      "receipt": {
+        "title": "付款收据",
+        "search": {
+          "search-from": "选择开始日期",
+          "search-to": "选择结束日期",
+          "button": "搜索"
+        },
+        "table": {
+          "order": "订单编号",
+          "date": "日期",
+          "premium": "已推广",
+          "add-days": "额外天数",
+          "type": "列表类型"
+        }
+      }
+    },
+    "cv": {
+      "title": "简历",
+      "sections": {
+        "personal-details": {
+          "form": {
+            "title": "个人资料",
+            "first-name": "名",
+            "last-name": "姓氏",
+            "email": "电子邮件",
+            "phone": "电话",
+            "birthday": "生日",
+            "age": {
+              "label": "显示年龄",
+              "options": {
+                "yes": "是",
+                "no": "不",
+                "only-birthdate": "只显示出生日期"
+              }
+            },
+            "gender": {
+              "label": "性别",
+              "options": {
+                "male": "男性",
+                "female": "女性",
+                "dont–show": "不显示"
+              }
+            },
+            "about-me": "您有什么地方与众不同？"
+          }
+        },
+        "education": {
+          "title": "教育",
+          "accordion": {
+            "school": "学校名字",
+            "country": "国家",
+            "from-date": "开始日期",
+            "to-date": "结束日期",
+            "study-area": "专业领域",
+            "qualification": {
+              "title": "资质",
+              "options": {
+                "primary": "小学",
+                "secondary": "中学",
+                "vocational": "职业教育",
+                "bachelors": "学士学位",
+                "master": "硕士",
+                "doctorate": "博士",
+                "other": "其他"
+              }
+            },
+            "best-fit": "职业匹配",
+            "grade": "平均等级",
+            "button-add": "添加学历"
+          }
+        },
+        "expierience": {
+          "title": "工作经验",
+
+          "company-name": "公司名字",
+          "from-date": "开始日期",
+          "to-date": "结束日期",
+          "work-area": "工作领域",
+          "position": "职位",
+          "position-description": "职位描述",
+          "sector": "就业部门",
+          "seniority": {
+            "title": "资历",
+            "options": {
+              "volunteer": "志愿者",
+              "intern": "实习生",
+              "junior": "初级",
+              "intermediate": "中级",
+              "senior": "高级",
+              "executive": "行政部门",
+              "ceo": "首席执行官",
+              "other": "其他"
+            }
+          },
+
+          "button-add": "添加经验"
+        },
+        "languages": {
+          "title": "语言能力",
+          "accordion": {
+            "language": "语言",
+            "certificate": "证书名称",
+            "level": {
+              "label": "等级",
+              "options": {
+                "a1": "A1",
+                "a2": "A2",
+                "b1": "B1",
+                "b2": "B2",
+                "c1": "C1",
+                "c2": "C2",
+                "native": "母语"
+              }
+            },
+            "button-add": "添加技能"
+          }
+        },
+        "computer": {
+          "title": "电脑技术",
+          "accordion": {
+            "skill-name": "电脑技术",
+            "knowladge-gained": {
+              "label": "所获知识",
+              "options": {
+                "selfTaught": "自学",
+                "course": "课程",
+                "freelance": "自由职业者",
+                "contractProject": "合同项目",
+                "fullTimeJob": "全职工作",
+                "other": "其他"
+              }
+            },
+            "expierience": {
+              "label": "经验",
+              "uptoOne": "< 1 年",
+              "oneToThree": "1-3 年",
+              "threeToFive": "3-5 年",
+              "fiveToTen": "5-10 年",
+              "tenToFifteen": "10-15 年",
+              "moreThanFifteen": "15+ 年"
+            },
+            "certificate": "证书名称",
+            "button-add": "添加技能"
+          }
+        },
+        "licenses": {
+          "title": "交通执照",
+          "accordion": {
+            "country": "发行国家",
+            "expierience": {
+              "label": "经验",
+              "uptoOne": "< 1 年",
+              "oneToThree": "1-3 年",
+              "threeToFive": "3-5 年",
+              "fiveToTen": "5-10 年",
+              "tenToFifteen": "10-15 年",
+              "moreThanFifteen": "15+ 年"
+            },
+            "category": "许可证类别",
+            "button-add": "添加许可证"
+          }
+        },
+        "expectations": {
+          "title": "工作期望",
+          "accordion": {
+            "title": "工作期望",
+            "interest": "感兴趣的领域",
+            "position": "职位",
+            "seniority": {
+              "title": "资历",
+              "options": {
+                "volunteer": "志愿者",
+                "intern": "实习生",
+                "junior": "初级",
+                "intermediate": "中级",
+                "senior": "高级",
+                "executive": "行政部门",
+                "ceo": "首席执行官",
+                "other": "其他"
+              }
+            },
+            "hourly": "时薪从",
+            "monthly": "月薪从",
+            "yearly": "年薪从",
+            "button-add": "添加期望"
+          }
+        }
+      }
+    },
+    "browser-cv": {
+      "browser": "简历浏览器",
+      "search": "搜索",
+      "work-expierience": "工作经验",
+      "work-expectations": "工作期望",
+      "education-fit": "教育适应性",
+      "salary-hourly": "时薪至",
+      "salary-monthly": "月薪至",
+      "salary-annual": "月薪至",
+      "seniority": "资历",
+      "monthly": " /月",
+      "result-table": {
+        "nr": "号码",
+        "name": "全名",
+        "email": "电子邮件",
+        "phone": "电话",
+        "worked-as": "上个职位",
+        "salary": "预期工资",
+        "cv": "简历",
+        "view": "查看"
+      }
+    },
+    "receipt": {
+      "title": "付款收据",
+      "start-date": "开始日期",
+      "end-date": "结束日期",
+      "table": {
+        "reference": "订单号",
+        "date": "日期",
+        "purchase": "配套",
+        "total": "数量",
+        "status": "状态"
+      }
+    }
+  },
+  "toast": {
+    "succes": "档案已更新",
+    "fail": "个人资料未更新",
+    "avatar": "头像已更新",
+    "avatar-fail": "更新头像失败",
+    "avatar-remove": "头像已删除",
+    "avatar-remove-fail": "头像未被删除",
+    "logout": "已登出",
+    "password": "密码已更改",
+    "password-fail": "密码未更改",
+    "item-deleted": "已删除列表"
+  },
+  "delete-modal": {
+    "header": "删除列表",
+    "body": "您确定要删除这个列表吗？",
+    "cancel": "取消",
+    "delete": "删除"
+  },
+  "delete-account": {
+    "header": "删除账户",
+    "body": "您确定要删除您的账号吗？",
+    "cancel": "取消",
+    "delete": "删除"
+  }
+}

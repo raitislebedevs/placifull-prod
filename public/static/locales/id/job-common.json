@@ -1,0 +1,87 @@
+{
+  "contract-type": {
+    "label": "Tipe Kontrak",
+    "options": {
+      "temporarly": "Sementara",
+      "fullTime": "Penuh Waktu",
+      "partTime": "Paruh Waktu",
+      "remoteFullTime": "Jarak Jauh (Penuh Waktu)",
+      "remotePartTime": "Jarak Jauh (Paruh Waktu)",
+      "other": "Lainnya"
+    }
+  },
+  "working-time": {
+    "label": "Waktu Kerja",
+    "options": {
+      "officeHours": "Jam Kerja",
+      "shifts": "Shift",
+      "flexible": "Fleksibel",
+      "other": "Lainnya"
+    }
+  },
+  "contact-times": {
+    "label": "Waktu Kontak",
+    "placeholder": "Pilih Waktu Kontak yang Diinginkan",
+    "not-specified": "Tidak Dijelaskan",
+    "options": {
+      "any-time": "Kapan Saja",
+      "working-days": "Hari Kerja",
+      "office-hours": "Jam kerja",
+      "specific-times": "Waktu tertentu"
+    }
+  },
+  "features": {
+    "heading": "Fitur",
+    "licenses": "Lisensi Berkendara",
+    "education": "Pendidikan/Gelar",
+    "expierience": "Pengalaman dalam Tahun",
+    "candiadate": "Kandidat harus mampu untuk",
+    "weOffer": "Kami menawarkan"
+  },
+  "salary": {
+    "heading": "Gaji",
+    "monthly-from": "Gaji dari",
+    "monthly-to": "Gaji sampai",
+    "hourly-rate-from": "Tarif per jam dari",
+    "annual-from": "Gaji per tahun dari",
+    "annual-to": "Gaji per tahun sampai",
+    "hourly-rate-to": "Tarif per jam sampai"
+  },
+  "work-area": {
+    "label": "Area kerja",
+    "options": {
+      "intern": "Magang",
+      "volunteerWork": "Pekerjaan Sukarela",
+      "stockExchange": "Pasar Saham",
+      "administrationAssistance": "Administrasi/Asisten",
+      "constructionRealEstate": "Konstruksi/Real Estate",
+      "humanResources": "Sumber Daya Manusia",
+      "securityRescue": "Keamanan/Layanan Penyelamatan",
+      "military": "Militer",
+      "electronicsTelecomunication": "Elekronik/Telekomunikasi",
+      "freelanceTemporary": "Freelance/Posisi Sementara",
+      "energyElectricity": "Energi/Listrik",
+      "pharmacy": "Farmasi",
+      "financeAccounting": "Finansial/Akuntansi",
+      "infromationTechnology": "Teknologi Informasi",
+      "jurisprudenceJustice": "Hukum/Hakim",
+      "cultureArtEntertainemnt": "Budaya/Seni/Hiburan",
+      "sports": "Olah raga",
+      "qualityControl": "Kendali Mutu/Manajemen Mutu",
+      "agricutureEnvironmental": "Pertanian/Ilmu Lingkungan",
+      "medicineSocialCare": "Kedokteran/Pekerja Sosial",
+      "mediaPublicRelations": "Media/Hubungan Masyarakat",
+      "forestryWoodworkingMetalWorking": "Kehutanan/Pengerjaan Kayu/Pengerjaan Logam",
+      "marketingAdvertising": "Pemasaran/Iklan",
+      "productionIndustry": "Produksi/Industri",
+      "seasonalWork": "Pekerjaan Musiman",
+      "technicalScience": "Ilmu Teknik",
+      "services": "Jasa",
+      "transportLogistics": "Transportasi/Logistik",
+      "tourismCateringHotels": "Pariwisata/Katering/Hotel",
+      "managment": "Manajemen",
+      "government": "Pemerintahan",
+      "others": "Lainnya"
+    }
+  }
+}

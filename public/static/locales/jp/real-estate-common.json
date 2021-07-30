@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "分類",
+    "options": {
+      "houses": "一軒家",
+      "apartments": "アパート",
+      "land": "土地",
+      "farmhouse": "農家",
+      "commercial": "商業用",
+      "exclusive": "高級住宅",
+      "offices": "オフィス",
+      "agents": "不動産代理店"
+    }
+  },
+  "action": {
+    "label": "アクション",
+    "options": {
+      "sell": "売る",
+      "rent": "借りる",
+      "exchange": "交換"
+    }
+  },
+  "condition": {
+    "label": "条件",
+    "label-land": "所有タイプ",
+    "options": {
+      "brandNew": "新しい",
+      "goodCondition": "良い",
+      "medium": "普通",
+      "requiresFixing": "修繕が必要",
+      "requiresConstruction": "工事が必要",
+      "residential": "居住用",
+      "comercial": "商業用",
+      "industrial": "工業用",
+      "agricultural": "農業用"
+    }
+  },
+  "contact-times": {
+    "label": "連絡時間",
+    "options": {
+      "anyTime": "いつでも",
+      "workingDays": "平日",
+      "officeHours": "オフィスアワー中",
+      "specificTimes": "具体的な時間"
+    }
+  },
+  "features": {
+    "heading": "特徴",
+    "category": {
+      "kitchen": "キッチン",
+      "bathroom": "お風呂",
+      "living-room": "リビングリーム",
+      "bedroom": "寝室",
+      "housing-extras": "その他",
+      "land-type": "土地のタイプ",
+      "buildingLand": "宅地",
+      "forest-properties": "森林資源",
+      "agriculture-properties": "農業資源"
+    }
+  },
+  "utilities": {
+    "heading": "公共施設",
+    "total": "合計",
+    "items": {
+      "coldWater": "冷水",
+      "hotWater": "温水",
+      "electricity": "電気",
+      "garbage": "ゴミ",
+      "propertyManagement": "財産管理",
+      "heating": "暖房",
+      "parking": "駐車",
+      "others": "その他"
+    }
+  }
+}

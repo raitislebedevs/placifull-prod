@@ -1,0 +1,89 @@
+{
+  "currency": "€ ",
+  "payment-modal": {
+    "header": "Details zum Plan-Kauf",
+    "sub-header": "Bitte wählen Sie Ihren Plan aus den folgenden Details",
+    "total-cost": "Kosten:",
+    "expiry-date": "Verfallsdatum:",
+    "expiry-label": "Ablaufdatum ",
+    "quantity": "Menge: ",
+    "quantity-label": "Menge",
+    "listed": "Angeboten:",
+    "purchase": "Gekauft:",
+    "extend-expiry": "Verfallsdatum verlängern",
+    "promote": "Bewerben",
+    "subscription-valid": "Option ist gültig",
+    "days": "Tage",
+    "browser-cv": "Lebenslauf Suche",
+    "purchase-text": {
+      "user-held": "Im Besitz des Nutzers",
+      "purchase": "Kaufen"
+    },
+    "form": {
+      "added-days": {
+        "label": "Auflistung verlängern um",
+        "suffix": " Tage"
+      },
+      "card-details": {
+        "label": "Karteninformationen bereitstellen",
+        "card-holder": "Karteninhaber",
+        "card-number": "Kartennummer",
+        "card-date": "Verfallsdatum",
+        "card-csv": "CSV"
+      },
+      "buttons": {
+        "decline": "Ablehnen",
+        "proceed": "Fortfahren"
+      },
+
+      "purchase-items": {
+        "intro": "Intro",
+        "single": "Einzeln",
+        "quarterly": "Vierteljährlich",
+        "life": "Jährlich"
+      },
+      "user-stock": {
+        "single": "Einzeln",
+        "quartery": "Vierteljährlich",
+        "life": "Jährlich"
+      }
+    }
+  },
+
+  "receipt-modal": {
+    "header": "Zusammenfassung Details",
+    "sub-header": "Bitte überprüfen Sie Ihre Kaufdetails, bevor Sie fortfahren.",
+    "card-details": {
+      "card-holder": "Name des Karteninhabers",
+      "card-number": "Details zur Karte",
+      "card-date": "Verfallsdatum"
+    },
+
+    "receipt-table": {
+      "plan": "Plan",
+      "quantity": "Qantity",
+      "promote": "Geworben",
+      "extend-expiry": "Verlängerte Gültigkeitsdauer",
+      "total": "Gesamt",
+      "total-amount": "Gesamtbetrag:",
+      "price": "Preis",
+      "expiry-date": "Verfallsdatum",
+      "no-expiry": "Keine",
+      "plans": {
+        "standalone": "Einzeln",
+        "subscriptionQuarterly": "Quartal",
+        "subscriptionYearly": "Jahr",
+        "activeSubscription": "CV suchen"
+      }
+    },
+    "thank-you-message": "Vielen Dank, dass Sie Placifull Company unterstützen. Wir sind überzeugt, dass Sie mit Ihrer Wahl zufrieden sein werden.",
+    "buttons": {
+      "cancel": "Abbrechen",
+      "proceed": "Bezahlen & Fortfahren"
+    }
+  },
+  "error": {
+    "transaction": "Transaktion fehlgeschlagen",
+    "subscriptions": "Abonnement fehlgeschlagen"
+  }
+}

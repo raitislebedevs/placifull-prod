@@ -1,0 +1,60 @@
+{
+  "labels": {
+    "about-me": "Tentang Saya",
+    "languages": "Bahasa",
+    "computer-skills": "Keahlian Komputer",
+    "education": "Pendidikan",
+    "expierience": "Pengalaman Bekerja",
+    "licenses": "Lisensi Berkendara",
+    "expectations": "Ekspektasi Pekerjaan",
+    "certification": "Sertifikasi"
+  },
+  "gender": {
+    "label": "Jenis Kelamin",
+    "male": "Pria",
+    "women": "Wanita"
+  },
+  "expierience": {
+    "label": "Pengalaman",
+    "uptoOne": "< 1 Tahun",
+    "oneToThree": "1-3 Tahun",
+    "threeToFive": "3-5 Tahun",
+    "fiveToTen": "5-10 Tahun",
+    "tenToFifteen": "10-15 Tahun",
+    "moreThanFifteen": "15+ Tahun"
+  },
+
+  "knowladge-gained": {
+    "selfTaught": "Otodidak",
+    "course": "Kursus",
+    "freelance": "Freelance",
+    "contractProject": "Proyek Kontrak",
+    "fullTimeJob": "Pekerjaan Penuh Waktu",
+    "other": "Lainnya"
+  },
+  "qualification": {
+    "primary": "Sekolah Dasar",
+    "secondary": "Sekolah Menengah",
+    "vocational": "Sekolah Kejuruan",
+    "bachelors": "Pendidikan Sarjana",
+    "master": "Pendidikan Master",
+    "doctorate": "Pendidikan Doktor",
+    "other": "Lainnya"
+  },
+
+  "seniority": {
+    "title": "Senioritas",
+    "volunteer": "Sukarelawan",
+    "intern": "Magang",
+    "junior": "Junior",
+    "intermediate": "Menengah",
+    "senior": "Senior",
+    "executive": "Eksekutif",
+    "ceo": "CEO",
+    "other": "Lainnya"
+  },
+
+  "avarage-grade": "Nilai Rata-rata",
+  "present": "Penghargaan",
+  "license-category": "Kategori Lisensi"
+}

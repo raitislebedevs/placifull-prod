@@ -1,0 +1,63 @@
+{
+  "header": {
+    "flag-button": "フラグをつける"
+  },
+  "detail-info": {
+    "button": "今すぐ引っ越したい"
+  },
+  "contact-times": {
+    "heading": "希望連絡時間"
+  },
+
+  "promoted": "おすすめ",
+
+  "about": {
+    "heading": "About",
+    "featured": "おすすめ",
+    "notFeatured": "おすすめでない",
+    "rentTime": "/月",
+    "inputTimeDays": "日前"
+  },
+
+  "general-info": {
+    "heading": "概要",
+    "brand": "輸送ブランド",
+    "model": "輸送モデル",
+    "year": "年",
+    "price": "価格",
+    "distance": "距離",
+    "max-speed": "最高速度",
+    "fuel-economy": "燃費",
+    "seats": "座席",
+    "doors": "ドア",
+    "bid-price": "入札価格",
+    "submit": "入札",
+    "bid-placeholder": "20%のマージンで入札"
+  },
+  "features": {
+    "heading": "特徴"
+  },
+  "contact-form": {
+    "not-specified": "指定しない",
+    "heading": "所有者に直接連絡",
+    "form": {
+      "heading": "質問を書いてください",
+      "fullName": "氏名",
+      "phoneNumber": "携帯電話番号",
+      "email": "メールアドレス",
+      "message": "メッセージ",
+      "submit": "送信"
+    }
+  },
+  "extra": {
+    "heading": "プロフィールからおすすめされた交通機関のリスト",
+    "table": {
+      "number": "番号",
+      "country": "国",
+      "brand-model": "モデル/ブランド",
+      "price": "価格",
+      "condition": "状態",
+      "production-year": "年"
+    }
+  }
+}

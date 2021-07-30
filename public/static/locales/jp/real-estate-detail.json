@@ -1,0 +1,58 @@
+{
+  "header": {
+    "flag-button": "フラグを付ける"
+  },
+  "detail-info": {
+    "button": "今すぐ引っ越したい"
+  },
+  "contact-times": {
+    "heading": "希望する連絡時間"
+  },
+  "about": {
+    "heading": "About",
+    "featured": "おすすめ",
+    "notFeatured": "おすすめでない",
+    "rentTime": "/月",
+    "inputTimeDays": "日前"
+  },
+
+  "general-info": {
+    "heading": "概要",
+    "property-area": "所有領域",
+    "rooms": "部屋",
+    "year-built": "築年数",
+    "price": "価格",
+    "total-ultilities": "公共施設",
+    "move-in": "引越し日",
+    "move-out": "退出日",
+    "min-time": "最小時間",
+    "bid-price": "入札額",
+    "submit": "入札",
+    "bid-placeholder": "20%のマージンで入札"
+  },
+
+  "contact-form": {
+    "heading": "所有者と直接連絡",
+    "form": {
+      "heading": "質問を書いてください",
+      "fullName": "氏名",
+      "phoneNumber": "携帯電話番号",
+      "email": "メールアドレス",
+      "message": "メッセージ",
+      "submit": "送信"
+    }
+  },
+  "extra": {
+    "heading": "その他のおすすめ",
+    "table": {
+      "number": "番号",
+      "country": "国",
+      "full-address": "住所",
+      "property-type": "所有タイプ",
+      "price": "価格",
+      "area": "地域",
+      "bed-rooms": "部屋",
+      "year-built": "築年数"
+    }
+  }
+}

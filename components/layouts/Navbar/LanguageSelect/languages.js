@@ -27,13 +27,13 @@ const languages = [
     },
     label: 'Lithuanian',
   },
-  // {
-  //   value: {
-  //     lang: 'de',
-  //     flag: 'DE',
-  //   },
-  //   label: 'Deutsche',
-  // },
+  {
+    value: {
+      lang: 'de',
+      flag: 'DE',
+    },
+    label: 'Deutsche',
+  },
   // {
   //   value: {
   //     lang: 'ru',
@@ -70,13 +70,13 @@ const languages = [
     },
     label: '日本人',
   },
-  // {
-  //   value: {
-  //     lang: 'id',
-  //     flag: 'ID',
-  //   },
-  //   label: 'Bahasa Indonesia',
-  // },
+  {
+    value: {
+      lang: 'id',
+      flag: 'ID',
+    },
+    label: 'Bahasa Indonesia',
+  },
   {
     value: {
       lang: 'es',

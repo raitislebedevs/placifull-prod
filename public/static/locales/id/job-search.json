@@ -1,0 +1,61 @@
+{
+  "form": {
+    "currency": "Mata Uang",
+    "no-currency": "SEMUA",
+    "languages": {
+      "native": "Bahasa Asli",
+      "english": "Bahasa dalam Inggris"
+    },
+    "submit": "Telusuri Sekarang",
+    "accordion": {
+      "label": "PENELUSURAN MUTAKHIR",
+      "searchFilter": {
+        "heading": "Fitur",
+        "licenses": "Lisensi Berkendara",
+        "education": "Pendidikan/Gelar",
+        "expierience": "Pengalaman dalam Tahun",
+        "candiadate": "Kandidat mampu untuk:",
+        "benefits": "Manfaat"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "Tarif per jam",
+        "items": {
+          "from": "Dari: 0",
+          "to": "Sampai : 999.999"
+        }
+      },
+      "monthly-salary": {
+        "label": "Gaji per bulan",
+        "items": {
+          "from": "Dari: 0",
+          "to": "Sampai : 999.999.999"
+        }
+      },
+      "yearly-salary": {
+        "label": "Gaji per tahun",
+        "items": {
+          "from": "Dari: 0",
+          "to": "Sampai : 99.999.999.999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Urutkan berdasarkan",
+        "options": {
+          "monthly-salary": "Gaji per bulan",
+          "annual-salary": "Gaji per tahun",
+          "hourly-salary": "Tarif per jam",
+          "popularity": "Popularitas",
+          "views": "Dilihat",
+          "country": "Negara",
+          "insert-date": "Masukkan Tanggal"
+        }
+      }
+    }
+  }
+}

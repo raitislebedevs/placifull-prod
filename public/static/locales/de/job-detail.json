@@ -1,0 +1,63 @@
+{
+  "header": {
+    "salary-month": "/Monat",
+    "buttons": {
+      "apply": "Jetzt bewerben",
+      "share": "Job teilen"
+    }
+  },
+  "contact-form": {
+    "heading": "Kontaktieren Sie das Unternehmen direkt",
+    "form": {
+      "heading": "Schreiben Sie Ihre Frage hier ab",
+      "fullName": "Vollständiger Name*",
+      "phoneNumber": "Telefonnummer*",
+      "email": "E-Mail Adresse*",
+      "message": "Ihre Nachricht",
+      "submit": "NACHRICHTEN SENDEN"
+    }
+  },
+  "about": {
+    "description": "Beschreibung",
+    "requirements": "Anforderungen",
+    "benefits": "Vorteile"
+  },
+  "job-overview": {
+    "heading": "Job-Übersicht",
+    "items": {
+      "offered-salary": "Angebotenes Gehalt",
+      "languages": "Sprache",
+      "native": "Muttersprache",
+      "industry": "Indiustrie"
+    },
+    "views": "Ansichten",
+    "applicants": "Bewerber",
+    "salary": {
+      "monthly": "monatlich",
+      "annual": "jährlich",
+      "hourly": "stündlich"
+    }
+  },
+
+  "application": {
+    "header": "Bewerben für",
+    "body": {
+      "proposal": "Vorgeschlagenes Gehalt"
+    },
+    "info": "Ihr Lebenslauf wird an die Stelle gesendet*"
+  },
+
+  "extra": {
+    "heading": "Jobs mit diesem Profil",
+    "table": {
+      "number": "Nr.",
+      "country": "Land",
+      "full-address": "Adresse des Büros",
+      "position": "Stelle",
+      "contract": "Vertragsart",
+      "time": "Arbeitszeiten",
+      "salary": "Gehalt von",
+      "end-date": "Enddatum"
+    }
+  }
+}

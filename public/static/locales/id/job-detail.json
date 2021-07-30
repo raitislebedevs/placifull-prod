@@ -1,0 +1,63 @@
+{
+  "header": {
+    "salary-month": "/bulan",
+    "buttons": {
+      "apply": "Lamar Sekarang",
+      "share": "Bagikan Pekerjaan"
+    }
+  },
+  "contact-form": {
+    "heading": "Hubungi perusahaan secara langsung",
+    "form": {
+      "heading": "Tuliskan pertanyaan Anda dari sini",
+      "fullName": "Nama Lengkap*",
+      "phoneNumber": "Nomor Telepon*",
+      "email": "Alamat Email*",
+      "message": "Pesan Anda",
+      "submit": "KIRIMKAN PESAN"
+    }
+  },
+  "about": {
+    "description": "Deskripsi",
+    "requirements": "Persyaratan",
+    "benefits": "Manfaat"
+  },
+  "job-overview": {
+    "heading": "Gambaran Pekerjaan",
+    "items": {
+      "offered-salary": "Gaji yang Ditawarkan",
+      "languages": "Bahasa",
+      "native": "Asal Usul",
+      "industry": "Industri"
+    },
+    "views": "Dilihat",
+    "applicants": "Pelamar",
+    "salary": {
+      "monthly": "Per bulan",
+      "annual": "Per tahun",
+      "hourly": "Per jam"
+    }
+  },
+
+  "application": {
+    "header": "Lamar untuk",
+    "body": {
+      "proposal": "Gaji yang diajukan"
+    },
+    "info": "CV Anda akan dikirimkan ke tempat kerja*"
+  },
+
+  "extra": {
+    "heading": "Pekerjaan didaftarkan oleh profil ini",
+    "table": {
+      "number": "No.",
+      "country": "Negara",
+      "full-address": "Alamat Kantor",
+      "position": "Posisi",
+      "contract": "Tipe Kontrak",
+      "time": "Waktu Kerja",
+      "salary": "Gaji Dari",
+      "end-date": "Tanggal berakhir"
+    }
+  }
+}

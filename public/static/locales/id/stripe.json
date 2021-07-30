@@ -1,0 +1,35 @@
+{
+  "main": {
+    "success": "Pembayaran berhasil.",
+    "plan_update": "Kami tidak dapat memperbarui rencana Anda.",
+    "card_not": "Kartu tidak tertagih.",
+    "pay": "Bayar €",
+    "processing": "Sedang memproses…"
+  },
+  "placeholders": {
+    "name": "Jane Doe",
+    "email": "janedoe@placifull.com",
+    "phone": "(941) 555-7777"
+  },
+  "incomplete": {
+    "incomplete_cvc": "Kode keamanan kartu Anda tidak lengkap.",
+    "incomplete_expiry": "Masa berlaku kartu Anda tidak lengkap.",
+    "incomplete_number": "Nomor kartu Anda tidak lengkap."
+  },
+
+  "declined": {
+    "card_declined": "Kartu Anda ditolak"
+  },
+  "checkout": {
+    "billing": "Silakan isi informasi penagihan",
+    "card-details": "Silakan berikan informasi kartu",
+    "cancel": "Batalkan"
+  },
+  "labels": {
+    "plan": "Rencana",
+    "quantity": "Jumlah",
+    "name": "Nama",
+    "email": "Email",
+    "phone": "Nomor Telepon"
+  }
+}

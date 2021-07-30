@@ -1,0 +1,60 @@
+{
+  "labels": {
+    "about-me": "Über mich",
+    "languages": "Sprachen",
+    "computer-skills": "Computer-Kenntnisse",
+    "education": "Ausbildung",
+    "expierience": "Berufserfahrung",
+    "licenses": "Führerschein ",
+    "expectations": "Erwartungen an die Arbeit",
+    "certification": "Zertifizierung"
+  },
+  "gender": {
+    "label": "Geschlecht",
+    "male": "Männlich",
+    "women": "Weiblich"
+  },
+  "expierience": {
+    "label": "Berufserfahrung",
+    "uptoOne": "< 1 Jahr",
+    "oneToThree": "1-3 Jahre",
+    "threeToFive": "3-5 Jahre",
+    "fiveToTen": "5-10 Jahre",
+    "tenToFifteen": "10-15 Jahre",
+    "moreThanFifteen": "15+ Jahre"
+  },
+
+  "knowladge-gained": {
+    "selfTaught": "Autodidaktisch",
+    "course": "Kurs",
+    "freelance": "Selbstständig",
+    "contractProject": "Vertragsprojekt",
+    "fullTimeJob": "Festanstellung",
+    "other": "Sonstiges"
+  },
+  "qualification": {
+    "primary": "Primär",
+    "secondary": "Sekundär",
+    "vocational": "Berufsausbildung",
+    "bachelors": "Bachelor",
+    "master": "Master",
+    "doctorate": "Promotion",
+    "other": "Andere"
+  },
+
+  "seniority": {
+    "title": "Dienstalter",
+    "volunteer": "Ehrenamtlich",
+    "intern": "Praktikant",
+    "junior": "Jugendlicher",
+    "intermediate": "Intermediate",
+    "senior": "Senior",
+    "executive": "Führungskraft",
+    "ceo": "CEO",
+    "other": "Andere"
+  },
+
+  "avarage-grade": "Durchschnittsnote",
+  "present": "Derzeit",
+  "license-category": "Lizenz-Kategorie"
+}

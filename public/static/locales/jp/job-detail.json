@@ -1,0 +1,63 @@
+{
+  "header": {
+    "salary-month": "/月",
+    "buttons": {
+      "apply": "今すぐ応募",
+      "share": "仕事を探す"
+    }
+  },
+  "contact-form": {
+    "heading": "企業に直接連絡",
+    "form": {
+      "heading": "質問を書く",
+      "fullName": "氏名*",
+      "phoneNumber": "携帯電話番号*",
+      "email": "メールアドレス*",
+      "message": "メッセージ",
+      "submit": "送信"
+    }
+  },
+  "about": {
+    "description": "説明",
+    "requirements": "条件",
+    "benefits": "利点"
+  },
+  "job-overview": {
+    "heading": "仕事の概要",
+    "items": {
+      "offered-salary": "提示された給与",
+      "languages": "言語",
+      "native": "出身",
+      "industry": "産業"
+    },
+    "views": "閲覧数",
+    "applicants": "応募数",
+    "salary": {
+      "monthly": "月給",
+      "annual": "年収",
+      "hourly": "時給"
+    }
+  },
+
+  "application": {
+    "header": "応募する",
+    "body": {
+      "proposal": "提示された給与"
+    },
+    "info": "履歴書は雇用主に送信されます*"
+  },
+
+  "extra": {
+    "heading": "プロフィールから提案された仕事",
+    "table": {
+      "number": "番号：",
+      "country": "国",
+      "full-address": "住所",
+      "position": "役職",
+      "contract": "契約タイプ",
+      "time": "勤務時間",
+      "salary": "最低給与",
+      "end-date": "終了日"
+    }
+  }
+}

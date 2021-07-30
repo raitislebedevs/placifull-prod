@@ -1,0 +1,61 @@
+{
+  "form": {
+    "currency": "通貨",
+    "no-currency": "すべて",
+    "languages": {
+      "native": "母語",
+      "english": "英語圏での言語"
+    },
+    "submit": "今すぐ検索",
+    "accordion": {
+      "label": "詳細検索",
+      "searchFilter": {
+        "heading": "特徴",
+        "licenses": "運転免許",
+        "education": "学歴",
+        "expierience": "職歴（年）",
+        "candiadate": "能力：",
+        "benefits": "利点"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "時給",
+        "items": {
+          "from": "から：0",
+          "to": "まで：999,999"
+        }
+      },
+      "monthly-salary": {
+        "label": "月給",
+        "items": {
+          "from": "から：0",
+          "to": "まで：999,999,999"
+        }
+      },
+      "yearly-salary": {
+        "label": "年収",
+        "items": {
+          "from": "から：0",
+          "to": "まで：99,999,999,999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "並び替え：",
+        "options": {
+          "monthly-salary": "月給",
+          "annual-salary": "年収",
+          "hourly-salary": "時給",
+          "popularity": "人気",
+          "views": "閲覧数",
+          "country": "国",
+          "insert-date": "掲載日"
+        }
+      }
+    }
+  }
+}

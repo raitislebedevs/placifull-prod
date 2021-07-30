@@ -1,0 +1,133 @@
+{
+  "elements": {
+    "loading": "読み込み中…",
+    "loading-right": "読み込み中…",
+    "loading-left": "…読み込み中",
+    "no-results": "見つかりませんでした"
+  },
+  "user": {
+    "name": "氏名",
+    "first-name": "名",
+    "last-name": "姓",
+    "email": {
+      "email-upper": "メールアドレス",
+      "email-lower": "メールアドレス",
+      "your-email": "あなたのメールアドレス"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "今日",
+    "yesterday": "機能",
+    "days-ago": "日前"
+  },
+
+  "social-links": {
+    "heading": "SNS",
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
+  },
+
+  "social": {
+    "heading": "SNS",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "youtube": "Youtube",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram"
+  },
+
+  "week-days": {
+    "monday": "月曜日",
+    "tuesday": "火曜日",
+    "wednesday": "水曜日",
+    "thursday": "木曜日",
+    "friday": "金曜日",
+    "saturday": "土曜日",
+    "sunday": "日曜日"
+  },
+
+  "toast": {
+    "submit-success": "リストが掲載されました！",
+    "server-error": "不適切な入力/サーバーに送信できませんでした",
+    "logging-required": "ログインが必要です",
+    "cannot-apply": "これはプレビューです",
+    "preview": "プレビュー画面では入札できません",
+    "log-in": "入札するにはログインしてください",
+    "bidding-price": "入札価格がありません",
+    "price-lower": "入札が掲載価格の20%より低くなっています",
+    "price-upper": "入札が掲載価格の20%より高くなっています",
+    "refresh-page": "サーバーが反応しませんでした。リフレッシュしてください。",
+    "not-send": "メールを送信できませんでした",
+    "contact-directly": "直接連絡する",
+    "email-send": "メールが送信されました",
+    "no-email": "このメールは存在しません",
+    "subscribed": "サブスクリプションに成功しました、おめでとうございます。",
+    "already-applied": "すでにこの職種には応募しています",
+    "already": "すでにサブスクリプション登録しています / 無効なメール",
+    "country-error": "国の入力時のエラー",
+    "location-error": "位置情報を取得できませんでした",
+    "unknown-error": "不明なサーバーエラー",
+    "search-results": {
+      "found": "見つける",
+      "items": "アイテム"
+    },
+    "not-found": "新しい結果が見つかりませんでした"
+  },
+
+  "location": {
+    "country": "国",
+    "state": "州/地域",
+    "city": "市",
+    "no-city": "市がありません",
+    "no-states": "州がありません",
+    "states-not-registerd": "州が登録されていません",
+    "cities-registerd": "市が登録されていません"
+  },
+
+  "items-per-page": {
+    "label": "アイテム",
+    "options": {
+      "nine": "9件",
+      "eighteen": "18件",
+      "twenty-seven": "27件",
+      "thirty-six": "36件",
+      "seventy-two": "72件"
+    }
+  },
+
+  "month": {
+    "Jan": "1月",
+    "Feb": "2月",
+    "Mar": "3月",
+    "Apr": "4月",
+    "May": "5月",
+    "Jun": "6月",
+    "Jul": "7月",
+    "Aug": "8月",
+    "Sep": "9月",
+    "Oct": "10月",
+    "Nov": "11月",
+    "Dec": "12月"
+  },
+  "currency": {
+    "currency-label": "通貨",
+    "no-currency": "すべて"
+  },
+  "measurement": {
+    "label": "計測",
+    "system": {
+      "none": "なし",
+      "metric": "メートル",
+      "imperial": "インペリアル"
+    }
+  },
+  "user-box": {
+    "profile": "プロフィール",
+    "log-out": "ログアウト"
+  },
+  "preview-close": "プレビューを閉じる"
+}

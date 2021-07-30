@@ -1,0 +1,58 @@
+{
+  "header": {
+    "flag-button": "DIESEN INHALT MARKIEREN"
+  },
+  "detail-info": {
+    "button": "ICH MÖCHTE JETZT EINZIEHEN"
+  },
+  "contact-times": {
+    "heading": "Bevorzugte Kontaktzeiten"
+  },
+  "about": {
+    "heading": "Über",
+    "featured": "Befördert",
+    "notFeatured": "Nicht gefördert",
+    "rentTime": "pro Monat",
+    "inputTimeDays": "vor Tagen"
+  },
+
+  "general-info": {
+    "heading": "Allgemeine Informationen",
+    "property-area": "Grundstücksfläche",
+    "rooms": "Zimmer",
+    "year-built": "Jahr gebaut",
+    "price": "Preis",
+    "total-ultilities": "Total Versorgungskosten",
+    "move-in": "Einzugsdatum",
+    "move-out": "Auszugsdatum",
+    "min-time": "Minimum Zeit",
+    "bid-price": "Gebotspreis für Immobilie",
+    "submit": "GEBOT",
+    "bid-placeholder": "Gebot mit 20 % Marge"
+  },
+
+  "contact-form": {
+    "heading": "Kontaktieren Sie den Eigentümer direkt",
+    "form": {
+      "heading": "Schreiben Sie hier Ihre Frage auf",
+      "fullName": "Vollständiger Name*",
+      "phoneNumber": "Telefonnummer*",
+      "email": "E-Mail Adresse*",
+      "message": "Ihre Nachricht*",
+      "submit": "NACHRICHTEN SENDEN"
+    }
+  },
+  "extra": {
+    "heading": "Andere Objekte, die in diesem Profil aufgeführt sind",
+    "table": {
+      "number": "Nr.",
+      "country": "Land",
+      "full-address": "Vollständige Adresse",
+      "property-type": "Objekt-Typ",
+      "price": "Preis",
+      "area": "Gebiet",
+      "bed-rooms": "Räume",
+      "year-built": "Jahr gebaut"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "elements": {
+    "loading": "memuat…",
+    "loading-right": "Memuat…",
+    "loading-left": "...Memuat",
+    "no-results": "Hasil tidak ditemukan"
+  },
+  "user": {
+    "name": "Nama",
+    "first-name": "Nama Depan",
+    "last-name": "Nama Belakang",
+    "email": {
+      "email-upper": "Email",
+      "email-lower": "email",
+      "your-email": "Email Anda"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "Hari Ini",
+    "yesterday": "Kemarin",
+    "days-ago": "hari lalu"
+  },
+
+  "social-links": {
+    "heading": "Tautan media sosial",
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
+  },
+
+  "social": {
+    "heading": "Tautan media sosial",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "youtube": "Youtube",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram"
+  },
+
+  "week-days": {
+    "monday": "Senin",
+    "tuesday": "Selasa",
+    "wednesday": "Rabu",
+    "thursday": "Kamis",
+    "friday": "Jumat",
+    "saturday": "Sabtu ",
+    "sunday": "Minggu"
+  },
+
+  "toast": {
+    "submit-success": "Daftar Anda Telah Dipublikasikan!",
+    "server-error": "Salah Input/Server tidak Terjangkau",
+    "logging-required": "Log In diperlukan",
+    "cannot-apply": "Hey, ini adalah pratinjau",
+    "preview": "Anda tidak dapat melakukan penawaran di pratinjau",
+    "log-in": "Anda harus Log In untuk Menawar",
+    "bidding-price": "Tidak ada harga penawaran",
+    "price-lower": "Penawaran lebih rendah dari 20% harga terdaftar",
+    "price-upper": "Penawaran lebih tinggi dari 20% harga terdaftar",
+    "refresh-page": "Server tidak merespon, silakan refresh",
+    "not-send": "Email tidak terkirim",
+    "contact-directly": "Hubungi langsung",
+    "email-send": "Email terkirim",
+    "no-email": "Daftar email tidak tersedia",
+    "subscribed": "Selamat, Anda telah berlangganan :)",
+    "already-applied": "Anda telah melamar untuk posisi ini",
+    "already": "Sudah berlangganan/ email tidak valid",
+    "country-error": "Error di negara yang diinput",
+    "location-error": "Tidak dapat mengambil lokasi",
+    "unknown-error": "Error server tidak dikenal",
+    "search-results": {
+      "found": "Ditemukan",
+      "items": "item"
+    },
+    "not-found": "Tidak tidak menemukan hasil baru"
+  },
+
+  "location": {
+    "country": "Negara",
+    "state": "Negara Bagian/Wilayah",
+    "city": "Kota",
+    "no-city": "Nomor Kota",
+    "no-states": "Nomor Negara Bagian",
+    "states-not-registerd": "Nomor Negara Bagian Terdaftar",
+    "cities-registerd": "Nomor Kota Terdaftar"
+  },
+
+  "items-per-page": {
+    "label": "Item",
+    "options": {
+      "nine": "9 Item",
+      "eighteen": "18 Item",
+      "twenty-seven": "27 Item",
+      "thirty-six": "36 Item",
+      "seventy-two": "72 Item"
+    }
+  },
+
+  "month": {
+    "Jan": "Januari",
+    "Feb": "Februari",
+    "Mar": "Maret",
+    "Apr": "April",
+    "May": "Mei",
+    "Jun": "Juni",
+    "Jul": "Juli",
+    "Aug": "Agustus",
+    "Sep": "September",
+    "Oct": "Oktober",
+    "Nov": "November",
+    "Dec": "Desember"
+  },
+  "currency": {
+    "currency-label": "Mata Uang",
+    "no-currency": "Semua"
+  },
+  "measurement": {
+    "label": "Pengukuran",
+    "system": {
+      "none": "Tidak Ada",
+      "metric": "Metrik",
+      "imperial": "Imperial"
+    }
+  },
+  "user-box": {
+    "profile": "Profil",
+    "log-out": "Keluar"
+  },
+  "preview-close": "Tutup Pratinjau"
+}

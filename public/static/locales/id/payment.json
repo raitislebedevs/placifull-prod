@@ -1,0 +1,89 @@
+{
+  "currency": "€ ",
+  "payment-modal": {
+    "header": "Detail Rencana Pembelian",
+    "sub-header": "Silakan rencana Anda dari detail di bawah ini",
+    "total-cost": "Biaya:",
+    "expiry-date": "Masa Berlaku:",
+    "expiry-label": "Masa Berlaku",
+    "quantity": "Jumlah:",
+    "quantity-label": "Jumlah",
+    "listed": "Terdaftar:",
+    "purchase": "Dibeli:",
+    "extend-expiry": "Perpanjang Masa Berlaku",
+    "promote": "Promosikan",
+    "subscription-valid": "Opsi ini valid",
+    "days": "hari",
+    "browser-cv": "Penelusuran CV",
+    "purchase-text": {
+      "user-held": "Dimiliki Pengguna",
+      "purchase": "Pembelian"
+    },
+    "form": {
+      "added-days": {
+        "label": "Perpanjang daftar oleh",
+        "suffix": "Hari"
+      },
+      "card-details": {
+        "label": "Berikan Informasi Kartu",
+        "card-holder": "Pemegang Kartu",
+        "card-number": "Nomor Kartu",
+        "card-date": "Masa Berlaku",
+        "card-csv": "CSV"
+      },
+      "buttons": {
+        "decline": "Tolak",
+        "proceed": "Lanjutkan"
+      },
+
+      "purchase-items": {
+        "intro": "Pendahuluan",
+        "single": "Single",
+        "quarterly": "Triwulanan",
+        "life": "Tahunan"
+      },
+      "user-stock": {
+        "single": "Single",
+        "quartery": "Triwulanan",
+        "life": "Tahunan"
+      }
+    }
+  },
+
+  "receipt-modal": {
+    "header": "Detail Ringkasan",
+    "sub-header": "Silakan periksa detail pembelian Anda sebelum melanjutkan.",
+    "card-details": {
+      "card-holder": "Nama Pemegang Kartu",
+      "card-number": "Detail Kartu",
+      "card-date": "Masa Berlaku"
+    },
+
+    "receipt-table": {
+      "plan": "Rencana",
+      "quantity": "Jumlah",
+      "promote": "Dipromosikan",
+      "extend-expiry": "Perpanjangan Masa Berlaku",
+      "total": "Total",
+      "total-amount": "Jumlah Total:",
+      "price": "Harga",
+      "expiry-date": "Masa Berlaku",
+      "no-expiry": "Tidak Ada",
+      "plans": {
+        "standalone": "Single",
+        "subscriptionQuarterly": "Triwulan",
+        "subscriptionYearly": "Tahun",
+        "activeSubscription": "Telusuri CV"
+      }
+    },
+    "thank-you-message": "Terima kasih telah mendukung Placifull. Kami yakin Anda akan puas dengan pilihan Anda",
+    "buttons": {
+      "cancel": "Batalkan",
+      "proceed": "Bayar & Lanjutkan"
+    }
+  },
+  "error": {
+    "transaction": "Transaksi Gagal",
+    "subscriptions": "Berlangganan Gagal"
+  }
+}

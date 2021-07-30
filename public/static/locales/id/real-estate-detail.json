@@ -1,0 +1,58 @@
+{
+  "header": {
+    "flag-button": "TANDAI KONTEN INI"
+  },
+  "detail-info": {
+    "button": "SAYA INGIN PINDAH SEKARANG"
+  },
+  "contact-times": {
+    "heading": "Waktu Kontak yang Diinginkan"
+  },
+  "about": {
+    "heading": "Perihal",
+    "featured": "Dipromosikan",
+    "notFeatured": "Tidak Dipromosikan",
+    "rentTime": "per bulan",
+    "inputTimeDays": "hari yang lalu"
+  },
+
+  "general-info": {
+    "heading": "Informasi Umum",
+    "property-area": "Area Properti",
+    "rooms": "Ruangan",
+    "year-built": "Tahun Dibangun",
+    "price": "Harga",
+    "total-ultilities": "Total Keperluan",
+    "move-in": "Tanggal Masuk",
+    "move-out": "Tanggal Keluar",
+    "min-time": "Waktu Minimum",
+    "bid-price": "Harga Penawaran untuk Properti",
+    "submit": "TAWAR",
+    "bid-placeholder": "Tawar dengan margin 20%"
+  },
+
+  "contact-form": {
+    "heading": "Hubungi Pemilik secara Langsung",
+    "form": {
+      "heading": "Tuliskan pertanyaan Anda dari sini",
+      "fullName": "Nama Lengkap*",
+      "phoneNumber": "Nomor Telepon*",
+      "email": "Alamat Email*",
+      "message": "Pesan Anda*",
+      "submit": "KIRIMKAN PESAN"
+    }
+  },
+  "extra": {
+    "heading": "Objek Lainnya yang didaftarkan oleh Profil ini",
+    "table": {
+      "number": "No.",
+      "country": "Negara",
+      "full-address": "Alamat Lengkap",
+      "property-type": "Jenis Properti",
+      "price": "Harga",
+      "area": "Area",
+      "bed-rooms": "Ruangan",
+      "year-built": "Tahun Dibangun"
+    }
+  }
+}

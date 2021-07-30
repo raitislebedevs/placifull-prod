@@ -1,3 +1,6 @@
 {
-  "found": "Fehler 404 - Seite nicht gefunden"
+  "found": "404 - Seite nicht gefunden",
+  "main-text": "Wir konnten die angegebene Seite nicht aufrufen!",
+  "sub-text": " Diese Seite wurde nicht gefunden. Möglicherweise haben Sie die Adresse falsch eingegeben oder die Seite wurde verschoben oder existiert nicht.",
+  "navigation": "Zur Homepage gehen"
 }

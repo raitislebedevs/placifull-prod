@@ -1,0 +1,55 @@
+{
+  "heading": "Kirimkan Daftar",
+  "form": {
+    "submit-confirm": "Menyimpan…",
+    "preview-sneak-peak": "Menghasilkan…",
+    "preview": "Pratinjau",
+    "no-currency": "Mata Uang",
+    "no-features": "Silahkan pilih kategori daftar",
+    "job-title": {
+      "title": "Jabatan",
+      "placeholder": "Nama Jabatan contohnya Placifull Patron"
+    },
+    "company": "Nama Perusahaan",
+    "submit": "KIRIM",
+    "general-information": {
+      "heading": "Informasi Umum",
+      "input-fields": {
+        "description": "Deskripsi Jabatan",
+        "requirements": "Persyaratan Jabatan",
+        "beneftis": "Manfaat Jabatan"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "Informasi Kontak",
+        "detail-requirements": "Rincian Persyaratan"
+      },
+      "contact": {
+        "heading": "Kontak",
+        "email": "Email",
+        "phone": "Nomor telepon",
+        "address": "Alamat",
+        "listing-website": "Situs: https://"
+      }
+    },
+    "gallery": {
+      "heading": "Logo Perusahaan",
+      "click-drop": "KLIK ATAU GESER LOGO KE SINI",
+      "video-url": "Video url: https://"
+    },
+    "contact-hours": {
+      "heading": "Waktu Kerja",
+      "heading-tip": "Opsional",
+      "accordion": {
+        "heading": "Waktu saat karyawan diperlukan untuk bekerja…",
+        "start-time": "Bekerja dimulai pada",
+        "end-time": "Bekerja berakhir pada"
+      }
+    },
+    "input-languages": {
+      "label": "Bahasa yang wajib diketahui. (Inggris)",
+      "labelNative": "Bahasa yang wajib diketahui. (Bahasa Asli)"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "job-card": {
+    "location": "Standort",
+    "salary": "Gehalt",
+    "button": "Detail ansehen",
+    "contract-type": {
+      "label": "Vertragsart",
+      "options": {
+        "temporarly": "Befristet",
+        "fullTime": "Vollzeit",
+        "partTime": "Teilzeit",
+        "remoteFullTime": "Remote (Vollzeit)",
+        "remotePartTime": "Remote (Teilzeit)",
+        "other": "Andere"
+      }
+    },
+    "working-schedule": {
+      "label": "Arbeitszeiten",
+      "options": {
+        "officeHours": "Bürozeiten",
+        "shifts": "Schichten",
+        "flexible": "Flexibel",
+        "other": "Sonstiges"
+      }
+    }
+  },
+
+  "transport-card": {
+    "gear-box": {
+      "label": "Getriebe",
+      "options": {
+        "manual": "Manuell",
+        "automatic": "Automatisch",
+        "other": "Sonstiges"
+      }
+    }
+  },
+
+  "real-estate-card": {
+    "location": "Standort",
+    "working-schedule": "Arbeitsplan",
+    "salary": "Gehalt",
+    "contract-type": "Vertragstyp",
+    "button": "Ansicht Detail"
+  },
+
+  "action": {
+    "label": "Aktion",
+    "options": {
+      "sell": "Verkaufen",
+      "rent": "Mieten",
+      "exchange": "Tauschen",
+      "forParts": "Für Ersatzteile"
+    }
+  }
+}

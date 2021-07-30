@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "form": {
+      "currency": "Währung",
+      "no-currency": "ALLE",
+      "min-price": "Min: 0.00",
+      "max-price": "Max: 9.999.999.999",
+      "transport-brand": "Transport Marke",
+      "transport-model": "Transport-Modell",
+      "min-age": "Min Alter",
+      "max-age": "Max Alter",
+      "submit": "Jetzt suchen",
+      "accordion": "ERWEITERTE SUCHE",
+      "accordion-right": {
+        "economy": {
+          "label": "Kraftstoffverbrauch",
+          "items": {
+            "from": "Von: 0",
+            "to": "bis: 999"
+          }
+        },
+        "speed": {
+          "label": "Maximale Geschwindigkeit",
+          "items": {
+            "from": "Von: 0",
+            "to": "Bis: 999"
+          }
+        },
+        "millage": {
+          "label": "Entfernung",
+          "items": {
+            "from": "Von: 0",
+            "to": "Bis: 9,999,999"
+          }
+        },
+        "units": "Einheiten"
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Sortieren nach",
+        "options": {
+          "price": "Preis",
+          "speed": "Geschwindigkeit",
+          "millage": "Kilometerstand",
+          "fuel-economy": "Kraftstoffverbrauch",
+          "popularity": "Beliebtheit",
+          "views": "Gesehen",
+          "country": "Land",
+          "insert-date": "Datum einfügen"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "labels": {
+    "about-me": "自己紹介",
+    "languages": "言語",
+    "computer-skills": "PCスキル",
+    "education": "学歴",
+    "expierience": "職歴",
+    "licenses": "運転免許",
+    "expectations": "仕事への期待",
+    "certification": "資格"
+  },
+  "gender": {
+    "label": "性別",
+    "male": "男性",
+    "women": "女性"
+  },
+  "expierience": {
+    "label": "職歴",
+    "uptoOne": "1年未満",
+    "oneToThree": "1年から3年",
+    "threeToFive": "3年から5年",
+    "fiveToTen": "5年から10年",
+    "tenToFifteen": "10年から15年",
+    "moreThanFifteen": "15年以上"
+  },
+
+  "knowladge-gained": {
+    "selfTaught": "独学",
+    "course": "教育機関",
+    "freelance": "フリーランス",
+    "contractProject": "契約事業",
+    "fullTimeJob": "フルタイム雇用",
+    "other": "その他"
+  },
+  "qualification": {
+    "primary": "小学校",
+    "secondary": "中学校・高等学校",
+    "vocational": "専門学校",
+    "bachelors": "学士",
+    "master": "修士",
+    "doctorate": "博士",
+    "other": "その他"
+  },
+
+  "seniority": {
+    "title": "年功序列",
+    "volunteer": "ボランティア",
+    "intern": "インターン",
+    "junior": "ジュニア",
+    "intermediate": "中級",
+    "senior": "シニア",
+    "executive": "役員",
+    "ceo": "CEO",
+    "other": "その他"
+  },
+
+  "avarage-grade": "平均評価",
+  "present": "現在",
+  "license-category": "ライセンスの種類"
+}

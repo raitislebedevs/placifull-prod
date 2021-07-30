@@ -1,0 +1,133 @@
+{
+  "elements": {
+    "loading": "lädt...",
+    "loading-right": "Lädt...",
+    "loading-left": "...Lädt",
+    "no-results": "Keine Ergebnisse gefunden"
+  },
+  "user": {
+    "name": "Name",
+    "first-name": "Vorname",
+    "last-name": "Nachname",
+    "email": {
+      "email-upper": "E-Mail",
+      "email-lower": "E-Mail",
+      "your-email": "Ihre E-Mail"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "Heute",
+    "yesterday": "Gestern",
+    "days-ago": "vor Tagen"
+  },
+
+  "social-links": {
+    "heading": "Soziale Links",
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
+  },
+
+  "social": {
+    "heading": "Soziale Links",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "youtube": "Youtube",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram"
+  },
+
+  "week-days": {
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag"
+  },
+
+  "toast": {
+    "submit-success": "Ihr Inserat wurde veröffentlicht!",
+    "server-error": "Falsche Eingabe/Server nicht erreicht",
+    "logging-required": "Anmeldung ist erforderlich",
+    "cannot-apply": "Hey, dies ist eine Vorschau",
+    "preview": "In der Vorschau können Sie nicht bieten",
+    "log-in": "Sie müssen zum Bieten eingeloggt sein",
+    "bidding-price": "Kein Gebotspreis",
+    "price-lower": "Das Gebot ist niedriger als 20 % des Angebotspreises.",
+    "price-upper": "Das Gebot ist höher als 20 % des Angebotspreises.",
+    "refresh-page": "Server hat nicht geantwortet, bitte aktualisieren",
+    "not-send": "E-Mail wurde nicht gesendet",
+    "contact-directly": "Direkt kontaktieren",
+    "email-send": "E-Mail wurde versendet",
+    "no-email": "Listing E-Mail existiert nicht",
+    "subscribed": "Glückwunsch, Sie haben sich angemeldet :)",
+    "already-applied": "Sie haben sich auf diese Position beworben",
+    "already": "Bereits abonniert/ ungültige E-Mail",
+    "country-error": "Nicht spezifizierter Fehler in der Ländereingabe",
+    "location-error": "Standorte konnten nicht abgerufen werden",
+    "unknown-error": "Unbekannter Serverfehler",
+    "search-results": {
+      "found": "Gefunden",
+      "items": "Artikel"
+    },
+    "not-found": "Es wurden keine neuen Ergebnisse gefunden"
+  },
+
+  "location": {
+    "country": "Land",
+    "state": "Bundesland/Region",
+    "city": "Stadt",
+    "no-city": "Keine Städte",
+    "no-states": "Keine Bundesländer",
+    "states-not-registerd": "Keine Bundesländer registriert",
+    "cities-registerd": "Keine Städte registriert"
+  },
+
+  "items-per-page": {
+    "label": "Artikel",
+    "options": {
+      "nine": "9 Artikel",
+      "eighteen": "18 Artikel",
+      "twenty-seven": "27 Artikel",
+      "thirty-six": "36 Artikel",
+      "seventy-two": "72 Artikel"
+    }
+  },
+
+  "month": {
+    "Jan": "Januar",
+    "Feb": "Februar",
+    "Mar": "März",
+    "Apr": "April",
+    "May": "Mai",
+    "Jun": "Juni",
+    "Jul": "Juli",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "Oktober",
+    "Nov": "November",
+    "Dec": "Dezember"
+  },
+  "currency": {
+    "currency-label": "Währung",
+    "no-currency": "Alle"
+  },
+  "measurement": {
+    "label": "Maßeinheit",
+    "system": {
+      "none": "Keine",
+      "metric": "Metrisch",
+      "imperial": "Imperial"
+    }
+  },
+  "user-box": {
+    "profile": "Profil",
+    "log-out": "Abmelden"
+  },
+  "preview-close": "Vorschau schließen"
+}

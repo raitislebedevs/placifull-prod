@@ -1,0 +1,64 @@
+{
+  "title": "不動産のリストを検索",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "最低価格",
+        "max-price": "最高価格",
+        "min-rooms": "最少部屋数",
+        "max-rooms": "最大部屋数",
+        "min-area": "最小面積",
+        "max-area": "最大面積",
+        "move-in-date": "移動日（から）",
+        "move-out-date": "移動日（まで）",
+        "currency": "通貨"
+      },
+
+      "submit": "今すぐ検索",
+      "accordion": "詳細検索",
+      "accordion-right": {
+        "utility-label": "光熱費の範囲",
+        "utility": {
+          "from-price": "から：0.00",
+          "to-price": "まで：9,999,999,999"
+        },
+        "year-label": "建築年",
+        "built": {
+          "from-year": "から：1000",
+          "to-year": "まで：9999"
+        },
+        "measurement-label": "単位",
+        "system": {
+          "none": "なし",
+          "metric": "メートル",
+          "imperial": "フィート"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "並び替え",
+        "options": {
+          "price": "価格",
+          "area": "面積",
+          "rooms": "部屋数",
+          "street-name": "道路の名前",
+          "popularity": "人気",
+          "views": "閲覧数",
+          "country": "国",
+          "insert-date": "掲載日"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "ブログから",
+    "see-more": "もっと読む"
+  },
+  "error": {
+    "tags": "タグが見つかりませんでした'とご連絡ください。"
+  },
+  "no-tags": "このオプションに合致する特徴はありません"
+}

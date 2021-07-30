@@ -1,0 +1,41 @@
+{
+  "kanban": {
+    "save": "Simpan Board",
+    "saving": "Menyimpan…",
+    "salary": {
+      "hour": "/jam",
+      "month": "/bulan",
+      "year": "/tahun"
+    },
+    "job-overview": {
+      "title": "Gambaran Pekerjaan",
+      "industry": "Industri",
+      "languages-en": "Bahasa (EN)",
+      "native": "Bahasa Asli",
+      "contract-type": "Tipe Kontrak",
+      "working-time": "Waktu Kerja",
+      "expiry-date": "Masa Berlaku"
+    },
+    "statistics": {
+      "title": "Statistik",
+      "applicants": "Pelamar",
+      "interviewed": "Diwawancara",
+      "processing": "Sedang Memproses",
+      "reviewed": "Ditinjau",
+      "shortlisted": "Masuk daftar pendek",
+      "hired": "Dipekerjakan"
+    },
+    "columns": {
+      "applicants": "Pelamar yang Melamar",
+      "reviewed": "Pelamar Ditinjau",
+      "shortlisted": "Masuk daftar pendek",
+      "interviewed": "Pelamar yang Diwawancara",
+      "pending": "Persetujuan Ditunda",
+      "accepted": "Pelamar yang Dipekerjakan",
+      "column-name": "Kolom Baru",
+      "edit": "Sunting"
+    },
+    "view-cv": "Lihat CV",
+    "remove": "Hapus"
+  }
+}
