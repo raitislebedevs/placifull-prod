@@ -7,9 +7,9 @@ module.exports = withImages({
     API_ENDPOINT: process.env.API_ENDPOINT,
     API_SUFFIX: process.env.API_SUFFIX,
   },
-  future: {
-    webpack5: true,
-  },
+  // future: {
+  //   webpack5: true,
+  // },
   rewrites: async () =>
     nextI18NextRewrites({
       de: 'de',

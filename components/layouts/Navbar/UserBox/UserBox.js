@@ -57,7 +57,7 @@ const UserBox = (props) => {
     setIsOpen(!isOpen);
   };
   return (
-    <div alignRight className="profile-wrapper__profile">
+    <div className="profile-wrapper__profile">
       <div
         onClick={(e) => {
           handleMenu(e);

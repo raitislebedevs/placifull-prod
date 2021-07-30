@@ -6,6 +6,7 @@ import PaymentModalForm from './PaymentModalForm/PaymentModalForm';
 const ListingPayment = (props) => {
   const {
     t,
+    user,
     paymentModal,
     setPaymentModal,
     handleSubmit,
@@ -43,6 +44,7 @@ const ListingPayment = (props) => {
           handleDataSubmit={handleDataSubmit}
           dayCost={dayCost}
           plan={plan}
+          user={user}
           t={t}
         />
       </Modal>

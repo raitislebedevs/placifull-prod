@@ -36,18 +36,21 @@ const PaymentModalForm = (props) => {
   const userStack = userOwned(t, subscriptions);
 
   useEffect(() => {
-    getSubscriptions();
-  }, []);
+    if (user?.id) getSubscriptions();
+  }, [user?.id]);
 
   const getSubscriptions = async () => {
     setIsLoading(true);
     try {
+      console.log(user?.id);
       const filter = {
         userId: user?.id,
       };
       const { data } = await Subscriptions.FIND({
         _where: filter,
       });
+
+      console.log(data);
 
       if (data) setSubscriptions(data[0][plan]);
       setIsLoading(false);

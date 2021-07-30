@@ -5,7 +5,7 @@ const info = '/static/images/tostify/Info.png';
 const success = '/static/images/tostify/Success.png';
 const warning = '/static/images/tostify/Warning.png';
 
-const TostifyCustomContainer = (type, message, ...rest) => {
+const TostifyCustomContainer = (type, message) => {
   switch (type) {
     case 'warning':
       return toast.warning(

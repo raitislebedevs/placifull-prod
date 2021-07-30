@@ -18,7 +18,6 @@ const useSingleSubscription = (id) => {
       const { data } = await Subscriptions.FIND({
         _where: filter,
       });
-
       if (data?.length == 0) {
         setSubscriptions({});
       } else {

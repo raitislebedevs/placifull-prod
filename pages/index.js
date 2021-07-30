@@ -9,7 +9,6 @@ import {
   ServiceSection,
   PriceSection,
 } from '../components/pages/home';
-const logo = '/static/images/title.png';
 
 const Home = (props) => {
   const { t } = props;
@@ -17,7 +16,6 @@ const Home = (props) => {
     <div className="home-container">
       <Head>
         <title>Placifull</title>
-        <link rel="icon" href={logo} sizes="180x180" />
       </Head>
       <HeroSection t={t} />
       <RealEstateSection t={t} />
