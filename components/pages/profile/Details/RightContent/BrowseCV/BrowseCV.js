@@ -6,6 +6,8 @@ import {
   SelectInputSubmit,
   CurrencyInput,
 } from 'components/common';
+
+import ReactPaginate from 'react-paginate';
 import { AiOutlineFileSearch } from 'react-icons/ai';
 import NumberFormat from 'react-number-format';
 import fields from './fields';
@@ -16,6 +18,9 @@ import guidGenerator from 'utils/guidGenerator';
 
 const BrowseCV = (props) => {
   const { t } = props;
+  const [limit, setLimit] = useState(7);
+  const [skip, setSkip] = useState(0);
+  const [total, setTotal] = useState(1);
   const [inputValues, setInputValues] = useState({});
   const peopleCv = fields(t);
   const [submitCurrency, setsubmitCurrency] = useState('');
@@ -69,14 +74,16 @@ const BrowseCV = (props) => {
     };
     try {
       const { data, error } = await CurriculumVitaesService.FIND_FORM({
-        // _limit: limit,
-        // _start: skip,
+        _limit: limit,
+        _start: skip,
         _where: filter || null,
         _search: search || null,
         //_sort: sort || 'insertDate:asc',
       });
+
       if (data) {
         setApplicantCvs(data);
+        setTotal(data.length || 1);
       }
     } catch (error) {
       TostifyCustomContainer('error', error);
@@ -97,6 +104,11 @@ const BrowseCV = (props) => {
     }
 
     setViewApplicant('');
+  };
+  const handlePageChange = (page) => {
+    let selected = page.selected;
+    let skip = Math.ceil(selected * limit);
+    setSkip(skip);
   };
 
   useEffect(() => {
@@ -340,6 +352,29 @@ const BrowseCV = (props) => {
         show={showCv}
         onHide={() => setShowCv(false)}
       />
+
+      <div className="search-result__paginate">
+        <ReactPaginate
+          previousLabel={'←'}
+          nextLabel={'→'}
+          breakLabel={'...'}
+          breakClassName={'page-item'}
+          breakLinkClassName={'page-link'}
+          pageCount={Math.ceil(total / limit)}
+          marginPagesDisplayed={2}
+          pageRangeDisplayed={2}
+          onPageChange={handlePageChange}
+          containerClassName={'pagination'}
+          subContainerClassName={'page-item'}
+          activeClassName={'page-item active'}
+          nextClassName={'page-item'}
+          nextLinkClassName={'page-link'}
+          previousClassName={'page-item'}
+          previousLinkClassName={'page-link'}
+          pageClassNam={'page-item'}
+          pageLinkClassName={'page-link'}
+        />
+      </div>
     </div>
   );
 };
