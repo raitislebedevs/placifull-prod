@@ -18,15 +18,19 @@ import { CurriculamVitaes, CurrencyInput } from 'components/common';
 const CV = (props) => {
   const { t, user } = props;
   const [active, setActive] = useState('personalDetails');
+  const [curriculumVitaes, setCurriculumVitaes] = useState(
+    user.curriculumVitae
+  );
   const tabFieldInput = tabFields(t);
   //Initilizing values
-  const personalDetail = user.curriculumVitae?.PersonalDetails;
-  const educationDetail = user.curriculumVitae?.EducationHistory;
-  const workExpierience = user.curriculumVitae?.WorkExpierience;
-  const languageSkills = user.curriculumVitae?.LanguageSkiills;
-  const computerSkills = user.curriculumVitae?.ComputerSkiills;
-  const transportLicenses = user.curriculumVitae?.TransportLicenses;
-  const workExpectations = user.curriculumVitae?.WorkExpectations;
+  const personalDetail = curriculumVitaes?.PersonalDetails;
+  const educationDetail = curriculumVitaes?.EducationHistory;
+  const workExpierience = curriculumVitaes?.WorkExpierience;
+  const languageSkills = curriculumVitaes?.LanguageSkiills;
+  const computerSkills = curriculumVitaes?.ComputerSkiills;
+  const transportLicenses = curriculumVitaes?.TransportLicenses;
+  const workExpectations = curriculumVitaes?.WorkExpectations;
+  const published = curriculumVitaes?.published;
 
   const [saveCv, setsaveCv] = useState(false);
   const [submitCurrency, setsubmitCurrency] = useState();
@@ -43,6 +47,7 @@ const CV = (props) => {
     birthDay: personalDetail?.birthDay || '',
     gender: personalDetail?.gender || '',
     showAge: personalDetail?.showAge || '',
+    isPublished: published || false,
     //Array Components
     EducationHistory: educationDetail || [],
     WorkExpierience: workExpierience || [],
@@ -51,6 +56,21 @@ const CV = (props) => {
     TransportLicenses: transportLicenses || [],
     WorkExpectations: workExpectations || [],
   });
+
+  const getcv = async (id) => {
+    try {
+      const { data, error } = await CurriculumVitaesService.GET(id);
+      if (data) {
+        setCurriculumVitaes(data);
+      }
+    } catch (error) {
+      TostifyCustomContainer('error', 'CV was not retrieved');
+    }
+  };
+
+  useEffect(() => {
+    getcv(user?.curriculumVitae?.id);
+  }, []);
 
   // CV component states
   const [education, setEducation] = useState([]);
@@ -97,15 +117,15 @@ const CV = (props) => {
   const [cvModal, setCvModal] = useState(false);
 
   const handleOnChange = (event) => {
-    console.log(inputValues);
     const value = event?.target?.value ?? event?.value ?? event;
     const id = event?.target?.id ?? event?.id;
+    console.log(value);
+    console.log(id);
     setInputValues({ ...inputValues, [id]: value });
   };
 
   //Education Initiliazier.
   useEffect(() => {
-    console.log(educationDetail);
     if (educationDetail?.length) {
       setEducation(educationDetail);
       let initItems = [];
@@ -342,6 +362,7 @@ const CV = (props) => {
         birthDay: inputValues?.birthDay || null,
         gender: inputValues?.gender || null,
         showAge: inputValues?.showAge || null,
+        published: inputValues?.isPublished || false,
       },
       LanguageSkiills: inputValues?.LanguageSkiills || null,
       WorkExpierience: inputValues?.WorkExpierience || null,
@@ -349,6 +370,7 @@ const CV = (props) => {
       ComputerSkiills: inputValues?.ComputerSkiills || null,
       TransportLicenses: inputValues?.TransportLicenses || null,
       WorkExpectations: inputValues?.WorkExpectations || null,
+      published: inputValues?.isPublished || false,
     };
 
     return payload;

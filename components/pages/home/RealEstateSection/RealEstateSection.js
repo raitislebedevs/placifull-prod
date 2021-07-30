@@ -45,9 +45,13 @@ const RealEstateSection = (props) => {
   const getRealEstate = async () => {
     try {
       setIsLoading(true);
+      const filter = {
+        isPromotable: true,
+      };
       const result = await RealEstateListingServices.FIND({
         _limit: limit,
         _start: skip,
+        _where: filter,
       });
       const count = await RealEstateListingServices.COUNT();
       setTotal(count.data);

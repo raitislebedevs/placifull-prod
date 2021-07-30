@@ -19,7 +19,6 @@ import { addDays } from 'utils/standaloneFunctions';
 const TransportSubmit = (props) => {
   const { t, user } = props;
   const router = useRouter();
-  const [isPaying, setIsPaying] = useState(false);
   const [isStripe, setIsStripe] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [isPreview, setPreview] = useState(false);
@@ -73,6 +72,7 @@ const TransportSubmit = (props) => {
     var expiryDate = addDays(new Date(), defaultExpiryDays);
 
     let payload = {
+      isPromotable: paymentDetails?.promoted || false,
       name: inputValues?.transportName || null,
       currency: inputValues?.transportCurrency || null,
 

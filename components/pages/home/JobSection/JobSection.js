@@ -48,9 +48,13 @@ const JobSection = (props) => {
   const getRealEstate = async (skipSize) => {
     try {
       setIsLoading(true);
+      const filter = {
+        isPromotable: true,
+      };
       const result = await VacancyListingService.FIND({
         _limit: limit,
         _start: skip,
+        _where: filter,
       });
       const count = await VacancyListingService.COUNT();
 

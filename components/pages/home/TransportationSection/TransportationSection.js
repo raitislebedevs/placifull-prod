@@ -46,9 +46,13 @@ const TransportationSection = (props) => {
   const getRealEstate = async () => {
     try {
       setIsLoading(true);
+      const filter = {
+        isPromotable: true,
+      };
       const result = await TransportListingService.FIND({
         _limit: limit,
         _start: skip,
+        _where: filter,
       });
       const count = await TransportListingService.COUNT();
       setTotal(count.data);

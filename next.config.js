@@ -6,6 +6,7 @@ module.exports = withImages({
   env: {
     API_ENDPOINT: process.env.API_ENDPOINT,
     API_SUFFIX: process.env.API_SUFFIX,
+    STRIPE_PUBLIC_KEY: process.env.STRIPE_PUBLIC_KEY,
   },
   // future: {
   //   webpack5: true,

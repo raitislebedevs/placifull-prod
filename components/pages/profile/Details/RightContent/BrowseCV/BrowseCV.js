@@ -28,12 +28,14 @@ const BrowseCV = (props) => {
   let cvCount = 1;
 
   const handleOnChange = (event) => {
+    console.log(inputValues);
     const value = event?.target?.value ?? event?.value ?? event;
     const id = event?.target?.id ?? event?.id;
     setInputValues({ ...inputValues, [id]: value });
   };
 
   const postMultiSelection = (event) => {
+    console.log(event);
     var arrayValues = [];
     event?.values.forEach((element) => {
       arrayValues.push(element?.value);
@@ -52,6 +54,7 @@ const BrowseCV = (props) => {
     let filter = {
       ...cleanObject({
         'currency.id': inputValues?.searchCurrency || null,
+        published: true,
       }),
     };
 
@@ -151,6 +154,7 @@ const BrowseCV = (props) => {
                 <Form.Group>
                   <SelectInputSubmit
                     id={item.key}
+                    value={inputValues[item.key]}
                     clearIds={clearIds}
                     onChange={(event) => {
                       postMultiSelection({

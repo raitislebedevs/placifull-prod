@@ -3,6 +3,7 @@ import { Modal } from 'react-bootstrap';
 import CheckoutForm from '../CheckoutForm';
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
+import config from 'config';
 
 const ELEMENTS_OPTIONS = {
   fonts: [
@@ -14,10 +15,10 @@ const ELEMENTS_OPTIONS = {
 
 const StripeContainer = (props) => {
   const { handleDataSubmit, paymentDetails, setIsStripe } = props;
-  const PUBLIV_KEY =
-    'pk_test_51HYshtLQeXlfqG3xg2gis20CqvIQVXWLc946TBWzIRAHBoTgMnpY47eMXxx21I6tDdv0fVp01OUUl6PmmzdXepgB00izqNEo69';
+  const PUBLIC_KEY = config.STRIPE.PUBLIC_KEY;
 
-  const stripePromise = loadStripe(PUBLIV_KEY);
+  const stripePromise = loadStripe(PUBLIC_KEY);
+
   return (
     <Modal {...props} size="lg" centered className="spiner__modal">
       <Modal.Body>

@@ -42,16 +42,12 @@ const PaymentModalForm = (props) => {
   const getSubscriptions = async () => {
     setIsLoading(true);
     try {
-      console.log(user?.id);
       const filter = {
         userId: user?.id,
       };
       const { data } = await Subscriptions.FIND({
         _where: filter,
       });
-
-      console.log(data);
-
       if (data) setSubscriptions(data[0][plan]);
       setIsLoading(false);
     } catch (e) {
@@ -80,7 +76,7 @@ const PaymentModalForm = (props) => {
 
     let payload = {
       ...paymentDetails,
-      isPromoted: isPromoted ? promotedCost : 0,
+      isPromoted: promotedCost ? true : false,
       addedDays: Number((dayCost * addedDays).toFixed(2)),
       purchasePlan: pricingOption,
       totalCost: totalAmount,

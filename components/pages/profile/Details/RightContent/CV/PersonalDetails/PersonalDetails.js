@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Row, Col, Form, Button, Spinner } from 'react-bootstrap';
 import { CustomFormControl, SelectInputSubmit } from 'components/common';
 import { RiSaveLine } from 'react-icons/ri';
@@ -13,9 +13,12 @@ const PersonalDetails = (props) => {
     props;
   const inputFields = fields(t);
   const [clearIds, setClearIds] = useState([]);
+  const [isCVPublished, setIsCVPublished] = useState(inputValues.isPublished);
 
   const handleCvUpdates = async () => {
     setsaveCv(true);
+
+    console.log(inputValues.isPublished);
     try {
       let payload = {
         PersonalDetails: {
@@ -32,7 +35,10 @@ const PersonalDetails = (props) => {
           gender: inputValues?.gender || null,
           showAge: inputValues?.showAge || null,
         },
+        published: inputValues?.isPublished || false,
       };
+
+      console.log(payload);
       //Here we actually send the Payload to Update_me Function, which is stored in
       const { data } = await CurriculumVitaesService.UPDATE_ME(payload);
       if (data) {
@@ -44,13 +50,18 @@ const PersonalDetails = (props) => {
     setsaveCv(false);
   };
 
+  useEffect(() => {
+    let payload = { id: 'isPublished', value: isCVPublished };
+    handleOnChange(payload);
+  }, [isCVPublished]);
+
   return (
     <div className="wrapper__body ">
       <Row className="wrapper__body--header mb-4">
         <Col
-          xl={6}
-          lg={6}
-          md={6}
+          xl={12}
+          lg={12}
+          md={12}
           sm={12}
           xs={12}
           className="wrapper__body--heading__col"
@@ -78,6 +89,23 @@ const PersonalDetails = (props) => {
                 className="header-wrapper__save btn-sm"
               >
                 <RiSaveLine />
+              </Button>
+            )}
+            {isCVPublished ? (
+              <Button
+                variant="outline-primary"
+                className="header-wrapper__save btn-sm"
+                onClick={() => setIsCVPublished(!isCVPublished)}
+              >
+                Published
+              </Button>
+            ) : (
+              <Button
+                onClick={() => setIsCVPublished(!isCVPublished)}
+                variant="outline-primary"
+                className="header-wrapper__save btn-sm"
+              >
+                Not Published
               </Button>
             )}
           </div>

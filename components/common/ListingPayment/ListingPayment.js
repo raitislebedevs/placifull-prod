@@ -16,7 +16,7 @@ const ListingPayment = (props) => {
   } = props;
   const [receiptModal, setReceiptModal] = useState(false);
   const [paymentDetails, setPaymentDetails] = useState({
-    isPromoted: 0,
+    isPromoted: false,
     addedDays: 0,
     purchacePrice: 0,
     purchasePlan: '',
