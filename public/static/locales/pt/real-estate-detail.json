@@ -1,0 +1,58 @@
+{
+  "header": {
+    "flag-button": "MARCAR ESTE CONTEÚDO"
+  },
+  "detail-info": {
+    "button": "QUERO MUDAR-ME AGORA"
+  },
+  "contact-times": {
+    "heading": "Horário preferencial de contato"
+  },
+  "about": {
+    "heading": "Sobre",
+    "featured": "Em destaque",
+    "notFeatured": "Sem destaque",
+    "rentTime": "por mês",
+    "inputTimeDays": "dias atrás"
+  },
+
+  "general-info": {
+    "heading": "Informação geral",
+    "property-area": "Área da propriedade",
+    "rooms": "Quartos",
+    "year-built": "Ano da construção",
+    "price": "Preço",
+    "total-ultilities": "Serviços gerais",
+    "move-in": "Data de entrada",
+    "move-out": "Data de saída",
+    "min-time": "Tempo mínimo",
+    "bid-price": "Valor da oferta pela propriedade",
+    "submit": "OFERTA",
+    "bid-placeholder": "Oferta com 20% de margem"
+  },
+
+  "contact-form": {
+    "heading": "Contatar diretamente o proprietário",
+    "form": {
+      "heading": "Escreva sua pergunta aqui",
+      "fullName": "Nome completo*",
+      "phoneNumber": "Número de telefone*",
+      "email": "Endereço de e-mail*",
+      "message": "Sua mensagem*",
+      "submit": "ENVIAR MENSAGEM"
+    }
+  },
+  "extra": {
+    "heading": "Outros anúncios deste perfil",
+    "table": {
+      "number": "N°",
+      "country": "País",
+      "full-address": "Endereço completo",
+      "property-type": "Tipo de propriedade",
+      "price": "Preço",
+      "area": "Área",
+      "bed-rooms": "Quartos",
+      "year-built": "Ano de construção"
+    }
+  }
+}

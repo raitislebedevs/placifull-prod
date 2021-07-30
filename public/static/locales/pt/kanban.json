@@ -1,0 +1,41 @@
+{
+  "kanban": {
+    "save": "Salvar painel",
+    "saving": "Salvando...",
+    "salary": {
+      "hour": "/hora",
+      "month": "/mês",
+      "year": "/ano"
+    },
+    "job-overview": {
+      "title": "Descrição geral do cargo",
+      "industry": "Indústria",
+      "languages-en": "Idiomas (IN)",
+      "native": "Idiomas nativos",
+      "contract-type": "Tipo de contrato",
+      "working-time": "Horário de trabalho",
+      "expiry-date": "Data de encerramento"
+    },
+    "statistics": {
+      "title": "Estatísticas",
+      "applicants": "Inscritos",
+      "interviewed": "Entrevistados",
+      "processing": "Em processo",
+      "reviewed": "Revisados",
+      "shortlisted": "Pré-selecionados",
+      "hired": "Contratados"
+    },
+    "columns": {
+      "applicants": "Candidatos inscritos",
+      "reviewed": "Candidaturas revisadas",
+      "shortlisted": "Pré-selecionados",
+      "interviewed": "Candidatos entrevistados",
+      "pending": "Pendentes de aceite",
+      "accepted": "Candidatos contratados",
+      "column-name": "Nova coluna",
+      "edit": "Editar"
+    },
+    "view-cv": "Ver CV",
+    "remove": "Remover"
+  }
+}

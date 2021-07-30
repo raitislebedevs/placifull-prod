@@ -1,0 +1,77 @@
+{
+  "heading": "Enviar anúncio",
+  "form": {
+    "submit": "Enviar",
+    "submit-confirm": "Salvando...",
+    "preview-sneak-peak": "Gerando...",
+    "preview": "Prévia",
+    "currency": "Moeda",
+    "no-currency": "TODOS",
+    "general-information": {
+      "heading": "Informação geral",
+      "transport-type": "Tipo de transporte",
+      "action": "Ação",
+      "condition": "Condição",
+      "input-fields": {
+        "description": "Descrição",
+        "brand": "Marca de transporte",
+        "model": "Modelo de transporte",
+        "production-year": "Ano de fabricação",
+        "price": "Preço",
+        "engine-type": "Tipo de motor",
+        "gear-box": "Câmbio",
+        "millage": "Distância",
+        "speed": "Velocidade máx",
+        "fueal-economy": "Economia de combustível",
+        "seats": "Número de assentos",
+        "doors": "Número de portas",
+        "name": "Título do anúncio de transporte"
+      }
+    },
+    "detail-information": {
+      "heading": "Informação detalhada",
+      "contact": {
+        "heading": "Contato",
+        "email": "E-mail",
+        "address": "Endereço",
+        "contact-times": {
+          "label": "Horário de contato",
+          "placeholder": "Escolha a hora preferencial para contato",
+          "options": {
+            "any-time": "Qualquer hora",
+            "working-days": "Dias úteis",
+            "office-hours": "Horário comercial",
+            "specific-times": "Horários específicos"
+          }
+        },
+        "listing-website": "Webiste: https://"
+      },
+      "features": {
+        "heading": "Características",
+        "category": {
+          "equipment": "Equipamento",
+          "interior": "Interior",
+          "steering-wheel": "Volante",
+          "seats": "Assentos",
+          "lights": "Luzes",
+          "audio-video": "Áudio/vídeo",
+          "mirrros": "Espelhos"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "Galeria",
+      "click-drop": "SELECIONE OU ARRASTE AS IMAGENS PARA AQUI",
+      "video-url": "URL do vídeo: https://"
+    },
+    "contact-hours": {
+      "heading": "Horário de contato",
+      "heading-tip": "Opcional",
+      "accordion": {
+        "heading": "Adicionar o horário mais adequado para encontro/chamada",
+        "start-time": "De",
+        "end-time": "Até"
+      }
+    }
+  }
+}

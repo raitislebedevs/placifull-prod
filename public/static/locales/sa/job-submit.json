@@ -1,11 +1,11 @@
 {
-  "heading": "إرسال القائمة",
+  "heading": "إرسال الإعلان",
   "form": {
     "submit-confirm": "حِفظ...",
     "preview-sneak-peak": "توليد...",
     "preview": "مُعاينة",
     "no-currency": "العُملة",
-    "no-features": "يُرجى تحديد فئة القائمة",
+    "no-features": "يُرجى تحديد فئة الإعلان",
     "job-title": {
       "title": "المُسّمى ّالوظيفي",
       "placeholder": "اسم الوظيفة؛ على سبيل المثال،  راعي منصّة بلاسيفول."

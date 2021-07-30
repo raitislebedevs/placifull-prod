@@ -1,0 +1,384 @@
+{
+  "overview": {
+    "button-label": {
+      "change": "Trocar a imagem",
+      "delete": "Apagar a imagem",
+      "save-all": "Salvar tudo",
+      "preview": "Prévia"
+    },
+    "setting-label": "Comprado",
+    "delete-avatar-modal": {
+      "header": "Apagar avatar",
+      "body": "Você quer apagar seu avatar?",
+      "submit": "Apagar",
+      "cancel": "Cancelar"
+    }
+  },
+  "hover-texts": {
+    "real-estate": "Anúncios imobiliários",
+    "transport": "Anúncios de transporte",
+    "job": "Anúncios de empregos",
+    "browser": "Pesquisa de CV"
+  },
+  "left-tab": {
+    "navigation": "Navegação",
+    "titles": {
+      "profile": "Perfil",
+      "cv": "CV",
+      "real-estate": "Imóveis",
+      "transport": "Transporte",
+      "jobs": "Empregos",
+      "browser": "Pesquisa de CV",
+      "payment": "Recibos de pagamento",
+      "logout": "Encerrar a sessão"
+    }
+  },
+  "right-content": {
+    "prev-button": "Passo anterior",
+    "next-button": "Passo seguinte",
+    "profile": {
+      "personal-details": {
+        "heading": "Detalhes pessoais:",
+        "labels": {
+          "profession": "Profissão",
+          "first-name": "Nome",
+          "last-name": "Sobrenome",
+          "email": "Seu e-mail",
+          "phone-number": "N° de telefone",
+          "about-me-heading": "Sobre mim",
+          "about-me": "Qual o seu diferencial?",
+          "country": "País",
+          "state": "Estado/Região",
+          "city": "Cidade",
+          "birth-date": "Data de nascimento",
+          "gender": {
+            "label": "Sexo",
+            "men": "Masculino",
+            "women": "Feminino",
+            "not-specified": "Não mostrar"
+          },
+          "age": {
+            "label": "Mostrar idade",
+            "yes": "Sim",
+            "no": "Não",
+            "only-birth-date": "Apenas data de nascimento"
+          }
+        },
+        "button-save": "Salvar alterações"
+      },
+      "password-form": {
+        "text": "Trocar senha:",
+        "old-password": "Senha antiga",
+        "new-password": "Senha nova",
+        "confirm-password": "Confirme a senha",
+        "button-save": "Salvar a senha",
+        "validation": {
+          "current-password-required": "Por, favor, confirme a senha",
+          "new-password-required": "Falta a senha nova ",
+          "password-not-match": "Senhas não conferem",
+          "confirm-password-required": "Por favor, confirme a senha"
+        }
+      },
+      "delete-form": {
+        "text": "Apagar a conta:",
+        "content": "Você deseja apagar a conta? Por favor, selecione 'Apagar'",
+        "button-delete": "Apagar conta"
+      },
+      "validation": {
+        "first-name": "É necessário informar o nome",
+        "last-name": "É necessário informar o sobrenome"
+      }
+    },
+    "tabs": {
+      "actions": {
+        "sell": "Para vender",
+        "rent": "Para alugar",
+        "exchange": "Trocar"
+      },
+      "common": {
+        "button-edit": "Editar",
+        "button-reviews": "Comentários",
+        "button-delete": "Apagar",
+        "days-left": "dias restantes",
+        "title": "Meus anúncios",
+        "highest": "Oferta mais alta",
+        "lowest": "Oferta mais baixa"
+      },
+      "job": {
+        "count": "Número de candidatos",
+        "avarage": "Oferta média",
+        "lowest": "Oferta mais baixa",
+        "highest": "Oferta mais alta",
+        "button": "Ver tudo"
+      },
+      "browser": {
+        "common": {
+          "area": "Área de trabalho"
+        },
+        "title": "Ver CV",
+        "search": {
+          "button": "Pesquisar",
+          "expirience": {
+            "label": "Experiência",
+            "options": {}
+          },
+          "hourly-to": "Por hora até",
+          "monthly-to": "Por mês até",
+          "annual-to": "Por ano até"
+        },
+        "table": {
+          "name": "Nome",
+          "email": "E-mail",
+          "phone": "Número de telefone",
+          "salary": "Expectativa de salário"
+        }
+      },
+      "receipt": {
+        "title": "Recibos de pagamento",
+        "search": {
+          "search-from": "Selecionar data inicial",
+          "search-to": "Selecionar data final",
+          "button": "Pesquisar"
+        },
+        "table": {
+          "order": "N° do pedido",
+          "date": "Data",
+          "premium": "Em destaque",
+          "add-days": "Dias extras",
+          "type": "Tipo de anúncio"
+        }
+      }
+    },
+    "cv": {
+      "title": "Curriculum Vitae",
+      "sections": {
+        "personal-details": {
+          "form": {
+            "title": "Dados pessoais",
+            "first-name": "Nome",
+            "last-name": "Sobrenome",
+            "email": "E-mail",
+            "phone": "Telefone",
+            "birthday": "Aniversário",
+            "age": {
+              "label": "Mostrar idade",
+              "options": {
+                "yes": "Sim",
+                "no": "Não",
+                "only-birthdate": "Apenas data de nascimento"
+              }
+            },
+            "gender": {
+              "label": "Sexo",
+              "options": {
+                "male": "Masculino",
+                "female": "Feminino",
+                "dont–show": "Não mostrar"
+              }
+            },
+            "about-me": "Qual o seu diferencial?"
+          }
+        },
+        "education": {
+          "title": "Educação",
+          "accordion": {
+            "school": "Nome da escola",
+            "country": "País",
+            "from-date": "Data inicial",
+            "to-date": "Data final",
+            "study-area": "Área de estudo",
+            "qualification": {
+              "title": "Qualificação",
+              "options": {
+                "primary": "Ensino fundamental",
+                "secondary": "Ensino médio",
+                "vocational": "Curso técnico",
+                "bachelors": "Ensino superior",
+                "master": "Mestrado",
+                "doctorate": "Doutorado",
+                "other": "Outro"
+              }
+            },
+            "best-fit": "Adequação profissional",
+            "grade": "Grau médio",
+            "button-add": "Adicionar formação"
+          }
+        },
+        "expierience": {
+          "title": "Experiência de trabalho",
+
+          "company-name": "Nome da empresa",
+          "from-date": "Data inicial",
+          "to-date": "Data final",
+          "work-area": "Área de trabalho",
+          "position": "Cargo",
+          "position-description": "Descrição do cargo",
+          "sector": "Setor",
+          "seniority": {
+            "title": "Senioridade",
+            "options": {
+              "volunteer": "Voluntário",
+              "intern": "Estagiário",
+              "junior": "Júnior",
+              "intermediate": "Intermediário",
+              "senior": "Senior",
+              "executive": "Executivo",
+              "ceo": "CEO",
+              "other": "Outro"
+            }
+          },
+
+          "button-add": "Adicionar experiência"
+        },
+        "languages": {
+          "title": "Conhecimento de idiomas",
+          "accordion": {
+            "language": "Idioma",
+            "certificate": "Nome da certificação",
+            "level": {
+              "label": "Nível",
+              "options": {
+                "a1": "A1",
+                "a2": "A2",
+                "b1": "B1",
+                "b2": "B2",
+                "c1": "C1",
+                "c2": "C2",
+                "native": "Nativo"
+              }
+            },
+            "button-add": "Adicionar habilidade"
+          }
+        },
+        "computer": {
+          "title": "Conhecimentos de informática",
+          "accordion": {
+            "skill-name": "Habilidade em informática",
+            "knowladge-gained": {
+              "label": "Conhecimentos adquiridos",
+              "options": {
+                "selfTaught": "Autodidata",
+                "course": "Curso",
+                "freelance": "Autônomo",
+                "contractProject": "Contrato por projeto",
+                "fullTimeJob": "Emprego de tempo integral",
+                "other": "Outro"
+              }
+            },
+            "expierience": {
+              "label": "Experiência",
+              "uptoOne": "< 1 ano",
+              "oneToThree": "1-3 anos",
+              "threeToFive": "3-5 anos",
+              "fiveToTen": "5-10 anos",
+              "tenToFifteen": "10-15 anos",
+              "moreThanFifteen": "Mais de 15 anos"
+            },
+            "certificate": "Nome da certificação",
+            "button-add": "Adicionar conhecimento"
+          }
+        },
+        "licenses": {
+          "title": "Habilitação",
+          "accordion": {
+            "country": "País de emissão",
+            "expierience": {
+              "label": "Experiência",
+              "uptoOne": "< 1 ano",
+              "oneToThree": "1-3 anos",
+              "threeToFive": "3-5 anos",
+              "fiveToTen": "5-10 anos",
+              "tenToFifteen": "10-15 anos",
+              "moreThanFifteen": "Mais de 15 anos"
+            },
+            "category": "Categoria da licença",
+            "button-add": "Adicionar licença"
+          }
+        },
+        "expectations": {
+          "title": "Expectativas de trabalho",
+          "accordion": {
+            "title": "Expectativas de trabalho",
+            "interest": "Áreas de iteresse",
+            "position": "Cargo",
+            "seniority": {
+              "title": "Senioridade",
+              "options": {
+                "volunteer": "Voluntário",
+                "intern": "Estagiário",
+                "junior": "Júnior",
+                "intermediate": "Intermediário",
+                "senior": "Senior",
+                "executive": "Executivo",
+                "ceo": "CEO",
+                "other": "Outro"
+              }
+            },
+            "hourly": "Por hora a partir de",
+            "monthly": "Por mês a partir de",
+            "yearly": "Por ano a partir de",
+            "button-add": "Adicionar expectativa"
+          }
+        }
+      }
+    },
+    "browser-cv": {
+      "browser": "Pesquisar CV",
+      "search": "Pesquisar",
+      "work-expierience": "Experiência de trabalho",
+      "work-expectations": "Expectativas de trabalho",
+      "education-fit": "Área de formação",
+      "salary-hourly": "Salário por hora até",
+      "salary-monthly": "Salário mensal até",
+      "salary-annual": "Salário mensal até",
+      "seniority": "Senioridade",
+      "monthly": "/mensal",
+      "result-table": {
+        "nr": "N°",
+        "name": "Nome completo",
+        "email": "E-mail",
+        "phone": "Telefone",
+        "worked-as": "Último cargo,",
+        "salary": "Expectativa de salário",
+        "cv": "CV",
+        "view": "Ver"
+      }
+    },
+    "receipt": {
+      "title": "Recibos de pagamento",
+      "start-date": "Data inicial",
+      "end-date": "Data final",
+      "table": {
+        "reference": "N° do pedido",
+        "date": "Data",
+        "purchase": "Plano",
+        "total": "Valor",
+        "status": "Status"
+      }
+    }
+  },
+  "toast": {
+    "succes": "O perfil foi atualizado",
+    "fail": "O perfil não foi atualizado",
+    "avatar": "Avatar atualizado",
+    "avatar-fail": "Falha na atualização do avatar",
+    "avatar-remove": "O avatar foi removido",
+    "avatar-remove-fail": "O avatar não foi removido",
+    "logout": "A sessão foi encerrada",
+    "password": "A senha foi alterada",
+    "password-fail": "A senha não foi alterada",
+    "item-deleted": "Anúncio removido"
+  },
+  "delete-modal": {
+    "header": "Apagar anúncio",
+    "body": "Você tem certeza que deseja apagar este anúncio?",
+    "cancel": "Cancelar",
+    "delete": "Apagar"
+  },
+  "delete-account": {
+    "header": "Apagar conta",
+    "body": "Você tem certeza que deseja apagar sua conta?",
+    "cancel": "Cancelar",
+    "delete": "Apagar"
+  }
+}

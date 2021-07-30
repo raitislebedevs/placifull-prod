@@ -21,7 +21,7 @@
     },
     "form": {
       "added-days": {
-        "label": "تمديد القائمة بـ:",
+        "label": "تمديد أيام النشر بـ:",
         "suffix": "أيّام"
       },
       "card-details": {
@@ -62,7 +62,7 @@
     "receipt-table": {
       "plan": "الخُطّة",
       "quantity": "الكمّية",
-      "promote": "تمّ التّرويج لها",
+      "promote": "مُميّزة",
       "extend-expiry": "تمديد انتهاء الصّلاحية",
       "total": "المجموع",
       "total-amount": "المبلغ الإجمالي:",

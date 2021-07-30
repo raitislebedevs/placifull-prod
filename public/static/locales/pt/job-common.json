@@ -1,0 +1,87 @@
+{
+  "contract-type": {
+    "label": "Tipo de contrato",
+    "options": {
+      "temporarly": "Temporário",
+      "fullTime": "Tempo integral",
+      "partTime": "Tempo parcial",
+      "remoteFullTime": "Remoto (tempo integral)",
+      "remotePartTime": "Remoto (parcial)",
+      "other": "Outro"
+    }
+  },
+  "working-time": {
+    "label": "Horário de trabalho",
+    "options": {
+      "officeHours": "Horário comercial",
+      "shifts": "Turnos",
+      "flexible": "Flexível",
+      "other": "Outro"
+    }
+  },
+  "contact-times": {
+    "label": "Horário para contato",
+    "placeholder": "Escolha horário preferencial para contato",
+    "not-specified": "Não especificado",
+    "options": {
+      "any-time": "Qualquer horário",
+      "working-days": "Dias úteis",
+      "office-hours": "Horário comercial",
+      "specific-times": "Horários específicos"
+    }
+  },
+  "features": {
+    "heading": "Características",
+    "licenses": "Habilitação",
+    "education": "Formação/Títulação",
+    "expierience": "Experiência em anos",
+    "candiadate": "O candidato deve ser capaz de",
+    "weOffer": "Oferecemos"
+  },
+  "salary": {
+    "heading": "Salário",
+    "monthly-from": "Salário a partir de",
+    "monthly-to": "Salário até",
+    "hourly-rate-from": "Hora de trabalho a partir de",
+    "annual-from": "Salário anual a partir de",
+    "annual-to": "Salário anual até",
+    "hourly-rate-to": "Hora de trabalho até"
+  },
+  "work-area": {
+    "label": "Área de trabalho",
+    "options": {
+      "intern": "Estágio",
+      "volunteerWork": "Trabalho voluntário",
+      "stockExchange": "Bolsa de valores",
+      "administrationAssistance": "Administração/assistência",
+      "constructionRealEstate": "Construção/Mercado imobiliário",
+      "humanResources": "Recursos humanos",
+      "securityRescue": "Seguros/Serviços de resgate",
+      "military": "Militar",
+      "electronicsTelecomunication": "Eletrônicos/Telecomunicações",
+      "freelanceTemporary": "Autônomo/Cargo temporário",
+      "energyElectricity": "Energia/Eletricidade",
+      "pharmacy": "Farmácia",
+      "financeAccounting": "Finanças/Contabilidade",
+      "infromationTechnology": "Tecnologia da informação (TI)",
+      "jurisprudenceJustice": "Jurisprudência/Justiça",
+      "cultureArtEntertainemnt": "Cultura/Arte/Entretenimento",
+      "sports": "Esportes",
+      "qualityControl": "Controle de Qualidade/Gestão da Qualidade",
+      "agricutureEnvironmental": "Agricultura/Ciências Ambientais",
+      "medicineSocialCare": "Medicina/Assistência social",
+      "mediaPublicRelations": "Mídia/Relações públicas",
+      "forestryWoodworkingMetalWorking": "Silvicultura/Trabalho em madeira/Metalurgia",
+      "marketingAdvertising": "Marketing/Publicidade",
+      "productionIndustry": "Produção/Indústria",
+      "seasonalWork": "Trabalhos sazonais",
+      "technicalScience": "Ciências técnicas",
+      "services": "Serviços",
+      "transportLogistics": "Transporte/Logística",
+      "tourismCateringHotels": "Turismo/Refeições/Hotelaria",
+      "managment": "Gestão",
+      "government": "Governo",
+      "others": "Outro"
+    }
+  }
+}
