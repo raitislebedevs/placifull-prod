@@ -18,11 +18,11 @@ import guidGenerator from 'utils/guidGenerator';
 
 const BrowseCV = (props) => {
   const { t } = props;
+  const peopleCv = fields(t);
   const [limit, setLimit] = useState(7);
   const [skip, setSkip] = useState(0);
   const [total, setTotal] = useState(1);
   const [inputValues, setInputValues] = useState({});
-  const peopleCv = fields(t);
   const [submitCurrency, setsubmitCurrency] = useState('');
   const [clearIds, setClearIds] = useState([]);
   const [applicantCvs, setApplicantCvs] = useState([]);
@@ -33,15 +33,17 @@ const BrowseCV = (props) => {
   let cvCount = 1;
 
   const handleOnChange = (event) => {
-    console.log(inputValues);
+    console.log(event);
     const value = event?.target?.value ?? event?.value ?? event;
     const id = event?.target?.id ?? event?.id;
     setInputValues({ ...inputValues, [id]: value });
+    console.log(inputValues);
   };
 
   const postMultiSelection = (event) => {
-    console.log(event);
     var arrayValues = [];
+
+    console.log(event);
     event?.values.forEach((element) => {
       arrayValues.push(element?.value);
     });
@@ -125,7 +127,7 @@ const BrowseCV = (props) => {
         {peopleCv?.map((item) => {
           if (item.type === 'number') {
             return (
-              <Col lg={5} md={5} sm={6} key={guidGenerator()}>
+              <Col lg={5} md={5} sm={6} key={item.key}>
                 <Form.Group>
                   <NumberFormat
                     customInput={CustomFormControl}
@@ -162,11 +164,10 @@ const BrowseCV = (props) => {
 
           if (item.type === 'selectMulti') {
             return (
-              <Col lg={6} xl={6} md={6} sm={6} xs={12} key={guidGenerator()}>
+              <Col lg={6} xl={6} md={6} sm={6} xs={12} key={item.key}>
                 <Form.Group>
                   <SelectInputSubmit
                     id={item.key}
-                    value={inputValues[item.key]}
                     clearIds={clearIds}
                     onChange={(event) => {
                       postMultiSelection({
