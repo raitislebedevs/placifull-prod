@@ -19,7 +19,7 @@ const ExtraSection = (props) => {
 
   return (
     <>
-      {!isSingleListing && (
+      {isSingleListing && (
         <div className="real-estate-container__extra">
           <SubPageHeading className="extra__heading">
             {t('real-estate-detail:extra.heading')} {`(${userItemCount})`}

@@ -117,6 +117,16 @@ library.add(
 function App(props) {
   const { Component, pageProps } = props;
   const store = useStore(pageProps.initialReduxState);
+
+  useEffect(() => {
+    scrollRef.current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'end',
+      inline: 'nearest',
+    }),
+      [];
+  });
+
   const scrollRef = useRef(null);
   return (
     <Provider store={store}>
