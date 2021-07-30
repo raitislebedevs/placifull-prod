@@ -1,0 +1,56 @@
+{
+  "job-card": {
+    "location": "場所",
+    "salary": "給与",
+    "button": "詳細を見る",
+    "contract-type": {
+      "label": "契約タイプ",
+      "options": {
+        "temporarly": "一時雇用",
+        "fullTime": "フルタイム",
+        "partTime": "パートタイム",
+        "remoteFullTime": "リモート（フルタイム）",
+        "remotePartTime": "リモート（パートタイム）",
+        "other": "その他"
+      }
+    },
+    "working-schedule": {
+      "label": "勤務スケジュール",
+      "options": {
+        "officeHours": "オフィスアワー制",
+        "shifts": "シフト制",
+        "flexible": "フレックス制",
+        "other": "その他"
+      }
+    }
+  },
+
+  "transport-card": {
+    "gear-box": {
+      "label": "ギヤボックス",
+      "options": {
+        "manual": "MT車",
+        "automatic": "AT車",
+        "other": "その他"
+      }
+    }
+  },
+
+  "real-estate-card": {
+    "location": "場所",
+    "working-schedule": "勤務スケジュール",
+    "salary": "給与",
+    "contract-type": "契約タイプ",
+    "button": "詳細を見る"
+  },
+
+  "action": {
+    "label": "アクション",
+    "options": {
+      "sell": "売る",
+      "rent": "借りる",
+      "exchange": "交換",
+      "forParts": "部分ごと"
+    }
+  }
+}

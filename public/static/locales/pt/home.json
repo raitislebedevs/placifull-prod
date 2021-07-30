@@ -1,0 +1,271 @@
+{
+  "hero-section": {
+    "head": {
+      "line-1": "Placifull, onde se encontra a simplicidade",
+      "line-2": "Soluções cuidadosamente elaboradas para realizar seu sonho",
+      "line-3": "Pesquise empregos, imóveis e transportes para atender todas as suas necessidades em todos os cantos do mundo.",
+      "options": {
+        "text-1": "Confiabilidade",
+        "text-2": "Consistência",
+        "text-3": "Acessibilidade",
+        "text-4": "Abrangência"
+      }
+    },
+    "button": "Iniciar"
+  },
+  "real-estate-section": {
+    "badge": "Itens em destaque",
+    "head": {
+      "line-1": "Imóveis",
+      "line-2": "Melhores destaques em",
+      "line-3": "Placifull",
+      "line-4": "que requerem sua total atenção."
+    },
+    "button": "Ver todos"
+  },
+  "transportation-section": {
+    "badge": "Itens em destaque",
+    "head": {
+      "line-1": "Transporte",
+      "line-2": "Estes transportes em",
+      "line-3": "Placifull",
+      "line-4": "exigem sua atenção."
+    },
+    "button": "Ver todos"
+  },
+  "job-section": {
+    "badge": "Itens em destaque",
+    "head": {
+      "line-1": "Empregos Premium",
+      "line-2": "Sedento por mudança? Em",
+      "line-3": "Placifull",
+      "line-4": "você encontra o emprego dos sonhos que você sempre quis."
+    },
+    "jobs": {
+      "location": "Localização",
+      "working-schedule": "Horário de trabalho",
+      "salary": "Salário",
+      "working-place": "Local de trabalho",
+      "button": "Ver detalhes"
+    },
+    "button": "Ver mais"
+  },
+  "service-section": {
+    "head": {
+      "line-1": "Quem somos",
+      "line-2": "Explore o que mais valorizamos. Em",
+      "line-3": "Placifulll",
+      "line-4": "nós ouvimos o que você tem a dizer."
+    },
+    "services": {
+      "service-1": {
+        "open-modal": "Saiba mais",
+        "name": "Oportunidades anunciadas",
+        "description": "Nosso foco principal é ajudar as pessoas a se mudarem para um país diferente. Mudar-se para o exterior inclui muitos desafios, por isso estamos aqui para ajudá-lo com as ferramentas de pesquisa de que você precisa. Trabalho, casa, transporte, tudo pode ser encontrado em um só lugar. Você não precisa pesquisar mais.",
+
+        "modal": {
+          "header": "Explorar",
+          "description": "A Placifull está determinada a tornar a mudança para o exterior mais fácil para você e sua família. Nossa principal preocupação é oferecer a você todas as listas de empregos disponíveis de acordo com seus requisitos e qualificações. A Placifull acredita em ajudá-lo a enfrentar todos os desafios que surgem em uma nova vida, e você não precisará pesquisar mais depois de usar nossos serviços. Nossa equipe faz todo o trabalho árduo para você e tudo o que você precisa fazer é selecionar um dos anúncios de empregos que fornecemos. No entanto, nosso trabalho não termina aqui e continuaremos sendo muito úteis quando você iniciar seu novo trabalho.",
+          "close-button": "Fechar"
+        }
+      },
+      "service-2": {
+        "open-modal": "Ajude-nos agora",
+        "name": "Ajude-nos a melhorar",
+        "description": "Somos uma pequena equipe por trás das cortinas, portanto, examinaremos quaisquer alterações que você sugerir e adicionaremos ao nosso painel de votação.",
+
+        "modal": {
+          "header": "Melhorar",
+          "description": "Nossa equipe é formada por pessoas apaixonadas que trabalham muito para ajudá-lo a realizar seus sonhos. Portanto, estamos bastante focados em receber e implementar sugestões úteis de nossos usuários regulares. Se houver algo que você em nossos serviços que você acha que pode ser melhorado, não hesite em deixar um comentário em nosso painel de votação. Assim que a sugestão atingir dez mil votos positivos, devemos implementar as mudanças. Queremos que nossos usuários saibam que suas opiniões são muito valiosas para nós.",
+          "close-button": "Fechar",
+          "contact-button": "Entrar em contato"
+        }
+      },
+      "service-3": {
+        "name": "Curtir e Compartilhar",
+        "description": "Se você considera nossos serviços úteis e transformadores, seria muito útil para nós se você divulgasse nossa plataforma para todos os seus amigos e familiares. Promover e compartilhar nosso trabalho nos ajudará a crescer mais e a atendê-lo melhor."
+      },
+      "service-4": {
+        "open-modal": "Melhore-nos agora",
+        "name": "Melhore nossa qualidade",
+        "description": "Algo não funciona? O pagamento não foi realizado? Não hesite em fazer contato com a reclamação, iremos considerá-la como prioridade.",
+        "modal": {
+          "header": "Qualidade",
+          "description": "A Placifull é uma marca centrada na qualidade e acreditamos que todo o nosso valor está na qualidade dos serviços que prestamos. Asseguramos, de todo o coração, que não comprometemos nossa qualidade e padrões. Se você encontrar algo em nossa plataforma que não está funcionando tão bem quanto deveria, relate o problema para nós o mais cedo possível e nós o corrigiremos o quanto antes. A sua experiência com a Placifull é de extrema importância e iremos melhorar e atualizar o nosso sistema para melhor se adequar a você.",
+          "close-button": "Fechar",
+          "contact-button": "Entrar em contato"
+        }
+      },
+      "service-5": {
+        "open-modal": "Candidatar-me agora",
+        "name": "Oportunidades de carreira",
+        "description": "Trabalhamos muito e descansamos muito. Você quer fazer parte de nossa equipe? Então escreva-nos. Você escolhe com o que quer trabalhar, onde e que salário que deseja. Se gostarmos, VOCÊ será contratado.",
+        "modal": {
+          "header": "Carreira",
+          "description": "Nossos anúncios de empregos são exclusivos e você não encontrará estas ofertas em nenhum outro lugar. Oferecemos um excelente esquema de horas de trabalho, o que significa que você só terá que trabalhar 4 dias por semana e 8 horas por dia em vez de 12. Nas sextas-feiras de cada semana, você terá a opção de visitar o escritório ou não. Você pode definitivamente usar o tempo extra para colocar os amigos em dia, fazer exercícios, praticar seus hobbies e muito mais! A Placifull garante que o tempo de qualidade com seus amigos e familiares não seja interrompido devido ao seu trabalho. É por isso que a plataforma também garante que você tenha tempo de férias suficiente, começando com 20 dias e você pode obter até 28 dias de férias todos os anos. Isso dá um total de 76 dias. É quase impossível encontrar um horário de trabalho tão frutífero como este, por isso não espere mais e inscreva-se na Placifull.",
+          "close-button": "Fechar",
+          "contact-button": "Candidatar-me agora"
+        },
+        "modal-apply": {
+          "form": {
+            "header": "Envie-nos sua proposta!",
+            "firstName": "Nome",
+            "lastName": "Sobrenome",
+            "email": "Endereço eletrônico",
+            "phone": "Telefone",
+            "dreamJob": "Em que você gostaria de trabalhar?",
+            "applyText": "Por que devemos contratar você?",
+            "salary": "Expectativa de salário (mensal)",
+            "positionName": "Nome do cargo",
+            "apply": "Estou pronto!"
+          }
+        }
+      }
+    },
+    "learn-more": "Saiba mais"
+  },
+  "price-section": {
+    "badge": "",
+    "head": {
+      "line-1": "Nossas tarifas"
+    },
+    "prices": {
+      "price-1": {
+        "name": "Imóveis",
+        "tiers": {
+          "tier-2": {
+            "name": "Anúncio único",
+            "offer-1": "Pague uma vez, use sempre que necessário.",
+            "offer-2": "Anúncios publicados por até 395 dias",
+            "offer-3": "Liberdade para acompanhar ofertas de usuários",
+            "offer-4": "Remover a qualquer momento",
+            "button": "Experimentar agora"
+          },
+          "tier-3": {
+            "name": "Trimestral",
+            "offer-1": "8 anúncios ativos",
+            "offer-2": "Anúncios por até 395 dias",
+            "offer-3": "Acompanhamento de ofertas de usuários",
+            "offer-4": "Encerre quando quiser e use novamente",
+            "button": "Experimentar agora"
+          },
+          "tier-4": {
+            "name": "Anual",
+            "offer-1": "20 anúncios ativos",
+            "offer-2": "Anúncios por até 120 dias",
+            "offer-3": "Liberdade para acompanhar ofertas de usuários",
+            "offer-4": "Encerre quando quiser e reabra quando precisar",
+            "button": "Experimentar agora"
+          }
+        }
+      },
+      "price-2": {
+        "name": "Transporte",
+        "tiers": {
+          "tier-2": {
+            "name": "Anúncio único",
+            "offer-1": "Pague uma vez, use sempre que necessário.",
+            "offer-2": "Anúncios publicados por até 395 dias",
+            "offer-3": "Liberdade para acompanhar ofertas de usuários",
+            "offer-4": "Remover a qualquer momento",
+            "button": "Experimentar agora"
+          },
+          "tier-3": {
+            "name": "Trimestral",
+            "offer-1": "8 anúncios ativos",
+            "offer-2": "Anúncios por até 395 dias",
+            "offer-3": "Acompanhamento de ofertas de usuários",
+            "offer-4": "Encerre quando quiser e use novamente",
+            "button": "Experimentar agora"
+          },
+          "tier-4": {
+            "name": "Anual",
+            "offer-1": "20 anúncios ativos",
+            "offer-2": "Anúncios por até 120 dias",
+            "offer-3": "Liberdade para acompanhar ofertas de usuários",
+            "offer-4": "Encerre quando quiser e reabra quando precisar",
+            "button": "Experimentar agora"
+          }
+        }
+      },
+      "price-3": {
+        "name": "Empregos",
+        "tiers": {
+          "tier-2": {
+            "name": "Anúncio único",
+            "offer-1": "Pague uma vez, use sempre que necessário.",
+            "offer-2": "Anúncios publicados por até 395 dias",
+            "offer-3": "Liberdade para acompanhar ofertas de usuários",
+            "offer-4": "Remover a qualquer momento",
+            "button": "Experimentar agora"
+          },
+          "tier-3": {
+            "name": "Trimestral",
+            "offer-1": "8 anúncios ativos",
+            "offer-2": "Anúncios por até 395 dias",
+            "offer-3": "Acompanhamento de ofertas de usuários",
+            "offer-4": "Encerre quando quiser e use novamente",
+            "button": "Experimentar agora"
+          },
+          "tier-4": {
+            "name": "Anual",
+            "offer-1": "20 anúncios ativos",
+            "offer-2": "Anúncios por até 120 dias",
+            "offer-3": "Liberdade para acompanhar ofertas de usuários",
+            "offer-4": "Encerre quando quiser e reabra quando precisar",
+            "button": "Experimentar agora"
+          }
+        }
+      },
+      "price-4": {
+        "name": "Outros",
+        "tiers": {
+          "tier-1": {
+            "name": "Grátis",
+            "offer-1": "Pesquisa de anúncios",
+            "offer-2": "Preços de anúncios",
+            "offer-3": "Seja parte de nossa equipe",
+            "offer-4": "Compartilhe",
+            "button": "Experimentar agora"
+          },
+          "tier-2": {
+            "name": "Item em destaque",
+            "offer-1": "Pagar ao enviar",
+            "offer-2": "Área promocional",
+            "offer-3": "Marcado como destaque",
+            "button": "Experimentar agora"
+          },
+          "tier-3": {
+            "name": "Buscar CV",
+            "offer-1": "Compra anual",
+            "offer-3": "Pesquisa de CVs",
+            "button": "Experimentar agora"
+          },
+          "tier-4": {
+            "name": "Adicionar dias extras",
+            "offer-1": "Ampliar os dias do anúncio",
+            "offer-2": "Escolher o número de dias",
+            "offer-3": "Até 365 dias",
+            "offer-4": "Iniciando em 0,11 € por dia",
+            "button": "Experimentar agora"
+          }
+        }
+      }
+    },
+    "off": "Inativo",
+    "modal": {
+      "no-user": {
+        "title": "Publicar informação do anúncio",
+        "header": "Por favor, inicie sessão",
+        "body": "Por favor, inicie a sessão no website, caso contrário não podemos oferecer uma boa rastreabilidade.",
+        "log": "Iniciar sessão"
+      },
+      "post": {
+        "title": "Favor escolher uma opção",
+        "body": "Você deseja adquirir novas opções para seu perfil ou usar as disponíveis?",
+        "post": "Não, publicar anúncio",
+        "purchase": "Sim, comprar"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "heading": "Enviar anúncio",
+  "form": {
+    "submit-confirm": "Salvando...",
+    "preview-sneak-peak": "Preparando...",
+    "preview": "Prévia",
+    "no-currency": "Moeda",
+    "no-features": "Por favor, selecione uma categoria de anúncio",
+    "job-title": {
+      "title": "Título do cargo",
+      "placeholder": "Nome do cargo, por exemplo, patrono da Placifull"
+    },
+    "company": "Nome da empresa",
+    "submit": "ENVIAR",
+    "general-information": {
+      "heading": "Informação Geral",
+      "input-fields": {
+        "description": "Descrição do cargo",
+        "requirements": "Requerimentos do cargo",
+        "beneftis": "Benefícios do cargo"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "Informação de contato",
+        "detail-requirements": "Requisitos detalhados"
+      },
+      "contact": {
+        "heading": "Contato",
+        "email": "E-mail",
+        "phone": "Número de telefone",
+        "address": "Endereço",
+        "listing-website": "Website: https://"
+      }
+    },
+    "gallery": {
+      "heading": "Logotipo da empresa",
+      "click-drop": "CLIQUE OU ARRASTE O LOGOTIPO PARA CÁ",
+      "video-url": "URL do vídeo: https://"
+    },
+    "contact-hours": {
+      "heading": "Horário comercial",
+      "heading-tip": "Opcional",
+      "accordion": {
+        "heading": "Horas em que o empregado deverá trabalhar...",
+        "start-time": "O trabalho começa às",
+        "end-time": "O trabalho termina às"
+      }
+    },
+    "input-languages": {
+      "label": "Idiomas requeridos. (Inglês)",
+      "labelNative": "Idiomas requeridos. (Nativo)"
+    }
+  }
+}

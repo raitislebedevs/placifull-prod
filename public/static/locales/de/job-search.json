@@ -1,0 +1,61 @@
+{
+  "form": {
+    "currency": "Währung",
+    "no-currency": "ALLE",
+    "languages": {
+      "native": "Muttersprachen",
+      "english": "Sprachen auf Englisch"
+    },
+    "submit": "Jetzt suchen",
+    "accordion": {
+      "label": "ERWEITERTE SUCHE",
+      "searchFilter": {
+        "heading": "Eigenschaften",
+        "licenses": "Transport-Lizenz",
+        "education": "Ausbildung/Hochschulabschluss",
+        "expierience": "Berufserfahrung in Jahren",
+        "candiadate": "BewerberIn ist in der Lage:",
+        "benefits": "Leistungen"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "Stundensatz",
+        "items": {
+          "from": "Von: 0",
+          "to": "Bis: 999,999"
+        }
+      },
+      "monthly-salary": {
+        "label": "Monatliches Gehalt",
+        "items": {
+          "from": "Von: 0",
+          "to": "Bis: 999,999,999"
+        }
+      },
+      "yearly-salary": {
+        "label": "Jährliches Gehalt",
+        "items": {
+          "from": "Von: 0",
+          "to": "Bis: 99,999,999,999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Sortieren nach",
+        "options": {
+          "monthly-salary": "Monatliches Gehalt",
+          "annual-salary": "Jahresgehalt",
+          "hourly-salary": "Stundensatz",
+          "popularity": "Popularität",
+          "views": "Angesehen",
+          "country": "Land",
+          "insert-date": "Datum einfügen"
+        }
+      }
+    }
+  }
+}

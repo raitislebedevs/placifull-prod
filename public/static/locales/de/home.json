@@ -1,0 +1,271 @@
+{
+  "hero-section": {
+    "head": {
+      "line-1": "Placifull, wo Einfachheit auf Einfachheit trifft ",
+      "line-2": "Sorgfältig ausgearbeitete Lösungen, um Ihren Traum zu verwirklichen",
+      "line-3": "Finden Sie Jobs, Immobilien und Verkehrsmittel für alle Ihre Bedürfnisse in jeder Ecke der Welt.",
+      "options": {
+        "text-1": "Zuverlässigkeit",
+        "text-2": "Beständigkeit",
+        "text-3": "Erschwinglichkeit",
+        "text-4": "Erreichbarkeit"
+      }
+    },
+    "button": "Erste Schritte"
+  },
+  "real-estate-section": {
+    "badge": "Beworbene Artikel",
+    "head": {
+      "line-1": "Immobilien",
+      "line-2": "Meist beworbene Artikel auf",
+      "line-3": "Placifull",
+      "line-4": "die Ihre volle Aufmerksamkeit erfordern."
+    },
+    "button": "Alle anzeigen"
+  },
+  "transportation-section": {
+    "badge": "Beworbene Artikel",
+    "head": {
+      "line-1": "Verkehrsmittel",
+      "line-2": "Diese Transportmittel auf ",
+      "line-3": "Placifull",
+      "line-4": "erfordern Ihre Zeit."
+    },
+    "button": "Alle anzeigen"
+  },
+  "job-section": {
+    "badge": "Beworbene Artikel",
+    "head": {
+      "line-1": "Premium Jobs",
+      "line-2": "Lust auf eine Veränderung? Bei",
+      "line-3": "Placifull",
+      "line-4": "finden Sie den Traumjob, den Sie schon immer wollten."
+    },
+    "jobs": {
+      "location": "Standort",
+      "working-schedule": "Arbeitszeiten",
+      "salary": "Gehalt",
+      "working-place": "Arbeitsort",
+      "button": "Details ansehen"
+    },
+    "button": "Mehr sehen"
+  },
+  "service-section": {
+    "head": {
+      "line-1": "Worum es bei uns geht!",
+      "line-2": "Erfahren Sie, worauf wir am meisten Wert legen. Bei ",
+      "line-3": "Placifull",
+      "line-4": " hören wir zu, was Sie zu sagen haben."
+    },
+    "services": {
+      "service-1": {
+        "open-modal": "Mehr erfahren",
+        "name": "Angebotsmöglichkeiten",
+        "description": "Unser Hauptaugenmerk liegt darauf, Menschen beim Umzug in ein anderes Land zu helfen. Ein Umzug ins Ausland bringt viele Herausforderungen mit sich, deshalb helfen wir Ihnen mit den nötigen Suchwerkzeugen. Job, Haus, Verkehrsmittel - alles kann an einem Ort gefunden werden. Sie brauchen nicht woanders zu suchen.",
+
+        "modal": {
+          "header": "Erkunden",
+          "description": "Placifull hat sich vorgenommen, den Umzug ins Ausland für Sie und Ihre Familie zu erleichtern. Wir wollen Ihnen vor allem alle verfügbaren Jobangebote entsprechend Ihren Anforderungen und Qualifikationen vermitteln. Placifull glaubt daran, Ihnen zu helfen, alle Herausforderungen zu meistern, die ein neues Leben mit sich bringt, und Sie werden nicht mehr weiter suchen müssen, wenn Sie unsere Dienste in Anspruch genommen haben. Unser Team erledigt die ganze mühevolle Arbeit für Sie und alles, was Sie tun müssen, ist aus den von uns bereitgestellten Stellenangeboten auszuwählen. Unsere Tätigkeit endet jedoch nicht hier und wir werden Ihnen auch weiterhin von großem Nutzen sein, wenn Sie Ihren neuen Job beginnen.",
+          "close-button": "Schließen"
+        }
+      },
+      "service-2": {
+        "open-modal": "Helfen Sie uns jetzt",
+        "name": "Helfen Sie uns besser zu werden",
+        "description": "Wir sind ein kleines Team hinter den Kulissen. Alle Änderungen, die Sie vorschlagen, werden wir berücksichtigen und in die Abstimmung aufnehmen.",
+
+        "modal": {
+          "header": "Verbessern",
+          "description": "Unser Team besteht aus engagierten Menschen, die hart daran arbeiten, Ihnen zu helfen, Ihre Träume zu verwirklichen. Daher sind wir sehr darauf bedacht, hilfreiche Vorschläge von unseren regelmäßigen Benutzern aufzunehmen und umzusetzen. Wenn Sie etwas in unseren Dienstleistungen finden, das Ihrer Meinung nach verbessert werden könnte, zögern Sie nicht, eine Nachricht auf unserer Abstimmungstafel zu hinterlassen. Sobald der Vorschlag zehntausend Up-Votes erreicht, sind wir verpflichtet, die Änderungen umzusetzen. Wir möchten, dass unsere Benutzer wissen, dass ihre Meinung für uns sehr wertvoll ist.",
+          "close-button": "Schließen",
+          "contact-button": "Kontakt aufnehmen"
+        }
+      },
+      "service-3": {
+        "name": "Liken & Teilen",
+        "description": "Wenn Sie unsere Dienste nützlich und lebensverändernd finden, wäre es sehr hilfreich für uns, wenn Sie unsere Plattform an alle Ihre Freunde und Bekannten weiterempfehlen würden. Das Empfehlen und Teilen unserer Dienste wird uns helfen, weiter zu wachsen und Ihnen einen noch besseren Service zu bieten."
+      },
+      "service-4": {
+        "open-modal": "Verbessern Sie uns jetzt",
+        "name": "Verbessern Sie unsere Qualität",
+        "description": "Etwas funktioniert nicht? Die Zahlung hat nicht geklappt? Zögern Sie nicht, uns die Reklamation zukommen zu lassen, wir werden sie mit Vorrang behandeln.",
+        "modal": {
+          "header": "Qualität",
+          "description": "Placifull ist eine qualitätsorientierte Marke und wir glauben, dass unser ganzer Wert in der Qualität der von uns angebotenen Dienstleistungen liegt. Wir versichern Ihnen von ganzem Herzen, dass wir bei unserer Qualität und unseren Standards keine Kompromisse eingehen. Wenn Sie etwas auf unserer Plattform finden, das nicht so reibungslos funktioniert, wie es sollte, melden Sie uns das Problem so schnell wie möglich und wir werden es so schnell wie möglich beheben. Ihre Erfahrung mit Placifull ist von größter Bedeutung und wir werden unser System verbessern und aufrüsten, damit es Ihnen besser gefällt.",
+          "close-button": "Schließen",
+          "contact-button": "Kontakt aufnehmen"
+        }
+      },
+      "service-5": {
+        "open-modal": "Jetzt Bewerben",
+        "name": "Karrieremöglichkeiten",
+        "description": "Wir arbeiten hart und wir erholen uns gut. Wollen Sie ein Teil von uns sein? Dann schreiben Sie uns. Sie wählen, wo und mit welchem Gehalt Sie arbeiten möchten. Wenn wir es mögen, werden SIE eingestellt..,",
+        "modal": {
+          "header": "Karriere",
+          "description": "Unsere Stellenausschreibungen sind einzigartig und Sie werden das, was wir anbieten, nirgendwo anders finden. Wir bieten ein aufregendes Arbeitszeitmodell, das bedeutet, dass Sie nur 4 Tage in der Woche arbeiten müssen, und zwar 8 Stunden pro Tag statt 12. An den Freitagen jeder Woche haben Sie die Möglichkeit, das Büro zu besuchen oder nicht. Sie können die zusätzliche Zeit definitiv nutzen, um sich mit Freunden zu treffen, Sport zu treiben, Ihren Hobbys nachzugehen und vieles mehr! Pacifull stellt sicher, dass die wertvolle Zeit mit Ihren Freunden und Ihrer Familie nicht durch Ihren Job gefährdet wird. Deshalb sorgt die Plattform auch dafür, dass Sie genügend Urlaubszeit bekommen, beginnend mit 20 Tagen und Sie können bis zu 28 Tage Urlaub pro Jahr bekommen. Das ergibt eine Gesamtzahl von 76 Tagen. Es ist fast unmöglich, einen so guten Arbeitsplan zu finden, also warten Sie nicht länger und bewerben Sie sich bei Placifull.",
+          "close-button": "Schliessen",
+          "contact-button": "Jetzt bewerben"
+        },
+        "modal-apply": {
+          "form": {
+            "header": "Nennen Sie uns Ihr Anliegen!",
+            "firstName": "Vorname",
+            "lastName": "Nachname",
+            "email": "E-Mail Adresse",
+            "phone": "Telefon",
+            "dreamJob": "Als was würden Sie gerne arbeiten?",
+            "applyText": "Warum sollten wir Sie einstellen?",
+            "salary": "Erwartetes Gehalt (monatlich)",
+            "positionName": "Name der Position",
+            "apply": "Ich bin bereit!"
+          }
+        }
+      }
+    },
+    "learn-more": "Mehr erfahren"
+  },
+  "price-section": {
+    "badge": "",
+    "head": {
+      "line-1": "Unsere Preise für Inserate"
+    },
+    "prices": {
+      "price-1": {
+        "name": "Immobilien",
+        "tiers": {
+          "tier-2": {
+            "name": "Einzelner Eintrag",
+            "offer-1": "Einmal zahlen, jederzeit nutzen.",
+            "offer-2": "Inserate für bis zu 395 Tage",
+            "offer-3": "Benutzerangebote frei verfolgen",
+            "offer-4": "Jederzeit entfernen",
+            "button": "Jetzt ausprobieren"
+          },
+          "tier-3": {
+            "name": "Vierteljährlich",
+            "offer-1": "8 aktive Artikel",
+            "offer-2": "Bis zu 395 Tage auflisten",
+            "offer-3": "Benutzergebote verfolgen",
+            "offer-4": "Beenden, wann immer Sie wollen und erneut verwenden",
+            "button": "Jetzt ausprobieren"
+          },
+          "tier-4": {
+            "name": "Jährlich",
+            "offer-1": "20 aktive Artikel",
+            "offer-2": "Bis zu 120 Tage einstellen.",
+            "offer-3": "Geboten von Benutzern frei folgen",
+            "offer-4": "Jederzeit beenden und bei Bedarf wieder öffnen",
+            "button": "Jetzt ausprobieren"
+          }
+        }
+      },
+      "price-2": {
+        "name": "Verkehrsmittel",
+        "tiers": {
+          "tier-2": {
+            "name": "Einzelner Beitrag",
+            "offer-1": "Einmal bezahlen, bei Bedarf nutzen.",
+            "offer-2": "Angebote für bis zu 395 Tage veröffentlicht",
+            "offer-3": "Geboten von Benutzern frei folgen",
+            "offer-4": "Jederzeit entfernen",
+            "button": "Jetzt ausprobieren"
+          },
+          "tier-3": {
+            "name": "Vierteljährlich",
+            "offer-1": "8 aktive Artikel",
+            "offer-2": "Bis zu 395 Tage auflisten",
+            "offer-3": "Benutzergebote verfolgen",
+            "offer-4": "Benden, wann immer Sie wollen und erneut verwenden",
+            "button": "Jetzt ausprobieren"
+          },
+          "tier-4": {
+            "name": "Jährlich",
+            "offer-1": "20 aktive Artikel",
+            "offer-2": "Bis zu 120 Tage auflisten",
+            "offer-3": "Geboten von Benutzern frei folgen",
+            "offer-4": "Benden, wann immer Sie wollen und erneut verwenden",
+            "button": "Jetzt ausprobieren"
+          }
+        }
+      },
+      "price-3": {
+        "name": "Aufträge",
+        "tiers": {
+          "tier-2": {
+            "name": "Einzelne Stelle",
+            "offer-1": "Einmal bezahlen, bei Bedarf nutzen.",
+            "offer-2": "Angebote für bis zu 395 Tage veröffentlicht",
+            "offer-3": "Geboten von Benutzern frei folgen",
+            "offer-4": "Jederzeit entfernen",
+            "button": "Jetzt ausprobieren"
+          },
+          "tier-3": {
+            "name": "Vierteljährlich",
+            "offer-1": "8 aktive Artikel",
+            "offer-2": "Bis zu 395 Tage auflisten",
+            "offer-3": "Benutzergebote verfolgen",
+            "offer-4": "Benden, wann immer Sie wollen und erneut verwenden",
+            "button": "Jetzt ausprobieren"
+          },
+          "tier-4": {
+            "name": "Jährlich",
+            "offer-1": "20 aktive Artikel",
+            "offer-2": "Bis zu 120 Tage auflisten",
+            "offer-3": "Geboten von Benutzern frei folgen",
+            "offer-4": "Benden, wann immer Sie wollen und erneut verwenden",
+            "button": "Jetzt ausprobieren"
+          }
+        }
+      },
+      "price-4": {
+        "name": "Andere",
+        "tiers": {
+          "tier-1": {
+            "name": "Kostenlos",
+            "offer-1": " Inserate ansehen",
+            "offer-2": "Angebote bewerten",
+            "offer-3": "Werden Sie Teil von uns",
+            "offer-4": "Verbreiten Sie die Nachricht!",
+            "button": "Jetzt ausprobieren"
+          },
+          "tier-2": {
+            "name": "Beworbener Artikel",
+            "offer-1": "Bezahlen beim Absenden",
+            "offer-2": "Beworbener Bereich",
+            "offer-3": "Als hervorgehoben markiert",
+            "button": "Jetzt ausprobieren"
+          },
+          "tier-3": {
+            "name": "CV suchen",
+            "offer-1": "Jährlicher Kauf",
+            "offer-3": " CV's ansehen",
+            "button": "Jetzt ausprobieren"
+          },
+          "tier-4": {
+            "name": "Extra Tage hinzufügen",
+            "offer-1": "Verlängern Sie die Listungstage",
+            "offer-2": "Wählen Sie die Anzahl der Tage",
+            "offer-3": "Bis zu 365 Tage",
+            "offer-4": "Ab 0,11 € pro Tag",
+            "button": "Jetzt ausprobieren"
+          }
+        }
+      }
+    },
+    "off": "Aus",
+    "modal": {
+      "no-user": {
+        "title": "Inserat-Informationen veröffentlichen",
+        "header": "Bitte loggen Sie sich ein",
+        "body": "Bitte loggen Sie sich auf der Website ein, da wir Ihnen sonst keine gute Nachvollziehbarkeit bieten können.",
+        "log": "Einloggen"
+      },
+      "post": {
+        "title": "Bitte wählen Sie eine Option",
+        "body": " Möchten Sie neue Optionen für Ihr Profil erwerben oder die vorhandenen verwenden?",
+        "post": "Nein, Eintrag aufgeben",
+        "purchase": "Ja, kaufen"
+      }
+    }
+  }
+}

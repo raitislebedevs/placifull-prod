@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "form": {
+      "currency": "Mata uang",
+      "no-currency": "SEMUA",
+      "min-price": "Minimum: 0.00",
+      "max-price": "Maksimum: 9.999.999.999",
+      "transport-brand": "Merek transport",
+      "transport-model": "Model transport",
+      "min-age": "Usia minimum",
+      "max-age": "Usia maksimum",
+      "submit": "Cari sekarang",
+      "accordion": "PENELUSURAN MUTAKHIR",
+      "accordion-right": {
+        "economy": {
+          "label": "Bahan bakar ekonomis",
+          "items": {
+            "from": "Dari: 0",
+            "to": "Sampai: 999"
+          }
+        },
+        "speed": {
+          "label": "Kecepatan maksimum",
+          "items": {
+            "from": "Dari: 0",
+            "to": "Sampai: 999"
+          }
+        },
+        "millage": {
+          "label": "Jarak",
+          "items": {
+            "from": "Dari: 0",
+            "to": "Sampai: 9.999.999"
+          }
+        },
+        "units": "Satuan"
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Urutkan berdasarkan",
+        "options": {
+          "price": "Harga",
+          "speed": "Kecepatan",
+          "millage": "Jarak tempuh",
+          "fuel-economy": "Bahan bakar ekonomis",
+          "popularity": "Popularitas",
+          "views": "Dilihat",
+          "country": "Negara",
+          "insert-date": "Masukkan tanggal"
+        }
+      }
+    }
+  }
+}

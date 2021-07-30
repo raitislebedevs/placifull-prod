@@ -1,17 +1,17 @@
 {
-  "heading": "إرسال القائمة",
+  "heading": "إرسال الإعلان",
   "form": {
     "submit": "إرسال",
     "submit-confirm": "حِفظ...",
     "preview-sneak-peak": "توليد...",
     "preview": "مُعايَنة",
     "no-currency": "الكُلّ",
-    "no-features": "يُرجى اختيار فئة القائمة",
+    "no-features": "يُرجى اختيار فئة الإعلانات",
     "general-information": {
       "heading": "معلومات عامة",
       "currency-input": "العُملة",
       "input-fields": {
-        "name": "اسم قائمَتك",
+        "name": "اسم إعلانك",
         "description": "وصف",
         "price": "السِّعر",
         "bed-rooms": "غرف نوم",

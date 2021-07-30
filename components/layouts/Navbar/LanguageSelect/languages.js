@@ -6,20 +6,20 @@ const languages = [
     },
     label: 'English',
   },
-  {
-    value: {
-      lang: 'lv',
-      flag: 'LV',
-    },
-    label: 'Latviešu',
-  },
-  {
-    value: {
-      lang: 'ee',
-      flag: 'EE',
-    },
-    label: 'Estonian',
-  },
+  // {
+  //   value: {
+  //     lang: 'lv',
+  //     flag: 'LV',
+  //   },
+  //   label: 'Latviešu',
+  // },
+  // {
+  //   value: {
+  //     lang: 'ee',
+  //     flag: 'EE',
+  //   },
+  //   label: 'Estonian',
+  // },
   {
     value: {
       lang: 'lt',
@@ -34,13 +34,13 @@ const languages = [
     },
     label: 'Deutsche',
   },
-  {
-    value: {
-      lang: 'ru',
-      flag: 'RU',
-    },
-    label: 'Pу́сский',
-  },
+  // {
+  //   value: {
+  //     lang: 'ru',
+  //     flag: 'RU',
+  //   },
+  //   label: 'Pу́сский',
+  // },
   {
     value: {
       lang: 'cn',
@@ -56,20 +56,20 @@ const languages = [
     label: 'Português',
   },
 
-  {
-    value: {
-      lang: 'in',
-      flag: 'IN',
-    },
-    label: 'हिन्दी, हिंदी',
-  },
   // {
   //   value: {
-  //     lang: 'jp',
-  //     flag: 'JP',
+  //     lang: 'in',
+  //     flag: 'IN',
   //   },
-  //   label: '日本人',
+  //   label: 'हिन्दी, हिंदी',
   // },
+  {
+    value: {
+      lang: 'jp',
+      flag: 'JP',
+    },
+    label: '日本人',
+  },
   {
     value: {
       lang: 'id',

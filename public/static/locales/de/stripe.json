@@ -1,0 +1,35 @@
+{
+  "main": {
+    "success": "Die Zahlung war erfolgreich.",
+    "plan_update": "Wir konnten Ihren Plan nicht aktualisieren.",
+    "card_not": "Karte wurde nicht belastet.",
+    "pay": "Bezahlen € ",
+    "processing": "Bearbeitung..."
+  },
+  "placeholders": {
+    "name": "Max Mustermann",
+    "email": "maxmustermann@placifull.com",
+    "phone": "(941) 555-7777"
+  },
+  "incomplete": {
+    "incomplete_cvc": "Der Sicherheitscode Ihrer Karte ist unvollständig.",
+    "incomplete_expiry": "Das Gültigkeitsdatum Ihrer Karte ist unvollständig.",
+    "incomplete_number": "Ihre Kartennummer ist unvollständig."
+  },
+
+  "declined": {
+    "card_declined": "Ihre Karte wurde abgelehnt"
+  },
+  "checkout": {
+    "billing": "Bitte geben Sie die Rechnungsinformationen an",
+    "card-details": "Bitte geben Sie die Karteninformationen an",
+    "cancel": "Abbrechen"
+  },
+  "labels": {
+    "plan": "Plan",
+    "quantity": "Anzahl.",
+    "name": "Name",
+    "email": "E-Mail",
+    "phone": "Telefon Nr."
+  }
+}

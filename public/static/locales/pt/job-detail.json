@@ -1,0 +1,63 @@
+{
+  "header": {
+    "salary-month": "/mês",
+    "buttons": {
+      "apply": "Inscrever-me agora",
+      "share": "Compartilhar oferta de emprego"
+    }
+  },
+  "contact-form": {
+    "heading": "Fazer contato direto com a empresa",
+    "form": {
+      "heading": "Escreva sua pergunta aqui",
+      "fullName": "Nome completo*",
+      "phoneNumber": "Número de telefone*",
+      "email": "E-mail*",
+      "message": "Sua mensagem",
+      "submit": "ENVIAR MENSAGEM"
+    }
+  },
+  "about": {
+    "description": "Descrição",
+    "requirements": "Requisitos",
+    "benefits": "Benefícios"
+  },
+  "job-overview": {
+    "heading": "Descrição geral do cargo",
+    "items": {
+      "offered-salary": "Salário oferecido",
+      "languages": "Idiomas",
+      "native": "Nativo",
+      "industry": "Indústria"
+    },
+    "views": "Visualizações",
+    "applicants": "Inscritos",
+    "salary": {
+      "monthly": "mensal",
+      "annual": "anual",
+      "hourly": "por hora"
+    }
+  },
+
+  "application": {
+    "header": "Inscrever-me",
+    "body": {
+      "proposal": "Salário proposto"
+    },
+    "info": "Seu CV será encaminhado ao contratante*"
+  },
+
+  "extra": {
+    "heading": "Empregos anunciados por este perfil",
+    "table": {
+      "number": "N°",
+      "country": "País",
+      "full-address": "Endereço do escritório",
+      "position": "Cargo",
+      "contract": "Tipo de contrato",
+      "time": "Horário de trabalho",
+      "salary": "Salário a partir de",
+      "end-date": "Data de encerramento"
+    }
+  }
+}

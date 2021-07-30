@@ -1,0 +1,55 @@
+{
+  "heading": "Inserat abschicken",
+  "form": {
+    "submit-confirm": "Speichern...",
+    "preview-sneak-peak": "Erzeugen...",
+    "preview": "Vorschau",
+    "no-currency": "Währung",
+    "no-features": "Bitte wählen Sie eine Listing-Kategorie",
+    "job-title": {
+      "title": "Position Titel",
+      "placeholder": "Name der Position z.B. Placifull Patron."
+    },
+    "company": "Name der Firma",
+    "submit": "ABSCHICKEN",
+    "general-information": {
+      "heading": "Allgemeine Informationen",
+      "input-fields": {
+        "description": "Beschreibung der Position",
+        "requirements": "Anforderungen an die Position",
+        "beneftis": "Vorteile der Position"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "Kontaktinformationen",
+        "detail-requirements": "Detaillierte Anforderungen"
+      },
+      "contact": {
+        "heading": "Kontakt",
+        "email": "E-Mail",
+        "phone": "Telefon-Nummer",
+        "address": "Adresse:",
+        "listing-website": "Website: https://"
+      }
+    },
+    "gallery": {
+      "heading": "Firmenlogo",
+      "click-drop": "LOGO HIER KLICKEN ODER ZIEHEN",
+      "video-url": "Video url: https://"
+    },
+    "contact-hours": {
+      "heading": "Arbeitszeiten",
+      "heading-tip": "Optional",
+      "accordion": {
+        "heading": "Zeiten, zu denen der Mitarbeitende arbeiten müsste...",
+        "start-time": "Arbeit beginnt um",
+        "end-time": "Arbeit endet um"
+      }
+    },
+    "input-languages": {
+      "label": "Erforderliche Sprachkenntnisse. (Englisch)",
+      "labelNative": "Erforderliche Sprachkenntnisse. (Muttersprache)"
+    }
+  }
+}

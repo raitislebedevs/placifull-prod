@@ -1,0 +1,89 @@
+{
+  "color": {
+    "label": "色",
+    "options": {
+      "red": "赤",
+      "orange": "オレンジ",
+      "yellow": "黄色",
+      "green": "緑",
+      "blue": "青",
+      "violent": "赤紫",
+      "pink": "ピンク",
+      "tan": "褐色",
+      "beige": "ベージュ",
+      "white": "白",
+      "silver": "銀",
+      "gray": "灰色",
+      "black": "黒",
+      "brown": "茶色",
+      "gold": "金",
+      "indigo": "藍色",
+      "purple": "紫",
+      "lime": "ライム",
+      "azure": "瑠璃色",
+      "other": "その他"
+    }
+  },
+  "gear-box": {
+    "label": "ギヤボックス",
+    "options": {
+      "manual": "MT車",
+      "automatic": "AT車",
+      "other": "その他"
+    }
+  },
+  "engine": {
+    "label": "エンジンタイプ",
+    "options": {
+      "diesel": "ディーゼル",
+      "benzine": "ベンジン",
+      "gas": "ガソリン",
+      "electric": "電気",
+      "other": "その他"
+    }
+  },
+  "features": {
+    "heading": "特徴",
+    "category": {
+      "equipment": "装備",
+      "interior": "内装",
+      "steering-wheel": "ハンドル",
+      "seats": "座席",
+      "lights": "照明",
+      "audio-video": "AV設備",
+      "mirrors": "鏡"
+    }
+  },
+  "condition": {
+    "label": "状態",
+    "options": {
+      "brandNew": "新品",
+      "likeNew": "新古",
+      "used": "中古",
+      "requiresFixing": "修理が必要",
+      "afterCrash": "破損"
+    }
+  },
+
+  "transport-type": {
+    "label": "車種",
+    "options": {
+      "car": "乗用車",
+      "truck": "トラック",
+      "motorcycle": "バイク",
+      "boat": "ボート",
+      "airTransport": "空輸",
+      "others": "その他"
+    }
+  },
+
+  "action": {
+    "label": "アクション",
+    "options": {
+      "sell": "売る",
+      "rent": "借りる",
+      "exchange": "交換",
+      "forParts": "一部"
+    }
+  }
+}

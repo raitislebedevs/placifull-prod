@@ -1,0 +1,63 @@
+{
+  "header": {
+    "flag-button": "MARCAR ESTE CONTEÚDO"
+  },
+  "detail-info": {
+    "button": "QUERO MUDAR-ME AGORA"
+  },
+  "contact-times": {
+    "heading": "Horário preferencial para contato"
+  },
+
+  "promoted": "Em destaque",
+
+  "about": {
+    "heading": "Sobre",
+    "featured": "Em destaque",
+    "notFeatured": "Sem destaque",
+    "rentTime": "por mês",
+    "inputTimeDays": "dias atrás"
+  },
+
+  "general-info": {
+    "heading": "Informação geral",
+    "brand": "Marca de transporte",
+    "model": "Modelo de transporte",
+    "year": "Ano",
+    "price": "Preço",
+    "distance": "Distância",
+    "max-speed": "Velocidade máxima",
+    "fuel-economy": "Economia de combustível",
+    "seats": "Assentos",
+    "doors": "Portas",
+    "bid-price": "Preço de oferta pelo transporte",
+    "submit": "OFERTA",
+    "bid-placeholder": "Oferta com 20% de margem"
+  },
+  "features": {
+    "heading": "Características"
+  },
+  "contact-form": {
+    "not-specified": "Não especificado",
+    "heading": "Contatar diretamente o proprietário",
+    "form": {
+      "heading": "Escreva sua pergunta aqui",
+      "fullName": "Nome completo*",
+      "phoneNumber": "Número de telefone completo*",
+      "email": "E-mai*",
+      "message": "Sua mensagem",
+      "submit": "ENVIAR MENSAGEM"
+    }
+  },
+  "extra": {
+    "heading": "Outros transportes anunciados por este perfil",
+    "table": {
+      "number": "N°",
+      "country": "País",
+      "brand-model": "Modelo/Marca",
+      "price": "Preço",
+      "condition": "Condição",
+      "production-year": "Ano"
+    }
+  }
+}

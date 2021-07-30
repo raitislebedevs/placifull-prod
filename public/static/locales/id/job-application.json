@@ -1,0 +1,16 @@
+{
+  "job-apply": {
+    "heading": "Apakah Anda yakin ingin melamar untuk:",
+    "proposed-salary": "Gaji yang diharapkan",
+    "close": "Tutup",
+    "apply": "Lamar",
+    "applying": "Sedang memproses…",
+    "toast": {
+      "success": "Selamat, Anda telah mendaftar!",
+      "log-in": "Anda harus Masuk.",
+      "applied": "Anda telah terdaftar.",
+      "cv": "Silakan perbarui CV Anda",
+      "just": "Hey, Anda baru saja mendaftar : )"
+    }
+  }
+}

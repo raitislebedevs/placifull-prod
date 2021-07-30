@@ -1,0 +1,53 @@
+{
+  "heading": "リストを提出",
+  "form": {
+    "submit": "提出",
+    "submit-confirm": "保存中…",
+    "preview-sneak-peak": "実行中…",
+    "preview": "プレビュー",
+    "no-currency": "すべて",
+    "no-features": "リストのカテゴリーを選択してください",
+    "general-information": {
+      "heading": "概要",
+      "currency-input": "通貨",
+      "input-fields": {
+        "name": "リストの名前",
+        "description": "説明",
+        "price": "価格",
+        "bed-rooms": "寝室",
+        "bath-rooms": "お風呂",
+        "area": "所有エリア",
+        "start-renting": "賃貸を始める",
+        "end-renting": "賃貸を終わる",
+        "year-built": "築年数"
+      }
+    },
+    "detail-information": {
+      "heading": "詳細情報",
+      "contact": {
+        "heading": "連絡先",
+        "email": "メールアドレス",
+        "address": "住所",
+        "contact-times": {
+          "label": "連絡時間",
+          "placeholder": "ご希望の時間を選択してください"
+        },
+        "listing-website": "HP: https://"
+      }
+    },
+    "gallery": {
+      "real-estate": "ギャラリー",
+      "click-drop": "画像をドラッグしてください ",
+      "video-url": "動画 https://"
+    },
+    "contact-hours": {
+      "heading": "連絡時間",
+      "heading-tip": "オプション",
+      "accordion": {
+        "heading": "面会しやすい時間を追加しましょう",
+        "start-time": "から：",
+        "end-time": "まで："
+      }
+    }
+  }
+}

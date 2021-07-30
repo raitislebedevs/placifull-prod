@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "Kategori",
+    "options": {
+      "houses": "Rumah",
+      "apartments": "Apartemen",
+      "land": "Tanah",
+      "farmhouse": "Rumah Pertanian",
+      "commercial": "Komersial",
+      "exclusive": "Eksklusif",
+      "offices": "Kantor",
+      "agents": "Agen Real Estate"
+    }
+  },
+  "action": {
+    "label": "Tindakan",
+    "options": {
+      "sell": "Jual",
+      "rent": "Sewa",
+      "exchange": "Tukar"
+    }
+  },
+  "condition": {
+    "label": "Kondisi",
+    "label-land": "Tipe Properti",
+    "options": {
+      "brandNew": "Barang Baru",
+      "goodCondition": "Keadaan Baik",
+      "medium": "Medium",
+      "requiresFixing": "Memerlukan Perbaikan",
+      "requiresConstruction": "Memerlukan Konstruksi",
+      "residential": "Perumahan",
+      "comercial": "Komersial",
+      "industrial": "Industri",
+      "agricultural": "Pertanian"
+    }
+  },
+  "contact-times": {
+    "label": "Waktu Kontak",
+    "options": {
+      "anyTime": "Kapan Saja",
+      "workingDays": "Hari Kerja",
+      "officeHours": "Jam Kantor",
+      "specificTimes": "Waktu Tertentu"
+    }
+  },
+  "features": {
+    "heading": "Fitur",
+    "category": {
+      "kitchen": "Dapur",
+      "bathroom": "Kamar Mandi",
+      "living-room": "Ruang Keluarga",
+      "bedroom": "Kamar Tidur",
+      "housing-extras": "Tambahan lainnya",
+      "land-type": "Tipe Lahan",
+      "buildingLand": "Membangun Lahan untuk",
+      "forest-properties": "Properti Hutan",
+      "agriculture-properties": "Properti Agrikultur"
+    }
+  },
+  "utilities": {
+    "heading": "Keperluan",
+    "total": "Total",
+    "items": {
+      "coldWater": "Air Dingin",
+      "hotWater": "Air Panas",
+      "electricity": "Listrik",
+      "garbage": "Sampah",
+      "propertyManagement": "Manajemen Properti",
+      "heating": "Pemanas",
+      "parking": "Parkir",
+      "others": "Lainnya"
+    }
+  }
+}

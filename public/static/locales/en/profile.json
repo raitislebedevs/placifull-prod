@@ -1,169 +1,171 @@
 {
   "overview": {
     "button-label": {
-      "change": "Change Picture",
-      "delete": "Delete Picture",
-      "save-all": "Save All",
+      "change": "Change Picture",
+      "delete": "Delete Picture",
+      "save-all": "Save All",
       "preview": "Preview"
     },
-    "setting-label": "Purchached",
+    "setting-label": "Purchased",
     "delete-avatar-modal": {
-      "header": "Delete avatar",
-      "body": "Do you want to delete your avatar?",
+      "header": "Delete avatar",
+      "body": "Do you want to delete your avatar?",
       "submit": "Delete",
       "cancel": "Cancel"
     }
   },
   "hover-texts": {
-    "real-estate": "Real Estate Posts",
-    "transport": "Transport Posts",
-    "job": "Job Posts",
-    "browser": "Browser CV"
+    "real-estate": "Real Estate Posts",
+    "transport": "Transport Posts",
+    "job": "Job Posts",
+    "browser": "Browser CV"
   },
   "left-tab": {
     "navigation": "Navigation",
     "titles": {
       "profile": "Profile",
       "cv": "CV",
-      "real-estate": "Real Estate",
+      "real-estate": "Real Estate",
       "transport": "Transport",
       "jobs": "Jobs",
-      "browser": "Browser CV",
-      "payment": "Payment Receipts",
+      "browser": "Browser CV",
+      "payment": "Payment Receipts",
       "logout": "Logout"
     }
   },
   "right-content": {
-    "prev-button": "Prev Step",
-    "next-button": "Next Step",
+    "prev-button": "Prev Step",
+    "next-button": "Next Step",
     "profile": {
       "personal-details": {
-        "heading": "Personal Detail:",
+        "heading": "Personal Detail:",
         "labels": {
-          "profession": "Profession of Identity",
-          "first-name": "First Name",
-          "last-name": "Last Name",
-          "email": "Your Email",
-          "phone-number": "Phone Nr.",
-          "about-me-heading": "About Me",
-          "about-me": "What's different about you?",
+          "profession": "Profession of Identity",
+          "first-name": "First Name",
+          "last-name": "Last Name",
+          "email": "Your Email",
+          "phone-number": "Phone Nr.",
+          "about-me-heading": "About Me",
+          "about-me": "What's different about you?",
           "country": "Country",
           "state": "State/Region",
           "city": "City",
-          "birth-date": "Birth Date",
+          "birth-date": "Birth Date",
           "gender": {
             "label": "Sex",
             "men": "Male",
             "women": "Female",
-            "not-specified": "Don't show"
+            "not-specified": "Don't show"
           },
           "age": {
-            "label": "Show age",
+            "label": "Show age",
             "yes": "Yes",
             "no": "No",
-            "only-birth-date": "Only Birth Date"
+            "only-birth-date": "Only Birth Date"
           }
         },
-        "button-save": "Save Changes"
+        "button-save": "Save Changes"
       },
       "password-form": {
-        "text": "Change password:",
-        "old-password": "Old password",
-        "new-password": "New password",
-        "confirm-password": "Confirm password",
-        "button-save": "Save password",
+        "text": "Change password:",
+        "old-password": "Old password",
+        "new-password": "New password",
+        "confirm-password": "Confirm password",
+        "button-save": "Save password",
         "validation": {
-          "current-password-required": "Please Confirm Pasword",
-          "new-password-required": "New Password Missing",
-          "password-not-match": "Passwords don't match",
-          "confirm-password-required": "Please confirm password"
+          "current-password-required": "Please Confirm Pasword",
+          "new-password-required": "New Password Missing",
+          "password-not-match": "Passwords don't match",
+          "confirm-password-required": "Please confirm password"
         }
       },
       "delete-form": {
-        "text": "Delete Account:",
-        "content": "Do you want to delete the account? Please press below 'Delete' button",
-        "button-delete": "Delete Account"
+        "text": "Delete Account:",
+        "content": "Do you want to delete the account? Please press below 'Delete' button",
+        "button-delete": "Delete Account"
       },
       "validation": {
-        "first-name": "First name required",
-        "last-name": "Last name required"
+        "first-name": "First name required",
+        "last-name": "Last name required"
       }
     },
     "tabs": {
       "actions": {
-        "sell": "For Sell",
-        "rent": "For Rent",
+        "sell": "For Sell",
+        "rent": "For Rent",
         "exchange": "Exchange"
       },
       "common": {
         "button-edit": "Edit",
         "button-reviews": "Reviews",
         "button-delete": "Delete",
-        "days-left": "days left",
-        "title": "My Listings",
-        "highest": "Highest Bid",
-        "lowest": "Lowest Bid"
+        "days-left": "days left",
+        "title": "My Listings",
+        "highest": "Highest Bid",
+        "lowest": "Lowest Bid"
       },
       "job": {
-        "count": "Applicant Count",
-        "avarage": "Avarage Offer",
-        "lowest": "Lowest Offer",
-        "highest": "Highest Offer",
-        "button": "See All"
+        "count": "Applicant Count",
+        "avarage": "Avarage Offer",
+        "lowest": "Lowest Offer",
+        "highest": "Highest Offer",
+        "button": "See All"
       },
       "browser": {
-        "common": { "area": "Working Area" },
-        "title": "Browse CV",
+        "common": {
+          "area": "Working Area"
+        },
+        "title": "Browse CV",
         "search": {
           "button": "Search",
           "expirience": {
-            "label": "Expierience",
+            "label": "Experience",
             "options": {}
           },
-          "hourly-to": "Hourly To",
-          "monthly-to": "Monthly To",
-          "annual-to": "Annual To"
+          "hourly-to": "Hourly To",
+          "monthly-to": "Monthly To",
+          "annual-to": "Annual To"
         },
         "table": {
           "name": "Name",
           "email": "Email",
-          "phone": "Phone number",
-          "salary": "Expected Salary"
+          "phone": "Phone number",
+          "salary": "Expected Salary"
         }
       },
       "receipt": {
-        "title": "Payment Receipts",
+        "title": "Payment Receipts",
         "search": {
-          "search-from": "Select Start Date",
-          "search-to": "Select End Date",
+          "search-from": "Select Start Date",
+          "search-to": "Select End Date",
           "button": "Search"
         },
         "table": {
-          "order": "Order Nr.",
+          "order": "Order Nr.",
           "date": "Date",
           "premium": "Promoted",
-          "add-days": "Extra Days",
-          "type": "Listing type"
+          "add-days": "Extra Days",
+          "type": "Listing type"
         }
       }
     },
     "cv": {
-      "title": "Curriculum Vitaes",
+      "title": "Curriculum Vitaes",
       "sections": {
         "personal-details": {
           "form": {
-            "title": "Personal Details",
-            "first-name": "First name",
-            "last-name": "Last name",
+            "title": "Personal Details",
+            "first-name": "First name",
+            "last-name": "Last name",
             "email": "Email",
             "phone": "Phone",
             "birthday": "Birthday",
             "age": {
-              "label": "Show age",
+              "label": "Show age",
               "options": {
                 "yes": "Yes",
                 "no": "No",
-                "only-birthdate": "Only Birth Date"
+                "only-birthdate": "Only Birth Date"
               }
             },
             "gender": {
@@ -171,20 +173,20 @@
               "options": {
                 "male": "Male",
                 "female": "Female",
-                "dont–show": "Don't show"
+                "dont–show": "Don't show"
               }
             },
-            "about-me": "What's different about you?"
+            "about-me": "What's different about you?"
           }
         },
         "education": {
           "title": "Education",
           "accordion": {
-            "school": "School Name",
+            "school": "School Name",
             "country": "Country",
-            "from-date": "From Date",
-            "to-date": "To Date",
-            "study-area": "Field of Study",
+            "from-date": "From Date",
+            "to-date": "To Date",
+            "study-area": "Field of Study",
             "qualification": {
               "title": "Qualification",
               "options": {
@@ -197,27 +199,27 @@
                 "other": "Other"
               }
             },
-            "best-fit": "Profession Fit",
-            "grade": "Average Grade",
-            "button-add": "Add Education"
+            "best-fit": "Profession Fit",
+            "grade": "Average Grade",
+            "button-add": "Add Education"
           }
         },
         "expierience": {
-          "title": "Work Experience",
+          "title": "Work Experience",
 
-          "company-name": "Company Name",
-          "from-date": "From Date",
-          "to-date": "To Date",
-          "work-area": "Work Area",
+          "company-name": "Company Name",
+          "from-date": "From Date",
+          "to-date": "To Date",
+          "work-area": "Work Area",
           "position": "Position",
-          "position-description": "Position Description",
-          "sector": "Employment Sector",
+          "position-description": "Position Description",
+          "sector": "Employment Sector",
           "seniority": {
             "title": "Seniority",
             "options": {
               "volunteer": "Volunteer",
               "intern": "Intern",
-              "junior": "Juniour",
+              "junior": "Junior",
               "intermediate": "Intermediate",
               "senior": "Senior",
               "executive": "Executive",
@@ -226,13 +228,13 @@
             }
           },
 
-          "button-add": "Add Experience"
+          "button-add": "Add Experience"
         },
         "languages": {
-          "title": "Language Skills",
+          "title": "Language Skills",
           "accordion": {
             "language": "Language",
-            "certificate": "Name of Certificate",
+            "certificate": "Name of Certificate",
             "level": {
               "label": "Level",
               "options": {
@@ -245,66 +247,66 @@
                 "native": "Native"
               }
             },
-            "button-add": "Add Skill"
+            "button-add": "Add Skill"
           }
         },
         "computer": {
-          "title": "Computer Skills",
+          "title": "Computer Skills",
           "accordion": {
-            "skill-name": "Computer Skill",
+            "skill-name": "Computer Skill",
             "knowladge-gained": {
-              "label": "Knowladge Gained",
+              "label": "Knowledge Gained",
               "options": {
-                "selfTaught": "Self Taught",
+                "selfTaught": "Self Taught",
                 "course": "Course",
                 "freelance": "Freelance",
-                "contractProject": "Contract Project",
-                "fullTimeJob": "Full Time Employment",
+                "contractProject": "Contract Project",
+                "fullTimeJob": "Full Time Employment",
                 "other": "Other"
               }
             },
             "expierience": {
-              "label": "Expierience",
-              "uptoOne": "< 1 year",
-              "oneToThree": "1-3 years",
-              "threeToFive": "3-5 years",
-              "fiveToTen": "5-10 years",
-              "tenToFifteen": "10-15 years",
-              "moreThanFifteen": "15+ years"
+              "label": "Experience",
+              "uptoOne": "< 1 year",
+              "oneToThree": "1-3 years",
+              "threeToFive": "3-5 years",
+              "fiveToTen": "5-10 years",
+              "tenToFifteen": "10-15 years",
+              "moreThanFifteen": "15+ years"
             },
-            "certificate": "Certification Name",
-            "button-add": "Add Skill"
+            "certificate": "Certification Name",
+            "button-add": "Add Skill"
           }
         },
         "licenses": {
-          "title": "Transportation License",
+          "title": "Transportation License",
           "accordion": {
-            "country": "Issue Country",
+            "country": "Issue Country",
             "expierience": {
               "label": "Expierience",
-              "uptoOne": "< 1 year",
-              "oneToThree": "1-3 years",
-              "threeToFive": "3-5 years",
-              "fiveToTen": "5-10 years",
-              "tenToFifteen": "10-15 years",
-              "moreThanFifteen": "15+ years"
+              "uptoOne": "< 1 year",
+              "oneToThree": "1-3 years",
+              "threeToFive": "3-5 years",
+              "fiveToTen": "5-10 years",
+              "tenToFifteen": "10-15 years",
+              "moreThanFifteen": "15+ years"
             },
-            "category": "License Category",
-            "button-add": "Add Licence"
+            "category": "License Category",
+            "button-add": "Add Licence"
           }
         },
         "expectations": {
-          "title": "Work Expectations",
+          "title": "Work Expectations",
           "accordion": {
-            "title": "Work Expectations",
-            "interest": "Area of Interest",
+            "title": "Work Expectations",
+            "interest": "Area of Interest",
             "position": "Position",
             "seniority": {
               "title": "Seniority",
               "options": {
                 "volunteer": "Volunteer",
                 "intern": "Intern",
-                "junior": "Juniour",
+                "junior": "Junior",
                 "intermediate": "Intermediate",
                 "senior": "Senior",
                 "executive": "Executive",
@@ -312,42 +314,42 @@
                 "other": "Other"
               }
             },
-            "hourly": "Hourly from",
-            "monthly": "Monthly from",
-            "yearly": "Yearly from",
-            "button-add": "Add Expectation"
+            "hourly": "Hourly from",
+            "monthly": "Monthly from",
+            "yearly": "Yearly from",
+            "button-add": "Add Expectation"
           }
         }
       }
     },
     "browser-cv": {
-      "browser": "Browser CV",
+      "browser": "Browser CV",
       "search": "Search",
-      "work-expierience": "Working expierience",
-      "work-expectations": "Work expectations",
-      "education-fit": "Education fit",
-      "salary-hourly": "Hourly salary till",
-      "salary-monthly": "Monthly salary till",
-      "salary-annual": "Monthly salary till",
+      "work-expierience": "Working experience",
+      "work-expectations": "Work expectations",
+      "education-fit": "Education fit",
+      "salary-hourly": "Hourly salary till",
+      "salary-monthly": "Monthly salary till",
+      "salary-annual": "Monthly salary till",
       "seniority": "Seniority",
-      "monthly": " /monthly",
+      "monthly": " /monthly",
       "result-table": {
         "nr": "Nr.",
-        "name": "Full Name",
+        "name": "Full Name",
         "email": "Email",
         "phone": "Phone",
-        "worked-as": "Last Position",
-        "salary": "Expected Salary",
+        "worked-as": "Last Position,",
+        "salary": "Expected Salary",
         "cv": "CV",
         "view": "View"
       }
     },
     "receipt": {
-      "title": "Payment Receipts",
-      "start-date": "Start Date",
-      "end-date": "End Date",
+      "title": "Payment Receipts",
+      "start-date": "Start Date",
+      "end-date": "End Date",
       "table": {
-        "reference": "Order #",
+        "reference": "Order #",
         "date": "Date",
         "purchase": "Plan",
         "total": "Amount",
@@ -356,26 +358,26 @@
     }
   },
   "toast": {
-    "succes": "Profile Was Updated",
-    "fail": "Profile was not Updated",
-    "avatar": "Avatar Updated",
-    "avatar-fail": "Failed to Update Avatar",
-    "avatar-remove": "Avatar Removed",
-    "avatar-remove-fail": "Avatar was not removed",
-    "logout": "Loged Out",
-    "password": "Password Was Changed",
-    "password-fail": "Password was not changed",
-    "item-deleted": "Listing Deleted"
+    "succes": "Profile Was Updated",
+    "fail": "Profile was not Updated",
+    "avatar": "Avatar Updated",
+    "avatar-fail": "Failed to Update Avatar",
+    "avatar-remove": "Avatar Removed",
+    "avatar-remove-fail": "Avatar was not removed",
+    "logout": "Loged Out",
+    "password": "Password Was Changed",
+    "password-fail": "Password was not changed",
+    "item-deleted": "Listing Deleted"
   },
   "delete-modal": {
-    "header": "Delete listing",
-    "body": "Are you sure you want to delete this listnig?",
+    "header": "Delete listing",
+    "body": "Are you sure you want to delete this listnig?",
     "cancel": "Cancel",
     "delete": "Delete"
   },
   "delete-account": {
-    "header": "Delete Account",
-    "body": "Are you sure you want to delete your account?",
+    "header": "Delete Account",
+    "body": "Are you sure you want to delete your account?",
     "cancel": "Cancel",
     "delete": "Delete"
   }

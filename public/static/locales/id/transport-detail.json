@@ -1,0 +1,63 @@
+{
+  "header": {
+    "flag-button": "TANDAI KONTEN INI"
+  },
+  "detail-info": {
+    "button": "SAYA MAU PINDAH SEKARANG"
+  },
+  "contact-times": {
+    "heading": "Waktu Kontak yang diinginkan"
+  },
+
+  "promoted": "Dipromosikan",
+
+  "about": {
+    "heading": "Perihal",
+    "featured": "Dipromosikan",
+    "notFeatured": "Tidak dipromosikan",
+    "rentTime": "per bulan",
+    "inputTimeDays": "hari lalu"
+  },
+
+  "general-info": {
+    "heading": "Informasi umum",
+    "brand": "Merek transport",
+    "model": "Model transport",
+    "year": "Tahun",
+    "price": "Harga",
+    "distance": "Jarak",
+    "max-speed": "Kecepatan maksimum",
+    "fuel-economy": "Bahan bakar ekonomis",
+    "seats": "Kursi",
+    "doors": "Pintu",
+    "bid-price": "Harga tawar untuk transportasi",
+    "submit": "TAWAR",
+    "bid-placeholder": "Tawar dengan margin 20%"
+  },
+  "features": {
+    "heading": "Fitur"
+  },
+  "contact-form": {
+    "not-specified": "Tidak dijelaskan",
+    "heading": "Hubungi pemilik secara langsung",
+    "form": {
+      "heading": "Tuliskan pertanyaan Anda di sini",
+      "fullName": "Nama lengkap*",
+      "phoneNumber": "Nomor telepon*",
+      "email": "Alamat email*",
+      "message": "Pesan Anda",
+      "submit": "KIRIM PESAN"
+    }
+  },
+  "extra": {
+    "heading": "Transport lain yang dicantumkan oleh profil ini",
+    "table": {
+      "number": "No.",
+      "country": "Negara",
+      "brand-model": "Model/Merek",
+      "price": "Harga",
+      "condition": "Kondisi",
+      "production-year": "Tahun"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "title": "Suche nach Immobilienangeboten",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "Min Preis",
+        "max-price": "Max Preis",
+        "min-rooms": "Min Zimmer",
+        "max-rooms": "Max Räume",
+        "min-area": "Min Fläche",
+        "max-area": "Max Fläche",
+        "move-in-date": "Einzugsdatum von",
+        "move-out-date": "Einzugsdatum bis",
+        "currency": "Währung"
+      },
+
+      "submit": "Jetzt suchen",
+      "accordion": "ERWEITERTE SUCHE",
+      "accordion-right": {
+        "utility-label": "Bereich der Versorgungsrechnung",
+        "utility": {
+          "from-price": "Von: 0.00",
+          "to-price": "Bis: 9,999,999,999"
+        },
+        "year-label": "Jahr gebaut",
+        "built": {
+          "from-year": "von: 1000",
+          "to-year": "Bis: 9999"
+        },
+        "measurement-label": "Messung",
+        "system": {
+          "none": "Keine",
+          "metric": "Metrisch m",
+          "imperial": "Imperial ft"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Sortieren nach",
+        "options": {
+          "price": "Preis",
+          "area": "Bereich",
+          "rooms": "Zimmer",
+          "street-name": "Straßenname",
+          "popularity": "Beliebtheit",
+          "views": "Gesehen",
+          "country": "Land",
+          "insert-date": "Datum einfügen"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "Aus dem Blog",
+    "see-more": "Mehr lesen"
+  },
+  "error": {
+    "tags": "Bitte kontaktieren Sie uns mit:'Keine Tags gefunden'"
+  },
+  "no-tags": "Keine Funktionen für diese Option"
+}

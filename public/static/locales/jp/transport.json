@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "form": {
+      "currency": "通貨",
+      "no-currency": "すべて",
+      "min-price": "最小：0.00",
+      "max-price": "最大：9,999,999,999",
+      "transport-brand": "ブランド",
+      "transport-model": "モデル",
+      "min-age": "最小年数",
+      "max-age": "最大年数",
+      "submit": "今すぐ検索",
+      "accordion": "詳細検索",
+      "accordion-right": {
+        "economy": {
+          "label": "燃費",
+          "items": {
+            "from": "から：0",
+            "to": "まで：999"
+          }
+        },
+        "speed": {
+          "label": "最高速度",
+          "items": {
+            "from": "から：0",
+            "to": "まで：999"
+          }
+        },
+        "millage": {
+          "label": "走行距離",
+          "items": {
+            "from": "から：0",
+            "to": "まで：9,999,999"
+          }
+        },
+        "units": "ユニット"
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "並び替え",
+        "options": {
+          "price": "価格",
+          "speed": "速度",
+          "millage": "走行距離",
+          "fuel-economy": "燃費",
+          "popularity": "人気",
+          "views": "閲覧数",
+          "country": "国",
+          "insert-date": "掲載日"
+        }
+      }
+    }
+  }
+}

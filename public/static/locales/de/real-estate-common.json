@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "Kategorie",
+    "options": {
+      "houses": "Haus",
+      "apartments": "Wohnung",
+      "land": "Grundstück",
+      "farmhouse": "Bauernhof",
+      "commercial": "Kommerziell",
+      "exclusive": "Exklusiv",
+      "offices": "Büro",
+      "agents": "Immobilien-Agentur"
+    }
+  },
+  "action": {
+    "label": "Aktion",
+    "options": {
+      "sell": "Verkaufen",
+      "rent": "Mieten",
+      "exchange": "Tauschen"
+    }
+  },
+  "condition": {
+    "label": "Zustand",
+    "label-land": "Eigenschaft Typ",
+    "options": {
+      "brandNew": "Brandneu",
+      "goodCondition": "Guter Zustand",
+      "medium": "Mittel",
+      "requiresFixing": "Benötigt Reparaturen",
+      "requiresConstruction": "Benötigt Bauarbeiten",
+      "residential": "Wohnbereich",
+      "comercial": "Kommerziell",
+      "industrial": "Industriell",
+      "agricultural": "Landwirtschaftlich"
+    }
+  },
+  "contact-times": {
+    "label": "Kontakt Zeit",
+    "options": {
+      "anyTime": "Beliebige Zeit",
+      "workingDays": "Arbeitstage",
+      "officeHours": "Bürozeiten",
+      "specificTimes": "Besondere Zeiten"
+    }
+  },
+  "features": {
+    "heading": "Ausstattung",
+    "category": {
+      "kitchen": "Küche",
+      "bathroom": "Badezimmer",
+      "living-room": "Wohnbereich",
+      "bedroom": "Schlafzimmer",
+      "housing-extras": "Andere Extras",
+      "land-type": "Land-Typ",
+      "buildingLand": "Bauland für",
+      "forest-properties": "Wald-Eigenschaften",
+      "agriculture-properties": "Landwirtschaftliche Grundstücke"
+    }
+  },
+  "utilities": {
+    "heading": "Versorgungsunternehmen",
+    "total": "Gesamt",
+    "items": {
+      "coldWater": "Kaltes Wasser",
+      "hotWater": "Warmwasser",
+      "electricity": "Elektrizität",
+      "garbage": "Müll",
+      "propertyManagement": "Hausverwaltung",
+      "heating": "Heizung",
+      "parking": "Parken",
+      "others": "Sonstiges"
+    }
+  }
+}

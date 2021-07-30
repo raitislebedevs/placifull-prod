@@ -1,0 +1,35 @@
+{
+  "main": {
+    "success": "O pagamento foi bem sucedido.",
+    "plan_update": "Não foi possível atualizar seu plano.",
+    "card_not": "O cartão não sofreu cobrança.",
+    "pay": "Pagar  € ",
+    "processing": "Processando..."
+  },
+  "placeholders": {
+    "name": "Jane Doe",
+    "email": "janedoe@placifull.com",
+    "phone": "(941) 555-7777"
+  },
+  "incomplete": {
+    "incomplete_cvc": "O código de segurança do cartão está incompleto.",
+    "incomplete_expiry": "A data de validade do seu cartão está incompleta.",
+    "incomplete_number": "O número do seu cartão está incompleto."
+  },
+
+  "declined": {
+    "card_declined": "Seu cartão foi recusado"
+  },
+  "checkout": {
+    "billing": "Por favor, preencha com os dados de cobrança",
+    "card-details": "Por favor, forneça os dados do cartão",
+    "cancel": "Cancelar"
+  },
+  "labels": {
+    "plan": "Plano",
+    "quantity": "Quantidade",
+    "name": "Nome",
+    "email": "E-mail",
+    "phone": "N° de telefone"
+  }
+}

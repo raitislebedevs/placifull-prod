@@ -1,0 +1,53 @@
+{
+  "heading": "Kirimkan Daftar",
+  "form": {
+    "submit": "Kirimkan",
+    "submit-confirm": "Menyimpan…",
+    "preview-sneak-peak": "Menghasilkan…",
+    "preview": "Pratinjau",
+    "no-currency": "SEMUA",
+    "no-features": "Silahkan Pilih Kategori Daftar",
+    "general-information": {
+      "heading": "Informasi Umum",
+      "currency-input": "Mata Uang",
+      "input-fields": {
+        "name": "Nama Daftar Anda",
+        "description": "Deskripsi",
+        "price": "Harga",
+        "bed-rooms": "Kamar Tidur",
+        "bath-rooms": "Kamar Mandi",
+        "area": "Area Properti",
+        "start-renting": "Mulai Penyewaan",
+        "end-renting": "Akhir Penyewaan",
+        "year-built": "Tahun Dibangun"
+      }
+    },
+    "detail-information": {
+      "heading": "Informasi Detail",
+      "contact": {
+        "heading": "Kontak",
+        "email": "Email",
+        "address": "Alamat",
+        "contact-times": {
+          "label": "Waktu Kontak",
+          "placeholder": "Pilih Waktu yang Diinginkan"
+        },
+        "listing-website": "Situs: https://"
+      }
+    },
+    "gallery": {
+      "real-estate": "Galeri",
+      "click-drop": "KLIK ATAU GESER GAMBAR KE SINI",
+      "video-url": "Video https://"
+    },
+    "contact-hours": {
+      "heading": "Jam Kontak",
+      "heading-tip": "Opsional",
+      "accordion": {
+        "heading": "Tambahkan waktu yang paling tepat untuk bertemu/bicara…",
+        "start-time": "Dari",
+        "end-time": "Hingga"
+      }
+    }
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "overview": {
+    "button-label": {
+      "change": "Ubah Gambar",
+      "delete": "Hapus Gambar",
+      "save-all": "Simpan Semua",
+      "preview": "Pratinjau"
+    },
+    "setting-label": "Dibeli",
+    "delete-avatar-modal": {
+      "header": "Hapus Avatar",
+      "body": "Apakah Anda ingin menghapus Avatar Anda ?",
+      "submit": "Hapus",
+      "cancel": "Batalkan"
+    }
+  },
+  "hover-texts": {
+    "real-estate": "Postingan Real Estate",
+    "transport": "Postingan Transportasi",
+    "job": "Postingan Pekerjaan",
+    "browser": "Jelajahi CV"
+  },
+  "left-tab": {
+    "navigation": "Navigasi",
+    "titles": {
+      "profile": "Profil",
+      "cv": "CV",
+      "real-estate": "Real Estate",
+      "transport": "Transportasi",
+      "jobs": "Pekerjaan",
+      "browser": "Jelajahi CV",
+      "payment": "Tanda Terima Pembayaran",
+      "logout": "Keluar"
+    }
+  },
+  "right-content": {
+    "prev-button": "Langkah Sebelumnya",
+    "next-button": "Langkah Berikutnya",
+    "profile": {
+      "personal-details": {
+        "heading": "Detail Personal:",
+        "labels": {
+          "profession": "Identitas Profesi",
+          "first-name": "Nama Depan",
+          "last-name": "Nama Belakang",
+          "email": "Email Anda",
+          "phone-number": "Nomor Telepon",
+          "about-me-heading": "Tentang Saya",
+          "about-me": "Apa yang Berbeda Tentang Anda ?",
+          "country": "Negara",
+          "state": "Negara Bagian/Wilayah",
+          "city": "Kota",
+          "birth-date": "Tanggal Lahir",
+          "gender": {
+            "label": "Jenis Kelamin",
+            "men": "Pria",
+            "women": "Wanita",
+            "not-specified": "Jangan Tampilkan"
+          },
+          "age": {
+            "label": "Tampilkan Usia",
+            "yes": "Ya",
+            "no": "Tidak",
+            "only-birth-date": "Hanya Tanggal Lahir"
+          }
+        },
+        "button-save": "Simpan Perubahan"
+      },
+      "password-form": {
+        "text": "Ganti Kata Sandi:",
+        "old-password": "Kata Sandi Lama",
+        "new-password": "Kata Sandi Baru",
+        "confirm-password": "Konfirmasi Kata Sandi",
+        "button-save": "Simpan Kata Sandi",
+        "validation": {
+          "current-password-required": "Silakan Konfirmasi Kata Sandi",
+          "new-password-required": "Kata Sandi Tidak Ada",
+          "password-not-match": "Kata Sandi Tidak Sesuai",
+          "confirm-password-required": "Silakan Konfirmasi Kata Sandi"
+        }
+      },
+      "delete-form": {
+        "text": "Hapus Akun:",
+        "content": "Apakah Anda ingin menghapus akun? Silahkan tekan tombol 'Hapus' di bawah ini",
+        "button-delete": "Hapus Akun"
+      },
+      "validation": {
+        "first-name": "Nama Depan Diperlukan",
+        "last-name": "Nama Belakang Diperlukan"
+      }
+    },
+    "tabs": {
+      "actions": {
+        "sell": "Dijual",
+        "rent": "Disewakan",
+        "exchange": "Tukar"
+      },
+      "common": {
+        "button-edit": "Sunting",
+        "button-reviews": "Tinjau",
+        "button-delete": "Hapus",
+        "days-left": "Hari Tersisa",
+        "title": "Daftar Saya",
+        "highest": "Penawaran Tertinggi",
+        "lowest": "Penawaran Terendah"
+      },
+      "job": {
+        "count": "Jumlah Pelamar",
+        "avarage": "Penawaran Rata-rata",
+        "lowest": "Penawaran Terendah",
+        "highest": "Penawaran Tertinggi",
+        "button": "Lihat Semua"
+      },
+      "browser": {
+        "common": {
+          "area": "Area Kerja"
+        },
+        "title": "Telusuri CV",
+        "search": {
+          "button": "Cari",
+          "expirience": {
+            "label": "Pengalaman",
+            "options": {}
+          },
+          "hourly-to": "Per Jam Sampai",
+          "monthly-to": "Per Bulan Sampai",
+          "annual-to": "Per Tahun Sampai"
+        },
+        "table": {
+          "name": "Nama",
+          "email": "Email",
+          "phone": "Nomor Telepon",
+          "salary": "Gaji yang Diharapkan"
+        }
+      },
+      "receipt": {
+        "title": "Tanda Terima Pembayaran",
+        "search": {
+          "search-from": "Pilih Tanggal Awal",
+          "search-to": "Pilih Tanggal Berakhir",
+          "button": "Telusuri"
+        },
+        "table": {
+          "order": "Nomor Pesanan",
+          "date": "Tanggal",
+          "premium": "Dipromosikan",
+          "add-days": "Hari Ekstra",
+          "type": "Jenis Daftar"
+        }
+      }
+    },
+    "cv": {
+      "title": "Curriculum Vitae",
+      "sections": {
+        "personal-details": {
+          "form": {
+            "title": "Detail Personal",
+            "first-name": "Nama Depan",
+            "last-name": "Nama Belakang",
+            "email": "Email",
+            "phone": "Nomor Telepon",
+            "birthday": "Tanggal Lahir",
+            "age": {
+              "label": "Tampilkan Usia",
+              "options": {
+                "yes": "Ya",
+                "no": "Tidak",
+                "only-birthdate": "Hanya Tanggal Lahir"
+              }
+            },
+            "gender": {
+              "label": "Jenis Kelamin",
+              "options": {
+                "male": "Pria",
+                "female": "Wanita",
+                "dont–show": "Jangan Tampilkan"
+              }
+            },
+            "about-me": "Apa yang berbeda tentang Anda?"
+          }
+        },
+        "education": {
+          "title": "Pendidikan",
+          "accordion": {
+            "school": "Nama Sekolah",
+            "country": "Negara",
+            "from-date": "Dari Tanggal",
+            "to-date": "Sampai Tanggal",
+            "study-area": "Bidang Studi",
+            "qualification": {
+              "title": "Kualifikasi",
+              "options": {
+                "primary": "Sekolah Dasar",
+                "secondary": "Sekolah Menengah",
+                "vocational": "Sekolah Kejuruan",
+                "bachelors": "Pendidikan Sarjana",
+                "master": "Pendidikan Master",
+                "doctorate": "Pendidikan Doktor",
+                "other": "Lainnya"
+              }
+            },
+            "best-fit": "Kecocokan Profesi",
+            "grade": "Nilai Rata-rata",
+            "button-add": "Tambahkan Pendidikan"
+          }
+        },
+        "expierience": {
+          "title": "Pengalaman Kerja",
+
+          "company-name": "Nama Perusahaan",
+          "from-date": "Dari Tanggal",
+          "to-date": "Sampai Tanggal",
+          "work-area": "Area Kerja",
+          "position": "Jabatan",
+          "position-description": "Deskripsi Jabatan",
+          "sector": "Sektor Ketenagakerjaan",
+          "seniority": {
+            "title": "Senioritas",
+            "options": {
+              "volunteer": "Sukarelawan",
+              "intern": "Magang",
+              "junior": "Junior",
+              "intermediate": "Menengah",
+              "senior": "Senior",
+              "executive": "Eksekutif",
+              "ceo": "CEO",
+              "other": "Lainnya"
+            }
+          },
+
+          "button-add": "Tambahkan Pengalaman"
+        },
+        "languages": {
+          "title": "Keterampilan Bahasa",
+          "accordion": {
+            "language": "Bahasa",
+            "certificate": "Nama Sertifikat",
+            "level": {
+              "label": "Level",
+              "options": {
+                "a1": "A1",
+                "a2": "A2",
+                "b1": "B1",
+                "b2": "B2",
+                "c1": "C1",
+                "c2": "C2",
+                "native": "Warga Asli"
+              }
+            },
+            "button-add": "Tambahkan Keterampilan"
+          }
+        },
+        "computer": {
+          "title": "Keterampilan Komputer",
+          "accordion": {
+            "skill-name": "Keterampilan Komputer",
+            "knowladge-gained": {
+              "label": "Pengetahuan yang Diperoleh",
+              "options": {
+                "selfTaught": "Otodidak",
+                "course": "Kursus",
+                "freelance": "Freelance",
+                "contractProject": "Proyek Kontrak",
+                "fullTimeJob": "Pekerjaan Penuh Waktu",
+                "other": "Lainnya"
+              }
+            },
+            "expierience": {
+              "label": "Pengalaman",
+              "uptoOne": "< 1 tahun",
+              "oneToThree": "1-3 tahun",
+              "threeToFive": "3-5 tahun",
+              "fiveToTen": "5-10 tahun",
+              "tenToFifteen": "10-15 tahun",
+              "moreThanFifteen": "15+ tahun"
+            },
+            "certificate": "Nama Sertifikat",
+            "button-add": "Tambahkan Keterampilan"
+          }
+        },
+        "licenses": {
+          "title": "Lisensi Berkendara",
+          "accordion": {
+            "country": "Negara yang Menerbitkan",
+            "expierience": {
+              "label": "Pengalaman",
+              "uptoOne": "< 1 tahun",
+              "oneToThree": "1-3 tahun",
+              "threeToFive": "3-5 tahun",
+              "fiveToTen": "5-10 tahun",
+              "tenToFifteen": "10-15 tahun",
+              "moreThanFifteen": "15+ tahun"
+            },
+            "category": "Kategori Lisensi",
+            "button-add": "Tambahkan Lisensi"
+          }
+        },
+        "expectations": {
+          "title": "Pekerjaan yang Diharapkan",
+          "accordion": {
+            "title": "Pekerjaan yang Diharapkan",
+            "interest": "Area yang Diminati",
+            "position": "Jabatan",
+            "seniority": {
+              "title": "Senioritas",
+              "options": {
+                "volunteer": "Sukarelawan",
+                "intern": "Magang",
+                "junior": "Junior",
+                "intermediate": "Menengah",
+                "senior": "Senior",
+                "executive": "Eksekutif",
+                "ceo": "CEO",
+                "other": "Lainnya"
+              }
+            },
+            "hourly": "Per Jam dari",
+            "monthly": "Per Bulan dari",
+            "yearly": "Per Tahun dari",
+            "button-add": "Ekspektasi"
+          }
+        }
+      }
+    },
+    "browser-cv": {
+      "browser": "Jelajahi CV",
+      "search": "Telusuri",
+      "work-expierience": "Pengalaman Bekerja",
+      "work-expectations": "Pekerjaan yang Diharapkan",
+      "education-fit": "Kecocokan Pendidikan",
+      "salary-hourly": "Gaji Per Jam hingga",
+      "salary-monthly": "Gaji Per Bulan hingga",
+      "salary-annual": "Gaji Per Tahun hingga",
+      "seniority": "Senioritas",
+      "monthly": "/bulan",
+      "result-table": {
+        "nr": "No.",
+        "name": "Nama Lengkap",
+        "email": "Email",
+        "phone": "Nomor Telepon",
+        "worked-as": "Jabatan Terakhir,",
+        "salary": "Gaji yang Diharapkan",
+        "cv": "CV",
+        "view": "Tampilkan"
+      }
+    },
+    "receipt": {
+      "title": "Tanda Terima Pembayaran",
+      "start-date": "Tanggal Mulai",
+      "end-date": "Tanggal Berakhir",
+      "table": {
+        "reference": "Pesanan #",
+        "date": "Tanggal",
+        "purchase": "Rencana",
+        "total": "Jumlah",
+        "status": "Status"
+      }
+    }
+  },
+  "toast": {
+    "succes": "Profil Telah Diperbarui",
+    "fail": "Profil Tidak Diperbarui",
+    "avatar": "Avatar Diperbarui",
+    "avatar-fail": "Gagal Memperbarui Avatar",
+    "avatar-remove": "Avatar Dihapus",
+    "avatar-remove-fail": "Avatar tidak dihapus",
+    "logout": "Keluar",
+    "password": "Kata Sandi telah Diubah",
+    "password-fail": "Kata Sandi tidak Diubah",
+    "item-deleted": "Daftar Dihapus"
+  },
+  "delete-modal": {
+    "header": "Hapus Daftar",
+    "body": "Apakah Anda ingin menghapus akun Anda?",
+    "cancel": "Batalkan",
+    "delete": "Hapus"
+  },
+  "delete-account": {
+    "header": "Hapus Akun",
+    "body": "Apakah Anda ingin menghapus akun Anda?",
+    "cancel": "Batalkan",
+    "delete": "Hapus"
+  }
+}

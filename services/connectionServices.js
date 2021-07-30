@@ -39,6 +39,18 @@ class ConnectionServices extends CoreServices {
     }
   }
 
+  async EMAIL_CONFIRMATION(payload) {
+    try {
+      const { data } = await axios.post(
+        `${this.apiEnpoint}${AUTH.BASE}${AUTH.EMAIL_CONFIRMATION}`,
+        payload
+      );
+      return { data };
+    } catch (error) {
+      return { error: this.getErrorMessage(error) };
+    }
+  }
+
   async CHANGE_PASSWORD(payload) {
     try {
       const { data } = await axios.post(
@@ -72,7 +84,8 @@ class ConnectionServices extends CoreServices {
   async LOGIN_WITH_PROVIDER(provider, query) {
     try {
       const { data } = await axios.get(
-        `${this.apiEnpoint}${AUTH.BASE}/${provider}${AUTH.PROVIDER.CALLBACK}${query}`);
+        `${this.apiEnpoint}${AUTH.BASE}/${provider}${AUTH.PROVIDER.CALLBACK}${query}`
+      );
       return { data };
     } catch (error) {
       return { error: this.getErrorMessage(error) };
@@ -80,7 +93,7 @@ class ConnectionServices extends CoreServices {
   }
 
   REDIRECT_PROVIDER(provider) {
-    window.location.href = `${this.apiEnpoint}${AUTH.PROVIDER.CONNECT}/${provider}`
+    window.location.href = `${this.apiEnpoint}${AUTH.PROVIDER.CONNECT}/${provider}`;
   }
 }
 

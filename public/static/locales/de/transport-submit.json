@@ -1,0 +1,77 @@
+{
+  "heading": "Inserat einreichen",
+  "form": {
+    "submit": "Absenden",
+    "submit-confirm": "Sparen...",
+    "preview-sneak-peak": "Erzeugen...",
+    "preview": "Vorschau",
+    "currency": "Währung",
+    "no-currency": "ALLE",
+    "general-information": {
+      "heading": "Allgemeine Informationen",
+      "transport-type": "Fahrzeugtyp",
+      "action": "Aktion",
+      "condition": "Bedingung",
+      "input-fields": {
+        "description": "Beschreibung",
+        "brand": "Transport-Marke",
+        "model": "Transport Modell",
+        "production-year": "Produktionsjahr",
+        "price": "Preis",
+        "engine-type": "Motor Typ",
+        "gear-box": "Getriebe",
+        "millage": "Abstand",
+        "speed": "Maximale Geschwindigkeit",
+        "fueal-economy": "Kraftstoffverbrauch",
+        "seats": "Anzahl der Sitze",
+        "doors": "Anzahl der Türen",
+        "name": "Name des Transport Inserats"
+      }
+    },
+    "detail-information": {
+      "heading": "Detail-Informationen",
+      "contact": {
+        "heading": "Kontakt",
+        "email": "E-Mail",
+        "address": "Adresse",
+        "contact-times": {
+          "label": "Kontakt Zeit",
+          "placeholder": "Wählen Sie eine bevorzugte Kontaktzeit",
+          "options": {
+            "any-time": "Beliebige Zeit",
+            "working-days": "Arbeitstage",
+            "office-hours": "Bürozeiten",
+            "specific-times": "Bestimmte Zeiten"
+          }
+        },
+        "listing-website": "Website: https://"
+      },
+      "features": {
+        "heading": "Merkmale",
+        "category": {
+          "equipment": "Ausstattung",
+          "interior": "Innenraum",
+          "steering-wheel": "Lenkrad",
+          "seats": "Sitze",
+          "lights": "Lichter",
+          "audio-video": "Audio/Video",
+          "mirrros": "Spiegel"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "Galerie",
+      "click-drop": "BILDER ANKLICKEN ODER HIERHER ZIEHEN",
+      "video-url": "Video url: https://"
+    },
+    "contact-hours": {
+      "heading": "Kontakt Stunden",
+      "heading-tip": "Optional",
+      "accordion": {
+        "heading": "Fügen Sie die besten Zeiten für ein Treffen/Anruf hinzu...",
+        "start-time": "Von",
+        "end-time": "Bis"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "job-apply": {
+    "heading": "Sind Sie sicher, dass Sie sich für bewerben möchten:",
+    "proposed-salary": "Erwartetes Gehalt",
+    "close": "Schliessen",
+    "apply": "Bewerben",
+    "applying": "Bearbeitung....",
+    "toast": {
+      "success": "Glückwunsch, Sie haben sich beworben!",
+      "log-in": "Sie müssen eingeloggt sein.",
+      "applied": "Sie haben sich bereits beworben.",
+      "cv": "Bitte aktualisieren Sie Ihren Lebenslauf",
+      "just": "Hey, Sie haben sich gerade beworben :)"
+    }
+  }
+}

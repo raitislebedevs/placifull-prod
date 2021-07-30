@@ -1,0 +1,41 @@
+{
+  "kanban": {
+    "save": "ボードを保存",
+    "saving": "保存中…",
+    "salary": {
+      "hour": "/時",
+      "month": "/月",
+      "year": "/年"
+    },
+    "job-overview": {
+      "title": "仕事の概要",
+      "industry": "産業",
+      "languages-en": "言語（英語）",
+      "native": "母語",
+      "contract-type": "契約タイプ",
+      "working-time": "勤務時間",
+      "expiry-date": "終了日"
+    },
+    "statistics": {
+      "title": "統計",
+      "applicants": "応募者",
+      "interviewed": "面接済み",
+      "processing": "審査中",
+      "reviewed": "審査済み",
+      "shortlisted": "最終選考",
+      "hired": "採用"
+    },
+    "columns": {
+      "applicants": "応募者",
+      "reviewed": "審査済みの応募者",
+      "shortlisted": "最終選考",
+      "interviewed": "面接済みの応募者",
+      "pending": "保留中",
+      "accepted": "採用された応募者",
+      "column-name": "新しい列",
+      "edit": "編集"
+    },
+    "view-cv": "履歴書を見る",
+    "remove": "削除"
+  }
+}

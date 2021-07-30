@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "Categoria",
+    "options": {
+      "houses": "Casa",
+      "apartments": "Apartamento",
+      "land": "Terreno",
+      "farmhouse": "Casa de campo",
+      "commercial": "Imóvel comercial",
+      "exclusive": "Exclusivo",
+      "offices": "Escritório",
+      "agents": "Agência imobiliária"
+    }
+  },
+  "action": {
+    "label": "Ação",
+    "options": {
+      "sell": "Vender",
+      "rent": "Alugar",
+      "exchange": "Trocar"
+    }
+  },
+  "condition": {
+    "label": "Condição",
+    "label-land": "Tipo de propriedade",
+    "options": {
+      "brandNew": "Novo",
+      "goodCondition": "Bom estado",
+      "medium": "Médio",
+      "requiresFixing": "Necessita de reparos",
+      "requiresConstruction": "Necessita construção",
+      "residential": "Residencial",
+      "comercial": "Comercial",
+      "industrial": "Industrial",
+      "agricultural": "Agrícola"
+    }
+  },
+  "contact-times": {
+    "label": "Horário de contato",
+    "options": {
+      "anyTime": "Qualquer horário",
+      "workingDays": "Dias úteis",
+      "officeHours": "Horário comercial",
+      "specificTimes": "Horário específico"
+    }
+  },
+  "features": {
+    "heading": "Características",
+    "category": {
+      "kitchen": "Cozinha",
+      "bathroom": "Banheiro",
+      "living-room": "Sala de estar",
+      "bedroom": "Quarto",
+      "housing-extras": "Outros extras",
+      "land-type": "Tipo de terreno",
+      "buildingLand": "Terreno para construir",
+      "forest-properties": "Propriedades florestais",
+      "agriculture-properties": "Propriedades agrícolas"
+    }
+  },
+  "utilities": {
+    "heading": "Serviços de utilidade pública",
+    "total": "Total",
+    "items": {
+      "coldWater": "Água fria",
+      "hotWater": "Água quente",
+      "electricity": "Eletricidade",
+      "garbage": "Lixeira",
+      "propertyManagement": "Gestão da propriedade",
+      "heating": "Calefação",
+      "parking": "Estacionamento",
+      "others": "Outros"
+    }
+  }
+}

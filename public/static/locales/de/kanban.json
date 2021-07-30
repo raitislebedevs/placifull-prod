@@ -1,0 +1,41 @@
+{
+  "kanban": {
+    "save": "Karte speichern",
+    "saving": "Speichern...",
+    "salary": {
+      "hour": "/Stunde",
+      "month": "/Monat",
+      "year": "/Jahr"
+    },
+    "job-overview": {
+      "title": "Job-Übersicht",
+      "industry": "Branche",
+      "languages-en": "Sprachen (EN)",
+      "native": "Muttersprachen",
+      "contract-type": "Vertragstyp",
+      "working-time": "Arbeitszeit",
+      "expiry-date": "Ablaufdatum"
+    },
+    "statistics": {
+      "title": "Statistik",
+      "applicants": "Bewerbungen",
+      "interviewed": "Befragt",
+      "processing": "Bearbeitung",
+      "reviewed": "Überprüft",
+      "shortlisted": "In der engeren Auswahl",
+      "hired": "Eingestellt"
+    },
+    "columns": {
+      "applicants": "Bewerber beworben",
+      "reviewed": "Überprüfte Bewerbungen",
+      "shortlisted": "In die engere Auswahl gekommen",
+      "interviewed": "Bewerber interviewt",
+      "pending": "Ausstehende Zusage",
+      "accepted": "Eingestellte Bewerber",
+      "column-name": "Neue Rubrik",
+      "edit": "Bearbeiten"
+    },
+    "view-cv": "Lebenslauf ansehen",
+    "remove": "Entfernen"
+  }
+}

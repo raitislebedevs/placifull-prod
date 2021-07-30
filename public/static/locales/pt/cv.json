@@ -1,0 +1,60 @@
+{
+  "labels": {
+    "about-me": "Sobre mim",
+    "languages": "Idiomas",
+    "computer-skills": "Conhecimentos de informática",
+    "education": "Educação",
+    "expierience": "Experiência de trabalho",
+    "licenses": "Habilitação",
+    "expectations": "Expectativas de trabalho",
+    "certification": "Certificação"
+  },
+  "gender": {
+    "label": "Sexo",
+    "male": "Masculino",
+    "women": "Feminino"
+  },
+  "expierience": {
+    "label": "Experiência",
+    "uptoOne": "< 1 ano",
+    "oneToThree": "1-3 anos",
+    "threeToFive": "3-5 anos",
+    "fiveToTen": "5-10 anos",
+    "tenToFifteen": "10-15 anos",
+    "moreThanFifteen": "Mais de 15 anos"
+  },
+
+  "knowladge-gained": {
+    "selfTaught": "Autodidata",
+    "course": "Curso",
+    "freelance": "Autônomo",
+    "contractProject": "Contrato por projeto",
+    "fullTimeJob": "Emprego em tempo integral",
+    "other": "Outro"
+  },
+  "qualification": {
+    "primary": "Fundamental",
+    "secondary": "Ensino médio",
+    "vocational": "Formação técnica",
+    "bachelors": "Ensino superior",
+    "master": "Mestrado",
+    "doctorate": "Doutorado",
+    "other": "Outros"
+  },
+
+  "seniority": {
+    "title": "Senioridade",
+    "volunteer": "Voluntário",
+    "intern": "Estagiário",
+    "junior": "Júnior",
+    "intermediate": "Intermediário",
+    "senior": "Senior",
+    "executive": "Executivo",
+    "ceo": "CEO",
+    "other": "Outro"
+  },
+
+  "avarage-grade": "Grau médio",
+  "present": "Atual",
+  "license-category": "Registro de categoria"
+}

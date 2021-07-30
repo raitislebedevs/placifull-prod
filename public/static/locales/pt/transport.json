@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "form": {
+      "currency": "Moeda",
+      "no-currency": "TODOS",
+      "min-price": "Mín: 0,00",
+      "max-price": "Máx: 9.999.999,999",
+      "transport-brand": "Marca de transporte",
+      "transport-model": "Modelo de transporte",
+      "min-age": "Idade mín",
+      "max-age": "Idade máx",
+      "submit": "Pesquisar agora",
+      "accordion": "PESQUISA AVANÇADA",
+      "accordion-right": {
+        "economy": {
+          "label": "Economia de combustível",
+          "items": {
+            "from": "De: 0",
+            "to": "Até: 999"
+          }
+        },
+        "speed": {
+          "label": "Velocidade máxima",
+          "items": {
+            "from": "De: 0",
+            "to": "Até: 999"
+          }
+        },
+        "millage": {
+          "label": "Distância",
+          "items": {
+            "from": "De: 0",
+            "to": "Até: 9.999.999"
+          }
+        },
+        "units": "Unidades"
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Ordenar por",
+        "options": {
+          "price": "Preço",
+          "speed": "Velocidade",
+          "millage": "Quilometragem",
+          "fuel-economy": "Economia de combustível",
+          "popularity": "Popularidade",
+          "views": "Visualizações",
+          "country": "País",
+          "insert-date": "Inserir data"
+        }
+      }
+    }
+  }
+}

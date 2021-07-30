@@ -1,0 +1,86 @@
+{
+  "common": {
+    "name": "É necessário informar o nome do anúncio.",
+    "currency": {
+      "required": "É necessário informar a moeda."
+    },
+
+    "category": "É necessário informar a categoria.",
+    "action": "Ação necessária.",
+    "condition": "É necessário informar a condição.",
+
+    "country": "É necessário informar o país.",
+    "city": "Informe a cidade",
+    "description": {
+      "minLength": "A descrição deve ter 20 caracteres.",
+      "maxLength": "A descrição não pode exceder 1000 caracteres.",
+      "required": "A descrição é necessária."
+    },
+
+    "gallery": "A galeria é necessária",
+
+    "price": {
+      "minLength": "O preço deve ser maior que 0.",
+      "maxLength": "O preço não pode exceder 999.999.999.999,00",
+      "required": "O preço é necessário."
+    },
+    "phone": {
+      "minLength": "O número de telefone deve conter 6 dígitos.",
+      "maxLength": "O número de telefone não pode exceder 20 dígitos.",
+      "required": "O número do telefone é necessário."
+    },
+    "email": {
+      "valid": "Por favor, forneça um e-mail válido",
+      "required": "É necessário informar o e-mail."
+    },
+    "contact": {
+      "required": "O horário para contato é necessário."
+    }
+  },
+
+  "real-estate": {
+    "address": {
+      "mapPoint": "Por favor, assinale o endereço no mapa",
+      "address": "É necessário informar o endereço anunciado."
+    },
+    "rooms": "É necessário informar o número de quartos",
+    "area": "É necessário informar a área da propriedade",
+    "baths": "É necessário informar o número de banheiros"
+  },
+
+  "transport": {
+    "type": "É necessário informar o tipo de transporte.",
+    "brand": {
+      "minLength": "O nome da marca deve ter 0+ caracteres.",
+      "maxLength": "O nome da marca não pode exceder n caracteres.",
+      "required": "O nome da marca é necessário."
+    },
+
+    "model": {
+      "minLength": "O nome do modelo deve ter 0+ caracteres.",
+      "maxLength": "O nome do modelo não deve exceder n caracteres.",
+      "required": "O nome do modelo é necessário."
+    },
+    "address": {
+      "mapPoint": "É necessário informar o local do encontro no mapa",
+      "address": "É necessário informar o endereço do local do encontro."
+    },
+    "engine": "É necessário informar o tipo de motor",
+    "gear": "É necessário informar o tipo de câmbio"
+  },
+
+  "job": {
+    "address": {
+      "mapPoint": "É necessário informar no mapa a localização do escritório",
+      "address": "É necessário informar o endereço do escritório."
+    },
+    "gallery": "É necessário fornecer o logotipo da empresa",
+    "monthly-from": "É necessário informar o valor mínimo do salário mensal",
+    "monthly-to": "É necessário informar o valor máximo do salário mensal",
+    "logo-size": "O tamanho é maior que 5MB"
+  },
+  "email": {
+    "full-name": "Por favor, informe seu nome",
+    "message": "É necessário incluir uma mensagem"
+  }
+}

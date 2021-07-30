@@ -1,0 +1,86 @@
+{
+  "common": {
+    "name": "Der Inserat-Name ist erforderlich.",
+    "currency": {
+      "required": "Währung ist erforderlich."
+    },
+
+    "category": "Kategorie ist erforderlich.",
+    "action": "Aktion ist erforderlich.",
+    "condition": "Bedingung ist erforderlich.",
+
+    "country": "Land ist erforderlich.",
+    "city": "Stadt berücksichtigen",
+    "description": {
+      "minLength": "Die Beschreibung muss 20 Zeichen lang sein.",
+      "maxLength": "Beschreibung darf nicht mehr als 1000 Zeichen enthalten.",
+      "required": "Beschreibung ist erforderlich."
+    },
+
+    "gallery": "Galerie ist erforderlich",
+
+    "price": {
+      "minLength": "Preis muss größer als 0 sein.",
+      "maxLength": "Preis kann nicht größer als 999.999.999.999,00 sein.",
+      "required": "Preis ist erforderlich."
+    },
+    "phone": {
+      "minLength": "Telefonnummer muss 6 Ziffern enthalten.",
+      "maxLength": "Telefonnummer kann nicht mehr als 20 Ziffern enthalten.",
+      "required": "Telefonnummer ist erforderlich."
+    },
+    "email": {
+      "valid": "Bitte geben Sie eine gültige E-Mail an",
+      "required": "E-Mail ist erforderlich."
+    },
+    "contact": {
+      "required": "Kontaktzeit ist erforderlich."
+    }
+  },
+
+  "real-estate": {
+    "address": {
+      "mapPoint": "Bitte markieren Sie die Adresse in der Karte",
+      "address": "Inserat-Adresse ist erforderlich."
+    },
+    "rooms": "Anzahl der Zimmer ist erforderlich",
+    "area": "Grundstücksfläche ist erforderlich",
+    "baths": "Anzahl der Bäder ist erforderlich"
+  },
+
+  "transport": {
+    "type": "Transportart ist erforderlich.",
+    "brand": {
+      "minLength": "Markenname muss 0+ Zeichen lang sein.",
+      "maxLength": "Markenname kann nicht mehr als n Zeichen enthalten.",
+      "required": "Markenname ist erforderlich."
+    },
+
+    "model": {
+      "minLength": "Modellname muss 0+ Zeichen lang sein.",
+      "maxLength": "Der Modellname darf nicht länger als n Zeichen sein.",
+      "required": "Der Modellname ist erforderlich."
+    },
+    "address": {
+      "mapPoint": "Treffpunkt ist in der Karte erforderlich",
+      "address": "Die Adresse des Treffpunkts ist erforderlich."
+    },
+    "engine": "Motortyp ist erforderlich",
+    "gear": "Getriebe ist erforderlich"
+  },
+
+  "job": {
+    "address": {
+      "mapPoint": "Geschäftsstelle ist in der Karte erforderlich",
+      "address": "Die Adresse des Büros ist erforderlich."
+    },
+    "gallery": "Firmenlogo ist erforderlich",
+    "monthly-from": "Monatliches Gehalt von ist erforderlich",
+    "monthly-to": "Monatsgehalt bis ist erforderlich",
+    "logo-size": "Dateigröße ist größer als 5 MB"
+  },
+  "email": {
+    "full-name": "Bitte geben Sie Ihren Namen an",
+    "message": "Nachricht ist erforderlich"
+  }
+}

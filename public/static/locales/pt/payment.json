@@ -1,0 +1,89 @@
+{
+  "currency": "€ ",
+  "payment-modal": {
+    "header": "Detalhes da compra do plano",
+    "sub-header": "Por favor, selecione seu plano a partir dos detalhes abaixo",
+    "total-cost": "Custo:",
+    "expiry-date": "Data de vencimento:",
+    "expiry-label": "Data de vencimento",
+    "quantity": "Quantidade:",
+    "quantity-label": "Quantidade",
+    "listed": "Publicado:",
+    "purchase": "Comprado:",
+    "extend-expiry": "Estender o vencimento",
+    "promote": "Promover",
+    "subscription-valid": "A opção é válida",
+    "days": "dias",
+    "browser-cv": "Pesquisa de CV",
+    "purchase-text": {
+      "user-held": "Propriedade do usuário",
+      "purchase": "Comprar"
+    },
+    "form": {
+      "added-days": {
+        "label": "Estender o anúncio em",
+        "suffix": "Dias"
+      },
+      "card-details": {
+        "label": "Fornecer informação do cartão",
+        "card-holder": "Titular do cartão",
+        "card-number": "Número do cartão",
+        "card-date": "Data de validade",
+        "card-csv": "CVV"
+      },
+      "buttons": {
+        "decline": "Recusar",
+        "proceed": "Prosseguir"
+      },
+
+      "purchase-items": {
+        "intro": "Inicial",
+        "single": "Único",
+        "quarterly": "Trimestral",
+        "life": "Anual"
+      },
+      "user-stock": {
+        "single": "Único",
+        "quartery": "Trimestral",
+        "life": "Anual"
+      }
+    }
+  },
+
+  "receipt-modal": {
+    "header": "Resumo dos detalhes",
+    "sub-header": "Por favor, revise os detalhes de sua compra antes de continuar.",
+    "card-details": {
+      "card-holder": "Nome do titular do cartão",
+      "card-number": "Detalhes do cartão",
+      "card-date": "Data de validade"
+    },
+
+    "receipt-table": {
+      "plan": "Plano",
+      "quantity": "Quantidade",
+      "promote": "Em destaque",
+      "extend-expiry": "Vencimento ampliado",
+      "total": "Total",
+      "total-amount": "Valor total:",
+      "price": "Preço",
+      "expiry-date": "Data de vencimento",
+      "no-expiry": "Nenhum",
+      "plans": {
+        "standalone": "Único",
+        "subscriptionQuarterly": "Trimestral",
+        "subscriptionYearly": "Anual",
+        "activeSubscription": "Pesquisar CV"
+      }
+    },
+    "thank-you-message": "Obrigada por apoiar a empresa Placifull. Acreditamos que você ficará satisfeito com sua escolha.",
+    "buttons": {
+      "cancel": "Cancelar",
+      "proceed": "Pagar & Continuar"
+    }
+  },
+  "error": {
+    "transaction": "Falha na transação",
+    "subscriptions": "Falha na submissão"
+  }
+}

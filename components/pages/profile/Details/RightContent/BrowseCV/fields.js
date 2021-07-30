@@ -599,7 +599,7 @@ const fields = (t) => [
     type: 'number',
     label: t('profile:right-content.browser-cv.salary-monthly'),
     min: 0,
-    max: 99999999,
+    max: 9999999999,
   },
 ];
 

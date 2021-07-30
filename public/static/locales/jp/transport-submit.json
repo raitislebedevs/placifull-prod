@@ -1,0 +1,77 @@
+{
+  "heading": "リストを提出",
+  "form": {
+    "submit": "提出",
+    "submit-confirm": "保存中…",
+    "preview-sneak-peak": "実行中…",
+    "preview": "プレビュー",
+    "currency": "通貨",
+    "no-currency": "すべて",
+    "general-information": {
+      "heading": "概要",
+      "transport-type": "タイプ",
+      "action": "アクション",
+      "condition": "状態",
+      "input-fields": {
+        "description": "説明",
+        "brand": "ブランド",
+        "model": "モデル",
+        "production-year": "製造年",
+        "price": "価格",
+        "engine-type": "エンジンタイプ",
+        "gear-box": "ギヤボックス",
+        "millage": "距離",
+        "speed": "最高速度",
+        "fueal-economy": "燃費",
+        "seats": "座席数",
+        "doors": "ドア数",
+        "name": "リスト名"
+      }
+    },
+    "detail-information": {
+      "heading": "詳細情報",
+      "contact": {
+        "heading": "連絡先",
+        "email": "メールアドレス",
+        "address": "住所",
+        "contact-times": {
+          "label": "連絡時間",
+          "placeholder": "ご希望の時間を選択してください",
+          "options": {
+            "any-time": "いつでも",
+            "working-days": "平日",
+            "office-hours": "オフィスアワー中",
+            "specific-times": "特定の時間"
+          }
+        },
+        "listing-website": "HP: https://"
+      },
+      "features": {
+        "heading": "特徴",
+        "category": {
+          "equipment": "装備",
+          "interior": "内装",
+          "steering-wheel": "ハンドル",
+          "seats": "座席",
+          "lights": "照明",
+          "audio-video": "AV設備",
+          "mirrros": "鏡"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "ギャラリー",
+      "click-drop": "写真をドラッグしてください",
+      "video-url": "動画URL: https://"
+    },
+    "contact-hours": {
+      "heading": "連絡時間",
+      "heading-tip": "オプション",
+      "accordion": {
+        "heading": "最も面会に適した時間を追加しましょう",
+        "start-time": "から：",
+        "end-time": "まで："
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "common": {
+    "name": "Daftar nama diperlukan.",
+    "currency": {
+      "required": "Mata uang diperlukan."
+    },
+
+    "category": "Kategori diperlukan.",
+    "action": "Tindakan diperlukan.",
+    "condition": "Kondisi diperlukan.",
+
+    "country": "Negara diperlukan.",
+    "city": "Tambahkan kota",
+    "description": {
+      "minLength": "Panjang karakter harus mencapai 20 karakter.",
+      "maxLength": "Deskripsi tidak dapat melebihi 1000 karakter.",
+      "required": "Deskripsi diperlukan."
+    },
+
+    "gallery": "Galeri diperlukan",
+
+    "price": {
+      "minLength": "Harga harus lebih besar dari 0.",
+      "maxLength": "Harga tidak dapat melebihi 999.999.999.999,00",
+      "required": "Harga diperlukan."
+    },
+    "phone": {
+      "minLength": "Nomor telepon harus mencapai 6 digit.",
+      "maxLength": "Nomor telepon tidak dapat melebihi 20 digit.",
+      "required": "Nomor telepon diperlukan."
+    },
+    "email": {
+      "valid": "Masukkan alamat email yang valid",
+      "required": "Email diperlukan."
+    },
+    "contact": {
+      "required": "Waktu kontak diperlukan."
+    }
+  },
+
+  "real-estate": {
+    "address": {
+      "mapPoint": "Tandai alamat pada peta",
+      "address": "Daftar alamat diperlukan."
+    },
+    "rooms": "Jumlah ruangan diperlukan",
+    "area": "Area properti diperlukan",
+    "baths": "Jumlah kamar mandi diperlukan"
+  },
+
+  "transport": {
+    "type": "Tipe transport diperlukan.",
+    "brand": {
+      "minLength": "Nama merek harus mencapai 0+ karakter.",
+      "maxLength": "Nama merek tidak dapat melebihi n karakter.",
+      "required": "Nama merek diperlukan."
+    },
+
+    "model": {
+      "minLength": "Nama model harus mencapai 0+ karakter.",
+      "maxLength": "Nama model tidak dapat melebihi n karakter.",
+      "required": "Nama model diperlukan."
+    },
+    "address": {
+      "mapPoint": "Titik pertemuan diperlukan di peta",
+      "address": "Alamat pertemuan diperlukan."
+    },
+    "engine": "Tipe mesin diperlukan",
+    "gear": "Gear box diperlukan"
+  },
+
+  "job": {
+    "address": {
+      "mapPoint": "Lokasi kantor diperlukan di peta",
+      "address": "Alamat kantor diperlukan."
+    },
+    "gallery": "Logo perusahaan diperlukan",
+    "monthly-from": "'Gaji bulanan dari' diperlukan",
+    "monthly-to": "'Gaji bulanan sampai' diperlukan",
+    "logo-size": "Ukuran lebih besar 5 MB"
+  },
+  "email": {
+    "full-name": "Masukkan nama Anda",
+    "message": "Pesan diperlukan"
+  }
+}

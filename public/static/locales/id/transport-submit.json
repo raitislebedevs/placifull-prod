@@ -1,0 +1,77 @@
+{
+  "heading": "Serahkan daftar",
+  "form": {
+    "submit": "Serahkan",
+    "submit-confirm": "Menyimpan…",
+    "preview-sneak-peak": "Membuat…",
+    "preview": "Pratinjau",
+    "currency": "Mata uang",
+    "no-currency": "SEMUA",
+    "general-information": {
+      "heading": "Informasi umum",
+      "transport-type": "Tipe transport",
+      "action": "Tindakan",
+      "condition": "Kondisi",
+      "input-fields": {
+        "description": "Deskripsi",
+        "brand": "Merek transport",
+        "model": "Model transport",
+        "production-year": "Tahun produksi",
+        "price": "Harga",
+        "engine-type": "Tipe mesin",
+        "gear-box": "Gear box",
+        "millage": "Jarak",
+        "speed": "Kecepatan maksimum",
+        "fueal-economy": "Bahan bakar ekonomis",
+        "seats": "Jumlah kursi",
+        "doors": "Jumlah pintu",
+        "name": "Nama daftar transport"
+      }
+    },
+    "detail-information": {
+      "heading": "Informasi detail",
+      "contact": {
+        "heading": "Kontak",
+        "email": "Email",
+        "address": "Alamat",
+        "contact-times": {
+          "label": "Waktu kontak",
+          "placeholder": "Pilih waktu kontak yang diinginkan",
+          "options": {
+            "any-time": "Kapan saja",
+            "working-days": "Hari kerja",
+            "office-hours": "Jam kerja",
+            "specific-times": "Waktu spesifik"
+          }
+        },
+        "listing-website": "Situs: https://"
+      },
+      "features": {
+        "heading": "Fitur",
+        "category": {
+          "equipment": "Peralatan",
+          "interior": "Interior",
+          "steering-wheel": "Kemudi setir",
+          "seats": "Kursi",
+          "lights": "Lampu",
+          "audio-video": "Audio/video",
+          "mirrros": "Cermin"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "Galeri",
+      "click-drop": "KLIK ATAU GESER GAMBAR KE SINI",
+      "video-url": "Video url: https://"
+    },
+    "contact-hours": {
+      "heading": "Jam kontak",
+      "heading-tip": "Opsional",
+      "accordion": {
+        "heading": "Tambahkan waktu paling cocok untuk bertemu / menghubungi…",
+        "start-time": "Dari",
+        "end-time": "Hingga"
+      }
+    }
+  }
+}

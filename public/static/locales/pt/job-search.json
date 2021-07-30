@@ -1,0 +1,61 @@
+{
+  "form": {
+    "currency": "Moeda",
+    "no-currency": "TODOS",
+    "languages": {
+      "native": "Idiomas nativos",
+      "english": "Idiomas em Inglês"
+    },
+    "submit": "Pesquisar agora",
+    "accordion": {
+      "label": "PESQUISA AVANÇADA",
+      "searchFilter": {
+        "heading": "Características",
+        "licenses": "Habilitação",
+        "education": "Formação/Titulação",
+        "expierience": "Experiência em anos",
+        "candiadate": "O candidato é capaz de:",
+        "benefits": "Benefícios"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "Salário por hora",
+        "items": {
+          "from": "A partir de: 0",
+          "to": "Até: 999.999"
+        }
+      },
+      "monthly-salary": {
+        "label": "Salário mensal",
+        "items": {
+          "from": "A partir de: 0",
+          "to": "Até: 999.999.999"
+        }
+      },
+      "yearly-salary": {
+        "label": "Salário anual",
+        "items": {
+          "from": "A partir de: 0",
+          "to": "Até: 99.999.999.999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Ordenar por",
+        "options": {
+          "monthly-salary": "Salário mensal",
+          "annual-salary": "Salário anual",
+          "hourly-salary": "Salário por hora",
+          "popularity": "Popularidade",
+          "views": "Visualizações",
+          "country": "País",
+          "insert-date": "Inserir Data"
+        }
+      }
+    }
+  }
+}

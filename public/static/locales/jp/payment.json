@@ -1,0 +1,89 @@
+{
+  "currency": "€ ",
+  "payment-modal": {
+    "header": "詳しい購入計画をたてる",
+    "sub-header": "下からプランを選択してください",
+    "total-cost": "費用：",
+    "expiry-date": "期限：",
+    "expiry-label": "期限：",
+    "quantity": "量：",
+    "quantity-label": "量：",
+    "listed": "一覧：",
+    "purchase": "購入済み：",
+    "extend-expiry": "期限を延長",
+    "promote": "昇進",
+    "subscription-valid": "オプションは有効です",
+    "days": "日",
+    "browser-cv": "履歴書の検索",
+    "purchase-text": {
+      "user-held": "ユーザーが所有",
+      "purchase": "購入"
+    },
+    "form": {
+      "added-days": {
+        "label": "リストを延長",
+        "suffix": "日"
+      },
+      "card-details": {
+        "label": "カード情報を提供",
+        "card-holder": "カード所有者",
+        "card-number": "カード番号",
+        "card-date": "期限",
+        "card-csv": "セキュリティコード"
+      },
+      "buttons": {
+        "decline": "拒否",
+        "proceed": "進む"
+      },
+
+      "purchase-items": {
+        "intro": "イントロダクション",
+        "single": "単発",
+        "quarterly": "四半期",
+        "life": "一年ごと"
+      },
+      "user-stock": {
+        "single": "単発",
+        "quartery": "四半期",
+        "life": "一年ごと"
+      }
+    }
+  },
+
+  "receipt-modal": {
+    "header": "詳細をまとめる",
+    "sub-header": "次に進む前に購入の詳細を確認してください",
+    "card-details": {
+      "card-holder": "カード所有者",
+      "card-number": "カード詳細",
+      "card-date": "期限"
+    },
+
+    "receipt-table": {
+      "plan": "プラン",
+      "quantity": "量",
+      "promote": "昇進",
+      "extend-expiry": "期限延長",
+      "total": "合計",
+      "total-amount": "合計量：",
+      "price": "価格",
+      "expiry-date": "期限",
+      "no-expiry": "なし",
+      "plans": {
+        "standalone": "単発",
+        "subscriptionQuarterly": "四半期",
+        "subscriptionYearly": "一年",
+        "activeSubscription": "履歴書を検索"
+      }
+    },
+    "thank-you-message": "Placifullをサポートしていただき、ありがとうございます。満足できる選択ができたのではないでしょうか。",
+    "buttons": {
+      "cancel": "キャンセル",
+      "proceed": "支払い・次に進む"
+    }
+  },
+  "error": {
+    "transaction": "取引が失敗しました",
+    "subscriptions": "サブスクリプションに失敗"
+  }
+}

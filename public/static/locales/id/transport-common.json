@@ -1,0 +1,89 @@
+{
+  "color": {
+    "label": "Warna",
+    "options": {
+      "red": "Merah",
+      "orange": "Jingga",
+      "yellow": "Kuning",
+      "green": "Hijau",
+      "blue": "Biru",
+      "violent": "Ungu",
+      "pink": "Merah Muda",
+      "tan": "Tan",
+      "beige": "Krem",
+      "white": "Putih",
+      "silver": "Silver",
+      "gray": "Abu-abu",
+      "black": "Hitam",
+      "brown": "Coklat",
+      "gold": "Emas",
+      "indigo": "Indigo",
+      "purple": "Ungu",
+      "lime": "Lime",
+      "azure": "Azure",
+      "other": "Lainnya"
+    }
+  },
+  "gear-box": {
+    "label": "Gear Box",
+    "options": {
+      "manual": "Manual",
+      "automatic": "Otomatis",
+      "other": "Lainnya"
+    }
+  },
+  "engine": {
+    "label": "Tipe Mesin",
+    "options": {
+      "diesel": "Diesel",
+      "benzine": "Bensin",
+      "gas": "Gas",
+      "electric": "Listrik",
+      "other": "Lainnya"
+    }
+  },
+  "features": {
+    "heading": "Fitur",
+    "category": {
+      "equipment": "Peralatan",
+      "interior": "Interior",
+      "steering-wheel": "Kemudi setir",
+      "seats": "Tempat duduk",
+      "lights": "Lampu",
+      "audio-video": "Audio/Video",
+      "mirrors": "Cermin"
+    }
+  },
+  "condition": {
+    "label": "Kondisi",
+    "options": {
+      "brandNew": "Barang baru",
+      "likeNew": "Seperti Baru",
+      "used": "Bekas",
+      "requiresFixing": "Memerlukan Perbaikan",
+      "afterCrash": "Bekas Kecelakaan"
+    }
+  },
+
+  "transport-type": {
+    "label": "Tipe Kendaraan",
+    "options": {
+      "car": "Mobil",
+      "truck": "Truk",
+      "motorcycle": "Sepeda Motor",
+      "boat": "Perahu",
+      "airTransport": "Transportasi Udara",
+      "others": "Lainnya"
+    }
+  },
+
+  "action": {
+    "label": "Tindakan",
+    "options": {
+      "sell": "Jual",
+      "rent": "Sewa",
+      "exchange": "Tukar",
+      "forParts": "Untuk Suku Cadang"
+    }
+  }
+}

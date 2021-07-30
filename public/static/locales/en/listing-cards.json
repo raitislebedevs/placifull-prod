@@ -6,7 +6,7 @@
     "contract-type": {
       "label": "Contract Type",
       "options": {
-        "temporarly": "Temporarly",
+        "temporarly": "Temporarily",
         "fullTime": "Full Time",
         "partTime": "Part Time",
         "remoteFullTime": "Remote (Full Time)",

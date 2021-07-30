@@ -1,0 +1,56 @@
+{
+  "job-card": {
+    "location": "Lokasi",
+    "salary": "Gaji",
+    "button": "Lihat Detail",
+    "contract-type": {
+      "label": "Tipe Kontrak",
+      "options": {
+        "temporarly": "Sementara",
+        "fullTime": "Penuh Waktu",
+        "partTime": "Paruh Waktu",
+        "remoteFullTime": "Jarak Jauh (Penuh Waktu)",
+        "remotePartTime": "Jarak Jauh (Paruh Waktu)",
+        "other": "Lainnya"
+      }
+    },
+    "working-schedule": {
+      "label": "Jadwal Kerja",
+      "options": {
+        "officeHours": "Jam Kantor",
+        "shifts": "Shift",
+        "flexible": "Fleksibel",
+        "other": "Lainnya"
+      }
+    }
+  },
+
+  "transport-card": {
+    "gear-box": {
+      "label": "Gear Box",
+      "options": {
+        "manual": "Manual",
+        "automatic": "Otomatis",
+        "other": "Lainnya"
+      }
+    }
+  },
+
+  "real-estate-card": {
+    "location": "Lokasi",
+    "working-schedule": "Jadwal Kerja",
+    "salary": "Gaji",
+    "contract-type": "Tipe Kontrak",
+    "button": "Lihat Detail"
+  },
+
+  "action": {
+    "label": "Tindakan",
+    "options": {
+      "sell": "Jual",
+      "rent": "Sewa",
+      "exchange": "Tukar",
+      "forParts": "Untuk Suku Cadang"
+    }
+  }
+}

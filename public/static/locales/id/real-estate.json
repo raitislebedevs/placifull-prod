@@ -1,0 +1,64 @@
+{
+  "title": "Telusuri Daftar Real Estate",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "Harga Minimum",
+        "max-price": "Harga Maksimum",
+        "min-rooms": "Minimum Ruangan",
+        "max-rooms": "Maksimum Ruangan",
+        "min-area": "Minimum Area",
+        "max-area": "Maksimum Area",
+        "move-in-date": "Pindah Sejak Tanggal",
+        "move-out-date": "Pindah Sampai Tanggal",
+        "currency": "Mata Uang"
+      },
+
+      "submit": "Telusuri Sekarang",
+      "accordion": "PENELUSURAN MUTAKHIR",
+      "accordion-right": {
+        "utility-label": "Rentang Tagihan Keperluan",
+        "utility": {
+          "from-price": "Dari: 0,00",
+          "to-price": "Sampai : 9.999.999.999"
+        },
+        "year-label": "Tahun Dibangun",
+        "built": {
+          "from-year": "Dari: 1000",
+          "to-year": "Sampai: 9999"
+        },
+        "measurement-label": "Pengukuran",
+        "system": {
+          "none": "Tidak Ada",
+          "metric": "Metrik (m)",
+          "imperial": "Imperial (ft)"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Urutkan berdasarkan",
+        "options": {
+          "price": "Harga",
+          "area": "Area",
+          "rooms": "Ruangan",
+          "street-name": "Nama Jalan",
+          "popularity": "Popularitas",
+          "views": "Dilihat",
+          "country": "Negara",
+          "insert-date": "Masukkan Tanggal"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "Dari Blog",
+    "see-more": "Baca Lebih Lanjut"
+  },
+  "error": {
+    "tags": "Harap Menghubungi Kami dengan mengatakan: 'Tidak Ada Tag Ditemukan'"
+  },
+  "no-tags": "Tidak ada fitur untuk pilihan ini"
+}

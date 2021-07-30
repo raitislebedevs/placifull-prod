@@ -1,3 +1,6 @@
 {
-  "found": "404 - Halaman Tidak Ditemukan"
+  "found": "404 - Halaman Tidak Ditemukan",
+  "main-text": "Kami tidak dapat masuk ke halaman yang ditentukan!",
+  "sub-text": "Halaman ini tidak ditemukan. Anda mungkin salah mengetik alamat atau halaman mungkin telah dipindahkan atau tidak ada.",
+  "navigation": "Pergi ke Halaman Utama"
 }

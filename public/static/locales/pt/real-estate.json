@@ -1,0 +1,64 @@
+{
+  "title": "Pesquisa de anúncios imobiliários",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "Preço mín",
+        "max-price": "Preço máx",
+        "min-rooms": "Mín de quartos",
+        "max-rooms": "Máx de quartos",
+        "min-area": "Área mín",
+        "max-area": "Área máx",
+        "move-in-date": "Entrada a partir de",
+        "move-out-date": "Entrada até",
+        "currency": "Moeda"
+      },
+
+      "submit": "Pesquisar agora",
+      "accordion": "PESQUISA AVANÇADA",
+      "accordion-right": {
+        "utility-label": "Faixa de preço dos serviços públicos",
+        "utility": {
+          "from-price": "A partir de: 0,00",
+          "to-price": "Até: 9.999.999,99"
+        },
+        "year-label": "Ano de construção",
+        "built": {
+          "from-year": "De: 1000",
+          "to-year": "Até: 9999"
+        },
+        "measurement-label": "Dimensões",
+        "system": {
+          "none": "Nenhuma",
+          "metric": "Métrico m",
+          "imperial": "Imperial pol"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Ordenar por",
+        "options": {
+          "price": "Preço",
+          "area": "Área",
+          "rooms": "Quartos",
+          "street-name": "Nome da rua",
+          "popularity": "Popularidade",
+          "views": "Visualizações",
+          "country": "País",
+          "insert-date": "Data de inclusão"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "Do blog",
+    "see-more": "Ver mais"
+  },
+  "error": {
+    "tags": "Por favor, entre em contato mencionando 'nenhum item encontrado'"
+  },
+  "no-tags": "Não há características para esta opção"
+}

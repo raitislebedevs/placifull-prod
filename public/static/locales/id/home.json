@@ -1,0 +1,271 @@
+{
+  "hero-section": {
+    "head": {
+      "line-1": "Placifull tempat semua kemudahan bertemu",
+      "line-2": "Solusi dirancang secara cermat untuk mewujudkan mimpi Anda",
+      "line-3": "Telusuri pekerjaan, Perumahan, dan Transportasi untuk memenuhi semua kebutuhan Anda di setiap sudut dunia",
+      "options": {
+        "text-1": "Keandalan",
+        "text-2": "Konsistensi",
+        "text-3": "Keterjangkauan",
+        "text-4": "Kemudahan Akses"
+      }
+    },
+    "button": "Memulai"
+  },
+  "real-estate-section": {
+    "badge": "Item yang dipromosikan",
+    "head": {
+      "line-1": "Real Estate ",
+      "line-2": "Item yang paling dipromosikan di",
+      "line-3": "Placifull",
+      "line-4": "yang memerlukan perhatian penuh Anda."
+    },
+    "button": "Lihat Semua"
+  },
+  "transportation-section": {
+    "badge": "Item yang dipromosikan",
+    "head": {
+      "line-1": "Transportasi",
+      "line-2": "Transportasi ini di",
+      "line-3": "Placifull",
+      "line-4": "Panggilan untuk waktu Anda."
+    },
+    "button": "Lihat Semua"
+  },
+  "job-section": {
+    "badge": "Item yang dipromosikan",
+    "head": {
+      "line-1": "Pekerjaan Premium",
+      "line-2": "Haus akan perubahan ? Pada",
+      "line-3": "Placifull",
+      "line-4": "Temukan pekerjaan impian yang selalu Anda inginkan."
+    },
+    "jobs": {
+      "location": "Lokasi",
+      "working-schedule": "Jadwal Kerja",
+      "salary": "Gaji",
+      "working-place": "Tempat Bekerja",
+      "button": "Lihat Detail"
+    },
+    "button": "Lihat Lainnya"
+  },
+  "service-section": {
+    "head": {
+      "line-1": "Tentang Kami!",
+      "line-2": "Jelajahi apa yang paling kami hargai. Di",
+      "line-3": "Placifull",
+      "line-4": "Kami mendengarkan apa yang Anda katakan."
+    },
+    "services": {
+      "service-1": {
+        "open-modal": "Pelajari Lebih Lanjut",
+        "name": "Peluang Daftar",
+        "description": "Fokus utama kami adalah membantu orang pindah ke negara lain. Pindah ke negara lain membuka banyak tantangan, jadi kami di sini untuk membantu Anda dengan perangkat pencarian yang Anda butuhkan. Pekerjaan, rumah, transportasi semuanya dapat ditemukan di satu tempat. Anda tidak perlu mencari di tempat lain.",
+
+        "modal": {
+          "header": "Jelajahi",
+          "description": "Placifull berkomitmen untuk memudahkan Anda dan keluarga berpindah ke luar negeri. Perhatian utama kami adalah menawarkan semua lowongan pekerjaan yang tersedia sesuai dengan persyaratan dan kualifikasi Anda. Placifull teguh dalam membantu Anda menghadapi semua tantangan yang datang bersama kehidupan yang baru, dan Anda tidak perlu mencari lebih jauh setelah Anda menggunakan layanan kami. Tim kami melakukannya untuk Anda, dan yang harus Anda lakukan adalah memilih dari daftar lowongan pekerjaan yang kami sediakan. Namun, pekerjaan kami tidak akan berhenti sampai di sini, kami akan terus membantu Anda ketika memulai pekerjaan yang baru.",
+          "close-button": "Tutup"
+        }
+      },
+      "service-2": {
+        "open-modal": "Bantu Kami Sekarang",
+        "name": "Bantu Kami Memperbarui",
+        "description": "Kami adalah tim kecil dibalik tirai, jadi setiap perubahan yang Anda sarankan akan kami lihat dan tambahkan pada papan pemungutan suara.",
+
+        "modal": {
+          "header": "Tingkatkan",
+          "description": "Tim kami terdiri dari orang-orang bergairah yang bekerja keras untuk membantu Anda mencapai impian Anda. Oleh karena itu, kami fokus untuk menerima dan menerapkan saran yang bermanfaat dari pelanggan kami. Apabila Anda menemukan apapun dalam layanan kami yang menurut Anda dapat diperbarui, jangan ragu untuk memberikan catatan pada papan voting. Segera setelah saran mencapai sepuluh ribu suara dukungan, kami diharuskan untuk menerapkan perubahan tersebut. Kami ingin agar para pengguna kami tahu bahwa pendapat mereka sangat berharga untuk kami.",
+          "close-button": "Tutup",
+          "contact-button": "Hubungi"
+        }
+      },
+      "service-3": {
+        "name": "Suka dan Bagikan",
+        "description": "Jika Anda merasa layanan kami berguna dan menolong hidup Anda, akan sangat membantu kami jika Anda menyebarkan informasi tentang platform kami kepada teman dan keluarga Anda. Mempromosikan dan membagikan pekerjaan kami akan membantu kami untuk berkembang dan melayani Anda lebih baik."
+      },
+      "service-4": {
+        "open-modal": "Tingkatkan Kami Sekarang",
+        "name": "Tingkatkan Kualitas Kami",
+        "description": "Ada yang tidak berfungsi? Pembayaran tidak berhasil? Jangan ragu untuk menghubungi kami terkait dengan keluhan Anda, kami akan memprioritaskannya.",
+        "modal": {
+          "header": "Kualitas",
+          "description": "Placifull adalah merek yang berpusat pada kualitas dan kami yakin semua nilai kami terletak pada kualitas pelayanan yang kami berikan. Kami dengan sepenuh hati meyakinkan Anda bahwa kami tidak berkompromi dengan kualitas dan standar. Jika Anda menemukan sesuatu pada platform kami yang tidak berfungsi sebagaimana mestinya, laporkan masalahnya kepada kami sesegera mungkin dan kami akan memperbaikinya secepatnya. Pengalaman Anda dengan Placifull sangat penting dan kami akan mengembangkan dan meningkatkan sistem kami agar lebih sesuai dengan kebutuhan Anda.",
+          "close-button": "Tutup",
+          "contact-button": "Hubungi"
+        }
+      },
+      "service-5": {
+        "open-modal": "Lamar Sekarang",
+        "name": "Kesempatan Berkarir",
+        "description": "Kami menyeimbangkan waktu untuk bekerja keras dan beristirahat. Apakah Anda ingin menjadi bagian dari kami? Beritahukan kepada kami. Anda memilih apa yang Anda ingin kerjakan, dimana dan dengan gaji yang Anda inginkan. Jika kami tertarik, maka ANDA akan diterima.",
+        "modal": {
+          "header": "Karir",
+          "description": "Daftar lowongan pekerjaan kami unik dan Anda tidak akan menemukan apa yang kami tawarkan di tempat lain. Kami menawarkan skema jam kerja yang menarik dimana Anda hanya perlu bekerja 4 hari dalam seminggu, dan 8 jam dalam sehari bukan 12 Jam. Pada hari Jumat setiap minggunya, Anda akan diberikan pilihan untuk bekerja atau tidak. Pastinya Anda dapat menggunakan waktu ekstra untuk bertemu dengan teman, berolahraga, melatih hobi Anda dan banyak hal lainnya! Placifull memastikan waktu berkualitas Anda dengan teman dan keluarga tidak terganggu karena pekerjaan. Ini sebabnya platform ini juga memastikan Anda mendapatkan waktu berlibur yang cukup, mulai dari 20 hari dan Anda bisa mendapatkan cuti sebanyak 28 hari setiap tahun. Itu memberikan total . Hampir tidak mungkin menemukan jadwal kerja yang sebaik ini, jadi jangan tunggu lagi untuk melamar ke Placifull.",
+          "close-button": "Tutup",
+          "contact-button": "Lamar Sekarang"
+        },
+        "modal-apply": {
+          "form": {
+            "header": "Beritahu kami proposal Anda!",
+            "firstName": "Nama Depan",
+            "lastName": "Nama Belakang",
+            "email": "Alamat Email",
+            "phone": "Nomor Telepon",
+            "dreamJob": "Anda ingin bekerja sebagai apa ?",
+            "applyText": "Mengapa kami harus mempekerjakan Anda ?",
+            "salary": "Gaji yang diharapkan (per bulan )",
+            "positionName": "Nama Jabatan",
+            "apply": "Saya Siap!"
+          }
+        }
+      }
+    },
+    "learn-more": "Pelajari Lebih Lanjut"
+  },
+  "price-section": {
+    "badge": "",
+    "head": {
+      "line-1": "Daftar Harga Kami"
+    },
+    "prices": {
+      "price-1": {
+        "name": "Real Estate",
+        "tiers": {
+          "tier-2": {
+            "name": "Postingan",
+            "offer-1": "Bayar sekali, gunakan kapan saja diperlukan.",
+            "offer-2": "Daftar diposting sampai 395 hari",
+            "offer-3": "Kebebasan untuk mengikuti tawaran pengguna",
+            "offer-4": "Hapus kapan saja",
+            "button": "Coba Sekarang"
+          },
+          "tier-3": {
+            "name": "Triwulanan",
+            "offer-1": "8 item aktif",
+            "offer-2": "Daftar hingga 395 hari",
+            "offer-3": "Ikuti tawaran pengguna",
+            "offer-4": "Tutup kapan saja Anda mau dan gunakan lagi",
+            "button": "Coba Sekarang"
+          },
+          "tier-4": {
+            "name": "Tahunan",
+            "offer-1": "20 item aktif",
+            "offer-2": "Daftar hingga 120 hari",
+            "offer-3": "Kebebasan untuk mengikuti tawaran pengguna",
+            "offer-4": "Tutup kapan saja, dan buka kembali saat dibutuhkan",
+            "button": "Coba Sekarang"
+          }
+        }
+      },
+      "price-2": {
+        "name": "Transportasi",
+        "tiers": {
+          "tier-2": {
+            "name": "Postingan",
+            "offer-1": "Bayar sekali, gunakan kapan saja diperlukan.",
+            "offer-2": "Daftar diposting hingga 395 hari",
+            "offer-3": "Kebebasan untuk mengikuti tawaran pengguna",
+            "offer-4": "Hapus kapan saja",
+            "button": "Coba Sekarang"
+          },
+          "tier-3": {
+            "name": "Triwulanan",
+            "offer-1": "8 item aktif",
+            "offer-2": "Daftar hingga 395 hari",
+            "offer-3": "Ikuti tawaran pengguna",
+            "offer-4": "Tutup kapan saja Anda mau dan gunakan lagi",
+            "button": "Coba Sekarang"
+          },
+          "tier-4": {
+            "name": "Tahunan",
+            "offer-1": "20 item aktif",
+            "offer-2": "Daftar hingga 120 hari",
+            "offer-3": "Kebebasan untuk mengikuti tawaran pengguna",
+            "offer-4": "Tutup kapan saja dan buka kembali saat dibutuhkan",
+            "button": "Coba Sekarang"
+          }
+        }
+      },
+      "price-3": {
+        "name": "Pekerjaan",
+        "tiers": {
+          "tier-2": {
+            "name": "Post single",
+            "offer-1": "Bayar sekali, gunakan kapan saja diperlukan",
+            "offer-2": "Cantuman diposting hingga 395 hari",
+            "offer-3": "Kebebasan untuk mengikuti tawaran pengguna",
+            "offer-4": "Hapus kapan saja",
+            "button": "Coba Sekarang"
+          },
+          "tier-3": {
+            "name": "Triwulanan",
+            "offer-1": "8 item aktif",
+            "offer-2": "Daftar hingga 395 hari",
+            "offer-3": "Ikuti tawaran pengguna",
+            "offer-4": "Tutup kapan saja Anda mau dan gunakan lagi",
+            "button": "Coba Sekarang"
+          },
+          "tier-4": {
+            "name": "Tahunan",
+            "offer-1": "20 item aktif",
+            "offer-2": "Daftar hingga 120 hari",
+            "offer-3": "Kebebasan untuk mengikuti tawaran pengguna",
+            "offer-4": "Tutup kapan saja dan buka kembali saat dibutuhkan",
+            "button": "Coba Sekarang"
+          }
+        }
+      },
+      "price-4": {
+        "name": "Lainnya",
+        "tiers": {
+          "tier-1": {
+            "name": "Gratis",
+            "offer-1": "Daftar Peramban",
+            "offer-2": "Daftar Harga",
+            "offer-3": "Jadilah bagian dari kami",
+            "offer-4": "Bagikan",
+            "button": "Coba Sekarang"
+          },
+          "tier-2": {
+            "name": "Item yang dipromosikan",
+            "offer-1": "Bayar saat mengirimkan",
+            "offer-2": "Area yang dipromosikan",
+            "offer-3": "Tandai sebagai unggulan",
+            "button": "Coba Sekarang"
+          },
+          "tier-3": {
+            "name": "Telusuri CV",
+            "offer-1": "Pembelian Tahunan",
+            "offer-3": "Browser CV",
+            "button": "Coba Sekarang"
+          },
+          "tier-4": {
+            "name": "Tambahkan hari ekstra",
+            "offer-1": "Perpanjang hari pendaftaran",
+            "offer-2": "Pilih jumlah hari",
+            "offer-3": "Sampai 365 hari",
+            "offer-4": "Mulai dari 0.11 € per hari",
+            "button": "Coba Sekarang"
+          }
+        }
+      }
+    },
+    "off": "Keluar",
+    "modal": {
+      "no-user": {
+        "title": "Informasi daftar post",
+        "header": "Silakan Masuk",
+        "body": "Silakan masuk ke website karena jika tidak kami tidak dapat memberi Anda penelusuran yang baik",
+        "log": "Masuk"
+      },
+      "post": {
+        "title": "Silakan pilih opsi",
+        "body": "Apakah Anda ingin membeli opsi baru untuk profil Anda atau menggunakan yang sudah ada?",
+        "post": "Tidak, posting daftar",
+        "purchase": "Ya, beli"
+      }
+    }
+  }
+}

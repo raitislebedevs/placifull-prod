@@ -14,9 +14,9 @@ import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
 
 const Jobs = (props) => {
   const { t, user } = props;
-  const [limit, setLimit] = useState(5);
+  const [limit, setLimit] = useState(7);
   const [skip, setSkip] = useState(0);
-  const [total, setTotal] = useState('');
+  const [total, setTotal] = useState(1);
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [isShowDeleteModal, setIsShowDeleteModal] = useState(false);
@@ -34,12 +34,6 @@ const Jobs = (props) => {
       const result = await VacancyListingService.FIND({
         _limit: limit,
         _start: skip,
-        _where: {
-          user: user.id,
-        },
-      });
-
-      const count = await VacancyListingService.COUNT({
         _where: {
           user: user.id,
         },

@@ -1,0 +1,89 @@
+{
+  "color": {
+    "label": "Farbe",
+    "options": {
+      "red": "Rot",
+      "orange": "Orange",
+      "yellow": "Gelb",
+      "green": "Grün",
+      "blue": "Blau",
+      "violent": "Violett",
+      "pink": "Rosa",
+      "tan": "Braun",
+      "beige": "Beige",
+      "white": "Weiß",
+      "silver": "Silber",
+      "gray": "Grau",
+      "black": "Schwarz",
+      "brown": "Braun",
+      "gold": "Gold",
+      "indigo": "Indigo",
+      "purple": "Lila",
+      "lime": "Limette",
+      "azure": "Azurblau",
+      "other": "Andere"
+    }
+  },
+  "gear-box": {
+    "label": "Getriebe",
+    "options": {
+      "manual": "Manuell",
+      "automatic": "Automatisch",
+      "other": "Andere"
+    }
+  },
+  "engine": {
+    "label": "Motor Typ",
+    "options": {
+      "diesel": "Diesel",
+      "benzine": "Benzin",
+      "gas": "Gas",
+      "electric": "Elektrisch",
+      "other": "Andere"
+    }
+  },
+  "features": {
+    "heading": "Ausstattung",
+    "category": {
+      "equipment": "Ausstattung",
+      "interior": "Innenausstattung",
+      "steering-wheel": "Lenkrad",
+      "seats": "Sitze",
+      "lights": "Lichter",
+      "audio-video": "Audio/Video",
+      "mirrors": "Spiegel"
+    }
+  },
+  "condition": {
+    "label": "Zustand",
+    "options": {
+      "brandNew": "Brandneu",
+      "likeNew": "Neuwertig",
+      "used": "Gebraucht",
+      "requiresFixing": "Muss repariert werden",
+      "afterCrash": "Nach Unfallschaden"
+    }
+  },
+
+  "transport-type": {
+    "label": "Transport Typ",
+    "options": {
+      "car": "Auto",
+      "truck": "Lkw",
+      "motorcycle": "Motorrad",
+      "boat": "Boote",
+      "airTransport": "Lufttransport",
+      "others": "Andere"
+    }
+  },
+
+  "action": {
+    "label": "Aktion",
+    "options": {
+      "sell": "Verkaufen",
+      "rent": "Mieten",
+      "exchange": "Tauschen",
+      "forParts": "Für Ersatzteile"
+    }
+  }
+}
