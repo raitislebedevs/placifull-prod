@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { withTranslation } from 'i18n';
-import PropTypes from 'prop-types';
 import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 import { StripeServiss } from 'services/index';
 import TostifyCustomContainer from '../TostifyCustomContainer/TostifyCustomContainer';
@@ -241,11 +240,5 @@ const CheckoutForm = (props) => {
     </form>
   );
 };
-CheckoutForm.getInitialProps = async () => ({
-  namespacesRequired: ['common', 'navbar', 'footer', 'stripe'],
-});
 
-CheckoutForm.propTypes = {
-  t: PropTypes.func.isRequired,
-};
-export default withTranslation()(CheckoutForm);
+export default withTranslation(['stripe'])(CheckoutForm);
