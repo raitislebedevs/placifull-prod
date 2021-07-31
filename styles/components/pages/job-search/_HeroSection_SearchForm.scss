@@ -1,7 +1,7 @@
 .hero__search-form {
   position: absolute;
   bottom: -110px;
-  z-index: 9999;
+  z-index: 1000;
   width: 100%;
   @include media-breakpoint-down(md) {
     position: relative;

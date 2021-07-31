@@ -101,28 +101,34 @@ const Footer = (props) => {
             </h5>
             <ul className="list-unstyled top__list mt-4">
               <li>
-                <a href="page-aboutus.html" className="list__items">
-                  {' '}
+                <a href="/#about-us" className="list__items">
                   <FontAwesomeIcon icon="chevron-right" className="icon" />{' '}
                   {t('top.list-menu.menu-2.items.item-1')}
                 </a>
               </li>
               <li>
-                <a href="page-team.html" className="list__items">
+                <a href="/#about-us" className="list__items">
                   {' '}
                   <FontAwesomeIcon icon="chevron-right" className="icon" />{' '}
                   {t('top.list-menu.menu-2.items.item-2')}
                 </a>
               </li>
               <li>
-                <a href="page-jobs.html" className="list__items">
+                <a href="/#pricing-panel" className="list__items">
                   {' '}
                   <FontAwesomeIcon icon="chevron-right" className="icon" />{' '}
-                  {t('top.list-menu.menu-2.items.item-3')}
+                  {t('top.list-menu.menu-2.items.item-5')}
                 </a>
               </li>
               <li>
-                <a href="page-blog-grid.html" className="list__items">
+                <a href="/#promoted-section" className="list__items">
+                  {' '}
+                  <FontAwesomeIcon icon="chevron-right" className="icon" />{' '}
+                  {t('top.list-menu.menu-2.items.item-6')}
+                </a>
+              </li>
+              <li>
+                <a href="/" className="list__items">
                   {' '}
                   <FontAwesomeIcon icon="chevron-right" className="icon" />{' '}
                   {t('top.list-menu.menu-2.items.item-4')}
@@ -258,7 +264,7 @@ const Footer = (props) => {
                     icon={['fa', 'heart']}
                     className="icon text-danger"
                   />
-                  {`     `}. {t('bottom.right')}
+                  {` `}. {t('bottom.right')}
                 </p>
               </div>
             </Col>

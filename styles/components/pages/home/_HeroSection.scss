@@ -33,6 +33,7 @@
       line-height: 1.2;
       @include media-breakpoint-down(md) {
         font-size: 3rem;
+        padding: 0px 10px;
       }
       @include media-breakpoint-down(sm) {
         font-size: 2.5rem;

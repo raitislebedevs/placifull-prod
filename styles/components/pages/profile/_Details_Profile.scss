@@ -1,24 +1,25 @@
-.right-content__profile{
+.right-content__profile {
   box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.13);
   border-radius: 5px;
   margin-bottom: 30px;
-  .profile__input{
+  .profile__input {
     position: relative;
-    .input__icon{
+    .input__icon {
       position: absolute;
       top: 13px;
       left: 18px;
     }
-    .input__text{
+    .input__text {
       padding-left: 45px;
     }
-    .input__text.textarea{
+    .input__text.textarea {
       padding-top: 10px;
     }
   }
 }
 
-.right-content__delete-account{
+.right-content__delete-account {
   border-radius: 5px;
   box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.13);
+  overflow-wrap: break-word;
 }
