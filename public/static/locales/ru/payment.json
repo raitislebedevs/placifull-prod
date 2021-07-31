@@ -1,0 +1,89 @@
+{
+  "currency": "€ ",
+  "payment-modal": {
+    "header": "Детали приобретения тарифного плана",
+    "sub-header": "Пожалуйста, выберите тарифный план в соответствии с информацией ниже",
+    "total-cost": "Цена:",
+    "expiry-date": "Дата истечения:",
+    "expiry-label": "Дата истечения",
+    "quantity": "Количество:",
+    "quantity-label": "Количество",
+    "listed": "Включено в список:",
+    "purchase": "Куплено:",
+    "extend-expiry": "Продлить срок действия",
+    "promote": "Продвинуть",
+    "subscription-valid": "Опция действительна",
+    "days": "дней",
+    "browser-cv": "Поиск резюме",
+    "purchase-text": {
+      "user-held": "Принадлежит пользователю",
+      "purchase": "Приобретение"
+    },
+    "form": {
+      "added-days": {
+        "label": "Продлить объявление на",
+        "suffix": "Дней"
+      },
+      "card-details": {
+        "label": "Предоставить информацию о карте",
+        "card-holder": "Владелец карты",
+        "card-number": "Номер карты",
+        "card-date": "Дата истечения",
+        "card-csv": "CSV"
+      },
+      "buttons": {
+        "decline": "Отменить",
+        "proceed": "Продолжить"
+      },
+
+      "purchase-items": {
+        "intro": "Вступительный",
+        "single": "Разовый",
+        "quarterly": "Ежеквартальный",
+        "life": "Годовой"
+      },
+      "user-stock": {
+        "single": "Разовый",
+        "quartery": "Ежеквартальный",
+        "life": "Годовой"
+      }
+    }
+  },
+
+  "receipt-modal": {
+    "header": "Итоговая информация",
+    "sub-header": "Пожалуйста, проверьте информацию о покупке, прежде чем продолжить.",
+    "card-details": {
+      "card-holder": "Имя владельца карты",
+      "card-number": "Информация о карте",
+      "card-date": "Дата истечения"
+    },
+
+    "receipt-table": {
+      "plan": "Тарифный план",
+      "quantity": "Количество",
+      "promote": "Продвижение",
+      "extend-expiry": "Продление срока действия",
+      "total": "Итого",
+      "total-amount": "Итоговое количество",
+      "price": "Цена",
+      "expiry-date": "Дата истечения",
+      "no-expiry": "Нет",
+      "plans": {
+        "standalone": "Разовый",
+        "subscriptionQuarterly": "Ежеквартальный",
+        "subscriptionYearly": "Годовой",
+        "activeSubscription": "Поиск резюме"
+      }
+    },
+    "thank-you-message": "Спасибо за поддержку компании Placifull. Мы уверены, что вы останетесь довольны своим выбором.",
+    "buttons": {
+      "cancel": "Отменить",
+      "proceed": "Оплатить и продолжить"
+    }
+  },
+  "error": {
+    "transaction": "Транзакция не удалась",
+    "subscriptions": "Ошибка подписки "
+  }
+}

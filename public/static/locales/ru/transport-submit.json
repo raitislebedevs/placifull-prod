@@ -1,0 +1,77 @@
+{
+  "heading": "Отправить объявление",
+  "form": {
+    "submit": "Отправить",
+    "submit-confirm": "Сохранение...",
+    "preview-sneak-peak": "Создание...",
+    "preview": "Предварительный просмотр",
+    "currency": "Валюта",
+    "no-currency": "ВСЕ",
+    "general-information": {
+      "heading": "Общая информация",
+      "transport-type": "Тип транспорта",
+      "action": "Действие",
+      "condition": "Состояние",
+      "input-fields": {
+        "description": "Описание",
+        "brand": "Марка транспорта",
+        "model": "Модель транспорта",
+        "production-year": "Год производства",
+        "price": "Цена",
+        "engine-type": "Тип двигателя",
+        "gear-box": "Коробка передач",
+        "millage": "Пробег",
+        "speed": "Максимальная скорость",
+        "fueal-economy": "Экономия топлива",
+        "seats": "Количество мест",
+        "doors": "Количество дверей",
+        "name": "Название объявления на транспорт"
+      }
+    },
+    "detail-information": {
+      "heading": "Подробная информация",
+      "contact": {
+        "heading": "Контакты",
+        "email": "Е-мейл",
+        "address": "Адрес",
+        "contact-times": {
+          "label": "Время контакта",
+          "placeholder": "Выберите предпочтительное время контакта",
+          "options": {
+            "any-time": "Любое время",
+            "working-days": "Рабочие дни",
+            "office-hours": "Рабочие часы",
+            "specific-times": "Определенное время"
+          }
+        },
+        "listing-website": "Вебсайт: https://"
+      },
+      "features": {
+        "heading": "Характеристики",
+        "category": {
+          "equipment": "Оборудование",
+          "interior": "Интерьер",
+          "steering-wheel": "Руль",
+          "seats": "Сиденья",
+          "lights": "Фары",
+          "audio-video": "Аудио/видео",
+          "mirrros": "Зеркала"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "Галерея",
+      "click-drop": "НАЖМИТЕ ИЛИ ПЕРЕТАЩИТЕ ИЗОБРАЖЕНИЯ СЮДА",
+      "video-url": "Ссылка на видео: https://"
+    },
+    "contact-hours": {
+      "heading": "Контактные часы",
+      "heading-tip": "По желанию",
+      "accordion": {
+        "heading": "Добавьте наиболее подходящее время встречи/звонка...",
+        "start-time": "С",
+        "end-time": "До"
+      }
+    }
+  }
+}

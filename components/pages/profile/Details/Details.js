@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { connect } from 'react-redux';
 
 const Details = (props) => {
-  const { t, user, isMobile } = props;
+  const { t, user, isMobile, isSmall } = props;
   const [currentTab, setCurrentTab] = useState('profile');
 
   return (
@@ -27,6 +27,7 @@ const Details = (props) => {
               user={user}
               t={t}
               isMobile={isMobile}
+              isSmall={isSmall}
             />
           </Col>
         </Row>

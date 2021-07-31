@@ -1,4 +1,3 @@
-import { withTranslation } from 'i18n';
 import Profile from './Profile';
 import RealEstate from './RealEstate';
 import CV from './CV';
@@ -8,9 +7,8 @@ import PaymentReceipts from './PaymentReceipts';
 
 import Jobs from './Jobs/Jobs';
 
-
 const RightContent = (props) => {
-  const { t, currentTab, user, isMobile } = props;
+  const { t, currentTab, user, isMobile, isSmall } = props;
   const menu = [
     {
       key: 'profile',
@@ -26,7 +24,7 @@ const RightContent = (props) => {
     },
     {
       key: 'cv',
-      component: <CV user={user} t={t} />,
+      component: <CV user={user} t={t} isMobile={isMobile} isSmall={isSmall} />,
     },
 
     {
@@ -42,8 +40,6 @@ const RightContent = (props) => {
       key: 'payment-receipts',
       component: <PaymentReceipts user={user} t={t} />,
     },
-
-
   ];
   return (
     <div className="detail-container__right-content">

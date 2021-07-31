@@ -1,0 +1,41 @@
+{
+  "kanban": {
+    "save": "Сохранить доску",
+    "saving": "Сохранение...",
+    "salary": {
+      "hour": "/час",
+      "month": "/месяц",
+      "year": "/год"
+    },
+    "job-overview": {
+      "title": "Обзор вакансии",
+      "industry": "Сфера",
+      "languages-en": "Языки (EN)",
+      "native": "Языки родные",
+      "contract-type": "Тип контракта",
+      "working-time": "Рабочее время",
+      "expiry-date": "Дата истечения"
+    },
+    "statistics": {
+      "title": "Статистика",
+      "applicants": "Кандидаты",
+      "interviewed": "Проинтервьюированные",
+      "processing": "В обработке",
+      "reviewed": "Проверенные",
+      "shortlisted": "Отобранные",
+      "hired": "Нанятые"
+    },
+    "columns": {
+      "applicants": "Поданные заявки",
+      "reviewed": "Рассмотрены заявки",
+      "shortlisted": "Отобранные",
+      "interviewed": "Проинтервьюированные кандидаты",
+      "pending": "Ожидают принятия",
+      "accepted": "Нанятые кандидаты",
+      "column-name": "Новая колонка",
+      "edit": "Редактировать"
+    },
+    "view-cv": "Просмотр резюме",
+    "remove": "Удалить"
+  }
+}

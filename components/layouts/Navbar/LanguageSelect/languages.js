@@ -34,13 +34,13 @@ const languages = [
     },
     label: 'Deutsche',
   },
-  // {
-  //   value: {
-  //     lang: 'ru',
-  //     flag: 'RU',
-  //   },
-  //   label: 'Pу́сский',
-  // },
+  {
+    value: {
+      lang: 'ru',
+      flag: 'RU',
+    },
+    label: 'Pу́сский',
+  },
   {
     value: {
       lang: 'cn',

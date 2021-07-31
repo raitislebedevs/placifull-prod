@@ -1,0 +1,56 @@
+{
+  "job-card": {
+    "location": "Расположение",
+    "salary": "Заработок",
+    "button": "Смотреть детали",
+    "contract-type": {
+      "label": "Тип контракта",
+      "options": {
+        "temporarly": "Временный",
+        "fullTime": "Полный рабочий день",
+        "partTime": "Неполный рабочий день",
+        "remoteFullTime": "Удаленный (Полный рабочий день)",
+        "remotePartTime": "Удаленный (Неполный рабочий день)",
+        "other": "Другой"
+      }
+    },
+    "working-schedule": {
+      "label": "Рабочее расписание",
+      "options": {
+        "officeHours": "Рабочие часы",
+        "shifts": "Посменно",
+        "flexible": "Гибкий график",
+        "other": "Другое"
+      }
+    }
+  },
+
+  "transport-card": {
+    "gear-box": {
+      "label": "Коробка передач",
+      "options": {
+        "manual": "Ручная",
+        "automatic": "Автоматическая",
+        "other": "Другое"
+      }
+    }
+  },
+
+  "real-estate-card": {
+    "location": "Месторасположение",
+    "working-schedule": "Рабочее расписание",
+    "salary": "Заработок",
+    "contract-type": "Тип контракта",
+    "button": "Смотреть детали"
+  },
+
+  "action": {
+    "label": "Действие",
+    "options": {
+      "sell": "Продать",
+      "rent": "Сдать в аренду",
+      "exchange": "Обменять",
+      "forParts": "На запчасти"
+    }
+  }
+}

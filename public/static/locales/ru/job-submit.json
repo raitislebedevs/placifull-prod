@@ -1,0 +1,55 @@
+{
+  "heading": "Отправить объявление",
+  "form": {
+    "submit-confirm": "Сохранение...",
+    "preview-sneak-peak": "Создание…",
+    "preview": "Предварительный просмотр",
+    "no-currency": "Валюта",
+    "no-features": "Выберите категорию объявления",
+    "job-title": {
+      "title": "Название должности",
+      "placeholder": "Название должности, например клиент Placifull."
+    },
+    "company": "Название компании",
+    "submit": "ОТПРАВИТЬ",
+    "general-information": {
+      "heading": "Общая информация",
+      "input-fields": {
+        "description": "Описание должности",
+        "requirements": "Требования к должности",
+        "beneftis": "Преимущества должности"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "Контактная информация",
+        "detail-requirements": "Подробные требования"
+      },
+      "contact": {
+        "heading": "Контакты",
+        "email": "Е-мейл",
+        "phone": "Номер телефона",
+        "address": "Адрес",
+        "listing-website": "Вебсайт: https://"
+      }
+    },
+    "gallery": {
+      "heading": "Логотип компании",
+      "click-drop": "НАЖМИТЕ ИЛИ ПЕРЕТАЩИТЕ ЛОГОТИП СЮДА",
+      "video-url": "Ссылка на видео: https://"
+    },
+    "contact-hours": {
+      "heading": "Рабочие часы",
+      "heading-tip": "По желанию",
+      "accordion": {
+        "heading": "Время, когда сотруднику требуется работать",
+        "start-time": "Работа начинается в",
+        "end-time": "Работа заканчивается в"
+      }
+    },
+    "input-languages": {
+      "label": "Языки, которые необходимо знать. (Английский)",
+      "labelNative": "Языки, которые необходимо знать. (Родной) "
+    }
+  }
+}

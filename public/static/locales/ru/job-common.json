@@ -1,0 +1,87 @@
+{
+  "contract-type": {
+    "label": "Тип контракта",
+    "options": {
+      "temporarly": "Временный",
+      "fullTime": "Полный рабочий день",
+      "partTime": "Неполный рабочий день",
+      "remoteFullTime": "Удаленный (полный рабочий день)",
+      "remotePartTime": "Удаленный (неполный рабочий день)",
+      "other": "Другое"
+    }
+  },
+  "working-time": {
+    "label": "Рабочее время",
+    "options": {
+      "officeHours": "Рабочие часы",
+      "shifts": "Посменно",
+      "flexible": "Гибкий график",
+      "other": "Другое"
+    }
+  },
+  "contact-times": {
+    "label": "Время контакта",
+    "placeholder": "Выберите желаемое время контакта",
+    "not-specified": "Не определено",
+    "options": {
+      "any-time": "Любое время",
+      "working-days": "Рабочие дни",
+      "office-hours": "Рабочие часы",
+      "specific-times": "Определенное время"
+    }
+  },
+  "features": {
+    "heading": "Характеристики",
+    "licenses": "Водительские права",
+    "education": "Образование/Степень",
+    "expierience": "Опыт в годах",
+    "candiadate": "Кандидат должен уметь",
+    "weOffer": "Мы предлагаем"
+  },
+  "salary": {
+    "heading": "Заработок",
+    "monthly-from": "Заработок от",
+    "monthly-to": "Заработок до",
+    "hourly-rate-from": "Почасовая ставка от",
+    "annual-from": "Годовой заработок от",
+    "annual-to": "Годовой заработок до",
+    "hourly-rate-to": "Почасовая ставка до"
+  },
+  "work-area": {
+    "label": "Сфера работы",
+    "options": {
+      "intern": "Стажер",
+      "volunteerWork": "Работа волонтером",
+      "stockExchange": "Фондовая биржа",
+      "administrationAssistance": "Администрирование/Помощь",
+      "constructionRealEstate": "Строительство/Недвижимость",
+      "humanResources": "Подбор персонала",
+      "securityRescue": "Охрана/Спасательные службы",
+      "military": "Военная",
+      "electronicsTelecomunication": "Электроника/Телекоммуникации",
+      "freelanceTemporary": "Фриланс/Временная должность",
+      "energyElectricity": "Энергия/Электричество",
+      "pharmacy": "Фармацевтика",
+      "financeAccounting": "Финансы/Бухгалтерия",
+      "infromationTechnology": "Информационные технологии (IT)",
+      "jurisprudenceJustice": "Юриспруденция/Судопроизводство",
+      "cultureArtEntertainemnt": "Культура/Искусство/Развлечения",
+      "sports": "Спорт",
+      "qualityControl": "Контроль качества/Менеджмент качества",
+      "agricutureEnvironmental": "Сельское хозяйство/Экология",
+      "medicineSocialCare": "Медицина/Социальная помощь",
+      "mediaPublicRelations": "СМИ/Связи с общественностью",
+      "forestryWoodworkingMetalWorking": "Лесное хозяйство/Деревообработка/Металлообработка",
+      "marketingAdvertising": "Маркетинг/Реклама",
+      "productionIndustry": "Производство/Промышленность",
+      "seasonalWork": "Сезонная работа",
+      "technicalScience": "Технические науки",
+      "services": "Услуги",
+      "transportLogistics": "Транспорт/Логистика",
+      "tourismCateringHotels": "Туризм/Кейтеринг/Гостиницы",
+      "managment": "Управление",
+      "government": "Правительство",
+      "others": "Другие"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "form": {
+      "currency": "Валюта",
+      "no-currency": "ВСЕ",
+      "min-price": "Мин.: 0.00",
+      "max-price": "Макс.: 9 999 999 999",
+      "transport-brand": "Марка транспорта",
+      "transport-model": "Модель транспорта",
+      "min-age": "Мин. возраст",
+      "max-age": "Макс. возраст",
+      "submit": "Искать",
+      "accordion": "РАСШИРЕННЫЙ ПОИСК",
+      "accordion-right": {
+        "economy": {
+          "label": "Экономия топлива",
+          "items": {
+            "from": "От: 0",
+            "to": "До: 999"
+          }
+        },
+        "speed": {
+          "label": "Макс. скорость",
+          "items": {
+            "from": "От: 0",
+            "to": "до: 999"
+          }
+        },
+        "millage": {
+          "label": "Пробег",
+          "items": {
+            "from": "От: 0",
+            "to": "До: 9 999 999"
+          }
+        },
+        "units": "Единицы измерения"
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Сортировать по",
+        "options": {
+          "price": "Цена",
+          "speed": "Скорость",
+          "millage": "Пробег",
+          "fuel-economy": "Экономия топлива",
+          "popularity": "Популярность",
+          "views": "Просмотры",
+          "country": "Страна",
+          "insert-date": "Ввести дату"
+        }
+      }
+    }
+  }
+}

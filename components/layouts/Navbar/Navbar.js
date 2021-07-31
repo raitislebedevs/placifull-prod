@@ -85,29 +85,25 @@ const Navbar = (props) => {
         <Nav className="ml-auto">
           <Nav className="navbar__right__links">
             <Nav.Item>
-              <Link href="/">
-                <Nav.Link
-                  href="/"
-                  active={router.pathname === '/'}
-                  className="nav-item__linK"
-                >
-                  <div id="home">{t('home')}</div>
-                </Nav.Link>
-              </Link>
+              <Nav.Link
+                href="/"
+                active={router.pathname === '/'}
+                className="nav-item__linK"
+              >
+                <div id="home">{t('navbar:home')}</div>
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <OpportunitiesSelect t={t} />
             </Nav.Item>
             <Nav.Item>
-              <Link href="/contact">
-                <Nav.Link
-                  href="/contact"
-                  active={router.pathname === '/contact'}
-                  className="nav-item__link"
-                >
-                  <div id="help-support">{t('help')}</div>
-                </Nav.Link>
-              </Link>
+              <Nav.Link
+                href="/contact"
+                active={router.pathname === '/contact'}
+                className="nav-item__link"
+              >
+                <div id="help-support">{t('navbar:help')}</div>
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <LanguaggeSelect showNavbarLight={showNavbarLight} />
@@ -120,35 +116,31 @@ const Navbar = (props) => {
             ) : (
               <>
                 <Nav.Item>
-                  <Link href="/sign-in">
-                    <Nav.Link
-                      href="/sign-in"
-                      active={router.pathname === '/sign-in'}
-                      className="nav-item__link "
-                    >
-                      <FontAwesomeIcon
-                        icon="sign-in-alt"
-                        className="link__icon"
-                      />
-                      <div id="sign-in" className="link__text">
-                        {t('sign-in')}
-                      </div>
-                    </Nav.Link>
-                  </Link>
+                  <Nav.Link
+                    href="/sign-in"
+                    active={router.pathname === '/sign-in'}
+                    className="nav-item__link "
+                  >
+                    <FontAwesomeIcon
+                      icon="sign-in-alt"
+                      className="link__icon"
+                    />
+                    <div id="sign-in" className="link__text">
+                      {t('navbar:sign-in')}
+                    </div>
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Link href="/register">
-                    <Nav.Link
-                      href="/register"
-                      active={router.pathname === '/register'}
-                      className="nav-item__link"
-                    >
-                      <FontAwesomeIcon icon="user" className="link__icon" />
-                      <div id="register" className="link__text">
-                        {t('register')}
-                      </div>
-                    </Nav.Link>
-                  </Link>
+                  <Nav.Link
+                    href="/register"
+                    active={router.pathname === '/register'}
+                    className="nav-item__link"
+                  >
+                    <FontAwesomeIcon icon="user" className="link__icon" />
+                    <div id="register" className="link__text">
+                      {t('navbar:register')}
+                    </div>
+                  </Nav.Link>
                 </Nav.Item>
               </>
             )}
@@ -161,7 +153,7 @@ const Navbar = (props) => {
                 >
                   <FontAwesomeIcon icon="plus" />{' '}
                   <span id="add-listing" className="add-listing-button__text">
-                    {t('add-listing')}
+                    {t('navbar:add-listing')}
                   </span>
                 </Button>
               </Link>
@@ -173,13 +165,11 @@ const Navbar = (props) => {
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
                   <Dropdown.Item as="div">
-                    <Link href="/">
-                      <a>{t('home')}</a>
-                    </Link>
+                    <Link href="/">{t('navbar:home')}</Link>
                   </Dropdown.Item>
                   <OpportunitiesSelect t={t} />
                   <Dropdown.Item as="div">
-                    <a>{t('help')}</a>
+                    <Link href="/contact">{t('navbar:help')}</Link>
                   </Dropdown.Item>
                   <LanguaggeSelect showNavbarLight={showNavbarLight} t={t} />
                 </Dropdown.Menu>

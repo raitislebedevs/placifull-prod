@@ -1,0 +1,35 @@
+{
+  "main": {
+    "success": "Оплата прошла успешно.",
+    "plan_update": "Не удалось обновить ваш тарифный план.",
+    "card_not": "Средства с карты не списаны.",
+    "pay": "Оплатить €",
+    "processing": "Обработка…"
+  },
+  "placeholders": {
+    "name": "Иван Иванов",
+    "email": "ivanivanov@placifull.com",
+    "phone": "(941) 555-7777"
+  },
+  "incomplete": {
+    "incomplete_cvc": "Код безопасности карты неполный.",
+    "incomplete_expiry": "Срок действия карты неполный.",
+    "incomplete_number": "Номер карты неполный."
+  },
+
+  "declined": {
+    "card_declined": "Ваша карта отклонена"
+  },
+  "checkout": {
+    "billing": "Заполните платежную информацию",
+    "card-details": "Предоставьте информацию о карте",
+    "cancel": "Отмена"
+  },
+  "labels": {
+    "plan": "Тарифный план",
+    "quantity": "Кол-во",
+    "name": "Имя",
+    "email": "Е-мейл",
+    "phone": "Ном. телефона"
+  }
+}

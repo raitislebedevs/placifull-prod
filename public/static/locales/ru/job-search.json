@@ -1,0 +1,61 @@
+{
+  "form": {
+    "currency": "Валюта",
+    "no-currency": "ВСЕ",
+    "languages": {
+      "native": "Родные языки",
+      "english": "Языки на английском"
+    },
+    "submit": "Искать",
+    "accordion": {
+      "label": "РАСШИРЕННЫЙ ПОИСК",
+      "searchFilter": {
+        "heading": "Характеристики",
+        "licenses": "Водительские права",
+        "education": "Образование/Степень",
+        "expierience": "Опыт в годах",
+        "candiadate": "Кандидат умеет:",
+        "benefits": "Преимущества"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "Почасовая оплата",
+        "items": {
+          "from": "От: 0",
+          "to": "До: 999 999"
+        }
+      },
+      "monthly-salary": {
+        "label": "Ежемесячный заработок",
+        "items": {
+          "from": "От: 0",
+          "to": "До: 999 999 999"
+        }
+      },
+      "yearly-salary": {
+        "label": "Годовой заработок",
+        "items": {
+          "from": "От: 0",
+          "to": "До: 99 999 999 999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Сортировать по",
+        "options": {
+          "monthly-salary": "Ежемесячный заработок",
+          "annual-salary": "Годовой заработок",
+          "hourly-salary": "Почасовая оплата",
+          "popularity": "Популярность",
+          "views": "Просмотры",
+          "country": "Страна",
+          "insert-date": "Ввести дату"
+        }
+      }
+    }
+  }
+}

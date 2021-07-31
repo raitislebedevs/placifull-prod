@@ -1,0 +1,53 @@
+{
+  "heading": "Отправить объявление",
+  "form": {
+    "submit": "Отправить",
+    "submit-confirm": "Сохранение…",
+    "preview-sneak-peak": "Создание…",
+    "preview": "Предварительный просмотр",
+    "no-currency": "ВСЕ",
+    "no-features": "Пожалуйста, выберите категорию объявления",
+    "general-information": {
+      "heading": "Общая информация",
+      "currency-input": "Валюта",
+      "input-fields": {
+        "name": "Название объявления",
+        "description": "Описание",
+        "price": "Цена",
+        "bed-rooms": "Спальни",
+        "bath-rooms": "Ванные комнаты",
+        "area": "Площадь недвижимости",
+        "start-renting": "Начало аренды",
+        "end-renting": "Конец аренды",
+        "year-built": "Год постройки"
+      }
+    },
+    "detail-information": {
+      "heading": "Подробная информация",
+      "contact": {
+        "heading": "Контакты",
+        "email": "Е-мейл",
+        "address": "Адрес",
+        "contact-times": {
+          "label": "Время контакта",
+          "placeholder": "Выберите предпочтительное время"
+        },
+        "listing-website": "Вебсайт: https://"
+      }
+    },
+    "gallery": {
+      "real-estate": "Галерея",
+      "click-drop": "НАЖМИТЕ ИЛИ ПЕРЕТАЩИТЕ ИЗОБРАЖЕНИЯ СЮДА",
+      "video-url": "Видео https://"
+    },
+    "contact-hours": {
+      "heading": "Контактные часы",
+      "heading-tip": "По желанию",
+      "accordion": {
+        "heading": "Добавьте наиболее подходящее время для встречи/разговора…",
+        "start-time": "С",
+        "end-time": "До"
+      }
+    }
+  }
+}
