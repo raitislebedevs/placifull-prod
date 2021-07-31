@@ -4,6 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { SectionHeading, CustomFormControl } from 'components/common';
 import { connect } from 'react-redux';
 import useEmail from 'hooks/useEmail';
+import config from 'config';
+
+const emailTo = config.MAIL_GUN.EMAIL;
 
 const ContactForm = (props) => {
   const { t, user } = props;
@@ -60,10 +63,11 @@ const ContactForm = (props) => {
   };
 
   const handleSubmit = async (e) => {
+    console.log(emailTo);
     e.preventDefault();
     setIsLoading(true);
     let payload = {
-      to: 'raitis.lebedevs@gmail.com', //'placifull@placifull.com',
+      to: 'placifullteam@gmail.com',
       from: inputValues.name,
       replyTo: inputValues.contactEmail,
       subject: inputValues.subject,
