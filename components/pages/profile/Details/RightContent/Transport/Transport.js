@@ -106,7 +106,7 @@ const Transport = (props) => {
           t('profile:toast.item-deleted')
         );
       }
-      TostifyCustomContainer('error', 'Listing Was not Deleted');
+      TostifyCustomContainer('warning', t('error:listing.not-deleted'));
     } catch (e) {
       setIsLoading(false);
     }

@@ -16,7 +16,7 @@ import { CurriculumVitaesService } from 'services';
 import { CurriculamVitaes, CurrencyInput } from 'components/common';
 
 const CV = (props) => {
-  const { t, user } = props;
+  const { t, user, isSmall } = props;
   const [active, setActive] = useState('personalDetails');
   const [curriculumVitaes, setCurriculumVitaes] = useState(
     user.curriculumVitae
@@ -64,7 +64,7 @@ const CV = (props) => {
         setCurriculumVitaes(data);
       }
     } catch (error) {
-      TostifyCustomContainer('error', 'CV was not retrieved');
+      TostifyCustomContainer('error', t('error:profile.cv-notfound'));
     }
   };
 
@@ -119,8 +119,6 @@ const CV = (props) => {
   const handleOnChange = (event) => {
     const value = event?.target?.value ?? event?.value ?? event;
     const id = event?.target?.id ?? event?.id;
-    console.log(value);
-    console.log(id);
     setInputValues({ ...inputValues, [id]: value });
   };
 
@@ -393,14 +391,14 @@ const CV = (props) => {
   return (
     <div className="right-content__cv">
       <Row>
-        <Col lg={5} xl={5} md={6} sm={12} xs={12} className="cv__heading">
+        <Col lg={5} xl={5} md={7} sm={12} xs={12} className="cv__heading">
           {t('profile:right-content.cv.title')}
         </Col>
         <Col
-          lg={4}
           xl={4}
+          lg={4}
           md={6}
-          sm={6}
+          sm={12}
           xs={12}
           className="preview-cv__container"
         >
@@ -420,52 +418,54 @@ const CV = (props) => {
           </Form.Group>
         </Col>
       </Row>
-      <Row className="right-content__cv--header">
-        {tabFieldInput.map((item) => {
-          return (
-            <Col
-              lg={3}
-              xl={3}
-              md={4}
-              sm={6}
-              xs={12}
-              className={`cv__section-wrapper ${
-                active == item.key ? '--active' : ''
-              }`}
-              onClick={() => setActive(item.key)}
-              key={item.key}
-            >
-              <div className="section-wrapper__accordion-container">
-                <div className="accordion-container__wrapper">
-                  <div>{item.header}</div>
+      {!isSmall && (
+        <Row className="right-content__cv--header">
+          {tabFieldInput.map((item) => {
+            return (
+              <Col
+                lg={3}
+                xl={3}
+                md={4}
+                sm={6}
+                xs={12}
+                className={`cv__section-wrapper ${
+                  active == item.key ? '--active' : ''
+                }`}
+                onClick={() => setActive(item.key)}
+                key={item.key}
+              >
+                <div className="section-wrapper__accordion-container">
+                  <div className="accordion-container__wrapper">
+                    <div>{item.header}</div>
+                  </div>
                 </div>
-              </div>
-            </Col>
-          );
-        })}
+              </Col>
+            );
+          })}
 
-        <Col lg={3} xl={3} md={4} sm={6} xs={12}>
-          {saveCv ? (
-            <div className="save__all__button">
-              <RiSaveLine />{' '}
-              <Spinner
-                as="span"
-                animation="border"
-                variant="danger"
-                size="sm"
-                role="status"
-              />
-            </div>
-          ) : (
-            <div
-              onClick={() => handleCvUpdates()}
-              className="save__all__button"
-            >
-              <RiSaveLine /> {t('profile:overview.button-label.save-all')}
-            </div>
-          )}
-        </Col>
-      </Row>
+          <Col lg={3} xl={3} md={4} sm={6} xs={12}>
+            {saveCv ? (
+              <div className="save__all__button">
+                <RiSaveLine />{' '}
+                <Spinner
+                  as="span"
+                  animation="border"
+                  variant="danger"
+                  size="sm"
+                  role="status"
+                />
+              </div>
+            ) : (
+              <div
+                onClick={() => handleCvUpdates()}
+                className="save__all__button"
+              >
+                <RiSaveLine /> {t('profile:overview.button-label.save-all')}
+              </div>
+            )}
+          </Col>
+        </Row>
+      )}
 
       <Row className="right-content__cv--body">
         {active == 'personalDetails' ? (

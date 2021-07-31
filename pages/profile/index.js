@@ -5,27 +5,41 @@ import { privateRouteMap, PrivateRoute } from 'components/PrivateRoute';
 import { connect } from 'react-redux';
 import compose from 'recompose/compose';
 import { useEffect, useState } from 'react';
+import { set } from 'lodash';
 
 const Profile = (props) => {
   const { t } = props;
 
   const [width, setWidth] = useState(1000);
+  const [isMobile, setIsMobile] = useState(false);
+  const [isSmall, setIsSmall] = useState(false);
+
   function handleWindowSizeChange() {
     setWidth(window.innerWidth);
   }
 
   useEffect(() => {
+    handleWindowSizeChange();
     window.addEventListener('resize', handleWindowSizeChange);
     return () => {
       window.removeEventListener('resize', handleWindowSizeChange);
     };
   }, []);
 
-  const isMobile = width <= 990 ? width : false;
+  useEffect(() => {
+    setIsMobile(false);
+    setIsSmall(false);
+    if (width <= 990 && width > 768) return setIsMobile(true);
+    if (width <= 768) {
+      setIsMobile(true);
+      return setIsSmall(true);
+    }
+  }, [width]);
+
   return (
     <div className="profile-container main-container">
       <Overview t={t} isMobile={isMobile} />
-      <Details t={t} isMobile={isMobile} />
+      <Details t={t} isMobile={isMobile} isSmall={isSmall} />
     </div>
   );
 };
@@ -39,6 +53,6 @@ const Profile = (props) => {
 // };
 
 export default compose(
-  withTranslation(['profile', 'common', 'job-common']),
+  withTranslation(['error', 'profile', 'common', 'job-common']),
   connect(privateRouteMap)
 )(PrivateRoute(Profile));

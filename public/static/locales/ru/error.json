@@ -15,5 +15,11 @@
         }
       }
     }
+  },
+  "listing": {
+    "not-deleted": "Listing was not deleted"
+  },
+  "profile": {
+    "cv-notfound": "CV was not retrieved"
   }
 }

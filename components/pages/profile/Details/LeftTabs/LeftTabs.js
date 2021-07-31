@@ -250,10 +250,6 @@ const LeftTabs = (props) => {
           </Row>
         </div>
       ) : (
-        ''
-      )}
-
-      {isMobile ? (
         <Accordion className="form__accordion">
           <AccordionToggle eventKey={1}>
             {t('profile:left-tab.navigation')}
@@ -271,15 +267,61 @@ const LeftTabs = (props) => {
                     xl={6}
                     className="layout-md mb-4 pt-2"
                   >
-                    <a
-                      onClick={() => setCurrentTab(item.key)}
-                      className={`left-tab__item ${
-                        currentTab === item.key ? 'left-tab__selected' : ''
-                      } `}
-                    >
-                      {item.icon}
-                      <div className="item__title">{item.label}</div>
-                    </a>
+                    {isLoading ? (
+                      <a
+                        className={`left-tab__item ${
+                          currentTab === item.key ? 'left-tab__selected' : ''
+                        } `}
+                      >
+                        <div>
+                          {currentTab === item.key ? (
+                            <Spinner
+                              as="span"
+                              animation="border"
+                              variant="light"
+                              size="sm"
+                              role="status"
+                            />
+                          ) : (
+                            <Spinner
+                              as="span"
+                              animation="border"
+                              variant="danger"
+                              size="sm"
+                              role="status"
+                            />
+                          )}
+                        </div>
+                        <div className="item__title">{item.label}</div>
+                      </a>
+                    ) : (
+                      <>
+                        {item?.disabled ? (
+                          <a
+                            onClick={() => setCurrentTab(item.key)}
+                            className={`left-tab__item ${
+                              currentTab === item.key
+                                ? 'left-tab__selected'
+                                : ''
+                            } `}
+                          >
+                            {item.icon}
+                            <div className="item__title">{item.label}</div>
+                          </a>
+                        ) : (
+                          <a
+                            className={`left-tab__item ${
+                              currentTab === item.key
+                                ? 'left-tab__selected'
+                                : ''
+                            } `}
+                          >
+                            <FcCancel size="27px" />
+                            <div className="item__title">{item.label}</div>
+                          </a>
+                        )}{' '}
+                      </>
+                    )}
                   </Col>
                 ))}
                 <Col
@@ -307,8 +349,6 @@ const LeftTabs = (props) => {
             </div>
           </Accordion.Collapse>
         </Accordion>
-      ) : (
-        ''
       )}
     </>
   );

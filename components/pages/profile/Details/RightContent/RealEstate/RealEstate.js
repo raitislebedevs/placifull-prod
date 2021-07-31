@@ -102,7 +102,7 @@ const RealEstate = (props) => {
         await getRealEstate();
         return TostifyCustomContainer(
           'warning',
-          'Listing failed to be deleted'
+          t('error:listing.not-deleted')
         );
       }
 
