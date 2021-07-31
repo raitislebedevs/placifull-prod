@@ -1,5 +1,5 @@
-import { FaChevronRight } from 'react-icons/fa'
-import { Container, Row, Col } from 'react-bootstrap'
+import { FaChevronRight } from 'react-icons/fa';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const HeroTerms = (props) => {
   const { t } = props;
@@ -13,23 +13,20 @@ const HeroTerms = (props) => {
             <nav aria-label="breadcrumb" className="">
               <ul className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <a href="index.html">Landrick
-                  <FaChevronRight />
+                  <a href="/">
+                    Placifull
+                    <FaChevronRight />
                   </a>
                 </li>
                 <li className="breadcrumb-item">
-                  <a href="#">Page
-                  <FaChevronRight />
+                  <a href="#">
+                    Terms
+                    <FaChevronRight />
                   </a>
                 </li>
                 <li className="breadcrumb-item">
-                  <a href="#">Utility
-                  <FaChevronRight />
-                  </a>
+                  <a href="#">Conditions</a>
                 </li>
-                <li className="breadcrumb-item active" aria-current="page">
-                  Terms
-                  </li>
               </ul>
             </nav>
           </div>

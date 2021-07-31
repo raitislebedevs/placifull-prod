@@ -1,4 +1,4 @@
-import { Button, Spinner } from 'react-bootstrap';
+import { Button, Col } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import PersonalInformation from './PersonalInformation';
 import ChangePassword from './ChangePassword';
@@ -43,7 +43,14 @@ const Profile = (props) => {
 
       <PersonalInformation t={t} />
       <ChangePassword t={t} />
-      <div className="right-content__delete-account">
+      <Col
+        xs={12}
+        sm={12}
+        md={12}
+        lg={12}
+        xl={12}
+        className="right-content__delete-account"
+      >
         <div className="p-4 border-bottom">
           <h5 className="mb-0 text-danger">
             {t('profile:right-content.profile.delete-form.text')}
@@ -63,7 +70,7 @@ const Profile = (props) => {
             </Button>
           </div>
         </div>
-      </div>
+      </Col>
     </>
   );
 };

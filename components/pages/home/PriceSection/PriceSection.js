@@ -109,7 +109,7 @@ const PriceSection = (props) => {
 
   return (
     <>
-      <div className="home-container__price-section">
+      <div id={'pricing-panel'} className="home-container__price-section">
         <Container>
           <Row>
             <Col

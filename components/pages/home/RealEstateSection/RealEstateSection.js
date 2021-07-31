@@ -69,7 +69,10 @@ const RealEstateSection = (props) => {
   }, [limit, skip]);
 
   return (
-    <Container className="home-container__real-estate-section">
+    <Container
+      id={'promoted-section'}
+      className="home-container__real-estate-section"
+    >
       <Row className="align-items-center">
         <Col xs={12} sm={12} md={12} lg={4} xl={4}>
           <div className="real-estate-section__left">

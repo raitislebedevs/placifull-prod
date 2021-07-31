@@ -563,97 +563,99 @@ const ServiceSection = (props) => {
   };
 
   return (
-    <div className="home-container__service-section">
-      <Container>
-        <Row className="service-section__title">
-          <Col xs={12} sm={12} md={12} lg={12} xl={12}>
-            <div className="section-title text-center text-md-center">
-              <h3 className="title mb-4 font-weight-bold">
-                {t('service-section.head.line-1')}
-              </h3>
-              <p className="text-muted mb-0 para-desc">
-                {t('service-section.head.line-2')}{' '}
-                <span className="text-primary font-weight-bold">
-                  {t('service-section.head.line-3')}
-                </span>{' '}
-                {t('service-section.head.line-4')}
-              </p>
-            </div>
-          </Col>
-        </Row>
-        <Row className="service-section__service">
-          <Col xs={12} sm={12} md={12} lg={12} xl={12} className="mt-1 pt-0 ">
-            <div className="service__option nav nav-pills nav-justified justify-content-center flex-row rounded  p-3 mb-0">
-              {services.map((item) => (
-                <div
-                  className={`option__item mnav-item ml-1 mt-2`}
-                  key={item.key}
-                >
+    <div id="about-us">
+      <div className="home-container__service-section">
+        <Container>
+          <Row className="service-section__title">
+            <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+              <div className="section-title text-center text-md-center">
+                <h3 className="title mb-4 font-weight-bold">
+                  {t('service-section.head.line-1')}
+                </h3>
+                <p className="text-muted mb-0 para-desc">
+                  {t('service-section.head.line-2')}{' '}
+                  <span className="text-primary font-weight-bold">
+                    {t('service-section.head.line-3')}
+                  </span>{' '}
+                  {t('service-section.head.line-4')}
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <Row className="service-section__service">
+            <Col xs={12} sm={12} md={12} lg={12} xl={12} className="mt-1 pt-0 ">
+              <div className="service__option nav nav-pills nav-justified justify-content-center flex-row rounded  p-3 mb-0">
+                {services.map((item) => (
                   <div
-                    className={`nav-link rounded ${
-                      activeItem.key === item.key ? 'active' : ''
-                    }`}
-                    onClick={() => setActiveItem(item)}
+                    className={`option__item mnav-item ml-1 mt-2`}
+                    key={item.key}
                   >
-                    <div className="text-center py-1">
-                      <h6 className="mb-0">{item.title}</h6>
+                    <div
+                      className={`nav-link rounded ${
+                        activeItem.key === item.key ? 'active' : ''
+                      }`}
+                      onClick={() => setActiveItem(item)}
+                    >
+                      <div className="text-center py-1">
+                        <h6 className="mb-0">{item.title}</h6>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
-          </Col>
-        </Row>
-        <Row className="service-section__service">
-          <Col xs={12} sm={12} md={12} lg={12} xl={12} className="mt-2 pt-2">
-            <div className="tab-content">
-              <div className="service__content tab-pane fade bg-white show active p-4 rounded shadow">
-                <Row>
-                  <Col xs={12} sm={12} md={6} lg={6} xl={6}>
-                    <img
-                      src={activeItem.srcImg}
-                      className="img-fluid rounded shadow"
-                      alt=""
-                    />
-                  </Col>
-                  <Col
-                    xs={12}
-                    sm={12}
-                    md={6}
-                    lg={6}
-                    xl={6}
-                    className="service__contentText"
-                  >
-                    <div className="mt-4">
-                      <h5>{activeItem.title}</h5>
-                      <p className="text-muted my-3">{activeItem.content}</p>
-                      <div>{activeItem.learnMore}</div>
-                    </div>
-                  </Col>
-                </Row>
+                ))}
               </div>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+            </Col>
+          </Row>
+          <Row className="service-section__service">
+            <Col xs={12} sm={12} md={12} lg={12} xl={12} className="mt-2 pt-2">
+              <div className="tab-content">
+                <div className="service__content tab-pane fade bg-white show active p-4 rounded shadow">
+                  <Row>
+                    <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+                      <img
+                        src={activeItem.srcImg}
+                        className="img-fluid rounded shadow"
+                        alt=""
+                      />
+                    </Col>
+                    <Col
+                      xs={12}
+                      sm={12}
+                      md={6}
+                      lg={6}
+                      xl={6}
+                      className="service__contentText"
+                    >
+                      <div className="mt-4">
+                        <h5>{activeItem.title}</h5>
+                        <p className="text-muted my-3">{activeItem.content}</p>
+                        <div>{activeItem.learnMore}</div>
+                      </div>
+                    </Col>
+                  </Row>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
 
-      <LearnMoreListingOpportunity
-        show={listingLearnMore}
-        onHide={() => setListingLearnMore(false)}
-      />
-      <HelpUsImprove
-        show={helpusImprove}
-        onHide={() => setHelpusImprove(false)}
-      />
-      <ImproveQuality
-        show={improveQuality}
-        onHide={() => setImproveQuality(false)}
-      />
-      <CarrrearOpportunities
-        show={carrrearOpportunities}
-        onHide={() => setcarrrearOpportunities(false)}
-      />
-      <ApplyForJob show={applyForJob} onHide={() => setapplyForJob(false)} />
+        <LearnMoreListingOpportunity
+          show={listingLearnMore}
+          onHide={() => setListingLearnMore(false)}
+        />
+        <HelpUsImprove
+          show={helpusImprove}
+          onHide={() => setHelpusImprove(false)}
+        />
+        <ImproveQuality
+          show={improveQuality}
+          onHide={() => setImproveQuality(false)}
+        />
+        <CarrrearOpportunities
+          show={carrrearOpportunities}
+          onHide={() => setcarrrearOpportunities(false)}
+        />
+        <ApplyForJob show={applyForJob} onHide={() => setapplyForJob(false)} />
+      </div>
     </div>
   );
 };
