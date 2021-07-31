@@ -8,9 +8,9 @@ module.exports = withImages({
     API_SUFFIX: process.env.API_SUFFIX,
     STRIPE_PUBLIC_KEY: process.env.STRIPE_PUBLIC_KEY,
   },
-  // future: {
-  //   webpack5: true,
-  // },
+  future: {
+    webpack5: true,
+  },
   rewrites: async () =>
     nextI18NextRewrites({
       de: 'de',
