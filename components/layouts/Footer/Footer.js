@@ -249,7 +249,7 @@ const Footer = (props) => {
       <div className="footer-container__bottom">
         <Container>
           <Row className="align-items-center">
-            <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+            <Col xs={12} sm={12} md={12} lg={12} xl={12}>
               <div className="text-sm-left">
                 <p className="mb-0">
                   ©{' ' + new Date().getFullYear() + ' '}
