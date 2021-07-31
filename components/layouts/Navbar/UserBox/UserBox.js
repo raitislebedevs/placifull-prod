@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { connect } from 'react-redux';
 import { logout } from 'actions';
 import { Link } from 'i18n';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
+import useOutsideAlerter from 'hooks/useOutsideAlerter';
 
 const defaultAvatar = '/static/images/default-avatar.png';
 
@@ -53,11 +54,16 @@ const UserBox = (props) => {
   const { t, user, dispatch } = props;
   const [isOpen, setIsOpen] = useState(false);
   let avatar = user?.userInfo?.avatar?.url || defaultAvatar;
+  const userBox = useRef('userBox');
+
+  useOutsideAlerter(userBox, isOpen, setIsOpen);
+
   const handleMenu = (e) => {
     setIsOpen(!isOpen);
   };
+
   return (
-    <div className="profile-wrapper__profile">
+    <div ref={userBox} className="profile-wrapper__profile">
       <div
         onClick={(e) => {
           handleMenu(e);

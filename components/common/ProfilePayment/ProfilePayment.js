@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { withTranslation } from 'i18n';
 import { Container, Button, Row, Col } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
 import { formatNumber } from 'utils/standaloneFunctions';
@@ -147,4 +148,4 @@ const ProfilePayment = (props) => {
   );
 };
 
-export default ProfilePayment;
+export default withTranslation(['payment'])(ProfilePayment);

@@ -31,7 +31,7 @@ const AutoCompleteInput = (props) => {
 
   return (
     <div ref={wrapperRef}>
-      <CustomFormControl />
+      <CustomFormControl {...rest} />
       {rest.value && searchText && isSearching ? (
         <div className="auto-complete-container">
           {!isLoadingSearch ? (
