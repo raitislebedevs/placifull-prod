@@ -1,0 +1,64 @@
+{
+  "title": "Поиск объявления о недвижимости",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "Мин. цена",
+        "max-price": "Макс. цена",
+        "min-rooms": "Мин. комнат",
+        "max-rooms": "Макс. комнат",
+        "min-area": "Мин. площадь",
+        "max-area": "Макс. площадь",
+        "move-in-date": "Дата заезда от",
+        "move-out-date": "Дата заезда до",
+        "currency": "Валюта"
+      },
+
+      "submit": "Искать",
+      "accordion": "РАСШИРЕННЫЙ ПОИСК",
+      "accordion-right": {
+        "utility-label": "Стоимость коммунальных услуг",
+        "utility": {
+          "from-price": "От: 0.00",
+          "to-price": "До: 9,999,999,9999"
+        },
+        "year-label": "Год постройки",
+        "built": {
+          "from-year": "С: 1000",
+          "to-year": "До: 9999"
+        },
+        "measurement-label": "Мера измерений",
+        "system": {
+          "none": "Нет",
+          "metric": "Метрическая м",
+          "imperial": "Эмпирическая фт"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Сортировать по",
+        "options": {
+          "price": "Цена",
+          "area": "Площадь",
+          "rooms": "Комнаты",
+          "street-name": "Название улицы",
+          "popularity": "Популярность",
+          "views": "Просмотры",
+          "country": "Страна",
+          "insert-date": "Ввести дату"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "Из блога",
+    "see-more": "Читать еще"
+  },
+  "error": {
+    "tags": "Свяжитесь с нами сообщением: «Теги не найдены»."
+  },
+  "no-tags": "Нет характеристик для этого варианта"
+}

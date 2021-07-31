@@ -1,0 +1,63 @@
+{
+  "header": {
+    "flag-button": "ОТМЕТИТЬ ЭТОТ КОНТЕНТ"
+  },
+  "detail-info": {
+    "button": "Я ХОЧУ ЗАЕХАТЬ СЕЙЧАС"
+  },
+  "contact-times": {
+    "heading": "Предпочтительное время контакта"
+  },
+
+  "promoted": "Продвигаемое",
+
+  "about": {
+    "heading": "О",
+    "featured": "Продвигаемое",
+    "notFeatured": "Не продвигаемое",
+    "rentTime": "в месяц",
+    "inputTimeDays": "дней назад"
+  },
+
+  "general-info": {
+    "heading": "Общая информация",
+    "brand": "Марка транспорта",
+    "model": "Модель транспорта",
+    "year": "Год",
+    "price": "Цена",
+    "distance": "Пробег",
+    "max-speed": "Максимальная скорость",
+    "fuel-economy": "Экономия топлива",
+    "seats": "Сиденья",
+    "doors": "Двери",
+    "bid-price": "Сделать ставку на транспорт",
+    "submit": "СДЕЛАТЬ СТАВКУ",
+    "bid-placeholder": "Ставка с маржей 20%"
+  },
+  "features": {
+    "heading": "Характеристики"
+  },
+  "contact-form": {
+    "not-specified": "Не определено",
+    "heading": "Связаться с владельцем напрямую",
+    "form": {
+      "heading": "Напишите свой вопрос отсюда",
+      "fullName": "Полное имя*",
+      "phoneNumber": "Номер телефона*",
+      "email": "Е-мейл*",
+      "message": "Ваше сообщение",
+      "submit": "ОТПРАВИТЬ СООБЩЕНИЕ"
+    }
+  },
+  "extra": {
+    "heading": "Другие виды транспорта в этом профиле",
+    "table": {
+      "number": "№",
+      "country": "Страна",
+      "brand-model": "Модель/Бренд",
+      "price": "Цена",
+      "condition": "Состояние",
+      "production-year": "Год"
+    }
+  }
+}

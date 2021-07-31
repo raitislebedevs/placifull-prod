@@ -1,0 +1,133 @@
+{
+  "elements": {
+    "loading": "загрузка...",
+    "loading-right": "Загрузка...",
+    "loading-left": "...Загрузка",
+    "no-results": "Результаты не найдены"
+  },
+  "user": {
+    "name": "Имя",
+    "first-name": "Имя",
+    "last-name": "Фамилия",
+    "email": {
+      "email-upper": "Е-мейл",
+      "email-lower": "е-мейл",
+      "your-email": "Ваш е-мейл"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "Сегодня",
+    "yesterday": "Вчера",
+    "days-ago": "дней назад"
+  },
+
+  "social-links": {
+    "heading": "Ссылки на соцсети",
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
+  },
+
+  "social": {
+    "heading": "Ссылки на соцсети",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "youtube": "Youtube",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram"
+  },
+
+  "week-days": {
+    "monday": "Понедельник",
+    "tuesday": "Вторник",
+    "wednesday": "Среда",
+    "thursday": "Четверг",
+    "friday": "Пятница",
+    "saturday": "Суббота",
+    "sunday": "Воскресенье"
+  },
+
+  "toast": {
+    "submit-success": "Ваше объявление опубликовано!",
+    "server-error": "Неверный ввод/Не подключиться к серверу",
+    "logging-required": "Необходима авторизация",
+    "cannot-apply": "Эй, это предварительный просмотр",
+    "preview": "В предварительном просмотре нельзя делать ставки",
+    "log-in": "Необходимо войти в систему для ставок",
+    "bidding-price": "Цена без ставок",
+    "price-lower": "Ставка ниже 20% от цены объявления",
+    "price-upper": "Ставка выше 20% от цены объявления",
+    "refresh-page": "Сервер не отвечает, пожалуйста, обновите",
+    "not-send": "Е-мейл не был отправлен",
+    "contact-directly": "Связаться напрямую",
+    "email-send": "Е-мейл был отправлен",
+    "no-email": "Е-мейл объявления не существует",
+    "subscribed": "Поздравляем, Вы подписались :)",
+    "already-applied": "Вы подали заявку на эту должность",
+    "already": "Уже подписались/ недействительный е-мейл",
+    "country-error": "Неопределенная ошибка при вводе страны",
+    "location-error": "Не удалось получить местоположения",
+    "unknown-error": "Неизвестная ошибка сервера",
+    "search-results": {
+      "found": "Найдено",
+      "items": "позиции"
+    },
+    "not-found": "Не нашел новых результатов"
+  },
+
+  "location": {
+    "country": "Страна",
+    "state": "Область/Регион",
+    "city": "Город",
+    "no-city": "Нет городов",
+    "no-states": "Нет областей",
+    "states-not-registerd": "Нет зарегистрированных областей",
+    "cities-registerd": "Нет зарегистрированных городов"
+  },
+
+  "items-per-page": {
+    "label": "Позиции",
+    "options": {
+      "nine": "9 позиций",
+      "eighteen": "18 позиций",
+      "twenty-seven": "27 позиций",
+      "thirty-six": "36 позиций",
+      "seventy-two": "72 позиции"
+    }
+  },
+
+  "month": {
+    "Jan": "Январь",
+    "Feb": "Февраль",
+    "Mar": "Март",
+    "Apr": "Апрель",
+    "May": "Май",
+    "Jun": "Июнь",
+    "Jul": "Июль",
+    "Aug": "Август",
+    "Sep": "Сентябрь",
+    "Oct": "Октябрь",
+    "Nov": "Ноябрь",
+    "Dec": "Декабрь"
+  },
+  "currency": {
+    "currency-label": "Валюта",
+    "no-currency": "Все"
+  },
+  "measurement": {
+    "label": "Мера измерений",
+    "system": {
+      "none": "Нет",
+      "metric": "Метрическая",
+      "imperial": "Императорская"
+    }
+  },
+  "user-box": {
+    "profile": "Профиль",
+    "log-out": "Выйти"
+  },
+  "preview-close": "Закрыть предварительный просмотр"
+}

@@ -1,0 +1,58 @@
+{
+  "header": {
+    "flag-button": "ПОМЕТИТЬ ЭТОТ КОНТЕНТ"
+  },
+  "detail-info": {
+    "button": "Я ХОЧУ ЗАЕХАТЬ СЕЙЧАС"
+  },
+  "contact-times": {
+    "heading": "Предпочтительное время контакта"
+  },
+  "about": {
+    "heading": "О",
+    "featured": "Продвигаемые",
+    "notFeatured": "Не продвигаемые",
+    "rentTime": "в месяц",
+    "inputTimeDays": "дней назад"
+  },
+
+  "general-info": {
+    "heading": "Общая информация",
+    "property-area": "Площадь недвижимости",
+    "rooms": "Комнаты",
+    "year-built": "Год постройки ",
+    "price": "Цена",
+    "total-ultilities": "Коммунальные услуги",
+    "move-in": "Дата заезда",
+    "move-out": "Дата выезда",
+    "min-time": "Минимальное время",
+    "bid-price": "Сделать ставку на недвижимость",
+    "submit": "СДЕЛАТЬ СТАВКУ",
+    "bid-placeholder": "Ставка с маржей 20%"
+  },
+
+  "contact-form": {
+    "heading": "Связаться с владельцем напрямую",
+    "form": {
+      "heading": "Напишите свой вопрос отсюда",
+      "fullName": "Полное имя*",
+      "phoneNumber": "Номер телефона*",
+      "email": "Е-мейл*",
+      "message": "Ваше сообщение*",
+      "submit": "ОТПРАВИТЬ СООБЩЕНИЕ"
+    }
+  },
+  "extra": {
+    "heading": "Другие объекты этого профиля",
+    "table": {
+      "number": "№",
+      "country": "Страна",
+      "full-address": "Полный адрес",
+      "property-type": "Тип недвижимости",
+      "price": "Цена",
+      "area": "Площадь",
+      "bed-rooms": "Комнаты",
+      "year-built": "Год постройки"
+    }
+  }
+}

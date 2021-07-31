@@ -1,0 +1,89 @@
+{
+  "color": {
+    "label": "Цвет",
+    "options": {
+      "red": "Красный",
+      "orange": "Оранжевый",
+      "yellow": "Желтый",
+      "green": "Зеленый",
+      "blue": "Синий",
+      "violent": "Фиолетовый",
+      "pink": "Розовый",
+      "tan": "Коричневый",
+      "beige": "Бежевый",
+      "white": "Белый",
+      "silver": "Серебряный",
+      "gray": "Серый",
+      "black": "Черный",
+      "brown": "Коричневый",
+      "gold": "Золотой",
+      "indigo": "Индиго",
+      "purple": "Фиолетовый",
+      "lime": "Лайм",
+      "azure": "Лазурный",
+      "other": "Другой"
+    }
+  },
+  "gear-box": {
+    "label": "Коробка передач",
+    "options": {
+      "manual": "Ручная",
+      "automatic": "Автоматическая",
+      "other": "Другая"
+    }
+  },
+  "engine": {
+    "label": "Тип двигателя",
+    "options": {
+      "diesel": "Дизель",
+      "benzine": "Бензин",
+      "gas": "Газ",
+      "electric": "Электрический",
+      "other": "Другой"
+    }
+  },
+  "features": {
+    "heading": "Характеристики",
+    "category": {
+      "equipment": "Оборудование",
+      "interior": "Интерьер",
+      "steering-wheel": "Руль",
+      "seats": "Сиденья",
+      "lights": "Фары",
+      "audio-video": "Аудио/Видео",
+      "mirrors": "Зеркала"
+    }
+  },
+  "condition": {
+    "label": "Состояние",
+    "options": {
+      "brandNew": "Совершенно новый",
+      "likeNew": "Как новый",
+      "used": "Использованный",
+      "requiresFixing": "Требуется ремонт",
+      "afterCrash": "После аварии"
+    }
+  },
+
+  "transport-type": {
+    "label": "Тип транспорта",
+    "options": {
+      "car": "Машина",
+      "truck": "Грузовая машина",
+      "motorcycle": "Мотоцикл",
+      "boat": "Лодки",
+      "airTransport": "Воздушный транспорт",
+      "others": "Другой"
+    }
+  },
+
+  "action": {
+    "label": "Действие",
+    "options": {
+      "sell": "Продать",
+      "rent": "Сдать в аренду",
+      "exchange": "Обменять",
+      "forParts": "На запчасти"
+    }
+  }
+}

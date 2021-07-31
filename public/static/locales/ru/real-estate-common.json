@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "Категория",
+    "options": {
+      "houses": "Дом",
+      "apartments": "Квартира ",
+      "land": "Земельный участок",
+      "farmhouse": "Сельский дом ",
+      "commercial": "Коммерческий ",
+      "exclusive": "Эксклюзивный ",
+      "offices": "Офис ",
+      "agents": "Агентство недвижимости"
+    }
+  },
+  "action": {
+    "label": "Действие",
+    "options": {
+      "sell": "Продать",
+      "rent": "Сдать в аренду",
+      "exchange": "Обменять"
+    }
+  },
+  "condition": {
+    "label": "Состояние",
+    "label-land": "Тип недвижимости",
+    "options": {
+      "brandNew": "Абсолютно новая",
+      "goodCondition": "Хорошее состояние ",
+      "medium": "Среднее ",
+      "requiresFixing": "Требуется ремонт",
+      "requiresConstruction": "Требуется строительство",
+      "residential": "Жилая ",
+      "comercial": "Коммерческая ",
+      "industrial": "Промышленная ",
+      "agricultural": "Сельскохозяйственная"
+    }
+  },
+  "contact-times": {
+    "label": "Время контракта",
+    "options": {
+      "anyTime": "Любое время",
+      "workingDays": "Рабочие дни",
+      "officeHours": "Рабочие часы ",
+      "specificTimes": "Конкретное время"
+    }
+  },
+  "features": {
+    "heading": "Характеристики",
+    "category": {
+      "kitchen": "Кухня ",
+      "bathroom": "Ванная комната ",
+      "living-room": "Гостиная ",
+      "bedroom": "Спальня",
+      "housing-extras": "Прочие дополнения ",
+      "land-type": "Тип земли ",
+      "buildingLand": "Земля под застройку для",
+      "forest-properties": "Характеристики леса",
+      "agriculture-properties": "Характеристики сельского хозяйства"
+    }
+  },
+  "utilities": {
+    "heading": "Коммунальные услуги",
+    "total": "Всего",
+    "items": {
+      "coldWater": "Холодная вода ",
+      "hotWater": "Горячая вода ",
+      "electricity": "Электричество ",
+      "garbage": "Мусор ",
+      "propertyManagement": "Управление недвижимостью ",
+      "heating": "Отопление",
+      "parking": "Стоянка ",
+      "others": "Другие"
+    }
+  }
+}

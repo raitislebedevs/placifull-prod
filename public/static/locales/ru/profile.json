@@ -1,0 +1,384 @@
+{
+  "overview": {
+    "button-label": {
+      "change": "Изменить изображение",
+      "delete": "Удалить изображение",
+      "save-all": "Сохранить все",
+      "preview": "Предварительный просмотр"
+    },
+    "setting-label": "Куплено",
+    "delete-avatar-modal": {
+      "header": "Удалить аватар",
+      "body": "Вы хотите удалить свой аватар?",
+      "submit": "Удалить",
+      "cancel": "Отмена"
+    }
+  },
+  "hover-texts": {
+    "real-estate": "Посты недвижимости",
+    "transport": "Посты транспорта",
+    "job": "Посты вакансий",
+    "browser": "Просмотр резюме"
+  },
+  "left-tab": {
+    "navigation": "Навигация",
+    "titles": {
+      "profile": "Профиль",
+      "cv": "Резюме",
+      "real-estate": "Недвижимость",
+      "transport": "Транспорт",
+      "jobs": "Вакансии",
+      "browser": "Просмотр резюме",
+      "payment": "Чеки оплат",
+      "logout": "Выйти"
+    }
+  },
+  "right-content": {
+    "prev-button": "Пред. шаг",
+    "next-button": "След. шаг",
+    "profile": {
+      "personal-details": {
+        "heading": "Персональные данные:",
+        "labels": {
+          "profession": "Профессия",
+          "first-name": "Имя",
+          "last-name": "Фамилия",
+          "email": "Ваш е-мейл",
+          "phone-number": "Номер телефона",
+          "about-me-heading": "Обо мне",
+          "about-me": "В чем ваши особенности?",
+          "country": "Страна",
+          "state": "Область/Регион",
+          "city": "Город",
+          "birth-date": "Дата рождения",
+          "gender": {
+            "label": "Пол",
+            "men": "Мужской",
+            "women": "Женский",
+            "not-specified": "Не показывать"
+          },
+          "age": {
+            "label": "Показывать возраст",
+            "yes": "Да",
+            "no": "Нет",
+            "only-birth-date": "Только дату рождения"
+          }
+        },
+        "button-save": "Сохранить изменения"
+      },
+      "password-form": {
+        "text": "Изменить пароль:",
+        "old-password": "Старый пароль",
+        "new-password": "Новый пароль",
+        "confirm-password": "Подтвердить пароль",
+        "button-save": "Сохранить пароль",
+        "validation": {
+          "current-password-required": "Пожалуйста, подтвердите пароль",
+          "new-password-required": "Новый пароль отсутствует",
+          "password-not-match": "Пароли не совпадают",
+          "confirm-password-required": "Пожалуйста, подтвердите пароль"
+        }
+      },
+      "delete-form": {
+        "text": "Удалить аккаунт:",
+        "content": "Вы хотите удалить аккаунт? Пожалуйста, нажмите кнопку ниже 'Удалить'",
+        "button-delete": "Удалить аккаунт"
+      },
+      "validation": {
+        "first-name": "Необходимо имя",
+        "last-name": "Необходима фамилия"
+      }
+    },
+    "tabs": {
+      "actions": {
+        "sell": "На продажу",
+        "rent": "Сдача в аренду",
+        "exchange": "Обмен"
+      },
+      "common": {
+        "button-edit": "Редактировать",
+        "button-reviews": "Отзывы",
+        "button-delete": "Удалить",
+        "days-left": "дней осталось ",
+        "title": "Мои объявления",
+        "highest": "Самая высокая ставка",
+        "lowest": "Самая низкая ставка"
+      },
+      "job": {
+        "count": "Количество претендентов",
+        "avarage": "Среднее предложение",
+        "lowest": "Самое низкое предложение",
+        "highest": "Самое высокое предложение",
+        "button": "Смотреть все"
+      },
+      "browser": {
+        "common": {
+          "area": "Рабочая область"
+        },
+        "title": "Просмотр резюме",
+        "search": {
+          "button": "Поиск",
+          "expirience": {
+            "label": "Опыт",
+            "options": {}
+          },
+          "hourly-to": "Почасовая до",
+          "monthly-to": "Ежемесячная до",
+          "annual-to": "Годовая до"
+        },
+        "table": {
+          "name": "Имя",
+          "email": "Е-мейл",
+          "phone": "Номер телефона",
+          "salary": "Ожидаемый заработок"
+        }
+      },
+      "receipt": {
+        "title": "Чеки оплат",
+        "search": {
+          "search-from": "Выберите дату начала",
+          "search-to": "Выберите дату окончания",
+          "button": "Поиск"
+        },
+        "table": {
+          "order": "№ заказа",
+          "date": "Дата",
+          "premium": "Продвигаемое",
+          "add-days": "Дополнительные дни",
+          "type": "Тип объявления"
+        }
+      }
+    },
+    "cv": {
+      "title": "Резюме",
+      "sections": {
+        "personal-details": {
+          "form": {
+            "title": "Личные данные",
+            "first-name": "Имя",
+            "last-name": "Фамилия",
+            "email": "Е-мейл",
+            "phone": "Телефон",
+            "birthday": "Дата рождения",
+            "age": {
+              "label": "Показывать возраст",
+              "options": {
+                "yes": "Да",
+                "no": "Нет",
+                "only-birthdate": "Только дату рождения"
+              }
+            },
+            "gender": {
+              "label": "Пол",
+              "options": {
+                "male": "Мужской",
+                "female": "Женский",
+                "dont–show": "Не показывать"
+              }
+            },
+            "about-me": "В чем ваша особенность?"
+          }
+        },
+        "education": {
+          "title": "Образование",
+          "accordion": {
+            "school": "Название учебного заведения",
+            "country": "Страна",
+            "from-date": "С даты",
+            "to-date": "До даты",
+            "study-area": "Сфера обучения",
+            "qualification": {
+              "title": "Квалификация",
+              "options": {
+                "primary": "Начальная",
+                "secondary": "Средняя",
+                "vocational": "Профессионально-техническая",
+                "bachelors": "Бакалавриат",
+                "master": "Магистратура",
+                "doctorate": "Докторская",
+                "other": "Другое"
+              }
+            },
+            "best-fit": "Подходящая профессия",
+            "grade": "Средняя оценка",
+            "button-add": "Добавить образование"
+          }
+        },
+        "expierience": {
+          "title": "Опыт работы",
+
+          "company-name": "Название компании",
+          "from-date": "С даты",
+          "to-date": "До даты",
+          "work-area": "Сфера работы",
+          "position": "Должность",
+          "position-description": "Описание должности",
+          "sector": "Сектор занятости",
+          "seniority": {
+            "title": "Трудовой стаж",
+            "options": {
+              "volunteer": "Волонтер ",
+              "intern": "Стажер ",
+              "junior": "Младший ",
+              "intermediate": "Средний ",
+              "senior": "Старший ",
+              "executive": "Исполнительный ",
+              "ceo": "Генеральный директор ",
+              "other": "Другое"
+            }
+          },
+
+          "button-add": "Добавить опыт"
+        },
+        "languages": {
+          "title": "Знание языков",
+          "accordion": {
+            "language": "Язык",
+            "certificate": "Название сертификата",
+            "level": {
+              "label": "Уровень",
+              "options": {
+                "a1": "A1",
+                "a2": "A2",
+                "b1": "B1",
+                "b2": "B2",
+                "c1": "C1",
+                "c2": "C2",
+                "native": "Родной"
+              }
+            },
+            "button-add": "Добавить навык"
+          }
+        },
+        "computer": {
+          "title": "Компьютерные навыки",
+          "accordion": {
+            "skill-name": "Компьютерный навык",
+            "knowladge-gained": {
+              "label": "Знания получены",
+              "options": {
+                "selfTaught": "Самообразование",
+                "course": "Курсы",
+                "freelance": "Фриланс",
+                "contractProject": "Контрактный проект",
+                "fullTimeJob": "Полная занятость",
+                "other": "Другое"
+              }
+            },
+            "expierience": {
+              "label": "Опыт",
+              "uptoOne": "< 1 года",
+              "oneToThree": "1-3 лет",
+              "threeToFive": "3-5 лет",
+              "fiveToTen": "5-10 лет",
+              "tenToFifteen": "10-15 лет",
+              "moreThanFifteen": "15+ лет"
+            },
+            "certificate": "Названия сертификата",
+            "button-add": "Добавить навык"
+          }
+        },
+        "licenses": {
+          "title": "Водительские права",
+          "accordion": {
+            "country": "Страна выдачи",
+            "expierience": {
+              "label": "Опыт",
+              "uptoOne": "< 1 года",
+              "oneToThree": "1-3 лет",
+              "threeToFive": "3-5 лет",
+              "fiveToTen": "5-10 лет",
+              "tenToFifteen": "10-15 лет",
+              "moreThanFifteen": "15+ лет"
+            },
+            "category": "Категория прав",
+            "button-add": "Добавить права"
+          }
+        },
+        "expectations": {
+          "title": "Ожидания от работы",
+          "accordion": {
+            "title": "Ожидания от работы",
+            "interest": "Интересующая сфера",
+            "position": "Должность",
+            "seniority": {
+              "title": "Трудовой стаж",
+              "options": {
+                "volunteer": "Волонтер ",
+                "intern": "Стажер ",
+                "junior": "Младший ",
+                "intermediate": "Средний ",
+                "senior": "Старший ",
+                "executive": "Исполнительный ",
+                "ceo": "Генеральный директор ",
+                "other": "Другое"
+              }
+            },
+            "hourly": "Почасовая до",
+            "monthly": "Ежемесячная до",
+            "yearly": "Годовая до",
+            "button-add": "Добавить ожидание"
+          }
+        }
+      }
+    },
+    "browser-cv": {
+      "browser": "Просмотр резюме",
+      "search": "Поиск",
+      "work-expierience": "Опыт работы",
+      "work-expectations": "Ожидания от работы",
+      "education-fit": "Подходящее образование",
+      "salary-hourly": "Почасовой заработок до",
+      "salary-monthly": "Ежемесячный заработок до",
+      "salary-annual": "Ежемесячный заработок до",
+      "seniority": "Трудовой стаж",
+      "monthly": "/ежемесячно",
+      "result-table": {
+        "nr": "№",
+        "name": "Полное имя",
+        "email": "Е-мейл",
+        "phone": "Телефон",
+        "worked-as": "Последняя должность",
+        "salary": "Ожидаемый заработок",
+        "cv": "Резюме",
+        "view": "Смотреть"
+      }
+    },
+    "receipt": {
+      "title": "Чеки оплат",
+      "start-date": "Дата начала",
+      "end-date": "Дата окончания",
+      "table": {
+        "reference": "Заказ №",
+        "date": "Дата",
+        "purchase": "Тарифный план",
+        "total": "Количество",
+        "status": "Статус"
+      }
+    }
+  },
+  "toast": {
+    "succes": "Профиль был обновлен",
+    "fail": "Профиль не был обновлен",
+    "avatar": "Аватар обновлен",
+    "avatar-fail": "Не удалось обновить аватар ",
+    "avatar-remove": "Аватар удален ",
+    "avatar-remove-fail": "Аватар не был удален ",
+    "logout": "Выход из системы",
+    "password": "Пароль был изменен ",
+    "password-fail": "Пароль не был изменен ",
+    "item-deleted": "Объявление удалено"
+  },
+  "delete-modal": {
+    "header": "Удалить объявление",
+    "body": "Вы уверены, что хотите удалить объявление?",
+    "cancel": "Отменить",
+    "delete": "Удалить"
+  },
+  "delete-account": {
+    "header": "Удалить аккаунт",
+    "body": "Вы уверены, что хотите удалить аккаунт?",
+    "cancel": "Отменить",
+    "delete": "Удалить"
+  }
+}

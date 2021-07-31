@@ -1,0 +1,60 @@
+{
+  "labels": {
+    "about-me": "Обо мне",
+    "languages": "Языки",
+    "computer-skills": "Компьютерные навыки",
+    "education": "Образование",
+    "expierience": "Опыт работы",
+    "licenses": "Водительские права",
+    "expectations": "Ожидания от работы",
+    "certification": "Сертификаты"
+  },
+  "gender": {
+    "label": "Пол",
+    "male": "Мужской",
+    "women": "Женский"
+  },
+  "expierience": {
+    "label": "Опыт",
+    "uptoOne": "< 1 года",
+    "oneToThree": "1-3 года",
+    "threeToFive": "3-5 лет",
+    "fiveToTen": "5-10 лет",
+    "tenToFifteen": "10-15 лет",
+    "moreThanFifteen": "15+ лет"
+  },
+
+  "knowladge-gained": {
+    "selfTaught": "Самообразование",
+    "course": "Курсы",
+    "freelance": "Фриланс",
+    "contractProject": "Контрактный проект",
+    "fullTimeJob": "Полный рабочий день",
+    "other": "Другое"
+  },
+  "qualification": {
+    "primary": "Начальная",
+    "secondary": "Средняя",
+    "vocational": "Профессионально-техническая",
+    "bachelors": "Бакалавриат",
+    "master": "Магистратура",
+    "doctorate": "Докторская",
+    "other": "Другое"
+  },
+
+  "seniority": {
+    "title": "Трудовой стаж",
+    "volunteer": "Волонтер",
+    "intern": "Стажер",
+    "junior": "Младший",
+    "intermediate": "Средний",
+    "senior": "Старший",
+    "executive": "Исполнительный",
+    "ceo": "Генеральный директор",
+    "other": "Другое"
+  },
+
+  "avarage-grade": "Средняя оценка",
+  "present": "Текущая",
+  "license-category": "Категория лицензии"
+}
