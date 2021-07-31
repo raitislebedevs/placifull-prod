@@ -8,11 +8,7 @@ import { connect } from 'react-redux';
 import imageCompression from 'browser-image-compression';
 import { FileServices, UserInfoServices } from 'services';
 import { setUser } from 'actions';
-import {
-  DeleteModalAsk,
-  BrowserCVPayment,
-  SpinnerModal,
-} from 'components/common';
+import { DeleteModalAsk, SpinnerModal } from 'components/common';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import Subscriptions from 'services/subscriptions';
 import { ProfilePayment, StripeContainer } from 'components//common/index';
@@ -417,7 +413,6 @@ const Overview = (props) => {
         setIsStripe={setIsStripe}
         user={user?.id}
         profilePlan={'realEstate'}
-        t={t}
       />
 
       <ProfilePayment
@@ -427,7 +422,6 @@ const Overview = (props) => {
         setIsStripe={setIsStripe}
         user={user?.id}
         profilePlan={'transport'}
-        t={t}
       />
 
       <ProfilePayment
@@ -437,7 +431,6 @@ const Overview = (props) => {
         setIsStripe={setIsStripe}
         user={user?.id}
         profilePlan={'jobs'}
-        t={t}
       />
 
       <ProfilePayment
@@ -447,17 +440,7 @@ const Overview = (props) => {
         setIsStripe={setIsStripe}
         user={user?.id}
         profilePlan={'browserCv'}
-        t={t}
       />
-
-      {/* <BrowserCVPayment
-        handleSubmit={handleSubmit}
-        paymentModal={browserPayment}
-        setPaymentModal={setBrowserPayment}
-        setIsStripe={setIsStripe}
-        user={user?.id}
-        t={t}
-      /> */}
     </div>
   );
 };

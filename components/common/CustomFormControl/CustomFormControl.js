@@ -10,6 +10,7 @@ const CustomFormControl = (props) => {
     placeholderClassName,
     dropdownHandleChange,
     inputValues,
+    tReady, //remove from rest to not have an error
     ...rest
   } = props;
   const inputEl = useRef(null);
