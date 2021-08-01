@@ -76,8 +76,6 @@ const ApplicantForm = (props) => {
         },
       };
 
-      console.log(payload);
-
       const { data, error } = await VacancyListingService.UPDATE(id, payload);
       if (!error)
         TostifyCustomContainer(
