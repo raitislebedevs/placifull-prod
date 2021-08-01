@@ -1,0 +1,16 @@
+{
+  "job-apply": {
+    "heading": "Kas oled kindel, et soovid kandideerida:",
+    "proposed-salary": "Palgaootus",
+    "close": "Sulge",
+    "apply": "Kandideeri",
+    "applying": "Töötleb...",
+    "toast": {
+      "success": "Palju õnne, oled kandideerinud!",
+      "log-in": "Pead olema sisse logitud.",
+      "applied": "Sa oled juba kandideerinud.",
+      "cv": "Palun uuenda oma CV-d",
+      "just": "Hei, sa just kandideerisid :)"
+    }
+  }
+}

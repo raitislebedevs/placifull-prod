@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "form": {
+      "currency": "Valuuta",
+      "no-currency": "KÕIK",
+      "min-price": "Min: 0.00",
+      "max-price": "Max: 9,999,999,999",
+      "transport-brand": "Sõiduki mark",
+      "transport-model": "Sõiduki mudel",
+      "min-age": "Min vanus",
+      "max-age": "Max vanus",
+      "submit": "Otsi kohe",
+      "accordion": "TÄPSEM OTSING",
+      "accordion-right": {
+        "economy": {
+          "label": "Kütuse ökonoomsus",
+          "items": {
+            "from": "Alates: 0",
+            "to": "Kuni: 999"
+          }
+        },
+        "speed": {
+          "label": "Max kiirus",
+          "items": {
+            "from": "Alates: 0",
+            "to": "Kuni: 999"
+          }
+        },
+        "millage": {
+          "label": "Läbisõit",
+          "items": {
+            "from": "Alates: 0",
+            "to": "Kuni: 9,999,999"
+          }
+        },
+        "units": "Ühikud"
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Sorteeri",
+        "options": {
+          "price": "Hind",
+          "speed": "Kiirus",
+          "millage": "Läbisõit",
+          "fuel-economy": "Kütuse ökonoomsus",
+          "popularity": "Populaarsus",
+          "views": "Vaatamisi",
+          "country": "Riik",
+          "insert-date": "Lisamiskuupäev"
+        }
+      }
+    }
+  }
+}

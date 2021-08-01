@@ -1,0 +1,63 @@
+{
+  "header": {
+    "flag-button": "MÄRGI SEE SISU LIPUGA"
+  },
+  "detail-info": {
+    "button": "MA SOOVIN KOHE SISSE KOLIDA"
+  },
+  "contact-times": {
+    "heading": "Eelistatud kontakteerumise ajad"
+  },
+
+  "promoted": "Promotud",
+
+  "about": {
+    "heading": "Meist",
+    "featured": "Promotud",
+    "notFeatured": "Mitte promotud",
+    "rentTime": "kuus",
+    "inputTimeDays": "päeva tagasi"
+  },
+
+  "general-info": {
+    "heading": "Üldinfo",
+    "brand": "Sõiduki mark",
+    "model": "Sõiduki mudel",
+    "year": "Aasta",
+    "price": "Hind",
+    "distance": "Läbisõit",
+    "max-speed": "Max kiirus",
+    "fuel-economy": "Kütuse ökonoomsus",
+    "seats": "Kohtade arv",
+    "doors": "Uksed",
+    "bid-price": "Sõiduki pakkumise hind",
+    "submit": "PAKKUMINE",
+    "bid-placeholder": "Pakkumine 20% marginaliga"
+  },
+  "features": {
+    "heading": "Funktsioonid"
+  },
+  "contact-form": {
+    "not-specified": "Pole täpsustatud",
+    "heading": "Kontakteeru omanikuga otse",
+    "form": {
+      "heading": "Kirjuta oma küsimus siia",
+      "fullName": "Täisnimi*",
+      "phoneNumber": "Telefoninumber*",
+      "email": "E-maili aadress*",
+      "message": "Sinu sõnum*",
+      "submit": "SAADA SÕNUM"
+    }
+  },
+  "extra": {
+    "heading": "Muud selle profiili alt postitatud sõidukid",
+    "table": {
+      "number": "Nr.",
+      "country": "Riik",
+      "brand-model": "Mudel/Mark",
+      "price": "Hind",
+      "condition": "Seisukord",
+      "production-year": "Aasta"
+    }
+  }
+}

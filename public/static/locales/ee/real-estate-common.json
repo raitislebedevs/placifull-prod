@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "Kategooria",
+    "options": {
+      "houses": "Maja",
+      "apartments": "Korter",
+      "land": "Maa",
+      "farmhouse": "Talumaja",
+      "commercial": "Äripind",
+      "exclusive": "Eksklusiivne",
+      "offices": "Kontor",
+      "agents": "Kinnisvara agentuur"
+    }
+  },
+  "action": {
+    "label": "Tehing",
+    "options": {
+      "sell": "Müüa",
+      "rent": "Rentida",
+      "exchange": "Vahetada"
+    }
+  },
+  "condition": {
+    "label": "Seisukord",
+    "label-land": "Kinnisvara tüüp",
+    "options": {
+      "brandNew": "Täiesti uus",
+      "goodCondition": "Heas korras",
+      "medium": "Keskmine",
+      "requiresFixing": "Vajab remonti",
+      "requiresConstruction": "Vajab kapitaalremonti",
+      "residential": "Elamu",
+      "comercial": "Äripind",
+      "industrial": "Industriaalne",
+      "agricultural": "Põllumajanduslik"
+    }
+  },
+  "contact-times": {
+    "label": "Kontakteerumise aeg",
+    "options": {
+      "anyTime": "Igal ajal",
+      "workingDays": "Tööpäeviti",
+      "officeHours": "Kontoritundidel",
+      "specificTimes": "Valitud ajal*"
+    }
+  },
+  "features": {
+    "heading": "Funktsioonid",
+    "category": {
+      "kitchen": "Köök",
+      "bathroom": "Vannituba",
+      "living-room": "Elutuba",
+      "bedroom": "Magamistuba",
+      "housing-extras": "Muud lisad",
+      "land-type": "Maa tüüp",
+      "buildingLand": "Elamumaa",
+      "forest-properties": "Metsamaa",
+      "agriculture-properties": "Põllumajandusmaa"
+    }
+  },
+  "utilities": {
+    "heading": "Kommunaalteenused",
+    "total": "Kõik",
+    "items": {
+      "coldWater": "Külm vesi",
+      "hotWater": "Soe vesi",
+      "electricity": "Elekter",
+      "garbage": "Prügivedu",
+      "propertyManagement": "Kinnisvarahaldus",
+      "heating": "Küte",
+      "parking": "Parkimine",
+      "others": "Muu"
+    }
+  }
+}

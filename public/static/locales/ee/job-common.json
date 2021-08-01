@@ -1,0 +1,87 @@
+{
+  "contract-type": {
+    "label": "Lepingutüüp",
+    "options": {
+      "temporarly": "Ajutine",
+      "fullTime": "Täisajaga",
+      "partTime": "Osalise ajaga",
+      "remoteFullTime": "Kaugtöö (täisajaga)",
+      "remotePartTime": "Kaugtöö (osalise ajaga)",
+      "other": "Muu"
+    }
+  },
+  "working-time": {
+    "label": "Tööaeg",
+    "options": {
+      "officeHours": "Kontoritunnid",
+      "shifts": "Vahetustega",
+      "flexible": "Paindlik",
+      "other": "Muu"
+    }
+  },
+  "contact-times": {
+    "label": "Kontakteerumise aeg",
+    "placeholder": "Vali soovitud kontakteerumise aeg",
+    "not-specified": "Ei ole täpsustatud",
+    "options": {
+      "any-time": "Igal ajal",
+      "working-days": "Tööpäeviti",
+      "office-hours": "Kontoritundidel",
+      "specific-times": "Spetsiaalsel ajal"
+    }
+  },
+  "features": {
+    "heading": "Funktsioonid",
+    "licenses": "Sõiduluba",
+    "education": "Haridus/kraad",
+    "expierience": "Kogemus aastates",
+    "candiadate": "Kandidaat peaks suutma",
+    "weOffer": "Me pakume"
+  },
+  "salary": {
+    "heading": "Palk",
+    "monthly-from": "Palk alates",
+    "monthly-to": "Palk kuni",
+    "hourly-rate-from": "Tunnitasu alates",
+    "annual-from": "Aastapalk alates",
+    "annual-to": "Aastapalk kuni",
+    "hourly-rate-to": "Tunnipalk kuni"
+  },
+  "work-area": {
+    "label": "Töövaldkond",
+    "options": {
+      "intern": "Praktikant",
+      "volunteerWork": "Vabatahtlik töö",
+      "stockExchange": "Börs",
+      "administrationAssistance": "Administratiivne/assisteeriv",
+      "constructionRealEstate": "Ehitus/Kinnisvara",
+      "humanResources": "Personalitöö",
+      "securityRescue": "Korrakaitse / Päästeteenistus",
+      "military": "Militaartöö",
+      "electronicsTelecomunication": "Elektroonika/Telekommunikatsioon",
+      "freelanceTemporary": "Vabakutseline/Ajutine positsioon",
+      "energyElectricity": "Energeetika/Elektritöö",
+      "pharmacy": "Farmaatsia",
+      "financeAccounting": "Finants/Raamatupidamine",
+      "infromationTechnology": "Infotehnoloogia",
+      "jurisprudenceJustice": "Õigusabi/juura",
+      "cultureArtEntertainemnt": "Kultuur/Kunsts/Meelelahutus",
+      "sports": "Sport",
+      "qualityControl": "Kvaliteedikontroll/Kvaliteedijuhtimine",
+      "agricutureEnvironmental": "Põllumajandus/Keskkonnakaitse",
+      "medicineSocialCare": "Tervishoid/Sotsiaaltöö",
+      "mediaPublicRelations": "Meedia/Suhtekorraldus",
+      "forestryWoodworkingMetalWorking": "Metsandus/Puidutöötlus/Metallitöötlus",
+      "marketingAdvertising": "Turundus/Reklaam",
+      "productionIndustry": "Tootmine/Töötlemine",
+      "seasonalWork": "Hooajatöö",
+      "technicalScience": "Tehnoloogia",
+      "services": "Teenused",
+      "transportLogistics": "Transport/Logistika",
+      "tourismCateringHotels": "Turism/Toitlustus/Hotellindus",
+      "managment": "Juhtimine",
+      "government": "Avalik sektor",
+      "others": "Muu"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "header": {
+    "heading": "Abi & tugi",
+    "info": {
+      "text": "WhatsApp'i number",
+      "phone": "+371 9999999999"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "Kontakt",
+      "items": {
+        "item-1": {
+          "label": "Asukoht",
+          "description": "4758 Nancy Street"
+        },
+        "item-2": {
+          "label": "Telefoninumber",
+          "description": "+1 919-571-2528"
+        },
+        "item-3": {
+          "label": "E-mail",
+          "description": "hello@example.com"
+        },
+        "item-4": {
+          "label": "Klienditugi",
+          "description": "support@example.com"
+        }
+      }
+    },
+    "form": {
+      "heading": "Vorm",
+      "name": "Nimi",
+      "email": "E-mail",
+      "subject": "Teema",
+      "message": "Sõnum",
+      "submit": "Saada sõnum"
+    }
+  }
+}

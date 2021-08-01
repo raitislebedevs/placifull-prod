@@ -1,0 +1,53 @@
+{
+  "heading": "Postita kuulutus",
+  "form": {
+    "submit": "Postita",
+    "submit-confirm": "Salvestab...",
+    "preview-sneak-peak": "Genereerib...",
+    "preview": "Eelvaade",
+    "no-currency": "KÕIK",
+    "no-features": "Palun vali kuulutuse kategooria",
+    "general-information": {
+      "heading": "Üldinfo",
+      "currency-input": "Valuuta",
+      "input-fields": {
+        "name": "Sinu kuulutuse nimi",
+        "description": "Kirjeldus",
+        "price": "Hind",
+        "bed-rooms": "Magamistoad",
+        "bath-rooms": "Vannid",
+        "area": "Kinnisvara valdkond",
+        "start-renting": "Alusta üürimist",
+        "end-renting": "Lõpeta üürimine",
+        "year-built": "Ehitusaasta"
+      }
+    },
+    "detail-information": {
+      "heading": "Detailne informatsioon",
+      "contact": {
+        "heading": "Kontakt",
+        "email": "E-mail",
+        "address": "Aadress",
+        "contact-times": {
+          "label": "Kontakteerumise aeg",
+          "placeholder": "Vali eelistatud aeg"
+        },
+        "listing-website": "Veebileht: https://"
+      }
+    },
+    "gallery": {
+      "real-estate": "Galerii",
+      "click-drop": "KLIPI VÕI LOHISTA PILDID SIIA",
+      "video-url": "Video https://"
+    },
+    "contact-hours": {
+      "heading": "Kontakteerumise tunnid",
+      "heading-tip": "Valikuline",
+      "accordion": {
+        "heading": "Lisa kõige sobivam aeg kohtumiseks/vestluseks",
+        "start-time": "Alates",
+        "end-time": "Kuni"
+      }
+    }
+  }
+}

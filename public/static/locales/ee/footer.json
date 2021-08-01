@@ -1,0 +1,47 @@
+{
+  "top": {
+    "list-menu": {
+      "menu-1": {
+        "text-head": "",
+        "items": {
+          "item-1": "Alusta sirvimist ja otsi oma maja ning vajalikke objekte."
+        }
+      },
+      "menu-2": {
+        "text-head": "Ettevõte",
+        "items": {
+          "item-1": "Meist",
+          "item-2": "Meeskond",
+          "item-3": "Karjäär",
+          "item-4": "Blogi"
+        }
+      },
+      "menu-3": {
+        "text-head": "Kiirviited",
+        "items": {
+          "item-1": "Logi sisse",
+          "item-2": "Registreeru",
+          "item-3": "Kinnisvara",
+          "item-4": "Sõidukid",
+          "item-5": "Töö",
+          "item-6": "Teenuse tingimused"
+        }
+      },
+      "menu-4": {
+        "text-head": "Uudiskiri",
+        "items": {
+          "item-1": "Registreeru ja saa e-maili teel värskeid nõuandeid.",
+          "item-2": "Kirjuta oma e-mail",
+          "item-3": "Sinu e-mail",
+          "item-4": "Liitu"
+        }
+      }
+    }
+  },
+  "bottom": {
+    "left": {
+      "copy-right": "Placifull. Me hoolime sinust"
+    },
+    "right": "Placifull meeskond"
+  }
+}

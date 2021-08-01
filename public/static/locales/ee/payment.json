@@ -1,0 +1,89 @@
+{
+  "currency": "€ ",
+  "payment-modal": {
+    "header": "Plaani ostudetailid",
+    "sub-header": "Palun vali plaan",
+    "total-cost": "Hind:",
+    "expiry-date": "Aegumiskuupäeg:",
+    "expiry-label": "Aegumiskuupäeg",
+    "quantity": "Kogus:",
+    "quantity-label": "Kogus",
+    "listed": "Postitatud:",
+    "purchase": "Ostetud:",
+    "extend-expiry": "Pikenda kehtivust",
+    "promote": "Promo",
+    "subscription-valid": "Valik on õige",
+    "days": "päeva",
+    "browser-cv": "CV otsing",
+    "purchase-text": {
+      "user-held": "Omab kasutaja",
+      "purchase": "Osta"
+    },
+    "form": {
+      "added-days": {
+        "label": "Pikenda kuulutust",
+        "suffix": "päeva"
+      },
+      "card-details": {
+        "label": "Lisa kaardi informatsioon",
+        "card-holder": "Kaardi omanik",
+        "card-number": "Kaardinumber",
+        "card-date": "Aegumiskuupäev",
+        "card-csv": "CSV"
+      },
+      "buttons": {
+        "decline": "Loobu",
+        "proceed": "Jätka"
+      },
+
+      "purchase-items": {
+        "intro": "Sissejuhatus",
+        "single": "Üksik",
+        "quarterly": "Kvartaalne",
+        "life": "Aastane"
+      },
+      "user-stock": {
+        "single": "Üksik",
+        "quartery": "Kvartaalne",
+        "life": "Aastane"
+      }
+    }
+  },
+
+  "receipt-modal": {
+    "header": "Kokkuvõtte detailid",
+    "sub-header": "Palun vaata oma ostudetailid enne jätkamist üle.",
+    "card-details": {
+      "card-holder": "Kaardiomaniku nimi",
+      "card-number": "Kaardi detailid",
+      "card-date": "Aegumiskuupäev"
+    },
+
+    "receipt-table": {
+      "plan": "Plaan",
+      "quantity": "Kogus",
+      "promote": "Promotud",
+      "extend-expiry": "Pikendatud kehtivus",
+      "total": "Kõik",
+      "total-amount": "Kogu summa",
+      "price": "Hind",
+      "expiry-date": "Aegumiskuupäev",
+      "no-expiry": "Puudub",
+      "plans": {
+        "standalone": "Üksik",
+        "subscriptionQuarterly": "Kvartal",
+        "subscriptionYearly": "Aasta",
+        "activeSubscription": "Otsi CV-d"
+      }
+    },
+    "thank-you-message": "Aitäh, et toetad Placifulli ettevõtet. Me usume, et jääd oma valikuga rahule.",
+    "buttons": {
+      "cancel": "Tühista",
+      "proceed": "Maksa & jätka"
+    }
+  },
+  "error": {
+    "transaction": "Tehing ebaõnnestus",
+    "subscriptions": "Liitumine ebaõnnestus"
+  }
+}

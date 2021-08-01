@@ -1,0 +1,58 @@
+{
+  "header": {
+    "flag-button": "MÄRGI SEE SISU LIPUGA"
+  },
+  "detail-info": {
+    "button": "MA SOOVIN KOHE SISSE KOLIDA"
+  },
+  "contact-times": {
+    "heading": "Eelistatud kontakteerumise ajad"
+  },
+  "about": {
+    "heading": "Meist",
+    "featured": "Promotud",
+    "notFeatured": "Mitte promotud",
+    "rentTime": "kuus",
+    "inputTimeDays": "päeva tagasi"
+  },
+
+  "general-info": {
+    "heading": "Üldinfo",
+    "property-area": "Kinnisavar valdkond",
+    "rooms": "Tube",
+    "year-built": "Ehitusaasta",
+    "price": "Hind",
+    "total-ultilities": "Kõik kommunaalteenused",
+    "move-in": "Sissekolimise kuupäev",
+    "move-out": "Väljakolimise kuupäev",
+    "min-time": "Miinimumaeg",
+    "bid-price": "Kinnisvara pakkumise hind",
+    "submit": "Pakkumine",
+    "bid-placeholder": "Pakkumine 20% marginaliga"
+  },
+
+  "contact-form": {
+    "heading": "Kontakteeru omanikuga otse",
+    "form": {
+      "heading": "Kirjuta oma küsimus siia",
+      "fullName": "Täisnimi*",
+      "phoneNumber": "Telefoninumber*",
+      "email": "E-maili aadress*",
+      "message": "Sinu sõnum*",
+      "submit": "SAADA SÕNUM"
+    }
+  },
+  "extra": {
+    "heading": "Muud lisatud kuulutused selle profiili alt",
+    "table": {
+      "number": "Nr.",
+      "country": "Riik",
+      "full-address": "Kogu aadress",
+      "property-type": "Kinnisvara tüüp",
+      "price": "Hind",
+      "area": "Valdkond",
+      "bed-rooms": "Tube",
+      "year-built": "Ehitusaasta"
+    }
+  }
+}

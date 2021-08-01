@@ -1,0 +1,41 @@
+{
+  "kanban": {
+    "save": "Salvesta leht",
+    "saving": "Salvestab...",
+    "salary": {
+      "hour": "/tund",
+      "month": "/kuu",
+      "year": "/aasta"
+    },
+    "job-overview": {
+      "title": "Töö ülevaade",
+      "industry": "Valdkond",
+      "languages-en": "Keeled (EN)",
+      "native": "Keeled (emakeel)",
+      "contract-type": "Lepingu tüüp",
+      "working-time": "Tööaeg",
+      "expiry-date": "Aegumiskuupäev"
+    },
+    "statistics": {
+      "title": "Statistika",
+      "applicants": "Kandideerijad",
+      "interviewed": "Intervjueeritavad",
+      "processing": "Töötleb",
+      "reviewed": "Üle vaadatud",
+      "shortlisted": "Väljavalitute nimekirja lisatud",
+      "hired": "Palgatud"
+    },
+    "columns": {
+      "applicants": "Kandideerinud kandidaadid",
+      "reviewed": "Ülevaadatud taotlused",
+      "shortlisted": "Väljavalitute nimekirja lisatud",
+      "interviewed": "Intervjueeritud kandidaadid",
+      "pending": "Vastuvõtmise ootel",
+      "accepted": "Palgatud kandidaadid",
+      "column-name": "Uus tulp",
+      "edit": "Kohenda"
+    },
+    "view-cv": "Vaata CV-d",
+    "remove": "Eemalda"
+  }
+}

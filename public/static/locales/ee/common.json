@@ -1,0 +1,133 @@
+{
+  "elements": {
+    "loading": "laeb...",
+    "loading-right": "Laeb...",
+    "loading-left": "...Laeb",
+    "no-results": "Ühtki vastet ei leitud"
+  },
+  "user": {
+    "name": "Nimi",
+    "first-name": "Eesnimi",
+    "last-name": "Perekonnanimi",
+    "email": {
+      "email-upper": "E-mail",
+      "email-lower": "e-mail",
+      "your-email": "Sinu e-mail"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "Täna",
+    "yesterday": "Eile",
+    "days-ago": "päeva tagasi"
+  },
+
+  "social-links": {
+    "heading": "Sotsiaalmeedia lingid",
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
+  },
+
+  "social": {
+    "heading": "Sotsiaalmeedia lingid",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "youtube": "Youtube",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram"
+  },
+
+  "week-days": {
+    "monday": "Esmaspäev",
+    "tuesday": "Teisipäev",
+    "wednesday": "Kolmapäev",
+    "thursday": "Neljapäev",
+    "friday": "Reede",
+    "saturday": "Laupäev",
+    "sunday": "Pühapäev"
+  },
+
+  "toast": {
+    "submit-success": "Sinu kuulutus on avalikustatud!",
+    "server-error": "Ebakorrektne sisend/serveri ühendus puudub",
+    "logging-required": "Sisselogimine on nõutud",
+    "cannot-apply": "Hei, see on eelvaade",
+    "preview": "Eelvaates ei saa pakkumist teha",
+    "log-in": "Pakkumise tegemiseks pead olema sisse logitud",
+    "bidding-price": "Pakkumise hind puudub",
+    "price-lower": "Pakkumine on madalam kui 20% kuulutuste hind",
+    "price-upper": "Pakkumine on kõrgem kui 20% kuulutuste hind",
+    "refresh-page": "Server ei vasta, palun lae leht uuesti",
+    "not-send": "E-maili ei saadetud",
+    "contact-directly": "Kontakteeru otse",
+    "email-send": "Saadeti e-mail",
+    "no-email": "Kuulutuse e-maili ei ole olemas",
+    "subscribed": "Palju õnne, oled liitunud :)",
+    "already-applied": "Oled sellele positsioonile avalduse teinud",
+    "already": "Oled juba liitunud / vale e-mail",
+    "country-error": "Tundmatu viga riigi sisendis",
+    "location-error": "Asukohta ei tuvastatud",
+    "unknown-error": "Tundmatu serveri viga",
+    "search-results": {
+      "found": "Found",
+      "items": "esemeid"
+    },
+    "not-found": "Ei leidnud uusi tulemusi"
+  },
+
+  "location": {
+    "country": "Riik",
+    "state": "Osariik/maakond",
+    "city": "Linn",
+    "no-city": "Linnad puuduvad",
+    "no-states": "Osariigid puuduvad",
+    "states-not-registerd": "Osariigid ei ole registreeritud",
+    "cities-registerd": "Linnad ei ole registreeritud"
+  },
+
+  "items-per-page": {
+    "label": "Kuulutused",
+    "options": {
+      "nine": "9 kuulutust",
+      "eighteen": "18 kuulutust",
+      "twenty-seven": "27 kuulutust",
+      "thirty-six": "36 kuulutust",
+      "seventy-two": "72 kuulutust"
+    }
+  },
+
+  "month": {
+    "Jan": "Jaanuar",
+    "Feb": "Veebruar",
+    "Mar": "Märts",
+    "Apr": "Aprill",
+    "May": "Mai",
+    "Jun": "Juuni ",
+    "Jul": "Juuli",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "Oktoober",
+    "Nov": "November",
+    "Dec": "Detsember"
+  },
+  "currency": {
+    "currency-label": "Valuuta",
+    "no-currency": "Kõik"
+  },
+  "measurement": {
+    "label": "Mõõt",
+    "system": {
+      "none": "Puudub",
+      "metric": "Meetersüsteem",
+      "imperial": "Imperiaalne süsteem"
+    }
+  },
+  "user-box": {
+    "profile": "Profiil",
+    "log-out": "Logi välja"
+  },
+  "preview-close": "Sule eelvaade"
+}
