@@ -1,0 +1,77 @@
+{
+  "heading": "Postita kuulutus",
+  "form": {
+    "submit": "Postita",
+    "submit-confirm": "Salvestab...",
+    "preview-sneak-peak": "Genereerib...",
+    "preview": "Eelvaade",
+    "currency": "Valuuta",
+    "no-currency": "KÕIK",
+    "general-information": {
+      "heading": "Üldinfo",
+      "transport-type": "Sõiduki tüüp",
+      "action": "Tehing",
+      "condition": "Seisukord",
+      "input-fields": {
+        "description": "Kirjeldus",
+        "brand": "Sõiduki mark",
+        "model": "Sõiduki mudel",
+        "production-year": "Tootmisaasta",
+        "price": "Hind",
+        "engine-type": "Mootoritüüp",
+        "gear-box": "Käigukast",
+        "millage": "Läbisõit",
+        "speed": "Max kiirus",
+        "fueal-economy": "Kütuse ökonoomsus",
+        "seats": "Istmete arv",
+        "doors": "Uste arv",
+        "name": "Sõiduki kuulutuse nimi"
+      }
+    },
+    "detail-information": {
+      "heading": "Detailne informatsioon",
+      "contact": {
+        "heading": "Kontakt",
+        "email": "E-mail",
+        "address": "Aadress",
+        "contact-times": {
+          "label": "Kontakteerumise aeg",
+          "placeholder": "Vali eelistatud kontakteerumise aeg",
+          "options": {
+            "any-time": "Igal ajal",
+            "working-days": "Tööpäeviti",
+            "office-hours": "Kontoritundidel",
+            "specific-times": "Spetsiaalsetel aegadel"
+          }
+        },
+        "listing-website": "Veebileht: https://"
+      },
+      "features": {
+        "heading": "Funktsioonid",
+        "category": {
+          "equipment": "Lisavarustus",
+          "interior": "Salong",
+          "steering-wheel": "Rool",
+          "seats": "Istmed",
+          "lights": "Tuled",
+          "audio-video": "Audio/Video",
+          "mirrros": "Peeglid"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "Galerii",
+      "click-drop": "KLIKI VÕI LOHISTA PILDID SIIA",
+      "video-url": "Video url: https://"
+    },
+    "contact-hours": {
+      "heading": "Kontakteerumise tunnid",
+      "heading-tip": "Valikuline",
+      "accordion": {
+        "heading": "Lisa sobivad ajad kohtumiseks/kõneks",
+        "start-time": "Alates",
+        "end-time": "Kuni"
+      }
+    }
+  }
+}

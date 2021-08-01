@@ -1,0 +1,15 @@
+{
+  "internal-error": "Tundmatu veateade. Palun proovi hiljem uuesti.",
+  "connection-error": "Serveriga ei saa luua ühendust. Palun proovi hiljem uuesti.",
+  "server-not-reached": "Nii piinlik! Serveriga ei saa ühendust. Palun kontakteeru meiega või proovi hiljem uuesti.",
+  "Auth": {
+    "form": {
+      "error": {
+        "invalid": "E-mail või parool on vale.",
+        "user": {
+          "not-exist": "Selle e-mailiga kasutajat ei ole olemas."
+        }
+      }
+    }
+  }
+}

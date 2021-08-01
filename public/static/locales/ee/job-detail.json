@@ -1,0 +1,63 @@
+{
+  "header": {
+    "salary-month": "/kuu",
+    "buttons": {
+      "apply": "Kandideeri kohe",
+      "share": "Jaga töökuulutust"
+    }
+  },
+  "contact-form": {
+    "heading": "Kontakteeru ettevõttega otse",
+    "form": {
+      "heading": "Kirjuta oma küsimus siia",
+      "fullName": "Täisnimi*",
+      "phoneNumber": "Telefoninumber*",
+      "email": "E-maili aadress*",
+      "message": "Sinu sõnum",
+      "submit": "SAADA SÕNUM"
+    }
+  },
+  "about": {
+    "description": "Kirjeldus",
+    "requirements": "Nõudmised",
+    "benefits": "Hüved"
+  },
+  "job-overview": {
+    "heading": "Töö ülevaade",
+    "items": {
+      "offered-salary": "Pakutav palk",
+      "languages": "Kell",
+      "native": "Rahvus",
+      "industry": "Valdkond"
+    },
+    "views": "vaatamised",
+    "applicants": "kandideerijad",
+    "salary": {
+      "monthly": "kuine",
+      "annual": "aastane",
+      "hourly": "tunni"
+    }
+  },
+
+  "application": {
+    "header": "Kandideeri",
+    "body": {
+      "proposal": "Pakutav palk"
+    },
+    "info": "Sinu CV saadetakse tööandjale"
+  },
+
+  "extra": {
+    "heading": "Selle profiili alt postitatud töökuulutused",
+    "table": {
+      "number": "Nr.",
+      "country": "Riik",
+      "full-address": "Kontori aadress",
+      "position": "Positsioon",
+      "contract": "Lepingu tüüp",
+      "time": "Tööaeg",
+      "salary": "Palk alates",
+      "end-date": "Lõppkuupäev"
+    }
+  }
+}

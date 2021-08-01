@@ -1,0 +1,61 @@
+{
+  "form": {
+    "currency": "Valuuta",
+    "no-currency": "KÕIK",
+    "languages": {
+      "native": "Emakeel",
+      "english": "Keeled inglise keeles"
+    },
+    "submit": "Otsi kohe",
+    "accordion": {
+      "label": "Täpsem otsing",
+      "searchFilter": {
+        "heading": "Funktsioonid",
+        "licenses": "Sõiduluba",
+        "education": "Haridus/kraad",
+        "expierience": "Kogemus aastates",
+        "candiadate": "Kandidaat peaks suutma",
+        "benefits": "Me pakume"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "Tunnitasu",
+        "items": {
+          "from": "Alates: 0",
+          "to": "Kuni: 999,999"
+        }
+      },
+      "monthly-salary": {
+        "label": "Kuupalk",
+        "items": {
+          "from": "Alates: 0",
+          "to": "Kuni: 999,999,999"
+        }
+      },
+      "yearly-salary": {
+        "label": "Aastapalk",
+        "items": {
+          "from": "Alates: 0",
+          "to": "Kuni: 99, 999,999,999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Sorteeri",
+        "options": {
+          "monthly-salary": "Kuupalk",
+          "annual-salary": "Aastapalk",
+          "hourly-salary": "Tunnipalk",
+          "popularity": "Populaarsus",
+          "views": "Vaatamisi",
+          "country": "Riik",
+          "insert-date": "Sisesta kuupäev"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "color": {
+    "label": "Värv",
+    "options": {
+      "red": "Punane",
+      "orange": "Oranž",
+      "yellow": "Kollane",
+      "green": "Roheline",
+      "blue": "Sinine",
+      "violent": "Violetne",
+      "pink": "Roosa",
+      "tan": "Helepruun",
+      "beige": "Beež",
+      "white": "Valge",
+      "silver": "Hõbe",
+      "gray": "Hall",
+      "black": "Must",
+      "brown": "Pruun",
+      "gold": "Kuldne",
+      "indigo": "Indigo",
+      "purple": "Lilla",
+      "lime": "Laim",
+      "azure": "Taevasinine",
+      "other": "Muu"
+    }
+  },
+  "gear-box": {
+    "label": "Käigukast",
+    "options": {
+      "manual": "Manuaalne",
+      "automatic": "Automaatne",
+      "other": "Muu"
+    }
+  },
+  "engine": {
+    "label": "Mootoritüüp",
+    "options": {
+      "diesel": "Diisel",
+      "benzine": "Bensiin",
+      "gas": "Gaas",
+      "electric": "Elektri",
+      "other": "Muu"
+    }
+  },
+  "features": {
+    "heading": "Funktsioonid",
+    "category": {
+      "equipment": "Lisavarustus",
+      "interior": "Salong",
+      "steering-wheel": "Rool",
+      "seats": "Istmed",
+      "lights": "Tuled",
+      "audio-video": "Audio/Video",
+      "mirrors": "Peeglid"
+    }
+  },
+  "condition": {
+    "label": "Seisukord",
+    "options": {
+      "brandNew": "Täitsa uus",
+      "likeNew": "Nagu uus",
+      "used": "Kasutatud",
+      "requiresFixing": "Vajab remonti",
+      "afterCrash": "Avariijärgne"
+    }
+  },
+
+  "transport-type": {
+    "label": "Sõiduki tüüp",
+    "options": {
+      "car": "Sõiduauto",
+      "truck": "Veoauto",
+      "motorcycle": "Mootorratas",
+      "boat": "Paadid",
+      "airTransport": "Õhutransport",
+      "others": "Muu"
+    }
+  },
+
+  "action": {
+    "label": "Tehing",
+    "options": {
+      "sell": "Müüa",
+      "rent": "Rentida",
+      "exchange": "Vahetada",
+      "forParts": "Varuosad"
+    }
+  }
+}

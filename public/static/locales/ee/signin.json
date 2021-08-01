@@ -1,0 +1,23 @@
+{
+  "heading": "Logi sisse",
+  "form": {
+    "your-email": "Kirjuta e-mail",
+    "email": "E-mail",
+    "password": "Parool",
+    "submit": "Logi sisse",
+    "remember-me": "Jäta mind meelde",
+    "forgot-password": "Unustasid parooli?",
+    "or": "Või logi sisse kasutades",
+    "facebook": "Facebook",
+    "google": "Google",
+    "not-account": "EI ole kasutajat?",
+    "sign-up": "Registreeru",
+    "error": {
+      "email-invalid": "E-mail ei ole korrektne.",
+      "email-required": "E-mail on nõutud.",
+      "password-required": "Parool on nõutud"
+    },
+    "success": "Teretulemast tagasi!",
+    "already-login": "Proovid kaks korda sisse logida?"
+  }
+}

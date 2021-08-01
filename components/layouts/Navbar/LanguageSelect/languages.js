@@ -13,13 +13,13 @@ const languages = [
   //   },
   //   label: 'Latviešu',
   // },
-  // {
-  //   value: {
-  //     lang: 'ee',
-  //     flag: 'EE',
-  //   },
-  //   label: 'Estonian',
-  // },
+  {
+    value: {
+      lang: 'ee',
+      flag: 'EE',
+    },
+    label: 'Estonian',
+  },
   {
     value: {
       lang: 'lt',

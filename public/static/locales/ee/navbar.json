@@ -1,0 +1,13 @@
+{
+  "home": "AVALEHT",
+  "opportunities": {
+    "base": "VÕIMALUSED",
+    "real-estate": "KINNISVARA",
+    "vehicles": "SÕIDUKID",
+    "job-search": "TÖÖOTSING"
+  },
+  "help": "ABI & TUGI",
+  "sign-in": "LOGI SISSE",
+  "register": "REGISTREERU",
+  "add-listing": "LISA KUULUTUS"
+}

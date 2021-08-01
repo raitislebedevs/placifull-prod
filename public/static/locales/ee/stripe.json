@@ -1,0 +1,35 @@
+{
+  "main": {
+    "success": "Makse õnnestus",
+    "plan_update": "Me ei saanud uuendada sinu plaani.",
+    "card_not": "Kaardimakse ei õnnestunud.",
+    "pay": "Maksa €",
+    "processing": "Töötleb..."
+  },
+  "placeholders": {
+    "name": "Jane Doe",
+    "email": "janedoe@placifull.com",
+    "phone": "(941) 555-7777"
+  },
+  "incomplete": {
+    "incomplete_cvc": "Sinu kaardi turvakood on puudulik",
+    "incomplete_expiry": "Sinu kaardi aegumiskuupäev on puudulik",
+    "incomplete_number": "Sinu kaardinumber on puudulik"
+  },
+
+  "declined": {
+    "card_declined": "Sinu kaart on tagasi lükatud"
+  },
+  "checkout": {
+    "billing": "Palun täida makseinformatsioon",
+    "card-details": "Palun täida kaardi informatsioon",
+    "cancel": "Tühista"
+  },
+  "labels": {
+    "plan": "Plaan",
+    "quantity": "Kogus",
+    "name": "Nimi",
+    "email": "E-mail",
+    "phone": "Telefoni nr"
+  }
+}

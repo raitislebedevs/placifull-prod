@@ -1,0 +1,55 @@
+{
+  "heading": "Postita kuulutus",
+  "form": {
+    "submit-confirm": "Salvestab...",
+    "preview-sneak-peak": "Genereerib...",
+    "preview": "Eelvaade",
+    "no-currency": "Valuuta",
+    "no-features": "Palun vali kuulutuse kategooria",
+    "job-title": {
+      "title": "Positsiooni nimi",
+      "placeholder": "Positsiooni nimi nt Placifulli patroon"
+    },
+    "company": "Ettevõtte nimi",
+    "submit": "LISA",
+    "general-information": {
+      "heading": "Üldinfo",
+      "input-fields": {
+        "description": "Positsiooni kirjeldus",
+        "requirements": "Positsiooni nõudmised",
+        "beneftis": "Positsiooni hüved"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "Kontaktinfo",
+        "detail-requirements": "Detailsed nõudmised"
+      },
+      "contact": {
+        "heading": "Kontakt",
+        "email": "E-mail",
+        "phone": "Telefoninumber",
+        "address": "Aadress",
+        "listing-website": "Veebileht: https://"
+      }
+    },
+    "gallery": {
+      "heading": "Ettevõtte logo",
+      "click-drop": "KLIKI VÕI LOHISTA LOGO SIIA",
+      "video-url": "Video url: https://"
+    },
+    "contact-hours": {
+      "heading": "Töötunnid",
+      "heading-tip": "Valikuline",
+      "accordion": {
+        "heading": "Ajad, mil töötaja peab töötama",
+        "start-time": "Töö algab",
+        "end-time": "Töö lõppeb"
+      }
+    },
+    "input-languages": {
+      "label": "Nõutud keeled. (inglise keel)",
+      "labelNative": "Nõutud keeled. (emakeel)"
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "hero-section": {
+    "head": {
+      "line-1": "Placifull - koht kus leiad lihtsuse",
+      "line-2": "Hoolega loodud lahendused sinu unistuste täitmiseks",
+      "line-3": "Otsi igast maailmanurgast töökohti, kinnisvara, transpordivõimalusi, mis sobivad sinu vajadustega",
+      "options": {
+        "text-1": "Usaldusväärsus",
+        "text-2": "Järjepidevus",
+        "text-3": "Taskukohasus",
+        "text-4": "Kättesaadavus"
+      }
+    },
+    "button": "Alusta siit"
+  },
+  "real-estate-section": {
+    "badge": "Promotooted",
+    "head": {
+      "line-1": "Kinnisvara",
+      "line-2": "Enim promotud tooted",
+      "line-3": "Placifull",
+      "line-4": "mis eeldab kogu sinu tähelepanu"
+    },
+    "button": "Vaata kõiki"
+  },
+  "transportation-section": {
+    "badge": "Promotooted",
+    "head": {
+      "line-1": "Sõidukid",
+      "line-2": "Need transpordivahendid",
+      "line-3": "Placifull",
+      "line-4": "vajab sinu aega"
+    },
+    "button": "Vaata kõiki"
+  },
+  "job-section": {
+    "badge": "Promotooted",
+    "head": {
+      "line-1": "Premium töökohad",
+      "line-2": "Januned muutuste järele? ",
+      "line-3": "Placifull",
+      "line-4": "leia unistuste töökoht, mida oled alati soovinud."
+    },
+    "jobs": {
+      "location": "Asukoht",
+      "working-schedule": "Töögraafik",
+      "salary": "Palk",
+      "working-place": "Töötamise koht",
+      "button": "Vaata detaile"
+    },
+    "button": "Vaata rohkem"
+  },
+  "service-section": {
+    "head": {
+      "line-1": "Millesse me usume",
+      "line-2": "Vaata, mida me enim väärtustame",
+      "line-3": "Placifull",
+      "line-4": "me kuulame, mis sul öelda on"
+    },
+    "services": {
+      "service-1": {
+        "open-modal": "Uuri lisa",
+        "name": "Kuulutuste võimalused",
+        "description": "Meie peamine fookus on aidata inimestel kolida teisse riiki. Välismaale kolimisega tulevad kaasa mitmed väljakutsed, seega oleme sinu jaoks olemas vajaminevate otsingu võimalustega. Töökoht, maja, transport - kõik ühest kohast. Sa ei pea mujalt otsima.",
+
+        "modal": {
+          "header": "Uuri",
+          "description": "Placifull on otsustanud muuta teie ja teie pere välismaale kolimise lihtsamaks. Meie hoolitseme selle eest, et leiate kõik saadaolevad töökuulutused lähtuvalt teie nõuetest ja kvalifikatsioonist. Placifull aitab teil toime tulla kõigi uue eluga kaasnevate väljakutsetega ja te ei pea pärast meie teenuste kasutamist enam edasi otsima. Meie meeskond teeb teie eest ära kogu raske töö ja teil suvatseb vaid valida meie pakutavate tööde nimekirjade hulgast endale sobiv. Kuid meie töö ei lõpe siin. Meist on ka edaspidi palju kasu kui alustate oma uut tööd.",
+          "close-button": "Sulge"
+        }
+      },
+      "service-2": {
+        "open-modal": "Aita meid nüüd",
+        "name": "Aita meil paremaks muutuda",
+        "description": "Me oleme väike meeskond, seega vaatame iga väljapakutud muudatuse üle oma hindamiskomisjonis.",
+
+        "modal": {
+          "header": "Saa paremaks",
+          "description": "Meie meeskond koosneb kirglikest inimestest, kes teevad kõvasti tööd, et aidata teil oma unistusi saavutada. Seetõttu oleme üsna keskendunud oma tavakasutajate kasulike soovituste vastuvõtmisele ja rakendamisele. Kui leiate meie teenustest midagi, mida võiks teie arvates täiustada, jätke julgelt märge meie hääletustahvlile. Niipea kui ettepanek jõuab kümne tuhande poolthääleni, oleme kohustatud muudatused ellu viima. Soovime, et meie kasutajad teaksid, et nende arvamus on meile tähtis.",
+          "close-button": "Sulge",
+          "contact-button": "Võta meiega ühendust"
+        }
+      },
+      "service-3": {
+        "name": "Like'i ja jaga",
+        "description": "Kui leiate, et meie teenused on kasulikud ja elumuutvad, oleksime tänulikud, kui levitaksite teavet meie platvormi kohta oma sõprade ja pere seas. Meie töö edendamine ja jagamine aitab meil edasi kasvada ja teid paremini teenida."
+      },
+      "service-4": {
+        "open-modal": "Tee meid paremaks",
+        "name": "Paranda meie kvaliteeti",
+        "description": "Miski ei tööta? Makse ei läinud läbi? Võta meiega ühendust ja anna probleemist teada. Selle ülevaatamine on meile prioriteet.",
+        "modal": {
+          "header": "Kvaliteet",
+          "description": "Placifull on kvaliteedikeskne kaubamärk ja usume, et kogu meie väärtus seisneb pakutavate teenuste kvaliteedis. Kinnitame teile kogu südamest, et me ei tee oma kvaliteedis ja standardites järeleandmisi. Kui leiate meie platvormilt midagi, mis ei tööta nii sujuvalt kui peaks, teatage probleemist meile esimesel võimalusel ja me parandame selle niipea kui võimalik. Teie kogemus Placifulliga on ülimalt tähtis ning me täiustame ja täiendame oma süsteemi teile sobivamaks.",
+          "close-button": "Sulge",
+          "contact-button": "Võta meiega ühendust"
+        }
+      },
+      "service-5": {
+        "open-modal": "Kandideeri kohe",
+        "name": "Karjäärivõimalused",
+        "description": "Me töötame kõvasti ja puhkame kõvasti. Kas soovite olla osa meist? Siis kirjuta meile. Sina valid, kus ja millise palgaga soovid töötada. Kui see meile meeldib, võetakse sind tööle.",
+        "modal": {
+          "header": "Karjäär",
+          "description": "Meie töökuulutused on ainulaadsed ja te ei leia seda, mida meie pakume, mujalt. Pakume põnevat töötundide skeemi, mis tähendab, et peate töötama ainult 4 päeva nädalas ja 12 tunni asemel iga päev 8 tundi. Iga nädala reedeti antakse teile võimalus kontorit külastada. Saate kasutada lisaaega sõpradega koosolemiseks, trenni tegemiseks, hobide harrastamiseks ja paljuks muuks! Pacifull hoolitseb selle eest, et te ei kaotaks töö tõttu kvaliteetaega sõprade ja perega. Seetõttu hoolitseb platvorm ka selle eest, et saaksite piisavalt puhkust, alustades 20 päevast kuni 28 päevani iga aastal. See annab kokku 76 päeva. Nii head töögraafikut on peaaegu võimatu leida. Nii et ärge oodake enam ja kandideerige Placifulli!",
+          "close-button": "Sulge",
+          "contact-button": "Kandideeri kohe"
+        },
+        "modal-apply": {
+          "form": {
+            "header": "Tee meile oma pakkumine!",
+            "firstName": "Eesnimi",
+            "lastName": "Perekonnanimi",
+            "email": "E-maili aadress",
+            "phone": "Telefon",
+            "dreamJob": "Kellega soovid töötada?",
+            "applyText": "Miks peaksime sind palkama?",
+            "salary": "Palgaootus (kuine)",
+            "positionName": "Ametinimetus",
+            "apply": "Ma olen valmis!"
+          }
+        }
+      }
+    },
+    "learn-more": "Uuri lisa"
+  },
+  "price-section": {
+    "badge": "",
+    "head": {
+      "line-1": "Kuulutuste tariifid"
+    },
+    "prices": {
+      "price-1": {
+        "name": "Kinnisvara",
+        "tiers": {
+          "tier-2": {
+            "name": "Üksik postitus",
+            "offer-1": "Maksa üks kord, kasuta millal soovid",
+            "offer-2": "Kuulutused kuni 395 päevaks",
+            "offer-3": "Vabadus jälgida kasutajate pakkumisi",
+            "offer-4": "Eemalda millal soovid",
+            "button": "Proovi kohe"
+          },
+          "tier-3": {
+            "name": "Kvartaalne",
+            "offer-1": "8 aktiivset kirjet",
+            "offer-2": "Lisa kuulutus kuni 395 päevaks",
+            "offer-3": "Jälgi kasutajate pakkumisi",
+            "offer-4": "Sulge millal soovid ja kasuta uuesti",
+            "button": "Proovi kohe"
+          },
+          "tier-4": {
+            "name": "Igal aastal",
+            "offer-1": "20 aktiivset kirjet",
+            "offer-2": "Lisa kuulutus kuni 120 päevaks",
+            "offer-3": "Vabadus jälgida kasutajate pakkumisi",
+            "offer-4": "Sulge millal soovid ja ava uuesti vastavalt vajadusele",
+            "button": "Proovi kohe"
+          }
+        }
+      },
+      "price-2": {
+        "name": "Transport",
+        "tiers": {
+          "tier-2": {
+            "name": "Üksik postitus",
+            "offer-1": "Maksa üks kord, kasuta millal soovid",
+            "offer-2": "Kuulutused kuni 395 päevaks",
+            "offer-3": "Vabadus jälgida kasutajate pakkumisi",
+            "offer-4": "Eemalda igal ajal",
+            "button": "Proovi kohe"
+          },
+          "tier-3": {
+            "name": "Kvartaalne",
+            "offer-1": "8 aktiivset kirjet",
+            "offer-2": "Lisa kuulutus kuni 395 päevaks",
+            "offer-3": "Jälgi kasutajate pakkumisi",
+            "offer-4": "Sulge millal soovid ja kasuta uuesti",
+            "button": "Proovi kohe"
+          },
+          "tier-4": {
+            "name": "Igal aastal",
+            "offer-1": "20 aktiivset kirjet",
+            "offer-2": "Lisa kuulutus kuni 120 päevaks",
+            "offer-3": "Vabadus jälgida kasutajate pakkumisi",
+            "offer-4": "Sulge millal soovid ja ava uuesti vastavalt vajadusele",
+            "button": "Proovi kohe"
+          }
+        }
+      },
+      "price-3": {
+        "name": "Töökohad",
+        "tiers": {
+          "tier-2": {
+            "name": "Üksik postitus",
+            "offer-1": "Maksa üks kord, kasuta millal soovid",
+            "offer-2": "Kuulutused kuni 395 päevaks",
+            "offer-3": "Vabadus jälgida kasutajate pakkumisi",
+            "offer-4": "Eemalda igal ajal",
+            "button": "Proovi kohe"
+          },
+          "tier-3": {
+            "name": "Kvartaalne",
+            "offer-1": "8 aktiivset kirjet",
+            "offer-2": "Lisa kuulutus kuni 395 päevaks",
+            "offer-3": "Jälgi kasutajate pakkumisi",
+            "offer-4": "Sulge millal soovid ja kasuta uuesti",
+            "button": "Proovi kohe"
+          },
+          "tier-4": {
+            "name": "Igal aastal",
+            "offer-1": "20 aktiivset kirjet",
+            "offer-2": "Lisa kuulutus kuni 120 päevaks",
+            "offer-3": "Vabadus jälgida kasutajate pakkumisi",
+            "offer-4": "Sulge millal soovid ja ava uuesti vastavalt vajadusele",
+            "button": "Proovi kohe"
+          }
+        }
+      },
+      "price-4": {
+        "name": "Muu",
+        "tiers": {
+          "tier-1": {
+            "name": "Tasuta",
+            "offer-1": "Sirvi kuulutusi",
+            "offer-2": "Hinda kuulutusi",
+            "offer-3": "Ole osa meist",
+            "offer-4": "Jaga maailmale",
+            "button": "Proovi kohe"
+          },
+          "tier-2": {
+            "name": "Promo kuulutused",
+            "offer-1": "Maksa esitamisel",
+            "offer-2": "Promo ala",
+            "offer-3": "Märgitud esiletõstetuks",
+            "button": "Proovi kohe"
+          },
+          "tier-3": {
+            "name": "Otsi CV-d",
+            "offer-1": "Aastane tellimus",
+            "offer-3": "Sirvi CV-sid",
+            "button": "Proovi kohe"
+          },
+          "tier-4": {
+            "name": "Lisa päevi",
+            "offer-1": "Pikenda kuulutuse päevi",
+            "offer-2": "Vali päevade arv",
+            "offer-3": "Kuni 365 päeva",
+            "offer-4": "Alates 0,11€ päevas",
+            "button": "Proovi kohe"
+          }
+        }
+      }
+    },
+    "off": "Välja",
+    "modal": {
+      "no-user": {
+        "title": "Postita kuulutuse informatsioon",
+        "header": "Palun logi sisse",
+        "body": "Palun logi veebisaidile sisse, sest vastasel juhul ei saa me sulle pakkuda head kliendikogemust",
+        "log": "Logi sisse"
+      },
+      "post": {
+        "title": "Palun tee oma valik",
+        "body": "Kas soovite osta oma profiili jaoks uusi valikuid või kasutada olemasolevaid?",
+        "post": "Ei, postita kuulutus",
+        "purchase": "Jah, osta"
+      }
+    }
+  }
+}

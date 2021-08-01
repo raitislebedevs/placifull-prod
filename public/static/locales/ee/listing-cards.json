@@ -1,0 +1,56 @@
+{
+  "job-card": {
+    "location": "Asukoht",
+    "salary": "Palk",
+    "button": "Vaata detaile",
+    "contract-type": {
+      "label": "Lepingu tüüp",
+      "options": {
+        "temporarly": "Ajutine",
+        "fullTime": "Täisajaga",
+        "partTime": "Osalise ajaga",
+        "remoteFullTime": "Kaugtöö (täisajaga)",
+        "remotePartTime": "Kaugtöö (osalise ajaga)",
+        "other": "Muu"
+      }
+    },
+    "working-schedule": {
+      "label": "Töögraafik",
+      "options": {
+        "officeHours": "Kontoritunnid",
+        "shifts": "Vahetustega",
+        "flexible": "Paindlik",
+        "other": "Muu"
+      }
+    }
+  },
+
+  "transport-card": {
+    "gear-box": {
+      "label": "Käigukast",
+      "options": {
+        "manual": "Manuaalne",
+        "automatic": "Automaatne",
+        "other": "Muu"
+      }
+    }
+  },
+
+  "real-estate-card": {
+    "location": "Asukoht",
+    "working-schedule": "Töögraafik",
+    "salary": "Palk",
+    "contract-type": "Lepingu tüüp",
+    "button": "Vaata detaile"
+  },
+
+  "action": {
+    "label": "Tehing",
+    "options": {
+      "sell": "Müü",
+      "rent": "Rendi",
+      "exchange": "Vaheta",
+      "forParts": "Varuosad"
+    }
+  }
+}

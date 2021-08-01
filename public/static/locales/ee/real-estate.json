@@ -1,0 +1,64 @@
+{
+  "title": "Otsi kinnisvarakuulutusi",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "Min hind",
+        "max-price": "Max hind",
+        "min-rooms": "Min tubade arv",
+        "max-rooms": "Max tubade arv",
+        "min-area": "Min pindala",
+        "max-area": "Max pindala",
+        "move-in-date": "Sissekolimise kuupäev alates",
+        "move-out-date": "Sissekolimise kuupäev kuni",
+        "currency": "Valuuta"
+      },
+
+      "submit": "Otsi kohe",
+      "accordion": "TÄPSEM OTSING",
+      "accordion-right": {
+        "utility-label": "Kommunaalteenuste arve vahemik",
+        "utility": {
+          "from-price": "Alates: 0,00",
+          "to-price": "Kuni: 9,999,999,999"
+        },
+        "year-label": "Ehitusaasta",
+        "built": {
+          "from-year": "Alates: 1000",
+          "to-year": "Kuni: 9999"
+        },
+        "measurement-label": "Mõõt",
+        "system": {
+          "none": "Puudub",
+          "metric": "Meetrisüsteem m",
+          "imperial": "Imperiaalne süsteem ft"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Sorteeri",
+        "options": {
+          "price": "Hind",
+          "area": "Pindala",
+          "rooms": "Tubade arv",
+          "street-name": "Tänava nimi",
+          "popularity": "Populaarsus",
+          "views": "Vaatamiste arv",
+          "country": "Riik",
+          "insert-date": "Avaldamise kuupäev"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "Blogist",
+    "see-more": "Loe rohkem"
+  },
+  "error": {
+    "tags": "Palun kontakteeru meiega ja kirjuta 'märget ei leitud'"
+  },
+  "no-tags": "Sellel valikul puuduvad funktsioonid"
+}

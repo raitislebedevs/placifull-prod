@@ -1,0 +1,60 @@
+{
+  "labels": {
+    "about-me": "Minust",
+    "languages": "Keeled",
+    "computer-skills": "Arvutioskus",
+    "education": "Haridus",
+    "expierience": "Töökogemus",
+    "licenses": "Sõiduoskus",
+    "expectations": "Ootused töökohale",
+    "certification": "Sertifikaadid"
+  },
+  "gender": {
+    "label": "Sugu",
+    "male": "Mees",
+    "women": "Naine"
+  },
+  "expierience": {
+    "label": "Kogemus",
+    "uptoOne": "< 1 aasta",
+    "oneToThree": "1-3 aastat",
+    "threeToFive": "3-5 aastat",
+    "fiveToTen": "5-10 aastat",
+    "tenToFifteen": "10-15 aastat",
+    "moreThanFifteen": "15+ aastat"
+  },
+
+  "knowladge-gained": {
+    "selfTaught": "Ise õppinud",
+    "course": "Kursus",
+    "freelance": "Vabakutseline",
+    "contractProject": "Projektipõhine leping",
+    "fullTimeJob": "Täistöökohaga",
+    "other": "Muu"
+  },
+  "qualification": {
+    "primary": "Põhiharidus",
+    "secondary": "Keskharidus",
+    "vocational": "Kutseharidus",
+    "bachelors": "Bakalaureus",
+    "master": "Magister",
+    "doctorate": "Doktor",
+    "other": "Muu"
+  },
+
+  "seniority": {
+    "title": "Positsioon",
+    "volunteer": "Vabatahtlik",
+    "intern": "Praktikant",
+    "junior": "Juunior",
+    "intermediate": "Kesk",
+    "senior": "Seenior",
+    "executive": "Täidesaatev",
+    "ceo": "Tegevjuht",
+    "other": "Muu"
+  },
+
+  "avarage-grade": "Keskmine hinne",
+  "present": "Praegu",
+  "license-category": "Litsentsi kategooria"
+}

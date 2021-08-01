@@ -1,0 +1,384 @@
+{
+  "overview": {
+    "button-label": {
+      "change": "Muuda pilti",
+      "delete": "Kustuta pilt",
+      "save-all": "Salvesta kõik",
+      "preview": "Eelvaade"
+    },
+    "setting-label": "Ostetud",
+    "delete-avatar-modal": {
+      "header": "Kustuta avatar",
+      "body": "Kas soovid kustutada oma avatari?",
+      "submit": "Kustuta",
+      "cancel": "Tühista"
+    }
+  },
+  "hover-texts": {
+    "real-estate": "Kinnisvara postitused",
+    "transport": "Transpordi postitused",
+    "job": "Töökohtade postitused",
+    "browser": "Sirvi CV-d"
+  },
+  "left-tab": {
+    "navigation": "Navigeerimine",
+    "titles": {
+      "profile": "Profiil",
+      "cv": "CV",
+      "real-estate": "Kinnisvara",
+      "transport": "Transport",
+      "jobs": "Töökohad",
+      "browser": "Sirvi CV-d",
+      "payment": "Maksekviitungid",
+      "logout": "Logi välja"
+    }
+  },
+  "right-content": {
+    "prev-button": "Eelmine samm",
+    "next-button": "Järgmine samm",
+    "profile": {
+      "personal-details": {
+        "heading": "Isiklikud detailid:",
+        "labels": {
+          "profession": "Elukutse tüüp",
+          "first-name": "Eesnimi",
+          "last-name": "Perekonnanimi",
+          "email": "Sinu e-mail",
+          "phone-number": "Telefoninumber",
+          "about-me-heading": "Minust",
+          "about-me": "Mille poolest sa silma paistad?",
+          "country": "Riik",
+          "state": "Osariik/regioon",
+          "city": "Linn",
+          "birth-date": "Sünniaeg",
+          "gender": {
+            "label": "Sugu",
+            "men": "Mees",
+            "women": "Naine",
+            "not-specified": "Ära näita"
+          },
+          "age": {
+            "label": "Näita vanust",
+            "yes": "Jah",
+            "no": "Ei",
+            "only-birth-date": "Ainult sünnikuupäeva"
+          }
+        },
+        "button-save": "Salvesta muudatused"
+      },
+      "password-form": {
+        "text": "Muuda parooli:",
+        "old-password": "Vana parool",
+        "new-password": "Uus parool",
+        "confirm-password": "Kinnita parool",
+        "button-save": "Salvesta parool",
+        "validation": {
+          "current-password-required": "Palun kinnita parool",
+          "new-password-required": "Uus parool on puudu",
+          "password-not-match": "Paroolid ei ühti",
+          "confirm-password-required": "Palun kinnita parool"
+        }
+      },
+      "delete-form": {
+        "text": "Kustuta konto:",
+        "content": "Kas soovid konto kustutada? Palun vajuta all 'kustuta' nuppu",
+        "button-delete": "Kustuta konto"
+      },
+      "validation": {
+        "first-name": "Eesnimi nõutud",
+        "last-name": "Perekonnanimi nõutud"
+      }
+    },
+    "tabs": {
+      "actions": {
+        "sell": "Müüa",
+        "rent": "Rentida",
+        "exchange": "Vahetada"
+      },
+      "common": {
+        "button-edit": "Kohenda",
+        "button-reviews": "Arvustused",
+        "button-delete": "Kustuta",
+        "days-left": "päeva jäänud",
+        "title": "Minu kuulutused",
+        "highest": "Kõrgeim pakkumine",
+        "lowest": "Madalaim pakkumine"
+      },
+      "job": {
+        "count": "Kandideerijate arv",
+        "avarage": "Keskmine pakkumine",
+        "lowest": "Madalaim pakkumine",
+        "highest": "Kõrgeim pakkumine",
+        "button": "Vaata kõiki"
+      },
+      "browser": {
+        "common": {
+          "area": "Töövaldkond"
+        },
+        "title": "Sirvi CV-d",
+        "search": {
+          "button": "Otsi",
+          "expirience": {
+            "label": "Kogemus",
+            "options": {}
+          },
+          "hourly-to": "Tunnipõhine kuni",
+          "monthly-to": "Kuine kuni",
+          "annual-to": "Aastane kuni"
+        },
+        "table": {
+          "name": "Nimi",
+          "email": "E-mail",
+          "phone": "Telefoninumber",
+          "salary": "Palgaootus"
+        }
+      },
+      "receipt": {
+        "title": "Maksekviitungid",
+        "search": {
+          "search-from": "Vali alguskuupäev",
+          "search-to": "Vali lõppkuupäev",
+          "button": "Otsi"
+        },
+        "table": {
+          "order": "Tellimuse nr.",
+          "date": "Kuupäev",
+          "premium": "Promotud",
+          "add-days": "Lisa päevad",
+          "type": "Kuulutuse tüüp"
+        }
+      }
+    },
+    "cv": {
+      "title": "Curriculum Vitae",
+      "sections": {
+        "personal-details": {
+          "form": {
+            "title": "Isiklikud detailid",
+            "first-name": "Eesnimi",
+            "last-name": "Perekonnanimi",
+            "email": "E-mail",
+            "phone": "Telefon",
+            "birthday": "Sünniaeg",
+            "age": {
+              "label": "Näita vanust",
+              "options": {
+                "yes": "Jah",
+                "no": "Ei",
+                "only-birthdate": "Ainult sünnikuupäeva"
+              }
+            },
+            "gender": {
+              "label": "Sugu",
+              "options": {
+                "male": "Mees",
+                "female": "Naine",
+                "dont–show": "Ära näita"
+              }
+            },
+            "about-me": "Mille poolest sa silma paistad?"
+          }
+        },
+        "education": {
+          "title": "Haridus",
+          "accordion": {
+            "school": "Kooli nimi",
+            "country": "Riik",
+            "from-date": "Alates kuupäevast",
+            "to-date": "Kuni kuupäevani",
+            "study-area": "Eriala",
+            "qualification": {
+              "title": "Kvalifikatsioon",
+              "options": {
+                "primary": "Põhiharidus",
+                "secondary": "Keskharidus",
+                "vocational": "Kutseharidus",
+                "bachelors": "Bakalaureus",
+                "master": "Magister",
+                "doctorate": "Doktor",
+                "other": "Muu"
+              }
+            },
+            "best-fit": "Elukutse sobivus",
+            "grade": "Keskmine hinne",
+            "button-add": "Lisa haridus"
+          }
+        },
+        "expierience": {
+          "title": "Töökogemus",
+
+          "company-name": "Ettevõtte nimi",
+          "from-date": "Alates kuupäevast",
+          "to-date": "Kuni kuupäevani",
+          "work-area": "Töövaldkond",
+          "position": "Positsioon",
+          "position-description": "Positsiooni kirjeldus",
+          "sector": "Töö kategooria",
+          "seniority": {
+            "title": "Positsioon",
+            "options": {
+              "volunteer": "Vabatahtlik",
+              "intern": "Praktikant",
+              "junior": "Juunior",
+              "intermediate": "Kesk",
+              "senior": "Seenior",
+              "executive": "Täidesaatev",
+              "ceo": "Tegevjuht",
+              "other": "Muu"
+            }
+          },
+
+          "button-add": "Lisa kogemus"
+        },
+        "languages": {
+          "title": "Keeleoskused",
+          "accordion": {
+            "language": "Keel",
+            "certificate": "Sertifikaadi nimi",
+            "level": {
+              "label": "Tase",
+              "options": {
+                "a1": "A1",
+                "a2": "A2",
+                "b1": "B1",
+                "b2": "B2",
+                "c1": "C1",
+                "c2": "C2",
+                "native": "emakeel"
+              }
+            },
+            "button-add": "Lisa oskus"
+          }
+        },
+        "computer": {
+          "title": "Arvutioskused",
+          "accordion": {
+            "skill-name": "Arvutioskus",
+            "knowladge-gained": {
+              "label": "Õpitud teadmised",
+              "options": {
+                "selfTaught": "Iseõppinud",
+                "course": "Kursus",
+                "freelance": "Vabakutseline",
+                "contractProject": "Projektipõhine leping",
+                "fullTimeJob": "Täisajaga töötamine",
+                "other": "Muu"
+              }
+            },
+            "expierience": {
+              "label": "Kogemus",
+              "uptoOne": "< 1 aastat",
+              "oneToThree": "1-3 aastat",
+              "threeToFive": "3-5 aastat",
+              "fiveToTen": "5-10 aastat",
+              "tenToFifteen": "10-15 aastat",
+              "moreThanFifteen": "15+ aastat"
+            },
+            "certificate": "Sertifikaadi nimi",
+            "button-add": "Lisa oskus"
+          }
+        },
+        "licenses": {
+          "title": "Sõiduõigus",
+          "accordion": {
+            "country": "Väljaandja riik",
+            "expierience": {
+              "label": "Kogemus",
+              "uptoOne": "< 1 aasta",
+              "oneToThree": "1-3 aastat",
+              "threeToFive": "3-5 aastat",
+              "fiveToTen": "5-10 aastat",
+              "tenToFifteen": "10-15 aastat",
+              "moreThanFifteen": "15+ aastat"
+            },
+            "category": "Loa kategooria",
+            "button-add": "Lisa luba"
+          }
+        },
+        "expectations": {
+          "title": "Ootused tööle",
+          "accordion": {
+            "title": "Ootused tööle",
+            "interest": "Huvipakkuv valdkond",
+            "position": "Positsioon",
+            "seniority": {
+              "title": "Positsioon",
+              "options": {
+                "volunteer": "Vabatahtlik",
+                "intern": "Praktikant",
+                "junior": "Juunior",
+                "intermediate": "Kesk",
+                "senior": "Seenior",
+                "executive": "Täidesaatev",
+                "ceo": "Tegevjuht",
+                "other": "Muu"
+              }
+            },
+            "hourly": "Tunnine alates",
+            "monthly": "Kuine alates",
+            "yearly": "Aastane alates",
+            "button-add": "Lisa ootus"
+          }
+        }
+      }
+    },
+    "browser-cv": {
+      "browser": "Sirvi CV-d",
+      "search": "Otsi",
+      "work-expierience": "Töökogemus",
+      "work-expectations": "Ootused tööle",
+      "education-fit": "Hariduse sobivus",
+      "salary-hourly": "Tunnine palk kuni",
+      "salary-monthly": "Kuine palk kuni",
+      "salary-annual": "Kuine palk kuni",
+      "seniority": "Positsioon",
+      "monthly": "/monthly",
+      "result-table": {
+        "nr": "Nr.",
+        "name": "Täisnimi",
+        "email": "E-mail",
+        "phone": "Telefon",
+        "worked-as": "Eelmine positsioon",
+        "salary": "Palgaootus",
+        "cv": "CV",
+        "view": "Vaata"
+      }
+    },
+    "receipt": {
+      "title": "Maksekviitungid",
+      "start-date": "Alguskuupäev",
+      "end-date": "Lõppkuupäev",
+      "table": {
+        "reference": "Tellimus #",
+        "date": "Kuupäev",
+        "purchase": "Plaan",
+        "total": "Kogus",
+        "status": "Staatus"
+      }
+    }
+  },
+  "toast": {
+    "succes": "Profiili uuendati",
+    "fail": "Profiili ei uuendatud",
+    "avatar": "Avatari uuendati",
+    "avatar-fail": "Avatari uuendamine ebaõnnestus",
+    "avatar-remove": "Avatar eemldati",
+    "avatar-remove-fail": "Avatari ei eemaldatud",
+    "logout": "Välja logitud",
+    "password": "Parooli muudeti",
+    "password-fail": "Parooli ei muudetud",
+    "item-deleted": "Kuulutus kustutatud"
+  },
+  "delete-modal": {
+    "header": "Kustuta kuulutus",
+    "body": "Kas oled kindel, et soovid kuulutuse kustutada?",
+    "cancel": "Tühista",
+    "delete": "Kustuta"
+  },
+  "delete-account": {
+    "header": "Kustuta konto",
+    "body": "Kas oled kindel, et soovid konto kustutada?",
+    "cancel": "Tühista",
+    "delete": "Kustuta"
+  }
+}

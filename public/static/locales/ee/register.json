@@ -1,0 +1,27 @@
+{
+  "heading": "Registreeru",
+  "form": {
+    "first-name": "Eesnimi",
+    "last-name": "Perekonnanimi",
+    "your-email": "Kirjuta e-mail",
+    "email": "E-mail",
+    "password": "Parool",
+    "confirm-password": "Kinnita parool",
+    "submit": "Registreeru",
+    "terms-text": "Nõustun",
+    "terms-link": "Tingimused",
+    "error": {
+      "email-invalid": "E-mail ei ole korrektne.",
+      "email-required": "E-mail on nõutud.",
+      "password-required": "Parool on nõutud",
+      "first-name-required": "Eesnimi on nõutud",
+      "last-name-required": "Perekonnanimi on nõutud"
+    }
+  },
+  "or": "Või registreeru kasutades",
+  "facebook": "Facebook",
+  "google": "Google",
+  "account": "Konto on juba olemas?",
+  "sign-in": "Logi sisse",
+  "success-text": "Hurraa, alustame!"
+}

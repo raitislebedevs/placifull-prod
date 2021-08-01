@@ -1,0 +1,86 @@
+{
+  "common": {
+    "name": "Kuulutuse nimi on nõutud.",
+    "currency": {
+      "required": "Valuuta on nõutud."
+    },
+
+    "category": "Kategooria on nõutud.",
+    "action": "Tehing on nõutud.",
+    "condition": "Seisukord on nõutud.",
+
+    "country": "Riik on nõutud.",
+    "city": "Vali linn",
+    "description": {
+      "minLength": "Kirjeldus peab olema 20 tähemärki pikk.",
+      "maxLength": "Kirjeldus ei tohi ületada 1000 tähemärki.",
+      "required": "Kirjeldus on nõutud."
+    },
+
+    "gallery": "Galerii on nõutud.",
+
+    "price": {
+      "minLength": "Hind peab olema suurem kui 0.",
+      "maxLength": "Hind ei tohi üledada 999,999,999,999.00",
+      "required": "Hind on nõutud."
+    },
+    "phone": {
+      "minLength": "Telefoninumber peab sisaldama 6 numbrit.",
+      "maxLength": "Telefoninumber ei tohi ületada 20 numbrit.",
+      "required": "Telefoninumber on nõutud."
+    },
+    "email": {
+      "valid": "Palun lisa korrektne e-mail",
+      "required": "E-mail on nõutud."
+    },
+    "contact": {
+      "required": "Kontakteerumise aeg on nõutud."
+    }
+  },
+
+  "real-estate": {
+    "address": {
+      "mapPoint": "Palun märki kaardile aadress",
+      "address": "Kuulutuse aadress on nõutud."
+    },
+    "rooms": "Tubade arv on nõutud.",
+    "area": "Kinnisvara valdkond on nõutud",
+    "baths": "Vannitubade arv on nõutud"
+  },
+
+  "transport": {
+    "type": "Sõiduki tüüp on nõutud.",
+    "brand": {
+      "minLength": "Sõiduki mark peab olema 0+ tähemärki pikk.",
+      "maxLength": "Sõiduki mark ei tohi ületada n tähemärki.",
+      "required": "Sõiduki mark on nõutud."
+    },
+
+    "model": {
+      "minLength": "Sõiduki mudel peab olema 0+ tähemärki pikk.",
+      "maxLength": "Sõiduki mudel ei tohi ületada n tähemärki.",
+      "required": "Sõiduki mark on nõutud."
+    },
+    "address": {
+      "mapPoint": "Kohtumine kaardil on nõutud",
+      "address": "Kohtumise aadress on nõutud."
+    },
+    "engine": "Mootoritüüp on nõutud",
+    "gear": "Käigukast on nõutud"
+  },
+
+  "job": {
+    "address": {
+      "mapPoint": "Kontori asukoht kaardil on nõutud",
+      "address": "Kontori aadress on nõutud."
+    },
+    "gallery": "Ettevõtte logo on nõutud",
+    "monthly-from": "Kuupalk alates on nõutud",
+    "monthly-to": "Kuupalk kuni on nõutud",
+    "logo-size": "Suurus on suurem kui 5 MB"
+  },
+  "email": {
+    "full-name": "Palun lisa oma nimi",
+    "message": "Sõnum on nõutud"
+  }
+}
