@@ -163,7 +163,7 @@ const Education = (props) => {
 
             if (item.type === 'textHalf') {
               return (
-                <Col lg={6} md={6} sm={6} key={item.key + edu.id}>
+                <Col lg={6} md={6} sm={12} key={item.key + edu.id}>
                   <Form.Group>
                     <CustomFormControl
                       id={item.key + edu.id}
@@ -314,8 +314,8 @@ const Education = (props) => {
               return (
                 <Col
                   lg={5}
-                  md={5}
-                  sm={6}
+                  md={4}
+                  sm={5}
                   key={item.key + edu.id}
                   className={'decorator__container'}
                 >
@@ -363,7 +363,7 @@ const Education = (props) => {
               );
             }
           })}
-          <Col xs={2} sm={2} md={1} lg={1} xl={1}>
+          <Col xs={12} sm={1} md={1} lg={1} xl={1}>
             <div className="body__button-wrapper body__button-wrapper--delete">
               <Button
                 variant="outline-primary"

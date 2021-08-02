@@ -93,7 +93,7 @@ const PersonalDetails = (props) => {
             )}
             {isCVPublished ? (
               <Button
-                variant="outline-primary"
+                variant="success"
                 className="header-wrapper__save btn-sm"
                 onClick={() => setIsCVPublished(!isCVPublished)}
               >
@@ -102,10 +102,10 @@ const PersonalDetails = (props) => {
             ) : (
               <Button
                 onClick={() => setIsCVPublished(!isCVPublished)}
-                variant="outline-primary"
+                variant="warning"
                 className="header-wrapper__save btn-sm"
               >
-                Not Published
+                Hidden
               </Button>
             )}
           </div>

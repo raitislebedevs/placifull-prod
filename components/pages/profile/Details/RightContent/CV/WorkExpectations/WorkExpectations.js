@@ -152,8 +152,8 @@ const WorkExpectations = (props) => {
                 <Col
                   lg={4}
                   md={4}
-                  sm={6}
-                  xs={6}
+                  sm={12}
+                  xs={12}
                   key={item.key + edu.id}
                   className="form__item"
                 >
@@ -234,7 +234,7 @@ const WorkExpectations = (props) => {
             }
             if (item.type === 'deleteButton') {
               return (
-                <Col xs={6} sm={6} md={1} lg={1} xl={1} key={guidGenerator()}>
+                <Col xs={12} sm={1} md={1} lg={1} xl={1} key={guidGenerator()}>
                   <div className="body__button-wrapper body__button-wrapper--delete">
                     <Button
                       variant="outline-primary"
