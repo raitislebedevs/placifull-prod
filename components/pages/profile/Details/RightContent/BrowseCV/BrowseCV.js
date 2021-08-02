@@ -351,6 +351,7 @@ const BrowseCV = (props) => {
       <CurriculamVitaes
         curriculamVitaes={applicantCv}
         show={showCv}
+        setShowCv={setShowCv}
         onHide={() => setShowCv(false)}
       />
 

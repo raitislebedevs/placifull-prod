@@ -575,6 +575,7 @@ const CV = (props) => {
       </Row>
       <CurriculamVitaes
         show={cvModal}
+        setShowCv={setCvModal}
         curriculamVitaes={getPayload()}
         onHide={() => setCvModal(false)}
       />

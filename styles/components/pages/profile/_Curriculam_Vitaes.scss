@@ -2,6 +2,7 @@
   z-index: 9999;
   padding: 0px;
   margin: 0px;
+
   .preview__cv__intro {
     background-color: brown;
     color: #fff;
@@ -109,5 +110,14 @@
   .form-control-container,
   .desc__textarea {
     border: 2px solid #ebedf0;
+  }
+  .close_button_container {
+    position: relative;
+    .cv_close_button {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      cursor: pointer;
+    }
   }
 }
