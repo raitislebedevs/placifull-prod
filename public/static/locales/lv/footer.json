@@ -2,9 +2,9 @@
   "top": {
     "list-menu": {
       "menu-1": {
-        "text-head": "",
+        "text-head": "Sāciet savu ceļojumu",
         "items": {
-          "item-1": "Sākiet Darboties Ar mums"
+          "item-1": "Ko tu vēl gaidi? Sāciet meklēt savu sapņu māju, perfektu automašīnu, sapņu darbu, un valstī, kurā vienmēr gribējāt dzīvot."
         }
       },
       "menu-2": {
@@ -13,7 +13,9 @@
           "item-1": "Par mums",
           "item-2": "Komanda",
           "item-3": "Karjera",
-          "item-4": "Blogs"
+          "item-4": "Blogs",
+          "item-5": "Cenas",
+          "item-6": "Izceltie sludinājumi"
         }
       },
       "menu-3": {
@@ -40,8 +42,8 @@
   },
   "bottom": {
     "left": {
-      "copy-right": "PlacifulĀ Mēs rūpējamies par tevi"
+      "copy-right": "Pie Placifull mēs rūpējamies par tevi"
     },
-    "right": "Placigull Team"
+    "right": "Placifull Team"
   }
 }

@@ -55,7 +55,7 @@ const Footer = (props) => {
               {t('top.list-menu.menu-1.items.item-1')}
             </div>
 
-            <ul className="social__meadia  mb-0 mt-4">
+            {/* <ul className="social__meadia  mb-0 mt-4">
               <li className="list-inline-item top__button-social">
                 <div className="button-social__icon">
                   <FontAwesomeIcon
@@ -85,7 +85,7 @@ const Footer = (props) => {
                   />
                 </div>
               </li>
-            </ul>
+            </ul> */}
           </Col>
 
           <Col
