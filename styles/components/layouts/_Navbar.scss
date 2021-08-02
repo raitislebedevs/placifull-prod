@@ -1,6 +1,6 @@
 .navbar {
   height: 56px;
-  z-index: 9999;
+  z-index: 1350;
   transition: 0.5s all;
   .navbar-nav {
     align-items: center;
@@ -67,7 +67,7 @@
     transform: translateY(-1px);
   }
   .dropdown {
-    z-index: 9999;
+    z-index: 1099;
     .dropdown-toggle {
       &::after {
         content: none;
@@ -182,7 +182,7 @@
 
 .top-loader-bar {
   position: fixed;
-  z-index: 1000000;
+  z-index: 20000;
   top: 0;
   left: 0;
   width: 100%;

@@ -10,6 +10,7 @@ import Rating from 'react-rating';
 import { formatMonth } from 'utils/standaloneFunctions';
 import { useEffect } from 'react';
 import guidGenerator from 'utils/guidGenerator';
+import Container from 'node_modules/react-bootstrap/esm/Container';
 
 const CurriculamVitaes = (props) => {
   const { t, curriculamVitaes } = props;
@@ -70,289 +71,279 @@ const CurriculamVitaes = (props) => {
           keyboard={false}
           className="preview__cv__container"
         >
-          <Row>
-            <Col
-              className="preview__cv__intro"
-              lg={4}
-              xl={4}
-              md={4}
-              sm={12}
-              xs={12}
-            >
-              <Row>
-                <Col lg={12} xl={12} md={12} sm={12} xs={12}>
-                  <div className={'cv__name'}>
-                    {PersonalDetails?.cvFirstName}{' '}
-                    {PersonalDetails?.cvLasttName}
+          <Container>
+            <Row>
+              <Col
+                className="preview__cv__intro"
+                lg={4}
+                xl={4}
+                md={12}
+                sm={12}
+                xs={12}
+              >
+                <div className={'cv__name'}>
+                  {PersonalDetails?.cvFirstName} {PersonalDetails?.cvLasttName}
+                </div>
+                <div className={'cv__role'}>
+                  {PersonalDetails?.cvProfession}
+                </div>
+                <div className={'contact__seperator'}> </div>
+                <div className={'cv__personal__info'}>
+                  <AiOutlineMail className={'cv__icon'} />{' '}
+                  <span> {PersonalDetails?.cvPersonalEmail}</span>
+                </div>
+                <div className={'cv__personal__info'}>
+                  <FiPhone className={'cv__icon'} />{' '}
+                  <span> {PersonalDetails?.cvPhoneNumber}</span>
+                </div>
+                <div className={'cv__personal__info'}>
+                  <AiOutlineCalendar className={'cv__icon'} />{' '}
+                  <span> {PersonalDetails?.birthDay}</span>
+                </div>
+                <div className={'cv__personal__info'}>
+                  <IoMaleFemaleOutline className={'cv__icon'} />{' '}
+                  <span>{t(`cv:gender.${PersonalDetails?.gender}`)} </span>
+                </div>
+                <div className={'cv__personal__info'}>
+                  <IoLocationOutline className={'cv__icon'} />{' '}
+                  <span>
+                    {`${PersonalDetails?.country}, ${PersonalDetails?.state}, ${PersonalDetails?.city}`}
+                  </span>
+                </div>
+                <div className={'cv__section'}>
+                  <div className={'section__header'}>
+                    {t('cv:labels.about-me')}
                   </div>
-                  <div className={'cv__role'}>
-                    {PersonalDetails?.cvProfession}
+                  <div className={'section__body'}>
+                    {PersonalDetails?.aboutMe}
                   </div>
-                  <div className={'contact__seperator'}> </div>
-                  <div className={'cv__personal__info'}>
-                    <AiOutlineMail className={'cv__icon'} />{' '}
-                    <span> {PersonalDetails?.cvPersonalEmail}</span>
+                </div>
+                <div className={'cv__section'}>
+                  <div className={'section__header'}>
+                    {t('cv:labels.languages')}
                   </div>
-                  <div className={'cv__personal__info'}>
-                    <FiPhone className={'cv__icon'} />{' '}
-                    <span> {PersonalDetails?.cvPhoneNumber}</span>
+                  <div className={'section__body'}>
+                    {LanguageSkiills?.map((item) => {
+                      return (
+                        <div
+                          className={'item__container'}
+                          key={guidGenerator()}
+                        >
+                          <span>{item?.languageName}</span>
+                          <span className={'cv__ratings'}>
+                            <Rating
+                              stop={7}
+                              initialRating={getRatingValue(item?.level)}
+                              className="real-estate-item-card__ratings"
+                              readonly
+                              fullSymbol={
+                                <FaCircle className={'full__circle'} />
+                              }
+                              emptySymbol={
+                                <FaCircle className={'empty__circle'} />
+                              }
+                            />
+                          </span>
+                        </div>
+                      );
+                    })}
                   </div>
-                  <div className={'cv__personal__info'}>
-                    <AiOutlineCalendar className={'cv__icon'} />{' '}
-                    <span> {PersonalDetails?.birthDay}</span>
+                </div>
+                <div className={'cv__section'}>
+                  <div className={'section__header'}>
+                    {t('cv:labels.computer-skills')}
                   </div>
-                  <div className={'cv__personal__info'}>
-                    <IoMaleFemaleOutline className={'cv__icon'} />{' '}
-                    <span>{t(`cv:gender.${PersonalDetails?.gender}`)} </span>
+                  <div className={'section__body'}>
+                    {ComputerSkiills?.map((item) => {
+                      return (
+                        <div
+                          className={'item__container'}
+                          key={guidGenerator()}
+                        >
+                          <span>{item?.skill}:</span>
+                          <span className={'cv__ratings'}>
+                            {t(`cv:expierience.${item?.yearExpierience}`)}{' '}
+                            {', '}{' '}
+                            {t(
+                              `cv:knowladge-gained.${item?.expierienceGathered}`
+                            )}
+                          </span>
+                        </div>
+                      );
+                    })}
                   </div>
-                  <div className={'cv__personal__info'}>
-                    <IoLocationOutline className={'cv__icon'} />{' '}
-                    <span>
-                      {`${PersonalDetails?.country}, ${PersonalDetails?.state}, ${PersonalDetails?.city}`}
-                    </span>
-                  </div>
-                  <div className={'cv__section'}>
-                    <div className={'section__header'}>
-                      {t('cv:labels.about-me')}
+                </div>
+              </Col>
+              <Col
+                className="preview__cv__detail"
+                lg={8}
+                xl={8}
+                md={12}
+                sm={12}
+                xs={12}
+              >
+                {EducationHistory?.length > 0 && (
+                  <div className="detail__section" key={guidGenerator()}>
+                    <div className="detail__header">
+                      {t('cv:labels.education')}
                     </div>
-                    <div className={'section__body'}>
-                      {PersonalDetails?.aboutMe}
-                    </div>
-                  </div>
-                  <div className={'cv__section'}>
-                    <div className={'section__header'}>
-                      {t('cv:labels.languages')}
-                    </div>
-                    <div className={'section__body'}>
-                      {LanguageSkiills?.map((item) => {
+                    <div className="body__section">
+                      {EducationHistory?.map((item) => {
                         return (
-                          <div
-                            className={'item__container'}
-                            key={guidGenerator()}
-                          >
-                            <span>{item?.languageName}</span>
-                            <span className={'cv__ratings'}>
-                              <Rating
-                                stop={7}
-                                initialRating={getRatingValue(item?.level)}
-                                className="real-estate-item-card__ratings"
-                                readonly
-                                fullSymbol={
-                                  <FaCircle className={'full__circle'} />
-                                }
-                                emptySymbol={
-                                  <FaCircle className={'empty__circle'} />
-                                }
-                              />
-                            </span>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-                  <div className={'cv__section'}>
-                    <div className={'section__header'}>
-                      {t('cv:labels.computer-skills')}
-                    </div>
-                    <div className={'section__body'}>
-                      {ComputerSkiills?.map((item) => {
-                        return (
-                          <div
-                            className={'item__container'}
-                            key={guidGenerator()}
-                          >
-                            <span>{item?.skill}:</span>
-                            <span className={'cv__ratings'}>
-                              {t(`cv:expierience.${item?.yearExpierience}`)}{' '}
-                              {', '}{' '}
-                              {t(
-                                `cv:knowladge-gained.${item?.expierienceGathered}`
-                              )}
-                            </span>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </Col>
-            <Col
-              className="preview__cv__detail"
-              lg={8}
-              xl={8}
-              md={8}
-              sm={12}
-              xs={12}
-            >
-              <Row>
-                {' '}
-                <Col lg={12} xl={12} md={12} sm={12} xs={12}>
-                  {EducationHistory?.length > 0 && (
-                    <div className="detail__section" key={guidGenerator()}>
-                      <div className="detail__header">
-                        {t('cv:labels.education')}
-                      </div>
-                      <div className="body__section">
-                        {EducationHistory?.map((item) => {
-                          return (
-                            <div key={guidGenerator()}>
-                              <div className="body__header">
-                                {' '}
-                                {item?.studyArea},{' '}
-                                {t(`cv:qualification.${item?.qualification}`)}{' '}
-                              </div>
-                              <Row className="body__content">
-                                <Col className="left__content">
-                                  {item?.schoolName}
-                                </Col>
-                                <Col className="right__content">
-                                  <div className="center">
-                                    {t(`cv:avarage-grade`)}:
-                                    {` ${item?.avarageGrade}`}
-                                  </div>
-                                  <div className="center">
-                                    {item?.fromYear &&
-                                      formatMonth(item?.fromYear, t)}{' '}
-                                    -{' '}
-                                    {item?.toYear
-                                      ? formatMonth(item?.toYear, t)
-                                      : t(`cv:present`)}
-                                  </div>
-                                </Col>
-                              </Row>
-                            </div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  )}
-                  {WorkExpierience?.length > 0 && (
-                    <div className="detail__section" key={guidGenerator()}>
-                      <div className="detail__header">
-                        {t('cv:labels.expierience')}
-                      </div>
-                      <div className="body__section">
-                        {WorkExpierience?.map((item) => {
-                          return (
-                            <div key={guidGenerator()}>
-                              <div className="body__header">
-                                {' '}
-                                {item?.companyName}
-                              </div>
-                              <Row className="body__content">
-                                <Col className="left__content">
-                                  {' '}
-                                  {item?.positionName}
-                                </Col>
-                                <Col className="right__content">
-                                  <div className="center">
-                                    {' '}
-                                    {item?.fromDate &&
-                                      formatMonth(item?.fromDate, t)}{' '}
-                                    -{' '}
-                                    {item?.toDate
-                                      ? formatMonth(item?.toDate, t)
-                                      : t(`cv:present`)}
-                                  </div>
-                                </Col>
-                              </Row>
-                              <Row className={'content__description'}>
-                                {item?.positionDescription}
-                              </Row>
-                            </div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  )}
-                  {TransportLicenses?.length > 0 && (
-                    <div className="detail__section" key={guidGenerator()}>
-                      <div className="detail__header">
-                        {t('cv:labels.licenses')}
-                      </div>
-                      <div className="body__section">
-                        {TransportLicenses?.map((item) => {
-                          return (
-                            <div key={guidGenerator()}>
-                              <div className="body__header">
-                                {item?.issueCountry}
-                              </div>
-                              <Row className="body__content">
-                                <Col className="left__content">
-                                  {t(`cv:license-category`)}: {item?.licence}
-                                </Col>
-                                <Col className="right__content">
-                                  <div className="center">
-                                    {t(
-                                      `cv:expierience.${item?.yearExpierience}`
-                                    )}{' '}
-                                    {t(`cv:expierience.label`)}{' '}
-                                  </div>
-                                </Col>
-                              </Row>
-                            </div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  )}
-                  {WorkExpectations?.length > 0 && (
-                    <div className="detail__section" key={guidGenerator()}>
-                      <div className="detail__header">
-                        {t('cv:labels.expectations')}
-                      </div>
-                      <div className="body__section">
-                        {WorkExpectations?.map((item) => {
-                          return (
-                            <div key={guidGenerator()}>
+                          <div key={guidGenerator()}>
+                            <div className="body__header">
                               {' '}
-                              <div className="body__header">
-                                {' '}
-                                {item?.position}
-                              </div>
-                              <Row className="body__content">
-                                <Col className="left__content">
-                                  <div>
-                                    {t(
-                                      `job-common:work-area.options.${item?.vacancyOption}`
-                                    )}
-                                  </div>
-                                </Col>
-                                <Col className="right__content">
-                                  {item?.hourlyRate && (
-                                    <div className="center">
-                                      {t(`job-common:salary.hourly-rate-from`)}:{' '}
-                                      {currency?.symbol}
-                                      {item.hourlyRate}
-                                    </div>
-                                  )}
-                                  {item?.monthly && (
-                                    <div className="center">
-                                      {t(`job-common:salary.monthly-from`)}:{' '}
-                                      {currency?.symbol}
-                                      {item.monthly}
-                                    </div>
-                                  )}
-                                  {item?.yearly && (
-                                    <div className="center">
-                                      {t(`job-common:salary.annual-from`)}:{' '}
-                                      {currency?.symbol}
-                                      {item.yearly}
-                                    </div>
-                                  )}
-                                </Col>
-                              </Row>
+                              {item?.studyArea},{' '}
+                              {t(`cv:qualification.${item?.qualification}`)}{' '}
                             </div>
-                          );
-                        })}
-                      </div>
+                            <Row className="body__content">
+                              <Col className="left__content">
+                                {item?.schoolName}
+                              </Col>
+                              <Col className="right__content">
+                                <div className="center">
+                                  {t(`cv:avarage-grade`)}:
+                                  {` ${item?.avarageGrade}`}
+                                </div>
+                                <div className="center">
+                                  {item?.fromYear &&
+                                    formatMonth(item?.fromYear, t)}{' '}
+                                  -{' '}
+                                  {item?.toYear
+                                    ? formatMonth(item?.toYear, t)
+                                    : t(`cv:present`)}
+                                </div>
+                              </Col>
+                            </Row>
+                          </div>
+                        );
+                      })}
                     </div>
-                  )}
-                </Col>
-              </Row>
-            </Col>
-          </Row>
+                  </div>
+                )}
+                {WorkExpierience?.length > 0 && (
+                  <div className="detail__section" key={guidGenerator()}>
+                    <div className="detail__header">
+                      {t('cv:labels.expierience')}
+                    </div>
+                    <div className="body__section">
+                      {WorkExpierience?.map((item) => {
+                        return (
+                          <div key={guidGenerator()}>
+                            <div className="body__header">
+                              {' '}
+                              {item?.companyName}
+                            </div>
+                            <Row className="body__content">
+                              <Col className="left__content">
+                                {' '}
+                                {item?.positionName}
+                              </Col>
+                              <Col className="right__content">
+                                <div className="center">
+                                  {' '}
+                                  {item?.fromDate &&
+                                    formatMonth(item?.fromDate, t)}{' '}
+                                  -{' '}
+                                  {item?.toDate
+                                    ? formatMonth(item?.toDate, t)
+                                    : t(`cv:present`)}
+                                </div>
+                              </Col>
+                            </Row>
+                            <Row className={'content__description'}>
+                              {item?.positionDescription}
+                            </Row>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+                {TransportLicenses?.length > 0 && (
+                  <div className="detail__section" key={guidGenerator()}>
+                    <div className="detail__header">
+                      {t('cv:labels.licenses')}
+                    </div>
+                    <div className="body__section">
+                      {TransportLicenses?.map((item) => {
+                        return (
+                          <div key={guidGenerator()}>
+                            <div className="body__header">
+                              {item?.issueCountry}
+                            </div>
+                            <Row className="body__content">
+                              <Col className="left__content">
+                                {t(`cv:license-category`)}: {item?.licence}
+                              </Col>
+                              <Col className="right__content">
+                                <div className="center">
+                                  {t(`cv:expierience.${item?.yearExpierience}`)}{' '}
+                                  {t(`cv:expierience.label`)}{' '}
+                                </div>
+                              </Col>
+                            </Row>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+                {WorkExpectations?.length > 0 && (
+                  <div className="detail__section" key={guidGenerator()}>
+                    <div className="detail__header">
+                      {t('cv:labels.expectations')}
+                    </div>
+                    <div className="body__section">
+                      {WorkExpectations?.map((item) => {
+                        return (
+                          <div key={guidGenerator()}>
+                            {' '}
+                            <div className="body__header">
+                              {' '}
+                              {item?.position}
+                            </div>
+                            <Row className="body__content">
+                              <Col className="left__content">
+                                <div>
+                                  {t(
+                                    `job-common:work-area.options.${item?.vacancyOption}`
+                                  )}
+                                </div>
+                              </Col>
+                              <Col className="right__content">
+                                {item?.hourlyRate && (
+                                  <div className="center">
+                                    {t(`job-common:salary.hourly-rate-from`)}:{' '}
+                                    {currency?.symbol}
+                                    {item.hourlyRate}
+                                  </div>
+                                )}
+                                {item?.monthly && (
+                                  <div className="center">
+                                    {t(`job-common:salary.monthly-from`)}:{' '}
+                                    {currency?.symbol}
+                                    {item.monthly}
+                                  </div>
+                                )}
+                                {item?.yearly && (
+                                  <div className="center">
+                                    {t(`job-common:salary.annual-from`)}:{' '}
+                                    {currency?.symbol}
+                                    {item.yearly}
+                                  </div>
+                                )}
+                              </Col>
+                            </Row>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+              </Col>
+            </Row>
+          </Container>
         </Modal>
       )}
     </>

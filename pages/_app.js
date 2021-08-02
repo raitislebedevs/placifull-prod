@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { Provider } from 'react-redux';
 import { useStore } from '../store/';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -118,6 +118,8 @@ function App(props) {
   const { Component, pageProps } = props;
   const store = useStore(pageProps.initialReduxState);
 
+  const [scrollY, setScrollY] = useState(0);
+
   useEffect(() => {
     scrollRef.current.scrollIntoView({
       behavior: 'smooth',
@@ -147,6 +149,7 @@ function App(props) {
         pauseOnHover
         transition={Zoom}
       />
+
       <Button
         className="btn-back-to-top"
         onClick={() =>
