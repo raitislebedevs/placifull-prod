@@ -48,11 +48,11 @@ const Footer = (props) => {
           >
             <h5 className="text-light top__head">
               {' '}
-              {t('top.list-menu.menu-1.text-head')}
+              {t('footer:top.list-menu.menu-1.text-head')}
             </h5>
 
             <div className="top__head">
-              {t('top.list-menu.menu-1.items.item-1')}
+              {t('footer:top.list-menu.menu-1.items.item-1')}
             </div>
 
             {/* <ul className="social__meadia  mb-0 mt-4">
@@ -97,41 +97,48 @@ const Footer = (props) => {
             className="mt-4 mt-sm-0 pt-2 pt-sm-0"
           >
             <h5 className="text-light top__head">
-              {t('top.list-menu.menu-2.text-head')}
+              {t('footer:top.list-menu.menu-2.text-head')}
             </h5>
             <ul className="list-unstyled top__list mt-4">
               <li>
                 <a href="/#about-us" className="list__items">
                   <FontAwesomeIcon icon="chevron-right" className="icon" />{' '}
-                  {t('top.list-menu.menu-2.items.item-1')}
+                  {t('footer:top.list-menu.menu-2.items.item-1')}
                 </a>
               </li>
               <li>
                 <a href="/#about-us" className="list__items">
                   {' '}
                   <FontAwesomeIcon icon="chevron-right" className="icon" />{' '}
-                  {t('top.list-menu.menu-2.items.item-2')}
+                  {t('footer:top.list-menu.menu-2.items.item-2')}
                 </a>
               </li>
               <li>
                 <a href="/#pricing-panel" className="list__items">
                   {' '}
                   <FontAwesomeIcon icon="chevron-right" className="icon" />{' '}
-                  {t('top.list-menu.menu-2.items.item-5')}
+                  {t('footer:top.list-menu.menu-2.items.item-5')}
                 </a>
               </li>
               <li>
                 <a href="/#promoted-section" className="list__items">
                   {' '}
                   <FontAwesomeIcon icon="chevron-right" className="icon" />{' '}
-                  {t('top.list-menu.menu-2.items.item-6')}
+                  {t('footer:top.list-menu.menu-2.items.item-6')}
+                </a>
+              </li>
+              <li>
+                <a href="/voting-board" className="list__items">
+                  {' '}
+                  <FontAwesomeIcon icon="chevron-right" className="icon" />{' '}
+                  {t('footer:top.list-menu.menu-2.items.item-7')}
                 </a>
               </li>
               <li>
                 <a href="/" className="list__items">
                   {' '}
                   <FontAwesomeIcon icon="chevron-right" className="icon" />{' '}
-                  {t('top.list-menu.menu-2.items.item-4')}
+                  {t('footer:top.list-menu.menu-2.items.item-4')}
                 </a>
               </li>
             </ul>
@@ -146,14 +153,14 @@ const Footer = (props) => {
             className=" mt-4 mt-sm-0 pt-2 pt-sm-0"
           >
             <h5 className="text-light top-head">
-              {t('top.list-menu.menu-3.text-head')}
+              {t('footer:top.list-menu.menu-3.text-head')}
             </h5>
             <ul className="list-unstyled top__list mt-4">
               <li>
                 <Link id="sign-in" href="/sign-in">
                   <a className="list__items">
                     <FontAwesomeIcon icon="chevron-right" className="icon" />
-                    {t('top.list-menu.menu-3.items.item-1')}
+                    {t('footer:top.list-menu.menu-3.items.item-1')}
                   </a>
                 </Link>
               </li>
@@ -161,7 +168,7 @@ const Footer = (props) => {
                 <Link id="register" href="/register">
                   <a className="list__items">
                     <FontAwesomeIcon icon="chevron-right" className="icon" />
-                    {t('top.list-menu.menu-3.items.item-2')}
+                    {t('footer:top.list-menu.menu-3.items.item-2')}
                   </a>
                 </Link>
               </li>
@@ -169,7 +176,7 @@ const Footer = (props) => {
                 <Link id="real-estate" href="/real-estate">
                   <a className="list__items">
                     <FontAwesomeIcon icon="chevron-right" className="icon" />
-                    {t('top.list-menu.menu-3.items.item-3')}
+                    {t('footer:top.list-menu.menu-3.items.item-3')}
                   </a>
                 </Link>
               </li>
@@ -177,7 +184,7 @@ const Footer = (props) => {
                 <Link id="transport" href="/transport">
                   <a className="list__items">
                     <FontAwesomeIcon icon="chevron-right" className="icon" />
-                    {t('top.list-menu.menu-3.items.item-4')}
+                    {t('footer:top.list-menu.menu-3.items.item-4')}
                   </a>
                 </Link>
               </li>
@@ -185,7 +192,7 @@ const Footer = (props) => {
                 <Link id="job-search" href="/job-search">
                   <a className="list__items">
                     <FontAwesomeIcon icon="chevron-right" className="icon" />
-                    {t('top.list-menu.menu-3.items.item-5')}
+                    {t('footer:top.list-menu.menu-3.items.item-5')}
                   </a>
                 </Link>
               </li>
@@ -193,7 +200,7 @@ const Footer = (props) => {
                 <Link id="terms" href="/terms">
                   <a className="list__items">
                     <FontAwesomeIcon icon="chevron-right" className="icon" />
-                    {t('top.list-menu.menu-3.items.item-6')}
+                    {t('footer:top.list-menu.menu-3.items.item-6')}
                   </a>
                 </Link>
               </li>
@@ -209,7 +216,7 @@ const Footer = (props) => {
             className="mt-4 mt-sm-0 pt-2 pt-sm-0"
           >
             <h5 className="text-light top-head">
-              {t('top.list-menu.menu-4.text-head')}
+              {t('footer:top.list-menu.menu-4.text-head')}
             </h5>
             <p className="mt-4">{t('top.list-menu.menu-4.items.item-1')}</p>
             <Form>
@@ -217,7 +224,7 @@ const Footer = (props) => {
                 <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                   <div className="top-form-contact">
                     <label>
-                      {t('top.list-menu.menu-4.items.item-2')}
+                      {t('footer:top.list-menu.menu-4.items.item-2')}
                       <span className="text-danger">*</span>
                     </label>
                     <div className="form-contact__input">
@@ -244,7 +251,7 @@ const Footer = (props) => {
                     onClick={(e) => handleSubcriber(e)}
                     disabled={isSubscribing}
                   >
-                    {t('top.list-menu.menu-4.items.item-4')}
+                    {t('footer:top.list-menu.menu-4.items.item-4')}
                   </Button>
                 </Col>
               </Row>
@@ -259,12 +266,12 @@ const Footer = (props) => {
               <div className="text-sm-left">
                 <p className="mb-0">
                   ©{' ' + new Date().getFullYear() + ' '}
-                  {t('bottom.left.copy-right') + `     `}
+                  {t('footer:bottom.left.copy-right') + `     `}
                   <FontAwesomeIcon
                     icon={['fa', 'heart']}
                     className="icon text-danger"
                   />
-                  {` `}. {t('bottom.right')}
+                  {` `}. {t('footer:bottom.right')}
                 </p>
               </div>
             </Col>

@@ -188,7 +188,7 @@ const TermSection = (props) => {
             Still have a questions?
           </h3>
           <p className="terms-container__content--text">
-            {`Please contact us from the contact page, and we will get back to you as soon as possible.
+            {`Please contact us from the contact page, and we will get back to you as soon as possible. In short we want to do what ever we can to make this site better
          `}
           </p>
         </div>

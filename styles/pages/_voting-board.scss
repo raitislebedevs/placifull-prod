@@ -1,0 +1,105 @@
+.voting_container {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  .feature_suggestion {
+    border-right: 2px solid rgb(0, 0, 0, 0.1);
+    @include media-breakpoint-down(md) {
+      border: none;
+      border-bottom: 2px solid rgb(0, 0, 0, 0.1);
+      padding-bottom: 15px;
+    }
+    .separator {
+      margin: 15px 0px;
+      border-top: 3px solid theme-color("primary");
+      max-width: 25%;
+    }
+  }
+
+  .info {
+    h6 {
+      font-size: 18px;
+      padding-bottom: 5px;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include media-breakpoint-down(md) {
+      padding-top: 15px;
+    }
+    .upvote__count {
+      font-size: 16px;
+      > svg {
+        color: theme-color("primary");
+        font-size: 37px;
+      }
+      padding: 0px 10px;
+    }
+    .up_down_button {
+      padding-top: 10px;
+      .voting__options {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 10px;
+
+        .upvote {
+          > svg {
+            border: 1px solid green;
+            border-radius: 25px;
+            padding: 3px;
+            font-size: 37px;
+            color: green;
+            &:hover {
+              background-color: green;
+              color: #fff;
+              cursor: pointer;
+            }
+          }
+        }
+        .downvote {
+          > svg {
+            border: 1px solid red;
+            border-radius: 25px;
+            padding: 3px;
+            font-size: 37px;
+            color: red;
+            &:hover {
+              background-color: red;
+              color: #fff;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+    .rating_container {
+      .voting__ratings {
+        color: gold;
+        z-index: 2;
+        right: 10px;
+        font-size: 30px;
+        padding-bottom: 25px;
+      }
+      .count {
+        padding: 0px 10px;
+        font-size: 27px;
+      }
+    }
+    .vote_button {
+      background-color: theme-color("primary");
+      color: #fff;
+      text-align: center;
+      padding: 10px 0px;
+      border-radius: 15px;
+      &:hover {
+        background-color: darken($color: theme-color("primary"), $amount: 10);
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+
+    padding-left: 25px;
+  }
+}
