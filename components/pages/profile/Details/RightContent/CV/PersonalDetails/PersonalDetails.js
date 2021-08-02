@@ -167,7 +167,13 @@ const PersonalDetails = (props) => {
           }
           if (item.type === 'dateTime') {
             return (
-              <Col lg={4} md={4} sm={6} key={item.key}>
+              <Col
+                lg={4}
+                md={4}
+                sm={12}
+                key={item.key}
+                className={'birthday_container'}
+              >
                 <Datetime
                   inputProps={{ className: 'datetime' }}
                   value={

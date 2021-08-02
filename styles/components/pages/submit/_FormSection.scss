@@ -39,7 +39,6 @@
     }
   }
   .form__section {
-    border-radius: 10px;
     background-color: white;
     border-top-left-radius: 0px;
     padding: 20px 20px;
@@ -47,8 +46,8 @@
     border-bottom-right-radius: 0;
 
     .datetime {
-      border: 1px solid #ebedf0;
-      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      //box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
       border-radius: 7px;
       background-color: white;
       padding: 19px 19px;
@@ -66,26 +65,64 @@
       margin-bottom: 0.5rem;
 
       .desc__textarea {
-        border: 1px solid #ebedf0;
-        border-radius: 10px;
-
         textarea {
           background-color: white;
         }
-        .input-group-prepend,
+
+        .form-control-container {
+          .form-control {
+            border-radius: 10px;
+          }
+          input[type="text"],
+          input[type="number"] {
+            background-color: white;
+          }
+        }
+        .form-control-container--has-prepend {
+          .form-control {
+            border-radius: 0px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+          }
+        }
+        .input-group-prepend {
+          .Dropdown-root {
+            .Dropdown-control {
+              background-color: white;
+              padding: 14px 20px 11px 10px;
+              border-top-left-radius: 10px;
+              border-bottom-left-radius: 10px;
+            }
+          }
+        }
+
+        .form-control-container--has-append {
+          .form-control {
+            border-radius: 0px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+          }
+        }
+
         .input-group-append {
           .Dropdown-root {
             .Dropdown-control {
+              border-top-right-radius: 10px;
+              border-bottom-right-radius: 10px;
               background-color: white;
               padding: 14px 20px 11px 10px;
             }
           }
         }
-
-        .form-control-container {
-          input[type="text"],
-          input[type="number"] {
-            background-color: white;
+        .input-group-append {
+          .areaMeasurement {
+            .Dropdown-placeholder {
+              &::after {
+                content: "2";
+                font-size: 10px;
+                vertical-align: super;
+              }
+            }
           }
         }
       }

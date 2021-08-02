@@ -14,12 +14,14 @@ const customStyles = {
     paddingLeft: '10px',
     paddingRight: '10px',
     minHeight: '50px',
-    boxShadow: '0 0 0 1px rgba(0, 0, 0, 0.1)',
+    //boxShadow: '0 0 0 1px rgba(0, 0, 0, 0.1)',
     ':hover': {
       ...provided[':hover'],
       border: '1px solid #d5d9df',
     },
-    border: state.isFocused ? '1px solid #a52a2a' : '1px solid #ebedf0',
+    border: state.isFocused
+      ? '1px solid #a52a2a'
+      : '1px solid rgba(0, 0, 0, 0.1)',
   }),
   valueContainer: (provided) => ({
     ...provided,

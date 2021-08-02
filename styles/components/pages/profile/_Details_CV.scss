@@ -191,19 +191,24 @@
         > div {
           padding: 0 0.4rem;
         }
-        .datetime {
-          border: 1px solid #ebedf0;
-          box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
-          border-radius: 7px;
-          background-color: white;
-          padding: 19px 19px;
-          min-height: 50px;
-          width: 100%;
-          &:hover {
-            border: 1px solid #d5d9df;
+        .birthday_container {
+          @include media-breakpoint-down(sm) {
+            padding-bottom: 15px;
           }
-          &:focus {
-            border: 1px solid theme-color("primary");
+          .datetime {
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            //box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+            border-radius: 7px;
+            background-color: white;
+            padding: 19px 19px;
+            min-height: 50px;
+            width: 100%;
+            &:hover {
+              border: 1px solid #d5d9df;
+            }
+            &:focus {
+              border: 1px solid theme-color("primary");
+            }
           }
         }
       }

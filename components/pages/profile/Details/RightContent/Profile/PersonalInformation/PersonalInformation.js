@@ -220,7 +220,7 @@ const PersonalInformation = (props) => {
                 </Col>
               </Row>
               <Row className="mt-4">
-                <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+                {/* <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                   <h5 className="text-md-left">{t('common:social.heading')}</h5>
                   <Form.Group>
                     <Form.Label>{t('common:social.facebook')}</Form.Label>
@@ -292,7 +292,7 @@ const PersonalInformation = (props) => {
                       />
                     </div>
                   </Form.Group>
-                </Col>
+                </Col> */}
                 <Col xs={12} sm={12} md={12} lg={12} xl={12} className="mt-2">
                   <Button type="submit" disabled={isSubmitting}>
                     {isSubmitting ? (

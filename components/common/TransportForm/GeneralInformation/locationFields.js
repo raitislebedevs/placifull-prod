@@ -13,7 +13,7 @@ const locationFields = (t) => [
       xl: 4,
       lg: 4,
       md: 4,
-      sm: 4,
+      sm: 6,
     },
   },
   {
@@ -25,7 +25,7 @@ const locationFields = (t) => [
       xl: 4,
       lg: 4,
       md: 4,
-      sm: 4,
+      sm: 6,
     },
   },
   {
@@ -37,7 +37,7 @@ const locationFields = (t) => [
       xl: 4,
       lg: 4,
       md: 4,
-      sm: 4,
+      sm: 6,
     },
   },
 ];
