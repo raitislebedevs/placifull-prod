@@ -8,7 +8,7 @@ const HeroTerms = (props) => {
     <div className="terms__link__container">
       <section className="terms__hero__section">
         <Container className="terms__header__link">
-          <h4 className="terms__header__title"> Terms of Services </h4>
+          <h4 className="terms__header__title"> Terms {'&'} Conditions</h4>
           <div className="terms__header__navbar">
             <nav aria-label="breadcrumb" className="">
               <ul className="breadcrumb">

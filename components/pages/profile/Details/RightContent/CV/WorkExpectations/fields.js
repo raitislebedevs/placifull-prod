@@ -233,17 +233,7 @@ const fields = (t) => [
       },
     ],
   },
-  {
-    key: 'position',
-    type: 'text',
-    label: t(
-      'profile:right-content.cv.sections.expectations.accordion.position'
-    ),
-  },
-  {
-    key: 'deleteButton',
-    type: 'deleteButton',
-  },
+
   {
     key: 'hourlyRate',
     type: 'number',
@@ -266,6 +256,18 @@ const fields = (t) => [
     label: t('profile:right-content.cv.sections.expectations.accordion.yearly'),
     min: 0,
     max: 99999999,
+  },
+  {
+    key: 'position',
+    type: 'text',
+    label: t(
+      'profile:right-content.cv.sections.expectations.accordion.position'
+    ),
+  },
+
+  {
+    key: 'deleteButton',
+    type: 'deleteButton',
   },
 ];
 

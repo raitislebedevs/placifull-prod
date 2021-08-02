@@ -278,7 +278,8 @@ const WorkExperience = (props) => {
                 <Col
                   lg={5}
                   md={5}
-                  sm={6}
+                  sm={5}
+                  xs={12}
                   key={item.key + edu.id}
                   className={'decorator__container'}
                 >
@@ -326,7 +327,7 @@ const WorkExperience = (props) => {
               );
             }
           })}
-          <Col xs={2} sm={2} md={1} lg={1} xl={1}>
+          <Col xs={12} sm={1} md={1} lg={1} xl={1}>
             <div className="body__button-wrapper body__button-wrapper--delete">
               <Button
                 variant="outline-primary"

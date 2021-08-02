@@ -248,6 +248,8 @@
       }
       .body__button-wrapper--delete {
         margin-top: 5px;
+        display: flex;
+        justify-content: center;
 
         button {
           svg {

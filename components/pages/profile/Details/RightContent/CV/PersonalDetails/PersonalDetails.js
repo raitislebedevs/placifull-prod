@@ -55,6 +55,8 @@ const PersonalDetails = (props) => {
     handleOnChange(payload);
   }, [isCVPublished]);
 
+  useEffect(() => {}, []);
+
   return (
     <div className="wrapper__body ">
       <Row className="wrapper__body--header mb-4">
@@ -93,19 +95,23 @@ const PersonalDetails = (props) => {
             )}
             {isCVPublished ? (
               <Button
-                variant="outline-primary"
+                variant="success"
                 className="header-wrapper__save btn-sm"
                 onClick={() => setIsCVPublished(!isCVPublished)}
               >
-                Published
+                {t(
+                  'profile:right-content.cv.sections.personal-details.form.cv-published'
+                )}
               </Button>
             ) : (
               <Button
                 onClick={() => setIsCVPublished(!isCVPublished)}
-                variant="outline-primary"
+                variant="outline-success"
                 className="header-wrapper__save btn-sm"
               >
-                Not Published
+                {t(
+                  'profile:right-content.cv.sections.personal-details.form.cv-hidden'
+                )}
               </Button>
             )}
           </div>

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-
+import { withTranslation } from 'i18n';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   Container,
@@ -46,70 +46,108 @@ const TermSection = (props) => {
     <Container className="terms-container">
       <div className="terms-container__content">
         <div className="terms-container__content--box">
-          <h3 className="terms-container__content--heading">Introduction</h3>
+          <h3 className="terms-container__content--heading">
+            {t('terms:header')}
+          </h3>
 
           <p className="terms-container__content--text">
-            {`Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-         `}
+            {t('terms:introduction.first')}
+          </p>
+          <p className="terms-container__content--text">
+            {t('terms:introduction.second')}
           </p>
         </div>
 
         <div className="terms-container__content--box">
-          <h3 className="terms-container__content--heading">User Agreements</h3>
-
-          <p className="terms-container__content--text">
-            {`Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-         `}
-          </p>
-
-          <p className="terms-container__content--text">
-            {`Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-         `}
-          </p>
-
-          <p className="terms-container__content--text">
-            {`Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-         `}
-          </p>
-        </div>
-
-        <div className="terms-container__content--box">
-          <h3 className="terms-container__content--heading">Restrictions</h3>
-
-          <p className="terms-container__content--text">
-            {`You are specifically restricted from all of the following :
-         `}
-          </p>
-
+          <h3 className="terms-container__content--heading">
+            {t('terms:user-aggrements.title')}
+          </h3>
+          {t('terms:user-aggrements.intro')}
           <ul className="terms-container__content--retrictions">
             <li>
-              <FaRegDotCircle /> Digital Marketing Solutions for Tomorrow
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                The content of the pages of this website is for your general
+                information and use only. It is subject to change without
+                notice.
+              </p>
             </li>
             <li>
-              <FaRegDotCircle /> Digital Marketing Solutions for Tomorrow
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                Neither we nor any third parties provide any warranty or
+                guarantee as to the accuracy, timeliness, performance,
+                completeness or suitability of the information and materials
+                found or offered on this website for any particular purpose. You
+                acknowledge that such information and materials may contain
+                inaccuracies or errors and we expressly exclude liability for
+                any such inaccuracies or errors to the fullest extent permitted
+                by Latvian law.
+              </p>
             </li>
             <li>
-              <FaRegDotCircle /> Digital Marketing Solutions for Tomorrow
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                Your use of any information or materials on this website is
+                entirely at your own risk, for which we shall not be liable. It
+                shall be your own responsibility to ensure that any products,
+                services or information available through this website meet your
+                specific requirements.
+              </p>
             </li>
             <li>
-              <FaRegDotCircle /> Digital Marketing Solutions for Tomorrow
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                Unauthorised use of this website may give rise to a claim for
+                damages and/or be a criminal offence.
+              </p>
             </li>
             <li>
-              <FaRegDotCircle /> Digital Marketing Solutions for Tomorrow
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                From time to time this website may also include links to other
+                websites. These links are provided for your convenience to
+                provide further information. They do not signify that we endorse
+                the website(s). We have no responsibility for the content of the
+                linked website(s).
+              </p>
             </li>
             <li>
-              <FaRegDotCircle /> Digital Marketing Solutions for Tomorrow
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                By publishing your CV you are allowing anyone to view these
+                details. If by any chance these are
+              </p>
+            </li>
+            <li>
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                Support will be provided only in English and/or Latvian. If you
+                contact us in any other language we won't respond.
+              </p>
+            </li>
+            <li>
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                User is prohibited to contact us in a hustile and threatening
+                manner. Any communication will be instantly stopped and customer
+                won't be helped if any problems were expierienced.
+              </p>
+            </li>
+            <li>
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                Main communication language is English/Latvian. All other
+                Languages are just for the user convienience and should not be
+                used when communcating with Placifull.
+              </p>
+            </li>
+            <li>
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                Your use of this website and any dispute arising out of such use
+                of the website is subject to the laws of Latvia
+              </p>
             </li>
           </ul>
         </div>
@@ -150,8 +188,7 @@ const TermSection = (props) => {
             Still have a questions?
           </h3>
           <p className="terms-container__content--text">
-            {`Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-
+            {`Please contact us from the contact page, and we will get back to you as soon as possible.
          `}
           </p>
         </div>
@@ -160,4 +197,4 @@ const TermSection = (props) => {
   );
 };
 
-export default TermSection;
+export default withTranslation('terms')(TermSection);

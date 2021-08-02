@@ -245,7 +245,7 @@ const ComputerSkills = (props) => {
               );
             }
           })}
-          <Col xs={1} sm={1} md={1} lg={1} xl={1}>
+          <Col xs={12} sm={1} md={1} lg={1} xl={1}>
             <div className="body__button-wrapper body__button-wrapper--delete">
               <Button
                 variant="outline-primary"
