@@ -1,7 +1,7 @@
 .hero__search-form {
   position: absolute;
   bottom: -100px;
-  z-index: 1000;
+  z-index: 1250;
   width: 100%;
   @include media-breakpoint-down(md) {
     position: relative;
@@ -195,6 +195,7 @@
       }
     }
   }
+
   .decorator__container {
     .form-group {
       margin-bottom: 0.7rem;
@@ -230,6 +231,19 @@
           background-color: darken($color: theme-color("primary"), $amount: 5);
         }
       }
+    }
+  }
+  .datetime_container {
+    @include media-breakpoint-down(md) {
+      padding-top: 0px;
+      padding-bottom: 5px;
+    }
+    @include media-breakpoint-down(sm) {
+      padding-top: 5px;
+      padding-bottom: 0px;
+    }
+    .form-group {
+      margin-bottom: 0px;
     }
   }
 }

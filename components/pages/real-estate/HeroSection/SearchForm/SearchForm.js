@@ -419,7 +419,7 @@ const SearchForm = (props) => {
                     key={item.key}
                     className="form__item"
                   >
-                    <div className={'decorator__container'}>
+                    <div className={'decorator__container datetime_container'}>
                       <Form.Group>
                         {item?.decorator}
                         <Datetime
