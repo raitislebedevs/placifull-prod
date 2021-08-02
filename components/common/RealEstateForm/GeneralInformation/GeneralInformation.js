@@ -81,7 +81,7 @@ const GeneralInformation = (props) => {
         </Col>
       </Row>
       <Row>
-        <Col lg={10} md={8} sm={12} key={'real-estate-name'}>
+        <Col lg={10} md={8} sm={12}>
           <Form.Group>
             <CustomFormControl
               id={'name'}

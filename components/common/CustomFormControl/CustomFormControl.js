@@ -60,7 +60,7 @@ const CustomFormControl = (props) => {
         <div
           className={`form-control-container  ${
             append ? 'form-control-container--has-append' : ''
-          }`}
+          }  ${prepend ? 'form-control-container--has-prepend' : ''}`}
         >
           {prepend ? (
             <div
@@ -77,28 +77,32 @@ const CustomFormControl = (props) => {
           <Form.Control {...rest} ref={inputEl} />
         </div>
         {append && (
-          <InputGroup.Append>
-            <Dropdown
-              arrowClassName={
-                append.values.length < 2 ? 'd-none' : 'Dropdown-arrow'
-              }
-              disabled={append.values.length < 2}
-              options={append.values}
-              id={append.id}
-              value={
-                inputValues?.[append.id]
-                  ? inputValues[append.id]
-                  : append?.values[0]
-              }
-              onChange={(e) => {
-                dropdownHandleChange({
-                  target: { value: e.value, id: append.id },
-                });
-              }}
-              placeholderClassName={placeholderClassName}
-              className="Dropdown-append"
-            />
-          </InputGroup.Append>
+          <>
+            <InputGroup.Append>
+              <Dropdown
+                arrowClassName={
+                  append.values.length < 2 ? 'd-none' : 'Dropdown-arrow'
+                }
+                disabled={append.values.length < 2}
+                options={append.values}
+                id={append.id}
+                value={
+                  inputValues?.[append.id]
+                    ? inputValues[append.id]
+                    : append?.values[0]
+                }
+                onChange={(e) => {
+                  dropdownHandleChange({
+                    target: { value: e.value, id: append.id },
+                  });
+                }}
+                placeholderClassName={placeholderClassName}
+                className={`Dropdown-append  ${
+                  append?.id === 'areaMeasurement' ? 'areaMeasurement' : ''
+                } `}
+              />
+            </InputGroup.Append>
+          </>
         )}
       </InputGroup>
     </>
