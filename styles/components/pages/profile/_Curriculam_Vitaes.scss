@@ -6,9 +6,11 @@
   .preview__cv__intro {
     background-color: brown;
     color: #fff;
-    padding: 30px;
-    padding-top: 25px;
-
+    padding: 27px;
+    padding-top: 20px;
+    @include media-breakpoint-down(md) {
+      padding: 20px;
+    }
     .cv__name {
       font-weight: 700;
       font-size: 24px;
@@ -59,9 +61,11 @@
     }
   }
   .preview__cv__detail {
-    padding: 60px;
-    padding-top: 25px;
-
+    padding: 45px;
+    padding-top: 22px;
+    @include media-breakpoint-down(md) {
+      padding: 12px;
+    }
     .detail__section {
       .detail__header {
         font-size: 16px;
