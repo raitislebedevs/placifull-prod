@@ -1,0 +1,41 @@
+{
+  "kanban": {
+    "save": "Saglabāt",
+    "saving": "Saglabā…",
+    "salary": {
+      "hour": "/stundas",
+      "month": "/mēneša",
+      "year": "/gada"
+    },
+    "job-overview": {
+      "title": "Darba pārskats",
+      "industry": "Industrija",
+      "languages-en": "Valodas (EN)",
+      "native": "Dzimtajā valodā",
+      "contract-type": "Līguma veids",
+      "working-time": "Darba laiks",
+      "expiry-date": "Termiņš"
+    },
+    "statistics": {
+      "title": "Statistika",
+      "applicants": "Kandidāti",
+      "interviewed": "Intervēti",
+      "processing": "Procesā",
+      "reviewed": "Pārskatīti",
+      "shortlisted": "Atlasīti",
+      "hired": "Peņemti darbā"
+    },
+    "columns": {
+      "applicants": "Pieteikušies Kandidāti",
+      "reviewed": "Pārskatītie pretendeti",
+      "shortlisted": "Atlasīti",
+      "interviewed": "Intervēti",
+      "pending": "Gada apstiprinājumu",
+      "accepted": "Pieņemtie darbā",
+      "column-name": "Jauna kollona",
+      "edit": "Rediģēt"
+    },
+    "view-cv": "Skatīt CV",
+    "remove": "Noņemt"
+  }
+}

@@ -1,16 +1,16 @@
 {
   "job-apply": {
-    "heading": "Are you sure you want to apply for:",
-    "proposed-salary": "Expected Salary",
-    "close": "Close",
-    "apply": "Apply",
-    "applying": "Processing....",
+    "heading": "Vai tiešām vēlaties pieteikties:",
+    "proposed-salary": "Paredzētā alga",
+    "close": "Aizvērt",
+    "apply": "Pieteikties",
+    "applying": "Notiek apstrāde ....",
     "toast": {
-      "success": "Congratulations, you applied!",
-      "log-in": "You must be logged in.",
-      "applied": "You already applied.",
-      "cv": "Please update your CV",
-      "just": "Hey, you just applied :)"
+      "success": "Apsveicam, jūs pieteicāties!",
+      "log-in": "Jums ir jāpiesakās.",
+      "applied": "Jūs jau esat pieteicies.",
+      "cv": " Lūdzu, atjauniniet savu CV",
+      "just": "Hei, jūs tikko pieteicāties :)"
     }
   }
 }

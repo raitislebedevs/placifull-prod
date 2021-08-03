@@ -1,0 +1,55 @@
+{
+  "heading": "Ievietot sludinājumu",
+  "form": {
+    "submit-confirm": "Sgalabā…",
+    "preview-sneak-peak": "Ģenerē…",
+    "preview": "Priekštatījums",
+    "no-currency": "Valūta",
+    "no-features": "Izvēlies sludinājuma kategoriju",
+    "job-title": {
+      "title": "Darba tituls.",
+      "placeholder": "Amata nosaukums"
+    },
+    "company": "Kompānijas vārds",
+    "submit": "IESNIEGT",
+    "general-information": {
+      "heading": "Galvenā informācija",
+      "input-fields": {
+        "description": "Pozīcijas apraksts",
+        "requirements": "Amata prasības",
+        "beneftis": "Darbinieka Ieguvumi"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "Kontaktinformācija",
+        "detail-requirements": "Detalizētas prasības"
+      },
+      "contact": {
+        "heading": "Kontakti",
+        "email": "E-pasts",
+        "phone": "Telefona numurs",
+        "address": "Adrese",
+        "listing-website": "Mājas lapa: https://"
+      }
+    },
+    "gallery": {
+      "heading": "Kompānijas logo",
+      "click-drop": "Uzspiediet vai uzvelciet logo šeit",
+      "video-url": "Video saits: https://"
+    },
+    "contact-hours": {
+      "heading": "Darba stundas",
+      "heading-tip": "Neobligāti",
+      "accordion": {
+        "heading": "Laiki kurās darbiniekam būs jāstrādā…",
+        "start-time": "Darbs sākas",
+        "end-time": "Darbs Beidzas"
+      }
+    },
+    "input-languages": {
+      "label": "Nepieciešamāš valodas. (Angliski)",
+      "labelNative": "Nemieciešamās valodas. (Dzimtā)"
+    }
+  }
+}
