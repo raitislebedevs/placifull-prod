@@ -2,9 +2,9 @@
   "top": {
     "list-menu": {
       "menu-1": {
-        "text-head": "",
+        "text-head": "Začněte svou cestu",
         "items": {
-          "item-1": "Začněte s procházením a objevte svůj důma mnoho dalšího."
+          "item-1": "Začněte s procházením a objevte svůj dům a mnoho dalšího."
         }
       },
       "menu-2": {
@@ -13,7 +13,10 @@
           "item-1": "O nás",
           "item-2": "Tým",
           "item-3": "Kariéra",
-          "item-4": "Blog"
+          "item-4": "Blog",
+          "item-5": "Ceny",
+          "item-6": "Povýšen",
+          "item-7": "Hlasovací rada"
         }
       },
       "menu-3": {

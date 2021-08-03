@@ -2,7 +2,7 @@
   "top": {
     "list-menu": {
       "menu-1": {
-        "text-head": "",
+        "text-head": "Starten Sie Ihre Reise",
         "items": {
           "item-1": "Legen Sie Los! suchen Sie Ihr neues Zuhause und die Objekte die Sie benötigen."
         }
@@ -13,7 +13,10 @@
           "item-1": "Über uns",
           "item-2": "Team",
           "item-3": "Karriere",
-          "item-4": "Blog"
+          "item-4": "Blog",
+          "item-5": "Preisgestaltung",
+          "item-6": "Gefördert",
+          "item-7": "Abstimmungsgremium"
         }
       },
       "menu-3": {

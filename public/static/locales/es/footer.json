@@ -2,9 +2,9 @@
   "top": {
     "list-menu": {
       "menu-1": {
-        "text-head": "",
+        "text-head": "Comience su viaje",
         "items": {
-          "item-1": "Empieza a navegar y encuentra tu nuevo hogar u Objetos que puedas necesitar"
+          "item-1": "¿Qué estás esperando todavía? Empiece a buscar la casa de sus sueños, el auto perfecto, el trabajo de sus sueños y el país en el que siempre quiso vivir."
         }
       },
       "menu-2": {
@@ -13,7 +13,10 @@
           "item-1": "Sobre Nosotros",
           "item-2": "Equipo",
           "item-3": "Carrera",
-          "item-4": "Blog"
+          "item-4": "Blog",
+          "item-5": "Precios",
+          "item-6": "Promovido",
+          "item-7": "Junta de votaciones"
         }
       },
       "menu-3": {

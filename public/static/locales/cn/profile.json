@@ -81,7 +81,7 @@
       },
       "delete-form": {
         "text": "删除账户：",
-        "content": "您想删除账户吗？ 请按下方的 '删除 '按钮",
+        "content": "您想删除账户吗？ 请按下方的 '删除' 按钮",
         "button-delete": "删除账户"
       },
       "validation": {
@@ -176,7 +176,9 @@
                 "dont–show": "不显示"
               }
             },
-            "about-me": "您有什么地方与众不同？"
+            "about-me": "您有什么地方与众不同？",
+            "cv-published": "已发表",
+            "cv-hidden": "隐"
           }
         },
         "education": {

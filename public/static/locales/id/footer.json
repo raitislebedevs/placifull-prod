@@ -2,9 +2,9 @@
   "top": {
     "list-menu": {
       "menu-1": {
-        "text-head": "",
+        "text-head": "Mulai Perjalanan Anda",
         "items": {
-          "item-1": "Mulai browsing dan cari rumah dan obyek yang anda butuhkan."
+          "item-1": "Apa lagi yang kamu tunggu? Mulailah mencari rumah impian Anda, mobil yang sempurna, pekerjaan impian, dan di negara yang selalu Anda inginkan untuk ditinggali."
         }
       },
       "menu-2": {
@@ -13,7 +13,10 @@
           "item-1": "Tentang Kami",
           "item-2": "Tim",
           "item-3": "Karir",
-          "item-4": "Blog"
+          "item-4": "Blog",
+          "item-5": "Harga",
+          "item-6": "Dipromosikan",
+          "item-7": "Dewan Pemungutan Suara"
         }
       },
       "menu-3": {

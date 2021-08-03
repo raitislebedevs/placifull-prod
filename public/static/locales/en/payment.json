@@ -1,7 +1,7 @@
 {
   "currency": "€ ",
   "payment-modal": {
-    "header": "Plan Purchase Details",
+    "header": "Purchase Plan Details",
     "sub-header": "Please select your plan from details below",
     "total-cost": "Cost:",
     "expiry-date": "Expiry Date:",

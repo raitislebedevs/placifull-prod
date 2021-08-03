@@ -2,46 +2,49 @@
   "top": {
     "list-menu": {
       "menu-1": {
-        "text-head": "",
+        "text-head": "Pradėkite savo kelionę",
         "items": {
-          "item-1": "Inizia a navigare e a cercare la tua casa e gli Accessori di cui hai bisogno."
+          "item-1": "Ko dar lauki? Pradėkite ieškoti savo svajonių namo, tobulo automobilio, svajonių darbo ir šalies, kurioje visada norėjote gyventi."
         }
       },
       "menu-2": {
-        "text-head": "Azienda",
+        "text-head": "Įmonė",
         "items": {
-          "item-1": "Chi siamo",
-          "item-2": "Team",
-          "item-3": "Opportunità lavorative",
-          "item-4": "Blog"
+          "item-1": "Apie mus",
+          "item-2": "Komanda",
+          "item-3": "Karjera",
+          "item-4": "Tinklaraštis",
+          "item-5": "Kainodara",
+          "item-6": "Skatinama",
+          "item-7": "Balsavimo taryba"
         }
       },
       "menu-3": {
-        "text-head": "Link rapidi",
+        "text-head": "Greitosios nuorodos",
         "items": {
-          "item-1": "Accedi",
-          "item-2": "Registrati",
-          "item-3": "Immobili",
-          "item-4": "Mezzi di trasporto",
-          "item-5": "Lavori",
-          "item-6": "Termini di servizio"
+          "item-1": "Prisijungimas",
+          "item-2": "Registracija",
+          "item-3": "Nekilnojamasis turtas",
+          "item-4": "Transportas",
+          "item-5": "Darbas",
+          "item-6": "Sąlygos"
         }
       },
       "menu-4": {
-        "text-head": "Newsletter",
+        "text-head": "Naujienlaiškis",
         "items": {
-          "item-1": "Iscriviti e riceverai gli ultimi consigli via email.",
-          "item-2": "Scrivi la tua email",
-          "item-3": "La tua email",
-          "item-4": "Abbonati"
+          "item-1": "Užsiregistruok ir gauk naujausius patarimus į savo el. paštą",
+          "item-2": "Įvesk savo el. paštą",
+          "item-3": "Tavo el. paštas ",
+          "item-4": "Prenumeruoti"
         }
       }
     }
   },
   "bottom": {
     "left": {
-      "copy-right": "Placifull. Ci prendiamo cura di te"
+      "copy-right": "Placifull. Mes rūpinames jumis"
     },
-    "right": "Il team Placifull"
+    "right": "Placifull Komanda"
   }
 }

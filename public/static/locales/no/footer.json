@@ -2,9 +2,9 @@
   "top": {
     "list-menu": {
       "menu-1": {
-        "text-head": "",
+        "text-head": "Start reisen din",
         "items": {
-          "item-1": "Begynne å bla og søke etter eiendom og nødvendige elementer"
+          "item-1": " Hva venter du fortsatt på? Begynn å lete etter drømmehuset ditt, den perfekte bilen, drømmejobben og landet du alltid har ønsket å bo i."
         }
       },
       "menu-2": {
@@ -13,7 +13,10 @@
           "item-1": "Om oss",
           "item-2": "Team",
           "item-3": "Ledige stillinger",
-          "item-4": "Blogg"
+          "item-4": "Blogg",
+          "item-5": "Priser",
+          "item-6": "Forfremmet",
+          "item-7": "Stemmestyret"
         }
       },
       "menu-3": {
