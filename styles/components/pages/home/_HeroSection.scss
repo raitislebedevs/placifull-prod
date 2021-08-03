@@ -21,8 +21,13 @@
   }
   .hero-section__content-hero {
     text-align: center;
-    margin-top: 1.5rem;
-
+    @include media-breakpoint-down(md) {
+      margin-top: -2rem;
+    }
+    @include media-breakpoint-down(sm) {
+      margin-top: -7rem;
+      padding-top: 0px;
+    }
     .content-hero__heading {
       margin-left: -20px;
       margin-right: -20px;

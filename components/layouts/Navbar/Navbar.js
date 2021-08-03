@@ -9,7 +9,8 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import LanguaggeSelect from './LanguageSelect';
 import OpportunitiesSelect from './OpportunitesSelect';
-import { withTranslation, Link } from 'i18n';
+import { withTranslation } from 'i18n';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import PropTypes from 'prop-types';
 import compose from 'recompose/compose';

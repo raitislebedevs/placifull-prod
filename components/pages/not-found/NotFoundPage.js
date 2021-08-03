@@ -1,4 +1,4 @@
-import { Link } from 'i18n';
+import Link from 'next/link';
 
 const notFound = '/static/images/404.png';
 

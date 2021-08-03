@@ -1,7 +1,6 @@
-import { useState, useEffect } from 'react';
-import { withTranslation } from 'i18n';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import Link from 'next/link';
 import dynamic from 'next/dynamic';
 
 const ReactTypingEffect = dynamic(() => import('react-typing-effect'), {
@@ -57,10 +56,12 @@ const HeroSection = (props) => {
                 <p className="content-hero__text">
                   {t('hero-section.head.line-3')}
                 </p>
-                <Button className="content-hero__button">
-                  <AiOutlineArrowRight className="button__icon" />{' '}
-                  {t('hero-section.button')}
-                </Button>
+                <Link href="/sign-in">
+                  <Button className="content-hero__button">
+                    <AiOutlineArrowRight className="button__icon" />{' '}
+                    {t('hero-section.button')}
+                  </Button>
+                </Link>
               </div>
             </Col>
           </Row>

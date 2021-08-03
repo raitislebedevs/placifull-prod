@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { connect } from 'react-redux';
 import { logout } from 'actions';
-import { Link } from 'i18n';
+import Link from 'next/link';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import useOutsideAlerter from 'hooks/useOutsideAlerter';
 
