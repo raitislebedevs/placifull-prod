@@ -61,6 +61,7 @@ const SearchForm = (props) => {
     state: [],
   });
   const autocompletFields = locationNotMandatory(t);
+  autocompletFields[2].size.sm = 12;
   const countryComponentIds = {
     country: 'country',
     city: 'city',
@@ -198,8 +199,7 @@ const SearchForm = (props) => {
 
       setFilter(filter);
     } catch (e) {
-      console.log(e);
-      TostifyCustomContainer('error', 'Ohh No some bad thing Happened!');
+      TostifyCustomContainer('error', t('common:toast.unknown-error'));
       setIsFetchingListing(false);
     }
   };
@@ -214,9 +214,9 @@ const SearchForm = (props) => {
                 return (
                   <Col
                     lg={3}
-                    md={4}
+                    md={6}
                     sm={6}
-                    xs={6}
+                    xs={12}
                     key={item.key}
                     className="form__item"
                   >
@@ -232,7 +232,7 @@ const SearchForm = (props) => {
               }
               if (item.type == 'currency') {
                 return (
-                  <Col key={item.key} lg={3} md={4} sm={12}>
+                  <Col key={item.key} lg={3} md={6} sm={6}>
                     <Form.Group>
                       <CurrencyInput
                         handleOnChange={handleOnChange}
@@ -268,7 +268,7 @@ const SearchForm = (props) => {
             {inputFields.languages.map((item) => (
               <Col
                 lg={4}
-                md={4}
+                md={6}
                 sm={12}
                 xs={12}
                 key={item.key}

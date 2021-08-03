@@ -98,7 +98,6 @@ const SearchForm = (props) => {
 
       return serverSideFields;
     } catch (error) {
-      TostifyCustomContainer('error', 'Could not Populate Tags');
       return [];
     }
   }, [tagOptions]);
@@ -112,9 +111,7 @@ const SearchForm = (props) => {
       let filter = { _limit: 200, _sort: 'name:asc', type: 'transport' };
       const transport = await TagServices.FIND(filter);
       setTagOptions(transport.data);
-    } catch (error) {
-      TostifyCustomContainer('error', 'Could not retrieve Tags');
-    }
+    } catch (error) {}
   };
 
   const handleSubmit = (e) => {
@@ -197,7 +194,7 @@ const SearchForm = (props) => {
                     lg={2}
                     md={4}
                     sm={6}
-                    xs={6}
+                    xs={12}
                     key={item.key}
                     className="form__item"
                   >
@@ -242,7 +239,7 @@ const SearchForm = (props) => {
               }
               if (item.type === 'text') {
                 return (
-                  <Col lg={2} md={2} sm={6} key={item.key}>
+                  <Col lg={2} md={4} sm={6} key={item.key}>
                     <div className={'search-form'}>
                       <Form.Group>
                         <Form.Control
@@ -266,7 +263,7 @@ const SearchForm = (props) => {
                     key={item.key}
                     className="form__item"
                   >
-                    <div className={'decorator__container'}>
+                    <div className={'decorator__container datetime_container'}>
                       <Form.Group>
                         {item?.decorator}
                         <Datetime

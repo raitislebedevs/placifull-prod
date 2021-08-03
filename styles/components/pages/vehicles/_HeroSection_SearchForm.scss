@@ -221,6 +221,7 @@
       }
     }
   }
+
   .decorator__container {
     .form-group {
       margin-bottom: 0.7rem;
@@ -247,7 +248,6 @@
         background-color: darken($color: #444444, $amount: 5);
         color: darken($color: white, $amount: 10);
         border: none;
-        padding: 5px 10px;
         &::placeholder {
           /* Chrome, Firefox, Opera, Safari 10.1+ */
           color: lightgray;
@@ -258,6 +258,20 @@
           background-color: darken($color: theme-color("primary"), $amount: 5);
         }
       }
+    }
+  }
+
+  .datetime_container {
+    @include media-breakpoint-down(md) {
+      padding-top: 0px;
+      padding-bottom: 5px;
+    }
+    @include media-breakpoint-down(sm) {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+    .form-group {
+      margin-bottom: 0px;
     }
   }
 
