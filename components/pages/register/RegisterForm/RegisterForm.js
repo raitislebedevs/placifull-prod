@@ -133,11 +133,11 @@ const RegisterForm = (props) => {
               <Form onSubmit={handleSubmit}>
                 <Row className="mt-4">
                   <Col
-                    xs={12}
-                    sm={12}
                     md={6}
                     lg={6}
                     xl={6}
+                    xs={6}
+                    sm={6}
                     className="wrapper__items"
                   >
                     <Form.Group>
@@ -166,11 +166,11 @@ const RegisterForm = (props) => {
                     </Form.Group>
                   </Col>
                   <Col
-                    xs={12}
-                    sm={12}
                     md={6}
                     lg={6}
                     xl={6}
+                    xs={6}
+                    sm={6}
                     className="wrapper__items"
                   >
                     <Form.Group>
