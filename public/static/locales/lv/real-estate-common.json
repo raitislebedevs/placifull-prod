@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "Kategorija",
+    "options": {
+      "houses": "Māja",
+      "apartments": "Dzīvoklis",
+      "land": "Zeme",
+      "farmhouse": "Lauku viensēta",
+      "commercial": "Komerctelpas",
+      "exclusive": "Ekskluzīvi",
+      "offices": "Biroji",
+      "agents": "Nekustamo Īpašuma Aģenti"
+    }
+  },
+  "action": {
+    "label": "Darbība",
+    "options": {
+      "sell": "Pārdod",
+      "rent": "Īrēt",
+      "exchange": "Mainīt"
+    }
+  },
+  "condition": {
+    "label": "Stāvoklis",
+    "label-land": "Īpašuma tips",
+    "options": {
+      "brandNew": "Jauns",
+      "goodCondition": "Labā stāvoklī",
+      "medium": "Vidējā",
+      "requiresFixing": "Nepieciešams remonts",
+      "requiresConstruction": "Nepieciešama rekonstrukcija",
+      "residential": "Privātmāja",
+      "comercial": "Komerctelpas",
+      "industrial": "Industriālā",
+      "agricultural": "Lauksaumniecība"
+    }
+  },
+  "contact-times": {
+    "label": "Sazināšanās laiki",
+    "options": {
+      "anyTime": "Jebkurā laikā",
+      "workingDays": "Darba dienāš",
+      "officeHours": "Biroju stundās",
+      "specificTimes": "Specifiskā laikā"
+    }
+  },
+  "features": {
+    "heading": "Opcijas",
+    "category": {
+      "kitchen": "Virtuve",
+      "bathroom": "Vannas istaba",
+      "living-room": "Dzīvojamā istaba",
+      "bedroom": "Guļamistaba",
+      "housing-extras": "Citas ekstras",
+      "land-type": "Zemes tips",
+      "buildingLand": "Atļautā būvniecība",
+      "forest-properties": "Meža tips",
+      "agriculture-properties": "Lauksaimniecības zemes īpašības"
+    }
+  },
+  "utilities": {
+    "heading": "Komunālie maksājumi",
+    "total": "Kopā",
+    "items": {
+      "coldWater": "Aukstais ūdens",
+      "hotWater": "Siltais ūdens",
+      "electricity": "Elektrība",
+      "garbage": "Atkritumi",
+      "propertyManagement": "Apsaimniekošana",
+      "heating": "Siltums",
+      "parking": "Auto stāvvieta",
+      "others": "Cits"
+    }
+  }
+}

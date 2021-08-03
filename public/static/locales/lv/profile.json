@@ -1,0 +1,386 @@
+{
+  "overview": {
+    "button-label": {
+      "change": "Mainīt bildi",
+      "delete": "Dzēst bildi",
+      "save-all": "Saglabāt visu",
+      "preview": "Priekštatījums"
+    },
+    "setting-label": "Pirkt",
+    "delete-avatar-modal": {
+      "header": "Dzēst profila bildi",
+      "body": "Vai jūs tiešām vēlaties dzēst profila bildi?",
+      "submit": "Dzēst",
+      "cancel": "Atcelt"
+    }
+  },
+  "hover-texts": {
+    "real-estate": "Nekustamo īpašumi",
+    "transport": "Trasnsports",
+    "job": "Darbs",
+    "browser": "Meklēt CV"
+  },
+  "left-tab": {
+    "navigation": "Navigācija",
+    "titles": {
+      "profile": "Profils",
+      "cv": "CV",
+      "real-estate": "Nekustamo īpašumi",
+      "transport": "Trasnsports",
+      "jobs": "Darbs",
+      "browser": "Meklēt CV",
+      "payment": "Maksājumu kvītis",
+      "logout": "Iziet"
+    }
+  },
+  "right-content": {
+    "prev-button": "Nākošais solis",
+    "next-button": "Iepriekšējais solis",
+    "profile": {
+      "personal-details": {
+        "heading": "Personiskā informācija",
+        "labels": {
+          "profession": "Identitātes profesija",
+          "first-name": "Vārds",
+          "last-name": "Uzvārds",
+          "email": "Tavs e-pasts",
+          "phone-number": "Tālrunis",
+          "about-me-heading": "Par mani",
+          "about-me": "Kas tevi atšķir no citiem?",
+          "country": "Valsts",
+          "state": "Reģions",
+          "city": "Pilsēta",
+          "birth-date": "Dzimšanas datums",
+          "gender": {
+            "label": "Dzimums",
+            "men": "Vīrietis",
+            "women": "Sieviete",
+            "not-specified": "Nerādīt"
+          },
+          "age": {
+            "label": "Rādīt vecumu",
+            "yes": "Jā",
+            "no": "Nē",
+            "only-birth-date": "Tikai dzimšanas datumu"
+          }
+        },
+        "button-save": "Saglabāt izmaiņas"
+      },
+      "password-form": {
+        "text": "Mainīt paroli:",
+        "old-password": "Vecā parole",
+        "new-password": "Jaunā parole",
+        "confirm-password": "Apstiprināt paroli",
+        "button-save": "Saglabāt paroli",
+        "validation": {
+          "current-password-required": "Lūdzu apstipriniet paroli",
+          "new-password-required": "Trūkst jaunās paroles",
+          "password-not-match": "Paraloes nesakrīt",
+          "confirm-password-required": "Lūdzu apstipriniet paroli"
+        }
+      },
+      "delete-form": {
+        "text": "Dzēst Profilu",
+        "content": "Vai jūs tiešām vēlaties dzēst profilu. Nospiediet 'Dzēst' spogu. ",
+        "button-delete": "Dzēst"
+      },
+      "validation": {
+        "first-name": "Nepieciešams vārds",
+        "last-name": "Nepieciešams uzvārds"
+      }
+    },
+    "tabs": {
+      "actions": {
+        "sell": "Pārdodošanā",
+        "rent": "Īrei",
+        "exchange": "Maiņai"
+      },
+      "common": {
+        "button-edit": "Labot",
+        "button-reviews": "Skatījumi",
+        "button-delete": "Dzēst",
+        "days-left": "dienas palikušas",
+        "title": "Mani sludinājumi",
+        "highest": "Lielākā likme",
+        "lowest": "Zemākā likme"
+      },
+      "job": {
+        "count": "Pretendentu skaits",
+        "avarage": "Vidējā likme",
+        "lowest": "Zemākā likme",
+        "highest": "Lielākā likme",
+        "button": "Skatīt visus"
+      },
+      "browser": {
+        "common": {
+          "area": "Darba sfēra"
+        },
+        "title": "Meklēt CV",
+        "search": {
+          "button": "Meklēt",
+          "expirience": {
+            "label": "Pieredze",
+            "options": {}
+          },
+          "hourly-to": "Stundas likme līdz",
+          "monthly-to": "Mēneša likme līdz",
+          "annual-to": "Gad likme līdz"
+        },
+        "table": {
+          "name": "Vārds",
+          "email": "E-pasts",
+          "phone": "Telefona numurs",
+          "salary": "Vēlamais attalgojums"
+        }
+      },
+      "receipt": {
+        "title": "Maksājumu kvītis",
+        "search": {
+          "search-from": "Izvēlēties sākšanas datumu",
+          "search-to": "Izvēlēties beigu datumu",
+          "button": "Meklēt"
+        },
+        "table": {
+          "order": "Pasūtījuma Nr.",
+          "date": "Datums",
+          "premium": "Izcelts",
+          "add-days": "Papildus dienas",
+          "type": "Sludinājuma tips"
+        }
+      }
+    },
+    "cv": {
+      "title": "Curriculum Vitae",
+      "sections": {
+        "personal-details": {
+          "form": {
+            "title": "Personiskā informācija",
+            "first-name": "Vārds",
+            "last-name": "Uzvārds",
+            "email": "E-pasts",
+            "phone": "Kontaktālrunis",
+            "birthday": "Dzimšanas diena",
+            "age": {
+              "label": "Rādīt vecumu",
+              "options": {
+                "yes": "Jā",
+                "no": "Nē",
+                "only-birthdate": "Tikai dzimšanas datumu"
+              }
+            },
+            "gender": {
+              "label": "Dzimums",
+              "options": {
+                "male": "Vīrietis",
+                "female": "Sieviete",
+                "dont–show": "Nerādīt"
+              }
+            },
+            "about-me": "Kas tevi atšķir no citiem?",
+            "cv-published": "Publicēt",
+            "cv-hidden": "Nerādīt"
+          }
+        },
+        "education": {
+          "title": "Izglītība",
+          "accordion": {
+            "school": "Skolas vārds",
+            "country": "Valsts",
+            "from-date": "No datuma",
+            "to-date": "Līdz datumam",
+            "study-area": "Studiju nozare",
+            "qualification": {
+              "title": "Kvalifikācija",
+              "options": {
+                "primary": "Sākumskola",
+                "secondary": "Viduskola",
+                "vocational": "Arodskola",
+                "bachelors": "Bakalaurs",
+                "master": "Maģistrs",
+                "doctorate": "Doktors",
+                "other": "Cits"
+              }
+            },
+            "best-fit": "Piemērotākā profesija",
+            "grade": "Vidējā atzīme",
+            "button-add": "Pievienot izglītību"
+          }
+        },
+        "expierience": {
+          "title": "Darba pieredze",
+
+          "company-name": "Kompānijas vārds",
+          "from-date": "No datuma",
+          "to-date": "Līdz datumam",
+          "work-area": "Darba joma",
+          "position": "Pozīcija",
+          "position-description": "Pozīcijas apraksts",
+          "sector": "Nodarbinātības sektors",
+          "seniority": {
+            "title": "Profesijas Stāžs",
+            "options": {
+              "volunteer": "Brīvprātīgais",
+              "intern": "Prakse",
+              "junior": "Jaunākais",
+              "intermediate": "Ar pieredzi",
+              "senior": "Vecākais",
+              "executive": "Izpilddirektors",
+              "ceo": "CEO",
+              "other": "Cits"
+            }
+          },
+
+          "button-add": "Pievienot pieredzi"
+        },
+        "languages": {
+          "title": "Valodas prasmes",
+          "accordion": {
+            "language": "Valodas prasmes",
+            "certificate": "Sertifikāts",
+            "level": {
+              "label": "Līmenis",
+              "options": {
+                "a1": "A1",
+                "a2": "A2",
+                "b1": "B1",
+                "b2": "B2",
+                "c1": "C1",
+                "c2": "C2",
+                "native": "Dzimtā"
+              }
+            },
+            "button-add": "Pievienot prasmi"
+          }
+        },
+        "computer": {
+          "title": "Datorprasmes",
+          "accordion": {
+            "skill-name": "Datorprasme",
+            "knowladge-gained": {
+              "label": "Zināšanas iegūtas",
+              "options": {
+                "selfTaught": "Pašmācības ceļā",
+                "course": "No Kursiem",
+                "freelance": "Ārštata darbs",
+                "contractProject": "Līgumdarbs",
+                "fullTimeJob": "Pilna laika darbs",
+                "other": "Cits"
+              }
+            },
+            "expierience": {
+              "label": "Pieredze",
+              "uptoOne": "< 1 gada",
+              "oneToThree": "1-3 gadi",
+              "threeToFive": "3-5 gadi",
+              "fiveToTen": "5-10 gadi",
+              "tenToFifteen": "10-15 gadi",
+              "moreThanFifteen": "15+ gadi"
+            },
+            "certificate": "Certifikāts",
+            "button-add": "Pievienot prasmi"
+          }
+        },
+        "licenses": {
+          "title": "Transporta apliecības",
+          "accordion": {
+            "country": "Izdošanas valsts",
+            "expierience": {
+              "label": "Pieredze",
+              "uptoOne": "< 1 gada",
+              "oneToThree": "1-3 gadi",
+              "threeToFive": "3-5 gadi",
+              "fiveToTen": "5-10 gadi",
+              "tenToFifteen": "10-15 gadi",
+              "moreThanFifteen": "15+ gadi"
+            },
+            "category": "Kategorija",
+            "button-add": "Pievienot apliecību"
+          }
+        },
+        "expectations": {
+          "title": "Darba vēlmes",
+          "accordion": {
+            "title": "Darba joma",
+            "interest": "Interesējošā sfēra",
+            "position": "Pozīcija",
+            "seniority": {
+              "title": "Profesijas Stāžs",
+              "options": {
+                "volunteer": "Brīvprātīgais",
+                "intern": "Prakse",
+                "junior": "Jaunākais",
+                "intermediate": "Ar pieredzi",
+                "senior": "Vecākais",
+                "executive": "Izpilddirektors",
+                "ceo": "CEO",
+                "other": "Cits"
+              }
+            },
+            "hourly": "Stundas likme no",
+            "monthly": "Mēnešalga no",
+            "yearly": "Gada alga no",
+            "button-add": "Pievienot vēlmi"
+          }
+        }
+      }
+    },
+    "browser-cv": {
+      "browser": "Meklēt CV",
+      "search": "Meklēt",
+      "work-expierience": "Darba pieredze",
+      "work-expectations": "Darba vēlmes",
+      "education-fit": "Izglītība",
+      "salary-hourly": "Stundas likme līdz",
+      "salary-monthly": "Mēnešalga līdz",
+      "salary-annual": "Gada alga līdz",
+      "seniority": "Darba briedums",
+      "monthly": " /mēnesī",
+      "result-table": {
+        "nr": "Nr.",
+        "name": "Vārds",
+        "email": "E-pasts",
+        "phone": "Telefona numurs",
+        "worked-as": "Pēdējā pozīcija",
+        "salary": "Vēlamā alga",
+        "cv": "CV",
+        "view": "Skatīt"
+      }
+    },
+    "receipt": {
+      "title": "Maksājumu kvītis",
+      "start-date": "No datuma",
+      "end-date": "Līdz datumam",
+      "table": {
+        "reference": "Pasūtījums #",
+        "date": "Datums",
+        "purchase": "Plāns",
+        "total": "Summa",
+        "status": "Status"
+      }
+    }
+  },
+  "toast": {
+    "succes": "Profils tika atjaunināts",
+    "fail": "Profils netika atjaunināts",
+    "avatar": "Profila bilde atjaunināta",
+    "avatar-fail": "Nespēja atjaunināt profila bildi",
+    "avatar-remove": "Profila bilde noņemta",
+    "avatar-remove-fail": "Profila bilde netika noņemta",
+    "logout": "Iziet",
+    "password": "Parole tika nomainīta",
+    "password-fail": "Parole netika nomainīta",
+    "item-deleted": "Sludinājums izdzēsts"
+  },
+  "delete-modal": {
+    "header": "Izdzēst sludinājumu",
+    "body": "Vai tu es drošs ka vēlies izdzēst sludinājumu",
+    "cancel": "Atcelt",
+    "delete": "Dzēst"
+  },
+  "delete-account": {
+    "header": "Dzēst kontu",
+    "body": "Vai tu esi drošs ka vēlies dzēst kontu",
+    "cancel": "Atcelt",
+    "delete": "Dzēst"
+  }
+}

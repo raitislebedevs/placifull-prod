@@ -1,0 +1,35 @@
+{
+  "main": {
+    "success": "Maksājums tika veiksmīgi izpildīts",
+    "plan_update": "Mēs nespējām atjaunināt jūsu plānu",
+    "card_not": "Netika izpildīts maksājums",
+    "pay": "Maksāt € ",
+    "processing": "Procesē…"
+  },
+  "placeholders": {
+    "name": "Jane Doe",
+    "email": "janedoe@placifull.com",
+    "phone": "(941) 555-7777"
+  },
+  "incomplete": {
+    "incomplete_cvc": "Jūsu kartes drošības kods nav pilnīgs",
+    "incomplete_expiry": "Jūsu kartes derīguma termiņs nav pilnīgs",
+    "incomplete_number": "Jūsu kartes numurs nav pilnīgs"
+  },
+
+  "declined": {
+    "card_declined": "Jūsu karte tika noraidīta"
+  },
+  "checkout": {
+    "billing": "Lūdzu aizpildīt maksājuma detaļas",
+    "card-details": "Lūdzu norādit kartes informāciju",
+    "cancel": "Atcelt"
+  },
+  "labels": {
+    "plan": "Plāns",
+    "quantity": "Dadz.",
+    "name": "Vārds",
+    "email": "Epasts",
+    "phone": "Telefona Nr."
+  }
+}
