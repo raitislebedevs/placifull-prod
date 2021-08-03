@@ -5,7 +5,7 @@ import { AiOutlineUser } from 'react-icons/ai';
 import { FiKey } from 'react-icons/fi';
 import { FaFacebook } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
-import { Link } from 'i18n';
+import Link from 'next/link';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { Formik } from 'formik';
 import * as Yup from 'yup';

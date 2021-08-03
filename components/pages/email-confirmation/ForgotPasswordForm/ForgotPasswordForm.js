@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { Form, Button, Row, Col, Spinner } from 'react-bootstrap';
-import { Link } from 'i18n';
+import Link from 'next/link';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { Formik } from 'formik';
 import * as Yup from 'yup';

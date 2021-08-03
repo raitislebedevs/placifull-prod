@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'i18n';
+import Link from 'next/link';
 import { Row, Col, Button, Container, Spinner } from 'react-bootstrap';
 import { TransportationCard } from 'components/common';
 import Slider from 'react-slick';
@@ -118,7 +118,7 @@ const TransportationSection = (props) => {
                 </span>
                 {t('transportation-section.head.line-4')}
               </p>
-              <Link href={'/vehicles'}>
+              <Link href={'/transport'}>
                 <Button className="section-title__button">
                   {t('transportation-section.button')}
                 </Button>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'i18n';
+import Link from 'next/link';
 import { Container, Row, Col, Button, Spinner } from 'react-bootstrap';
 import Slider from 'react-slick';
 import { RealEstateCard } from 'components/common';
