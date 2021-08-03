@@ -9,9 +9,9 @@ module.exports = withImages({
     STRIPE_PUBLIC_KEY: process.env.STRIPE_PUBLIC_KEY,
     EMAIL_ADDRESS: process.env.EMAIL_ADDRESS,
   },
-  // future: {
-  //   webpack5: true,
-  // },
+  future: {
+    webpack5: true,
+  },
   rewrites: async () =>
     nextI18NextRewrites({
       de: 'de',

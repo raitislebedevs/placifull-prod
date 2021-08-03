@@ -6,13 +6,13 @@ const languages = [
     },
     label: 'English',
   },
-  // {
-  //   value: {
-  //     lang: 'lv',
-  //     flag: 'LV',
-  //   },
-  //   label: 'Latviešu',
-  // },
+  {
+    value: {
+      lang: 'lv',
+      flag: 'LV',
+    },
+    label: 'Latviešu',
+  },
   {
     value: {
       lang: 'ee',
@@ -39,7 +39,7 @@ const languages = [
       lang: 'ru',
       flag: 'RU',
     },
-    label: 'Pу́сский',
+    label: 'Pусский',
   },
   {
     value: {
