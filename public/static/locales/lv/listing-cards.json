@@ -1,0 +1,56 @@
+{
+  "job-card": {
+    "location": "Vieta",
+    "salary": "Alga",
+    "button": "Skatīt sīkāk",
+    "contract-type": {
+      "label": "Līguma veids",
+      "options": {
+        "temporarly": "Uz laiku",
+        "fullTime": "Pilna laika",
+        "partTime": "Nepilna laika",
+        "remoteFullTime": "Attālināti (pilna laika)",
+        "remotePartTime": "Attālināti (nepilna laika)",
+        "other": "Cits"
+      }
+    },
+    "working-schedule": {
+      "label": "Darba grafiks",
+      "options": {
+        "officeHours": "Biroja darba stundas",
+        "shifts": "Maiņās",
+        "flexible": "Elestīgs",
+        "other": "Citi"
+      }
+    }
+  },
+
+  "transport-card": {
+    "gear-box": {
+      "label": "Pārnesumkārba",
+      "options": {
+        "manual": "Manuālā",
+        "automatic": "Automātiski",
+        "other": "Citi"
+      }
+    }
+  },
+
+  "real-estate-card": {
+    "location": "Vieta",
+    "working-schedule": "Darba grafiks",
+    "salary": "Alga",
+    "contract-type": "Līguma veids",
+    "button": "Skatīt sīkāk"
+  },
+
+  "action": {
+    "label": "Darbība",
+    "options": {
+      "sell": "Pārdod",
+      "rent": "Izīrē",
+      "exchange": "Maina",
+      "forParts": "Pa daļām"
+    }
+  }
+}

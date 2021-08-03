@@ -1,0 +1,61 @@
+{
+  "form": {
+    "currency": "Valūtas",
+    "no-currency": "VISAS",
+    "languages": {
+      "native": "Dzimtās Valodas",
+      "english": "Valodas Angliski"
+    },
+    "submit": "Meklēt Tagad",
+    "accordion": {
+      "label": "Papildinātā meklēšana",
+      "searchFilter": {
+        "heading": "Iespējas",
+        "licenses": "Transporta licence",
+        "education": "Izglītība/Grāds",
+        "expierience": "Pieredze gados",
+        "candiadate": "Kandidātam jāspēj:",
+        "benefits": "Ieguvumi"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "Stundas likme",
+        "items": {
+          "from": "No: 0",
+          "to": "Līdz: 999,999"
+        }
+      },
+      "monthly-salary": {
+        "label": "Alga mēnesī",
+        "items": {
+          "from": "No: 0",
+          "to": "Līdz: 999,999,999"
+        }
+      },
+      "yearly-salary": {
+        "label": "Gada alga",
+        "items": {
+          "from": "No: 0",
+          "to": "Līdz: 99,999,999,999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Kārtot pēc",
+        "options": {
+          "monthly-salary": "Algas mēnesī",
+          "annual-salary": "Gada algas",
+          "hourly-salary": "Stundas likmes",
+          "popularity": "Popularitātes",
+          "views": "Skatījumiem",
+          "country": "Valsts",
+          "insert-date": "Ievietotā datuma"
+        }
+      }
+    }
+  }
+}

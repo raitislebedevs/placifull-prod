@@ -1,0 +1,63 @@
+{
+  "header": {
+    "salary-month": "/mēnesī",
+    "buttons": {
+      "apply": "Pieteikties tagad",
+      "share": "Dalīties ar sludinājumu"
+    }
+  },
+  "contact-form": {
+    "heading": "Sazināties ar kompāniju",
+    "form": {
+      "heading": "Uzdodiet savu jautājumu no šejines",
+      "fullName": "Vārds*",
+      "phoneNumber": "Kontaktālrunis*",
+      "email": "E-pasts*",
+      "message": "Jūsu ziņa",
+      "submit": "Sūtīt ziņu"
+    }
+  },
+  "about": {
+    "description": "Apraksts",
+    "requirements": "Prasības",
+    "benefits": "Ieguvumi"
+  },
+  "job-overview": {
+    "heading": "Darba Pārskats",
+    "items": {
+      "offered-salary": "Piedāvātā Alga",
+      "languages": "Valoda",
+      "native": "Dzimtā",
+      "industry": "Industrija"
+    },
+    "views": "skatījumu",
+    "applicants": "pretendenti",
+    "salary": {
+      "monthly": "mēnesī",
+      "annual": "gadā",
+      "hourly": "stundā"
+    }
+  },
+
+  "application": {
+    "header": "Pieteikties uz",
+    "body": {
+      "proposal": "Piedāvātā alga"
+    },
+    "info": "Tavs CV tiks nosūtīts darba devējam*"
+  },
+
+  "extra": {
+    "heading": "Darba vietas ievietotas no šī profila",
+    "table": {
+      "number": "Nr.",
+      "country": "Valsts",
+      "full-address": "Biroja Adrese",
+      "position": "Amats",
+      "contract": "Līguma veids",
+      "time": "Darba laiks",
+      "salary": "Alga no",
+      "end-date": "Beigu datums"
+    }
+  }
+}

@@ -18,7 +18,7 @@
     },
     "statistics": {
       "title": "Statistics",
-      "applicants": "Applicatns",
+      "applicants": "Aplicants",
       "interviewed": "Interviewed",
       "processing": "Processing",
       "reviewed": "Reviewed",
@@ -26,10 +26,10 @@
       "hired": "Hired"
     },
     "columns": {
-      "applicants": "Applicants Applied",
-      "reviewed": "Applicants Reviewed",
+      "applicants": "Aplicants Applied",
+      "reviewed": "Aplicants Reviewed",
       "shortlisted": "Shortlisted",
-      "interviewed": "Applicants Interviewed",
+      "interviewed": "Aplicants Interviewed",
       "pending": "Pending Acceptance",
       "accepted": "Applicants Hired",
       "column-name": "New Column",
