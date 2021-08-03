@@ -2,9 +2,9 @@
   "top": {
     "list-menu": {
       "menu-1": {
-        "text-head": "",
+        "text-head": "Commencez votre voyage",
         "items": {
-          "item-1": "Commencez à parcourir le site et cherchez votre maison et ce dont vous avez besoin"
+          "item-1": "Qu'attendez-vous toujours ? Commencez à chercher la maison de vos rêves, la voiture parfaite, le travail de rêve et le pays dans lequel vous avez toujours voulu vivre."
         }
       },
       "menu-2": {
@@ -13,7 +13,10 @@
           "item-1": "À propos",
           "item-2": "L’équipe",
           "item-3": "Carrière",
-          "item-4": "Blog"
+          "item-4": "Blog",
+          "item-5": "Prix",
+          "item-6": "Promu",
+          "item-7": "Bureau de vote"
         }
       },
       "menu-3": {

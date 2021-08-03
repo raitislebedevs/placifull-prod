@@ -176,7 +176,9 @@
                 "dont–show": "Jangan Tampilkan"
               }
             },
-            "about-me": "Apa yang berbeda tentang Anda?"
+            "about-me": "Apa yang berbeda tentang Anda?",
+            "cv-published": "Diterbitkan",
+            "cv-hidden": "Tersembunyi"
           }
         },
         "education": {

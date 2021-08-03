@@ -1,0 +1,64 @@
+{
+  "title": "Meklēt nekustamos Īpašumus",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "Min. cena",
+        "max-price": "Maks. cena",
+        "min-rooms": "Min. istabas",
+        "max-rooms": "Maks. Istabas",
+        "min-area": "Min. platība",
+        "max-area": "Maks. Platība",
+        "move-in-date": "Ievākšanās datums no",
+        "move-out-date": "Izvākšanās datums līdz",
+        "currency": "Valūta"
+      },
+
+      "submit": "Meklēt tagad",
+      "accordion": "Papildinātā meklēšana",
+      "accordion-right": {
+        "utility-label": "Komunālie maksājumi",
+        "utility": {
+          "from-price": "No: 0.00",
+          "to-price": "Līdz: 9,999,999,999"
+        },
+        "year-label": "Celšanas gads",
+        "built": {
+          "from-year": "No: 1000",
+          "to-year": "Līdz: 9999"
+        },
+        "measurement-label": "Mērvienības",
+        "system": {
+          "none": "bez",
+          "metric": "Metriskās m",
+          "imperial": "Imperālās ft"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Kārtot pēc",
+        "options": {
+          "price": "Cena",
+          "area": "Platība",
+          "rooms": "Istabas",
+          "street-name": "Ielas nosaukums",
+          "popularity": "Popularitātes",
+          "views": "Skatījumiem",
+          "country": "Valsts",
+          "insert-date": "Ievietošanas datuma"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "No emuāra",
+    "see-more": "Lasīt vairāk"
+  },
+  "error": {
+    "tags": "Lūdzu, sazinieties ar mums, sakot: 'Nav atrasts neviens tags'"
+  },
+  "no-tags": "Šai opcijai nav opciju"
+}

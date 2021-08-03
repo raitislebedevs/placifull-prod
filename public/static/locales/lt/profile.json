@@ -176,7 +176,9 @@
                 "dont–show": "Nenurodyti"
               }
             },
-            "about-me": "Kuo jūs išsiskiriate iš kitų?"
+            "about-me": "Kuo jūs išsiskiriate iš kitų?",
+            "cv-published": "Paskelbta",
+            "cv-hidden": "Paslėptas"
           }
         },
         "education": {

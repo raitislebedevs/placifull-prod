@@ -176,7 +176,9 @@
                 "dont–show": "Ne pas afficher"
               }
             },
-            "about-me": "Qu'est-ce qui est différent à votre sujet ?"
+            "about-me": "Qu'est-ce qui est différent à votre sujet ?",
+            "cv-published": "Publié",
+            "cv-hidden": " Caché"
           }
         },
         "education": {

@@ -1,0 +1,58 @@
+{
+  "header": {
+    "flag-button": "ZIŅOT PAR ŠO SLUDINĀJUMU"
+  },
+  "detail-info": {
+    "button": "ES VĒLOS IEVĀKTIES TAGAD"
+  },
+  "contact-times": {
+    "heading": "Vēlamais kontakt laiks"
+  },
+  "about": {
+    "heading": "Par",
+    "featured": "Izcelts",
+    "notFeatured": "Nav izcelts",
+    "rentTime": "mēnesī",
+    "inputTimeDays": "dienas ipriekš"
+  },
+
+  "general-info": {
+    "heading": "Galvenā informācija",
+    "property-area": "Īpašuma lielums",
+    "rooms": "Istabas",
+    "year-built": "Uzceļšanas gads",
+    "price": "Cena",
+    "total-ultilities": "Komunālie maksājumi",
+    "move-in": "Ievākšanās datums",
+    "move-out": "Izvākšanāš datums",
+    "min-time": "Minimālais laiks",
+    "bid-price": "Solīt par īpašumu",
+    "submit": "Solīt",
+    "bid-placeholder": "Solīt 20% robežās"
+  },
+
+  "contact-form": {
+    "heading": "Tieši sazināties ar īpašnieku",
+    "form": {
+      "heading": "Savu jautājumu ievadiet šeit",
+      "fullName": "Pilns vārds*",
+      "phoneNumber": "Telefona numurs*",
+      "email": "Epasts*",
+      "message": "Tava ziņa*",
+      "submit": "SŪTĪT ZIŅU"
+    }
+  },
+  "extra": {
+    "heading": "Citi šajā profilā uzskaitītie sludinājumi",
+    "table": {
+      "number": "Nr.",
+      "country": "Valsts",
+      "full-address": "Pilna adrese",
+      "property-type": "Īpašuma tips",
+      "price": "Cena",
+      "area": "Lielums",
+      "bed-rooms": "Istabas",
+      "year-built": "Uzcelšanas gads"
+    }
+  }
+}

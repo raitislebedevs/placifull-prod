@@ -81,7 +81,7 @@
       },
       "delete-form": {
         "text": "Apagar a conta:",
-        "content": "Você deseja apagar a conta? Por favor, selecione 'Apagar'",
+        "content": "Você deseja apagar a conta? Por favor, selecione 'Apagar'.",
         "button-delete": "Apagar conta"
       },
       "validation": {
@@ -176,7 +176,9 @@
                 "dont–show": "Não mostrar"
               }
             },
-            "about-me": "Qual o seu diferencial?"
+            "about-me": "Qual o seu diferencial?",
+            "cv-published": "Publicados",
+            "cv-hidden": "Escondido"
           }
         },
         "education": {

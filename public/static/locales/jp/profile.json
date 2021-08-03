@@ -1,242 +1,244 @@
 {
   "overview": {
     "button-label": {
-      "change": "更改图片",
-      "delete": "删除图片",
-      "save-all": "全部保存",
-      "preview": "预览"
+      "change": "写真を変更",
+      "delete": "写真を削除",
+      "save-all": "すべて保存",
+      "preview": "プレビュー"
     },
-    "setting-label": "已购买",
+    "setting-label": "購入済み",
     "delete-avatar-modal": {
-      "header": "删除头像",
-      "body": "请问您想删除您的头像吗？",
-      "submit": "删除",
-      "cancel": "取消"
+      "header": "アバターを削除",
+      "body": "本当に削除しますか？",
+      "submit": "削除",
+      "cancel": "取り消し"
     }
   },
   "hover-texts": {
-    "real-estate": "房地产帖子",
-    "transport": "交通帖子",
-    "job": "招聘帖子",
-    "browser": "简历浏览器"
+    "real-estate": "不動産のポスト",
+    "transport": "交通機関のポスト",
+    "job": "求人のポスト",
+    "browser": "履歴書ブラウザ"
   },
   "left-tab": {
-    "navigation": "导航",
+    "navigation": "検索",
     "titles": {
-      "profile": "个人资料",
-      "cv": "简历",
-      "real-estate": "房地产",
-      "transport": "交通",
-      "jobs": "招聘",
-      "browser": "简历浏览器",
-      "payment": "付款收据",
-      "logout": "登出"
+      "profile": "プロフィール",
+      "cv": "履歴書",
+      "real-estate": "不動産",
+      "transport": "交通機関",
+      "jobs": "求人",
+      "browser": "履歴書ブラウザ",
+      "payment": "領収書",
+      "logout": "ログアウト"
     }
   },
   "right-content": {
-    "prev-button": "上一步",
-    "next-button": "下一步",
+    "prev-button": "前のステップ",
+    "next-button": "次のステップ",
     "profile": {
       "personal-details": {
-        "heading": "个人资料：",
+        "heading": "個人情報詳細",
         "labels": {
-          "profession": "职业类型",
+          "profession": "職種",
           "first-name": "名",
-          "last-name": "姓氏",
-          "email": "您的电子邮件",
-          "phone-number": "手机号码",
-          "about-me-heading": "关于我",
-          "about-me": "您有什么地方与众不同？",
-          "country": "国家",
-          "state": "州/地区",
-          "city": "城市",
-          "birth-date": "出生日期",
+          "last-name": "姓",
+          "email": "メールアドレス",
+          "phone-number": "携帯電話番号",
+          "about-me-heading": "私について",
+          "about-me": "アピールポイント",
+          "country": "国",
+          "state": "州/地域",
+          "city": "市",
+          "birth-date": "生年月日",
           "gender": {
-            "label": "性别",
+            "label": "性別",
             "men": "男性",
             "women": "女性",
-            "not-specified": "不显示"
+            "not-specified": "非公開"
           },
           "age": {
-            "label": "显示年龄",
-            "yes": "是",
-            "no": "不",
-            "only-birth-date": "只显示出生日期"
+            "label": "年齢を公開する",
+            "yes": "はい",
+            "no": "いいえ",
+            "only-birth-date": "誕生月日のみ"
           }
         },
-        "button-save": "保存修改"
+        "button-save": "変更を保存"
       },
       "password-form": {
-        "text": "更改密码：",
-        "old-password": "旧密码",
-        "new-password": "新密码",
-        "confirm-password": "确认密码",
-        "button-save": "保存密码",
+        "text": "パスワードを変更",
+        "old-password": "古いパスワード",
+        "new-password": "新しいパスワード",
+        "confirm-password": "パスワードを確認",
+        "button-save": "パスワードを保存",
         "validation": {
-          "current-password-required": "请确认密码",
-          "new-password-required": "新密码丢失",
-          "password-not-match": "密码不匹配",
-          "confirm-password-required": "请确认密码"
+          "current-password-required": "パスワードを確認してください",
+          "new-password-required": "新しいパスワードが見つかりません",
+          "password-not-match": "パスワードが一致しません",
+          "confirm-password-required": "パスワードを確認してください"
         }
       },
       "delete-form": {
-        "text": "删除账户：",
-        "content": "您想删除账户吗？ 请按下方的 '删除' 按钮",
-        "button-delete": "删除账户"
+        "text": "アカウントを削除",
+        "content": "本当に削除しますか？",
+        "button-delete": "削除"
       },
       "validation": {
-        "first-name": "需要填写名字",
-        "last-name": "需要填写姓氏"
+        "first-name": "要求されている名",
+        "last-name": "要求されている姓"
       }
     },
     "tabs": {
       "actions": {
-        "sell": "出售",
-        "rent": "出租",
-        "exchange": "交换"
+        "sell": "売りに出す",
+        "rent": "借りる",
+        "exchange": "交換"
       },
       "common": {
-        "button-edit": "编辑",
-        "button-reviews": "评语",
-        "button-delete": "删除",
-        "days-left": "剩余天数",
-        "title": "我的列表",
-        "highest": "最高出价",
-        "lowest": "最低出价"
+        "button-edit": "編集",
+        "button-reviews": "レビュー",
+        "button-delete": "削除",
+        "days-left": "残り日数",
+        "title": "マイリスト",
+        "highest": "最高入札額",
+        "lowest": "最低入札額"
       },
       "job": {
-        "count": "申请人数",
-        "avarage": "平均报价",
-        "lowest": "最低报价",
-        "highest": "最高报价",
-        "button": "查看全部"
+        "count": "応募者数",
+        "avarage": "オファーの平均",
+        "lowest": "最も低いオファー",
+        "highest": "最も高いオファー",
+        "button": "すべて見る"
       },
       "browser": {
         "common": {
-          "area": "工作区域"
+          "area": "勤務エリア"
         },
-        "title": "浏览简历",
+        "title": "履歴書を見る",
         "search": {
-          "button": "搜索",
+          "button": "検索",
           "expirience": {
-            "label": "经验",
+            "label": "経験",
             "options": {}
           },
-          "hourly-to": "时薪至",
-          "monthly-to": "月薪至",
-          "annual-to": "年薪至"
+          "hourly-to": "最高時給",
+          "monthly-to": "最高月給",
+          "annual-to": "最高年収"
         },
         "table": {
-          "name": "姓名",
-          "email": "电子邮件",
-          "phone": "电话",
-          "salary": "预期工资"
+          "name": "氏名",
+          "email": "メールアドレス",
+          "phone": "携帯電話番号",
+          "salary": "希望給与"
         }
       },
       "receipt": {
-        "title": "付款收据",
+        "title": "領収書",
         "search": {
-          "search-from": "选择开始日期",
-          "search-to": "选择结束日期",
-          "button": "搜索"
+          "search-from": "開始日を選択",
+          "search-to": "終了日を選択",
+          "button": "検索"
         },
         "table": {
-          "order": "订单编号",
-          "date": "日期",
-          "premium": "已推广",
-          "add-days": "额外天数",
-          "type": "列表类型"
+          "order": "注文番号",
+          "date": "日付",
+          "premium": "昇進",
+          "add-days": "追加日数",
+          "type": "リストのタイプ"
         }
       }
     },
     "cv": {
-      "title": "简历",
+      "title": "履歴書",
       "sections": {
         "personal-details": {
           "form": {
-            "title": "个人资料",
+            "title": "個人情報",
             "first-name": "名",
-            "last-name": "姓氏",
-            "email": "电子邮件",
-            "phone": "电话",
-            "birthday": "生日",
+            "last-name": "姓",
+            "email": "メールアドレス",
+            "phone": "携帯電話番号",
+            "birthday": "生年月日",
             "age": {
-              "label": "显示年龄",
+              "label": "年齢を公開する",
               "options": {
-                "yes": "是",
-                "no": "不",
-                "only-birthdate": "只显示出生日期"
+                "yes": "はい",
+                "no": "いいえ",
+                "only-birthdate": "誕生月日のみ"
               }
             },
             "gender": {
-              "label": "性别",
+              "label": "性別",
               "options": {
                 "male": "男性",
                 "female": "女性",
-                "dont–show": "不显示"
+                "dont–show": "非公開"
               }
             },
-            "about-me": "您有什么地方与众不同？"
+            "about-me": "アピールポイント",
+            "cv-published": "公開済み",
+            "cv-hidden": "隠れた"
           }
         },
         "education": {
-          "title": "教育",
+          "title": "学歴",
           "accordion": {
-            "school": "学校名字",
-            "country": "国家",
-            "from-date": "开始日期",
-            "to-date": "结束日期",
-            "study-area": "专业领域",
+            "school": "学校名",
+            "country": "国",
+            "from-date": "いつから",
+            "to-date": "いつまで",
+            "study-area": "専門",
             "qualification": {
-              "title": "资质",
+              "title": "資格",
               "options": {
-                "primary": "小学",
-                "secondary": "中学",
-                "vocational": "职业教育",
-                "bachelors": "学士学位",
-                "master": "硕士",
+                "primary": "小学校",
+                "secondary": "中学校・高等学校",
+                "vocational": "専門学校",
+                "bachelors": "学士",
+                "master": "修士",
                 "doctorate": "博士",
-                "other": "其他"
+                "other": "その他"
               }
             },
-            "best-fit": "职业匹配",
-            "grade": "平均等级",
-            "button-add": "添加学历"
+            "best-fit": "職業適性",
+            "grade": "平均評価",
+            "button-add": "学歴を追加"
           }
         },
         "expierience": {
-          "title": "工作经验",
+          "title": "職歴",
 
-          "company-name": "公司名字",
-          "from-date": "开始日期",
-          "to-date": "结束日期",
-          "work-area": "工作领域",
-          "position": "职位",
-          "position-description": "职位描述",
-          "sector": "就业部门",
+          "company-name": "企業名",
+          "from-date": "いつから",
+          "to-date": "いつまで",
+          "work-area": "勤務エリア",
+          "position": "役職",
+          "position-description": "役職の説明",
+          "sector": "雇用形態",
           "seniority": {
-            "title": "资历",
+            "title": "年功",
             "options": {
-              "volunteer": "志愿者",
-              "intern": "实习生",
-              "junior": "初级",
-              "intermediate": "中级",
-              "senior": "高级",
-              "executive": "行政部门",
-              "ceo": "首席执行官",
-              "other": "其他"
+              "volunteer": "ボランティア",
+              "intern": "インターン",
+              "junior": "ジュニア",
+              "intermediate": "中級",
+              "senior": "シニア",
+              "executive": "役員",
+              "ceo": "CEO",
+              "other": "その他"
             }
           },
 
-          "button-add": "添加经验"
+          "button-add": "職歴を追加"
         },
         "languages": {
-          "title": "语言能力",
+          "title": "言語スキル",
           "accordion": {
-            "language": "语言",
-            "certificate": "证书名称",
+            "language": "言語",
+            "certificate": "資格名",
             "level": {
-              "label": "等级",
+              "label": "CEFRレベル",
               "options": {
                 "a1": "A1",
                 "a2": "A2",
@@ -244,141 +246,141 @@
                 "b2": "B2",
                 "c1": "C1",
                 "c2": "C2",
-                "native": "母语"
+                "native": "ネイティブ"
               }
             },
-            "button-add": "添加技能"
+            "button-add": "スキルを追加"
           }
         },
         "computer": {
-          "title": "电脑技术",
+          "title": "PCスキル",
           "accordion": {
-            "skill-name": "电脑技术",
+            "skill-name": "PCスキル",
             "knowladge-gained": {
-              "label": "所获知识",
+              "label": "学習",
               "options": {
-                "selfTaught": "自学",
-                "course": "课程",
-                "freelance": "自由职业者",
-                "contractProject": "合同项目",
-                "fullTimeJob": "全职工作",
-                "other": "其他"
+                "selfTaught": "独学",
+                "course": "授業",
+                "freelance": "フリーランス",
+                "contractProject": "契約プロジェクト",
+                "fullTimeJob": "フルタイム雇用",
+                "other": "その他"
               }
             },
             "expierience": {
-              "label": "经验",
-              "uptoOne": "< 1 年",
-              "oneToThree": "1-3 年",
-              "threeToFive": "3-5 年",
-              "fiveToTen": "5-10 年",
-              "tenToFifteen": "10-15 年",
-              "moreThanFifteen": "15+ 年"
+              "label": "経験",
+              "uptoOne": "1年未満",
+              "oneToThree": "1年から3年",
+              "threeToFive": "3年から5年",
+              "fiveToTen": "5年から10年",
+              "tenToFifteen": "10年から15年",
+              "moreThanFifteen": "15年以上"
             },
-            "certificate": "证书名称",
-            "button-add": "添加技能"
+            "certificate": "資格名",
+            "button-add": "スキルを追加"
           }
         },
         "licenses": {
-          "title": "交通执照",
+          "title": "運転免許",
           "accordion": {
-            "country": "发行国家",
+            "country": "発行国",
             "expierience": {
-              "label": "经验",
-              "uptoOne": "< 1 年",
-              "oneToThree": "1-3 年",
-              "threeToFive": "3-5 年",
-              "fiveToTen": "5-10 年",
-              "tenToFifteen": "10-15 年",
-              "moreThanFifteen": "15+ 年"
+              "label": "経験",
+              "uptoOne": "1年未満",
+              "oneToThree": "1年から3年",
+              "threeToFive": "3年から5年",
+              "fiveToTen": "5年から10年",
+              "tenToFifteen": "10年から15年",
+              "moreThanFifteen": "15年以上"
             },
-            "category": "许可证类别",
-            "button-add": "添加许可证"
+            "category": "免許種別",
+            "button-add": "免許を追加"
           }
         },
         "expectations": {
-          "title": "工作期望",
+          "title": "仕事への期待",
           "accordion": {
-            "title": "工作期望",
-            "interest": "感兴趣的领域",
-            "position": "职位",
+            "title": "仕事への期待",
+            "interest": "興味のある分野",
+            "position": "役職",
             "seniority": {
-              "title": "资历",
+              "title": "年功",
               "options": {
-                "volunteer": "志愿者",
-                "intern": "实习生",
-                "junior": "初级",
-                "intermediate": "中级",
-                "senior": "高级",
-                "executive": "行政部门",
-                "ceo": "首席执行官",
-                "other": "其他"
+                "volunteer": "ボランティア",
+                "intern": "インターン",
+                "junior": "ジュニア",
+                "intermediate": "中級",
+                "senior": "シニア",
+                "executive": "役員",
+                "ceo": "CEO",
+                "other": "その他"
               }
             },
-            "hourly": "时薪从",
-            "monthly": "月薪从",
-            "yearly": "年薪从",
-            "button-add": "添加期望"
+            "hourly": "最低時給",
+            "monthly": "最低月給",
+            "yearly": "最低年収",
+            "button-add": "希望を追加"
           }
         }
       }
     },
     "browser-cv": {
-      "browser": "简历浏览器",
-      "search": "搜索",
-      "work-expierience": "工作经验",
-      "work-expectations": "工作期望",
-      "education-fit": "教育适应性",
-      "salary-hourly": "时薪至",
-      "salary-monthly": "月薪至",
-      "salary-annual": "月薪至",
-      "seniority": "资历",
-      "monthly": " /月",
+      "browser": "履歴書ブラウザ",
+      "search": "検索",
+      "work-expierience": "職歴",
+      "work-expectations": "仕事への期待",
+      "education-fit": "学歴",
+      "salary-hourly": "最高時給",
+      "salary-monthly": "最高月給",
+      "salary-annual": "最高年収",
+      "seniority": "年功",
+      "monthly": "/月",
       "result-table": {
-        "nr": "号码",
-        "name": "全名",
-        "email": "电子邮件",
-        "phone": "电话",
-        "worked-as": "上个职位",
-        "salary": "预期工资",
-        "cv": "简历",
-        "view": "查看"
+        "nr": "番号",
+        "name": "氏名",
+        "email": "メールアドレス",
+        "phone": "携帯電話番号",
+        "worked-as": "前職",
+        "salary": "希望給与",
+        "cv": "履歴書",
+        "view": "見る"
       }
     },
     "receipt": {
-      "title": "付款收据",
-      "start-date": "开始日期",
-      "end-date": "结束日期",
+      "title": "領収書",
+      "start-date": "開始日",
+      "end-date": "終了日",
       "table": {
-        "reference": "订单号",
-        "date": "日期",
-        "purchase": "配套",
-        "total": "数量",
-        "status": "状态"
+        "reference": "注文番号",
+        "date": "日付",
+        "purchase": "プラン",
+        "total": "量",
+        "status": "ステータス"
       }
     }
   },
   "toast": {
-    "succes": "档案已更新",
-    "fail": "个人资料未更新",
-    "avatar": "头像已更新",
-    "avatar-fail": "更新头像失败",
-    "avatar-remove": "头像已删除",
-    "avatar-remove-fail": "头像未被删除",
-    "logout": "已登出",
-    "password": "密码已更改",
-    "password-fail": "密码未更改",
-    "item-deleted": "已删除列表"
+    "succes": "プロフィールが更新されました",
+    "fail": "プロフィールは更新されていません",
+    "avatar": "アバターが更新されました",
+    "avatar-fail": "アバターの更新に失敗しました",
+    "avatar-remove": "アバターが削除されました",
+    "avatar-remove-fail": "アバターは削除されていません",
+    "logout": "ログアウトしました",
+    "password": "パスワードが変更されました",
+    "password-fail": "パスワードは変更されていません",
+    "item-deleted": "リストが削除されました"
   },
   "delete-modal": {
-    "header": "删除列表",
-    "body": "您确定要删除这个列表吗？",
-    "cancel": "取消",
-    "delete": "删除"
+    "header": "リストを削除",
+    "body": "本当に削除しますか？",
+    "cancel": "取り消し",
+    "delete": "削除"
   },
   "delete-account": {
-    "header": "删除账户",
-    "body": "您确定要删除您的账号吗？",
-    "cancel": "取消",
-    "delete": "删除"
+    "header": "アカウントを削除",
+    "body": "本当に削除しますか？",
+    "cancel": "取り消し",
+    "delete": "削除"
   }
 }

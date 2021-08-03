@@ -1,0 +1,89 @@
+{
+  "color": {
+    "label": "Krāsa",
+    "options": {
+      "red": "Sarkana",
+      "orange": "Oranža",
+      "yellow": "Dzeltena",
+      "green": "Zaļa",
+      "blue": "Zila",
+      "violent": "Violēta",
+      "pink": "Rozā",
+      "tan": "Tan",
+      "beige": "Bēšs",
+      "white": "Balts",
+      "silver": "Sudraba",
+      "gray": "Pelēka",
+      "black": "Melna",
+      "brown": "Brūna",
+      "gold": "Zelta",
+      "indigo": "Indigo",
+      "purple": "Violeta",
+      "lime": "Laima",
+      "azure": "Debeszila",
+      "other": "Cita"
+    }
+  },
+  "gear-box": {
+    "label": "Ātrumkārba",
+    "options": {
+      "manual": "Manuāla",
+      "automatic": "Automātiskā",
+      "other": "Cita"
+    }
+  },
+  "engine": {
+    "label": "Dzīnēja tips",
+    "options": {
+      "diesel": "Dīzelis",
+      "benzine": "Benzīns",
+      "gas": "Gāze",
+      "electric": "Elektrisks",
+      "other": "Cits"
+    }
+  },
+  "features": {
+    "heading": "Opcijas",
+    "category": {
+      "equipment": "Aprīkojums",
+      "interior": "Interjers",
+      "steering-wheel": "Stūre",
+      "seats": "Sēdekļi",
+      "lights": "Gaismas",
+      "audio-video": "Audio/Video",
+      "mirrors": "Spoguļi"
+    }
+  },
+  "condition": {
+    "label": "Stāvoklis",
+    "options": {
+      "brandNew": "Jaun",
+      "likeNew": "Gandrīz jauna",
+      "used": "Lietota",
+      "requiresFixing": "Nepieciešams remonts",
+      "afterCrash": "Pēc avārijas"
+    }
+  },
+
+  "transport-type": {
+    "label": "Transporta tips",
+    "options": {
+      "car": "Pasaziešu auto",
+      "truck": "Smagā mašīna",
+      "motorcycle": "Motocikls",
+      "boat": "Laivas ",
+      "airTransport": "Gaisa transports",
+      "others": "Cits"
+    }
+  },
+
+  "action": {
+    "label": "Darbība",
+    "options": {
+      "sell": "Pārdod ",
+      "rent": "Īrēt",
+      "exchange": "Maiņai",
+      "forParts": "Pa daļām"
+    }
+  }
+}

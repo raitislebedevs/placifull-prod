@@ -176,7 +176,9 @@
                 "dont–show": "Ära näita"
               }
             },
-            "about-me": "Mille poolest sa silma paistad?"
+            "about-me": "Mille poolest sa silma paistad?",
+            "cv-published": "Avaldatud",
+            "cv-hidden": "Varjatud"
           }
         },
         "education": {

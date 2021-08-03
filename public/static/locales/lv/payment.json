@@ -1,89 +1,89 @@
 {
   "currency": "€ ",
   "payment-modal": {
-    "header": "Plan Purchase Details",
-    "sub-header": "Please select your plan from details below",
-    "total-cost": "Cost:",
-    "expiry-date": "Expiry Date:",
-    "expiry-label": "Expiry Date ",
-    "quantity": "Quantity: ",
-    "quantity-label": "Quantity",
-    "listed": "Listed:",
-    "purchase": "Purchased:",
-    "extend-expiry": "Extend Expiry",
-    "promote": "Promote",
-    "subscription-valid": "Option is valid",
-    "days": "days",
-    "browser-cv": "CV Search",
+    "header": "Informācija par pirkumu",
+    "sub-header": "Lūdzu, izvēlieties savu plānu no zemāk esošās informācijas",
+    "total-cost": "Izmaksas",
+    "expiry-date": "Derīgs līdz:",
+    "expiry-label": "Derīgs līdz",
+    "quantity": "Daudzums:",
+    "quantity-label": "Dadzums",
+    "listed": "Ievietoti:",
+    "purchase": "Nopirkti:",
+    "extend-expiry": "Pagarināt termiņu",
+    "promote": "Izcelt",
+    "subscription-valid": "Opcija ir derīga",
+    "days": "dienas",
+    "browser-cv": "CV meklēšana",
     "purchase-text": {
-      "user-held": "Owned by User",
-      "purchase": "Purchase"
+      "user-held": "Lietotāja Īpašumā",
+      "purchase": "Pirkt"
     },
     "form": {
       "added-days": {
-        "label": "Extend listing by",
-        "suffix": " Days"
+        "label": "Pagarināt termiņu par",
+        "suffix": "dienām"
       },
       "card-details": {
-        "label": "Provide Card Information",
-        "card-holder": "Card Holder",
-        "card-number": "Card Number",
-        "card-date": "Expiry Date",
+        "label": "Maksājuma kartes informācija",
+        "card-holder": "Kartes īpašnieks",
+        "card-number": "Kartes numurs",
+        "card-date": "Derīga līdz",
         "card-csv": "CSV"
       },
       "buttons": {
-        "decline": "Decline",
-        "proceed": "Proceed"
+        "decline": "Noraidīt",
+        "proceed": "Turpināt"
       },
 
       "purchase-items": {
-        "intro": "Intro",
-        "single": "Single",
-        "quarterly": "Quarterly",
-        "life": "Yearly"
+        "intro": "Ievad",
+        "single": "Viens",
+        "quarterly": "Ceturkšņa",
+        "life": "Gada"
       },
       "user-stock": {
-        "single": "Single",
-        "quartery": "Quarterly",
-        "life": "Yearly"
+        "single": "Viens",
+        "quartery": "Ceturkšņa",
+        "life": "Gada"
       }
     }
   },
 
   "receipt-modal": {
-    "header": "Summary Details",
-    "sub-header": "Please review your purchase details before proceeding.",
+    "header": "Kopsavilkums",
+    "sub-header": "Pirms turpināt, lūdzu, pārskatiet pirkuma informāciju.",
     "card-details": {
-      "card-holder": "Card holder's name",
-      "card-number": "Card details",
-      "card-date": "Expiry date"
+      "card-holder": "Kartes Īpašnieks",
+      "card-number": "Kartes detaļas",
+      "card-date": "Derīgs līdz"
     },
 
     "receipt-table": {
-      "plan": "Plan",
-      "quantity": "Quantity",
-      "promote": "Promoted",
-      "extend-expiry": "Extended Expiry",
-      "total": "Total",
-      "total-amount": "Total Amount:",
-      "price": "Price",
-      "expiry-date": "Expiry Date",
-      "no-expiry": "None",
+      "plan": "Plāns",
+      "quantity": "Daudzums",
+      "promote": "Izcelts",
+      "extend-expiry": "Termiņa pagarīnājums",
+      "total": "Kopā",
+      "total-amount": "Kopājā summa",
+      "price": "Cena",
+      "expiry-date": "Derīgs līdz",
+      "no-expiry": "Nav",
       "plans": {
-        "standalone": "Single",
-        "subscriptionQuarterly": "Quarter",
-        "subscriptionYearly": "Year",
-        "activeSubscription": "Search CV"
+        "standalone": "Viens",
+        "subscriptionQuarterly": "Ceturksnis",
+        "subscriptionYearly": "Gads",
+        "activeSubscription": "Meklēt CV"
       }
     },
-    "thank-you-message": "Thank you for supporting Placifull Company. We believe you will be satisfied with your choise.",
+    "thank-you-message": "Paldies, ka atbalstāt Placifull kompāniju. Mēs uzskatām, ka jūs būsit apmierināts ar savu izvēli.",
     "buttons": {
-      "cancel": "Cancel",
-      "proceed": "Pay & Proceed"
+      "cancel": "Atcelt",
+      "proceed": "Maksāt un turpināt"
     }
   },
   "error": {
-    "transaction": "Transaction failed",
-    "subscriptions": "Subscription failure"
+    "transaction": "Darījums neizdevās",
+    "subscriptions": "Abonēšanas neizdevās"
   }
 }

@@ -1,242 +1,244 @@
 {
   "overview": {
     "button-label": {
-      "change": "Keisti nuotrauką",
-      "delete": "Ištrinti nuotrauką",
-      "save-all": "Išsaugoti viską",
-      "preview": "Peržiūra"
+      "change": "Bild ändern",
+      "delete": "Bild löschen",
+      "save-all": "Alles speichern",
+      "preview": "Vorschau"
     },
-    "setting-label": "Įsigyta",
+    "setting-label": "Gekauft",
     "delete-avatar-modal": {
-      "header": "Ištrinti avatarą",
-      "body": "Ar norite ištrinti savo avatarą?",
-      "submit": "Ištrinti",
-      "cancel": "Atšaukti"
+      "header": "Avatar löschen",
+      "body": "Möchten Sie Ihren Avatar löschen?",
+      "submit": "löschen",
+      "cancel": "Abbrechen"
     }
   },
   "hover-texts": {
-    "real-estate": "Nekilnojamojo turto skelbimai",
-    "transport": "Transporto skelbimai",
-    "job": "Darbų skelbimai",
-    "browser": "CV Paieška"
+    "real-estate": "Immobilien-Posts",
+    "transport": "Transport-Beiträge",
+    "job": "Job-Posts",
+    "browser": "Browser Lebenslauf"
   },
   "left-tab": {
-    "navigation": "Naviguoti",
+    "navigation": "Navigation",
     "titles": {
-      "profile": "Profilis",
+      "profile": "Profil",
       "cv": "CV",
-      "real-estate": "Nekilnojamas turtas",
-      "transport": "Transportas",
-      "jobs": "Darbai",
-      "browser": "CV Paieška",
-      "payment": "Apmokėjimai",
-      "logout": "Atsijungti"
+      "real-estate": "Immobilien",
+      "transport": "Transport",
+      "jobs": "Jobs",
+      "browser": "Browser CV",
+      "payment": "Zahlungsbelege",
+      "logout": "Abmelden"
     }
   },
   "right-content": {
-    "prev-button": "Ankstesnis",
-    "next-button": "Sekantis ",
+    "prev-button": "Voriger Schritt",
+    "next-button": "Nächster Schritt",
     "profile": {
       "personal-details": {
-        "heading": "Asmeninės detalės:",
+        "heading": "Persönliches Detail:",
         "labels": {
-          "profession": "Profesija",
-          "first-name": "Vardas",
-          "last-name": "Pavardė",
-          "email": "El. Paštas",
-          "phone-number": "Telefono numeris",
-          "about-me-heading": "Apie mane",
-          "about-me": "Kuo jūs išsiskiriate iš kitų?",
-          "country": "Šalis",
-          "state": "Valstybė/Regionas",
-          "city": "Miestas",
-          "birth-date": "Gimimo data",
+          "profession": "Beruf der Identifikation",
+          "first-name": "Vorname",
+          "last-name": "Nachname",
+          "email": "Ihre E-Mail",
+          "phone-number": "Telefon Nr.",
+          "about-me-heading": "Über mich",
+          "about-me": "Was ist anders an Ihnen?",
+          "country": "Land",
+          "state": "Bundesland/Region",
+          "city": "Stadt",
+          "birth-date": "Geburtsdatum",
           "gender": {
-            "label": "Lytis",
-            "men": "Vyras",
-            "women": "Moteris",
-            "not-specified": "Nenurodyti"
+            "label": "Geschlecht",
+            "men": "Männlich",
+            "women": "Weiblich",
+            "not-specified": "Nicht anzeigen"
           },
           "age": {
-            "label": "Rodyti amžių",
-            "yes": "Taip",
-            "no": "Ne",
-            "only-birth-date": "Tik gimimo datą"
+            "label": "Alter anzeigen",
+            "yes": "Ja",
+            "no": "Nein",
+            "only-birth-date": "Nur Geburtsdatum"
           }
         },
-        "button-save": "Išsaugoti pakeitimus"
+        "button-save": "Änderungen speichern"
       },
       "password-form": {
-        "text": "Pakeisti slaptažodį",
-        "old-password": "Senas slaptažodis",
-        "new-password": "Naujas slaptažodis",
-        "confirm-password": "Patvirtinti slaptažodį",
-        "button-save": "Išsaugoti slaptažodį",
+        "text": "Passwort ändern:",
+        "old-password": "Altes Kennwort",
+        "new-password": "Neues Kennwort",
+        "confirm-password": "Bestätigen Sie das Passwort",
+        "button-save": "Kennwort speichern",
         "validation": {
-          "current-password-required": "Prašome Patvirtinkite Slaptažodį",
-          "new-password-required": "Trūksta naujo slaptažodžio ",
-          "password-not-match": "Slaptažodžiai nesutampa",
-          "confirm-password-required": "Prašome patvirtinkite slaptažodį"
+          "current-password-required": "Bitte bestätigen Sie das Kennwort",
+          "new-password-required": "Neues Passwort fehlt",
+          "password-not-match": "Passwörter stimmen nicht überein",
+          "confirm-password-required": "Bitte Passwort bestätigen"
         }
       },
       "delete-form": {
-        "text": "Ištrinti anketą: ",
-        "content": "Ar norite ištrinti anketą? Prašome paspausti žemiau esantį mygtuką 'Ištrinti'",
-        "button-delete": "Ištrinti anketą"
+        "text": "Konto löschen:",
+        "content": "Möchten Sie das Konto löschen? Bitte drücken Sie unten auf 'Löschen'.",
+        "button-delete": "Konto löschen"
       },
       "validation": {
-        "first-name": "Būtina įrašyti vardą",
-        "last-name": "Būtina įrašyti pavardę"
+        "first-name": "Vorname erforderlich",
+        "last-name": "Nachname erforderlich"
       }
     },
     "tabs": {
       "actions": {
-        "sell": "Pardavimui",
-        "rent": "Nuomai",
-        "exchange": "Keitimuisi"
+        "sell": "Zum Verkaufen",
+        "rent": "Zum Mieten",
+        "exchange": "Tauschen"
       },
       "common": {
-        "button-edit": "Redaguoti",
-        "button-reviews": "Apžvalgos",
-        "button-delete": "Ištrinti",
-        "days-left": "Likusios dienos",
-        "title": "Mano skelbimai",
-        "highest": "Aukščiausias siūlymas",
-        "lowest": "Žemiausias siūlymas"
+        "button-edit": "Bearbeiten",
+        "button-reviews": "Bewertungen",
+        "button-delete": "Löschen",
+        "days-left": "Tage übrig",
+        "title": "Meine Listings",
+        "highest": "Höchstes Gebot",
+        "lowest": "Niedrigstes Gebot"
       },
       "job": {
-        "count": "Kandidatų sąrašas",
-        "avarage": "Vidutinis siūlymas",
-        "lowest": "Žemiausias siūlymas",
-        "highest": "Aukščiausias siūlymas",
-        "button": "Žiūrėti visus"
+        "count": "Anzahl der Bieter",
+        "avarage": "Durchschnittliches Angebot",
+        "lowest": "Niedrigstes Angebot",
+        "highest": "Höchstes Angebot",
+        "button": "Alle sehen"
       },
       "browser": {
         "common": {
-          "area": "Darbo zona"
+          "area": "Arbeitsbereich"
         },
-        "title": "CV Paieška",
+        "title": "CV durchsuchen",
         "search": {
-          "button": "Ieškoti",
+          "button": "Suche",
           "expirience": {
-            "label": "Patirtis",
+            "label": "Berufserfahrung",
             "options": {}
           },
-          "hourly-to": "Valandinis iki",
-          "monthly-to": "Mėnesinis iki",
-          "annual-to": "Metinis iki"
+          "hourly-to": "Stündlich bis",
+          "monthly-to": "Monatlich bis",
+          "annual-to": "Jährlich bis"
         },
         "table": {
-          "name": "Vardas",
-          "email": "El. Paštas",
-          "phone": "Telefono numeris",
-          "salary": "Numatytas atlyginimas"
+          "name": "Name",
+          "email": "E-Mail",
+          "phone": "Telefon-Nummer",
+          "salary": "Erwartetes Gehalt"
         }
       },
       "receipt": {
-        "title": "Apmokėjimai",
+        "title": "Zahlungseingang",
         "search": {
-          "search-from": "Pasirinkite pradžios datą",
-          "search-to": "Pasirinkite pabaigos datą",
-          "button": "Ieškoti"
+          "search-from": "Startdatum wählen",
+          "search-to": "Enddatum wählen",
+          "button": "Suche"
         },
         "table": {
-          "order": "Užsakymo nr.",
-          "date": "Data",
-          "premium": "Reklama",
-          "add-days": "Papildomos dienos",
-          "type": "Pasiūlymo tipas"
+          "order": "Bestellnr.",
+          "date": "Datum",
+          "premium": "Gefördert",
+          "add-days": "Extra Tage",
+          "type": "Art der Auflistung"
         }
       }
     },
     "cv": {
-      "title": "Gyvenimo aprašymai",
+      "title": "Lebenslauf",
       "sections": {
         "personal-details": {
           "form": {
-            "title": "Asmeninės detalės",
-            "first-name": "Vardas",
-            "last-name": "Pavardė",
-            "email": "El. Paštas",
-            "phone": "Telefono numeris",
-            "birthday": "Gimimo data",
+            "title": "Persönliche Details",
+            "first-name": "Vorname",
+            "last-name": "Nachname",
+            "email": "E-Mail",
+            "phone": "Telefon",
+            "birthday": "Geburtstag",
             "age": {
-              "label": "Rodyti amžių",
+              "label": "Alter anzeigen",
               "options": {
-                "yes": "Taip",
-                "no": "Ne",
-                "only-birthdate": "Tik gimimo data"
+                "yes": "Ja",
+                "no": "Nein",
+                "only-birthdate": "Nur Geburtsdatum"
               }
             },
             "gender": {
-              "label": "Lytis",
+              "label": "Geschlecht",
               "options": {
-                "male": "Vyras",
-                "female": "Moteris",
-                "dont–show": "Nenurodyti"
+                "male": "Männlich",
+                "female": "Weiblich",
+                "dont–show": "Nicht anzeigen"
               }
             },
-            "about-me": "Kuo jūs išsiskiriate iš kitų?"
+            "about-me": "Was ist anders an Ihnen?",
+            "cv-published": "Veröffentlicht",
+            "cv-hidden": "Versteckt"
           }
         },
         "education": {
-          "title": "Išsilavinimas",
+          "title": "Ausbildung",
           "accordion": {
-            "school": "Mokyklos pavadinimas",
-            "country": "Šalis",
-            "from-date": "Pradžios data",
-            "to-date": "Pabaigos data",
-            "study-area": "Studijų kryptis",
+            "school": "Name der Schule",
+            "country": "Land",
+            "from-date": "Von Datum",
+            "to-date": "Bis Datum",
+            "study-area": "Studienrichtung",
             "qualification": {
-              "title": "Kvalifikacijos",
+              "title": "Qualifizierung",
               "options": {
-                "primary": "Pradinis išsilavinimas",
-                "secondary": "Pagrindinis išsilavinimas",
-                "vocational": "Profesinis išsilavinimas",
-                "bachelors": "Bakalaurinis išsilavinimas",
-                "master": "Magistro išsilavinimas",
-                "doctorate": "Daktaro išsilavinimas",
-                "other": "Kita"
+                "primary": "Primär",
+                "secondary": "Sekundarstufe",
+                "vocational": "Berufsausbildung",
+                "bachelors": "Bachelors",
+                "master": "Master",
+                "doctorate": "Doktorat",
+                "other": "Andere"
               }
             },
-            "best-fit": "Profesijos atitikmuo",
-            "grade": "Vidutinis pažymys",
-            "button-add": "Pridėti išsilavinimą"
+            "best-fit": "Beruf Fit",
+            "grade": "Durchschnittliche Note",
+            "button-add": "Ausbildung hinzufügen"
           }
         },
         "expierience": {
-          "title": "Darbo patirtis",
+          "title": "Berufserfahrung",
 
-          "company-name": "Kompanijos pavadinimas",
-          "from-date": "Pradžios data",
-          "to-date": "Pabaigos data",
-          "work-area": "Darbo sritis",
-          "position": "Pozicija",
-          "position-description": "Pozicijos apibūdinimas",
-          "sector": "Įdarbinimo sektorius",
+          "company-name": "Name der Firma",
+          "from-date": "Von Datum",
+          "to-date": "Bis Datum",
+          "work-area": "Arbeitsbereich",
+          "position": "Position",
+          "position-description": "Beschreibung der Position",
+          "sector": "Sektor der Beschäftigung",
           "seniority": {
-            "title": "Aukštas pareigas užimantis darbuotojas",
+            "title": "Dienstalter",
             "options": {
-              "volunteer": "Savanoris",
-              "intern": "Praktikantas",
-              "junior": "Jaunesnysis darbuotojas",
-              "intermediate": "Tarpinis darbuotojas",
-              "senior": "Vyresnysis darbuotojas",
-              "executive": "Vykdomasis darbuotojas",
-              "ceo": "Generalinis direktorius",
-              "other": "Kita"
+              "volunteer": "Ehrenamtlich",
+              "intern": "Praktikant",
+              "junior": "Jugendlicher",
+              "intermediate": "Intermediate",
+              "senior": "Senior",
+              "executive": "Führungskraft",
+              "ceo": "CEO",
+              "other": "Andere"
             }
           },
 
-          "button-add": "Pridėti darbo patirtį"
+          "button-add": "Erfahrung hinzufügen"
         },
         "languages": {
-          "title": "Kalbos",
+          "title": "Sprachkenntnisse",
           "accordion": {
-            "language": "Kalba",
-            "certificate": "Sertifikato pavadinimas",
+            "language": "Sprache",
+            "certificate": "Name des Zertifikats",
             "level": {
-              "label": "Lygis",
+              "label": "Niveau",
               "options": {
                 "a1": "A1",
                 "a2": "A2",
@@ -244,141 +246,141 @@
                 "b2": "B2",
                 "c1": "C1",
                 "c2": "C2",
-                "native": "Gimtoji"
+                "native": "Native"
               }
             },
-            "button-add": "Pridėti įgūdžių"
+            "button-add": "Fertigkeit hinzufügen"
           }
         },
         "computer": {
-          "title": "Kompiuteriniai įgūdžiai",
+          "title": "Computer-Fähigkeiten",
           "accordion": {
-            "skill-name": "Kompiuterinis įgūdis",
+            "skill-name": "Computer-Fähigkeit",
             "knowladge-gained": {
-              "label": "Įgytos žinios",
+              "label": "Erlerntes Wissen",
               "options": {
-                "selfTaught": "Savamokslis",
-                "course": "Kursai",
-                "freelance": "Laisvai samdomas darbuotojas",
-                "contractProject": "Kontraktas projektui",
-                "fullTimeJob": "Pilno etato darbuotojas",
-                "other": "Kita"
+                "selfTaught": "Autodidaktisch",
+                "course": "Kurs",
+                "freelance": "Freiberuflich",
+                "contractProject": "Vertragsprojekt",
+                "fullTimeJob": "Festanstellung",
+                "other": "Sonstiges"
               }
             },
             "expierience": {
-              "label": "Patirtis",
-              "uptoOne": "< 1 metų",
-              "oneToThree": "1-3 metų",
-              "threeToFive": "3-5 metų",
-              "fiveToTen": "5-10 metų",
-              "tenToFifteen": "10-15 metų",
-              "moreThanFifteen": "15+ metų"
+              "label": "Berufserfahrung",
+              "uptoOne": "< 1 Jahr",
+              "oneToThree": "1-3 Jahre",
+              "threeToFive": "3-5 Jahre",
+              "fiveToTen": "5-10 Jahre",
+              "tenToFifteen": "10-15 Jahre",
+              "moreThanFifteen": "15+ Jahre"
             },
-            "certificate": "Sertifikato pavadinimas",
-            "button-add": "Pridėti įgūdžių"
+            "certificate": "Name der Zertifizierung",
+            "button-add": "Fertigkeit hinzufügen"
           }
         },
         "licenses": {
-          "title": "Vairuotojo teisės",
+          "title": "Führerschein",
           "accordion": {
-            "country": "Dokumentą išdavė",
+            "country": "Ausgabe Land",
             "expierience": {
-              "label": "Patirtis",
-              "uptoOne": "< 1 metų",
-              "oneToThree": "1-3 metų",
-              "threeToFive": "3-5 metų",
-              "fiveToTen": "5-10 metų",
-              "tenToFifteen": "10-15 metų",
-              "moreThanFifteen": "15+ metų"
+              "label": "Erfahrung",
+              "uptoOne": "< 1 Jahr",
+              "oneToThree": "1-3 Jahre",
+              "threeToFive": "3-5 Jahre",
+              "fiveToTen": "5-10 Jahre",
+              "tenToFifteen": "10-15 Jahre",
+              "moreThanFifteen": "15+ Jahre"
             },
-            "category": "Teisių kategorija",
-            "button-add": "Pridėti teises"
+            "category": "Lizenz-Kategorie",
+            "button-add": "Lizenz hinzufügen"
           }
         },
         "expectations": {
-          "title": "Darbo Lūkesčiai",
+          "title": "Erwartungen an die Arbeit",
           "accordion": {
-            "title": "Darbo Lūkesčiai",
-            "interest": "Dominanti sritis",
-            "position": "Pozicija",
+            "title": "Erwartungen an die Arbeit",
+            "interest": "Interessengebiet",
+            "position": "Position",
             "seniority": {
-              "title": "Aukštas pareigas užimantis darbuotojas",
+              "title": "Dienstalter",
               "options": {
-                "volunteer": "Savanoris",
-                "intern": "Praktikantas",
-                "junior": "Jaunesnysis darbuotojas",
-                "intermediate": "Tarpinis darbuotojas",
-                "senior": "Vyresnysis darbuotojas",
-                "executive": "Vykdomasis darbuotojas",
-                "ceo": "Generalinis direktorius",
-                "other": "Kita"
+                "volunteer": "Ehrenamtlich",
+                "intern": "Praktikant",
+                "junior": "Jugendlicher",
+                "intermediate": "Intermediate",
+                "senior": "Senior",
+                "executive": "Führungskraft",
+                "ceo": "GESCHÄFTSFÜHRER",
+                "other": "Andere"
               }
             },
-            "hourly": "Valandinis nuo",
-            "monthly": "Mėnesinis nuo",
-            "yearly": "Metinis nuo",
-            "button-add": "Pridėti daugiau lūkesčių"
+            "hourly": "Stündlich von",
+            "monthly": "Monatlich von",
+            "yearly": "Jährlich von",
+            "button-add": "Erwartung hinzufügen"
           }
         }
       }
     },
     "browser-cv": {
-      "browser": "CV Paieška",
-      "search": "Ieškoti",
-      "work-expierience": "Darbo patirtis",
-      "work-expectations": "Darbo lūkesčiai",
-      "education-fit": "Išsilavinimas",
-      "salary-hourly": "Valandinis iki",
-      "salary-monthly": "Mėnesinis iki",
-      "salary-annual": "Metinis iki",
-      "seniority": "Aukštas pareigas užimantis darbuotojas",
-      "monthly": "/per mėnesį",
+      "browser": "Browser CV",
+      "search": "Suche",
+      "work-expierience": "Arbeits-Erfahrungen",
+      "work-expectations": "Erwartungen an die Arbeit",
+      "education-fit": "Ausbildung passt",
+      "salary-hourly": "Stundenlohn bis",
+      "salary-monthly": "Monatsgehalt bis",
+      "salary-annual": "Monatsgehalt bis",
+      "seniority": "Dienstalter",
+      "monthly": " /Monatlich",
       "result-table": {
         "nr": "Nr.",
-        "name": "Pilnas vardas",
-        "email": "El. Paštas",
-        "phone": "Telefono numeris",
-        "worked-as": "Pozicija paskutiniame darbe,",
-        "salary": "Atlyginimo lūkesčiai",
-        "cv": "CV",
-        "view": "Peržiūrėti"
+        "name": "Vollständiger Name",
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "worked-as": "Letzte Position,",
+        "salary": "Erwartetes Gehalt",
+        "cv": "LEBENSLAUF",
+        "view": "Ansicht"
       }
     },
     "receipt": {
-      "title": "Mokėjimo kvitai",
-      "start-date": "Pradžios data",
-      "end-date": "Pabaigos data",
+      "title": "Zahlungsbelege",
+      "start-date": "Startdatum",
+      "end-date": "Enddatum",
       "table": {
-        "reference": "Užsakymas #",
-        "date": "Data",
-        "purchase": "Planas",
-        "total": "Kiekis",
-        "status": "Statusas"
+        "reference": "Bestellung",
+        "date": "Datum",
+        "purchase": "Plan",
+        "total": "Betrag",
+        "status": "Status"
       }
     }
   },
   "toast": {
-    "succes": "Profilis buvo atnaujintas",
-    "fail": "Profilis nebuvo atnaujintas",
-    "avatar": "Avataras atnaujintas",
-    "avatar-fail": "Avataras nebuvo atnaujintas",
-    "avatar-remove": "Avataras pašalintas",
-    "avatar-remove-fail": "Avataras nebuvo pašalintas",
-    "logout": "Atsijungėte",
-    "password": "Slaptažodis buvo pakeistas",
-    "password-fail": "Slaptažodis nebuvo pakeistas",
-    "item-deleted": "Skelbimas ištrintas"
+    "succes": "Profil wurde aktualisiert",
+    "fail": "Profil wurde nicht aktualisiert",
+    "avatar": "Avatar wurde aktualisiert",
+    "avatar-fail": "Avatar konnte nicht aktualisiert werden",
+    "avatar-remove": "Avatar wurde entfernt",
+    "avatar-remove-fail": "Avatar wurde nicht entfernt",
+    "logout": "Abgemeldet",
+    "password": "Passwort wurde geändert",
+    "password-fail": "Passwort wurde nicht geändert",
+    "item-deleted": "Auflistung gelöscht"
   },
   "delete-modal": {
-    "header": "Ištrinti skelbimą",
-    "body": "Ar tikrai norite ištrinti skelbimą? ",
-    "cancel": "Atšaukti",
-    "delete": "Ištrinti"
+    "header": "Listing löschen",
+    "body": "Sind Sie sicher, dass Sie diesen Eintrag löschen möchten?",
+    "cancel": "Abbrechen",
+    "delete": "löschen"
   },
   "delete-account": {
-    "header": "Ištrinti anketą",
-    "body": "Ar tikrai norite ištrinti anketą? ",
-    "cancel": "Atšaukti",
-    "delete": "Ištrinti"
+    "header": "Konto löschen",
+    "body": "Sind Sie sicher, dass Sie Ihr Konto löschen möchten?",
+    "cancel": "Abbrechen",
+    "delete": "löschen"
   }
 }

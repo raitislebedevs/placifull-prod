@@ -6,15 +6,11 @@
   z-index: 30000;
   line-height: 1.4;
   text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 5%;
+  padding: 3.5%;
+
   .not_found_container {
     position: absolute;
-    left: 50%;
-    top: 40%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
   }
   .not_found_image {
     max-width: 100%;
@@ -27,10 +23,17 @@
       font-weight: 900;
       text-transform: uppercase;
       margin: 0px;
+
+      @include media-breakpoint-down(md) {
+        font-size: 38px;
+      }
     }
     a {
       font-family: "Maven Pro", sans-serif;
       font-size: 14px;
+      @include media-breakpoint-down(md) {
+        font-size: 13px;
+      }
       text-decoration: none;
       text-transform: uppercase;
       background: #a52a2a;
