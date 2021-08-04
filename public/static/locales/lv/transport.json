@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "form": {
+      "currency": "Valūta",
+      "no-currency": "VISAS",
+      "min-price": "Min.: 0.00",
+      "max-price": "Maks: 9,999,999,999",
+      "transport-brand": "Transporta zīmols",
+      "transport-model": "Transporta modelis",
+      "min-age": "Min. gads",
+      "max-age": "Maks. gads",
+      "submit": "Meklēt Tagad",
+      "accordion": "PAPILDINĀTĀ MEKLĒŠANA",
+      "accordion-right": {
+        "economy": {
+          "label": "Ekonomija",
+          "items": {
+            "from": "No: 0",
+            "to": "Līdz: 999"
+          }
+        },
+        "speed": {
+          "label": "Maks. ātrums",
+          "items": {
+            "from": "No: 0",
+            "to": "Līdz: 999"
+          }
+        },
+        "millage": {
+          "label": "Nobraukums",
+          "items": {
+            "from": "No: 0",
+            "to": "Līdz: 9,999,999"
+          }
+        },
+        "units": "Vienības"
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "Kārtot pēc",
+        "options": {
+          "price": "Cenas",
+          "speed": "Ātruma",
+          "millage": "Nobraukuma",
+          "fuel-economy": "Ekonomijas",
+          "popularity": "Popularitātes",
+          "views": "Skatījumiem",
+          "country": "Valsts",
+          "insert-date": "Ievietošanas datuma"
+        }
+      }
+    }
+  }
+}

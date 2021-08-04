@@ -1,0 +1,77 @@
+{
+  "heading": "Ievietot Sludinājumu",
+  "form": {
+    "submit": "Ievietot",
+    "submit-confirm": "Saglabā…",
+    "preview-sneak-peak": "Ģenerē…",
+    "preview": "Priekštatīt",
+    "currency": "Valūtas",
+    "no-currency": "VISAS",
+    "general-information": {
+      "heading": "Galvenā informācija",
+      "transport-type": "Transporta tips",
+      "action": "Darbība",
+      "condition": "Stāvoklis",
+      "input-fields": {
+        "description": "Apraksts",
+        "brand": "Transporta zīmols",
+        "model": "Transporta modelis",
+        "production-year": "Ražošanas gads",
+        "price": "Cena",
+        "engine-type": "Motora tips",
+        "gear-box": "Pārnesumkārba",
+        "millage": "Attālums",
+        "speed": "Maks. ātrums",
+        "fueal-economy": "Ekonomija",
+        "seats": "Sēdvietu skaits",
+        "doors": "Durvju skaits",
+        "name": "Transporta sludinājuma nosaukums"
+      }
+    },
+    "detail-information": {
+      "heading": "Detalizēta informācija",
+      "contact": {
+        "heading": "Kontaktinformācija",
+        "email": "Epasts",
+        "address": "Adrese",
+        "contact-times": {
+          "label": "Sazināšanāš laiki",
+          "placeholder": "Izēlies vēlomo sazināšanās laiku",
+          "options": {
+            "any-time": "Jebkurā laikā",
+            "working-days": "Darba dienās",
+            "office-hours": "Biroja stundās",
+            "specific-times": "Konkrētos laikos"
+          }
+        },
+        "listing-website": "Mājas lapa: https: //"
+      },
+      "features": {
+        "heading": "Iespējas",
+        "category": {
+          "equipment": "Aprīkojums",
+          "interior": "Interjers",
+          "steering-wheel": "Stūre",
+          "seats": "Sēdekļi",
+          "lights": "Gaismas",
+          "audio-video": "Audio/Video",
+          "mirrros": "Spoguļi"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "Galerija",
+      "click-drop": "Noklikšķiniet vai uzvelciet attēlus šeit",
+      "video-url": "Video URL: https://"
+    },
+    "contact-hours": {
+      "heading": "Sazināšanāš laiks",
+      "heading-tip": "Neobligāti",
+      "accordion": {
+        "heading": "Pievienojiet vispiemērotākos laikus, kad varu satikties/runāt …",
+        "start-time": "No",
+        "end-time": "Līdz"
+      }
+    }
+  }
+}

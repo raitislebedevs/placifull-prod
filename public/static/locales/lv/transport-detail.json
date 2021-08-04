@@ -1,0 +1,63 @@
+{
+  "header": {
+    "flag-button": "ZIŅOT PAR ŠO SLUDINĀJUMU"
+  },
+  "detail-info": {
+    "button": "VĒLOS IEVĀKTIES TAGAD"
+  },
+  "contact-times": {
+    "heading": "Vēlamais kontakt laiks"
+  },
+
+  "promoted": "Izcelts",
+
+  "about": {
+    "heading": "Par",
+    "featured": "Izcelts",
+    "notFeatured": "Nav izcelts",
+    "rentTime": "mēnesī",
+    "inputTimeDays": "dienas ipriekš"
+  },
+
+  "general-info": {
+    "heading": "Galvenā informācija",
+    "brand": "Transporta zīmols",
+    "model": "Transporta modelis",
+    "year": "Gads",
+    "price": "Cena",
+    "distance": "Nobraukums",
+    "max-speed": "Maks. Ātrums",
+    "fuel-economy": "Degvielas patēriņs",
+    "seats": "Vietas",
+    "doors": "Durvis",
+    "bid-price": "Solīt par šo transportu",
+    "submit": "Solīt",
+    "bid-placeholder": "Solīt 20% robežāš"
+  },
+  "features": {
+    "heading": "Opcijas"
+  },
+  "contact-form": {
+    "not-specified": "Nav precizētas",
+    "heading": "Sazināties ar īpašnieku",
+    "form": {
+      "heading": "Rakstiet savu jātājumu",
+      "fullName": "Pilnais vārds*",
+      "phoneNumber": "Telefona numurs*",
+      "email": "Epasts*",
+      "message": "Tava ziņa",
+      "submit": "SŪTĪT ZIŅU"
+    }
+  },
+  "extra": {
+    "heading": "Citi šajā profilā uzskaitītie sludinājumi",
+    "table": {
+      "number": "Nr.",
+      "country": "Valsts",
+      "brand-model": "Modelis/Zīmols",
+      "price": "Cena",
+      "condition": "Stāvoklis",
+      "production-year": "Gads"
+    }
+  }
+}

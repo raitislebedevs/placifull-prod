@@ -23,7 +23,6 @@ const VotingBoard = (props) => {
           <h3 className={'suggestion_title'}>Title Of Suggestion 1</h3>
           <div className={'separator'}></div>
           <div className={'suggestion__text'}>
-            {' '}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus
             mattis rhoncus urna neque viverra justo. Amet facilisis magna etiam
@@ -40,7 +39,7 @@ const VotingBoard = (props) => {
         </Col>
         <Col xs={12} sm={12} md={12} lg={4} xl={4} className={'info'}>
           <div className={'vote_count'}>
-            <h6 className={'info__text'}>Current score</h6>
+            <h6 className={'info__text'}>{t('voting-board:item.score')}</h6>
             <div className={'upvote__count'}>
               {' '}
               <BsFillPersonFill />
@@ -48,18 +47,18 @@ const VotingBoard = (props) => {
             </div>
           </div>
           <div className={'up_down_button'}>
-            <h6 className={'info__text'}>Voting options</h6>
+            <h6 className={'info__text'}>{t('voting-board:item.options')}</h6>
             <div className={'voting__options'}>
               <span className={'upvote'}>
-                <BiUpvote /> UP
+                <BiUpvote /> {t('voting-board:item.up')}
               </span>
               <span className={'downvote'}>
-                <BiDownvote /> DOWN
+                <BiDownvote /> {t('voting-board:item.down')}
               </span>
             </div>
           </div>
           <div className={'rating_container'}>
-            <h6 className={'rating'}>Rating</h6>
+            <h6 className={'rating'}>{t('voting-board:item.rating')}</h6>
             <Rating
               stop={5}
               initialRating={3.5}
@@ -69,7 +68,7 @@ const VotingBoard = (props) => {
             />
             <span className={'count'}>4.3</span>
           </div>
-          <div className={'vote_button'}>VOTE</div>
+          <div className={'vote_button'}>{t('voting-board:item.vote')}</div>
         </Col>
       </Row>
     </Container>

@@ -18,16 +18,15 @@ html,
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans, Roboto, Segoe UI, sans-serif";
+  white-space: normal !important;
 }
+// fontFamily: 'Roboto, Open Sans, Segoe UI, sans-serif',
 
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-}
-
-.container {
 }
 
 a {
