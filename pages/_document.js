@@ -17,7 +17,7 @@ class MyDocument extends Document {
           />
           <meta
             name="google-site-verification"
-            content="seGi1OVhs3Cq9XBTOdTRoPTsRn2qWuYEyKdw9PT7I9k"
+            content="ZFzbY-Sgp7ARP--dYQ3KPBobwM9SBLQV4XfTco7HgV0"
           />
           <link rel="icon" href={logo} sizes="any" type="image/svg+xml" />
         </Head>
