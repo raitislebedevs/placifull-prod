@@ -16,18 +16,12 @@ import { JobApplication } from 'services';
 import { toast } from 'react-toastify';
 import { connect } from 'react-redux';
 
-const img1 = '/static/images/service/listing_opts.jpg';
-const img2 = '/static/images/service/help_us_improve.jpg';
-const img3 = '/static/images/service/like_share.jpg';
-const img4 = '/static/images/service/make_us_better.jpg';
-const img5 = '/static/images/service/career.jpg';
-
 const ServiceSection = (props) => {
   const { t, user } = props;
   const services = [
     {
       key: 0,
-      srcImg: img1,
+      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/listing_opts.jpg',
       title: t('service-section.services.service-1.name'),
       content: t('service-section.services.service-1.description'),
       learnMore: (
@@ -42,7 +36,7 @@ const ServiceSection = (props) => {
     },
     {
       key: 1,
-      srcImg: img2,
+      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/help_us_improve.jpg',
       title: t('service-section.services.service-2.name'),
       content: t('service-section.services.service-2.description'),
       learnMore: (
@@ -57,7 +51,7 @@ const ServiceSection = (props) => {
     },
     {
       key: 2,
-      srcImg: img3,
+      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/like_share.jpg',
       title: t('service-section.services.service-3.name'),
       content: t('service-section.services.service-3.description'),
       learnMore: (
@@ -76,7 +70,7 @@ const ServiceSection = (props) => {
     },
     {
       key: 3,
-      srcImg: img4,
+      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/make_us_better.jpg',
       title: t('service-section.services.service-4.name'),
       content: t('service-section.services.service-4.description'),
       learnMore: (
@@ -91,7 +85,7 @@ const ServiceSection = (props) => {
     },
     {
       key: 4,
-      srcImg: img5,
+      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/career.jpg',
       title: t('service-section.services.service-5.name'),
       content: t('service-section.services.service-5.description'),
       learnMore: (
@@ -612,7 +606,7 @@ const ServiceSection = (props) => {
                   <Row>
                     <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                       <img
-                        src={activeItem.srcImg}
+                        src={activeItem.url}
                         className="img-fluid rounded shadow"
                         alt=""
                       />
