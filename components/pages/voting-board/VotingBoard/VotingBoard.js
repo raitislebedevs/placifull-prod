@@ -5,7 +5,7 @@ import { Container, Spinner, Row, Col } from 'react-bootstrap';
 import { BsFillPersonFill } from 'react-icons/bs';
 import { BiUpvote, BiDownvote } from 'react-icons/bi';
 import ReactPaginate from 'react-paginate';
-import { VotingBoardService } from 'services';
+import { VotingBoardService } from 'services/index';
 
 const VotingBoard = (props) => {
   const { t } = props;
