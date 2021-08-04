@@ -317,7 +317,7 @@ const RegisterForm = (props) => {
                             />
                             <FormCheck.Label>
                               {t('register:form.terms-text')}{' '}
-                              <Link href="/terms-conditions">
+                              <Link href="/terms">
                                 <a className="font-weight-bold">
                                   {t('register:form.terms-link')}
                                 </a>
