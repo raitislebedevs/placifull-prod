@@ -1,5 +1,5 @@
 {
-  "currency": "€ ",
+  "currency": "€ ",
   "payment-modal": {
     "header": "配套购买详情",
     "sub-header": "请从以下详情中选择您的配套",
@@ -76,7 +76,7 @@
         "activeSubscription": "搜索简历"
       }
     },
-    "thank-you-message": "感谢您支持Placifull公司。 我们相信您会对您的选择感到满意。",
+    "thank-you-message": "感谢您支持Placifull公司。 我们相信您会对您的选择感到满意。",
     "buttons": {
       "cancel": "取消",
       "proceed": "支付并继续"

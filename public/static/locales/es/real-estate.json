@@ -19,13 +19,13 @@
       "accordion-right": {
         "utility-label": "Rango de facturación de servicios públicos",
         "utility": {
-          "from-price": "Desde: 0.00",
-          "to-price": "Hasta: 9,999,999,999"
+          "from-price": "Desde: 0.00",
+          "to-price": "Hasta: 9,999,999,999"
         },
         "year-label": "Año de construcción",
         "built": {
-          "from-year": "Desde: 1000",
-          "to-year": "Hasta: 9999"
+          "from-year": "Desde: 1000",
+          "to-year": "Hasta: 9999"
         },
         "measurement-label": "Medida",
         "system": {

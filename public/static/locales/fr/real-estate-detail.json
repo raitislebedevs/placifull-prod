@@ -3,7 +3,7 @@
     "flag-button": "SIGNALER CE CONTENU"
   },
   "detail-info": {
-    "button": "JE VEUX EMMÉNAGER MAINTENANT"
+    "button": "JE VEUX EMMÉNAGER MAINTENANT"
   },
   "contact-times": {
     "heading": "Horaires de prise contact préférables"
@@ -24,15 +24,15 @@
     "price": "Prix",
     "total-ultilities": "Total des dépenses utilitaires",
     "move-in": "Date d'entrée dans les lieux",
-    "move-out": "Date de sortie des lieux",
+    "move-out": "Date de sortie des lieux",
     "min-time": "Durée minimale",
-    "bid-price": "Montant de l'offre pour la propriété",
+    "bid-price": "Montant de l'offre pour la propriété",
     "submit": "OFFRE ",
-    "bid-placeholder": "Faites une offre dans une marge de 20 %"
+    "bid-placeholder": "Faites une offre dans une marge de 20 %"
   },
 
   "contact-form": {
-    "heading": "Contacter le propriétaire directement",
+    "heading": "Contacter le propriétaire directement",
     "form": {
       "heading": "Écrivez votre question ici",
       "fullName": "Nom complet*",
@@ -43,7 +43,7 @@
     }
   },
   "extra": {
-    "heading": "Autres biens listés par ce profil",
+    "heading": "Autres biens listés par ce profil",
     "table": {
       "number": "No.",
       "country": "Pays",

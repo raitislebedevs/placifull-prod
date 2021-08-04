@@ -150,7 +150,7 @@
       }
     },
     "cv": {
-      "title": "Curriculum Vitae",
+      "title": "Curriculum Vitae",
       "sections": {
         "personal-details": {
           "form": {
@@ -269,12 +269,12 @@
             },
             "expierience": {
               "label": "Pengalaman",
-              "uptoOne": "< 1 tahun",
-              "oneToThree": "1-3 tahun",
-              "threeToFive": "3-5 tahun",
-              "fiveToTen": "5-10 tahun",
-              "tenToFifteen": "10-15 tahun",
-              "moreThanFifteen": "15+ tahun"
+              "uptoOne": "< 1 tahun",
+              "oneToThree": "1-3 tahun",
+              "threeToFive": "3-5 tahun",
+              "fiveToTen": "5-10 tahun",
+              "tenToFifteen": "10-15 tahun",
+              "moreThanFifteen": "15+ tahun"
             },
             "certificate": "Nama Sertifikat",
             "button-add": "Tambahkan Keterampilan"
@@ -286,12 +286,12 @@
             "country": "Negara yang Menerbitkan",
             "expierience": {
               "label": "Pengalaman",
-              "uptoOne": "< 1 tahun",
-              "oneToThree": "1-3 tahun",
-              "threeToFive": "3-5 tahun",
-              "fiveToTen": "5-10 tahun",
-              "tenToFifteen": "10-15 tahun",
-              "moreThanFifteen": "15+ tahun"
+              "uptoOne": "< 1 tahun",
+              "oneToThree": "1-3 tahun",
+              "threeToFive": "3-5 tahun",
+              "fiveToTen": "5-10 tahun",
+              "tenToFifteen": "10-15 tahun",
+              "moreThanFifteen": "15+ tahun"
             },
             "category": "Kategori Lisensi",
             "button-add": "Tambahkan Lisensi"

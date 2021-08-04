@@ -269,12 +269,12 @@
             },
             "expierience": {
               "label": "Опыт",
-              "uptoOne": "< 1 года",
-              "oneToThree": "1-3 лет",
-              "threeToFive": "3-5 лет",
-              "fiveToTen": "5-10 лет",
-              "tenToFifteen": "10-15 лет",
-              "moreThanFifteen": "15+ лет"
+              "uptoOne": "< 1 года",
+              "oneToThree": "1-3 лет",
+              "threeToFive": "3-5 лет",
+              "fiveToTen": "5-10 лет",
+              "tenToFifteen": "10-15 лет",
+              "moreThanFifteen": "15+ лет"
             },
             "certificate": "Названия сертификата",
             "button-add": "Добавить навык"
@@ -286,12 +286,12 @@
             "country": "Страна выдачи",
             "expierience": {
               "label": "Опыт",
-              "uptoOne": "< 1 года",
-              "oneToThree": "1-3 лет",
-              "threeToFive": "3-5 лет",
-              "fiveToTen": "5-10 лет",
-              "tenToFifteen": "10-15 лет",
-              "moreThanFifteen": "15+ лет"
+              "uptoOne": "< 1 года",
+              "oneToThree": "1-3 лет",
+              "threeToFive": "3-5 лет",
+              "fiveToTen": "5-10 лет",
+              "tenToFifteen": "10-15 лет",
+              "moreThanFifteen": "15+ лет"
             },
             "category": "Категория прав",
             "button-add": "Добавить права"

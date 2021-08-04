@@ -3,13 +3,13 @@
     "success": "支付成功。",
     "plan_update": "我们无法更新您的配套。",
     "card_not": "银行卡没有被收费。",
-    "pay": "支付€ ",
+    "pay": "支付€ ",
     "processing": "处理中..."
   },
   "placeholders": {
-    "name": "Jane Doe",
+    "name": "Jane Doe",
     "email": "janedoe@placifull.com",
-    "phone": "(941) 555-7777"
+    "phone": "(941) 555-7777"
   },
   "incomplete": {
     "incomplete_cvc": "您的银行卡的安全代码不完整。",

@@ -48,8 +48,8 @@
       }
     },
     "input-languages": {
-      "label": "需要了解的语言。 (英语)",
-      "labelNative": "需要了解的语言。 (母语)"
+      "label": "需要了解的语言。 (英语)",
+      "labelNative": "需要了解的语言。 (母语)"
     }
   }
 }

@@ -7,10 +7,10 @@ module.exports = withImages({
     API_ENDPOINT: process.env.API_ENDPOINT,
     API_SUFFIX: process.env.API_SUFFIX,
     STRIPE_PUBLIC_KEY: process.env.STRIPE_PUBLIC_KEY,
-    EMAIL_ADDRESS: process.env.EMAIL_ADDRESS,
+    EMAIL_ADDRESS: process.env.EMAIL_ADDRESS
   },
   future: {
-    webpack5: true,
+    webpack5: true
   },
   rewrites: async () =>
     nextI18NextRewrites({
@@ -33,12 +33,12 @@ module.exports = withImages({
       dk: 'dk',
       ro: 'ro',
       jp: 'jp',
-      id: 'id',
+      id: 'id'
     }),
   sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
+    includePaths: [path.join(__dirname, 'styles')]
   },
-  webpack: (config) => {
+  webpack: config => {
     return config;
-  },
+  }
 });

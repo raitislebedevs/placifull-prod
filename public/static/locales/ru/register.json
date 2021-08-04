@@ -11,7 +11,7 @@
     "terms-text": "Я согласен",
     "terms-link": "Правила и условия",
     "error": {
-      "email-invalid": "Email недействителен.",
+      "email-invalid": "Email недействителен.",
       "email-required": "Требуется указать email.",
       "password-required": "Требуется указать пароль",
       "first-name-required": "Требуется указать имя",

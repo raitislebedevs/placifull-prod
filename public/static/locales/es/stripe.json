@@ -3,7 +3,7 @@
     "success": "El pago fue exitoso.",
     "plan_update": "No hemos podido actualizar su plan.",
     "card_not": "La tarjeta no fue cargada.",
-    "pay": "Pagar €. ",
+    "pay": "Pagar €. ",
     "processing": "Procesando..."
   },
   "placeholders": {

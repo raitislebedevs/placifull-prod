@@ -22,22 +22,22 @@
       "hourly-rate": {
         "label": "Salario por hora",
         "items": {
-          "from": "Desde: 0",
-          "to": "Hasta: 999,999"
+          "from": "Desde: 0",
+          "to": "Hasta: 999,999"
         }
       },
       "monthly-salary": {
         "label": "Salario mensual",
         "items": {
-          "from": "Desde: 0",
-          "to": "Hasta: 999,999,999"
+          "from": "Desde: 0",
+          "to": "Hasta: 999,999,999"
         }
       },
       "yearly-salary": {
         "label": "Salario anual",
         "items": {
-          "from": "Desde: 0",
-          "to": "Hasta: 99,999,999,999"
+          "from": "Desde: 0",
+          "to": "Hasta: 99,999,999,999"
         }
       }
     }

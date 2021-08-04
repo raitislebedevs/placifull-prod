@@ -9,7 +9,7 @@
   "placeholders": {
     "name": "Jane Doe",
     "email": "janedoe@placifull.com",
-    "phone": "(941) 555-7777"
+    "phone": "(941) 555-7777"
   },
   "incomplete": {
     "incomplete_cvc": "Il codice di sicurezza della tua carta è incompleto.",

@@ -7,7 +7,7 @@
     }
   },
   "contact-form": {
-    "heading": "Contacter l'entreprise directement",
+    "heading": "Contacter l'entreprise directement",
     "form": {
       "heading": "Écrivez votre question à partir d'ici",
       "fullName": "Nom complet*",
@@ -44,11 +44,11 @@
     "body": {
       "proposal": "Salaire proposé"
     },
-    "info": "Votre CV va être envoyé à l'employeur"
+    "info": "Votre CV va être envoyé à l'employeur"
   },
 
   "extra": {
-    "heading": "Emplois listés par ce profil",
+    "heading": "Emplois listés par ce profil",
     "table": {
       "number": "No. ",
       "country": "Pays",

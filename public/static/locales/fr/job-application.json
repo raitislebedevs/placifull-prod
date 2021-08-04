@@ -1,16 +1,16 @@
 {
   "job-apply": {
-    "heading": "Êtes-vous sûr de vouloir postuler pour :",
+    "heading": "Êtes-vous sûr de vouloir postuler pour :",
     "proposed-salary": "Salaire souhaité ",
     "close": "Fermer",
     "apply": "Appliquer",
     "applying": "En cours de traitement....",
     "toast": {
-      "success": "Félicitations, vous avez postulé !",
+      "success": "Félicitations, vous avez postulé !",
       "log-in": "Vous devez être connecté.",
       "applied": "Vous avez déjà postulé.",
       "cv": "Veuillez mettre à jour votre CV",
-      "just": "Hé, vous venez de postuler :)"
+      "just": "Hé, vous venez de postuler :)"
     }
   }
 }

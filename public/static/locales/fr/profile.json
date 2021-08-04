@@ -9,16 +9,16 @@
     "setting-label": "Acheté",
     "delete-avatar-modal": {
       "header": "Supprimer l'avatar",
-      "body": "Voulez-vous supprimer votre avatar ?",
+      "body": "Voulez-vous supprimer votre avatar ?",
       "submit": "Supprimer",
       "cancel": "Annuler"
     }
   },
   "hover-texts": {
-    "real-estate": "Annonces immobilières",
+    "real-estate": "Annonces immobilières",
     "transport": "Annonces véhicules",
     "job": "Offres d'emploi",
-    "browser": "Navigateur CV"
+    "browser": "Navigateur CV"
   },
   "left-tab": {
     "navigation": "Recherche",
@@ -28,7 +28,7 @@
       "real-estate": "Immobilier",
       "transport": "Véhicules",
       "jobs": "Emplois",
-      "browser": "Navigateur CV",
+      "browser": "Navigateur CV",
       "payment": "Reçus de paiement",
       "logout": "Se déconnecter"
     }
@@ -40,13 +40,13 @@
       "personal-details": {
         "heading": "Détails personnels : ",
         "labels": {
-          "profession": "Profession et identité",
+          "profession": "Profession et identité",
           "first-name": "Prénom",
           "last-name": "Nom de famille",
-          "email": "Votre e-mail",
+          "email": "Votre e-mail",
           "phone-number": "Numéro de téléphone.",
           "about-me-heading": "À propos de moi",
-          "about-me": "Qu'est-ce qui est différent à votre sujet ?",
+          "about-me": "Qu'est-ce qui est différent à votre sujet ?",
           "country": "Pays",
           "state": "État/Région",
           "city": "Ville",
@@ -74,14 +74,14 @@
         "button-save": "Sauvegarder le mot de passe",
         "validation": {
           "current-password-required": "Veuillez confirmer le mot de passe",
-          "new-password-required": "Nouveau mot de passe manquant",
+          "new-password-required": "Nouveau mot de passe manquant",
           "password-not-match": "Les mots de passe ne correspondent pas",
           "confirm-password-required": "Veuillez confirmer le mot de passe"
         }
       },
       "delete-form": {
         "text": "Supprimer le compte:",
-        "content": "Voulez-vous supprimer le compte ? Veuillez appuyer sur le bouton ci-dessous « Supprimer »",
+        "content": "Voulez-vous supprimer le compte ? Veuillez appuyer sur le bouton ci-dessous « Supprimer »",
         "button-delete": "Supprimer le compte"
       },
       "validation": {
@@ -122,9 +122,9 @@
             "label": "Expérience",
             "options": {}
           },
-          "hourly-to": "Horaire à",
-          "monthly-to": "Mensuel à",
-          "annual-to": "Annuel à"
+          "hourly-to": "Horaire à",
+          "monthly-to": "Mensuel à",
+          "annual-to": "Annuel à"
         },
         "table": {
           "name": "Nom",
@@ -150,7 +150,7 @@
       }
     },
     "cv": {
-      "title": "Curriculum Vitaes",
+      "title": "Curriculum Vitaes",
       "sections": {
         "personal-details": {
           "form": {
@@ -176,7 +176,7 @@
                 "dont–show": "Ne pas afficher"
               }
             },
-            "about-me": "Qu'est-ce qui est différent à votre sujet ?",
+            "about-me": "Qu'est-ce qui est différent à votre sujet ?",
             "cv-published": "Publié",
             "cv-hidden": " Caché"
           }
@@ -236,7 +236,7 @@
           "title": "Compétences linguistiques",
           "accordion": {
             "language": "Langue",
-            "certificate": "Nom du Certificat",
+            "certificate": "Nom du Certificat",
             "level": {
               "label": "Niveau",
               "options": {
@@ -257,24 +257,24 @@
           "accordion": {
             "skill-name": "Compétences en informatique",
             "knowladge-gained": {
-              "label": "Connaissances acquises",
+              "label": "Connaissances acquises",
               "options": {
                 "selfTaught": "Autodidacte",
                 "course": "Formations",
                 "freelance": "Free-lance",
-                "contractProject": "Contrat de Projet",
+                "contractProject": "Contrat de Projet",
                 "fullTimeJob": "Emploi à temps plein",
                 "other": "Autre"
               }
             },
             "expierience": {
               "label": "Expérience",
-              "uptoOne": "< 1 an",
-              "oneToThree": "1-3 ans",
-              "threeToFive": "3-5 ans",
-              "fiveToTen": "5-10 ans",
-              "tenToFifteen": "10-15 ans",
-              "moreThanFifteen": "15+ ans"
+              "uptoOne": "< 1 an",
+              "oneToThree": "1-3 ans",
+              "threeToFive": "3-5 ans",
+              "fiveToTen": "5-10 ans",
+              "tenToFifteen": "10-15 ans",
+              "moreThanFifteen": "15+ ans"
             },
             "certificate": "Nom de la certification",
             "button-add": "Ajouter une compétence"
@@ -286,12 +286,12 @@
             "country": "Pays d'émission",
             "expierience": {
               "label": "Expérience",
-              "uptoOne": "< 1 an",
-              "oneToThree": "1-3 ans",
-              "threeToFive": "3-5 ans",
-              "fiveToTen": "5-10 ans",
-              "tenToFifteen": "10-15 ans",
-              "moreThanFifteen": "15+ ans"
+              "uptoOne": "< 1 an",
+              "oneToThree": "1-3 ans",
+              "threeToFive": "3-5 ans",
+              "fiveToTen": "5-10 ans",
+              "tenToFifteen": "10-15 ans",
+              "moreThanFifteen": "15+ ans"
             },
             "category": "Catégorie de licence",
             "button-add": "Ajouter une licence"
@@ -325,7 +325,7 @@
       }
     },
     "browser-cv": {
-      "browser": "Navigateur CV",
+      "browser": "Navigateur CV",
       "search": "Chercher",
       "work-expierience": "Expérience de travail",
       "work-expectations": "Attentes professionnelles",
@@ -362,7 +362,7 @@
   "toast": {
     "succes": "Le profil a été mis à jour",
     "fail": "Le profil n'a pas été mis à jour",
-    "avatar": "Avatar mis à jour",
+    "avatar": "Avatar mis à jour",
     "avatar-fail": "Échec de la mise à jour de l'avatar",
     "avatar-remove": "Avatar supprimé",
     "avatar-remove-fail": "L'avatar n'a pas été supprimé",
@@ -373,13 +373,13 @@
   },
   "delete-modal": {
     "header": "Supprimer l'annonce",
-    "body": "Êtes-vous sûr de vouloir supprimer cette annonce ?",
+    "body": "Êtes-vous sûr de vouloir supprimer cette annonce ?",
     "cancel": "Annuler",
     "delete": "Supprimer"
   },
   "delete-account": {
     "header": "Supprimer le compte",
-    "body": "Êtes-vous sûr de vouloir supprimer votre compte ?",
+    "body": "Êtes-vous sûr de vouloir supprimer votre compte ?",
     "cancel": "Annuler",
     "delete": "Supprimer"
   }

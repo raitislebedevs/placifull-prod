@@ -3,8 +3,8 @@
     "form": {
       "currency": "Devise",
       "no-currency": "TOUTES",
-      "min-price": "Min : 0.00",
-      "max-price": "Maximum : 9 999 999 999",
+      "min-price": "Min : 0.00",
+      "max-price": "Maximum : 9 999 999 999",
       "transport-brand": "Marque de vehicle",
       "transport-model": "Modèle de vehicle",
       "min-age": "Âge minimum",
@@ -15,22 +15,22 @@
         "economy": {
           "label": "Consommation de carburant",
           "items": {
-            "from": "De : 0",
-            "to": "À : 999"
+            "from": "De : 0",
+            "to": "À : 999"
           }
         },
         "speed": {
           "label": "Vitesse maximale",
           "items": {
-            "from": "De : 0",
-            "to": "À : 999"
+            "from": "De : 0",
+            "to": "À : 999"
           }
         },
         "millage": {
           "label": "Kilométrage",
           "items": {
-            "from": "De : 0",
-            "to": "À : 9,999,9999"
+            "from": "De : 0",
+            "to": "À : 9,999,9999"
           }
         },
         "units": "Unités"

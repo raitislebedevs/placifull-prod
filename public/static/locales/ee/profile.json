@@ -269,12 +269,12 @@
             },
             "expierience": {
               "label": "Kogemus",
-              "uptoOne": "< 1 aastat",
-              "oneToThree": "1-3 aastat",
-              "threeToFive": "3-5 aastat",
-              "fiveToTen": "5-10 aastat",
-              "tenToFifteen": "10-15 aastat",
-              "moreThanFifteen": "15+ aastat"
+              "uptoOne": "< 1 aastat",
+              "oneToThree": "1-3 aastat",
+              "threeToFive": "3-5 aastat",
+              "fiveToTen": "5-10 aastat",
+              "tenToFifteen": "10-15 aastat",
+              "moreThanFifteen": "15+ aastat"
             },
             "certificate": "Sertifikaadi nimi",
             "button-add": "Lisa oskus"
@@ -286,12 +286,12 @@
             "country": "Väljaandja riik",
             "expierience": {
               "label": "Kogemus",
-              "uptoOne": "< 1 aasta",
-              "oneToThree": "1-3 aastat",
-              "threeToFive": "3-5 aastat",
-              "fiveToTen": "5-10 aastat",
-              "tenToFifteen": "10-15 aastat",
-              "moreThanFifteen": "15+ aastat"
+              "uptoOne": "< 1 aasta",
+              "oneToThree": "1-3 aastat",
+              "threeToFive": "3-5 aastat",
+              "fiveToTen": "5-10 aastat",
+              "tenToFifteen": "10-15 aastat",
+              "moreThanFifteen": "15+ aastat"
             },
             "category": "Loa kategooria",
             "button-add": "Lisa luba"

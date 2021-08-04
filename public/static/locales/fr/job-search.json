@@ -4,7 +4,7 @@
     "no-currency": "TOUTES",
     "languages": {
       "native": "Langue maternelle",
-      "english": "Langues anglais"
+      "english": "Langues anglais"
     },
     "submit": "Rechercher maintenant",
     "accordion": {
@@ -13,8 +13,8 @@
         "heading": "Caractéristiques",
         "licenses": "Permis de conduire",
         "education": "Niveau d'étude",
-        "expierience": "Expérience en années",
-        "candiadate": "Le candidat est capable de :",
+        "expierience": "Expérience en années",
+        "candiadate": "Le candidat est capable de :",
         "benefits": "Avantages"
       }
     },
@@ -22,22 +22,22 @@
       "hourly-rate": {
         "label": "Taux horaire",
         "items": {
-          "from": "De : 0",
-          "to": "À : 999 999"
+          "from": "De : 0",
+          "to": "À : 999 999"
         }
       },
       "monthly-salary": {
         "label": "Salaire mensuel",
         "items": {
-          "from": "De : 0",
-          "to": "À : 999 999 999"
+          "from": "De : 0",
+          "to": "À : 999 999 999"
         }
       },
       "yearly-salary": {
         "label": "Salaire annuel",
         "items": {
-          "from": "De : 0",
-          "to": "À : 99 999 999 999"
+          "from": "De : 0",
+          "to": "À : 99 999 999 999"
         }
       }
     }

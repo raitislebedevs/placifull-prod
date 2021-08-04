@@ -3,7 +3,7 @@
     "flag-button": "SIGNALER CE CONTENU"
   },
   "detail-info": {
-    "button": "JE VEUX EMMÉNAGER MAINTENANT"
+    "button": "JE VEUX EMMÉNAGER MAINTENANT"
   },
   "contact-times": {
     "heading": "Horaires de prise de contact préférables"
@@ -30,16 +30,16 @@
     "fuel-economy": "Consommation de carburant",
     "seats": "Places",
     "doors": "Portes",
-    "bid-price": "Montant de l'offre pour le Véhicule",
+    "bid-price": "Montant de l'offre pour le Véhicule",
     "submit": "OFFRE D'ACHAT",
-    "bid-placeholder": "Faites une offre dans une marge de 20 %"
+    "bid-placeholder": "Faites une offre dans une marge de 20 %"
   },
   "features": {
     "heading": "Caractéristiques"
   },
   "contact-form": {
     "not-specified": "Non précisé",
-    "heading": "Contacter le propriétaire directement",
+    "heading": "Contacter le propriétaire directement",
     "form": {
       "heading": "Écrivez votre question ici",
       "fullName": "Nom complet*",
@@ -50,7 +50,7 @@
     }
   },
   "extra": {
-    "heading": "Autres véhicules listés par ce profil",
+    "heading": "Autres véhicules listés par ce profil",
     "table": {
       "number": "No.",
       "country": "Pays",

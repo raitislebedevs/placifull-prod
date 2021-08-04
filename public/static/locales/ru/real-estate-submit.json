@@ -32,13 +32,13 @@
           "label": "Время контакта",
           "placeholder": "Выберите предпочтительное время"
         },
-        "listing-website": "Вебсайт: https://"
+        "listing-website": "Вебсайт: https://"
       }
     },
     "gallery": {
       "real-estate": "Галерея",
       "click-drop": "НАЖМИТЕ ИЛИ ПЕРЕТАЩИТЕ ИЗОБРАЖЕНИЯ СЮДА",
-      "video-url": "Видео https://"
+      "video-url": "Видео https://"
     },
     "contact-hours": {
       "heading": "Контактные часы",

@@ -1,12 +1,12 @@
 {
   "labels": {
-    "about-me": "About Me",
+    "about-me": "About Me",
     "languages": "Languages",
-    "computer-skills": "Computer Skills",
+    "computer-skills": "Computer Skills",
     "education": "Education",
     "expierience": "Work Experience",
-    "licenses": "Transport License",
-    "expectations": "Work Expectations",
+    "licenses": "Transport License",
+    "expectations": "Work Expectations",
     "certification": "Certification"
   },
   "gender": {
@@ -16,20 +16,20 @@
   },
   "expierience": {
     "label": "Experience",
-    "uptoOne": "< 1 year",
-    "oneToThree": "1-3 years",
-    "threeToFive": "3-5 years",
-    "fiveToTen": "5-10 years",
-    "tenToFifteen": "10-15 years",
-    "moreThanFifteen": "15+ years"
+    "uptoOne": "< 1 year",
+    "oneToThree": "1-3 years",
+    "threeToFive": "3-5 years",
+    "fiveToTen": "5-10 years",
+    "tenToFifteen": "10-15 years",
+    "moreThanFifteen": "15+ years"
   },
 
   "knowladge-gained": {
-    "selfTaught": "Self Taught",
+    "selfTaught": "Self Taught",
     "course": "Course",
     "freelance": "Freelance",
-    "contractProject": "Contract Project",
-    "fullTimeJob": "Full Time Employment",
+    "contractProject": "Contract Project",
+    "fullTimeJob": "Full Time Employment",
     "other": "Other"
   },
   "qualification": {
@@ -56,5 +56,5 @@
 
   "avarage-grade": "Average Grade",
   "present": "Present",
-  "license-category": "License Category"
+  "license-category": "License Category"
 }

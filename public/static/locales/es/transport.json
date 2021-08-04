@@ -3,7 +3,7 @@
     "form": {
       "currency": "Moneda",
       "no-currency": "TODOS",
-      "min-price": "Mínimo 0.00",
+      "min-price": "Mínimo 0.00",
       "max-price": "Máximo: 9.999.999.999",
       "transport-brand": "Marca de transporte",
       "transport-model": "Modelo de transporte",
@@ -15,22 +15,22 @@
         "economy": {
           "label": "Ahorro de combustible",
           "items": {
-            "from": "Desde: 0",
-            "to": "Hasta: 999"
+            "from": "Desde: 0",
+            "to": "Hasta: 999"
           }
         },
         "speed": {
           "label": "Velocidad máxima",
           "items": {
-            "from": "Desde: 0",
-            "to": "Hasta: 999"
+            "from": "Desde: 0",
+            "to": "Hasta: 999"
           }
         },
         "millage": {
           "label": "Distancia",
           "items": {
-            "from": "Desde: 0",
-            "to": "Hasta: 9,999,999"
+            "from": "Desde: 0",
+            "to": "Hasta: 9,999,999"
           }
         },
         "units": "Unidades"

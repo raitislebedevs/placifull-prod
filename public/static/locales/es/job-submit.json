@@ -48,8 +48,8 @@
       }
     },
     "input-languages": {
-      "label": "Idiomas que se requiere conocer. (inglés)",
-      "labelNative": "Idiomas que se requiere conocer (nativo)"
+      "label": "Idiomas que se requiere conocer. (inglés)",
+      "labelNative": "Idiomas que se requiere conocer (nativo)"
     }
   }
 }

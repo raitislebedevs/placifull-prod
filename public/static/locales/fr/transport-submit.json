@@ -24,7 +24,7 @@
         "speed": "Vitesse maximale",
         "fueal-economy": "Consommation",
         "seats": "Nombre de places",
-        "doors": "Nombre de portes",
+        "doors": "Nombre de portes",
         "name": "Titre de l'annonce"
       }
     },
@@ -36,7 +36,7 @@
         "address": "Adresse",
         "contact-times": {
           "label": "Horaires de contact",
-          "placeholder": "Choisissez l'heure préférée pour vous contacter",
+          "placeholder": "Choisissez l'heure préférée pour vous contacter",
           "options": {
             "any-time": "À tout moment",
             "working-days": "Jours de travail",
@@ -44,7 +44,7 @@
             "specific-times": "Heures spécifiques"
           }
         },
-        "listing-website": "Site Web : https://"
+        "listing-website": "Site Web : https://"
       },
       "features": {
         "heading": "Caractéristiques",
@@ -62,13 +62,13 @@
     "gallery": {
       "heading": "Galerie ",
       "click-drop": "CLIQUEZ OU FAITES GLISSER LES IMAGES ICI",
-      "video-url": "URL de la vidéo : https://"
+      "video-url": "URL de la vidéo : https://"
     },
     "contact-hours": {
       "heading": "Horaires de prise de contact",
       "heading-tip": "Optionnel",
       "accordion": {
-        "heading": "Ajoutez les heures les plus appropriées pour les rendez-vous/appels...",
+        "heading": "Ajoutez les heures les plus appropriées pour les rendez-vous/appels...",
         "start-time": "De",
         "end-time": "Jusqu'à"
       }

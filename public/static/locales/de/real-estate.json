@@ -19,13 +19,13 @@
       "accordion-right": {
         "utility-label": "Bereich der Versorgungsrechnung",
         "utility": {
-          "from-price": "Von: 0.00",
-          "to-price": "Bis: 9,999,999,999"
+          "from-price": "Von: 0.00",
+          "to-price": "Bis: 9,999,999,999"
         },
         "year-label": "Jahr gebaut",
         "built": {
-          "from-year": "von: 1000",
-          "to-year": "Bis: 9999"
+          "from-year": "von: 1000",
+          "to-year": "Bis: 9999"
         },
         "measurement-label": "Messung",
         "system": {

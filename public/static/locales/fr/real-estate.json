@@ -1,11 +1,11 @@
 {
-  "title": "Rechercher des annonces immobilières",
+  "title": "Rechercher des annonces immobilières",
   "hero": {
     "form": {
       "search-fields": {
-        "min-price": "Prix min.",
-        "max-price": "Prix Max",
-        "min-rooms": "Nombre minimum de Chambres",
+        "min-price": "Prix min.",
+        "max-price": "Prix Max",
+        "min-rooms": "Nombre minimum de Chambres",
         "max-rooms": "Nombre maximal de chambres",
         "min-area": "Surface minimale",
         "max-area": "Surface maximale",
@@ -19,18 +19,18 @@
       "accordion-right": {
         "utility-label": "Montant moyen des factures de consommation ",
         "utility": {
-          "from-price": "De : 0.00",
-          "to-price": "À : 9,999,999,9999"
+          "from-price": "De : 0.00",
+          "to-price": "À : 9,999,999,9999"
         },
         "year-label": "Année de construction",
         "built": {
-          "from-year": "À partir de : 1000",
-          "to-year": "À : 9999"
+          "from-year": "À partir de : 1000",
+          "to-year": "À : 9999"
         },
         "measurement-label": "Mesurement",
         "system": {
           "none": "Aucun",
-          "metric": "Métrique m",
+          "metric": "Métrique m",
           "imperial": "Pied impérial"
         }
       }
@@ -58,7 +58,7 @@
     "see-more": "Lire la suite"
   },
   "error": {
-    "tags": "Veuillez nous contacter en écrivant : 'Aucune étiquette trouvée'"
+    "tags": "Veuillez nous contacter en écrivant : 'Aucune étiquette trouvée'"
   },
-  "no-tags": "Aucune fonctionnalité pour cette option"
+  "no-tags": "Aucune fonctionnalité pour cette option"
 }

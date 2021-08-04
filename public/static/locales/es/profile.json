@@ -81,7 +81,7 @@
       },
       "delete-form": {
         "text": "Borrar cuenta:",
-        "content": "¿Desea eliminar la cuenta? Por favor, pulse el botón 'Eliminar'.",
+        "content": "¿Desea eliminar la cuenta? Por favor, pulse el botón 'Eliminar'.",
         "button-delete": "Borrar cuenta"
       },
       "validation": {
@@ -334,7 +334,7 @@
       "salary-monthly": "Salario mensual hasta",
       "salary-annual": "Salario mensual hasta",
       "seniority": "Antigüedad",
-      "monthly": " /mensual",
+      "monthly": " /mensual",
       "result-table": {
         "nr": "N°",
         "name": "Nombre completo",

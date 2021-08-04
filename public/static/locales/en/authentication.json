@@ -19,27 +19,27 @@
     "confirm-password": "Confirm Password",
     "password-placeholder": "Type an unguessable password",
     "sign-in": "Sign in",
-    "sign-up": "Sign Up",
+    "sign-up": "Sign Up",
     "submit-register": "Register",
     "submit-send": "Send",
     "terms-text": "I Accept",
     "terms-link": "Terms & Conditions",
-    "no-account": "Don't have an account?",
-    "remember-me": "Remember me"
+    "no-account": "Don't have an account?",
+    "remember-me": "Remember me"
   },
 
   "heading-texts": {
     "or-signup": "Or Signup With",
-    "or-login": "Or Login With",
+    "or-login": "Or Login With",
     "facebook": "Facebook",
     "google": "Google",
     "account": "Already have an account ?",
     "sign-in": "Sign in",
     "remember-account": "Remembered your password?",
-    "forgot-password": "Forgot Password?"
+    "forgot-password": "Forgot Password?"
   },
   "success": {
-    "sign-in": "Welcome Back!",
+    "sign-in": "Welcome Back!",
     "register": "Register successfully.",
     "password": "Password is changed",
     "reset-email": "Email with the reset Link has successfully been send. "

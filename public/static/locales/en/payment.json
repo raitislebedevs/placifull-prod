@@ -1,34 +1,34 @@
 {
-  "currency": "€ ",
+  "currency": "€ ",
   "payment-modal": {
-    "header": "Purchase Plan Details",
-    "sub-header": "Please select your plan from details below",
+    "header": "Purchase Plan Details",
+    "sub-header": "Please select your plan from details below",
     "total-cost": "Cost:",
-    "expiry-date": "Expiry Date:",
-    "expiry-label": "Expiry Date ",
-    "quantity": "Quantity: ",
+    "expiry-date": "Expiry Date:",
+    "expiry-label": "Expiry Date ",
+    "quantity": "Quantity: ",
     "quantity-label": "Quantity",
     "listed": "Listed:",
     "purchase": "Purchased:",
-    "extend-expiry": "Extend Expiry",
+    "extend-expiry": "Extend Expiry",
     "promote": "Promote",
-    "subscription-valid": "Option is valid",
+    "subscription-valid": "Option is valid",
     "days": "days",
-    "browser-cv": "CV Search",
+    "browser-cv": "CV Search",
     "purchase-text": {
-      "user-held": "Owned by User",
+      "user-held": "Owned by User",
       "purchase": "Purchase"
     },
     "form": {
       "added-days": {
-        "label": "Extend listing by",
-        "suffix": " Days"
+        "label": "Extend listing by",
+        "suffix": " Days"
       },
       "card-details": {
-        "label": "Provide Card Information",
-        "card-holder": "Card Holder",
-        "card-number": "Card Number",
-        "card-date": "Expiry Date",
+        "label": "Provide Card Information",
+        "card-holder": "Card Holder",
+        "card-number": "Card Number",
+        "card-date": "Expiry Date",
         "card-csv": "CSV"
       },
       "buttons": {
@@ -51,12 +51,12 @@
   },
 
   "receipt-modal": {
-    "header": "Summary Details",
-    "sub-header": "Please review your purchase details before proceeding.",
+    "header": "Summary Details",
+    "sub-header": "Please review your purchase details before proceeding.",
     "card-details": {
-      "card-holder": "Card holder's name",
-      "card-number": "Card details",
-      "card-date": "Expiry date"
+      "card-holder": "Card holder's name",
+      "card-number": "Card details",
+      "card-date": "Expiry date"
     },
 
     "receipt-table": {
@@ -65,25 +65,25 @@
       "promote": "Promoted",
       "extend-expiry": "Extended Expiry",
       "total": "Total",
-      "total-amount": "Total Amount:",
+      "total-amount": "Total Amount:",
       "price": "Price",
-      "expiry-date": "Expiry Date",
+      "expiry-date": "Expiry Date",
       "no-expiry": "None",
       "plans": {
         "standalone": "Single",
         "subscriptionQuarterly": "Quarter",
         "subscriptionYearly": "Year",
-        "activeSubscription": "Search CV"
+        "activeSubscription": "Search CV"
       }
     },
-    "thank-you-message": "Thank you for supporting Placifull Company. We believe you will be satisfied with your choise.",
+    "thank-you-message": "Thank you for supporting Placifull Company. We believe you will be satisfied with your choise.",
     "buttons": {
       "cancel": "Cancel",
-      "proceed": "Pay & Proceed"
+      "proceed": "Pay & Proceed"
     }
   },
   "error": {
-    "transaction": "Transaction failed",
-    "subscriptions": "Subscription failure"
+    "transaction": "Transaction failed",
+    "subscriptions": "Subscription failure"
   }
 }
