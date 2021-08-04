@@ -1,6 +1,6 @@
 {
   "kanban": {
-    "save": "Save Board",
+    "save": "Save Board",
     "saving": "Saving...",
     "salary": {
       "hour": "/hour",
@@ -8,13 +8,13 @@
       "year": "/year"
     },
     "job-overview": {
-      "title": "Job Overview",
+      "title": "Job Overview",
       "industry": "Industry",
-      "languages-en": "Languages (EN)",
-      "native": "Languages Native",
-      "contract-type": "Contract Type",
-      "working-time": "Work Time",
-      "expiry-date": "Expiry Date"
+      "languages-en": "Languages (EN)",
+      "native": "Languages Native",
+      "contract-type": "Contract Type",
+      "working-time": "Work Time",
+      "expiry-date": "Expiry Date"
     },
     "statistics": {
       "title": "Statistics",
@@ -26,16 +26,16 @@
       "hired": "Hired"
     },
     "columns": {
-      "applicants": "Aplicants Applied",
-      "reviewed": "Aplicants Reviewed",
+      "applicants": "Aplicants Applied",
+      "reviewed": "Aplicants Reviewed",
       "shortlisted": "Shortlisted",
-      "interviewed": "Aplicants Interviewed",
-      "pending": "Pending Acceptance",
-      "accepted": "Applicants Hired",
-      "column-name": "New Column",
+      "interviewed": "Aplicants Interviewed",
+      "pending": "Pending Acceptance",
+      "accepted": "Applicants Hired",
+      "column-name": "New Column",
       "edit": "Edit"
     },
-    "view-cv": "View CV",
+    "view-cv": "View CV",
     "remove": "Remove"
   }
 }

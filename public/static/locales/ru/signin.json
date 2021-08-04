@@ -13,7 +13,7 @@
     "not-account": "Нет аккаунта?",
     "sign-up": "Зарегистрироваться",
     "error": {
-      "email-invalid": "Email недействителен.",
+      "email-invalid": "Email недействителен.",
       "email-required": "Требуется указать email.",
       "password-required": "Требуется указать пароль"
     },

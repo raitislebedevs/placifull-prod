@@ -21,7 +21,7 @@
   },
   "contact-times": {
     "label": "Heure de prise de contact",
-    "placeholder": "Choisissez l'heure de contact préférable",
+    "placeholder": "Choisissez l'heure de contact préférable",
     "not-specified": "Non précisé",
     "options": {
       "any-time": "À tout moment",
@@ -34,18 +34,18 @@
     "heading": "Caractéristiques",
     "licenses": "Permis de conduires",
     "education": "Niveau d'étude / Diplôme ",
-    "expierience": "Expérience en années",
-    "candiadate": "Le candidat devrait être en mesure de",
+    "expierience": "Expérience en années",
+    "candiadate": "Le candidat devrait être en mesure de",
     "weOffer": "Nous offrons"
   },
   "salary": {
     "heading": "Salaire",
-    "monthly-from": "Salaire à partir de",
-    "monthly-to": "Salaire jusqu'à ",
-    "hourly-rate-from": "Taux horaire à partir de",
-    "annual-from": "Salaire annuel à partir de",
-    "annual-to": "Salaire annuel jusqu'à ",
-    "hourly-rate-to": "Taux horaire jusqu'à "
+    "monthly-from": "Salaire à partir de",
+    "monthly-to": "Salaire jusqu'à ",
+    "hourly-rate-from": "Taux horaire à partir de",
+    "annual-from": "Salaire annuel à partir de",
+    "annual-to": "Salaire annuel jusqu'à ",
+    "hourly-rate-to": "Taux horaire jusqu'à "
   },
   "work-area": {
     "label": "Secteur d'activité ",
@@ -69,7 +69,7 @@
       "sports": "Sports",
       "qualityControl": "Contrôle de qualité/Gestion de gestion",
       "agricutureEnvironmental": "Agriculture/sciences de l'environnement",
-      "medicineSocialCare": "Médecine/ Soins sociaux",
+      "medicineSocialCare": "Médecine/ Soins sociaux",
       "mediaPublicRelations": "Médias/relations publiques",
       "forestryWoodworkingMetalWorking": "Foresterie/Travail du bois/Travail des métaux",
       "marketingAdvertising": "Publicité Marketing",

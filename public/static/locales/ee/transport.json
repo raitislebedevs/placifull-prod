@@ -3,8 +3,8 @@
     "form": {
       "currency": "Valuuta",
       "no-currency": "KÕIK",
-      "min-price": "Min: 0.00",
-      "max-price": "Max: 9,999,999,999",
+      "min-price": "Min: 0.00",
+      "max-price": "Max: 9,999,999,999",
       "transport-brand": "Sõiduki mark",
       "transport-model": "Sõiduki mudel",
       "min-age": "Min vanus",

@@ -19,13 +19,13 @@
       "accordion-right": {
         "utility-label": "Стоимость коммунальных услуг",
         "utility": {
-          "from-price": "От: 0.00",
-          "to-price": "До: 9,999,999,9999"
+          "from-price": "От: 0.00",
+          "to-price": "До: 9,999,999,9999"
         },
         "year-label": "Год постройки",
         "built": {
-          "from-year": "С: 1000",
-          "to-year": "До: 9999"
+          "from-year": "С: 1000",
+          "to-year": "До: 9999"
         },
         "measurement-label": "Мера измерений",
         "system": {

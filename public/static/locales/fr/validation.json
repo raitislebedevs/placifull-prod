@@ -1,37 +1,37 @@
 {
   "common": {
-    "name": "Le titre de l'annonce est requis.",
+    "name": "Le titre de l'annonce est requis.",
     "currency": {
       "required": "La devise est obligatoire."
     },
 
-    "category": "La catégorie est obligatoire.",
-    "action": "Le type de transaction est requis.",
+    "category": "La catégorie est obligatoire.",
+    "action": "Le type de transaction est requis.",
     "condition": "La condition est requise.",
 
-    "country": "Le pays est obligatoire.",
+    "country": "Le pays est obligatoire.",
     "city": "Veuillez considérer la ville",
     "description": {
-      "minLength": "La description doit comporter 20 caractères au moins.",
-      "maxLength": "La description ne peut pas dépasser 1 000 caractères.",
-      "required": "La description est requise."
+      "minLength": "La description doit comporter 20 caractères au moins.",
+      "maxLength": "La description ne peut pas dépasser 1 000 caractères.",
+      "required": "La description est requise."
     },
 
-    "gallery": "La galerie photos est obligatoire",
+    "gallery": "La galerie photos est obligatoire",
 
     "price": {
-      "minLength": "Le prix doit être supérieur à 0.",
-      "maxLength": "Le prix ne peut pas dépasser 999 999 999 999,00",
-      "required": "Le prix est requis."
+      "minLength": "Le prix doit être supérieur à 0.",
+      "maxLength": "Le prix ne peut pas dépasser 999 999 999 999,00",
+      "required": "Le prix est requis."
     },
     "phone": {
-      "minLength": "Le numéro de téléphone doit contenir 6 chiffres au moins.",
-      "maxLength": "Le numéro de téléphone ne peut pas avoir plus de 20 chiffres.",
-      "required": "Le numéro de téléphone est obligatoire."
+      "minLength": "Le numéro de téléphone doit contenir 6 chiffres au moins.",
+      "maxLength": "Le numéro de téléphone ne peut pas avoir plus de 20 chiffres.",
+      "required": "Le numéro de téléphone est obligatoire."
     },
     "email": {
-      "valid": "Veuillez fournir une adresse e-mail valide",
-      "required": "L'adresse e-mail est obligatoire."
+      "valid": "Veuillez fournir une adresse e-mail valide",
+      "required": "L'adresse e-mail est obligatoire."
     },
     "contact": {
       "required": "L' horaire de contact est requis."
@@ -41,46 +41,46 @@
   "real-estate": {
     "address": {
       "mapPoint": "Veuillez signaler l'adresse sur la carte",
-      "address": "L'adresse de l'annonce est obligatoire."
+      "address": "L'adresse de l'annonce est obligatoire."
     },
     "rooms": "Le nombre de chambres est requis",
-    "area": "La superficie de la propriété est obligatoire",
+    "area": "La superficie de la propriété est obligatoire",
     "baths": "Le nombre de salle de bain est requis"
   },
 
   "transport": {
-    "type": "Le type de véhicule est requis.",
+    "type": "Le type de véhicule est requis.",
     "brand": {
-      "minLength": "Le nom de la marque doit comporter plus de 0 caractères.",
-      "maxLength": "Le nom de la marque ne peut pas dépasser n caractères.",
-      "required": "La marque est requise."
+      "minLength": "Le nom de la marque doit comporter plus de 0 caractères.",
+      "maxLength": "Le nom de la marque ne peut pas dépasser n caractères.",
+      "required": "La marque est requise."
     },
 
     "model": {
-      "minLength": "Le nom du modèle doit être de plus de 0 caractères.",
-      "maxLength": "Le nom du modèle ne peut pas dépasser n caractères.",
-      "required": "Le nom du modèle est obligatoire."
+      "minLength": "Le nom du modèle doit être de plus de 0 caractères.",
+      "maxLength": "Le nom du modèle ne peut pas dépasser n caractères.",
+      "required": "Le nom du modèle est obligatoire."
     },
     "address": {
-      "mapPoint": "Signaler le lieu sur la carte est obligatoire",
-      "address": "L'adresse de rendez-vous est obligatoire."
+      "mapPoint": "Signaler le lieu sur la carte est obligatoire",
+      "address": "L'adresse de rendez-vous est obligatoire."
     },
-    "engine": "Le type de moteur est requis",
-    "gear": "Le type de boîte de vitesses est requis."
+    "engine": "Le type de moteur est requis",
+    "gear": "Le type de boîte de vitesses est requis."
   },
 
   "job": {
     "address": {
-      "mapPoint": "Signaler le bureau sur la carte est obligatoire.",
-      "address": "L'adresse du bureau est obligatoire."
+      "mapPoint": "Signaler le bureau sur la carte est obligatoire.",
+      "address": "L'adresse du bureau est obligatoire."
     },
-    "gallery": "Le logo de l'entreprise est obligatoire",
-    "monthly-from": "Salaire mensuel minimum requis",
-    "monthly-to": "Salaire mensuel maximum requis",
-    "logo-size": "La taille est supérieure à 5 Mo"
+    "gallery": "Le logo de l'entreprise est obligatoire",
+    "monthly-from": "Salaire mensuel minimum requis",
+    "monthly-to": "Salaire mensuel maximum requis",
+    "logo-size": "La taille est supérieure à 5 Mo"
   },
   "email": {
-    "full-name": "Veuillez indiquer votre nom",
-    "message": "Un message est nécessaire"
+    "full-name": "Veuillez indiquer votre nom",
+    "message": "Un message est nécessaire"
   }
 }

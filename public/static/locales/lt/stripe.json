@@ -3,13 +3,13 @@
     "success": "Apmokėjimas sėkmingas.",
     "plan_update": "Mes negalėjome atnaujinti jūsų plano.",
     "card_not": "Kortelė nebuvo papildyta.",
-    "pay": "Mokėti € ",
+    "pay": "Mokėti € ",
     "processing": "Jungiama…"
   },
   "placeholders": {
-    "name": "Jane Doe",
+    "name": "Jane Doe",
     "email": "janedoe@placifull.com",
-    "phone": "(941) 555-7777"
+    "phone": "(941) 555-7777"
   },
   "incomplete": {
     "incomplete_cvc": "Jūsų kortelės kodas neteisingai įvestas",

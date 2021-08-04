@@ -16,12 +16,12 @@
   },
   "expierience": {
     "label": "Kogemus",
-    "uptoOne": "< 1 aasta",
-    "oneToThree": "1-3 aastat",
-    "threeToFive": "3-5 aastat",
-    "fiveToTen": "5-10 aastat",
-    "tenToFifteen": "10-15 aastat",
-    "moreThanFifteen": "15+ aastat"
+    "uptoOne": "< 1 aasta",
+    "oneToThree": "1-3 aastat",
+    "threeToFive": "3-5 aastat",
+    "fiveToTen": "5-10 aastat",
+    "tenToFifteen": "10-15 aastat",
+    "moreThanFifteen": "15+ aastat"
   },
 
   "knowladge-gained": {

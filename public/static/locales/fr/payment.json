@@ -1,5 +1,5 @@
 {
-  "currency": "€ ",
+  "currency": "€ ",
   "payment-modal": {
     "header": "Détails d'achat du forfait",
     "sub-header": "Veuillez sélectionner votre forfait depuis les détails ci-dessous",
@@ -51,7 +51,7 @@
   },
 
   "receipt-modal": {
-    "header": "Récapitulatif des Détails ",
+    "header": "Récapitulatif des Détails ",
     "sub-header": "Veuillez vérifier les détails de votre achat avant de continuer.",
     "card-details": {
       "card-holder": "Nom du titulaire de la carte",
@@ -76,7 +76,7 @@
         "activeSubscription": "Rechercher un CV"
       }
     },
-    "thank-you-message": "Merci de soutenir l'entreprise Placifull. Nous pensons que vous serez satisfait de votre choix.",
+    "thank-you-message": "Merci de soutenir l'entreprise Placifull. Nous pensons que vous serez satisfait de votre choix.",
     "buttons": {
       "cancel": "Annuler",
       "proceed": "Payer et continuer"

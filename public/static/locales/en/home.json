@@ -257,7 +257,7 @@
       "no-user": {
         "title": "Post Listing Information",
         "header": "Please log in",
-        "body": "Please Log in to the website as otherwise we can't provide you with a good traceability.",
+        "body": "Please Log in to the website as otherwise we can't provide you with a good traceability.",
         "log": "Log In"
       },
       "post": {

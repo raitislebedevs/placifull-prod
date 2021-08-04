@@ -27,7 +27,7 @@
     "badge": "Artículos promocionados",
     "head": {
       "line-1": "Transporte",
-      "line-2": "Estos transportes en ",
+      "line-2": "Estos transportes en ",
       "line-3": "Placifull",
       "line-4": "demandan tu atención."
     },
@@ -37,7 +37,7 @@
     "badge": "Artículos promocionados",
     "head": {
       "line-1": "Empleos Premium",
-      "line-2": "¿Deseando un cambio? En",
+      "line-2": "¿Deseando un cambio? En",
       "line-3": "Placifull",
       "line-4": "encuentra el trabajo de tus sueños que siempre quisiste."
     },
@@ -53,19 +53,19 @@
   "service-section": {
     "head": {
       "line-1": "¡Lo que hacemos!",
-      "line-2": "Explora lo que más valoramos. En ",
+      "line-2": "Explora lo que más valoramos. En ",
       "line-3": "Placifull",
-      "line-4": " escuchamos lo que tienes que decir."
+      "line-4": " escuchamos lo que tienes que decir."
     },
     "services": {
       "service-1": {
         "open-modal": "Más información",
         "name": "Lista de Oportunidades",
-        "description": "Nuestro principal objetivo es ayudar a las personas a trasladarse a otro país. Mudarse al extranjero supone muchos desafíos, por lo que estamos aquí para ayudarte con las herramientas de búsqueda que necesitas. El trabajo, la casa, el transporte, todo se puede encontrar en un solo lugar. No necesitsa buscar en otro sitio.",
+        "description": "Nuestro principal objetivo es ayudar a las personas a trasladarse a otro país. Mudarse al extranjero supone muchos desafíos, por lo que estamos aquí para ayudarte con las herramientas de búsqueda que necesitas. El trabajo, la casa, el transporte, todo se puede encontrar en un solo lugar. No necesitsa buscar en otro sitio.",
 
         "modal": {
           "header": "Explore",
-          "description": "Placifull está decidido a facilitar tu traslado al extranjero y el de tu familia. Nuestra principal preocupación es ofrecerte todas las ofertas de trabajo disponibles de acuerdo con tus requisitos y cualificaciones. Placifull cree firmemente en ayudarte a superar todos los retos que conlleva una nueva vida, y no necesitarás buscar más una vez que hayas utilizado nuestros servicios. Nuestro equipo hace todo el trabajo duro por ti y todo lo que tienes que hacer es seleccionar entre los listados de trabajo que te proporcionamos. No obstante, nuestro trabajo no acaba aquí y seguiremos siendote de gran utilidad cuando inicies tu nuevo trabajo.",
+          "description": "Placifull está decidido a facilitar tu traslado al extranjero y el de tu familia. Nuestra principal preocupación es ofrecerte todas las ofertas de trabajo disponibles de acuerdo con tus requisitos y cualificaciones. Placifull cree firmemente en ayudarte a superar todos los retos que conlleva una nueva vida, y no necesitarás buscar más una vez que hayas utilizado nuestros servicios. Nuestro equipo hace todo el trabajo duro por ti y todo lo que tienes que hacer es seleccionar entre los listados de trabajo que te proporcionamos. No obstante, nuestro trabajo no acaba aquí y seguiremos siendote de gran utilidad cuando inicies tu nuevo trabajo.",
           "close-button": "Cerrar"
         }
       },
@@ -76,22 +76,22 @@
 
         "modal": {
           "header": "Mejorar",
-          "description": "Nuestro equipo está formado por personas apasionadas que trabajan duro para ayudarte a alcanzar tus sueños. Por este motivo, nos centramos en recibir y poner en práctica las sugerencias útiles de nuestros usuarios habituales. Si encuentras algo en nuestros servicios que crees que se puede mejorar, no dudes en dejar una nota en nuestro panel de votaciones. En cuanto la sugerencia alcance los diez mil votos positivos, nos comprometemos a aplicar los cambios. Queremos que nuestros usuarios sepan que sus opiniones son muy valiosas para nosotros.",
+          "description": "Nuestro equipo está formado por personas apasionadas que trabajan duro para ayudarte a alcanzar tus sueños. Por este motivo, nos centramos en recibir y poner en práctica las sugerencias útiles de nuestros usuarios habituales. Si encuentras algo en nuestros servicios que crees que se puede mejorar, no dudes en dejar una nota en nuestro panel de votaciones. En cuanto la sugerencia alcance los diez mil votos positivos, nos comprometemos a aplicar los cambios. Queremos que nuestros usuarios sepan que sus opiniones son muy valiosas para nosotros.",
           "close-button": "Cerrar",
           "contact-button": "Contacta con nosotros"
         }
       },
       "service-3": {
         "name": "Me gusta & Compartir",
-        "description": "Si encuentras nuestros servicios útiles para tus cambios de vida, nos sería de mucha ayuda si difundes nuestra plataforma a todos tus amigos y familiares. Promover y compartir nuestro trabajo nos ayudará a crecer más y a servirte mejor."
+        "description": "Si encuentras nuestros servicios útiles para tus cambios de vida, nos sería de mucha ayuda si difundes nuestra plataforma a todos tus amigos y familiares. Promover y compartir nuestro trabajo nos ayudará a crecer más y a servirte mejor."
       },
       "service-4": {
         "open-modal": "Mejóranos ahora",
         "name": "Mejora nuestra calidad",
-        "description": "¿Algo no funciona? ¿El pago no se ha realizado? No dudes en ponerte en contacto con nosotros con la reclamación, lo veremos con prioridad.",
+        "description": "¿Algo no funciona? ¿El pago no se ha realizado? No dudes en ponerte en contacto con nosotros con la reclamación, lo veremos con prioridad.",
         "modal": {
           "header": "Calidad",
-          "description": "Placifull es una marca centrada en la calidad y creemos que todo nuestro valor está en la calidad de los servicios que ofrecemos. Te aseguramos de buena fe que no comprometemos nuestra calidad y estándares. Si encuentras algo en nuestra plataforma que no funciona tan bien como debería, infórmanos del problema lo antes posible y lo arreglaremos tan pronto como podamos. Tu experiencia con Placifull es de suma importancia y mejoraremos y actualizaremos nuestro sistema para que se adapte a ti lo  mejor posible.",
+          "description": "Placifull es una marca centrada en la calidad y creemos que todo nuestro valor está en la calidad de los servicios que ofrecemos. Te aseguramos de buena fe que no comprometemos nuestra calidad y estándares. Si encuentras algo en nuestra plataforma que no funciona tan bien como debería, infórmanos del problema lo antes posible y lo arreglaremos tan pronto como podamos. Tu experiencia con Placifull es de suma importancia y mejoraremos y actualizaremos nuestro sistema para que se adapte a ti lo  mejor posible.",
           "close-button": "Cerrar",
           "contact-button": "Contacta con nosotros"
         }
@@ -99,10 +99,10 @@
       "service-5": {
         "open-modal": "Inscribirme ahora",
         "name": "Oportunidades de Carrera",
-        "description": "Trabajamos mucho y tambíen descansamo. ¿Quieres formar parte de nosotros? Entonces escríbenos. Tú eliges en qué quieres trabajar, dónde y con el sueldo que quieras. Si nos parece correcto TÚ serás contratado,",
+        "description": "Trabajamos mucho y tambíen descansamo. ¿Quieres formar parte de nosotros? Entonces escríbenos. Tú eliges en qué quieres trabajar, dónde y con el sueldo que quieras. Si nos parece correcto TÚ serás contratado,",
         "modal": {
           "header": "Carear",
-          "description": "Nuestras ofertas de empleo son únicas y no encontrarás lo que ofrecemos en ningún otro sitio. Ofrecemos un interesante esquema de horas de trabajo que hará que sólo tengas que trabajar 4 días a la semana, y 8 horas cada día en lugar de 12. Los viernes de cada semana, tendrás la opción de ir o no a la oficina. Definitivamente podrás utilizar el tiempo extra para ponerte al día con tus amigos, hacer ejercicio, practicar tus aficiones, ¡y mucho más! Placifull se asegura de que el tiempo de calidad con tus amigos y familia no se vea interrumpido por tu trabajo. Por eso, la plataforma también se asegura de que tengas suficiente tiempo de vacaciones, partiendo de 20 días y pudiendo llegar a tener hasta 28 días de vacacione anuales. Eso da un total de . Es casi imposible encontrar un horario de trabajo tan fructífero como este, así que no esperes más y aplica a Placifull.",
+          "description": "Nuestras ofertas de empleo son únicas y no encontrarás lo que ofrecemos en ningún otro sitio. Ofrecemos un interesante esquema de horas de trabajo que hará que sólo tengas que trabajar 4 días a la semana, y 8 horas cada día en lugar de 12. Los viernes de cada semana, tendrás la opción de ir o no a la oficina. Definitivamente podrás utilizar el tiempo extra para ponerte al día con tus amigos, hacer ejercicio, practicar tus aficiones, ¡y mucho más! Placifull se asegura de que el tiempo de calidad con tus amigos y familia no se vea interrumpido por tu trabajo. Por eso, la plataforma también se asegura de que tengas suficiente tiempo de vacaciones, partiendo de 20 días y pudiendo llegar a tener hasta 28 días de vacacione anuales. Eso da un total de . Es casi imposible encontrar un horario de trabajo tan fructífero como este, así que no esperes más y aplica a Placifull.",
           "close-button": "Cerrar",
           "contact-button": "Inscribirme ahora"
         },
@@ -262,7 +262,7 @@
       },
       "post": {
         "title": "Por favor, elija una opción",
-        "body": " ¿Desea Comprar nuevas opciones para su perfil o utilizar las existentes?",
+        "body": " ¿Desea Comprar nuevas opciones para su perfil o utilizar las existentes?",
         "post": "No, publicar el anuncio",
         "purchase": "Sí, comprar"
       }

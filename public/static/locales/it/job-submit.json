@@ -36,7 +36,7 @@
     "gallery": {
       "heading": "Logo aziendale",
       "click-drop": "CLICCA O TRASCINA QUI IL LOGO",
-      "video-url": "Video url: https://"
+      "video-url": "Video url: https://"
     },
     "contact-hours": {
       "heading": "Orario di lavoro",
@@ -48,8 +48,8 @@
       }
     },
     "input-languages": {
-      "label": "Conoscenza richiesta della lingua. (Inglese)",
-      "labelNative": "Conoscenza richiesta della lingua. (Madrelingua)"
+      "label": "Conoscenza richiesta della lingua. (Inglese)",
+      "labelNative": "Conoscenza richiesta della lingua. (Madrelingua)"
     }
   }
 }

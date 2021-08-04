@@ -18,7 +18,7 @@
   "furnitures": "Meubles",
   "garrage": "Garage",
   "gym": "Gym",
-  "heatedFloor": "Plancher chauffant",
+  "heatedFloor": "Plancher chauffant",
   "microwave": "Four micro onde",
   "oven": "Four",
   "plants": "Plantes",
@@ -66,13 +66,13 @@
   "cabinets": "Armoires",
   "vegyFruitRack": "Casiers à légumes/fruits",
 
-  "forestFive": "5% Forêt",
-  "forestTen": "10 % forêt",
-  "forestFifteen": "15 % forêt",
-  "forestTwentyToThirdy": "15 % à 30 % forêt",
-  "forestThirdyToFifty": "30%-50% Forêt",
-  "forestFiftyToSeventyFive": "50-75% Forêt",
-  "forestSeventyFiveToHundred": "75%-100% Forêt",
+  "forestFive": "5% Forêt",
+  "forestTen": "10 % forêt",
+  "forestFifteen": "15 % forêt",
+  "forestTwentyToThirdy": "15 % à 30 % forêt",
+  "forestThirdyToFifty": "30%-50% Forêt",
+  "forestFiftyToSeventyFive": "50-75% Forêt",
+  "forestSeventyFiveToHundred": "75%-100% Forêt",
   "coniferousForest": "Forêt de conifères",
   "deciduousTreeForest": "Forêt d'arbres à feuilles caduques",
 
@@ -88,7 +88,7 @@
   "forestyLand": "Terres forestières",
   "waterLand": "Terre d'espaces aquatiques",
   "miningAreas": "Zones minières",
-  "buildingLand": "Terrain pour la construction",
+  "buildingLand": "Terrain pour la construction",
 
   "landPrivateHome": "Maisons d'habitation",
   "apartment": "Immeuble",
@@ -96,5 +96,5 @@
   "productionFacility": "Installations de production",
   "publicImportance": "Bâtiment d'intérêt public",
   "traficLand": "Construction à vocation de trafic/d'infrastructure",
-  "enginierNetwork": "Construction à vocation de réseaux d'approvisionnement d'ingénierie"
+  "enginierNetwork": "Construction à vocation de réseaux d'approvisionnement d'ingénierie"
 }

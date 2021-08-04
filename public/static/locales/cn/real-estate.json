@@ -19,13 +19,13 @@
       "accordion-right": {
         "utility-label": "物业账单范围",
         "utility": {
-          "from-price": "从: 0.00",
-          "to-price": "至: 9,999,999,999"
+          "from-price": "从: 0.00",
+          "to-price": "至: 9,999,999,999"
         },
         "year-label": "建成年份",
         "built": {
-          "from-year": "从: 1000",
-          "to-year": "至: 9999"
+          "from-year": "从: 1000",
+          "to-year": "至: 9999"
         },
         "measurement-label": "测量",
         "system": {

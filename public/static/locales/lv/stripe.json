@@ -3,13 +3,13 @@
     "success": "Maksājums tika veiksmīgi izpildīts",
     "plan_update": "Mēs nespējām atjaunināt jūsu plānu",
     "card_not": "Netika izpildīts maksājums",
-    "pay": "Maksāt € ",
+    "pay": "Maksāt € ",
     "processing": "Procesē…"
   },
   "placeholders": {
     "name": "Jane Doe",
     "email": "janedoe@placifull.com",
-    "phone": "(941) 555-7777"
+    "phone": "(941) 555-7777"
   },
   "incomplete": {
     "incomplete_cvc": "Jūsu kartes drošības kods nav pilnīgs",

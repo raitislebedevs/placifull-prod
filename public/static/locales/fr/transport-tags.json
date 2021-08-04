@@ -22,7 +22,7 @@
   "silenceZoneAssistant": "Assistant de zone de silence",
   "laneDepartureWarningSystem": "Système d'avertissement de sortie de voie",
   "emergencyBrakingSystem": "Système de freinage d'urgence",
-  "keylessGo": "Démarrage Sans clé ",
+  "keylessGo": "Démarrage Sans clé ",
   "startStopSystem": "Système Start-Stop",
   "electronicTrunkClosing": "Fermeture électronique du coffre",
   "electronicRearSunVisor": "Pare-soleil arrière électronique",
@@ -53,7 +53,7 @@
   "multifunctional": "Multifonctionnel",
   "sport": "Sport",
   "heated": "Chauffé",
-  "withMemory": "Avec mémoire",
+  "withMemory": "Avec mémoire",
 
   "seatsElectronicallyAdjustable": "Réglable électroniquement",
   "seatsHeated": "Chauffé",
@@ -61,12 +61,12 @@
   "recaro": "Recaro",
   "ventilated": "Ventilé",
   "massges": "Massages",
-  "seatsWithMemory": "Avec Mémoire",
+  "seatsWithMemory": "Avec Mémoire",
   "rearMassage": "Massage arrière",
-  "rearHeated": "Arrière chauffé",
+  "rearHeated": "Arrière chauffé",
 
   "xenon": "Xénon",
-  "biXenon": "Bi Xénon",
+  "biXenon": "Bi Xénon",
   "led": "LED",
   "ledBreakLights": "Feu stop à LED",
   "additionalBrakeSIgnal": "Signal de freinage supplémentaire",
@@ -97,5 +97,5 @@
   "blackout": "Occultation",
   "mirrorSport": "Miroir de sport",
   "electronicallyFolding": "Pliage électronique",
-  "mirrorWithMemory": "Avec Mémoire"
+  "mirrorWithMemory": "Avec Mémoire"
 }

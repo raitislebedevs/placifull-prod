@@ -1,81 +1,81 @@
 {
   "contract-type": {
-    "label": "Contract Type",
+    "label": "Contract Type",
     "options": {
       "temporarly": "Temporarly",
-      "fullTime": "Full Time",
-      "partTime": "Part Time",
-      "remoteFullTime": "Remote (Full Time)",
-      "remotePartTime": "Remote (Part Time)",
+      "fullTime": "Full Time",
+      "partTime": "Part Time",
+      "remoteFullTime": "Remote (Full Time)",
+      "remotePartTime": "Remote (Part Time)",
       "other": "Other"
     }
   },
   "working-time": {
-    "label": "Working Time",
+    "label": "Working Time",
     "options": {
-      "officeHours": "Office Hours",
+      "officeHours": "Office Hours",
       "shifts": "Shifts",
       "flexible": "Flexible",
       "other": "Other"
     }
   },
   "contact-times": {
-    "label": "Contact Time",
-    "placeholder": "Choose Preferable Contact Time",
-    "not-specified": "Not Specified",
+    "label": "Contact Time",
+    "placeholder": "Choose Preferable Contact Time",
+    "not-specified": "Not Specified",
     "options": {
-      "any-time": "Any time",
-      "working-days": "Working days",
-      "office-hours": "Office hours",
-      "specific-times": "Specific times"
+      "any-time": "Any time",
+      "working-days": "Working days",
+      "office-hours": "Office hours",
+      "specific-times": "Specific times"
     }
   },
   "features": {
     "heading": "Features",
-    "licenses": "Transport license",
+    "licenses": "Transport license",
     "education": "Education/Degree",
-    "expierience": "Expierience in years",
-    "candiadate": "Candidate should be able to",
-    "weOffer": "We Offer"
+    "expierience": "Expierience in years",
+    "candiadate": "Candidate should be able to",
+    "weOffer": "We Offer"
   },
   "salary": {
     "heading": "Salary",
-    "monthly-from": "Salary From",
-    "monthly-to": "Salary To",
-    "hourly-rate-from": "Hourly Rate From",
-    "annual-from": "Annual Salary From",
-    "annual-to": "Annual Salary To",
-    "hourly-rate-to": "Hourly Rate To"
+    "monthly-from": "Salary From",
+    "monthly-to": "Salary To",
+    "hourly-rate-from": "Hourly Rate From",
+    "annual-from": "Annual Salary From",
+    "annual-to": "Annual Salary To",
+    "hourly-rate-to": "Hourly Rate To"
   },
   "work-area": {
-    "label": "Work Area",
+    "label": "Work Area",
     "options": {
       "intern": "Intern",
-      "volunteerWork": "Volunteer Work",
-      "stockExchange": "Stock Exchange",
+      "volunteerWork": "Volunteer Work",
+      "stockExchange": "Stock Exchange",
       "administrationAssistance": "Administration/Assistance",
       "constructionRealEstate": "Construction/Real-Estate",
-      "humanResources": "Human Resources",
-      "securityRescue": "Security/Rescue Services",
+      "humanResources": "Human Resources",
+      "securityRescue": "Security/Rescue Services",
       "military": "Military",
       "electronicsTelecomunication": "Electronics/Telecommunications",
-      "freelanceTemporary": "Freelance/Temporary Position",
+      "freelanceTemporary": "Freelance/Temporary Position",
       "energyElectricity": "Energy/Electricity",
       "pharmacy": "Pharmacy",
       "financeAccounting": "Finance/Accounting",
-      "infromationTechnology": "Information Technology (IT)",
+      "infromationTechnology": "Information Technology (IT)",
       "jurisprudenceJustice": "Jurisprudence/Justice",
       "cultureArtEntertainemnt": "Culture/Art/Entertainment",
       "sports": "Sports",
-      "qualityControl": "Quality Control/Quality Management",
-      "agricutureEnvironmental": "Agriculture/Environmental Science",
-      "medicineSocialCare": "Medicine/ Social Care",
-      "mediaPublicRelations": "Media/Public relations",
+      "qualityControl": "Quality Control/Quality Management",
+      "agricutureEnvironmental": "Agriculture/Environmental Science",
+      "medicineSocialCare": "Medicine/ Social Care",
+      "mediaPublicRelations": "Media/Public relations",
       "forestryWoodworkingMetalWorking": "Forestry/Woodworking/MetalWorking",
       "marketingAdvertising": "Marketing/Advertising",
       "productionIndustry": "Production/Industry",
-      "seasonalWork": "Seasonal Work",
-      "technicalScience": "Technical Sciences",
+      "seasonalWork": "Seasonal Work",
+      "technicalScience": "Technical Sciences",
       "services": "Services",
       "transportLogistics": "Transport/Logistics",
       "tourismCateringHotels": "Tourism/Catering/Hotels",

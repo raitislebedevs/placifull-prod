@@ -269,12 +269,12 @@
             },
             "expierience": {
               "label": "Patirtis",
-              "uptoOne": "< 1 metų",
-              "oneToThree": "1-3 metų",
-              "threeToFive": "3-5 metų",
-              "fiveToTen": "5-10 metų",
-              "tenToFifteen": "10-15 metų",
-              "moreThanFifteen": "15+ metų"
+              "uptoOne": "< 1 metų",
+              "oneToThree": "1-3 metų",
+              "threeToFive": "3-5 metų",
+              "fiveToTen": "5-10 metų",
+              "tenToFifteen": "10-15 metų",
+              "moreThanFifteen": "15+ metų"
             },
             "certificate": "Sertifikato pavadinimas",
             "button-add": "Pridėti įgūdžių"
@@ -286,12 +286,12 @@
             "country": "Dokumentą išdavė",
             "expierience": {
               "label": "Patirtis",
-              "uptoOne": "< 1 metų",
-              "oneToThree": "1-3 metų",
-              "threeToFive": "3-5 metų",
-              "fiveToTen": "5-10 metų",
-              "tenToFifteen": "10-15 metų",
-              "moreThanFifteen": "15+ metų"
+              "uptoOne": "< 1 metų",
+              "oneToThree": "1-3 metų",
+              "threeToFive": "3-5 metų",
+              "fiveToTen": "5-10 metų",
+              "tenToFifteen": "10-15 metų",
+              "moreThanFifteen": "15+ metų"
             },
             "category": "Teisių kategorija",
             "button-add": "Pridėti teises"

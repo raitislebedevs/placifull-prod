@@ -81,7 +81,7 @@
       },
       "delete-form": {
         "text": "Konto löschen:",
-        "content": "Möchten Sie das Konto löschen? Bitte drücken Sie unten auf 'Löschen'.",
+        "content": "Möchten Sie das Konto löschen? Bitte drücken Sie unten auf 'Löschen'.",
         "button-delete": "Konto löschen"
       },
       "validation": {
@@ -334,7 +334,7 @@
       "salary-monthly": "Monatsgehalt bis",
       "salary-annual": "Monatsgehalt bis",
       "seniority": "Dienstalter",
-      "monthly": " /Monatlich",
+      "monthly": " /Monatlich",
       "result-table": {
         "nr": "Nr.",
         "name": "Vollständiger Name",

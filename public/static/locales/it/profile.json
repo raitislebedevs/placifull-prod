@@ -81,7 +81,7 @@
       },
       "delete-form": {
         "text": "Elimina account",
-        "content": "Vuoi eliminare l'account? Per favore, premi il pulsante 'Cancella' qui sotto",
+        "content": "Vuoi eliminare l'account? Per favore, premi il pulsante 'Cancella' qui sotto",
         "button-delete": "Elimina account"
       },
       "validation": {
@@ -269,12 +269,12 @@
             },
             "expierience": {
               "label": "Esperienza",
-              "uptoOne": "< 1 anno",
-              "oneToThree": "1-3 anni",
-              "threeToFive": "3-5 anni",
-              "fiveToTen": "5-10 anni",
-              "tenToFifteen": "10-15 anni",
-              "moreThanFifteen": "15+ anni"
+              "uptoOne": "< 1 anno",
+              "oneToThree": "1-3 anni",
+              "threeToFive": "3-5 anni",
+              "fiveToTen": "5-10 anni",
+              "tenToFifteen": "10-15 anni",
+              "moreThanFifteen": "15+ anni"
             },
             "certificate": "Denominazione del Diploma",
             "button-add": "Aggiungi competenze"
@@ -286,12 +286,12 @@
             "country": "Nazione di emissione",
             "expierience": {
               "label": "Esperienza",
-              "uptoOne": "< 1 anno",
-              "oneToThree": "1-3 anni",
-              "threeToFive": "3-5 anni",
-              "fiveToTen": "5-10 anni",
-              "tenToFifteen": "10-15 anni",
-              "moreThanFifteen": "15+ anni"
+              "uptoOne": "< 1 anno",
+              "oneToThree": "1-3 anni",
+              "threeToFive": "3-5 anni",
+              "fiveToTen": "5-10 anni",
+              "tenToFifteen": "10-15 anni",
+              "moreThanFifteen": "15+ anni"
             },
             "category": "Categoria della patente",
             "button-add": "Aggiungi patente"

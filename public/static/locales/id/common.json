@@ -24,11 +24,11 @@
 
   "social-links": {
     "heading": "Tautan media sosial",
-    "facebook": "Facebook: https://",
-    "twitter": "Twitter: https://",
-    "youtube": "Youtube: https://",
-    "pinterest": "Pinterest: https://",
-    "instagram": "Instagram: https://"
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
   },
 
   "social": {
@@ -75,7 +75,7 @@
       "found": "Ditemukan",
       "items": "item"
     },
-    "not-found": "Tidak tidak menemukan hasil baru"
+    "not-found": "Tidak tidak menemukan hasil baru"
   },
 
   "location": {
@@ -129,5 +129,5 @@
     "profile": "Profil",
     "log-out": "Keluar"
   },
-  "preview-close": "Tutup Pratinjau"
+  "preview-close": "Tutup Pratinjau"
 }

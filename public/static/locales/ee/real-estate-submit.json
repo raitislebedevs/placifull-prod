@@ -32,13 +32,13 @@
           "label": "Kontakteerumise aeg",
           "placeholder": "Vali eelistatud aeg"
         },
-        "listing-website": "Veebileht: https://"
+        "listing-website": "Veebileht: https://"
       }
     },
     "gallery": {
       "real-estate": "Galerii",
       "click-drop": "KLIPI VÕI LOHISTA PILDID SIIA",
-      "video-url": "Video https://"
+      "video-url": "Video https://"
     },
     "contact-hours": {
       "heading": "Kontakteerumise tunnid",

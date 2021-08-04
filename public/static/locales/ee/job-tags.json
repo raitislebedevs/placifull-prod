@@ -21,11 +21,11 @@
   "masterDegree": "Magistrikraad",
   "doctorateDegree": "Doktorikraad",
 
-  "zeroToOne": "0-1 aastat",
-  "oneToThree": "1-3 aastat",
-  "threeToFive": "3-5 aastat",
-  "fiveToTen": "5-10 aastat",
-  "tenPlus": "10+ aastat",
+  "zeroToOne": "0-1 aastat",
+  "oneToThree": "1-3 aastat",
+  "threeToFive": "3-5 aastat",
+  "fiveToTen": "5-10 aastat",
+  "tenPlus": "10+ aastat",
   "anyYears": "Kogemus puudub",
 
   "travelAbroad": "Välismaal reisimine",

@@ -21,11 +21,11 @@
   "masterDegree": "Laurea specialistica",
   "doctorateDegree": "Dottorato di ricerca",
 
-  "zeroToOne": "0-1 anno",
-  "oneToThree": "1-3 anni",
-  "threeToFive": "3-5 anni",
-  "fiveToTen": "5-10 anni",
-  "tenPlus": "10+ anni",
+  "zeroToOne": "0-1 anno",
+  "oneToThree": "1-3 anni",
+  "threeToFive": "3-5 anni",
+  "fiveToTen": "5-10 anni",
+  "tenPlus": "10+ anni",
   "anyYears": "Qualsiasi esperienza",
 
   "travelAbroad": "Viaggiare all'estero",

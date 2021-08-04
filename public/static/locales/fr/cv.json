@@ -16,12 +16,12 @@
   },
   "expierience": {
     "label": "Expérience",
-    "uptoOne": "< 1 an",
-    "oneToThree": "1-3 ans",
-    "threeToFive": "3-5 ans",
-    "fiveToTen": "5-10 ans",
-    "tenToFifteen": "10-15 ans",
-    "moreThanFifteen": "15+ ans"
+    "uptoOne": "< 1 an",
+    "oneToThree": "1-3 ans",
+    "threeToFive": "3-5 ans",
+    "fiveToTen": "5-10 ans",
+    "tenToFifteen": "10-15 ans",
+    "moreThanFifteen": "15+ ans"
   },
 
   "knowladge-gained": {

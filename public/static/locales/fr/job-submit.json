@@ -5,10 +5,10 @@
     "preview-sneak-peak": "Processus en cours...",
     "preview": "Aperçu",
     "no-currency": "Devise",
-    "no-features": "Veuillez sélectionner une catégorie d'annonce",
+    "no-features": "Veuillez sélectionner une catégorie d'annonce",
     "job-title": {
       "title": "Intitulé du poste",
-      "placeholder": "Nom du poste ex. Patron Placifull."
+      "placeholder": "Nom du poste ex. Patron Placifull."
     },
     "company": "Nom de l'entreprise",
     "submit": "SOUMETTRE ",
@@ -30,26 +30,26 @@
         "email": "E-mail",
         "phone": "Numéro de téléphone",
         "address": "Adresse",
-        "listing-website": "Site Web : https://"
+        "listing-website": "Site Web : https://"
       }
     },
     "gallery": {
       "heading": "Logo de l'entreprise",
       "click-drop": "CLIQUEZ OU FAITES GLISSER LE LOGO ICI",
-      "video-url": "URL de vidéo : https://"
+      "video-url": "URL de vidéo : https://"
     },
     "contact-hours": {
       "heading": "Heures de travail ",
       "heading-tip": "Optionnel",
       "accordion": {
-        "heading": "Horaires pendant lesquels l'employé devra travailler ...",
+        "heading": "Horaires pendant lesquels l'employé devra travailler ...",
         "start-time": "Le travail commence à",
         "end-time": "Le travail fini à"
       }
     },
     "input-languages": {
-      "label": "Langues demandées. (Anglais)",
-      "labelNative": "Langues demandées. (Native)"
+      "label": "Langues demandées. (Anglais)",
+      "labelNative": "Langues demandées. (Native)"
     }
   }
 }

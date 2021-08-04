@@ -30,13 +30,13 @@
         "email": "E-mail",
         "phone": "Telefoninumber",
         "address": "Aadress",
-        "listing-website": "Veebileht: https://"
+        "listing-website": "Veebileht: https://"
       }
     },
     "gallery": {
       "heading": "Ettevõtte logo",
       "click-drop": "KLIKI VÕI LOHISTA LOGO SIIA",
-      "video-url": "Video url: https://"
+      "video-url": "Video url: https://"
     },
     "contact-hours": {
       "heading": "Töötunnid",

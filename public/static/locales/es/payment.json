@@ -1,12 +1,12 @@
 {
-  "currency": "€ ",
+  "currency": "€ ",
   "payment-modal": {
     "header": "Detalles de la Compra del Plan",
     "sub-header": "Por favor, seleccione los siguientes detalles de su plan",
     "total-cost": "Coste:",
     "expiry-date": "Fecha de vencimiento:",
     "expiry-label": "Fecha de vencimiento",
-    "quantity": "Cantidad: ",
+    "quantity": "Cantidad: ",
     "quantity-label": "Cantidad",
     "listed": "Publicado:",
     "purchase": "Comprado:",
@@ -22,7 +22,7 @@
     "form": {
       "added-days": {
         "label": "Extender el anuncio en",
-        "suffix": " Días"
+        "suffix": " Días"
       },
       "card-details": {
         "label": "Proporcionar información de la tarjeta",
@@ -76,7 +76,7 @@
         "activeSubscription": "Buscar CV"
       }
     },
-    "thank-you-message": "Gracias por apoyar a la empresa Placifull. Confíamos en que estará satisfecho con su elección.",
+    "thank-you-message": "Gracias por apoyar a la empresa Placifull. Confíamos en que estará satisfecho con su elección.",
     "buttons": {
       "cancel": "Cancelar",
       "proceed": "Pagar y Proceder"

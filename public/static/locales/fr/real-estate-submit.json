@@ -6,7 +6,7 @@
     "preview-sneak-peak": "Création en cours ...",
     "preview": "Aperçu",
     "no-currency": "TOUTES",
-    "no-features": "Veuillez sélectionner une catégorie d'annonce",
+    "no-features": "Veuillez sélectionner une catégorie d'annonce",
     "general-information": {
       "heading": "Informations générales",
       "currency-input": "Devise",
@@ -30,21 +30,21 @@
         "address": "Adresse",
         "contact-times": {
           "label": "Horaires de contact",
-          "placeholder": "Choisissez l'heure préférable"
+          "placeholder": "Choisissez l'heure préférable"
         },
-        "listing-website": "Site Web : https://"
+        "listing-website": "Site Web : https://"
       }
     },
     "gallery": {
       "real-estate": "Galerie",
       "click-drop": "CLIQUEZ OU FAITES GLISSER LES IMAGES ICI",
-      "video-url": "Vidéo https://"
+      "video-url": "Vidéo https://"
     },
     "contact-hours": {
       "heading": "Horaires de contact",
       "heading-tip": "Optionnel",
       "accordion": {
-        "heading": "Ajoutez le moment le plus approprié pour un rendez-vous/ une discussion ...",
+        "heading": "Ajoutez le moment le plus approprié pour un rendez-vous/ une discussion ...",
         "start-time": "De",
         "end-time": "Jusqu'à"
       }
