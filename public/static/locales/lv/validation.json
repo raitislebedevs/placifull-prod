@@ -1,0 +1,86 @@
+{
+  "common": {
+    "name": "Nepieciešams sludinājuma nosaukums",
+    "currency": {
+      "required": "Izvēlieties valūtu"
+    },
+
+    "category": "Izvēlieties kategoriju",
+    "action": "Izvēlieties darbību",
+    "condition": "Izvēlieties stāvokli",
+
+    "country": "Izvēlieties valsti",
+    "city": "Apsveriet pievienot pilsētu",
+    "description": {
+      "minLength": "Apraksts jābūt 20 rakstzīmju garam.",
+      "maxLength": "Apraksts nedrīkst pārsniegt 1000 rakstzīmes",
+      "required": "Nepieciešams apraksts"
+    },
+
+    "gallery": "Galerija ir obligāta",
+
+    "price": {
+      "minLength": "Cenai jābūt lielākai par 0",
+      "maxLength": "Cena nedrīkst pārsniegt 999,999,999,999.00",
+      "required": "Cena ir nepieciešama"
+    },
+    "phone": {
+      "minLength": "Tālruņa numurā ir jābūt vismaz 6 cipariem",
+      "maxLength": "Tālruņa numurs nedrīkst pārsniegt 20 ciparus.",
+      "required": "Nepieciešams tālruņa numurs"
+    },
+    "email": {
+      "valid": "Lūdzu norādiet derīgu e-pastu",
+      "required": "E-pasts ir nepieciešams"
+    },
+    "contact": {
+      "required": "Nepieciešams sazināšanās laiks"
+    }
+  },
+
+  "real-estate": {
+    "address": {
+      "mapPoint": "Lūgums norādīt adresi kartē",
+      "address": "Adrese ir nepieciešama"
+    },
+    "rooms": "Istabu skaits ir nepieciešams",
+    "area": "Īpašuma platība ir nepieciešama",
+    "baths": "Vanans istabu skaits ir nepieciešams"
+  },
+
+  "transport": {
+    "type": "Transporta tips ir nepieciešams",
+    "brand": {
+      "minLength": "Zīmols nedrīkst būt bez rakstzīmēm",
+      "maxLength": "Zīmols nedrīkst pārsniegt n rakstzīmes",
+      "required": "Zīmola nosaukums ir nepieciešams"
+    },
+
+    "model": {
+      "minLength": "Modelis nedrīkst būt bez rakstzīmēm",
+      "maxLength": "Modelis nedrīkst pārsniegt n rakstzīmes",
+      "required": "Modelis ir nepieciešams"
+    },
+    "address": {
+      "mapPoint": "Atzīmēt iespējamo satikšanās vietu kartē.",
+      "address": "Satikšanās adrese ir nepieciešama"
+    },
+    "engine": "Motora tips ir nepieciešams",
+    "gear": "Ātrumkārba nepieciešama"
+  },
+
+  "job": {
+    "address": {
+      "mapPoint": "Atzīmēt biroja adresi kartē",
+      "address": "Biroja adrese ir nepieciešama"
+    },
+    "gallery": "Kompānijas logo ir nepieciešama",
+    "monthly-from": "Mēnēšalga no ir nepieciešama",
+    "monthly-to": "Mēnēšalga līdz ir nepieciešama",
+    "logo-size": "Fails ir lielāks par 5 MB"
+  },
+  "email": {
+    "full-name": "Lūdzu norādiet savu vārdu",
+    "message": "Ziņa ir nepieciešama"
+  }
+}

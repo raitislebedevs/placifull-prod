@@ -1,4 +1,12 @@
 {
   "title": "Suggestion Board",
-  "subtitle": "Voting Board"
+  "subtitle": "Voting Board",
+  "item": {
+    "score": "Current score",
+    "options": "Voting options",
+    "up": "UP",
+    "down": "DOWN",
+    "rating": "Raiting",
+    "vote": "VOTE"
+  }
 }
