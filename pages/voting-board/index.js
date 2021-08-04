@@ -13,7 +13,7 @@ const UserBoard = (props) => {
 };
 
 UserBoard.getInitialProps = async () => ({
-  namespacesRequired: ['common', 'navbar', 'footer', 'error'],
+  namespacesRequired: ['voting-board', 'navbar', 'footer', 'error'],
 });
 
 UserBoard.propTypes = {

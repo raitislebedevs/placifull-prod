@@ -19,6 +19,9 @@
   }
 
   .info {
+    @include media-breakpoint-down(md) {
+      text-align: center;
+    }
     h6 {
       font-size: 18px;
       padding-bottom: 5px;
@@ -57,6 +60,17 @@
               cursor: pointer;
             }
           }
+          &.selected {
+            > svg {
+              border: 1px solid green;
+              border-radius: 25px;
+              padding: 3px;
+              font-size: 37px;
+              background-color: green;
+              color: #fff;
+              cursor: pointer;
+            }
+          }
         }
         .downvote {
           > svg {
@@ -66,6 +80,17 @@
             font-size: 37px;
             color: red;
             &:hover {
+              background-color: red;
+              color: #fff;
+              cursor: pointer;
+            }
+          }
+          &.selected {
+            > svg {
+              border: 1px solid red;
+              border-radius: 25px;
+              padding: 3px;
+              font-size: 37px;
               background-color: red;
               color: #fff;
               cursor: pointer;
@@ -102,4 +127,8 @@
 
     padding-left: 25px;
   }
+}
+
+.voting__board__paginate {
+  padding-bottom: 25px;
 }

@@ -102,3 +102,7 @@ export const STRIPE_PAYMENT = {
 export const SUBSCRIBER = {
   BASE: '/subscribers',
 };
+
+export const VOTING_BOARD = {
+  BASE: '/user-suggestions',
+};
