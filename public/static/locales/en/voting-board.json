@@ -14,6 +14,7 @@
     "voted": "Trying to vote twice?",
     "rate": "Please rate the idea",
     "up-down": "Choose voting option",
-    "idea": "Rate and choose voting option."
+    "idea": "Rate and choose voting option.",
+    "zero": "Downvote this item is not allowed"
   }
 }
