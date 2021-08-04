@@ -63,7 +63,7 @@
     "react-to-print": "^2.12.6",
     "react-toastify": "^7.0.3",
     "react-typing-effect": "^2.0.4",
-    "recompose": "^0.30.0",
+    "recompose": "^0.17.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "sass": "^1.32.8",
@@ -73,7 +73,7 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.12.17",
-    "@svgr/webpack": "^5.5.0",
+    "@svgr/webpack": "^3.1.0",
     "babel-eslint": "^10.1.0",
     "babel-plugin-inline-react-svg": "^2.0.1",
     "eslint": "^7.20.0",
