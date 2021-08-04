@@ -37,7 +37,7 @@ const VotingBoard = (props) => {
       return;
     }
 
-    if (!user.id) {
+    if (!user?.id) {
       TostifyCustomContainer('info', t('voting-board:toast.log-in'));
       return;
     }
@@ -50,6 +50,7 @@ const VotingBoard = (props) => {
 
       if (votingOption === 'down' && votes <= 1) {
         setIsVoting(false);
+        TostifyCustomContainer('info', t('voting-board:toast.zero'));
         return;
       }
 
@@ -199,9 +200,6 @@ const VotingBoard = (props) => {
                         >
                           <BiUpvote
                             onClick={() => handleChoosenOption('up', item.id)}
-                            onTouchStart={() =>
-                              handleChoosenOption('up', item.id)
-                            }
                           />{' '}
                           {t('voting-board:item.up')}
                         </span>
@@ -214,9 +212,6 @@ const VotingBoard = (props) => {
                         >
                           <BiDownvote
                             onClick={() => handleChoosenOption('down', item.id)}
-                            onTouchStart={() =>
-                              handleChoosenOption('down', item.id)
-                            }
                           />{' '}
                           {t('voting-board:item.down')}
                         </span>
@@ -233,9 +228,6 @@ const VotingBoard = (props) => {
                           voteItem === item.id && rating ? rating : item.rating
                         }
                         onChange={(e) => {
-                          handleRatingChange(e, item.id);
-                        }}
-                        onTouchStart={(e) => {
                           handleRatingChange(e, item.id);
                         }}
                         className="voting__ratings"
@@ -258,9 +250,6 @@ const VotingBoard = (props) => {
                       <div
                         className={'vote_button'}
                         onClick={() => {
-                          handleVote(item);
-                        }}
-                        onTouchStart={(e) => {
                           handleVote(item);
                         }}
                       >
