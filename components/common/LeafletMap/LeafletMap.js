@@ -12,12 +12,12 @@ import {
   useMap,
   Marker,
   useMapEvents,
-  Popup,
+  Popup
 } from 'react-leaflet';
 import {
   OpenStreetMapProvider,
   AlgoliaProvider,
-  EsriProvider,
+  EsriProvider
 } from 'leaflet-geosearch';
 
 //Change icon Marker, because icon from the library broken
@@ -26,7 +26,7 @@ L.Icon.Default.mergeOptions({
   iconRetinaUrl:
     'https://unpkg.com/leaflet@1.4.0/dist/images/marker-icon-2x.png',
   iconUrl: 'https://unpkg.com/leaflet@1.4.0/dist/images/marker-icon.png',
-  shadowUrl: 'https://unpkg.com/leaflet@1.4.0/dist/images/marker-shadow.png',
+  shadowUrl: 'https://unpkg.com/leaflet@1.4.0/dist/images/marker-shadow.png'
 });
 
 //set up search provider
@@ -64,7 +64,7 @@ export default function LeafletMap(props) {
     searchText,
     handleSearchResult,
     setIsLoadingSearch,
-    listSearchResult,
+    listSearchResult
   } = props;
   const [map, setMap] = useState(null);
   useEffect(() => {
@@ -137,9 +137,9 @@ export default function LeafletMap(props) {
 function MapComponent({ setCurrentPosition, currentPosition }) {
   const map = useMap();
   const mapEvent = useMapEvents({
-    click: (e) => {
+    click: e => {
       setCurrentPosition({ ...currentPosition, position: e.latlng });
-    },
+    }
   });
   useEffect(() => {
     //Resize the view
@@ -152,7 +152,7 @@ function MapComponent({ setCurrentPosition, currentPosition }) {
     const results = new L.LayerGroup().addTo(map);
 
     //Handle search
-    searchControl.on('results', function (data) {
+    searchControl.on('results', function(data) {
       results.clearLayers();
       for (let i = data.results.length - 1; i >= 0; i--) {
         results.addLayer(L.marker(data.results[i].latlng));
