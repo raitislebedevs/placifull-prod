@@ -5,50 +5,33 @@ import { Container, Spinner, Row, Col } from 'react-bootstrap';
 import { BsFillPersonFill } from 'react-icons/bs';
 import { BiUpvote, BiDownvote } from 'react-icons/bi';
 import ReactPaginate from 'react-paginate';
+import { connect } from 'react-redux';
 import { VotingBoardService } from 'services/index';
+import { handle } from 'node_modules/i18next-http-middleware/index';
 
 const VotingBoard = (props) => {
-  const { t } = props;
+  const { t, user } = props;
   const [limit, setLimit] = useState(9);
   const [skip, setSkip] = useState(0);
   const [total, setTotal] = useState(45);
+  const [rating, setRating] = useState(45);
   const [votingItems, setVotingItems] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [isRating, setIsRating] = useState(false);
   const [isVoting, setIsVoting] = useState(false);
   const [votingOption, setVotingOption] = useState('');
   const [voteItem, setVoteItem] = useState('');
 
-  const handleRating = async (rate, votingItem) => {
-    setVoteItem(votingItem.id);
-    setIsRating(true);
-    try {
-      const rating = votingItem?.rating || 0;
-      const totalRaters = votingItem?.totalRaters || 0;
-
-      let newRate =
-        parseFloat(
-          ((rate + rating * totalRaters) / (totalRaters + 1)).toFixed(1)
-        ) || rate;
-
-      let payload = {
-        rating: newRate,
-        totalRaters: totalRaters + 1,
-      };
-
-      await VotingBoardService.UPDATE(votingItem.id, payload);
-
-      getUserSuggestions();
-    } catch (error) {
-      setIsRating(false);
-    }
-    setIsRating(false);
-  };
-
   const handleVote = async (votingItem) => {
     if (votingItem.id !== voteItem) return;
+
+    if (!rating || !votingOption || votingItem.id !== voteItem) {
+      console.log('Nav');
+      return;
+    }
+
     setIsVoting(true);
     try {
+      const rate = votingItem?.rating || 0;
       let votes = votingItem?.endVotes || 0;
 
       if (votingOption === 'down' && votes <= 1) {
@@ -64,7 +47,17 @@ const VotingBoard = (props) => {
         votes--;
       }
 
+      const rating = rating;
+      const totalRaters = votingItem?.totalRaters || 0;
+
+      let newRate =
+        parseFloat(
+          ((rate + rating * totalRaters) / (totalRaters + 1)).toFixed(1)
+        ) || rate;
+
       let payload = {
+        rating: newRate,
+        totalRaters: totalRaters + 1,
         endVotes: votes,
       };
 
@@ -114,9 +107,29 @@ const VotingBoard = (props) => {
     }
   };
 
-  const handleChoosenOption = (option, item) => {
+  const handleChoosenOption = (option, id) => {
+    if (id === voteItem) {
+      setVotingOption(option);
+      setVoteItem(id);
+      return;
+    }
+
     setVotingOption(option);
-    setVoteItem(item.id);
+    setVoteItem(id);
+    setRating(0);
+  };
+
+  const handleRatingChange = (e, id) => {
+    console.log(e);
+    if (id === voteItem) {
+      setRating(e);
+      setVoteItem(id);
+      return;
+    }
+
+    setRating(e);
+    setVoteItem(id);
+    setVotingOption('');
   };
 
   return (
@@ -125,8 +138,8 @@ const VotingBoard = (props) => {
         <>
           {votingItems?.map((item) => {
             return (
-              <Container className="voting_container">
-                <Row key={item.id}>
+              <Container className="voting_container" key={item.id}>
+                <Row>
                   <Col
                     xs={12}
                     sm={12}
@@ -163,7 +176,10 @@ const VotingBoard = (props) => {
                           }`}
                         >
                           <BiUpvote
-                            onClick={() => handleChoosenOption('up', item)}
+                            onClick={() => handleChoosenOption('up', item.id)}
+                            onTouchStart={() =>
+                              handleChoosenOption('up', item.id)
+                            }
                           />{' '}
                           {t('voting-board:item.up')}
                         </span>
@@ -175,7 +191,10 @@ const VotingBoard = (props) => {
                           }`}
                         >
                           <BiDownvote
-                            onClick={() => handleChoosenOption('down', item)}
+                            onClick={() => handleChoosenOption('down', item.id)}
+                            onTouchStart={() =>
+                              handleChoosenOption('down', item.id)
+                            }
                           />{' '}
                           {t('voting-board:item.down')}
                         </span>
@@ -185,34 +204,23 @@ const VotingBoard = (props) => {
                       <h6 className={'rating'}>
                         {t('voting-board:item.rating')}
                       </h6>
-                      {isRating && voteItem === item.id ? (
-                        <div className={'text-center voting__ratings'}>
-                          <Spinner
-                            as="span"
-                            animation="border"
-                            variant="danger"
-                            size="xl"
-                            role="status"
-                          />
-                        </div>
-                      ) : (
-                        <>
-                          <Rating
-                            stop={5}
-                            fractions={4}
-                            initialRating={item.rating}
-                            onChange={(e) => {
-                              handleRating(e, item);
-                            }}
-                            className="voting__ratings"
-                            fullSymbol={<FaStar className="ratings__icon" />}
-                            emptySymbol={
-                              <FaRegStar className="ratings__icon" />
-                            }
-                          />
-                          <span className={'count'}>{item.rating}</span>
-                        </>
-                      )}
+                      <Rating
+                        stop={5}
+                        fractions={8}
+                        initialRating={
+                          voteItem === item.id && rating ? rating : item.rating
+                        }
+                        onChange={(e) => {
+                          handleRatingChange(e, item.id);
+                        }}
+                        onTouchStart={(e) => {
+                          handleRatingChange(e, item.id);
+                        }}
+                        className="voting__ratings"
+                        fullSymbol={<FaStar className="ratings__icon" />}
+                        emptySymbol={<FaRegStar className="ratings__icon" />}
+                      />
+                      <span className={'count'}>{item.rating}</span>
                     </div>
                     {isVoting && voteItem === item.id ? (
                       <div className={'text-center'}>
@@ -228,6 +236,9 @@ const VotingBoard = (props) => {
                       <div
                         className={'vote_button'}
                         onClick={() => {
+                          handleVote(item);
+                        }}
+                        onTouchStart={(e) => {
                           handleVote(item);
                         }}
                       >
@@ -280,4 +291,8 @@ const VotingBoard = (props) => {
   );
 };
 
-export default VotingBoard;
+export const mapStateToProps = (state) => ({
+  user: state.connectionReducer.user,
+});
+
+export default connect(mapStateToProps)(VotingBoard);
