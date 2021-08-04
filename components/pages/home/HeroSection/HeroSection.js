@@ -33,22 +33,24 @@ const HeroSection = (props) => {
                 <h1 className="content-hero__heading">
                   {t('hero-section.head.line-1')}
                   {'  '}
-                  <span className="heading__type-write element">
-                    <span className="type-write__wrap">
-                      <ReactTypingEffect
-                        speed={250}
-                        eraseSpeed={100}
-                        eraseDelay={2000}
-                        typingDelay={100}
-                        cursorRenderer={(cursor) => (
-                          <span className="heading__type-write-cursor">
-                            {cursor}
-                          </span>
-                        )}
-                        text={messages}
-                      />
+                  <div>
+                    <span className="heading__type-write element">
+                      <span className="type-write__wrap">
+                        <ReactTypingEffect
+                          speed={250}
+                          eraseSpeed={100}
+                          eraseDelay={2000}
+                          typingDelay={100}
+                          cursorRenderer={(cursor) => (
+                            <span className="heading__type-write-cursor">
+                              {cursor}
+                            </span>
+                          )}
+                          text={messages}
+                        />
+                      </span>
                     </span>
-                  </span>
+                  </div>
                 </h1>
                 <h1 className="content-hero__heading">
                   {t('hero-section.head.line-2')}
