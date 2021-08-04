@@ -8,5 +8,12 @@
     "down": "DOWN",
     "rating": "Raiting",
     "vote": "VOTE"
+  },
+  "toast": {
+    "log-in": "Please log in",
+    "voted": "Trying to vote twice?",
+    "rate": "Please rate the idea",
+    "up-down": "Choose voting option",
+    "idea": "Rate and choose voting option."
   }
 }

@@ -7,7 +7,7 @@ import { BiUpvote, BiDownvote } from 'react-icons/bi';
 import ReactPaginate from 'react-paginate';
 import { connect } from 'react-redux';
 import { VotingBoardService } from 'services/index';
-import { handle } from 'node_modules/i18next-http-middleware/index';
+import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 
 const VotingBoard = (props) => {
   const { t, user } = props;
@@ -22,15 +22,29 @@ const VotingBoard = (props) => {
   const [voteItem, setVoteItem] = useState('');
 
   const handleVote = async (votingItem) => {
-    if (votingItem.id !== voteItem) return;
+    if (votingItem.id !== voteItem) {
+      TostifyCustomContainer('info', t('voting-board:toast.idea'));
+      return;
+    }
 
-    if (!rating || !votingOption || votingItem.id !== voteItem) {
-      console.log('Nav');
+    if (!rating) {
+      TostifyCustomContainer('info', t('voting-board:toast.rate'));
+      return;
+    }
+
+    if (!votingOption) {
+      TostifyCustomContainer('info', t('voting-board:toast.up-down'));
+      return;
+    }
+
+    if (!user.id) {
+      TostifyCustomContainer('info', t('voting-board:toast.log-in'));
       return;
     }
 
     setIsVoting(true);
     try {
+      let votedUserList = votingItem?.votedUsers || [];
       const rate = votingItem?.rating || 0;
       let votes = votingItem?.endVotes || 0;
 
@@ -47,6 +61,14 @@ const VotingBoard = (props) => {
         votes--;
       }
 
+      if (votedUserList.filter((item) => item == user.id).length > 0) {
+        setIsVoting(false);
+        TostifyCustomContainer('info', t('voting-board:toast.voted'));
+        return;
+      }
+
+      votedUserList.push(user.id);
+
       const rating = rating;
       const totalRaters = votingItem?.totalRaters || 0;
 
@@ -59,13 +81,13 @@ const VotingBoard = (props) => {
         rating: newRate,
         totalRaters: totalRaters + 1,
         endVotes: votes,
+        votedUsers: votedUserList,
       };
 
       await VotingBoardService.UPDATE(votingItem.id, payload);
 
       getUserSuggestions();
     } catch (error) {
-      console.log(error);
       setIsVoting(false);
     }
     setIsVoting(false);
