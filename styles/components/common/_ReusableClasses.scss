@@ -20,3 +20,17 @@
     }
   }
 }
+.form-control-container {
+  position: relative;
+  .max__length__counter {
+    position: absolute;
+    right: 7px;
+    bottom: 0px;
+    font-size: 11px;
+    color: lightgray;
+    font-weight: 700;
+  }
+}
+.modal {
+  z-index: 9999 !important;
+}

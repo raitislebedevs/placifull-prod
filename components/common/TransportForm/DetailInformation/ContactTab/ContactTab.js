@@ -24,7 +24,7 @@ const ContactTab = (props) => {
   } = props;
   const [isLoadingSearch, setIsLoadingSearch] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
-  const [searchText, setSearchText] = useState();
+  const [searchText, setSearchText] = useState('');
   const [isSearching, setIsSearching] = useState(false);
   const [currentCenter, setCurrentCenter] = useState({
     lat: 56.946285,
@@ -186,6 +186,8 @@ const ContactTab = (props) => {
               value={inputValues.transportEmail}
               id="transportEmail"
               type="text"
+              valueLength={75 - inputValues.transportEmail?.length}
+              maxLength={'75'}
               label={
                 <>
                   {t('transport-submit:form.detail-information.contact.email')}
@@ -221,6 +223,8 @@ const ContactTab = (props) => {
               onChange={handleOnChange}
               value={inputValues.transportWebsiteLink}
               id="transportWebsiteLink"
+              valueLength={250 - inputValues.transportWebsiteLink?.length}
+              maxLength={'250'}
               type="text"
               label={t(
                 'transport-submit:form.detail-information.contact.listing-website'

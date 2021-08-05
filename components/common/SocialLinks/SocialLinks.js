@@ -16,6 +16,8 @@ const SocialLinks = (props) => {
                 onChange={handleOnChange}
                 value={inputValues[prefix + item.key]}
                 id={prefix + item.key}
+                valueLength={250 - inputValues[prefix + item.key]?.length}
+                maxLength={'250'}
                 type="text"
                 style={{ resize: 'none' }}
                 label={item.label}

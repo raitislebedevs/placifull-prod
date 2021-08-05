@@ -5,6 +5,9 @@ import { StripeServiss } from 'services/index';
 import TostifyCustomContainer from '../TostifyCustomContainer/TostifyCustomContainer';
 import { Button, Container, Row, Col, Form } from 'react-bootstrap';
 import { CustomFormControl } from 'components/common';
+import RefferalServices from 'services/refferalServices';
+import { REFERRAL_INIT } from 'constants/referralValues';
+import { formatNumber } from 'utils/standaloneFunctions';
 
 const CARD_OPTIONS = {
   iconStyle: 'solid',
@@ -57,7 +60,8 @@ const CheckoutForm = (props) => {
   const { t, handleDataSubmit, paymentDetails, setIsStripe } = props;
   const stripe = useStripe();
   const elements = useElements();
-  const [error, setError] = useState(null);
+  const [error, setError] = useState('');
+  const [refferal, setRefferal] = useState('');
   const [cardComplete, setCardComplete] = useState(false);
   const [processing, setProcessing] = useState(false);
   const [billingDetails, setBillingDetails] = useState({
@@ -124,8 +128,45 @@ const CheckoutForm = (props) => {
     }
 
     TostifyCustomContainer('success', t(`stripe:main.success`));
+
+    if (refferal) processReferalCode();
+
     setProcessing(false);
     setIsStripe(false);
+  };
+
+  const processReferalCode = async () => {
+    try {
+      let percentage = REFERRAL_INIT.START_PERCENTAGE;
+      const filter = {
+        referralCode: refferal,
+      };
+      const { data } = await RefferalServices.FIND({
+        _where: filter,
+      });
+
+      const { referralCodeUsed, amountEarned, percantage, id } = data[0];
+      if (data.length === 1) {
+        let amountUserCodeUsed = referralCodeUsed + 1;
+        const increase = Math.floor(
+          amountUserCodeUsed / REFERRAL_INIT.NEXT_LEVEL_STEP
+        ).toFixed(0);
+        let newAmountEarned =
+          amountEarned + (paymentDetails.totalCost * percantage) / 100;
+        let newPercantage =
+          percentage + REFERRAL_INIT.INCREASE_PERCENTAGE * increase;
+
+        if (newPercantage > 25) newPercantage = 25;
+
+        await RefferalServices.UPDATE(id, {
+          amountEarned: newAmountEarned,
+          percantage: newPercantage,
+          referralCodeUsed: amountUserCodeUsed,
+        });
+      }
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
@@ -135,7 +176,7 @@ const CheckoutForm = (props) => {
           <div>{t(`stripe:checkout.billing`)}</div>
         </Row>
         <Row>
-          <Col lg={4}>
+          <Col lg={6}>
             <Form.Group>
               <CustomFormControl
                 label={t(`stripe:labels.name`)}
@@ -153,13 +194,14 @@ const CheckoutForm = (props) => {
               />
             </Form.Group>
           </Col>
-          <Col lg={4}>
+          <Col lg={6}>
             <Form.Group>
               <CustomFormControl
                 label={t(`stripe:labels.email`)}
                 id="email"
                 type="email"
                 required
+                maxLength={42}
                 autoComplete="email"
                 value={billingDetails.email}
                 onChange={(e) => {
@@ -171,13 +213,14 @@ const CheckoutForm = (props) => {
               />
             </Form.Group>
           </Col>
-          <Col lg={4}>
+          <Col lg={6}>
             <Form.Group>
               <CustomFormControl
                 label={t(`stripe:labels.phone`)}
                 id="phone"
                 type="tel"
                 required
+                maxLength={27}
                 autoComplete="tel"
                 value={billingDetails.phone}
                 onChange={(e) => {
@@ -185,6 +228,22 @@ const CheckoutForm = (props) => {
                     ...billingDetails,
                     phone: e.target.value,
                   });
+                }}
+              />
+            </Form.Group>
+          </Col>
+          <Col lg={6}>
+            <Form.Group>
+              <CustomFormControl
+                ///NEEEEEEEEDS TO CREATE
+                maxLength={20}
+                label={'Referral Code'}
+                id="refferalCode"
+                type="text"
+                value={refferal}
+                autoComplete="text"
+                onChange={(e) => {
+                  setRefferal(e.target.value);
                 }}
               />
             </Form.Group>
@@ -231,7 +290,7 @@ const CheckoutForm = (props) => {
             ) : (
               <>
                 {t(`stripe:main.pay`)}
-                {paymentDetails.totalCost}
+                {formatNumber(paymentDetails.totalCost)}
               </>
             )}
           </Button>

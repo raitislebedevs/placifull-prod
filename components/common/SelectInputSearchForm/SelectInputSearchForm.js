@@ -102,6 +102,7 @@ const SelectInputSearchForm = (props) => {
     options,
     defaultValue,
     id,
+    maxLength,
     placeholder,
     isSearchable,
     isLoading,
@@ -130,6 +131,11 @@ const SelectInputSearchForm = (props) => {
         isSearchable={isSearchable || false}
         onChange={onChange}
         options={options}
+        onInputChange={(inputValue) =>
+          inputValue.length <= maxLength
+            ? inputValue
+            : inputValue.substr(0, maxLength)
+        }
         isMulti={isMulti}
         styles={customStyles}
         placeholder={placeholder}
@@ -148,6 +154,11 @@ const SelectInputSearchForm = (props) => {
       onChange={onChange}
       isMulti={isMulti}
       options={options}
+      onInputChange={(inputValue) =>
+        inputValue.length <= maxLength
+          ? inputValue
+          : inputValue.substr(0, maxLength)
+      }
       styles={customStyles}
       placeholder={placeholder}
       instanceId={id}

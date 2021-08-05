@@ -72,8 +72,8 @@
     "location-error": "Nespēja iegūt atrašanās vietas",
     "unknown-error": "Nezināma servera kļūda",
     "search-results": {
-      "found": "Atrasts ",
-      "items": "skudinājums"
+      "found": "Atrasti ",
+      "items": "sludinājums"
     },
     "not-found": "Jaunu rezūltāti netika atrasti"
   },

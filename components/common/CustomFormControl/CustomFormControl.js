@@ -10,6 +10,8 @@ const CustomFormControl = (props) => {
     placeholderClassName,
     dropdownHandleChange,
     inputValues,
+    maxLength,
+    valueLength,
     tReady, //remove from rest to not have an error
     ...rest
   } = props;
@@ -74,7 +76,12 @@ const CustomFormControl = (props) => {
           ) : (
             ''
           )}
-          <Form.Control {...rest} ref={inputEl} />
+          <Form.Control maxLength={maxLength} {...rest} ref={inputEl} />
+          <>
+            {(valueLength || valueLength == 0) && (
+              <div className={'max__length__counter'}>{valueLength}</div>
+            )}
+          </>
         </div>
         {append && (
           <>

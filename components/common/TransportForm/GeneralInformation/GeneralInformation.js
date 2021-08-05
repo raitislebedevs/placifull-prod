@@ -55,6 +55,8 @@ const GeneralInformation = (props) => {
               onChange={handleOnChange}
               value={inputValues['transportName']}
               type="text"
+              valueLength={75 - inputValues['transportName']?.length}
+              maxLength={'75'}
               label={
                 <>
                   {t(
@@ -90,6 +92,7 @@ const GeneralInformation = (props) => {
                     id={item.key}
                     onChange={handleOnChange}
                     options={item.options}
+                    maxLength={7}
                     placeholder={item.label}
                     isSearchable={true}
                   />
@@ -107,6 +110,8 @@ const GeneralInformation = (props) => {
                     id={item.key}
                     onChange={handleOnChange}
                     value={inputValues[item.key]}
+                    valueLength={2000 - inputValues[item.key]?.length}
+                    maxLength={'2000'}
                     type="text"
                     style={{ resize: 'vertical', height: 'auto' }}
                     label={item.label}
@@ -274,6 +279,8 @@ const GeneralInformation = (props) => {
                     onChange={handleOnChange}
                     value={inputValues[item.key]}
                     type="text"
+                    valueLength={35 - inputValues[item.key]?.length}
+                    maxLength={'35'}
                     label={item.label}
                     autoComplete="current-text"
                     prefix={item.prefix}

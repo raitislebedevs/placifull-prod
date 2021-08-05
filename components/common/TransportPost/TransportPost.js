@@ -53,6 +53,7 @@ const TransportSubmit = (props) => {
     transportVideoLink: '',
     transportfacebookLink: '',
     transportinstagramLink: '',
+    transportDescription: '',
     transportyoutubeLink: '',
     transporttwitterLink: '',
     fuelEconomyMesurment: 'litrePerKilometer',

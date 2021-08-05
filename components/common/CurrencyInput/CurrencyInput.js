@@ -108,6 +108,7 @@ const CurrencyInput = (props) => {
         isLoading={loaders.includes('currency')}
         isMulti={isMulti}
         isSearchable={true}
+        maxLength={10}
         value={selectedCurrency}
         options={loaders.includes('currency') ? [] : selectOptions['currency']}
         placeholder={
@@ -132,6 +133,7 @@ const CurrencyInput = (props) => {
       isLoading={loaders.includes('currency')}
       isMulti={isMulti}
       isSearchable={true}
+      maxLength={10}
       value={selectedCurrency}
       options={loaders.includes('currency') ? [] : selectOptions['currency']}
       placeholder={

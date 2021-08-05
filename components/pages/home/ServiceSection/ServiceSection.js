@@ -294,7 +294,7 @@ const ServiceSection = (props) => {
             email: Yup.string().max(75).email().required(),
             firstName: Yup.string().max(50).required(),
             lastName: Yup.string().max(50).required(),
-            phone: Yup.string().max(20).required(),
+            phone: Yup.string().max(23).required(),
             applyText: Yup.string().max(750).required(),
             dreamJob: Yup.string().max(500).required(),
             salaryExpectation: Yup.number().required().positive().integer(),
@@ -320,6 +320,7 @@ const ServiceSection = (props) => {
                         onChange={handleChange}
                         value={values.firstName}
                         onBlur={handleBlur}
+                        maxLength={'33'}
                         isInvalid={Boolean(
                           touched.firstName && errors.firstName
                         )}
@@ -339,6 +340,7 @@ const ServiceSection = (props) => {
                       <CustomFormControl
                         onChange={handleChange}
                         value={values.lastName}
+                        maxLength={'33'}
                         onBlur={handleBlur}
                         isInvalid={Boolean(touched.lastName && errors.lastName)}
                         id="lastName"
@@ -359,6 +361,7 @@ const ServiceSection = (props) => {
                       <CustomFormControl
                         onChange={handleChange}
                         value={values.email}
+                        maxLength={'75'}
                         onBlur={handleBlur}
                         isInvalid={Boolean(touched.email && errors.email)}
                         id="email"
@@ -378,6 +381,7 @@ const ServiceSection = (props) => {
                         onChange={handleChange}
                         value={values.phone}
                         onBlur={handleBlur}
+                        maxLength={'23'}
                         isInvalid={Boolean(touched.phone && errors.phone)}
                         id="phone"
                         type="text"
@@ -402,6 +406,8 @@ const ServiceSection = (props) => {
                         as="textarea"
                         rows={6}
                         type="text"
+                        valueLength={500 - values.applyText?.length}
+                        maxLength={'500'}
                         style={{ resize: 'vertical', height: 'auto' }}
                         value={values.dreamJob}
                         onBlur={handleBlur}
@@ -426,6 +432,8 @@ const ServiceSection = (props) => {
                         as="textarea"
                         rows={6}
                         type="text"
+                        valueLength={500 - values.applyText?.length}
+                        maxLength={'500'}
                         style={{ resize: 'vertical', height: 'auto' }}
                         value={values.applyText}
                         onBlur={handleBlur}
@@ -444,13 +452,14 @@ const ServiceSection = (props) => {
                 </Col>
               </Row>
               <Row>
-                <Col xs={12} sm={12} md={6} lg={6} xl={6} className="">
+                <Col xs={12} sm={12} md={12} lg={6} xl={6} className="">
                   <Form.Group>
                     <div className="items__input">
                       <CustomFormControl
                         onChange={handleChange}
                         value={values.positionName}
                         onBlur={handleBlur}
+                        maxLength={'75'}
                         isInvalid={Boolean(
                           touched.positionName && errors.positionName
                         )}
@@ -464,7 +473,7 @@ const ServiceSection = (props) => {
                     </div>
                   </Form.Group>
                 </Col>
-                <Col xs={12} sm={12} md={6} lg={6} xl={6} className="">
+                <Col xs={12} sm={12} md={12} lg={6} xl={6} className="">
                   <Form.Group>
                     <div className="items__input">
                       <CustomFormControl

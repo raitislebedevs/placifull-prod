@@ -36,6 +36,17 @@ const JobPost = (props) => {
     tags: [],
     title: '',
     companyName: '',
+    jobDescription: '',
+    jobVideoLink: '',
+    jobRequirements: '',
+    jobEmail: '',
+    jobOffer: '',
+    jobListingWebsite: '',
+    jobVideoLink: '',
+    jobfacebookLink: '',
+    jobinstagramLink: '',
+    jobyoutubeLink: '',
+    jobtwitterLink: '',
   };
   const [
     inputValues,

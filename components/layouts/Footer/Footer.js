@@ -231,6 +231,7 @@ const Footer = (props) => {
                         name="email"
                         id="email"
                         type="email"
+                        maxLength={'75'}
                         onChange={(event) =>
                           setSubscriber(event?.target?.value)
                         }

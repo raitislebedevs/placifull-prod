@@ -95,6 +95,8 @@ const GeneralInformation = (props) => {
               value={inputValues.companyName}
               id="companyName"
               type="text"
+              valueLength={50 - inputValues.companyName?.length}
+              maxLength={'50'}
               label={
                 <>
                   {t('job-submit:form.company')}
@@ -112,6 +114,8 @@ const GeneralInformation = (props) => {
               value={inputValues.title}
               id="title"
               type="text"
+              valueLength={75 - inputValues.companyName?.length}
+              maxLength={'75'}
               label={
                 <>
                   {t('job-submit:form.job-title.placeholder')}
@@ -172,6 +176,8 @@ const GeneralInformation = (props) => {
                     id={item.key}
                     as="textarea"
                     rows={4}
+                    valueLength={2000 - inputValues[item.key]?.length}
+                    maxLength={'2000'}
                     onChange={handleOnChange}
                     value={inputValues[item.key]}
                     type="text"
@@ -208,7 +214,7 @@ const GeneralInformation = (props) => {
           }
           if (item.type === 'languagesNative') {
             return (
-              <Col lg={12} md={4} sm={6} key={item.key}>
+              <Col lg={12} key={item.key}>
                 <Form.Group>
                   <SelectInputSubmit
                     id={item.type}
@@ -224,7 +230,7 @@ const GeneralInformation = (props) => {
           }
           if (item.type === 'languagesEnglish') {
             return (
-              <Col lg={12} md={4} sm={6} key={item.key}>
+              <Col lg={12} key={item.key}>
                 <Form.Group>
                   <SelectInputSubmit
                     id={item.type}

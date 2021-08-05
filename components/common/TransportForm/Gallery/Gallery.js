@@ -78,6 +78,8 @@ const Gallery = (props) => {
               value={inputValues.transportVideoLink}
               id="transportVideoLink"
               type="text"
+              valueLength={250 - inputValues.transportVideoLink?.length}
+              maxLength={'250'}
               style={{ resize: 'none' }}
               label={t('transport-submit:form.gallery.video-url')}
               autoComplete="current-text"

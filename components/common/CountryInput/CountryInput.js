@@ -265,6 +265,7 @@ const CountryInput = (props) => {
                       onChange={handleChangeLocation}
                       isLoading={loaders.includes(item.key)}
                       isSearchable={true}
+                      maxLength={10}
                       options={
                         loaders.includes(item.key)
                           ? []
@@ -296,6 +297,7 @@ const CountryInput = (props) => {
                       onChange={handleChangeLocation}
                       isLoading={loaders.includes(item.key)}
                       isSearchable={true}
+                      maxLength={10}
                       value={!inputValues[item.key] && locationValue[item.key]}
                       options={
                         loaders.includes(item.key)
@@ -324,6 +326,7 @@ const CountryInput = (props) => {
                   <SelectInputSubmit
                     id={item.key}
                     clearIds={clearIds}
+                    maxLength={10}
                     onChange={handleChangeLocation}
                     isLoading={loaders.includes(item.key)}
                     isSearchable={true}

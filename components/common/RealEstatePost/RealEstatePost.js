@@ -41,6 +41,7 @@ const RealEstatePost = (props) => {
     name: '',
     address: '',
     realEstateEmail: '',
+    description: '',
     websiteLink: '',
     videoLink: '',
     facebookLink: '',

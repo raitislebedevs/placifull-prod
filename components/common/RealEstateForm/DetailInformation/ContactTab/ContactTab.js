@@ -22,7 +22,7 @@ const ContactTab = (props) => {
   } = props;
   const [isLoadingSearch, setIsLoadingSearch] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
-  const [searchText, setSearchText] = useState();
+  const [searchText, setSearchText] = useState('');
   const [isSearching, setIsSearching] = useState(false);
   const [currentCenter, setCurrentCenter] = useState({
     lat: 56.946285,
@@ -178,6 +178,8 @@ const ContactTab = (props) => {
               value={inputValues.realEstateEmail}
               id="realEstateEmail"
               type="text"
+              valueLength={75 - inputValues['realEstateEmail']?.length}
+              maxLength={'75'}
               label={
                 <>
                   {t(
@@ -213,6 +215,8 @@ const ContactTab = (props) => {
             <CustomFormControl
               onChange={handleOnChange}
               value={inputValues.websiteLink}
+              valueLength={250 - inputValues['websiteLink']?.length}
+              maxLength={'250'}
               id="websiteLink"
               type="text"
               label={t(

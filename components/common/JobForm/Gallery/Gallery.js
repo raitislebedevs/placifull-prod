@@ -79,6 +79,8 @@ const Gallery = (props) => {
             <CustomFormControl
               onChange={handleOnChange}
               value={inputValues.jobVideoLink}
+              valueLength={250 - inputValues.jobVideoLink?.length}
+              maxLength={'250'}
               id="jobVideoLink"
               type="text"
               label={t('job-submit:form.gallery.video-url')}

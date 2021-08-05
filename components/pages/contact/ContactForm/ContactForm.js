@@ -10,21 +10,13 @@ const ContactForm = (props) => {
   const [isLoading, setIsLoading] = useState(false);
   const [sendEmail] = useEmail(t);
   const [inputValues, setInputValues] = useState({
-    name: '',
-    contactEmail: '',
+    name: user?.userInfo?.firstName
+      ? `${user?.userInfo?.firstName} ${user?.userInfo?.lastName}`
+      : '',
+    contactEmail: user?.email || '',
     subject: '',
     message: '',
   });
-
-  useEffect(() => {
-    if (user) {
-      inputValues.name = user?.userInfo?.firstName
-        ? `${user?.userInfo?.firstName} ${user?.userInfo?.lastName}`
-        : '';
-
-      inputValues.contactEmail = user?.email || '';
-    }
-  }, [user]);
 
   const infoCardMenu = [
     {
@@ -108,6 +100,7 @@ const ContactForm = (props) => {
                   onChange={handleOnChange}
                   id={'name'}
                   value={inputValues.name}
+                  maxLength={'42'}
                   type="text"
                   autoComplete="current-text"
                   label={t('contact:contact-form.form.name')}
@@ -120,6 +113,7 @@ const ContactForm = (props) => {
                   onChange={handleOnChange}
                   id={'contactEmail'}
                   value={inputValues.contactEmail}
+                  maxLength={'75'}
                   type="contactEmail"
                   autoComplete="current-text"
                   label={t('contact:contact-form.form.email')}
@@ -132,6 +126,7 @@ const ContactForm = (props) => {
                   onChange={handleOnChange}
                   id={'subject'}
                   value={inputValues.subject}
+                  maxLength={'25'}
                   type="text"
                   label={t('contact:contact-form.form.subject')}
                   autoComplete="current-text"
@@ -147,6 +142,8 @@ const ContactForm = (props) => {
                   rows={6}
                   id={'message'}
                   value={inputValues.message}
+                  valueLength={3000 - inputValues.subject?.length}
+                  maxLength={'3000'}
                   onChange={handleOnChange}
                   type="text"
                   style={{ height: 'auto' }}

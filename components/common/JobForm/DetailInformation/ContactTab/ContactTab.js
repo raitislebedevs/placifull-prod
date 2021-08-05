@@ -24,7 +24,7 @@ const ContactTab = (props) => {
   } = props;
   const [isLoadingSearch, setIsLoadingSearch] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
-  const [searchText, setSearchText] = useState();
+  const [searchText, setSearchText] = useState('');
   const [isSearching, setIsSearching] = useState(false);
   const [currentCenter, setCurrentCenter] = useState({
     lat: 56.946285,
@@ -139,6 +139,8 @@ const ContactTab = (props) => {
               onChange={handleOnChange}
               value={inputValues.jobEmail}
               id="jobEmail"
+              valueLength={75 - inputValues.jobEmail?.length}
+              maxLength={'75'}
               type="text"
               label={
                 <>
@@ -213,6 +215,8 @@ const ContactTab = (props) => {
               onChange={handleOnChange}
               value={inputValues.jobListingWebsite}
               id="jobListingWebsite"
+              valueLength={250 - inputValues.jobListingWebsite?.length}
+              maxLength={'250'}
               type="text"
               label={t(
                 'job-submit:form.detail-information.contact.listing-website'

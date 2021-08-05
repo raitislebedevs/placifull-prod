@@ -244,6 +244,7 @@ const SearchForm = (props) => {
                       <Form.Group>
                         <Form.Control
                           id={item.key}
+                          maxLength={'50'}
                           onChange={handleOnChange}
                           value={inputValues[item.key]}
                           placeholder={item.placeholder}
@@ -460,7 +461,7 @@ const SearchForm = (props) => {
                         <div className="accordion__right" key={group.key}>
                           <div className="right__header">{group.label}:</div>
                           {group?.items?.map((item) => (
-                            <Form.Group key={guidGenerator()}>
+                            <Form.Group key={item.key}>
                               {item?.decorator}
                               <NumberFormat
                                 customInput={CustomFormSearchForm}
@@ -501,7 +502,7 @@ const SearchForm = (props) => {
                         <div className="accordion__right" key={group.key}>
                           <div className="right__header">{group.label}:</div>
                           {group?.items?.map((item) => (
-                            <Form.Group key={guidGenerator()}>
+                            <Form.Group key={item.key}>
                               {item?.decorator}
                               <NumberFormat
                                 customInput={CustomFormSearchForm}
@@ -542,7 +543,7 @@ const SearchForm = (props) => {
                         <div className="accordion__right" key={group.key}>
                           <div className="right__header">{group.label}:</div>
                           {group?.items?.map((item) => (
-                            <Form.Group key={guidGenerator()}>
+                            <Form.Group key={item.key}>
                               {item?.decorator}
                               <NumberFormat
                                 customInput={CustomFormSearchForm}

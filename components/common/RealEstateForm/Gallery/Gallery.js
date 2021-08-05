@@ -79,6 +79,8 @@ const Gallery = (props) => {
               onChange={handleOnChange}
               value={inputValues.videoLink}
               id="videoLink"
+              valueLength={250 - inputValues['videoLink']?.length}
+              maxLength={'250'}
               type="text"
               label={t('real-estate-submit:form.gallery.video-url')}
               autoComplete="current-text"

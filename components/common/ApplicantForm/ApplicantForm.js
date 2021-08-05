@@ -51,8 +51,6 @@ const ApplicantForm = (props) => {
       let lowestBid = getLowestBid(listingItem, biddingUser, salary);
       let avarageProposol = getAvarageBid(listingItem, salary);
 
-      console.log(avarageProposol);
-
       const { PersonalDetails } = user?.curriculumVitae;
       let fullName = `${PersonalDetails?.cvFirstName} ${PersonalDetails?.cvLasttName}`;
 

@@ -584,7 +584,7 @@ const SearchForm = (props) => {
                       isRendeable(group?.category, inputValues?.action)
                     ) {
                       return (
-                        <div className="accordion__right" key={guidGenerator()}>
+                        <div className="accordion__right" key={group?.key}>
                           <div className="right__header">{group.label}:</div>
                           {group.items.map((item) => (
                             <NumberFormat

@@ -88,6 +88,8 @@ const GeneralInformation = (props) => {
               onChange={handleOnChange}
               value={inputValues['name'] || item?.name}
               type="text"
+              valueLength={75 - inputValues['name']?.length}
+              maxLength={'75'}
               label={
                 <>
                   {t(
@@ -222,6 +224,8 @@ const GeneralInformation = (props) => {
                     style={{ resize: 'vertical', height: 'auto' }}
                     label={item.label}
                     autoComplete="current-text"
+                    valueLength={2000 - inputValues[item.key]?.length}
+                    maxLength={'2000'}
                   />
                 </Form.Group>
               </Col>

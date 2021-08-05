@@ -106,3 +106,7 @@ export const SUBSCRIBER = {
 export const VOTING_BOARD = {
   BASE: '/user-suggestions',
 };
+
+export const REFERRAL_PROGRAM = {
+  BASE: '/referral-programs',
+};
