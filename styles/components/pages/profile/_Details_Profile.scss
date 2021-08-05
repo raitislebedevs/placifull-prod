@@ -21,5 +21,21 @@
 .right-content__delete-account {
   border-radius: 5px;
   box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.13);
-  //overflow-wrap: auto;
+}
+.right-content__refferal-account {
+  border-radius: 5px;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.13);
+  margin-bottom: 40px;
+  .withdraw_button {
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+  }
+  .referral__row {
+    padding-top: 10px;
+    padding-left: 25px;
+  }
+  .program {
+    margin-bottom: 20px;
+  }
 }

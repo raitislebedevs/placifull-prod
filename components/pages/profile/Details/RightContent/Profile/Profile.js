@@ -4,6 +4,7 @@ import PersonalInformation from './PersonalInformation';
 import ChangePassword from './ChangePassword';
 import { DeleteModalAsk } from 'components/common';
 import { useState } from 'react';
+import RefferalInfo from './RefferalInfo';
 const Profile = (props) => {
   const { t, user } = props;
   const [isDeleting, setIsDeleting] = useState(false);
@@ -43,6 +44,7 @@ const Profile = (props) => {
 
       <PersonalInformation t={t} />
       <ChangePassword t={t} />
+      <RefferalInfo t={t} />
       <Col
         xs={12}
         sm={12}

@@ -15,6 +15,7 @@ import { loginSuccess } from 'actions';
 import { LoadingOverlay } from 'components/common';
 import { connect } from 'react-redux';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
+import { referralCode } from 'utils/standaloneFunctions';
 
 const RegisterForm = (props) => {
   const { t, isLoadingUser, dispatch, user, isLoadingRouter } = props;
@@ -39,6 +40,9 @@ const RegisterForm = (props) => {
           cvLasttName: values.lastName,
           cvPersonalEmail: values.email,
         },
+      },
+      referralProgram: {
+        referralCode: referralCode(),
       },
     };
     try {
