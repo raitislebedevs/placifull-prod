@@ -110,6 +110,7 @@ const PersonalInformation = (props) => {
                         type="text"
                         className="input__text"
                         onChange={handleChange}
+                        maxLength={'33'}
                         value={values.firstName}
                         onBlur={handleBlur}
                         isInvalid={Boolean(
@@ -135,6 +136,7 @@ const PersonalInformation = (props) => {
                         name="lastName"
                         id="lastName"
                         type="text"
+                        maxLength={'33'}
                         className="form-control input__text"
                         onChange={handleChange}
                         value={values.lastName}
@@ -181,6 +183,7 @@ const PersonalInformation = (props) => {
                         id="phone"
                         type="text"
                         className="form-control input__text"
+                        maxLength={'23'}
                         onChange={handleChange}
                         value={values.phone}
                         onBlur={handleBlur}
@@ -198,7 +201,7 @@ const PersonalInformation = (props) => {
                         'profile:right-content.profile.personal-details.labels.about-me-heading'
                       )}
                     </Form.Label>
-                    <div className="profile__input">
+                    <div className="profile__input form-control-container">
                       <FiMessageCircle className="input__icon" size="20px" />
                       <Form.Control
                         name="description"
@@ -206,6 +209,7 @@ const PersonalInformation = (props) => {
                         id="description"
                         type="text"
                         as="textarea"
+                        maxLength={'2000'}
                         style={{ height: 'auto' }}
                         className="form-control input__text"
                         onChange={handleChange}
@@ -215,6 +219,11 @@ const PersonalInformation = (props) => {
                           'profile:right-content.profile.personal-details.labels.about-me'
                         )}
                       />
+                      <>
+                        <div className={'max__length__counter'}>
+                          {2000 - values.description?.length}
+                        </div>
+                      </>
                     </div>
                   </Form.Group>
                 </Col>

@@ -125,6 +125,7 @@ const PersonalDetails = (props) => {
                 <Form.Group>
                   <CustomFormControl
                     id={item.key}
+                    maxLength={'42'}
                     onChange={handleOnChange}
                     value={inputValues[item.key]}
                     type="text"
@@ -145,6 +146,8 @@ const PersonalDetails = (props) => {
                     onChange={handleOnChange}
                     value={inputValues[item.key]}
                     type="text"
+                    valueLength={75 - inputValues[item.key]?.length}
+                    maxLength={'75'}
                     label={item.label}
                     className={'cv__field'}
                     autoComplete="current-text"
@@ -218,6 +221,8 @@ const PersonalDetails = (props) => {
                     onChange={handleOnChange}
                     value={inputValues[item.key]}
                     type="text"
+                    valueLength={2000 - inputValues[item.key]?.length}
+                    maxLength={'2000'}
                     style={{ resize: 'vertical', height: 'auto' }}
                     label={item.label}
                     autoComplete="current-text"

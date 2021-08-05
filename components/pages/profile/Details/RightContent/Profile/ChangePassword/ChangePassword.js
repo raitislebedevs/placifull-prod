@@ -104,6 +104,7 @@ const ChangePassword = (props) => {
                           onChange={handleChange}
                           value={values.currentPassword}
                           onBlur={handleBlur}
+                          maxLength={'30'}
                           isInvalid={Boolean(
                             touched.currentPassword && errors.currentPassword
                           )}
@@ -129,6 +130,7 @@ const ChangePassword = (props) => {
                         <Form.Control
                           type="password"
                           id="newPassword"
+                          maxLength={'30'}
                           className="form-control input__text"
                           onChange={handleChange}
                           value={values.newPassword}
@@ -158,6 +160,7 @@ const ChangePassword = (props) => {
                         <Form.Control
                           type="password"
                           id="confirmNewPassword"
+                          maxLength={'30'}
                           className="form-control input__text"
                           onChange={handleChange}
                           value={values.confirmNewPassword}

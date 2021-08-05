@@ -158,7 +158,7 @@ const ContactTab = (props) => {
             <AiOutlinePhone className={'mandatory'} />
             <PhoneInput
               containerClass="phone__input__field"
-              country={'us'}
+              country={'lv'}
               enableSearch={true}
               id="phone"
               className="form-control"

@@ -146,6 +146,7 @@ const GeneralInformation = (props) => {
                   <SelectInputSubmit
                     id={item.key}
                     onChange={handleOnChange}
+                    maxLength={10}
                     options={item.options}
                     placeholder={item.label}
                     isSearchable={true}
@@ -218,6 +219,7 @@ const GeneralInformation = (props) => {
                 <Form.Group>
                   <SelectInputSubmit
                     id={item.type}
+                    maxLength={15}
                     onChange={onLanguageChange}
                     options={languages?.nativeName}
                     placeholder={item.placeholder}
@@ -234,6 +236,7 @@ const GeneralInformation = (props) => {
                 <Form.Group>
                   <SelectInputSubmit
                     id={item.type}
+                    maxLength={15}
                     onChange={onLanguageChange}
                     options={languages?.englishName}
                     placeholder={item.placeholder}
