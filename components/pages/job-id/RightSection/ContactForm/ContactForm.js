@@ -30,7 +30,11 @@ const ContactForm = (props) => {
     setIsLoading(true);
     if (!listingItem?.email) {
       setIsLoading(false);
-      TostifyCustomContainer('error', t('common:toast.no-email'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.no-email')
+      );
       return TostifyCustomContainer(
         'error',
         t('common:toast.contact-directly')
@@ -40,7 +44,11 @@ const ContactForm = (props) => {
     const { errors } = await validation(inputValues, t);
     if (errors) {
       errors?.forEach((element) => {
-        TostifyCustomContainer('info', element);
+        TostifyCustomContainer(
+          'info',
+          t('common:toast.messages.info'),
+          element
+        );
       });
       setIsLoading(false);
       return;
@@ -57,10 +65,22 @@ const ContactForm = (props) => {
       const { data, error } = await CommonServices.SEND_EMAIL(payload);
       if (error) throw error?.message;
 
-      TostifyCustomContainer('success', t('common:toast.email-send'));
+      TostifyCustomContainer(
+        'success',
+        t('common:toast.messages.success'),
+        t('common:toast.email-send')
+      );
     } catch (e) {
-      TostifyCustomContainer('error', t('common:toast.not-send'));
-      TostifyCustomContainer('error', t('common:toast.contact-directly'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.not-send')
+      );
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.contact-directly')
+      );
     }
 
     setIsLoading(false);

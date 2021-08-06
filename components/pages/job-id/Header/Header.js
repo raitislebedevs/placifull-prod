@@ -44,7 +44,11 @@ const Header = (props) => {
 
     let result = false;
     if (justApplied) {
-      TostifyCustomContainer('info', t('job-application:job-apply.toast.just'));
+      TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('job-application:job-apply.toast.just')
+      );
       return true;
     }
     listingItem?.Applicants.forEach((element) => {

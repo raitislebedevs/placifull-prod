@@ -64,7 +64,11 @@ const CV = (props) => {
         setCurriculumVitaes(data);
       }
     } catch (error) {
-      TostifyCustomContainer('error', t('error:profile.cv-notfound'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('error:profile.cv-notfound')
+      );
     }
   };
 
@@ -380,10 +384,14 @@ const CV = (props) => {
       let payload = getPayload();
       const { data } = await CurriculumVitaesService.UPDATE_ME(payload);
       if (data) {
-        TostifyCustomContainer('success', t('profile:toast.succes'));
+        TostifyCustomContainer(
+          'success',
+          t('common:toast.messages.success'),
+          t('profile:toast.succes')
+        );
       }
     } catch (error) {
-      TostifyCustomContainer('error', error);
+      TostifyCustomContainer('error', t('common:toast.messages.error'), error);
     }
     setsaveCv(false);
   };

@@ -59,7 +59,11 @@ const DetailInformation = (props) => {
       const agentData = await TagServices.FIND(filter);
       setAgentTags(agentData.data);
     } catch (error) {
-      TostifyCustomContainer('error', 'Something went wrong on Tag Fields');
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        'Something went wrong on Tag Fields'
+      );
     }
   };
 

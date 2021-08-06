@@ -175,13 +175,21 @@ const RealEstatePost = (props) => {
       await handleInputSubscriptions(paymentDetails, listingId);
 
       //Getting the latest data back
-      TostifyCustomContainer('success', t('common:toast.submit-success'));
+      TostifyCustomContainer(
+        'success',
+        t('common:toast.messages.success'),
+        t('common:toast.submit-success')
+      );
       getSubscriptions(user.id);
       setTimeout(() => {
         router.push(`/real-estate/${listingId}`);
       }, 1500);
     } catch (e) {
-      TostifyCustomContainer('error', t('common:toast.server-error'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.server-error')
+      );
       return false;
     }
     setIsLoading(false);
@@ -213,13 +221,22 @@ const RealEstatePost = (props) => {
   const handlePayment = async (e) => {
     e.preventDefault();
     if (!user?.id) {
-      TostifyCustomContainer('info', t('common:toast.logging-required'));
+      TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('common:toast.logging-required')
+      );
       return;
     }
     const { errors } = await RealEstateValidation(inputValues, t);
     if (errors) {
       for (let i = 0; i < 3; i++) {
-        if (errors[i]) TostifyCustomContainer('warning', errors[i]);
+        if (errors[i])
+          TostifyCustomContainer(
+            'warning',
+            t('common:toast.messages.warning'),
+            errors[i]
+          );
       }
       return;
     }
@@ -232,7 +249,12 @@ const RealEstatePost = (props) => {
     const { errors } = await RealEstateValidation(inputValues, t);
     if (errors) {
       for (let i = 0; i < 3; i++) {
-        if (errors[i]) TostifyCustomContainer('warning', errors[i]);
+        if (errors[i])
+          TostifyCustomContainer(
+            'warning',
+            t('common:toast.messages.warning'),
+            errors[i]
+          );
       }
       return;
     }
@@ -261,7 +283,11 @@ const RealEstatePost = (props) => {
       setPreviewItem(localPreviewItem);
       setPreviewModal(true);
     } catch (e) {
-      TostifyCustomContainer('error', e.message);
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        e.message
+      );
     }
   };
 

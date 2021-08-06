@@ -119,15 +119,27 @@ const CheckoutForm = (props) => {
       let success = await handleDataSubmit(event);
       if (!success) {
         setProcessing(false);
-        TostifyCustomContainer('info', t(`stripe:main.plan_update`));
-        return TostifyCustomContainer('warning', t(`stripe:main.card_not`));
+        TostifyCustomContainer(
+          'info',
+          t('common:toast.messages.info'),
+          t(`stripe:main.plan_update`)
+        );
+        return TostifyCustomContainer(
+          'warning',
+          t('common:toast.messages.warning'),
+          t(`stripe:main.card_not`)
+        );
       }
     } catch (error) {
       setProcessing(false);
       return;
     }
 
-    TostifyCustomContainer('success', t(`stripe:main.success`));
+    TostifyCustomContainer(
+      'success',
+      t('common:toast.messages.success'),
+      t(`stripe:main.success`)
+    );
 
     if (refferal) processReferalCode();
 

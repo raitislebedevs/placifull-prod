@@ -45,10 +45,16 @@ const RegisterForm = (props) => {
         referralCode: referralCode(),
       },
     };
+
+    console.log(payload);
     try {
       const { data, error } = await ConnectionServices.REGISTER(payload);
       if (data) {
-        TostifyCustomContainer('success', t('register:success-text'));
+        TostifyCustomContainer(
+          'success',
+          t('common:toast.messages.success'),
+          t('register:success-text')
+        );
         setTimeout(() => {
           dispatch(loginSuccess(data?.user));
           Cookies.set('access_token', data?.jwt);
@@ -155,6 +161,7 @@ const RegisterForm = (props) => {
                           onChange={handleChange}
                           value={values.firstName}
                           onBlur={handleBlur}
+                          maxLength={'33'}
                           isInvalid={Boolean(
                             touched.firstName && errors.firstName
                           )}
@@ -188,6 +195,7 @@ const RegisterForm = (props) => {
                           onChange={handleChange}
                           value={values.lastName}
                           onBlur={handleBlur}
+                          maxLength={'33'}
                           isInvalid={Boolean(
                             touched.lastName && errors.lastName
                           )}
@@ -221,6 +229,7 @@ const RegisterForm = (props) => {
                           onChange={handleChange}
                           value={values.email}
                           onBlur={handleBlur}
+                          maxLength={'75'}
                           isInvalid={Boolean(touched.email && errors.email)}
                           id="email"
                           type="text"
@@ -251,6 +260,7 @@ const RegisterForm = (props) => {
                         <Form.Control
                           onChange={handleChange}
                           value={values.password}
+                          maxLength={'33'}
                           onBlur={handleBlur}
                           isInvalid={Boolean(
                             touched.password && errors.password
@@ -285,6 +295,7 @@ const RegisterForm = (props) => {
                           onChange={handleChange}
                           value={values.confirmPassword}
                           onBlur={handleBlur}
+                          maxLength={'33'}
                           isInvalid={Boolean(
                             touched.confirmPassword && errors.confirmPassword
                           )}

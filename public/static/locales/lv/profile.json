@@ -360,7 +360,7 @@
     }
   },
   "toast": {
-    "succes": "Profils tika atjaunināts",
+    "success": "Profils tika atjaunināts",
     "fail": "Profils netika atjaunināts",
     "avatar": "Profila bilde atjaunināta",
     "avatar-fail": "Nespēja atjaunināt profila bildi",

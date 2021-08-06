@@ -17,11 +17,19 @@ const ChangePassword = (props) => {
     };
     const { data, error } = await ConnectionServices.CHANGE_PASSWORD(payload);
     if (data) {
-      TostifyCustomContainer('success', t('profile:toast.password'));
+      TostifyCustomContainer(
+        'success',
+        t('common:toast.messages.success'),
+        t('profile:toast.password')
+      );
       return true;
     }
     if (error) {
-      TostifyCustomContainer('error', t('profile:toast.password-fail'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('profile:toast.password-fail')
+      );
       return false;
     }
   };

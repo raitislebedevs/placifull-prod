@@ -30,7 +30,11 @@ const FeaturesTab = (props) => {
       }
       return serverSideFields;
     } catch (error) {
-      TostifyCustomContainer('error', t('error:server-error-api'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('error:server-error-api')
+      );
       return [];
     }
   }, [tagOptions]);

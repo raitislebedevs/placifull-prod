@@ -20,7 +20,11 @@ const ResetPasswordForm = (props) => {
     setSuccessText('');
     const { data, error } = await ConnectionServices.RESET_PASSWORD(payload);
     if (data) {
-      TostifyCustomContainer('success', t('reset-password:success-text'));
+      TostifyCustomContainer(
+        'success',
+        t('common:toast.messages.success'),
+        t('reset-password:success-text')
+      );
       setSuccessText('success-text');
       setTimeout(() => {
         router.push('/sign-in');

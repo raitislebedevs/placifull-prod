@@ -15,10 +15,22 @@ const useEmail = (t) => {
       const { data, error } = await CommonServices.SEND_EMAIL(payload);
       if (error) throw error?.message;
 
-      TostifyCustomContainer('success', t('common:toast.email-send'));
+      TostifyCustomContainer(
+        'success',
+        t('common:toast.messages.success'),
+        t('common:toast.email-send')
+      );
     } catch (e) {
-      TostifyCustomContainer('error', t('common:toast.not-send'));
-      TostifyCustomContainer('error', t('common:toast.contact-directly'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.not-send')
+      );
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.contact-directly')
+      );
     }
   };
   return [sendEmail];

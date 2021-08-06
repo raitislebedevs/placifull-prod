@@ -177,7 +177,11 @@ const SearchForm = (props) => {
 
       setFilter(filter);
     } catch (e) {
-      TostifyCustomContainer('error', e.message);
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        e.message
+      );
       setIsFetchingListing(false);
     }
   };

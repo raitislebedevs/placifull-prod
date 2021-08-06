@@ -8,24 +8,44 @@ const useBid = (t, bidPrice, Service, user, listingItem) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (0.8 * listingItem?.price > bidPrice)
-      return TostifyCustomContainer('info', t('common:toast.price-lower'));
+      return TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('common:toast.price-lower')
+      );
 
     if (1.2 * listingItem?.price < bidPrice)
-      return TostifyCustomContainer('info', t('common:toast.price-upper'));
+      return TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('common:toast.price-upper')
+      );
 
     if (!listingItem?.id) {
       setIsLoading(false);
-      return TostifyCustomContainer('info', t('common:toast.preview'));
+      return TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('common:toast.preview')
+      );
     }
 
     if (!user) {
       setIsLoading(false);
-      return TostifyCustomContainer('info', t('common:toast.log-in'));
+      return TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('common:toast.log-in')
+      );
     }
 
     if (!bidPrice) {
       setIsLoading(false);
-      return TostifyCustomContainer('info', t('common:toast.bidding-price'));
+      return TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('common:toast.bidding-price')
+      );
     }
     setIsLoading(true);
 
@@ -45,7 +65,11 @@ const useBid = (t, bidPrice, Service, user, listingItem) => {
 
       await Service.UPDATE(listingItem.id, payload);
 
-      TostifyCustomContainer('success', 'Bid was placed');
+      TostifyCustomContainer(
+        'success',
+        t('common:toast.messages.success'),
+        'Bid was placed'
+      );
     } catch (e) {
       console.log(e);
     }

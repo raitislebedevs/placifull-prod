@@ -25,7 +25,7 @@ const Register = (props) => {
 };
 
 Register.getInitialProps = async () => ({
-  namespacesRequired: ['register', 'error'],
+  namespacesRequired: ['register', 'error', 'common', 'navbar', 'footer'],
 });
 
 Register.propTypes = {

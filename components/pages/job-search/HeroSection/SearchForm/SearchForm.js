@@ -94,7 +94,11 @@ const SearchForm = (props) => {
       setActiveItem(serverSideFields['licenses']?.items);
       return serverSideFields;
     } catch (error) {
-      TostifyCustomContainer('error', 'Could not Populate Tags');
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        'Could not Populate Tags'
+      );
       return [];
     }
   }, [tagOptions]);
@@ -146,7 +150,11 @@ const SearchForm = (props) => {
       const jobTags = await TagServices.FIND(filter);
       setTagOptions(jobTags.data);
     } catch (error) {
-      TostifyCustomContainer('error', 'Could not retrieve Tags');
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        'Could not retrieve Tags'
+      );
     }
   };
 
@@ -199,7 +207,11 @@ const SearchForm = (props) => {
 
       setFilter(filter);
     } catch (e) {
-      TostifyCustomContainer('error', t('common:toast.unknown-error'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.unknown-error')
+      );
       setIsFetchingListing(false);
     }
   };

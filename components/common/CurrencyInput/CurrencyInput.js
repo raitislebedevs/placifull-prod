@@ -61,7 +61,11 @@ const CurrencyInput = (props) => {
       let filter = { _limit: 200, _sort: 'popularity:desc' };
       let { data, error } = await CurrencyServices.FIND(filter);
       if (error) {
-        return TostifyCustomContainer('error', error.message);
+        return TostifyCustomContainer(
+          'error',
+          t('common:toast.messages.error'),
+          error.message
+        );
       }
       if (data) {
         data = data.map((item) => ({
@@ -80,7 +84,11 @@ const CurrencyInput = (props) => {
       handleCurrencyChange(data.find((item) => item.fullValue === {}));
       setLoaders((prev) => prev.filter((item) => item !== 'currency'));
     } catch (error) {
-      return TostifyCustomContainer('error', error.message);
+      return TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        error.message
+      );
     }
   };
 

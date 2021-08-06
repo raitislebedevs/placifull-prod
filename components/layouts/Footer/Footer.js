@@ -23,12 +23,24 @@ const Footer = (props) => {
       };
       const result = await SubscriberService.CREATE(payload);
       if (result?.data)
-        TostifyCustomContainer('success', t('common:toast.subscribed'));
+        TostifyCustomContainer(
+          'success',
+          t('common:toast.messages.success'),
+          t('common:toast.subscribed')
+        );
 
       if (result?.error)
-        TostifyCustomContainer('error', t('common:toast.already'));
+        TostifyCustomContainer(
+          'error',
+          t('common:toast.messages.error'),
+          t('common:toast.already')
+        );
     } catch {
-      TostifyCustomContainer('error', t('common:toast.server-error'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.server-error')
+      );
     }
 
     setIsSubscribing(false);

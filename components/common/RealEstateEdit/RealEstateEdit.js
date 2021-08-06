@@ -159,9 +159,17 @@ const RealEstatePost = (props) => {
       const { data, error } = await RealEstateListingServices.CREATE(formData);
       if (error) throw error?.message;
     } catch (e) {
-      TostifyCustomContainer('error', t('common:toast.server-error'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.server-error')
+      );
     }
-    TostifyCustomContainer('success', t('common:toast.submit-success'));
+    TostifyCustomContainer(
+      'success',
+      t('common:toast.messages.success'),
+      t('common:toast.submit-success')
+    );
     setIsLoading(false);
   };
   const handlePreview = async (e) => {
@@ -170,7 +178,11 @@ const RealEstatePost = (props) => {
     if (errors) {
       console.log(errors);
       errors.forEach((element) => {
-        TostifyCustomContainer('warning', element);
+        TostifyCustomContainer(
+          'warning',
+          t('common:toast.messages.warning'),
+          element
+        );
       });
       return;
     }
@@ -192,7 +204,11 @@ const RealEstatePost = (props) => {
       setPreviewItem(localPreviewItem);
       setPreviewModal(true);
     } catch (e) {
-      TostifyCustomContainer('error', e.message);
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        e.message
+      );
     }
   };
 

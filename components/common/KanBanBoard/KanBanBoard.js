@@ -117,11 +117,15 @@ const KanBanBoard = (props) => {
       };
       if (kanBanItems) {
         await VacancyListingService.UPDATE(id, payload);
-        TostifyCustomContainer('success', 'Board Updated');
+        TostifyCustomContainer(
+          'success',
+          t('common:toast.messages.success'),
+          'Board Updated'
+        );
       }
       setSavingBoard(false);
     } catch (error) {
-      TostifyCustomContainer('error', error);
+      TostifyCustomContainer('error', t('common:toast.messages.error'), error);
     }
     setSavingBoard(false);
   };

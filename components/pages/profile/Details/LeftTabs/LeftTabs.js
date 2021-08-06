@@ -54,7 +54,11 @@ const LeftTabs = (props) => {
 
   const logoutHandler = () => {
     dispatch(logout());
-    TostifyCustomContainer('success', t('profile:toast.logout'));
+    TostifyCustomContainer(
+      'success',
+      t('common:toast.messages.success'),
+      t('profile:toast.logout')
+    );
   };
   const permissions = {
     realEstate: subscriptions?.realEstate

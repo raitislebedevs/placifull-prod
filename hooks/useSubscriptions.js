@@ -19,7 +19,11 @@ const useSubscriptions = () => {
         setSubscriptions(data[0]);
       }
     } catch (e) {
-      TostifyCustomContainer('error', 'We could not update Subscriptions :( ');
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        'We could not update Subscriptions :( '
+      );
     }
   };
 

@@ -32,7 +32,11 @@ const useUpdateSubscriptions = () => {
       let { data } = await Subscriptions.UPDATE(subId, payload);
       return data;
     } catch (e) {
-      TostifyCustomContainer('warning', 'Subscription Update Failed!');
+      TostifyCustomContainer(
+        'warning',
+        t('common:toast.messages.warning'),
+        'Subscription Update Failed!'
+      );
       return;
     }
   };

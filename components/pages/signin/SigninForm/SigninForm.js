@@ -25,7 +25,11 @@ const SigninForm = (props) => {
     try {
       const { data, error } = await ConnectionServices.LOGIN(payload);
       if (data) {
-        TostifyCustomContainer('success', t('signin:form.success'));
+        TostifyCustomContainer(
+          'success',
+          t('common:toast.messages.success'),
+          t('signin:form.success')
+        );
         setTimeout(() => {
           dispatch(loginSuccess(data?.user));
           Cookies.set('access_token', data?.jwt);

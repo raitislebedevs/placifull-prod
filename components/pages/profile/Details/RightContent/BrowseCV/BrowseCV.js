@@ -88,7 +88,7 @@ const BrowseCV = (props) => {
         setTotal(data.length || 1);
       }
     } catch (error) {
-      TostifyCustomContainer('error', error);
+      TostifyCustomContainer('error', t('common:toast.messages.error'), error);
     }
     setiIsSearching(false);
   };
@@ -102,7 +102,7 @@ const BrowseCV = (props) => {
       }
       setShowCv(true);
     } catch (error) {
-      TostifyCustomContainer('error', error);
+      TostifyCustomContainer('error', t('common:toast.messages.error'), error);
     }
 
     setViewApplicant('');

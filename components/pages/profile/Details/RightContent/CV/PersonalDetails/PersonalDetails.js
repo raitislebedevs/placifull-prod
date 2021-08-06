@@ -42,10 +42,18 @@ const PersonalDetails = (props) => {
       //Here we actually send the Payload to Update_me Function, which is stored in
       const { data } = await CurriculumVitaesService.UPDATE_ME(payload);
       if (data) {
-        TostifyCustomContainer('success', t('profile:toast.succes'));
+        TostifyCustomContainer(
+          'success',
+          t('common:toast.messages.success'),
+          t('profile:toast.succes')
+        );
       }
     } catch (error) {
-      TostifyCustomContainer('error', t('profile:toast.fail'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('profile:toast.fail')
+      );
     }
     setsaveCv(false);
   };

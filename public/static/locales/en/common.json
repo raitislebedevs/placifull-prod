@@ -76,7 +76,13 @@
       "found": "Found ",
       "items": " items"
     },
-    "not-found": "Did not found new results"
+    "not-found": "Did not found new results",
+    "messages": {
+      "success": "Success",
+      "info": "Info",
+      "warning": "Warning",
+      "error": "Error"
+    }
   },
 
   "location": {

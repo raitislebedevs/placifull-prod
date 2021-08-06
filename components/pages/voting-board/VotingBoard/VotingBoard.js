@@ -23,22 +23,38 @@ const VotingBoard = (props) => {
 
   const handleVote = async (votingItem) => {
     if (votingItem.id !== voteItem) {
-      TostifyCustomContainer('info', t('voting-board:toast.idea'));
+      TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('voting-board:toast.idea')
+      );
       return;
     }
 
     if (!rating) {
-      TostifyCustomContainer('info', t('voting-board:toast.rate'));
+      TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('voting-board:toast.rate')
+      );
       return;
     }
 
     if (!votingOption) {
-      TostifyCustomContainer('info', t('voting-board:toast.up-down'));
+      TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('voting-board:toast.up-down')
+      );
       return;
     }
 
     if (!user?.id) {
-      TostifyCustomContainer('info', t('voting-board:toast.log-in'));
+      TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('voting-board:toast.log-in')
+      );
       return;
     }
 
@@ -50,7 +66,11 @@ const VotingBoard = (props) => {
 
       if (votingOption === 'down' && votes <= 1) {
         setIsVoting(false);
-        TostifyCustomContainer('info', t('voting-board:toast.zero'));
+        TostifyCustomContainer(
+          'info',
+          t('common:toast.messages.info'),
+          t('voting-board:toast.zero')
+        );
         return;
       }
 
@@ -64,7 +84,11 @@ const VotingBoard = (props) => {
 
       if (votedUserList.filter((item) => item == user.id).length > 0) {
         setIsVoting(false);
-        TostifyCustomContainer('info', t('voting-board:toast.voted'));
+        TostifyCustomContainer(
+          'info',
+          t('common:toast.messages.info'),
+          t('voting-board:toast.voted')
+        );
         return;
       }
 

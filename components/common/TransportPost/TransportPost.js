@@ -167,7 +167,11 @@ const TransportSubmit = (props) => {
         router.push(`/transport/${listingId}`);
       }, 1500);
     } catch (e) {
-      TostifyCustomContainer('error', t('common:toast.unknown-error'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.unknown-error')
+      );
       return false;
     }
     setIsLoading(false);
@@ -179,7 +183,12 @@ const TransportSubmit = (props) => {
     const { errors } = await TransportValidation(inputValues, t);
     if (errors) {
       for (let i = 0; i < 3; i++) {
-        if (errors[i]) TostifyCustomContainer('warning', errors[i]);
+        if (errors[i])
+          TostifyCustomContainer(
+            'warning',
+            t('common:toast.messages.warning'),
+            errors[i]
+          );
       }
       return;
     }
@@ -202,7 +211,11 @@ const TransportSubmit = (props) => {
       setPreviewItem(localPreviewItem);
       setPreviewTransportModal(true);
     } catch (e) {
-      TostifyCustomContainer('error', e.message);
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        e.message
+      );
     }
 
     setPreview(false);
@@ -224,7 +237,11 @@ const TransportSubmit = (props) => {
 
     const { data, error } = await TransportListingService.CREATE(formData);
     if (error) throw error?.message;
-    TostifyCustomContainer('success', t('common:toast.submit-success'));
+    TostifyCustomContainer(
+      'success',
+      t('common:toast.messages.success'),
+      t('common:toast.submit-success')
+    );
     setIsLoading(false);
     return data.id;
   };
@@ -232,13 +249,22 @@ const TransportSubmit = (props) => {
   const handlePayment = async (e) => {
     e.preventDefault();
     if (!user?.id) {
-      TostifyCustomContainer('info', t('common:toast.logging-required'));
+      TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('common:toast.logging-required')
+      );
       return;
     }
     const { errors } = await TransportValidation(inputValues, t);
     if (errors) {
       for (let i = 0; i < 3; i++) {
-        if (errors[i]) TostifyCustomContainer('warning', errors[i]);
+        if (errors[i])
+          TostifyCustomContainer(
+            'warning',
+            t('common:toast.messages.warning'),
+            errors[i]
+          );
       }
       return;
     }

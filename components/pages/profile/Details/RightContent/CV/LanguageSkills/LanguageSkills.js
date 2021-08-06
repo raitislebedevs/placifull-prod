@@ -55,10 +55,14 @@ const LanguageSkills = (props) => {
 
       const { data } = await CurriculumVitaesService.UPDATE_ME(payload);
       if (data) {
-        TostifyCustomContainer('success', t('profile:toast.succes'));
+        TostifyCustomContainer(
+          'success',
+          t('common:toast.messages.success'),
+          t('profile:toast.succes')
+        );
       }
     } catch (error) {
-      TostifyCustomContainer('error', error);
+      TostifyCustomContainer('error', t('common:toast.messages.error'), error);
     }
     setsaveCv(false);
   };

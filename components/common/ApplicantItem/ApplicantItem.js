@@ -44,7 +44,11 @@ const ApplicantItem = (props) => {
       }
       setShowCv(true);
     } catch (error) {
-      TostifyCustomContainer('error', t('common:toast.no-cv'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.no-cv')
+      );
     }
   };
 

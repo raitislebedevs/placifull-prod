@@ -73,9 +73,15 @@
     "unknown-error": "Nezināma servera kļūda",
     "search-results": {
       "found": "Atrasti ",
-      "items": "sludinājums"
+      "items": "sludinājumi"
     },
-    "not-found": "Jaunu rezūltāti netika atrasti"
+    "not-found": "Jaunu rezūltāti netika atrasti",
+    "messages": {
+      "success": "Izdevās",
+      "info": "Informācija",
+      "warning": "Brīdinājums",
+      "error": "Kļūda"
+    }
   },
 
   "location": {

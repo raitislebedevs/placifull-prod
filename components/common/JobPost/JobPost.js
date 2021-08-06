@@ -156,13 +156,21 @@ const JobPost = (props) => {
       const listingId = await uploadListing();
       await handleInputSubscriptions(paymentDetails, listingId);
 
-      TostifyCustomContainer('success', t('common:toast.submit-success'));
+      TostifyCustomContainer(
+        'success',
+        t('common:toast.messages.success'),
+        t('common:toast.submit-success')
+      );
       getSubscriptions(user.id);
       setTimeout(() => {
         router.push(`/job-search/${listingId}`);
       }, 5000);
     } catch (e) {
-      TostifyCustomContainer('error', t('common:toast.server-error'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.server-error')
+      );
     }
 
     setIsLoading(false);
@@ -185,7 +193,11 @@ const JobPost = (props) => {
   const handlePayment = async (e) => {
     e.preventDefault();
     if (!user?.id) {
-      TostifyCustomContainer('info', t('common:toast.logging-required'));
+      TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('common:toast.logging-required')
+      );
       //return;
     }
     let validation = inputValues;
@@ -193,7 +205,12 @@ const JobPost = (props) => {
     const { errors } = await JobValidation(validation, t);
     if (errors) {
       for (let i = 0; i < 3; i++) {
-        if (errors[i]) TostifyCustomContainer('warning', errors[i]);
+        if (errors[i])
+          TostifyCustomContainer(
+            'warning',
+            t('common:toast.messages.warning'),
+            errors[i]
+          );
       }
       //return;
     }
@@ -204,7 +221,11 @@ const JobPost = (props) => {
   const handlePreview = async (e) => {
     e.preventDefault();
     if (!user?.id) {
-      TostifyCustomContainer('info', t('common:toast.logging-required'));
+      TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('common:toast.logging-required')
+      );
       return;
     }
 
@@ -214,7 +235,12 @@ const JobPost = (props) => {
     const { errors } = await JobValidation(validation, t);
     if (errors) {
       for (let i = 0; i < 3; i++) {
-        if (errors[i]) TostifyCustomContainer('warning', errors[i]);
+        if (errors[i])
+          TostifyCustomContainer(
+            'warning',
+            t('common:toast.messages.warning'),
+            errors[i]
+          );
       }
       return;
     }
@@ -239,7 +265,11 @@ const JobPost = (props) => {
       setPreviewItem(localPreviewItem);
       setPreviewJobModal(true);
     } catch (e) {
-      TostifyCustomContainer('error', e.message);
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        e.message
+      );
     }
   };
 

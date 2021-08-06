@@ -58,7 +58,7 @@ const ForgotPasswordForm = (props) => {
               email: Yup.string()
                 .max(255)
                 .email(t('forgot-password:form.error.email-invalid'))
-                .required(t('forgot-password:form.error.password-required')),
+                .required(t('forgot-password:form.error.email-required')),
             })}
             onSubmit={(value) => handleForgotPassword(value)}
           >
@@ -102,7 +102,7 @@ const ForgotPasswordForm = (props) => {
                           )}
                         />
                         <Form.Control.Feedback type="invalid" tooltip>
-                          {touched.identifier && errors.identifier}
+                          {touched.email && errors.email}
                         </Form.Control.Feedback>
                       </div>
                     </Form.Group>

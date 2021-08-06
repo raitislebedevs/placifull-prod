@@ -33,13 +33,21 @@ const ApplicantForm = (props) => {
   const updateVacancyListing = async (event) => {
     event.preventDefault();
     if (isPreview) {
-      return TostifyCustomContainer('info', t('common:toast.cannot-apply'));
+      return TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('common:toast.cannot-apply')
+      );
     }
     setHasApplied(true);
 
     if (!salary) {
       setHasApplied(false);
-      return TostifyCustomContainer('info', t('common:toast.bidding-price'));
+      return TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('common:toast.bidding-price')
+      );
     }
 
     try {
@@ -81,9 +89,14 @@ const ApplicantForm = (props) => {
           t('job-application:job-apply.toast.success')
         );
 
-      if (error) return TostifyCustomContainer('error', error?.message);
+      if (error)
+        return TostifyCustomContainer(
+          'error',
+          t('common:toast.messages.error'),
+          error?.message
+        );
     } catch (error) {
-      TostifyCustomContainer('error', error);
+      TostifyCustomContainer('error', t('common:toast.messages.error'), error);
     }
     setJustApplied(true);
     setHasApplied(false);
@@ -96,7 +109,11 @@ const ApplicantForm = (props) => {
     )[0];
 
     if (applicant) {
-      TostifyCustomContainer('info', t('common:toast.already-applied'));
+      TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('common:toast.already-applied')
+      );
       setHasApplied(true);
     }
 

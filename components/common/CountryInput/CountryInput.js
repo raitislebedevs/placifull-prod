@@ -87,7 +87,11 @@ const CountryInput = (props) => {
         setLoaders((prev) => prev.filter((item) => item !== country));
       }
     } catch (error) {
-      return TostifyCustomContainer('error', error.message);
+      return TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        error.message
+      );
     }
   };
 
@@ -116,7 +120,11 @@ const CountryInput = (props) => {
       };
       let { data, error } = await StateServices.FIND(filter);
       if (error) {
-        return TostifyCustomContainer('error', t('common:toast.country-error'));
+        return TostifyCustomContainer(
+          'error',
+          t('common:toast.messages.error'),
+          t('common:toast.country-error')
+        );
       }
 
       if (data?.length == 0) {
@@ -152,7 +160,11 @@ const CountryInput = (props) => {
       }
       setLoaders((prev) => prev.filter((item) => item !== state));
     } catch (error) {
-      return TostifyCustomContainer('error', error.message);
+      return TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        error.message
+      );
     }
   };
 
@@ -183,7 +195,11 @@ const CountryInput = (props) => {
           ...prev,
           [city]: data,
         }));
-        TostifyCustomContainer('info', t('common:location.cities-registerd'));
+        TostifyCustomContainer(
+          'info',
+          t('common:toast.messages.info'),
+          t('common:location.cities-registerd')
+        );
         return setLoaders((prev) => prev.filter((item) => item !== city));
       }
 
@@ -201,7 +217,11 @@ const CountryInput = (props) => {
       }
       setLoaders((prev) => prev.filter((item) => item !== city));
     } catch (error) {
-      return TostifyCustomContainer('error', t('common:toast.location-error'));
+      return TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.location-error')
+      );
     }
   };
 

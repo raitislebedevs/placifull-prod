@@ -115,7 +115,11 @@ const RealEstate = (props) => {
       setIsLoading(false);
       handleCloseDeleteModal();
       await getRealEstate();
-      TostifyCustomContainer('success', t('profile:toast.item-deleted'));
+      TostifyCustomContainer(
+        'success',
+        t('common:toast.messages.success'),
+        t('profile:toast.item-deleted')
+      );
     } catch (e) {
       setIsLoading(false);
     }

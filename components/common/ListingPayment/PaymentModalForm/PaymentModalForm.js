@@ -51,7 +51,11 @@ const PaymentModalForm = (props) => {
       if (data) setSubscriptions(data[0][plan]);
       setIsLoading(false);
     } catch (e) {
-      TostifyCustomContainer('error', t('payment:error.subscriptions'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('payment:error.subscriptions')
+      );
     }
     setIsLoading(false);
   };

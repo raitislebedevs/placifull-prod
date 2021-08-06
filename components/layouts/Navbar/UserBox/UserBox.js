@@ -19,7 +19,11 @@ const ProfileMenu = (props) => {
 
   const logoutHandler = () => {
     dispatch(logout());
-    TostifyCustomContainer('success', t('logout-success'));
+    TostifyCustomContainer(
+      'success',
+      t('common:toast.messages.success'),
+      t('logout-success')
+    );
   };
 
   return (

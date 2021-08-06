@@ -20,8 +20,7 @@ The full classes are found here: https://fkhadra.github.io/react-toastify/how-to
     padding-left: 5px;
   }
   .text {
-    white-space: nowrap;
-    text-align: center;
+    text-align: left;
     color: black;
   }
 }
@@ -29,14 +28,13 @@ The full classes are found here: https://fkhadra.github.io/react-toastify/how-to
 .Toastify__toast--info {
   background-color: #e5effa;
   border: 1px solid #0168da;
-  position: relative;
-  padding: 0px;
-
+  .toast__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+  }
   .message__field {
-    position: absolute;
-    left: 65px;
-    top: 5px;
-
     .heading {
       color: #0168da;
       font-weight: bold;

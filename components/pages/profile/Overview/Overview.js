@@ -120,14 +120,22 @@ const Overview = (props) => {
               userInfo: infoData,
             })
           );
-          TostifyCustomContainer('success', t('profile:toast.avatar'));
+          TostifyCustomContainer(
+            'success',
+            t('common:toast.messages.success'),
+            t('profile:toast.avatar')
+          );
         }
         if (infoError) {
           throw infoError;
         }
       }
     } catch (error) {
-      TostifyCustomContainer('error', t('profile:toast.avatar-fail'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('profile:toast.avatar-fail')
+      );
     }
     document.getElementById('upload-avatar').value = '';
     setIsLoadingUpload(false);
@@ -156,10 +164,18 @@ const Overview = (props) => {
         );
       }
       await FileServices.DELETE_FILE(userInfo?.avatar.id);
-      TostifyCustomContainer('success', t('profile:toast.avatar-remove'));
+      TostifyCustomContainer(
+        'success',
+        t('common:toast.messages.success'),
+        t('profile:toast.avatar-remove')
+      );
       handleCloseDeleteModal();
     } catch {
-      TostifyCustomContainer('error', t('profile:toast.avatar-remove-fail'));
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('profile:toast.avatar-remove-fail')
+      );
     }
   };
 

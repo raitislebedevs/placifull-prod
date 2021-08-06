@@ -157,11 +157,15 @@ const SearchResultSection = (props) => {
         return;
       }
 
-      TostifyCustomContainer('info', `${t('common:toast.not-found')}`);
+      TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        `${t('common:toast.not-found')}`
+      );
       setIsLoading(false);
     } catch (e) {
       console.log(e);
-      TostifyCustomContainer('error', e);
+      TostifyCustomContainer('error', t('common:toast.messages.error'), e);
       setIsLoading(false);
     }
     setIsFetchingListing(false);
