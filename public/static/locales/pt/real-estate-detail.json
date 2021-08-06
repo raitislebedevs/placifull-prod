@@ -33,6 +33,8 @@
 
   "contact-form": {
     "heading": "Contatar diretamente o proprietário",
+    "not-specified": "Não especificado",
+
     "form": {
       "heading": "Escreva sua pergunta aqui",
       "fullName": "Nome completo*",

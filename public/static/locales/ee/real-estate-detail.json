@@ -33,6 +33,8 @@
 
   "contact-form": {
     "heading": "Kontakteeru omanikuga otse",
+    "not-specified": "Pole täpsustatud",
+
     "form": {
       "heading": "Kirjuta oma küsimus siia",
       "fullName": "Täisnimi*",

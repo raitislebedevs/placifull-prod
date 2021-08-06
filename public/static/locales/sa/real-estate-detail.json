@@ -33,6 +33,8 @@
 
   "contact-form": {
     "heading": "الاتّصال بالمالك مباشرة",
+    "not-specified": "غير محدّدة",
+
     "form": {
       "heading": "أكتب سؤالك هنا",
       "fullName": "الاسم بالكامل*",

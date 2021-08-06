@@ -33,6 +33,7 @@
 
   "contact-form": {
     "heading": "Tieši sazināties ar īpašnieku",
+    "not-specified": "Nav precizētas",
     "form": {
       "heading": "Savu jautājumu ievadiet šeit",
       "fullName": "Pilns vārds*",

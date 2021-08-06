@@ -86,6 +86,7 @@ const ApplicantForm = (props) => {
       if (!error)
         TostifyCustomContainer(
           'success',
+          t('common:toast.messages.success'),
           t('job-application:job-apply.toast.success')
         );
 

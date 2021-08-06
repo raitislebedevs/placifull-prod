@@ -33,6 +33,8 @@
 
   "contact-form": {
     "heading": "直接联系业主",
+    "not-specified": "未说明",
+
     "form": {
       "heading": "在此处写下您的问题",
       "fullName": "全名*",

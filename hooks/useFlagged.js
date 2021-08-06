@@ -21,16 +21,11 @@ const useFlagged = (listingItem, Service) => {
         setIsLoadingFlag(false);
         return TostifyCustomContainer(
           'success',
-          t('common:toast.messages.success'),
-          'Content Flagged'
+          t('common:toast.messages.success')
         );
       }
 
-      TostifyCustomContainer(
-        'success',
-        t('common:toast.messages.success'),
-        'Content Unflagged'
-      );
+      TostifyCustomContainer('success', t('common:toast.messages.success'));
     } catch (error) {
       console.log(error);
     }

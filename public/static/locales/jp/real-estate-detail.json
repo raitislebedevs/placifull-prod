@@ -33,6 +33,8 @@
 
   "contact-form": {
     "heading": "所有者と直接連絡",
+    "not-specified": "指定しない",
+
     "form": {
       "heading": "質問を書いてください",
       "fullName": "氏名",

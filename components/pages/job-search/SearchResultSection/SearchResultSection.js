@@ -144,6 +144,7 @@ const SearchResultSection = (props) => {
       if (count.data)
         TostifyCustomContainer(
           'success',
+          t('common:toast.messages.success'),
           `${t('common:toast.search-results.found')} ${count.data} ${t(
             'common:toast.search-results.items'
           )}`

@@ -33,6 +33,8 @@
 
   "contact-form": {
     "heading": "Susisiekite su savininku",
+    "not-specified": "Nenurodyta",
+
     "form": {
       "heading": "Savo klausimą įrašykite čia",
       "fullName": "Pilnas vardas",

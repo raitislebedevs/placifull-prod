@@ -103,6 +103,7 @@ const Transport = (props) => {
         await getTransport();
         return TostifyCustomContainer(
           'success',
+          t('common:toast.messages.success'),
           t('profile:toast.item-deleted')
         );
       }
