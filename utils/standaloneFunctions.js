@@ -70,3 +70,11 @@ export const referralCode = () => {
     return v.toString(16);
   });
 };
+
+export const itemColumnSize = (items) => {
+  return items?.length === 1 ? 6 : 8;
+};
+
+export const textColumnSize = (items) => {
+  return items?.length === 1 ? 6 : 4;
+};

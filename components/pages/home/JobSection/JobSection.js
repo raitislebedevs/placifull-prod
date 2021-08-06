@@ -74,7 +74,7 @@ const JobSection = (props) => {
 
   return (
     <>
-      {total && (
+      {items?.length != 0 && (
         <div className="home-container__job-section">
           <Container>
             <Row className="align-items-center">
@@ -82,8 +82,8 @@ const JobSection = (props) => {
                 xs={12}
                 sm={12}
                 md={12}
-                lg={total === 1 ? 6 : 4}
-                xl={total === 1 ? 6 : 4}
+                lg={textColumnSize(items)}
+                xl={textColumnSize(items)}
               >
                 <div className="job-section__left">
                   <span className="left-badge">{t('job-section.badge')}</span>
@@ -107,8 +107,8 @@ const JobSection = (props) => {
                 xs={12}
                 sm={12}
                 md={12}
-                lg={total === 1 ? 6 : 4}
-                xl={total === 1 ? 6 : 4}
+                lg={itemColumnSize(items)}
+                xl={itemColumnSize(items)}
                 className="job-section__right"
               >
                 {' '}

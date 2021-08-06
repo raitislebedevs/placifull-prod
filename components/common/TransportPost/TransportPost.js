@@ -73,7 +73,7 @@ const TransportSubmit = (props) => {
     var expiryDate = addDays(new Date(), defaultExpiryDays);
 
     let payload = {
-      isPromotable: paymentDetails?.promoted || false,
+      isPromotable: paymentDetails?.isPromoted || false,
       name: inputValues?.transportName || null,
       currency: inputValues?.transportCurrency || null,
 

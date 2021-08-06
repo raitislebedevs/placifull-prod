@@ -71,7 +71,7 @@ const RealEstatePost = (props) => {
   const PopulatePayload = (inputValues) => {
     var expiryDate = addDays(new Date(), defaultExpiryDays);
     let payload = {
-      isPromotable: paymentDetails?.promoted || false,
+      isPromotable: paymentDetails?.isPromoted || false,
       name: inputValues?.name || null,
       description: inputValues?.description || null,
       price: inputValues?.price || null,
@@ -160,6 +160,8 @@ const RealEstatePost = (props) => {
 
     setPaymentDetails(paymentDetails);
     if (paymentDetails.totalCost) setIsStripe(true);
+
+    console.log(paymentDetails);
   };
 
   const handleDataSubmit = async (e) => {

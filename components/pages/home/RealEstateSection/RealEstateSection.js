@@ -4,7 +4,11 @@ import { Container, Row, Col, Button, Spinner } from 'react-bootstrap';
 import Slider from 'react-slick';
 import { RealEstateCard } from 'components/common';
 import RealEstateListingServices from 'services/realEstateListingServices';
-import { random } from 'utils/standaloneFunctions';
+import {
+  itemColumnSize,
+  random,
+  textColumnSize,
+} from 'utils/standaloneFunctions';
 
 const RealEstateSection = (props) => {
   const { t } = props;
@@ -70,7 +74,7 @@ const RealEstateSection = (props) => {
 
   return (
     <>
-      {total && (
+      {items?.length != 0 && (
         <Container
           id={'promoted-section'}
           className="home-container__real-estate-section"
@@ -80,8 +84,8 @@ const RealEstateSection = (props) => {
               xs={12}
               sm={12}
               md={12}
-              lg={total === 1 ? 6 : 4}
-              xl={total === 1 ? 6 : 4}
+              lg={textColumnSize(items)}
+              xl={textColumnSize(items)}
             >
               <div className="real-estate-section__left">
                 <span className="left-badge">
@@ -109,8 +113,8 @@ const RealEstateSection = (props) => {
               xs={12}
               sm={12}
               md={12}
-              lg={total === 1 ? 6 : 4}
-              xl={total === 1 ? 6 : 4}
+              lg={itemColumnSize(items)}
+              xl={itemColumnSize(items)}
               className="real-estate-section__right"
             >
               {' '}
