@@ -229,7 +229,7 @@ const RegisterForm = (props) => {
                           onChange={handleChange}
                           value={values.email}
                           onBlur={handleBlur}
-                          maxLength={'75'}
+                          maxLength={'50'}
                           isInvalid={Boolean(touched.email && errors.email)}
                           id="email"
                           type="text"

@@ -225,11 +225,10 @@ const SigninForm = (props) => {
                     md={12}
                     lg={12}
                     xl={12}
-                    className="wrapper__items mt-4 text-center"
+                    className="wrapper__items text-center"
                   >
-                    {/* <h6>{t('signin:heading-texts.or-login')}</h6>
                     <Row>
-                      <Col xs={6} sm={6} md={6} lg={6} xl={6} className="mt-3">
+                      {/* <Col xs={6} sm={6} md={6} lg={6} xl={6} className="mt-3">
                         <Button
                           variant="outline-secondary"
                           className="items__button-social"
@@ -239,13 +238,20 @@ const SigninForm = (props) => {
                           }}
                         >
                           <FaFacebook
-                            size="20px"
+                            size="45px"
                             className="button-social button-social--facebook"
                           />{' '}
                           <p>{t('signin:heading-texts.facebook')}</p>
                         </Button>
-                      </Col>
-                      <Col xs={6} sm={6} md={6} lg={6} xl={6} className="mt-3">
+                      </Col> */}
+                      <Col
+                        xs={12}
+                        sm={12}
+                        md={12}
+                        lg={12}
+                        xl={12}
+                        className="mt-3"
+                      >
                         <Button
                           variant="outline-secondary"
                           className="items__button-social btn"
@@ -254,11 +260,11 @@ const SigninForm = (props) => {
                             handleSigninProvider('google');
                           }}
                         >
-                          <FcGoogle size="20px" className="button-social" />
-                          <p>{t('signin:heading-texts.google')}</p>
+                          <FcGoogle size="25px" className="button-social" />
+                          <p>{t('signin:form.google')}</p>
                         </Button>
                       </Col>
-                    </Row> */}
+                    </Row>
                   </Col>
                   <Col
                     xs={12}
