@@ -6,6 +6,7 @@ import { toast } from 'react-toastify';
 import { ConnectionServices } from 'services';
 import { loginSuccess } from 'actions';
 import Cookies from 'js-cookie';
+import { faDivide } from 'node_modules/@fortawesome/free-solid-svg-icons/index';
 
 const RedirectPage = (props) => {
   const { t, provider, dispatch } = props;
@@ -43,18 +44,20 @@ const RedirectPage = (props) => {
   };
 
   return (
-    <Container className="redirect-container">
-      <div>
-        {isSuccess ? (
-          t('success')
-        ) : (
-          <>
-            <Spinner as="span" animation="border" size="sm" role="status" />
-            {t('login')}
-          </>
-        )}
+    <div className="redirect">
+      <div className="redirect-container">
+        <div className={'redirect__content'}>
+          {isSuccess ? (
+            t('redirect:success')
+          ) : (
+            <>
+              <Spinner as="span" animation="border" size="sm" role="status" />
+              {t('redirect:login')}
+            </>
+          )}
+        </div>
       </div>
-    </Container>
+    </div>
   );
 };
 

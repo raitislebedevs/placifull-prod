@@ -18,7 +18,7 @@ const ExtraSection = (props) => {
 
   return (
     <>
-      {userItemCount != 0 && (
+      {isSingleListing && (
         <div className="job-container__extra">
           <SubPageHeading className="extra__heading">
             {t('job-detail:extra.heading')} {`(${userItemCount})`}

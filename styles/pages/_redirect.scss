@@ -1,0 +1,21 @@
+.redirect {
+  height: 100% !important;
+  width: 100%;
+  position: absolute;
+  z-index: 30000;
+  .row {
+    height: 100%;
+  }
+  .redirect-container {
+    height: 100%;
+    background-color: #fff;
+    color: theme-color("primary");
+    .redirect__content {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+}
