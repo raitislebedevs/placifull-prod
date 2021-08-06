@@ -15,7 +15,9 @@
       "email-required": "E-pasts ir vajadzīgs",
       "password-required": "Parole ir nepieciešama",
       "first-name-required": "Vārds ir nepieciešams",
-      "last-name-required": "Uzvārds ir nepieciešams"
+      "last-name-required": "Uzvārds ir nepieciešams",
+      "confirm-password-required": "Nepieciešams apstiprināt paroli",
+      "accept-terms": "Nepieciešams piekrist noteikumiem"
     }
   },
   "or": "Vai Pievienoties Ar",

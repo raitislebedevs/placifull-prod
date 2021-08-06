@@ -48,7 +48,7 @@ const RegisterForm = (props) => {
     try {
       const { data, error } = await ConnectionServices.REGISTER(payload);
       if (data) {
-        TostifyCustomContainer('success', t('authentication:success.register'));
+        TostifyCustomContainer('success', t('register:success-text'));
         setTimeout(() => {
           dispatch(loginSuccess(data?.user));
           Cookies.set('access_token', data?.jwt);

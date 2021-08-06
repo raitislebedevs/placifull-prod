@@ -76,8 +76,6 @@ const Navbar = (props) => {
             <img
               src={showNavbarLight ? logo : logoWhite}
               id="logo"
-              width="auto"
-              height="45"
               className="d-inline-block align-top"
               alt="Placifull"
             />

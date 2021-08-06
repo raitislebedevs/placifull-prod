@@ -6,7 +6,7 @@ import { FiKey } from 'react-icons/fi';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import { ConnectionServices } from 'services';
-import { toast } from 'react-toastify';
+import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 
 const ResetPasswordForm = (props) => {
   let { t, code } = props;
@@ -20,7 +20,7 @@ const ResetPasswordForm = (props) => {
     setSuccessText('');
     const { data, error } = await ConnectionServices.RESET_PASSWORD(payload);
     if (data) {
-      toast.success(t('success-text'));
+      TostifyCustomContainer('success', t('reset-password:success-text'));
       setSuccessText('success-text');
       setTimeout(() => {
         router.push('/sign-in');

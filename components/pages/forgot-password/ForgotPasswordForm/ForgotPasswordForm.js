@@ -19,7 +19,6 @@ const ForgotPasswordForm = (props) => {
     setSuccessText('');
     const { data, error } = await ConnectionServices.FORGOT_PASSWORD(payload);
     if (data) {
-      console.log(data);
       setSuccessText(t('forgot-password:form.success-text'));
       router.push('/');
     }
@@ -148,7 +147,7 @@ const ForgotPasswordForm = (props) => {
                       </small>{' '}
                       <Link href="/sign-in">
                         <a className="text-dark font-weight-bold">
-                          {t('forgot-password:sign-in')}
+                          {t('forgot-password:form.sign-in')}
                         </a>
                       </Link>
                     </p>

@@ -9,6 +9,9 @@
         "user": {
           "not-exist": "Lietotājs ar šo e-pastu neeksistē"
         }
+      },
+      "email": {
+        "taken": "Lietotājs ar šo e-pastu eksistē"
       }
     }
   }
