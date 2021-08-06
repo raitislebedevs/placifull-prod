@@ -21,7 +21,7 @@ const ContactTimes = (props) => {
                   {listingItem?.contactHours[`${item.key}_close`]}
                 </>
               ) : (
-                'Not Specified'
+                t('real-estate-detail:contact-form.not-specified')
               )}
             </div>
           </div>

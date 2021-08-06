@@ -82,7 +82,9 @@
       "info": "Info",
       "warning": "Warning",
       "error": "Error"
-    }
+    },
+    "logout-success": "See you later!",
+    "bid-placed": "Bid was placed"
   },
 
   "location": {

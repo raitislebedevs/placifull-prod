@@ -115,43 +115,6 @@ const ContactTab = (props) => {
   return (
     <div className="tabs__wrapper">
       <Row>
-        <Col lg={6} md={6} sm={6} className={'decorator__container'}>
-          <Form.Group>
-            <AiOutlinePhone />
-
-            <PhoneInput
-              containerClass="phone__input__field"
-              country={'lv'}
-              enableSearch={true}
-              id="jobPhone"
-              className="form-control"
-              onChange={(e) =>
-                handleOnChange({ target: { value: e, id: 'jobPhone' } })
-              }
-              value={inputValues.phone}
-            />
-          </Form.Group>
-        </Col>
-        <Col lg={6} md={6} sm={6} className={'decorator__container'}>
-          <Form.Group>
-            <AiOutlineMail />
-            <CustomFormControl
-              onChange={handleOnChange}
-              value={inputValues.jobEmail}
-              id="jobEmail"
-              valueLength={75 - inputValues.jobEmail?.length}
-              maxLength={'75'}
-              type="text"
-              label={
-                <>
-                  {t('job-submit:form.detail-information.contact.email')}{' '}
-                  <sup className={'mandatory__field'}>*</sup>
-                </>
-              }
-              autoComplete="current-text"
-            />
-          </Form.Group>
-        </Col>
         <Col lg={12} className={'decorator__container'}>
           <Form.Group>
             <GrLocation />
@@ -193,6 +156,43 @@ const ContactTab = (props) => {
             ></LeafletMap>
           </div>
         </Col>
+        <Col lg={6} md={6} sm={6} className={'decorator__container'}>
+          <Form.Group>
+            <AiOutlinePhone />
+            <PhoneInput
+              containerClass="phone__input__field"
+              country={'lv'}
+              enableSearch={true}
+              id="jobPhone"
+              className="form-control"
+              onChange={(e) =>
+                handleOnChange({ target: { value: e, id: 'jobPhone' } })
+              }
+              value={inputValues.phone}
+            />
+          </Form.Group>
+        </Col>
+        <Col lg={6} md={6} sm={6} className={'decorator__container'}>
+          <Form.Group>
+            <AiOutlineMail />
+            <CustomFormControl
+              onChange={handleOnChange}
+              value={inputValues.jobEmail}
+              id="jobEmail"
+              valueLength={75 - inputValues.jobEmail?.length}
+              maxLength={'75'}
+              type="text"
+              label={
+                <>
+                  {t('job-submit:form.detail-information.contact.email')}{' '}
+                  <sup className={'mandatory__field'}>*</sup>
+                </>
+              }
+              autoComplete="current-text"
+            />
+          </Form.Group>
+        </Col>
+
         <Col lg={6} md={6} sm={6}>
           <Form.Group>
             <SelectInputSubmit

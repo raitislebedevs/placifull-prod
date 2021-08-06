@@ -22,7 +22,7 @@ const ProfileMenu = (props) => {
     TostifyCustomContainer(
       'success',
       t('common:toast.messages.success'),
-      t('logout-success')
+      t('common:toast.logout-success')
     );
   };
 

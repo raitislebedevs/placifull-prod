@@ -68,7 +68,7 @@ const useBid = (t, bidPrice, Service, user, listingItem) => {
       TostifyCustomContainer(
         'success',
         t('common:toast.messages.success'),
-        'Bid was placed'
+        t('common:toast.bid-placed')
       );
     } catch (e) {
       console.log(e);
