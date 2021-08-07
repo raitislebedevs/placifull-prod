@@ -28,7 +28,7 @@ const ContactForm = (props) => {
     {
       key: 'phone',
       label: t('contact:contact-form.contact.items.item-2.label'),
-      description: '+371 2222222222',
+      description: '+371 26 843 180',
       type: 'text',
     },
     {

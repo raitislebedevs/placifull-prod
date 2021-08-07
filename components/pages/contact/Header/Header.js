@@ -13,7 +13,7 @@ const Header = (props) => {
         <FontAwesomeIcon icon={['fab', 'whatsapp']} className="contact__icon" />
         <div className="contact__info">
           <div className="info__title">{t('contact:header.info.text')}</div>
-          <div className="info__phone">{t('contact:header.info.phone')}</div>
+          <div className="info__phone">{`+371 26 843 180`}</div>
         </div>
       </div>
     </Container>
