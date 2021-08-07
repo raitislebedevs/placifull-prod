@@ -34,13 +34,13 @@ const ContactForm = (props) => {
     {
       key: 'email',
       label: t('contact:contact-form.contact.items.item-3.label'),
-      description: 'support@placifull.com',
+      description: 'placifullteam@gmail.com',
       type: 'link',
     },
     {
       key: 'customer-care',
       label: t('contact:contact-form.contact.items.item-4.label'),
-      description: 'customercare@placifull.com',
+      description: 'placifullteam@gmail.com',
       type: 'link',
     },
   ];
@@ -55,7 +55,7 @@ const ContactForm = (props) => {
     e.preventDefault();
     setIsLoading(true);
     let payload = {
-      to: 'placifull@placifull.com',
+      to: 'placifullteam@gmail.com',
       from: inputValues.name,
       replyTo: inputValues.contactEmail,
       subject: inputValues.subject,
