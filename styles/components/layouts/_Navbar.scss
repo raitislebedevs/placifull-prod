@@ -29,10 +29,12 @@
         .link__icon {
           margin-right: 5px;
           font-size: 10px;
+          color: rgba(255, 255, 255, 0.5);
           @include media-breakpoint-down(md) {
             font-size: 20px;
+            color: #fff;
           }
-          color: #fff;
+
           &.light {
             color: #686262;
           }
