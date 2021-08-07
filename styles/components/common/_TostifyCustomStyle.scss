@@ -23,17 +23,18 @@ The full classes are found here: https://fkhadra.github.io/react-toastify/how-to
     text-align: left;
     color: black;
   }
-}
 
-.Toastify__toast--info {
-  background-color: #e5effa;
-  border: 1px solid #0168da;
   .toast__icon {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 25px;
   }
+}
+
+.Toastify__toast--info {
+  background-color: #e5effa;
+  border: 1px solid #0168da;
   .message__field {
     .heading {
       color: #0168da;
@@ -47,13 +48,8 @@ The full classes are found here: https://fkhadra.github.io/react-toastify/how-to
 .Toastify__toast--success {
   background-color: #ebf7ee;
   border: 1px solid #3fbe62;
-  position: relative;
-  padding: 0px;
 
   .message__field {
-    position: absolute;
-    left: 65px;
-    top: 5px;
     .heading {
       color: #3fbe62;
       font-weight: bold;
@@ -66,13 +62,8 @@ The full classes are found here: https://fkhadra.github.io/react-toastify/how-to
 .Toastify__toast--warning {
   background-color: #fef7ea;
   border: 1px solid #ef9400;
-  position: relative;
-  padding: 0px;
 
   .message__field {
-    position: absolute;
-    left: 65px;
-    top: 5px;
     .heading {
       color: #ef9400;
       font-weight: bold;
@@ -85,13 +76,8 @@ The full classes are found here: https://fkhadra.github.io/react-toastify/how-to
 .Toastify__toast--error {
   background-color: #fcedea;
   border: 1px solid #ec4e2c;
-  position: relative;
-  padding: 0px;
 
   .message__field {
-    position: absolute;
-    left: 65px;
-    top: 5px;
     .heading {
       color: #ec4e2c;
       font-weight: bold;

@@ -12,6 +12,8 @@ import { DeleteModalAsk } from 'components/common';
 import useSubscriptions from 'hooks/useSubscriptions';
 import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
 
+const noJobs = '/static/images/no-listings/Jobs.png';
+
 const Jobs = (props) => {
   const { t, user } = props;
   const [limit, setLimit] = useState(7);
@@ -132,142 +134,156 @@ const Jobs = (props) => {
           </div>
         ) : (
           <>
-            {items.map((item) => (
-              <Row
-                className="list-items__item-wrapper  ml-1 mr-1"
-                key={item.id}
-              >
-                <Col lg={3} className="image__wrapper pl-0 pr-0">
-                  <div className="item-wrapper__cover-image">
-                    <img src={item?.companyLogo?.url} />
-                  </div>
-                </Col>
-                <Col lg={9}>
-                  <div className="item-wrapper__content">
-                    <Row className="content__header">
-                      <Col
-                        className="custom__xl6 custom__lg6 custom__md6"
-                        sm={12}
-                        xs={12}
-                      >
-                        <a href="#" className="header__name">
-                          {item?.positionHeader}
-                        </a>
+            {' '}
+            {items?.length === 0 ? (
+              <div className={'listings__not__placed'}>
+                <img
+                  src={noJobs}
+                  id="logo"
+                  className="mx-auto d-block"
+                  alt="Jobs"
+                />
+              </div>
+            ) : (
+              <>
+                {items.map((item) => (
+                  <Row
+                    className="list-items__item-wrapper  ml-1 mr-1"
+                    key={item.id}
+                  >
+                    <Col lg={3} className="image__wrapper pl-0 pr-0">
+                      <div className="item-wrapper__cover-image">
+                        <img src={item?.companyLogo?.url} />
+                      </div>
+                    </Col>
+                    <Col lg={9}>
+                      <div className="item-wrapper__content">
+                        <Row className="content__header">
+                          <Col
+                            className="custom__xl6 custom__lg6 custom__md6"
+                            sm={12}
+                            xs={12}
+                          >
+                            <a href="#" className="header__name">
+                              {item?.positionHeader}
+                            </a>
 
-                        <div className="header__info-text">
-                          {item?.officeAddress}
-                        </div>
-                      </Col>
+                            <div className="header__info-text">
+                              {item?.officeAddress}
+                            </div>
+                          </Col>
 
-                      <Col
-                        className="custom__xl6 custom__lg6 custom__md6"
-                        sm={12}
-                        xs={12}
-                      >
-                        <div className="header__ratings">
-                          <Rating
-                            stop={5}
-                            initialRating={item.ratings}
-                            readonly
-                            fullSymbol={<FaStar className="ratings__icon" />}
-                            emptySymbol={
-                              <FaRegStar className="ratings__icon" />
-                            }
-                          />
-                          <span className="rattings__count">
-                            {item?.ratings}
-                          </span>
+                          <Col
+                            className="custom__xl6 custom__lg6 custom__md6"
+                            sm={12}
+                            xs={12}
+                          >
+                            <div className="header__ratings">
+                              <Rating
+                                stop={5}
+                                initialRating={item.ratings}
+                                readonly
+                                fullSymbol={
+                                  <FaStar className="ratings__icon" />
+                                }
+                                emptySymbol={
+                                  <FaRegStar className="ratings__icon" />
+                                }
+                              />
+                              <span className="rattings__count">
+                                {item?.ratings}
+                              </span>
 
-                          <div className="header__ratings-views">
-                            <span>
-                              <RiEye2Line /> {item?.popularity?.views || 0}
-                            </span>
-                          </div>
-                        </div>
-                      </Col>
-                    </Row>
+                              <div className="header__ratings-views">
+                                <span>
+                                  <RiEye2Line /> {item?.popularity?.views || 0}
+                                </span>
+                              </div>
+                            </div>
+                          </Col>
+                        </Row>
 
-                    <Row className="content__body">
-                      <Col xl={2} lg={6} md={6} sm={6} xs={12}>
-                        <div className="content__body--item__divide"></div>
-                        <div className="content__body--info__title">
-                          {t('profile:right-content.tabs.job.count')}
-                        </div>
+                        <Row className="content__body">
+                          <Col xl={2} lg={6} md={6} sm={6} xs={12}>
+                            <div className="content__body--item__divide"></div>
+                            <div className="content__body--info__title">
+                              {t('profile:right-content.tabs.job.count')}
+                            </div>
 
-                        <div className="content__body--info__count">
-                          {item?.Applicants.length || 0}
-                        </div>
-                      </Col>
-                      <Col xl={2} lg={6} md={6} sm={6} xs={12}>
-                        <div className="content__body--item__divide"></div>
+                            <div className="content__body--info__count">
+                              {item?.Applicants.length || 0}
+                            </div>
+                          </Col>
+                          <Col xl={2} lg={6} md={6} sm={6} xs={12}>
+                            <div className="content__body--item__divide"></div>
 
-                        <div className="content__body--info__title">
-                          {t('profile:right-content.tabs.job.avarage')}
-                        </div>
+                            <div className="content__body--info__title">
+                              {t('profile:right-content.tabs.job.avarage')}
+                            </div>
 
-                        <div className="content__body--info__count">
-                          {item?.bidOffer?.avarage
-                            ? item?.currency?.symbol +
-                              ' ' +
-                              formatNumber(item?.bidOffer?.avarage)
-                            : '-'}
-                        </div>
-                      </Col>
-                      <Col xl={2} lg={6} md={6} sm={6} xs={12}>
-                        <div className="content__body--item__divide"></div>
+                            <div className="content__body--info__count">
+                              {item?.bidOffer?.avarage
+                                ? item?.currency?.symbol +
+                                  ' ' +
+                                  formatNumber(item?.bidOffer?.avarage)
+                                : '-'}
+                            </div>
+                          </Col>
+                          <Col xl={2} lg={6} md={6} sm={6} xs={12}>
+                            <div className="content__body--item__divide"></div>
 
-                        <div className="content__body--info__title">
-                          {t('profile:right-content.tabs.job.lowest')}
-                        </div>
+                            <div className="content__body--info__title">
+                              {t('profile:right-content.tabs.job.lowest')}
+                            </div>
 
-                        <div className="content__body--info__count">
-                          {' '}
-                          {item?.bidOffer?.lowest
-                            ? item?.currency?.symbol +
-                              ' ' +
-                              formatNumber(item?.bidOffer?.lowest)
-                            : '-'}
-                        </div>
-                      </Col>
-                      <Col xl={2} lg={6} md={6} sm={6} xs={12}>
-                        <div className="content__body--info__title">
-                          {t('profile:right-content.tabs.job.highest')}
-                        </div>
+                            <div className="content__body--info__count">
+                              {' '}
+                              {item?.bidOffer?.lowest
+                                ? item?.currency?.symbol +
+                                  ' ' +
+                                  formatNumber(item?.bidOffer?.lowest)
+                                : '-'}
+                            </div>
+                          </Col>
+                          <Col xl={2} lg={6} md={6} sm={6} xs={12}>
+                            <div className="content__body--info__title">
+                              {t('profile:right-content.tabs.job.highest')}
+                            </div>
 
-                        <div className="content__body--info__count">
-                          {' '}
-                          {item?.bidOffer?.highest
-                            ? item?.currency?.symbol +
-                              ' ' +
-                              formatNumber(item?.bidOffer?.highest)
-                            : '-'}
-                        </div>
-                      </Col>
+                            <div className="content__body--info__count">
+                              {' '}
+                              {item?.bidOffer?.highest
+                                ? item?.currency?.symbol +
+                                  ' ' +
+                                  formatNumber(item?.bidOffer?.highest)
+                                : '-'}
+                            </div>
+                          </Col>
 
-                      <Col
-                        xl={2}
-                        lg={6}
-                        md={6}
-                        sm={6}
-                        xs={12}
-                        className="content__body--btn__col"
-                      >
-                        <Link href={`/profile/job-applications/${item.id}`}>
-                          {t('profile:right-content.tabs.job.button')}
-                        </Link>
-                      </Col>
-                    </Row>
+                          <Col
+                            xl={2}
+                            lg={6}
+                            md={6}
+                            sm={6}
+                            xs={12}
+                            className="content__body--btn__col"
+                          >
+                            <Link href={`/profile/job-applications/${item.id}`}>
+                              {t('profile:right-content.tabs.job.button')}
+                            </Link>
+                          </Col>
+                        </Row>
 
-                    <Row className="content__footer">
-                      <Col
-                        xl={6}
-                        lg={6}
-                        md={6}
-                        sm={6}
-                        xs={12}
-                        className="body__actions"
-                      >
-                        {/*}
+                        <Row className="content__footer">
+                          <Col
+                            xl={6}
+                            lg={6}
+                            md={6}
+                            sm={6}
+                            xs={12}
+                            className="body__actions"
+                          >
+                            {/*}
                      <Link
                         href={`/job-search/edit/${item?.id}`}
                         key={item.id}
@@ -280,42 +296,46 @@ const Jobs = (props) => {
                         </div>
                       </Link>
                       */}
-                        <div
-                          className="action__wrapper action__wrapper--danger"
-                          onClick={() => handleOpenDeleteModal(item.id)}
-                        >
-                          <FaRegTrashAlt className="wrapper__icon" />{' '}
-                          <span className="wrapper__text">
-                            {t(
-                              'profile:right-content.tabs.common.button-delete'
-                            )}
-                          </span>
-                        </div>
-                      </Col>
+                            <div
+                              className="action__wrapper action__wrapper--danger"
+                              onClick={() => handleOpenDeleteModal(item.id)}
+                            >
+                              <FaRegTrashAlt className="wrapper__icon" />{' '}
+                              <span className="wrapper__text">
+                                {t(
+                                  'profile:right-content.tabs.common.button-delete'
+                                )}
+                              </span>
+                            </div>
+                          </Col>
 
-                      <Col
-                        xl={6}
-                        lg={6}
-                        md={6}
-                        sm={6}
-                        xs={12}
-                        className="body__actions-lowest"
-                      >
-                        <div className="action__wrapper">
-                          <RiCalendar2Line className="wrapper__icon" />{' '}
-                          <span className="wrapper__text">
-                            {getExpiryCount(item?.expiryDate)
-                              ? `${getExpiryCount(item?.expiryDate)} `
-                              : '- '}
-                            {t('profile:right-content.tabs.common.days-left')}
-                          </span>
-                        </div>
-                      </Col>
-                    </Row>
-                  </div>
-                </Col>
-              </Row>
-            ))}
+                          <Col
+                            xl={6}
+                            lg={6}
+                            md={6}
+                            sm={6}
+                            xs={12}
+                            className="body__actions-lowest"
+                          >
+                            <div className="action__wrapper">
+                              <RiCalendar2Line className="wrapper__icon" />{' '}
+                              <span className="wrapper__text">
+                                {getExpiryCount(item?.expiryDate)
+                                  ? `${getExpiryCount(item?.expiryDate)} `
+                                  : '- '}
+                                {t(
+                                  'profile:right-content.tabs.common.days-left'
+                                )}
+                              </span>
+                            </div>
+                          </Col>
+                        </Row>
+                      </div>
+                    </Col>
+                  </Row>
+                ))}
+              </>
+            )}
           </>
         )}
       </div>

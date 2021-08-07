@@ -16,6 +16,8 @@ import useSubscriptions from 'hooks/useSubscriptions';
 import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
 import { FileServices } from 'services';
 
+const noRealEstate = '/static/images/no-listings/RealEstate.png';
+
 const responsive = {
   superLargeDesktop: {
     breakpoint: { max: 5000, min: 992 },
@@ -85,7 +87,6 @@ const RealEstate = (props) => {
     try {
       setIsLoading(true);
       await getSubscriptions(t, user?.id);
-      console.log('subscriptions', subscriptions);
       let result = await handleUpdate(
         subscriptions,
         subscriptions.realEstate,
@@ -163,125 +164,139 @@ const RealEstate = (props) => {
           </div>
         ) : (
           <>
-            {items.map((item) => (
-              <div className="wrapper__item" key={item.id}>
-                <div className="wrapper-image">
-                  {' '}
-                  <Carousel
-                    arrows={true}
-                    dragable={true}
-                    infinite={true}
-                    centerMode={false}
-                    responsive={responsive}
-                    containerClass="cover__carousel-container"
-                    itemClass="cover__item"
-                  >
-                    {item?.listingGallery?.length > 0 ? (
-                      item?.listingGallery?.map((item) => (
-                        <img
-                          src={item.url}
-                          key={item.id}
-                          className="item__image"
-                        />
-                      ))
-                    ) : (
-                      <></>
-                    )}
-                  </Carousel>
-                  {item.action == 'rent' && (
-                    <div className="item-wrapper__label for__rent">
-                      <span>
-                        {t('profile:right-content.tabs.actions.rent')}
-                      </span>
-                    </div>
-                  )}
-                  {item.action == 'sell' && (
-                    <div className="item-wrapper__label for__sale">
-                      <span>
-                        {t('profile:right-content.tabs.actions.sell')}
-                      </span>
-                    </div>
-                  )}
-                  {item.action == 'exchange' && (
-                    <div className="item-wrapper__label for__exchange">
-                      <span>
-                        {t('profile:right-content.tabs.actions.exchange')}
-                      </span>
-                    </div>
-                  )}
-                </div>
-                <div className="wrapper-content">
-                  <div className="header-item">
-                    <div className="header-text">
-                      <div className="header__text">
-                        <div className="header__text--main">
-                          {item?.fullAddress}
+            {' '}
+            {items?.length === 0 ? (
+              <div className={'listings__not__placed'}>
+                <img
+                  src={noRealEstate}
+                  id="logo"
+                  className="mx-auto d-block"
+                  alt="RealEstate"
+                />
+              </div>
+            ) : (
+              <>
+                {items.map((item) => (
+                  <div className="wrapper__item" key={item.id}>
+                    <div className="wrapper-image">
+                      {' '}
+                      <Carousel
+                        arrows={true}
+                        dragable={true}
+                        infinite={true}
+                        centerMode={false}
+                        responsive={responsive}
+                        containerClass="cover__carousel-container"
+                        itemClass="cover__item"
+                      >
+                        {item?.listingGallery?.length > 0 ? (
+                          item?.listingGallery?.map((item) => (
+                            <img
+                              src={item.url}
+                              key={item.id}
+                              className="item__image"
+                            />
+                          ))
+                        ) : (
+                          <></>
+                        )}
+                      </Carousel>
+                      {item.action == 'rent' && (
+                        <div className="item-wrapper__label for__rent">
+                          <span>
+                            {t('profile:right-content.tabs.actions.rent')}
+                          </span>
                         </div>
-                        <div className="header__text--subtext">
-                          {item?.country?.native} {item?.city?.name}
+                      )}
+                      {item.action == 'sell' && (
+                        <div className="item-wrapper__label for__sale">
+                          <span>
+                            {t('profile:right-content.tabs.actions.sell')}
+                          </span>
+                        </div>
+                      )}
+                      {item.action == 'exchange' && (
+                        <div className="item-wrapper__label for__exchange">
+                          <span>
+                            {t('profile:right-content.tabs.actions.exchange')}
+                          </span>
+                        </div>
+                      )}
+                    </div>
+                    <div className="wrapper-content">
+                      <div className="header-item">
+                        <div className="header-text">
+                          <div className="header__text">
+                            <div className="header__text--main">
+                              {item?.fullAddress}
+                            </div>
+                            <div className="header__text--subtext">
+                              {item?.country?.native} {item?.city?.name}
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div className="header__ratings">
+                            <Rating
+                              stop={5}
+                              initialRating={item?.popularity?.rating || 0}
+                              readonly
+                              fullSymbol={<FaStar className="ratings__icon" />}
+                              emptySymbol={
+                                <FaRegStar className="ratings__icon" />
+                              }
+                            />
+                            <span className="rattings__count">
+                              {item?.popularity?.rating || 0}
+                            </span>
+
+                            <span className="header__ratings-views">
+                              <RiEye2Line /> {item?.popularity?.views || 0}
+                            </span>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div>
-                      <div className="header__ratings">
-                        <Rating
-                          stop={5}
-                          initialRating={item?.popularity?.rating || 0}
-                          readonly
-                          fullSymbol={<FaStar className="ratings__icon" />}
-                          emptySymbol={<FaRegStar className="ratings__icon" />}
-                        />
-                        <span className="rattings__count">
-                          {item?.popularity?.rating || 0}
-                        </span>
+                      <div className="info-item">
+                        <div className="bid__highest">
+                          <div className="first_highest__bid">
+                            <span>
+                              {t('profile:right-content.tabs.common.lowest')}:
+                            </span>
+                            <span>
+                              {item?.currency?.symbol} {item?.bidOffer?.highest}
+                            </span>
+                          </div>
+                          <div className="highest__bid__info">
+                            <div>{item?.bidOffer?.highestemail} </div>
+                            <div> {item?.bidOffer?.highestphone}</div>
+                          </div>
+                        </div>
+                        <div className="bid__lowest">
+                          <div className="first_lowest_bid">
+                            <span>
+                              {t('profile:right-content.tabs.common.highest')}:
+                            </span>
+                            <span>
+                              {item?.currency?.symbol} {item?.bidOffer?.lowest}
+                            </span>
+                          </div>
 
-                        <span className="header__ratings-views">
-                          <RiEye2Line /> {item?.popularity?.views || 0}
-                        </span>
+                          <div className="lowest__bid__info">
+                            <div>{item?.bidOffer?.lowestemail} </div>
+                            <div> {item?.bidOffer?.lowestphone}</div>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                  <div className="info-item">
-                    <div className="bid__highest">
-                      <div className="first_highest__bid">
-                        <span>
-                          {t('profile:right-content.tabs.common.lowest')}:
-                        </span>
-                        <span>
-                          {item?.currency?.symbol} {item?.bidOffer?.highest}
-                        </span>
-                      </div>
-                      <div className="highest__bid__info">
-                        <div>{item?.bidOffer?.highestemail} </div>
-                        <div> {item?.bidOffer?.highestphone}</div>
-                      </div>
-                    </div>
-                    <div className="bid__lowest">
-                      <div className="first_lowest_bid">
-                        <span>
-                          {t('profile:right-content.tabs.common.highest')}:
-                        </span>
-                        <span>
-                          {item?.currency?.symbol} {item?.bidOffer?.lowest}
-                        </span>
-                      </div>
-
-                      <div className="lowest__bid__info">
-                        <div>{item?.bidOffer?.lowestemail} </div>
-                        <div> {item?.bidOffer?.lowestphone}</div>
-                      </div>
-                    </div>
-                  </div>
-                  <Row className="content__footer">
-                    <Col
-                      xl={6}
-                      lg={6}
-                      md={6}
-                      sm={12}
-                      xs={12}
-                      className="body__actions"
-                    >
-                      {/*}
+                      <Row className="content__footer">
+                        <Col
+                          xl={6}
+                          lg={6}
+                          md={6}
+                          sm={12}
+                          xs={12}
+                          className="body__actions"
+                        >
+                          {/*}
                      <Link
                         href={`/real-estate/edit/${item?.id}`}
                         key={item.id}
@@ -294,39 +309,43 @@ const RealEstate = (props) => {
                         </div>
                       </Link>
                       */}
-                      <div
-                        className="action__wrapper action__wrapper--danger"
-                        onClick={() => handleOpenDeleteModal(item.id)}
-                      >
-                        <FaRegTrashAlt className="wrapper__icon" />{' '}
-                        <span className="wrapper__text">
-                          {t('profile:right-content.tabs.common.button-delete')}
-                        </span>
-                      </div>
-                    </Col>
+                          <div
+                            className="action__wrapper action__wrapper--danger"
+                            onClick={() => handleOpenDeleteModal(item.id)}
+                          >
+                            <FaRegTrashAlt className="wrapper__icon" />{' '}
+                            <span className="wrapper__text">
+                              {t(
+                                'profile:right-content.tabs.common.button-delete'
+                              )}
+                            </span>
+                          </div>
+                        </Col>
 
-                    <Col
-                      xl={6}
-                      lg={6}
-                      md={6}
-                      sm={12}
-                      xs={12}
-                      className="body__actions-lowest"
-                    >
-                      <div className="action__wrapper">
-                        <RiCalendar2Line className="wrapper__icon" />{' '}
-                        <span className="wrapper__text">
-                          {getExpiryCount(item?.expiryDate)
-                            ? `${getExpiryCount(item?.expiryDate)} `
-                            : '- '}
-                          {t('profile:right-content.tabs.common.days-left')}
-                        </span>
-                      </div>
-                    </Col>
-                  </Row>
-                </div>
-              </div>
-            ))}
+                        <Col
+                          xl={6}
+                          lg={6}
+                          md={6}
+                          sm={12}
+                          xs={12}
+                          className="body__actions-lowest"
+                        >
+                          <div className="action__wrapper">
+                            <RiCalendar2Line className="wrapper__icon" />{' '}
+                            <span className="wrapper__text">
+                              {getExpiryCount(item?.expiryDate)
+                                ? `${getExpiryCount(item?.expiryDate)} `
+                                : '- '}
+                              {t('profile:right-content.tabs.common.days-left')}
+                            </span>
+                          </div>
+                        </Col>
+                      </Row>
+                    </div>
+                  </div>
+                ))}
+              </>
+            )}
           </>
         )}
       </div>

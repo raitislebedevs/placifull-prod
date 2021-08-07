@@ -382,5 +382,13 @@
     "body": "Are you sure you want to delete your account?",
     "cancel": "Cancel",
     "delete": "Delete"
+  },
+  "reffaral": {
+    "heading": "Referral Program",
+    "balance": "Ballance",
+    "code": "Referral Code",
+    "percantage": "Percantage",
+    "next": "Next Increase",
+    "withdraw": "Withdraw"
   }
 }

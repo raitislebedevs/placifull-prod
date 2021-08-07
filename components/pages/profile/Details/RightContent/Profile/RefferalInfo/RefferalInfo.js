@@ -18,13 +18,13 @@ const RefferalInfo = (props) => {
     >
       <div className="p-4 border-bottom program">
         <h5 className="mb-0 text-success">
-          <strong>Referral Program</strong>
+          <strong>{t('profile:reffaral.heading')}</strong>
         </h5>
       </div>
       <Row className="referral__row">
         <Col xs={12} sm={12} md={6} lg={6} xl={6}>
           <div className="mb-0 ">
-            Ballance:
+            {t('profile:reffaral.balance')}:
             <strong>{` € ${
               formatNumber(referralProgram?.amountEarned) || '0.00'
             }`}</strong>
@@ -32,19 +32,21 @@ const RefferalInfo = (props) => {
         </Col>
         <Col xs={12} sm={12} md={6} lg={6} xl={6}>
           <div>
-            Referral Code: <strong>{referralProgram?.referralCode}</strong>
+            {t('profile:reffaral.code')}:{' '}
+            <strong>{referralProgram?.referralCode}</strong>
           </div>
         </Col>
       </Row>
       <Row className="referral__row">
         <Col xs={12} sm={12} md={6} lg={6} xl={6}>
           <div className="mb-0">
-            Percantage: <strong>{referralProgram?.percantage} %</strong>
+            {t('profile:reffaral.percantage')}:{' '}
+            <strong>{referralProgram?.percantage} %</strong>
           </div>
         </Col>
         <Col xs={12} sm={12} md={6} lg={6} xl={6}>
           <div>
-            Next Increase:{' '}
+            {t('profile:reffaral.next')}:{' '}
             <strong>
               {referralProgram?.referralCodeUsed
                 ? REFERRAL_INIT.NEXT_LEVEL_STEP -
@@ -56,7 +58,7 @@ const RefferalInfo = (props) => {
         </Col>
       </Row>
       <div className="withdraw_button">
-        <Button variant="success">Withdraw</Button>
+        <Button variant="success">{t('profile:reffaral.withdraw')}</Button>
       </div>
     </Col>
   );

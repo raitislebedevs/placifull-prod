@@ -28,6 +28,9 @@
   }
 
   .browse-cv__result-area {
+    .listings__not__placed {
+      padding: 42px 0px;
+    }
     overflow-x: scroll;
     table {
       border: 1px solid #dee2e6;

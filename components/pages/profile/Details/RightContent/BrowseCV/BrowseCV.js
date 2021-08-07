@@ -6,7 +6,6 @@ import {
   SelectInputSubmit,
   CurrencyInput,
 } from 'components/common';
-
 import ReactPaginate from 'react-paginate';
 import { AiOutlineFileSearch } from 'react-icons/ai';
 import NumberFormat from 'react-number-format';
@@ -15,6 +14,8 @@ import { CurriculumVitaesService } from 'services';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import { cleanObject } from 'utils/standaloneFunctions';
 import guidGenerator from 'utils/guidGenerator';
+
+const noCV = '/static/images/no-listings/CV.png';
 
 const BrowseCV = (props) => {
   const { t } = props;
@@ -233,118 +234,140 @@ const BrowseCV = (props) => {
           </div>
         ) : (
           <>
-            <Table hover>
-              <thead>
-                <tr>
-                  {/*<th>
+            {' '}
+            {applicantCvs?.length === 0 ? (
+              <div className={'listings__not__placed'}>
+                <img
+                  src={noCV}
+                  id="logo"
+                  className="mx-auto d-block"
+                  alt="CV"
+                />
+              </div>
+            ) : (
+              <>
+                <Table hover>
+                  <thead>
+                    <tr>
+                      {/*<th>
                 <Form.Check label={``} />
               </th>*/}
-                  <th>
-                    {' '}
-                    {t('profile:right-content.browser-cv.result-table.nr')}
-                  </th>
-                  <th>
-                    {' '}
-                    {t('profile:right-content.browser-cv.result-table.name')}
-                  </th>
-                  <th>
-                    {' '}
-                    {t('profile:right-content.browser-cv.result-table.email')}
-                  </th>
-                  <th>
-                    {' '}
-                    {t('profile:right-content.browser-cv.result-table.phone')}
-                  </th>
-                  <th className={'minimum_wide'}>
-                    {' '}
-                    {t(
-                      'profile:right-content.browser-cv.result-table.worked-as'
-                    )}
-                  </th>
-                  <th>
-                    {' '}
-                    {t('profile:right-content.browser-cv.result-table.salary')}
-                  </th>
-                  <th>
-                    {' '}
-                    {t('profile:right-content.browser-cv.result-table.cv')}
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {/*<th>
+                      <th>
+                        {' '}
+                        {t('profile:right-content.browser-cv.result-table.nr')}
+                      </th>
+                      <th>
+                        {' '}
+                        {t(
+                          'profile:right-content.browser-cv.result-table.name'
+                        )}
+                      </th>
+                      <th>
+                        {' '}
+                        {t(
+                          'profile:right-content.browser-cv.result-table.email'
+                        )}
+                      </th>
+                      <th>
+                        {' '}
+                        {t(
+                          'profile:right-content.browser-cv.result-table.phone'
+                        )}
+                      </th>
+                      <th className={'minimum_wide'}>
+                        {' '}
+                        {t(
+                          'profile:right-content.browser-cv.result-table.worked-as'
+                        )}
+                      </th>
+                      <th>
+                        {' '}
+                        {t(
+                          'profile:right-content.browser-cv.result-table.salary'
+                        )}
+                      </th>
+                      <th>
+                        {' '}
+                        {t('profile:right-content.browser-cv.result-table.cv')}
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {/*<th>
                   <Form.Check label={``} />
                 </th>*/}
 
-                {applicantCvs?.map((applicant) => {
-                  return (
-                    <tr key={guidGenerator()}>
-                      <th>{cvCount++}</th>
-                      <td>
-                        {applicant?.PersonalDetails?.cvFirstName &&
-                        applicant?.PersonalDetails?.cvLasttName
-                          ? `${applicant?.PersonalDetails?.cvFirstName} ${applicant?.PersonalDetails?.cvLasttName}`
-                          : applicant?.PersonalDetails?.cvFirstName}
-                      </td>
-                      <td>
-                        {applicant?.PersonalDetails?.cvPersonalEmail &&
-                          applicant?.PersonalDetails?.cvPersonalEmail}
-                      </td>
-                      <td>
-                        {' '}
-                        {applicant?.PersonalDetails?.cvPhoneNumber &&
-                          applicant?.PersonalDetails?.cvPhoneNumber}
-                      </td>
-                      <td>
-                        {' '}
-                        {applicant?.WorkExpierience?.map((item, index) => {
-                          if (index > 1) {
-                            return;
-                          }
-                          if (index > 0) {
-                            return <div key={guidGenerator()}>...</div>;
-                          }
-                          return (
-                            <div key={guidGenerator()}>
-                              {item?.positionName}
-                            </div>
-                          );
-                        })}
-                      </td>
-                      <td>
-                        {applicant?.WorkExpectations[0]?.monthly &&
-                        applicant?.currency?.symbol
-                          ? `${applicant?.currency?.symbol} ${applicant?.WorkExpectations[0]?.monthly}`
-                          : '-'}
-                      </td>
-                      <td>
-                        {viewApplicant === applicant?.id ? (
-                          <Button
-                            className="btn-outline btn-sm"
-                            onClick={() => getUserCV(applicant?.id)}
-                          >
-                            <Spinner
-                              as="span"
-                              animation="border"
-                              variant="light"
-                              size="sm"
-                              role="status"
-                            />
-                          </Button>
-                        ) : (
-                          <Button
-                            className="btn-outline btn-sm"
-                            onClick={() => getUserCV(applicant?.id)}
-                          >
-                            <AiOutlineFileSearch />
-                          </Button>
-                        )}
-                      </td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </Table>
+                    {applicantCvs?.map((applicant) => {
+                      return (
+                        <tr key={guidGenerator()}>
+                          <th>{cvCount++}</th>
+                          <td>
+                            {applicant?.PersonalDetails?.cvFirstName &&
+                            applicant?.PersonalDetails?.cvLasttName
+                              ? `${applicant?.PersonalDetails?.cvFirstName} ${applicant?.PersonalDetails?.cvLasttName}`
+                              : applicant?.PersonalDetails?.cvFirstName}
+                          </td>
+                          <td>
+                            {applicant?.PersonalDetails?.cvPersonalEmail &&
+                              applicant?.PersonalDetails?.cvPersonalEmail}
+                          </td>
+                          <td>
+                            {' '}
+                            {applicant?.PersonalDetails?.cvPhoneNumber &&
+                              applicant?.PersonalDetails?.cvPhoneNumber}
+                          </td>
+                          <td>
+                            {' '}
+                            {applicant?.WorkExpierience?.map((item, index) => {
+                              if (index > 1) {
+                                return;
+                              }
+                              if (index > 0) {
+                                return <div key={guidGenerator()}>...</div>;
+                              }
+                              return (
+                                <div key={guidGenerator()}>
+                                  {item?.positionName}
+                                </div>
+                              );
+                            })}
+                          </td>
+                          <td>
+                            {applicant?.WorkExpectations[0]?.monthly &&
+                            applicant?.currency?.symbol
+                              ? `${applicant?.currency?.symbol} ${applicant?.WorkExpectations[0]?.monthly}`
+                              : '-'}
+                          </td>
+                          <td>
+                            {viewApplicant === applicant?.id ? (
+                              <Button
+                                className="btn-outline btn-sm"
+                                onClick={() => getUserCV(applicant?.id)}
+                              >
+                                <Spinner
+                                  as="span"
+                                  animation="border"
+                                  variant="light"
+                                  size="sm"
+                                  role="status"
+                                />
+                              </Button>
+                            ) : (
+                              <Button
+                                className="btn-outline btn-sm"
+                                onClick={() => getUserCV(applicant?.id)}
+                              >
+                                <AiOutlineFileSearch />
+                              </Button>
+                            )}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </Table>{' '}
+              </>
+            )}
           </>
         )}
       </div>

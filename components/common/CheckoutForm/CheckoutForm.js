@@ -247,7 +247,6 @@ const CheckoutForm = (props) => {
           <Col lg={6}>
             <Form.Group>
               <CustomFormControl
-                ///NEEEEEEEEDS TO CREATE
                 maxLength={20}
                 label={'Referral Code'}
                 id="refferalCode"
