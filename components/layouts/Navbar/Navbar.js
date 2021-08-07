@@ -122,9 +122,9 @@ const Navbar = (props) => {
                   >
                     <FontAwesomeIcon
                       icon="sign-in-alt"
-                      className="link__icon"
+                      className={`link__icon ${showNavbarLight ? 'light' : ''}`}
                     />
-                    <div id="sign-in" className="link__text">
+                    <div id="sign-in" className={`link__text`}>
                       {t('navbar:sign-in')}
                     </div>
                   </Nav.Link>
@@ -135,7 +135,10 @@ const Navbar = (props) => {
                     active={router.pathname === '/register'}
                     className="nav-item__link"
                   >
-                    <FontAwesomeIcon icon="user" className="link__icon" />
+                    <FontAwesomeIcon
+                      icon="user"
+                      className={`link__icon ${showNavbarLight ? 'light' : ''}`}
+                    />
                     <div id="register" className="link__text">
                       {t('navbar:register')}
                     </div>
