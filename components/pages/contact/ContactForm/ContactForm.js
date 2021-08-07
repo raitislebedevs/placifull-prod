@@ -22,25 +22,25 @@ const ContactForm = (props) => {
     {
       key: 'location',
       label: t('contact:contact-form.contact.items.item-1.label'),
-      description: t('contact:contact-form.contact.items.item-1.description'),
+      description: 'Latvija, Rīga',
       type: 'text',
     },
     {
       key: 'phone',
       label: t('contact:contact-form.contact.items.item-2.label'),
-      description: t('contact:contact-form.contact.items.item-2.description'),
+      description: '+371 2222222222',
       type: 'text',
     },
     {
       key: 'email',
       label: t('contact:contact-form.contact.items.item-3.label'),
-      description: t('contact:contact-form.contact.items.item-3.description'),
+      description: 'support@placifull.com',
       type: 'link',
     },
     {
       key: 'customer-care',
       label: t('contact:contact-form.contact.items.item-4.label'),
-      description: t('contact:contact-form.contact.items.item-4.description'),
+      description: 'customercare@placifull.com',
       type: 'link',
     },
   ];
@@ -52,11 +52,10 @@ const ContactForm = (props) => {
   };
 
   const handleSubmit = async (e) => {
-    console.log(emailTo);
     e.preventDefault();
     setIsLoading(true);
     let payload = {
-      to: 'placifullteam@gmail.com',
+      to: 'placifull@placifull.com',
       from: inputValues.name,
       replyTo: inputValues.contactEmail,
       subject: inputValues.subject,
