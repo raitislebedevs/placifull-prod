@@ -46,7 +46,6 @@ const RegisterForm = (props) => {
       },
     };
 
-    console.log(payload);
     try {
       const { data, error } = await ConnectionServices.REGISTER(payload);
       if (data) {

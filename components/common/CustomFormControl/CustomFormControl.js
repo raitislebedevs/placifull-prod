@@ -39,9 +39,9 @@ const CustomFormControl = (props) => {
           <InputGroup.Prepend>
             <Dropdown
               arrowClassName={
-                prepend.values.length < 2 ? 'd-none' : 'Dropdown-arrow'
+                prepend.values?.length < 2 ? 'd-none' : 'Dropdown-arrow'
               }
-              disabled={prepend.values.length < 2}
+              disabled={prepend.values?.length < 2}
               options={prepend?.values}
               id={prepend.id}
               value={
@@ -88,9 +88,9 @@ const CustomFormControl = (props) => {
             <InputGroup.Append>
               <Dropdown
                 arrowClassName={
-                  append.values.length < 2 ? 'd-none' : 'Dropdown-arrow'
+                  append.values?.length < 2 ? 'd-none' : 'Dropdown-arrow'
                 }
-                disabled={append.values.length < 2}
+                disabled={append.values?.length < 2}
                 options={append.values}
                 id={append.id}
                 value={

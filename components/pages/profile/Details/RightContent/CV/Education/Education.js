@@ -1,41 +1,36 @@
-import { useState } from 'react';
+import { useEffect } from 'react';
 import { Row, Col, Form, Button, Spinner } from 'react-bootstrap';
 import { CustomFormControl, SelectInputSubmit } from 'components/common';
 import { GiBookshelf } from 'react-icons/gi';
-import { RiSaveLine, RiDeleteBin5Line } from 'react-icons/ri';
-import { CurriculumVitaesService } from 'services';
+import { RiDeleteBin5Line } from 'react-icons/ri';
 import fields from './fields';
 import Datetime from 'react-datetime';
-import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 
 const Education = (props) => {
   const {
     t,
-    saveCv,
-    setsaveCv,
     items,
     setItems,
     inputValues,
     onQualificationChange,
     handleOnEducationHistory,
   } = props;
-  const [clearIds, setClearIds] = useState([]);
   const eduFields = fields(t);
 
   const addItem = () => {
-    if (items.length >= 10) return;
+    if (items?.length >= 10) return;
     let addItems = [];
-    for (let i = 0; i <= items.length; i++) {
+    for (let i = 0; i <= items?.length; i++) {
       addItems.push({ id: i });
     }
     setItems(addItems);
   };
 
   const removeItem = (id) => {
-    if (items.length == 1) return;
+    if (items?.length == 1) return;
     setItems(() => {
       let removeItems = [];
-      for (let i = 0; i < items.length - 1; i++) {
+      for (let i = 0; i < items?.length - 1; i++) {
         removeItems.push({ id: i });
       }
       return removeItems;
@@ -48,30 +43,9 @@ const Education = (props) => {
     });
   };
 
-  const handleCvUpdates = async () => {
-    setsaveCv(true);
-    try {
-      let payload = {
-        EducationHistory: inputValues?.EducationHistory || null,
-      };
-
-      const { data } = await CurriculumVitaesService.UPDATE_ME(payload);
-      if (data) {
-        TostifyCustomContainer(
-          'success',
-          t('common:toast.messages.success'),
-          t('profile:toast.succes')
-        );
-      }
-    } catch (error) {
-      TostifyCustomContainer(
-        'error',
-        t('common:toast.messages.error'),
-        t('profile:toast.fail')
-      );
-    }
-    setsaveCv(false);
-  };
+  useEffect(() => {
+    setItems(items);
+  }, []);
 
   return (
     <div className="wrapper__body">
@@ -87,28 +61,6 @@ const Education = (props) => {
           <div>
             <GiBookshelf />{' '}
             {t('profile:right-content.cv.sections.education.title')}
-            {saveCv ? (
-              <Button
-                variant="outline-primary"
-                className="header-wrapper__save btn-sm"
-              >
-                <Spinner
-                  as="span"
-                  animation="border"
-                  variant="danger"
-                  size="sm"
-                  role="status"
-                />
-              </Button>
-            ) : (
-              <Button
-                onClick={() => handleCvUpdates()}
-                variant="outline-primary"
-                className="header-wrapper__save btn-sm"
-              >
-                <RiSaveLine />
-              </Button>
-            )}
           </div>
         </Col>
         <Col
@@ -133,7 +85,7 @@ const Education = (props) => {
         </Col>
       </Row>
 
-      {items.map((edu) => (
+      {items?.map((edu) => (
         <Row key={edu.id} id={edu.id} className="body__item">
           {eduFields.map((item) => {
             if (item.type === 'text') {
@@ -160,7 +112,7 @@ const Education = (props) => {
                           },
                         })
                       }
-                      maxLength={item?.maxLength}
+                      //maxLength={item?.maxLength}
                       type="text"
                       label={item.label}
                       autoComplete="current-text"
@@ -209,7 +161,7 @@ const Education = (props) => {
                   <Form.Group>
                     <SelectInputSubmit
                       id={item.key + edu.id}
-                      clearIds={clearIds}
+                      clearIds={[]}
                       value={
                         inputValues['EducationHistory'][edu.id]
                           ?.qualificationArea
@@ -241,7 +193,7 @@ const Education = (props) => {
                   <Form.Group>
                     <SelectInputSubmit
                       id={item.key + edu.id}
-                      clearIds={clearIds}
+                      clearIds={[]}
                       value={item.options.filter(
                         (option) =>
                           option.value ===

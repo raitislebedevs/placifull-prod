@@ -1,24 +1,14 @@
 import { useState } from 'react';
-import { Row, Col, Form, Button, Spinner } from 'react-bootstrap';
+import { Row, Col, Form, Button } from 'react-bootstrap';
 import { CustomFormControl, SelectInputSubmit } from 'components/common';
 import { HiOutlineUsers } from 'react-icons/hi';
-import { RiSaveLine, RiDeleteBin5Line } from 'react-icons/ri';
-import { CurriculumVitaesService } from 'services';
+import { RiDeleteBin5Line } from 'react-icons/ri';
 import fields from './fields';
 import Datetime from 'react-datetime';
-import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
-import { get } from 'lodash-es';
 
 const WorkExperience = (props) => {
-  const {
-    t,
-    saveCv,
-    setsaveCv,
-    handleOnWorkExpierience,
-    expItems,
-    setExpItems,
-    inputValues,
-  } = props;
+  const { t, handleOnWorkExpierience, expItems, setExpItems, inputValues } =
+    props;
   const [clearIds, setClearIds] = useState([]);
   const workFields = fields(t);
 
@@ -50,34 +40,9 @@ const WorkExperience = (props) => {
 
   const getCurrentLength = (item) => {
     if (item) {
-      return 2000 - item.positionDescription.length;
+      return 2000 - item.positionDescription?.length;
     }
     return 2000;
-  };
-
-  const handleCvUpdates = async () => {
-    setsaveCv(true);
-    try {
-      let payload = {
-        WorkExpierience: inputValues?.WorkExpierience || null,
-      };
-
-      const { data } = await CurriculumVitaesService.UPDATE_ME(payload);
-      if (data) {
-        TostifyCustomContainer(
-          'success',
-          t('common:toast.messages.success'),
-          t('profile:toast.succes')
-        );
-      }
-    } catch (error) {
-      TostifyCustomContainer(
-        'error',
-        t('common:toast.messages.error'),
-        t('profile:toast.fail')
-      );
-    }
-    setsaveCv(false);
   };
 
   return (
@@ -87,28 +52,6 @@ const WorkExperience = (props) => {
           <div>
             <HiOutlineUsers />{' '}
             {t('profile:right-content.cv.sections.expierience.title')}
-            {saveCv ? (
-              <Button
-                variant="outline-primary"
-                className="header-wrapper__save btn-sm"
-              >
-                <Spinner
-                  as="span"
-                  animation="border"
-                  variant="danger"
-                  size="sm"
-                  role="status"
-                />
-              </Button>
-            ) : (
-              <Button
-                onClick={() => handleCvUpdates()}
-                variant="outline-primary"
-                className="header-wrapper__save btn-sm"
-              >
-                <RiSaveLine />
-              </Button>
-            )}
           </div>
         </Col>
         <Col lg={6} className="wrapper__body--btn__col">

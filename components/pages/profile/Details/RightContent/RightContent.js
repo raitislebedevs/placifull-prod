@@ -24,7 +24,15 @@ const RightContent = (props) => {
     },
     {
       key: 'cv',
-      component: <CV user={user} t={t} isMobile={isMobile} isSmall={isSmall} />,
+      component: (
+        <CV
+          user={user}
+          t={t}
+          isMobile={isMobile}
+          isSmall={isSmall}
+          currentTab={currentTab}
+        />
+      ),
     },
 
     {

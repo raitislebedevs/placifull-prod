@@ -1,62 +1,14 @@
 import { useEffect, useState } from 'react';
-import { Row, Col, Form, Button, Spinner } from 'react-bootstrap';
+import { Row, Col, Form, Button } from 'react-bootstrap';
 import { CustomFormControl, SelectInputSubmit } from 'components/common';
-import { RiSaveLine } from 'react-icons/ri';
 import { HiOutlineUsers } from 'react-icons/hi';
 import fields from './fields';
 import Datetime from 'react-datetime';
-import { CurriculumVitaesService } from 'services';
-import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 
 const PersonalDetails = (props) => {
-  const { t, handleOnChange, inputValues, personalDetail, saveCv, setsaveCv } =
-    props;
+  const { t, handleOnChange, inputValues, personalDetail } = props;
   const inputFields = fields(t);
-  const [clearIds, setClearIds] = useState([]);
   const [isCVPublished, setIsCVPublished] = useState(inputValues.isPublished);
-
-  const handleCvUpdates = async () => {
-    setsaveCv(true);
-
-    console.log(inputValues.isPublished);
-    try {
-      let payload = {
-        PersonalDetails: {
-          cvFirstName: inputValues?.cvFirstName || null,
-          cvLasttName: inputValues?.cvLasttName || null,
-          cvPhoneNumber: inputValues?.cvPhoneNumber || null,
-          cvProfession: inputValues?.cvProfession || null,
-          aboutMe: inputValues?.aboutMe || null,
-          cvPersonalEmail: inputValues?.cvPersonalEmail || null,
-          country: inputValues?.country || null,
-          state: inputValues?.state || null,
-          city: inputValues?.city || null,
-          birthDay: inputValues?.birthDay || null,
-          gender: inputValues?.gender || null,
-          showAge: inputValues?.showAge || null,
-        },
-        published: inputValues?.isPublished || false,
-      };
-
-      console.log(payload);
-      //Here we actually send the Payload to Update_me Function, which is stored in
-      const { data } = await CurriculumVitaesService.UPDATE_ME(payload);
-      if (data) {
-        TostifyCustomContainer(
-          'success',
-          t('common:toast.messages.success'),
-          t('profile:toast.succes')
-        );
-      }
-    } catch (error) {
-      TostifyCustomContainer(
-        'error',
-        t('common:toast.messages.error'),
-        t('profile:toast.fail')
-      );
-    }
-    setsaveCv(false);
-  };
 
   useEffect(() => {
     let payload = { id: 'isPublished', value: isCVPublished };
@@ -79,28 +31,6 @@ const PersonalDetails = (props) => {
           <div>
             <HiOutlineUsers />{' '}
             {t('profile:right-content.cv.sections.personal-details.form.title')}
-            {saveCv ? (
-              <Button
-                variant="outline-primary"
-                className="header-wrapper__save btn-sm"
-              >
-                <Spinner
-                  as="span"
-                  animation="border"
-                  variant="danger"
-                  size="sm"
-                  role="status"
-                />
-              </Button>
-            ) : (
-              <Button
-                onClick={() => handleCvUpdates()}
-                variant="outline-primary"
-                className="header-wrapper__save btn-sm"
-              >
-                <RiSaveLine />
-              </Button>
-            )}
             {isCVPublished ? (
               <Button
                 variant="success"
@@ -170,7 +100,7 @@ const PersonalDetails = (props) => {
                 <Form.Group>
                   <SelectInputSubmit
                     id={item.key}
-                    clearIds={clearIds}
+                    clearIds={[]}
                     value={item.options.filter(
                       (option) => option.value === inputValues[item.key]
                     )}

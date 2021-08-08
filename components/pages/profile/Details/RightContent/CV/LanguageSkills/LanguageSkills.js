@@ -1,24 +1,13 @@
-import { useState } from 'react';
 import { Row, Col, Form, Button, Spinner } from 'react-bootstrap';
-import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import { CustomFormControl, SelectInputSubmit } from 'components/common';
-import { RiSaveLine, RiDeleteBin5Line } from 'react-icons/ri';
+import { RiDeleteBin5Line } from 'react-icons/ri';
 import { HiOutlineUsers } from 'react-icons/hi';
-import { CurriculumVitaesService } from 'services';
 import fields from './fields';
 
 const LanguageSkills = (props) => {
-  const {
-    t,
-    lanItems,
-    saveCv,
-    setsaveCv,
-    setLanItems,
-    inputValues,
-    handleOnLanguageSkills,
-  } = props;
+  const { t, lanItems, setLanItems, inputValues, handleOnLanguageSkills } =
+    props;
   const langFields = fields(t);
-  const [clearIds, setClearIds] = useState([]);
 
   const addItem = () => {
     if (lanItems.length >= 10) return;
@@ -46,27 +35,6 @@ const LanguageSkills = (props) => {
     });
   };
 
-  const handleCvUpdates = async () => {
-    setsaveCv(true);
-    try {
-      let payload = {
-        LanguageSkiills: inputValues?.LanguageSkiills || null,
-      };
-
-      const { data } = await CurriculumVitaesService.UPDATE_ME(payload);
-      if (data) {
-        TostifyCustomContainer(
-          'success',
-          t('common:toast.messages.success'),
-          t('profile:toast.succes')
-        );
-      }
-    } catch (error) {
-      TostifyCustomContainer('error', t('common:toast.messages.error'), error);
-    }
-    setsaveCv(false);
-  };
-
   return (
     <div className="wrapper__body">
       <Row className="wrapper__body--header ">
@@ -74,28 +42,6 @@ const LanguageSkills = (props) => {
           <div>
             <HiOutlineUsers />{' '}
             {t('profile:right-content.cv.sections.languages.title')}
-            {saveCv ? (
-              <Button
-                variant="outline-primary"
-                className="header-wrapper__save btn-sm"
-              >
-                <Spinner
-                  as="span"
-                  animation="border"
-                  variant="danger"
-                  size="sm"
-                  role="status"
-                />
-              </Button>
-            ) : (
-              <Button
-                onClick={() => handleCvUpdates()}
-                variant="outline-primary"
-                className="header-wrapper__save btn-sm"
-              >
-                <RiSaveLine />
-              </Button>
-            )}
           </div>
         </Col>
         <Col lg={6} className="wrapper__body--btn__col">
@@ -187,7 +133,7 @@ const LanguageSkills = (props) => {
                   <Form.Group>
                     <SelectInputSubmit
                       id={item.key + edu.id}
-                      clearIds={clearIds}
+                      clearIds={[]}
                       value={item.options.filter(
                         (option) =>
                           option.value ===

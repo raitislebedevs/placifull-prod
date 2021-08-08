@@ -5,7 +5,6 @@ import { privateRouteMap, PrivateRoute } from 'components/PrivateRoute';
 import { connect } from 'react-redux';
 import compose from 'recompose/compose';
 import { useEffect, useState } from 'react';
-import { set } from 'lodash';
 
 const Profile = (props) => {
   const { t } = props;

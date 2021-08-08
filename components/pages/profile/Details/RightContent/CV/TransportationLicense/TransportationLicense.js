@@ -1,17 +1,13 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Row, Col, Form, Button, Spinner } from 'react-bootstrap';
 import { CustomFormControl, SelectInputSubmit } from 'components/common';
 import { HiOutlineUsers } from 'react-icons/hi';
-import { RiSaveLine, RiDeleteBin5Line } from 'react-icons/ri';
-import { CurriculumVitaesService } from 'services';
+import { RiDeleteBin5Line } from 'react-icons/ri';
 import fields from './fields';
-import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 
 const TransportationLicense = (props) => {
   const {
     t,
-    saveCv,
-    setsaveCv,
     inputValues,
     licenseItems,
     setLicenseItems,
@@ -46,31 +42,6 @@ const TransportationLicense = (props) => {
     });
   };
 
-  const handleCvUpdates = async () => {
-    setsaveCv(true);
-    try {
-      let payload = {
-        TransportLicenses: inputValues?.TransportLicenses || null,
-      };
-
-      const { data } = await CurriculumVitaesService.UPDATE_ME(payload);
-      if (data) {
-        TostifyCustomContainer(
-          'success',
-          t('common:toast.messages.success'),
-          t('profile:toast.succes')
-        );
-      }
-    } catch (error) {
-      TostifyCustomContainer(
-        'error',
-        t('common:toast.messages.error'),
-        t('profile:toast.fail')
-      );
-    }
-    setsaveCv(false);
-  };
-
   return (
     <div className="wrapper__body">
       <Row className="wrapper__body--header ">
@@ -78,28 +49,6 @@ const TransportationLicense = (props) => {
           <div>
             <HiOutlineUsers />{' '}
             {t('profile:right-content.cv.sections.licenses.title')}
-            {saveCv ? (
-              <Button
-                variant="outline-primary"
-                className="header-wrapper__save btn-sm"
-              >
-                <Spinner
-                  as="span"
-                  animation="border"
-                  variant="danger"
-                  size="sm"
-                  role="status"
-                />
-              </Button>
-            ) : (
-              <Button
-                onClick={() => handleCvUpdates()}
-                variant="outline-primary"
-                className="header-wrapper__save btn-sm"
-              >
-                <RiSaveLine />
-              </Button>
-            )}
           </div>
         </Col>
         <Col lg={4} className="wrapper__body--btn__col">

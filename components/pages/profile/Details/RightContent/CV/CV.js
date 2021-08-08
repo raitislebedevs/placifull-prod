@@ -14,13 +14,59 @@ import { FaEye } from 'react-icons/fa';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import { CurriculumVitaesService } from 'services';
 import { CurriculamVitaes, CurrencyInput } from 'components/common';
+import { useRouter } from 'next/router';
 
 const CV = (props) => {
   const { t, user, isSmall } = props;
+  const router = useRouter();
   const [active, setActive] = useState('personalDetails');
   const [curriculumVitaes, setCurriculumVitaes] = useState(
     user.curriculumVitae
   );
+  // CV component states
+  const [education, setEducation] = useState([]);
+  const [items, setItems] = useState([
+    {
+      id: 0,
+    },
+  ]);
+  const [expierience, setExpierience] = useState([]);
+  const [expItems, setExpItems] = useState([
+    {
+      id: 0,
+    },
+  ]);
+  const [languages, setLanguages] = useState([]);
+  const [lanItems, setLanItems] = useState([
+    {
+      id: 0,
+    },
+  ]);
+
+  const [pcSkills, setPcSkills] = useState([]);
+  const [pcItems, setPcItems] = useState([
+    {
+      id: 0,
+    },
+  ]);
+
+  const [transportLicense, setTransportLicense] = useState([]);
+  const [licenseItems, setLicenseItems] = useState([
+    {
+      id: 0,
+    },
+  ]);
+
+  const [expectation, setExpectation] = useState([]);
+  const [workExpItems, setWorkExpItems] = useState([
+    {
+      id: 0,
+    },
+  ]);
+
+  //Action State
+  const [cvModal, setCvModal] = useState(false);
+
   const tabFieldInput = tabFields(t);
   //Initilizing values
   const personalDetail = curriculumVitaes?.PersonalDetails;
@@ -74,51 +120,8 @@ const CV = (props) => {
 
   useEffect(() => {
     getcv(user?.curriculumVitae?.id);
+    initializeValues();
   }, []);
-
-  // CV component states
-  const [education, setEducation] = useState([]);
-  const [items, setItems] = useState([
-    {
-      id: 0,
-    },
-  ]);
-  const [expierience, setExpierience] = useState([]);
-  const [expItems, setExpItems] = useState([
-    {
-      id: 0,
-    },
-  ]);
-  const [languages, setLanguages] = useState([]);
-  const [lanItems, setLanItems] = useState([
-    {
-      id: 0,
-    },
-  ]);
-
-  const [pcSkills, setPcSkills] = useState([]);
-  const [pcItems, setPcItems] = useState([
-    {
-      id: 0,
-    },
-  ]);
-
-  const [transportLicense, setTransportLicense] = useState([]);
-  const [licenseItems, setLicenseItems] = useState([
-    {
-      id: 0,
-    },
-  ]);
-
-  const [expectation, setExpectation] = useState([]);
-  const [workExpItems, setWorkExpItems] = useState([
-    {
-      id: 0,
-    },
-  ]);
-
-  //Action State
-  const [cvModal, setCvModal] = useState(false);
 
   const handleOnChange = (event) => {
     const value = event?.target?.value ?? event?.value ?? event;
@@ -127,7 +130,7 @@ const CV = (props) => {
   };
 
   //Education Initiliazier.
-  useEffect(() => {
+  const initializeValues = () => {
     if (educationDetail?.length) {
       setEducation(educationDetail);
       let initItems = [];
@@ -181,7 +184,7 @@ const CV = (props) => {
       }
       setWorkExpItems(initItems);
     }
-  }, []);
+  };
 
   const handleOnEducationHistory = (event) => {
     const value = event?.target?.value ?? event?.value ?? event;
@@ -389,6 +392,9 @@ const CV = (props) => {
           t('common:toast.messages.success'),
           t('profile:toast.succes')
         );
+        setTimeout(() => {
+          router.reload(window.location.pathname);
+        }, 500);
       }
     } catch (error) {
       TostifyCustomContainer('error', t('common:toast.messages.error'), error);
@@ -414,7 +420,7 @@ const CV = (props) => {
             <FaEye /> {t('profile:overview.button-label.preview')}
           </div>
         </Col>
-        <Col lg={3} md={6} sm={12}>
+        <Col lg={3} md={6} sm={6} xs={6}>
           <Form.Group>
             <CurrencyInput
               handleOnChange={handleOnChange}
@@ -425,6 +431,29 @@ const CV = (props) => {
             />
           </Form.Group>
         </Col>
+        {isSmall && (
+          <Col lg={3} md={6} sm={6} xs={6}>
+            {saveCv ? (
+              <div className="save__all__button">
+                <RiSaveLine />{' '}
+                <Spinner
+                  as="span"
+                  animation="border"
+                  variant="danger"
+                  size="sm"
+                  role="status"
+                />
+              </div>
+            ) : (
+              <div
+                onClick={() => handleCvUpdates()}
+                className="save__all__button"
+              >
+                <RiSaveLine /> {t('profile:overview.button-label.save-all')}
+              </div>
+            )}
+          </Col>
+        )}
       </Row>
       {!isSmall && (
         <Row className="right-content__cv--header">

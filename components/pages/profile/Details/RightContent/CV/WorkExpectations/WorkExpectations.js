@@ -1,10 +1,8 @@
 import { useState } from 'react';
-import { Row, Col, Form, Button, Spinner } from 'react-bootstrap';
-import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
+import { Row, Col, Form, Button } from 'react-bootstrap';
 import { CustomFormControl, SelectInputSubmit } from 'components/common';
-import { RiSaveLine, RiDeleteBin5Line } from 'react-icons/ri';
+import { RiDeleteBin5Line } from 'react-icons/ri';
 import { HiOutlineUsers } from 'react-icons/hi';
-import { CurriculumVitaesService } from 'services';
 import fields from './fields';
 import NumberFormat from 'react-number-format';
 import guidGenerator from 'utils/guidGenerator';
@@ -12,8 +10,6 @@ import guidGenerator from 'utils/guidGenerator';
 const WorkExpectations = (props) => {
   const {
     t,
-    saveCv,
-    setsaveCv,
     inputValues,
     workExpItems,
     setWorkExpItems,
@@ -50,31 +46,6 @@ const WorkExpectations = (props) => {
     });
   };
 
-  const handleCvUpdates = async () => {
-    setsaveCv(true);
-    try {
-      let payload = {
-        WorkExpectations: inputValues?.WorkExpectations || null,
-      };
-
-      const { data } = await CurriculumVitaesService.UPDATE_ME(payload);
-      if (data) {
-        TostifyCustomContainer(
-          'success',
-          t('common:toast.messages.success'),
-          t('profile:toast.succes')
-        );
-      }
-    } catch (error) {
-      TostifyCustomContainer(
-        'error',
-        t('common:toast.messages.error'),
-        t('profile:toast.fail')
-      );
-    }
-    setsaveCv(false);
-  };
-
   return (
     <div className="wrapper__body">
       <Row className="wrapper__body--header ">
@@ -82,28 +53,6 @@ const WorkExpectations = (props) => {
           <div>
             <HiOutlineUsers />{' '}
             {t('profile:right-content.cv.sections.expectations.title')}
-            {saveCv ? (
-              <Button
-                variant="outline-primary"
-                className="header-wrapper__save btn-sm"
-              >
-                <Spinner
-                  as="span"
-                  animation="border"
-                  variant="danger"
-                  size="sm"
-                  role="status"
-                />
-              </Button>
-            ) : (
-              <Button
-                onClick={() => handleCvUpdates()}
-                variant="outline-primary"
-                className="header-wrapper__save btn-sm"
-              >
-                <RiSaveLine />
-              </Button>
-            )}
           </div>
         </Col>
         <Col lg={6} className="wrapper__body--btn__col">
