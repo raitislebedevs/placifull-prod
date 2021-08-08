@@ -143,6 +143,7 @@ const TransportationLicense = (props) => {
                           },
                         })
                       }
+                      maxLength={'33'}
                       type="text"
                       label={item.label}
                       autoComplete="current-text"
@@ -175,6 +176,7 @@ const TransportationLicense = (props) => {
                           },
                         })
                       }
+                      maxLength={'33'}
                       type="text"
                       label={item.label}
                       autoComplete="current-text"

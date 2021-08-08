@@ -7,6 +7,7 @@ import { CurriculumVitaesService } from 'services';
 import fields from './fields';
 import Datetime from 'react-datetime';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
+import { get } from 'lodash-es';
 
 const WorkExperience = (props) => {
   const {
@@ -45,6 +46,13 @@ const WorkExperience = (props) => {
       id,
       property: 'WorkExpierience',
     });
+  };
+
+  const getCurrentLength = (item) => {
+    if (item) {
+      return 2000 - item.positionDescription.length;
+    }
+    return 2000;
   };
 
   const handleCvUpdates = async () => {
@@ -142,6 +150,7 @@ const WorkExperience = (props) => {
                           },
                         })
                       }
+                      maxLength={'33'}
                       type="text"
                       label={item.label}
                       autoComplete="current-text"
@@ -176,6 +185,10 @@ const WorkExperience = (props) => {
                           },
                         })
                       }
+                      valueLength={getCurrentLength(
+                        inputValues['WorkExpierience'][edu.id]
+                      )}
+                      maxLength={'2000'}
                       type="text"
                       style={{ resize: 'vertical', height: 'auto' }}
                       label={item.label}

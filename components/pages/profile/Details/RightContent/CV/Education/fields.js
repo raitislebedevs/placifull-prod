@@ -5,20 +5,23 @@ const fields = (t) => [
     key: 'schoolName',
     type: 'text',
     label: t('profile:right-content.cv.sections.education.accordion.school'),
+    maxLength: '45',
   },
   {
     key: 'country',
     type: 'text',
     label: t('profile:right-content.cv.sections.education.accordion.country'),
+    maxLength: '33',
   },
   {
     key: 'avarageGrade',
     type: 'text',
     label: t('profile:right-content.cv.sections.education.accordion.grade'),
+    maxLength: '15',
   },
   {
     key: 'qualification',
-    type: 'select',
+    maxLength: '15',
     label: t(
       'profile:right-content.cv.sections.education.accordion.qualification.title'
     ),
@@ -84,6 +87,7 @@ const fields = (t) => [
   {
     key: 'studyArea',
     type: 'textHalf',
+    maxLength: '42',
     label: t(
       'profile:right-content.cv.sections.education.accordion.study-area'
     ),

@@ -160,6 +160,7 @@ const Education = (props) => {
                           },
                         })
                       }
+                      maxLength={item?.maxLength}
                       type="text"
                       label={item.label}
                       autoComplete="current-text"
@@ -171,7 +172,7 @@ const Education = (props) => {
 
             if (item.type === 'textHalf') {
               return (
-                <Col lg={6} md={6} sm={12} key={item.key + edu.id}>
+                <Col lg={6} md={6} sm={6} xs={12} key={item.key + edu.id}>
                   <Form.Group>
                     <CustomFormControl
                       id={item.key + edu.id}
@@ -193,6 +194,7 @@ const Education = (props) => {
                           },
                         })
                       }
+                      maxLength={item?.maxLength}
                       type="text"
                       label={item.label}
                       autoComplete="current-text"
@@ -203,7 +205,7 @@ const Education = (props) => {
             }
             if (item.type === 'selectMulti') {
               return (
-                <Col lg={12} md={12} sm={12} key={item.key + edu.id}>
+                <Col lg={6} md={6} sm={12} key={item.key + edu.id}>
                   <Form.Group>
                     <SelectInputSubmit
                       id={item.key + edu.id}
@@ -223,6 +225,7 @@ const Education = (props) => {
                           value: event,
                         });
                       }}
+                      maxLength={10}
                       isSearchable={true}
                       isMulti={item?.isMulti}
                       options={item.options}

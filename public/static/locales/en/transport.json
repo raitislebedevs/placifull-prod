@@ -27,7 +27,7 @@
           }
         },
         "millage": {
-          "label": "Distance",
+          "label": "Mileage",
           "items": {
             "from": "From: 0",
             "to": "To: 9,999,999"

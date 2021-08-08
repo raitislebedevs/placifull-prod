@@ -139,6 +139,7 @@ const LanguageSkills = (props) => {
                           },
                         })
                       }
+                      maxLength={'42'}
                       type="text"
                       label={item.label}
                       autoComplete="current-text"
@@ -171,6 +172,7 @@ const LanguageSkills = (props) => {
                           },
                         })
                       }
+                      maxLength={'57'}
                       type="text"
                       label={item.label}
                       autoComplete="current-text"

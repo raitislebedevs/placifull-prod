@@ -248,7 +248,7 @@ const CheckoutForm = (props) => {
             <Form.Group>
               <CustomFormControl
                 maxLength={20}
-                label={'Referral Code'}
+                label={t(`stripe:labels.referral`)}
                 id="refferalCode"
                 type="text"
                 value={refferal}

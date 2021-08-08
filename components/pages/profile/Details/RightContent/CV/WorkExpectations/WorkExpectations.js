@@ -147,6 +147,7 @@ const WorkExpectations = (props) => {
                           },
                         })
                       }
+                      maxLength={'57'}
                       type="text"
                       label={item.label}
                       autoComplete="current-text"
@@ -232,6 +233,7 @@ const WorkExpectations = (props) => {
                           },
                         });
                       }}
+                      maxLength={10}
                       isSearchable={true}
                       options={item.options}
                       placeholder={item.label}
@@ -280,6 +282,7 @@ const WorkExpectations = (props) => {
                           },
                         });
                       }}
+                      maxLength={7}
                       isSearchable={true}
                       isMulti={item?.isMulti}
                       options={item.options}

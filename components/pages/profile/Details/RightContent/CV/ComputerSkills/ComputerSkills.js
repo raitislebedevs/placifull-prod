@@ -143,6 +143,7 @@ const ComputerSkills = (props) => {
                           },
                         })
                       }
+                      maxLength={'42'}
                       type="text"
                       label={item.label}
                       autoComplete="current-text"
@@ -244,6 +245,7 @@ const ComputerSkills = (props) => {
                           },
                         })
                       }
+                      maxLength={'57'}
                       type="text"
                       label={item.label}
                       autoComplete="current-text"

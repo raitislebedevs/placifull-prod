@@ -25,7 +25,7 @@
     "model": "Transport Model",
     "year": "Year",
     "price": "Price",
-    "distance": "Distance",
+    "distance": "Mileage",
     "max-speed": "Max Speed",
     "fuel-economy": "Fuel Economy",
     "seats": "Seats",

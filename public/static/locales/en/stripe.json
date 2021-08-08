@@ -30,6 +30,7 @@
     "quantity": "Qty.",
     "name": "Name",
     "email": "Email",
-    "phone": "Phone Nr."
+    "phone": "Phone Nr.",
+    "referral": "Referral Code"
   }
 }
