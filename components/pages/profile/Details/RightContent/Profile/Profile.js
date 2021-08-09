@@ -109,7 +109,10 @@ const Profile = (props) => {
         if (!element) return;
 
         await VacancyListingService.DELETE(element.id);
-        deleteImages(element.listingGallery);
+        if (element?.listingGallery) deleteImages(element.listingGallery);
+
+        if (element?.companyLogoy)
+          await FileServices.DELETE_FILE(element.companyLogo.id);
       });
     } catch {
       console.log('Vacancies were not deleted');
@@ -122,7 +125,6 @@ const Profile = (props) => {
 
       subscription?.forEach(async (element) => {
         if (!element) return;
-
         await VacancyListingService.DELETE(element.id);
       });
     } catch {

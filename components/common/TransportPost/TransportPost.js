@@ -168,7 +168,7 @@ const TransportSubmit = (props) => {
 
       getSubscriptions(user.id);
       setTimeout(() => {
-        //router.push(`/transport/${listingId}`);
+        router.push(`/transport/${listingId}`);
       }, 1500);
     } catch (e) {
       TostifyCustomContainer(
