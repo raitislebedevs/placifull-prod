@@ -12,6 +12,9 @@
         },
         "code": {
           "provide": "Unauthorised Access!"
+        },
+        "email": {
+          "confirmed": "Please confirm your Email address"
         }
       }
     }

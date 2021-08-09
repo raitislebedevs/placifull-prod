@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 import imageCompression from 'browser-image-compression';
 import { FileServices, UserInfoServices } from 'services';
 import { setUser } from 'actions';
-import { DeleteModalAsk, SpinnerModal } from 'components/common';
+import { ModalAsk, SpinnerModal } from 'components/common';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import Subscriptions from 'services/subscriptions';
 import { ProfilePayment, StripeContainer } from 'components//common/index';
@@ -280,7 +280,7 @@ const Overview = (props) => {
 
   return (
     <div className="overview-container">
-      <DeleteModalAsk
+      <ModalAsk
         isShowDeleteModal={isShowDeleteModal}
         handleCloseDeleteModal={handleCloseDeleteModal}
         handleDelete={handleDeleteAvatar}

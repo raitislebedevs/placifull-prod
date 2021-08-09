@@ -8,7 +8,7 @@ import { RiEye2Line } from 'react-icons/ri';
 import Rating from 'react-rating';
 import { TransportListingService } from 'services';
 import { getExpiryCount } from 'utils/standaloneFunctions';
-import { DeleteModalAsk } from 'components/common';
+import { ModalAsk } from 'components/common';
 import useSubscriptions from 'hooks/useSubscriptions';
 import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
 
@@ -131,7 +131,7 @@ const Transport = (props) => {
 
   return (
     <div className="right-content__transport">
-      <DeleteModalAsk
+      <ModalAsk
         isShowDeleteModal={isShowDeleteModal}
         handleCloseDeleteModal={handleCloseDeleteModal}
         handleDelete={handleDeleteListing}

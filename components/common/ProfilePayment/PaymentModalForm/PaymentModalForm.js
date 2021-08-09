@@ -6,9 +6,13 @@ import { CustomFormControl } from 'components/common';
 import { AiOutlineCheckCircle, AiFillCheckCircle } from 'react-icons/ai';
 import NumberFormat from 'react-number-format';
 import { userOwned } from './userOwned';
-import { purchaceChoise } from './purchaceChoise';
 import { userOwnedCV } from './userOwnedCV';
+
 import { purchaceChoiseCV } from './purchaceChoiseCV';
+import { jobsChoise } from './jobsChoise';
+import { transportChoice } from './transportChoice';
+import { realEstateChoise } from './realEstateChoise';
+
 import * as moment from 'node_modules/moment/moment';
 import {
   addDays,
@@ -63,12 +67,25 @@ const PaymentModalForm = (props) => {
   let userStack = {};
   let purchaseOptions = {};
 
-  if (plan == 'browserCv') {
-    userStack = userOwnedCV(t, subscriptions);
-    purchaseOptions = purchaceChoiseCV(t, subscriptions);
-  } else {
-    userStack = userOwned(t, subscriptions);
-    purchaseOptions = purchaceChoise(t, subscriptions);
+  switch (plan) {
+    case 'browserCv':
+      userStack = userOwnedCV(t, subscriptions);
+      purchaseOptions = purchaceChoiseCV(t, subscriptions);
+      break;
+    case 'realEstate':
+      userStack = userOwned(t, subscriptions);
+      purchaseOptions = realEstateChoise(t, subscriptions);
+      break;
+    case 'transport':
+      userStack = userOwned(t, subscriptions);
+      purchaseOptions = transportChoice(t, subscriptions);
+      break;
+    case 'jobs':
+      userStack = userOwned(t, subscriptions);
+      purchaseOptions = jobsChoise(t, subscriptions);
+      break;
+    default:
+      break;
   }
 
   const purchaseChange = (checked) => {

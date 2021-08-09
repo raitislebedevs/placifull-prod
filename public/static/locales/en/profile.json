@@ -390,5 +390,11 @@
     "percantage": "Percantage",
     "next": "Next Increase",
     "withdraw": "Withdraw"
+  },
+  "referral-modal": {
+    "body-text": "At the moment we process the withdraws manually. Please contact us and we will sort this out :)",
+    "header-text": "Information",
+    "submit-text": "Contact us",
+    "close-text": "Close"
   }
 }

@@ -8,7 +8,7 @@ export { default as CustomFormControl } from './CustomFormControl';
 export { default as AutoCompleteInput } from './AutoCompleteInput';
 export { default as JobCard } from './JobCard';
 export { default as TransportationCard } from './TransportationCard';
-export { default as DeleteModalAsk } from './DeleteModalAsk';
+export { default as ModalAsk } from './ModalAsk';
 export { default as SelectInputSubmit } from './SelectInputSubmit';
 export { default as ContactHours } from './ContactHours';
 export { default as SocialLinks } from './SocialLinks';
