@@ -2,7 +2,7 @@ import * as Yup from 'yup';
 
 const JobValidation = async (inputValues, t) => {
   let validationSchema = Yup.object().shape({
-    vacancyOption: Yup.string().required(t('validation:common.type')),
+    vacancyOption: Yup.string().required(t('validation:common.category')),
     contractType: Yup.string().required(t('validation:common.action')),
     workingTime: Yup.string().required(t('validation:common.condition')),
     jobCountry: Yup.string().required(t('validation:common.country')),

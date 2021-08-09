@@ -378,9 +378,9 @@ const RealEstatePost = (props) => {
         t={t}
       />
       <ListingPayment
+        handleDataSubmit={handleDataSubmit}
         setPaymentModal={setPaymentModal}
         dayCost={dayCostRealEstate}
-        handleDataSubmit={handleDataSubmit}
         handleSubmit={handleSubmit}
         paymentModal={paymentModal}
         plan={'realEstate'}
@@ -389,11 +389,11 @@ const RealEstatePost = (props) => {
       />
       <SpinnerModal show={isProcessing} onHide={() => setIsProcessing(false)} />
       <StripeContainer
-        handleDataSubmit={handleDataSubmit}
         show={isStripe}
         setIsStripe={setIsStripe}
         paymentDetails={paymentDetails}
         onHide={() => setIsStripe(false)}
+        handleDataSubmit={handleDataSubmit}
       />
     </div>
   );

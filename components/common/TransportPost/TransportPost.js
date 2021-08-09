@@ -10,7 +10,7 @@ import GeneralInformation from '../TransportForm/GeneralInformation';
 import DetailInformation from '../TransportForm/DetailInformation';
 import Gallery from '../TransportForm/Gallery';
 import Preview from '../TransportForm/Preview';
-import { ListingPayment, StripeContainer } from '../index';
+import { ListingPayment, SpinnerModal, StripeContainer } from '../index';
 import { dayCostTransport, defaultExpiryDays } from 'constants/listingDetails';
 import useSubscription from 'hooks/useSubscription';
 import usePostInputValues from 'hooks/usePostInputValues';
@@ -22,6 +22,7 @@ const TransportSubmit = (props) => {
   const [isStripe, setIsStripe] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [isPreview, setPreview] = useState(false);
+  const [isProcessing, setIsProcessing] = useState(false);
   const [paymentDetails, setPaymentDetails] = useState({});
   const [previewTransportModal, setPreviewTransportModal] = useState(false);
   const [addressPosition, setAddressPosition] = useState(null);
@@ -152,11 +153,14 @@ const TransportSubmit = (props) => {
     e.preventDefault();
 
     setPaymentDetails(paymentDetails);
-    setIsStripe(true);
+    if (paymentDetails.totalCost) setIsStripe(true);
   };
 
   const handleDataSubmit = async (e) => {
     e.preventDefault();
+
+    if (!paymentDetails.totalCost) setIsProcessing(true);
+
     setIsLoading(true);
     try {
       const listingId = await uploadListing();
@@ -164,7 +168,7 @@ const TransportSubmit = (props) => {
 
       getSubscriptions(user.id);
       setTimeout(() => {
-        router.push(`/transport/${listingId}`);
+        //router.push(`/transport/${listingId}`);
       }, 1500);
     } catch (e) {
       TostifyCustomContainer(
@@ -175,6 +179,7 @@ const TransportSubmit = (props) => {
       return false;
     }
     setIsLoading(false);
+    setIsProcessing(false);
     return true;
   };
 
@@ -351,26 +356,28 @@ const TransportSubmit = (props) => {
         </Button>
       </div>
       <Preview
+        t={t}
+        previewItem={previewItem}
         previewModal={previewTransportModal}
         setPreviewModal={setPreviewTransportModal}
-        previewItem={previewItem}
-        t={t}
       />
       <ListingPayment
-        handleSubmit={handleSubmit}
-        paymentModal={paymentModal}
-        setPaymentModal={setPaymentModal}
+        t={t}
         user={user}
         plan={'transport'}
         dayCost={dayCostTransport}
-        t={t}
-      />
-      <StripeContainer
+        handleSubmit={handleSubmit}
+        paymentModal={paymentModal}
+        setPaymentModal={setPaymentModal}
         handleDataSubmit={handleDataSubmit}
+      />
+      <SpinnerModal show={isProcessing} onHide={() => setIsProcessing(false)} />
+      <StripeContainer
         show={isStripe}
         setIsStripe={setIsStripe}
         paymentDetails={paymentDetails}
         onHide={() => setIsStripe(false)}
+        handleDataSubmit={handleDataSubmit}
       />
     </div>
   );

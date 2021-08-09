@@ -14,7 +14,8 @@
           "provide": "Unauthorised Access!"
         },
         "email": {
-          "confirmed": "Please confirm your Email address"
+          "confirmed": "You must confirm your email address",
+          "taken": "User with this email already exist"
         }
       }
     }

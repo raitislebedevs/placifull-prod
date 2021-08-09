@@ -10,7 +10,7 @@ import DetailInformation from '../JobForm/DetailInformation';
 import Preview from '../JobForm/Preview';
 import Gallery from '../JobForm/Gallery';
 import { dayCostJobs, defaultExpiryDays } from 'constants/listingDetails';
-import { ListingPayment, StripeContainer } from '../index';
+import { ListingPayment, SpinnerModal, StripeContainer } from '../index';
 import useSubscription from 'hooks/useSubscription';
 import useJobPost from 'hooks/useJobPost';
 import { useRouter } from 'next/router';
@@ -21,6 +21,7 @@ const JobPost = (props) => {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
   const [isStripe, setIsStripe] = useState(false);
+  const [isProcessing, setIsProcessing] = useState(false);
   const [paymentDetails, setPaymentDetails] = useState({});
   const [submitCurrency, setsubmitCurrency] = useState('');
   const [addressPosition, setAddressPosition] = useState(null);
@@ -146,11 +147,16 @@ const JobPost = (props) => {
     e.preventDefault();
 
     setPaymentDetails(paymentDetails);
-    setIsStripe(true);
+
+    setPaymentDetails(paymentDetails);
+    if (paymentDetails.totalCost) setIsStripe(true);
   };
 
-  const handleDataSubmit = async (e, paymentDetails) => {
+  const handleDataSubmit = async (e) => {
     e.preventDefault();
+
+    if (!paymentDetails.totalCost) setIsProcessing(true);
+
     setIsLoading(true);
     try {
       const listingId = await uploadListing();
@@ -163,7 +169,7 @@ const JobPost = (props) => {
       );
       getSubscriptions(user.id);
       setTimeout(() => {
-        router.push(`/job-search/${listingId}`);
+        // router.push(`/job-search/${listingId}`);
       }, 5000);
     } catch (e) {
       TostifyCustomContainer(
@@ -174,6 +180,8 @@ const JobPost = (props) => {
     }
 
     setIsLoading(false);
+    setIsProcessing(false);
+    return true;
   };
 
   const uploadListing = async () => {
@@ -357,20 +365,22 @@ const JobPost = (props) => {
         t={t}
       />
       <ListingPayment
+        handleDataSubmit={handleDataSubmit}
+        setPaymentModal={setPaymentModal}
         handleSubmit={handleSubmit}
         paymentModal={paymentModal}
-        setPaymentModal={setPaymentModal}
-        user={user}
-        plan={'jobs'}
         dayCost={dayCostJobs}
+        plan={'jobs'}
+        user={user}
         t={t}
       />{' '}
+      <SpinnerModal show={isProcessing} onHide={() => setIsProcessing(false)} />
       <StripeContainer
-        handleDataSubmit={handleDataSubmit}
         show={isStripe}
         setIsStripe={setIsStripe}
         paymentDetails={paymentDetails}
         onHide={() => setIsStripe(false)}
+        handleDataSubmit={handleDataSubmit}
       />
     </div>
   );
