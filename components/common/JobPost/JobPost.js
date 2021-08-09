@@ -198,7 +198,7 @@ const JobPost = (props) => {
         t('common:toast.messages.info'),
         t('common:toast.logging-required')
       );
-      //return;
+      return;
     }
     let validation = inputValues;
     validation.size = inputValues?.companyLogo?.size;
@@ -212,7 +212,7 @@ const JobPost = (props) => {
             errors[i]
           );
       }
-      //return;
+      return;
     }
 
     setPaymentModal(true);
