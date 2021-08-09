@@ -4,9 +4,23 @@ import PersonalInformation from './PersonalInformation';
 import ChangePassword from './ChangePassword';
 import { DeleteModalAsk } from 'components/common';
 import { useState } from 'react';
+import { logout } from 'actions';
 import RefferalInfo from './RefferalInfo';
+import {
+  RealEstateListingServices,
+  TransportListingService,
+  CurriculumVitaesService,
+  VacancyListingService,
+  RefferalServices,
+  UserInfoServices,
+  Subscriptions,
+  FileServices,
+  UserServices,
+} from 'services';
+import { sleep } from 'utils/standaloneFunctions';
+
 const Profile = (props) => {
-  const { t, user } = props;
+  const { t, user, dispatch } = props;
   const [isDeleting, setIsDeleting] = useState(false);
 
   const [isSowAccount, setIsShowAccount] = useState(false);
@@ -18,16 +32,112 @@ const Profile = (props) => {
     setIsShowAccount(true);
   };
 
-  const handleDeleteAccount = async () => {
-    setIsDeleting(true);
-    console.log('Account deleted');
-    await sleep(5000);
-    setIsDeleting(false);
-    setIsShowAccount(false);
+  const deleteImages = (element) => {
+    element.forEach(async (picture) => {
+      await FileServices.DELETE_FILE(picture.id);
+    });
   };
 
-  const sleep = (milliseconds) => {
-    return new Promise((resolve) => setTimeout(resolve, milliseconds));
+  const handleDeleteAccount = async () => {
+    setIsDeleting(true);
+
+    try {
+      if (user?.userInfo?.id) await UserInfoServices.DELETE(user?.userInfo.id);
+
+      if (user?.userInfo?.avatar?.id)
+        await FileServices.DELETE_FILE(user?.userInfo?.avatar.id);
+    } catch {
+      console.log('Failed to delete avatar or user info');
+    }
+
+    try {
+      if (user?.curriculumVitae?.id)
+        await CurriculumVitaesService.DELETE(user?.curriculumVitae.id);
+    } catch {
+      console.log('Failed to delete CV');
+    }
+
+    try {
+      if (user?.referralProgram?.id)
+        await RefferalServices.DELETE(user?.referralProgram.id);
+    } catch (error) {
+      console.log('Failed to delete refferals', error);
+    }
+
+    let response = {};
+    try {
+      response = await RealEstateListingServices.FIND({
+        user: user.id,
+      });
+      let realEstate = response?.data;
+      if (!realEstate) return;
+
+      realEstate?.forEach(async (element) => {
+        if (!element) return;
+        await RealEstateListingServices.DELETE(element.id);
+        deleteImages(element.listingGallery);
+      });
+    } catch {
+      console.log('Real estate were not deleted');
+    }
+
+    try {
+      response = await TransportListingService.FIND({
+        user: user.id,
+      });
+      let transport = response?.data;
+      if (!transport) return;
+
+      transport?.forEach(async (element) => {
+        if (!element) return;
+
+        await TransportListingService.DELETE(element.id);
+        deleteImages(element.listingGallery);
+      });
+    } catch {
+      console.log('Transport were not deleted');
+    }
+
+    try {
+      response = await VacancyListingService.FIND({
+        user: user.id,
+      });
+      let vacancy = response?.data;
+      if (!vacancy) return;
+
+      vacancy?.forEach(async (element) => {
+        if (!element) return;
+
+        await VacancyListingService.DELETE(element.id);
+        deleteImages(element.listingGallery);
+      });
+    } catch {
+      console.log('Vacancies were not deleted');
+    }
+
+    try {
+      response = await Subscriptions.FIND({ userId: user.id });
+      let subscription = response?.data;
+      if (!subscription) return;
+
+      subscription?.forEach(async (element) => {
+        if (!element) return;
+
+        await VacancyListingService.DELETE(element.id);
+      });
+    } catch {
+      console.log('Subscriptions were not deleted');
+    }
+
+    try {
+      await UserServices.DELETE(user.id);
+    } catch {
+      console.log('Main User was not deleted');
+    }
+    await sleep(2500);
+    dispatch(logout());
+    setIsDeleting(false);
+    setIsShowAccount(false);
   };
 
   return (

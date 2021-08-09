@@ -84,7 +84,8 @@
       "error": "Error"
     },
     "logout-success": "See you later!",
-    "bid-placed": "Bid was placed"
+    "bid-placed": "Bid was placed",
+    "your-referral": "Can not use your own referral code :) "
   },
 
   "location": {

@@ -5,6 +5,8 @@ import { StripeServiss } from 'services/index';
 import TostifyCustomContainer from '../TostifyCustomContainer/TostifyCustomContainer';
 import { Button, Container, Row, Col, Form } from 'react-bootstrap';
 import { CustomFormControl } from 'components/common';
+import compose from 'recompose/compose';
+import { connect } from 'react-redux';
 import RefferalServices from 'services/refferalServices';
 import { REFERRAL_INIT } from 'constants/referralValues';
 import { formatNumber } from 'utils/standaloneFunctions';
@@ -57,7 +59,7 @@ const ErrorMessage = ({ children }) => (
 );
 
 const CheckoutForm = (props) => {
-  const { t, handleDataSubmit, paymentDetails, setIsStripe } = props;
+  const { t, handleDataSubmit, paymentDetails, setIsStripe, user } = props;
   const stripe = useStripe();
   const elements = useElements();
   const [error, setError] = useState('');
@@ -148,6 +150,14 @@ const CheckoutForm = (props) => {
   };
 
   const processReferalCode = async () => {
+    if (refferal === user.referralProgram.referralCode) {
+      TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.success'),
+        t('common:toast.your-referral')
+      );
+      //return;
+    }
     try {
       let percentage = REFERRAL_INIT.START_PERCENTAGE;
       const filter = {
@@ -311,4 +321,11 @@ const CheckoutForm = (props) => {
   );
 };
 
-export default withTranslation(['stripe'])(CheckoutForm);
+export const mapStateToProps = (state) => ({
+  user: state.connectionReducer.user,
+});
+
+export default compose(
+  withTranslation(['stripe']),
+  connect(mapStateToProps)
+)(CheckoutForm);

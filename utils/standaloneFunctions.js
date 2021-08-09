@@ -78,3 +78,7 @@ export const itemColumnSize = (items) => {
 export const textColumnSize = (items) => {
   return items?.length === 1 ? 6 : 4;
 };
+
+export const sleep = (milliseconds) => {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
+};

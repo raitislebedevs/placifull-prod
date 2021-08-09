@@ -34,17 +34,13 @@ const BrowseCV = (props) => {
   let cvCount = 1;
 
   const handleOnChange = (event) => {
-    console.log(event);
     const value = event?.target?.value ?? event?.value ?? event;
     const id = event?.target?.id ?? event?.id;
     setInputValues({ ...inputValues, [id]: value });
-    console.log(inputValues);
   };
 
   const postMultiSelection = (event) => {
     var arrayValues = [];
-
-    console.log(event);
     event?.values.forEach((element) => {
       arrayValues.push(element?.value);
     });
@@ -177,6 +173,7 @@ const BrowseCV = (props) => {
                         values: event,
                       });
                     }}
+                    maxLength={7}
                     isSearchable={true}
                     isMulti={item?.isMulti}
                     options={item.options}

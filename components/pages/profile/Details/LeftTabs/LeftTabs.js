@@ -1,12 +1,10 @@
 import { FaUserTie } from 'react-icons/fa';
 import { useContext, useEffect, useState } from 'react';
-
 import {
   AiTwotoneFolderOpen,
   AiTwotoneCar,
   AiOutlineLogin,
 } from 'react-icons/ai';
-
 import { FcCancel } from 'react-icons/fc';
 import { GiModernCity, GiArchiveResearch } from 'react-icons/gi';
 import { MdPayment } from 'react-icons/md';

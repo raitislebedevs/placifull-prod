@@ -1,8 +1,6 @@
-import CoreServices from './coreServices'
-import { STATES } from '../constants'
+import CoreServices from './coreServices';
+import { STATES } from '../constants';
 
-class StateServices extends CoreServices {
+class StateServices extends CoreServices {}
 
-}
-
-export default new StateServices(STATES.BASE)
+export default new StateServices(STATES.BASE);
