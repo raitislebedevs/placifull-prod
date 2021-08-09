@@ -4,7 +4,6 @@ import { Row, Col, Button, Container, Spinner } from 'react-bootstrap';
 import { TransportationCard } from 'components/common';
 import Slider from 'react-slick';
 import { TransportListingService } from 'services';
-import { itemColumnSize, textColumnSize } from 'utils/standaloneFunctions';
 
 const TransportationSection = (props) => {
   const { t } = props;
@@ -80,8 +79,8 @@ const TransportationSection = (props) => {
                 xs={12}
                 sm={12}
                 md={12}
-                lg={textColumnSize(items)}
-                xl={textColumnSize(items)}
+                lg={8}
+                xl={8}
                 className="transportation-section__left"
               >
                 {isLoading ? (
@@ -106,13 +105,7 @@ const TransportationSection = (props) => {
                   </>
                 )}
               </Col>
-              <Col
-                xs={12}
-                sm={12}
-                md={12}
-                lg={itemColumnSize(items)}
-                xl={itemColumnSize(items)}
-              >
+              <Col xs={12} sm={12} md={12} lg={4} xl={4}>
                 <div className="transportation-section-title">
                   <span className="section-title__badge">
                     {t('transportation-section.badge')}

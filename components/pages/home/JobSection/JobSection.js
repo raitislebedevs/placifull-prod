@@ -78,13 +78,7 @@ const JobSection = (props) => {
         <div className="home-container__job-section">
           <Container>
             <Row className="align-items-center">
-              <Col
-                xs={12}
-                sm={12}
-                md={12}
-                lg={textColumnSize(items)}
-                xl={textColumnSize(items)}
-              >
+              <Col xs={12} sm={12} md={12} lg={4} xl={4}>
                 <div className="job-section__left">
                   <span className="left-badge">{t('job-section.badge')}</span>
                   <h4 className="left-title">{t('job-section.head.line-1')}</h4>
@@ -107,8 +101,8 @@ const JobSection = (props) => {
                 xs={12}
                 sm={12}
                 md={12}
-                lg={itemColumnSize(items)}
-                xl={itemColumnSize(items)}
+                lg={8}
+                xl={8}
                 className="job-section__right"
               >
                 {' '}
