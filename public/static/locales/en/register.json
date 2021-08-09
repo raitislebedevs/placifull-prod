@@ -17,13 +17,14 @@
       "first-name-required": "First name is required",
       "last-name-required": "Last name is required",
       "confirm-password-required": "Please confirm your password",
-      "accept-terms": "Accept Terms & Conditions is required"
+      "accept-terms": "Accept Terms & Conditions is required",
+      "password-not-match": "Passwords don't match"
     }
   },
   "or": "Or Signup With",
   "facebook": "Facebook",
   "google": "Google",
-  "account": "Already have an account ?",
+  "account": "Already have an account?",
   "sign-in": "Sign in",
   "success-text": "Register successfully."
 }

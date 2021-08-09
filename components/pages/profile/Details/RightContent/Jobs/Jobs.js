@@ -41,6 +41,12 @@ const Jobs = (props) => {
         },
       });
 
+      const count = await VacancyListingService.COUNT({
+        _where: {
+          user: user.id,
+        },
+      });
+
       setTotal(count.data);
       setItems(result.data);
       setIsLoading(false);

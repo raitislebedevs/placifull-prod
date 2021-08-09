@@ -14,7 +14,8 @@
   "incomplete": {
     "incomplete_cvc": "Your card's security code is incomplete.",
     "incomplete_expiry": "Your card's expiration date is incomplete.",
-    "incomplete_number": "Your card number is incomplete."
+    "incomplete_number": "Your card number is incomplete.",
+    "email_invalid": "Email is not valid"
   },
 
   "declined": {

@@ -25,7 +25,7 @@ const ResetPasswordForm = (props) => {
         t('common:toast.messages.success'),
         t('reset-password:success-text')
       );
-      setSuccessText('success-text');
+      setSuccessText(t('reset-password:success-text'));
       setTimeout(() => {
         router.push('/sign-in');
       }, 2000);

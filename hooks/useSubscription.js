@@ -36,7 +36,7 @@ const useSubscription = (id, area) => {
         },
         userId: id,
       };
-
+      console.log(payload);
       await Subscriptions.UPDATE(recordId, payload);
     } catch (e) {
       console.log(e.message);
