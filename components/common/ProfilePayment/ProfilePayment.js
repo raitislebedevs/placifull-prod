@@ -9,7 +9,6 @@ const ProfilePayment = (props) => {
   const { t, paymentModal, setPaymentModal, handleSubmit, user, profilePlan } =
     props;
   const [receiptModal, setReceiptModal] = useState(false);
-  const [plan, setPlan] = useState(profilePlan);
   const [paymentDetails, setPaymentDetails] = useState({
     purchacePrice: 0,
     purchasePlan: '',
@@ -33,7 +32,7 @@ const ProfilePayment = (props) => {
           setPaymentModal={setPaymentModal}
           setReceiptModal={setReceiptModal}
           user={user}
-          plan={plan}
+          plan={profilePlan}
           t={t}
         />
       </Modal>

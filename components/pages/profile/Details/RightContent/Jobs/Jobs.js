@@ -8,7 +8,7 @@ import Rating from 'react-rating';
 import { VacancyListingService } from 'services';
 import Link from 'next/link';
 import { formatNumber, getExpiryCount } from 'utils/standaloneFunctions';
-import { DeleteModalAsk } from 'components/common';
+import { ModalAsk } from 'components/common';
 import useSubscriptions from 'hooks/useSubscriptions';
 import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
 
@@ -108,7 +108,7 @@ const Jobs = (props) => {
 
   return (
     <div className="right-content__job">
-      <DeleteModalAsk
+      <ModalAsk
         isShowDeleteModal={isShowDeleteModal}
         handleCloseDeleteModal={handleCloseDeleteModal}
         handleDelete={handleDeleteListing}

@@ -85,7 +85,8 @@
     },
     "logout-success": "See you later!",
     "bid-placed": "Bid was placed",
-    "your-referral": "Can not use your own referral code :) "
+    "your-referral": "Can not use your own referral code :) ",
+    "minimal-withdraw": "Minimal amount to withdraw is 25 € "
   },
 
   "location": {

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Modal, Button, Spinner } from 'react-bootstrap';
 
-const DeleteModalAsk = (props) => {
+const ModalAsk = (props) => {
   const {
     isShowDeleteModal,
     handleCloseDeleteModal,
@@ -10,6 +10,7 @@ const DeleteModalAsk = (props) => {
     headerText,
     submitText,
     cancelText,
+    theme,
   } = props;
   const [isLoading, setIsLoading] = useState(false);
 
@@ -41,7 +42,7 @@ const DeleteModalAsk = (props) => {
           {cancelText}
         </Button>
         <Button
-          variant="primary"
+          variant={`${theme === 'green' ? 'success' : 'primary'}`}
           onClick={() => handleSubmit()}
           disabled={isLoading}
         >
@@ -59,4 +60,4 @@ const DeleteModalAsk = (props) => {
   );
 };
 
-export default DeleteModalAsk;
+export default ModalAsk;

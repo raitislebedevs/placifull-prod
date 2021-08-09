@@ -11,7 +11,7 @@ import Carousel from 'react-multi-carousel';
 import Link from 'node_modules/next/link';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import { getExpiryCount } from 'utils/standaloneFunctions';
-import { DeleteModalAsk } from 'components/common';
+import { ModalAsk } from 'components/common';
 import useSubscriptions from 'hooks/useSubscriptions';
 import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
 import { FileServices } from 'services';
@@ -138,7 +138,7 @@ const RealEstate = (props) => {
 
   return (
     <div className="right-content__real-estate">
-      <DeleteModalAsk
+      <ModalAsk
         isShowDeleteModal={isShowDeleteModal}
         handleCloseDeleteModal={handleCloseDeleteModal}
         handleDelete={handleDeleteListing}

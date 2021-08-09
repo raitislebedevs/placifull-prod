@@ -2,7 +2,7 @@ import { Button, Col } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import PersonalInformation from './PersonalInformation';
 import ChangePassword from './ChangePassword';
-import { DeleteModalAsk } from 'components/common';
+import { ModalAsk } from 'components/common';
 import { useState } from 'react';
 import { logout } from 'actions';
 import RefferalInfo from './RefferalInfo';
@@ -142,7 +142,7 @@ const Profile = (props) => {
 
   return (
     <>
-      <DeleteModalAsk
+      <ModalAsk
         isShowDeleteModal={isSowAccount}
         handleCloseDeleteModal={handleCloseDeleteAccountModal}
         handleDelete={handleDeleteAccount}

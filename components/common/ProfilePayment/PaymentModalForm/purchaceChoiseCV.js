@@ -1,12 +1,14 @@
+import { OTHERS, PERIOD, QUANTITY } from 'constants/purchasePrice';
+
 export const purchaceChoiseCV = (t, subscriptions) => [
   {
     key: 'activeSubscription',
     label: t('payment:payment-modal.browser-cv'),
-    quantity: 1,
-    price: 39.99,
-    dayCost: 0.09,
-    days: 365,
-    qtyCost: 29.99,
+    quantity: QUANTITY.QTY_BROWSERCV,
+    price: OTHERS.BROWSERCV,
+    dayCost: (OTHERS.BROWSERCV / PERIOD.YEARLY_DAYS).toFixed(2),
+    days: PERIOD.YEARLY_DAYS,
+    qtyCost: OTHERS.BROWSERCV,
     expiryDate: subscriptions?.subscriptionExpiryBrowserCV
       ? subscriptions?.subscriptionExpiryBrowserCV
       : new Date(),

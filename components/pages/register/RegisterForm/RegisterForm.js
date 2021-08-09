@@ -55,9 +55,9 @@ const RegisterForm = (props) => {
           t('register:success-text')
         );
         setTimeout(() => {
-          dispatch(loginSuccess(data?.user));
-          Cookies.set('access_token', data?.jwt);
-          router.push('/profile');
+          // dispatch(loginSuccess(data?.user));
+          // Cookies.set('access_token', data?.jwt);
+          router.push('/email-confirmation');
         }, 2000);
       }
       if (error) {

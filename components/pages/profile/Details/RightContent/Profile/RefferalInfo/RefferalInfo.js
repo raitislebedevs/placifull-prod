@@ -1,11 +1,39 @@
+import { ModalAsk } from 'components/common';
 import { REFERRAL_INIT } from 'constants/referralValues';
-import { Row, Col, Button, Spinner } from 'react-bootstrap';
+import { useState } from 'react';
+import { Row, Col, Button } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { formatNumber } from 'utils/standaloneFunctions';
+import { useRouter } from 'next/router';
+import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 
 const RefferalInfo = (props) => {
   const { t, user } = props;
   const { referralProgram } = user;
+  const router = useRouter();
+  const [isWithdrawModal, setIsWithdrawModal] = useState(false);
+
+  const handleWithdrawModal = () => {
+    setIsWithdrawModal(false);
+  };
+
+  const handleContactUs = async () => {
+    setIsWithdrawModal(false);
+    router.push('/contact');
+  };
+
+  const handleWithdraw = () => {
+    if (referralProgram?.amountEarned < 25) {
+      TostifyCustomContainer(
+        'info',
+        t('common:toast.messages.info'),
+        t('common:toast.minimal-withdraw')
+      );
+      return;
+    }
+
+    setIsWithdrawModal(true);
+  };
 
   return (
     <Col
@@ -58,8 +86,20 @@ const RefferalInfo = (props) => {
         </Col>
       </Row>
       <div className="withdraw_button">
-        <Button variant="success">{t('profile:reffaral.withdraw')}</Button>
+        <Button variant="success" onClick={() => handleWithdraw()}>
+          {t('profile:reffaral.withdraw')}
+        </Button>
       </div>
+      <ModalAsk
+        isShowDeleteModal={isWithdrawModal}
+        handleCloseDeleteModal={handleWithdrawModal}
+        handleDelete={handleContactUs}
+        bodyText={t('profile:referral-modal.body-text')}
+        headerText={t('profile:referral-modal.header-text')}
+        submitText={t('profile:referral-modal.submit-text')}
+        cancelText={t('profile:referral-modal.close-text')}
+        theme={'green'}
+      />
     </Col>
   );
 };
