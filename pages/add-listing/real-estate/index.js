@@ -3,11 +3,15 @@ import { withTranslation } from 'i18n';
 import { privateRouteMap, PrivateRoute } from 'components/PrivateRoute';
 import { connect } from 'react-redux';
 import compose from 'recompose/compose';
+import Head from 'next/head';
 
 const AddRealEstate = (props) => {
   const { t } = props;
   return (
     <div className="submit-container main-container">
+      <Head>
+        <title>Real Estate</title>
+      </Head>
       <hr />
       <RealEstateSubmit t={t} />
     </div>

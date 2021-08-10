@@ -6,6 +6,7 @@ import {
   SearchResultSection,
   BlogSection,
 } from 'components/pages/job-search';
+import Head from 'next/head';
 
 const JobSearch = (props) => {
   const [listSearchResult, setListSearchResult] = useState([]);
@@ -14,6 +15,9 @@ const JobSearch = (props) => {
   const { t } = props;
   return (
     <div className="job-search-container main-container">
+      <Head>
+        <title>Search Jobs</title>
+      </Head>
       <HeroSection
         t={t}
         setFilter={setFilter}

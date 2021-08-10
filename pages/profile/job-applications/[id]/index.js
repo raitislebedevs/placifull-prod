@@ -6,6 +6,7 @@ import { KanBanBoard } from 'components/common';
 import { resetServerContext } from 'react-beautiful-dnd';
 import { LoadingOverlay } from 'components/common';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 const KanBoard = (props, query) => {
   const { t, kanBanItems, kanBanId, kanBanListing } = props;
@@ -23,14 +24,19 @@ const KanBoard = (props, query) => {
   }
 
   return (
-    <KanBanBoard
-      t={t}
-      id={kanBanId}
-      kanBanListing={kanBanListing}
-      kanBanItems={items}
-      companyLogo={kanBanListing?.companyLogo?.url}
-      setKanBanItems={setItems}
-    />
+    <div>
+      <Head>
+        <title>Applicant Board</title>
+      </Head>
+      <KanBanBoard
+        t={t}
+        id={kanBanId}
+        kanBanListing={kanBanListing}
+        kanBanItems={items}
+        companyLogo={kanBanListing?.companyLogo?.url}
+        setKanBanItems={setItems}
+      />
+    </div>
   );
 };
 

@@ -7,11 +7,15 @@ import {
   ForgotPasswordForm,
   ForgotPasswordImage,
 } from 'components/pages/forgot-password';
+import Head from 'next/head';
 
 const ForgotPassword = (props) => {
   const { t } = props;
   return (
     <div className="forgot-password-container">
+      <Head>
+        <title>It Happens To Best</title>
+      </Head>
       <Row>
         <ForgotPasswordForm t={t} />
         <ForgotPasswordImage t={t} />

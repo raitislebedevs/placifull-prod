@@ -4,11 +4,15 @@ import { privateRouteMap, PrivateRoute } from 'components/PrivateRoute';
 import { connect } from 'react-redux';
 import compose from 'recompose/compose';
 import PropTypes from 'prop-types';
+import Head from 'next/head';
 
 const AddTransport = (props) => {
   const { t } = props;
   return (
     <div className="submit-container main-container">
+      <Head>
+        <title>Transports</title>
+      </Head>
       <hr />
       <TransportSubmit t={t} />
     </div>

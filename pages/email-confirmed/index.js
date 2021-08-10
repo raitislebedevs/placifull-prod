@@ -6,11 +6,15 @@ import {
   EmailConfigurationForm,
   EmailConfirmationImage,
 } from 'components/pages/email-confirmation';
+import Head from 'next/head';
 
 const ForgotPassword = (props) => {
   const { t } = props;
   return (
     <div className="email-confirmation-container">
+      <Head>
+        <title>Email Confirmation</title>
+      </Head>
       <Row>
         <EmailConfigurationForm t={t} />
         <EmailConfirmationImage t={t} />
