@@ -1,11 +1,19 @@
 import { withTranslation } from 'i18n';
 import PropTypes from 'prop-types';
+import Head from 'next/head';
 import { HeroTerms, VotingBoard } from 'components/pages/voting-board';
 
 const UserBoard = (props) => {
   const { t } = props;
   return (
     <div className="termsPage-container main-container">
+      <meta
+        name="keywords"
+        content="voting board, balsošanas dēlis, user imput, user suggestions, lietotāja ieteikumi"
+      />
+      <Head>
+        <title>Voting Board</title>
+      </Head>
       <HeroTerms t={t} />
       <VotingBoard t={t} />
     </div>

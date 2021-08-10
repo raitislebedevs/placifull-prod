@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { privateRouteMap, PrivateRoute } from 'components/PrivateRoute';
 import { connect } from 'react-redux';
 import compose from 'recompose/compose';
+import Head from 'next/head';
 import { useEffect, useState } from 'react';
 
 const Profile = (props) => {
@@ -37,6 +38,9 @@ const Profile = (props) => {
 
   return (
     <div className="profile-container main-container">
+      <Head>
+        <title>Profile</title>
+      </Head>
       <Overview t={t} isMobile={isMobile} />
       <Details t={t} isMobile={isMobile} isSmall={isSmall} />
     </div>

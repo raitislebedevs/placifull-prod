@@ -1,11 +1,7 @@
 import { withTranslation } from 'i18n';
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import {
-  HeroSection,
-  SearchResultSection,
-  BlogSection,
-} from 'components/pages/real-estate';
+import { HeroSection, SearchResultSection } from 'components/pages/real-estate';
 import Head from 'next/head';
 
 const RealEstate = (props) => {

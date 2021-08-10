@@ -6,6 +6,7 @@ import {
   BlogSection,
 } from 'components/pages/transport';
 import { useState } from 'react';
+import Head from 'next/head';
 
 const Transport = (props) => {
   const [listSearchResult, setListSearchResult] = useState([]);
@@ -14,6 +15,9 @@ const Transport = (props) => {
   const { t } = props;
   return (
     <div className="vehicles-container main-container">
+      <Head>
+        <title>Transport</title>
+      </Head>
       <HeroSection
         t={t}
         listSearchResult={listSearchResult}
