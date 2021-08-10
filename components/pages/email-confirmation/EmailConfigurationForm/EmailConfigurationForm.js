@@ -6,33 +6,28 @@ import { FaRegEnvelope } from 'react-icons/fa';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import { ConnectionServices } from 'services';
-import * as Cookies from 'js-cookie';
+const envelope = '/static/images/background/envelope.png';
 
-const ForgotPasswordForm = (props) => {
-  let { t, isLogged, dispatch } = props;
-  const router = useRouter();
+const EmailConfigurationForm = (props) => {
+  let { t } = props;
+  //const router = useRouter();
   const [errorText, setErrorText] = useState('');
   const [successText, setSuccessText] = useState('');
 
   const handleForgotPassword = async (payload) => {
     setErrorText('');
     setSuccessText('');
-    const { data, error } = await ConnectionServices.FORGOT_PASSWORD(payload);
+    const { data, error } = await ConnectionServices.SEND_EMAIL_CONFIRMATION(
+      payload
+    );
     if (data) {
-      console.log(data);
-      setSuccessText(t('forgot-password:form.success-text'));
-      router.push('/');
+      setSuccessText(t('email-confirmed:form.success-text'));
+      //router.push('/sign-in');
     }
     if (error) {
       setErrorText(error);
     }
   };
-
-  const token = Cookies.get('access_token');
-
-  if (token) {
-    router.push('/');
-  }
 
   return (
     <Col
@@ -41,15 +36,18 @@ const ForgotPasswordForm = (props) => {
       md={12}
       lg={4}
       xl={4}
-      className="forgot-password-form-container"
+      className="email-confirmation-form-container"
     >
-      <div className="forgot-password-form__content">
+      <div className="email-confirmation-form__content">
         <div className="content__wrapper">
+          <div className={'envelope__container'}>
+            <img src={envelope} className="envelope__avatar" alt="envelope" />
+          </div>
           <h4 className="card-title text-center">
-            {t('forgot-password:heading')}
+            {t('email-confirmed:heading')}
           </h4>
           <p className="wrapper__description">
-            {t('forgot-password:description')}
+            {t('email-confirmed:description')}
           </p>
           <Formik
             initialValues={{
@@ -58,8 +56,8 @@ const ForgotPasswordForm = (props) => {
             validationSchema={Yup.object().shape({
               email: Yup.string()
                 .max(255)
-                .email(t('forgot-password:form.error.email-invalid'))
-                .required(t('forgot-password:form.error.password-required')),
+                .email(t('email-confirmed:form.error.email-invalid'))
+                .required(t('email-confirmed:form.error.email-required')),
             })}
             onSubmit={(value) => handleForgotPassword(value)}
           >
@@ -84,7 +82,7 @@ const ForgotPasswordForm = (props) => {
                   >
                     <Form.Group>
                       <Form.Label>
-                        {t('forgot-password:form.email')}{' '}
+                        {t('email-confirmed:form.heading')}{' '}
                         <span className="text-danger">*</span>
                       </Form.Label>
                       <div className="items__input">
@@ -98,12 +96,10 @@ const ForgotPasswordForm = (props) => {
                           id="email"
                           type="email"
                           className="input__text"
-                          placeholder={t(
-                            'forgot-password:form.email-placeholder'
-                          )}
+                          placeholder={t('email-confirmed:form.placeholder')}
                         />
                         <Form.Control.Feedback type="invalid" tooltip>
-                          {touched.identifier && errors.identifier}
+                          {touched.email && errors.email}
                         </Form.Control.Feedback>
                       </div>
                     </Form.Group>
@@ -116,7 +112,9 @@ const ForgotPasswordForm = (props) => {
                     xl={12}
                     className="wrapper__items"
                   >
-                    <div className="success-text">{t(successText)}</div>
+                    <div className="success-text">
+                      {t(`email-confirmed:${successText}`)}
+                    </div>
                     <div className="error-text">{t(`error:${errorText}`)}</div>
                     <Button type="submit" className="btn-block">
                       {isSubmitting ? (
@@ -127,10 +125,10 @@ const ForgotPasswordForm = (props) => {
                             size="sm"
                             role="status"
                           />{' '}
-                          {t('forgot-password:form.submit')}
+                          {t('email-confirmed:form.submit')}
                         </>
                       ) : (
-                        t('forgot-password:form.submit')
+                        t('email-confirmed:form.submit')
                       )}
                     </Button>
                   </Col>
@@ -144,11 +142,11 @@ const ForgotPasswordForm = (props) => {
                   >
                     <p className="mb-0 mt-3">
                       <small className="text-dark mr-2">
-                        {t('forgot-password:form.account')}
+                        {t('email-confirmed:form.confirmed')}
                       </small>{' '}
                       <Link href="/sign-in">
                         <a className="text-dark font-weight-bold">
-                          {t('forgot-password:sign-in')}
+                          {t('email-confirmed:form.sign-in')}
                         </a>
                       </Link>
                     </p>
@@ -163,4 +161,4 @@ const ForgotPasswordForm = (props) => {
   );
 };
 
-export default ForgotPasswordForm;
+export default EmailConfigurationForm;

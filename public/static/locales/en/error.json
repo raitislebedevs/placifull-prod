@@ -8,14 +8,17 @@
       "error": {
         "invalid": "Email or password invalid.",
         "user": {
-          "not-exist": "User with this email does not exist"
+          "not-exist": "User with this email does not exist",
+          "user-blocked": "This user is blocked. Contact support."
         },
         "code": {
           "provide": "Unauthorised Access!"
         },
         "email": {
           "confirmed": "You must confirm your email address",
-          "taken": "User with this email already exist"
+          "taken": "User with this email already exist",
+          "already-confirmed": "Email is already confirmed",
+          "format": "Invalid email format"
         }
       }
     }

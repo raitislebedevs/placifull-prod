@@ -51,6 +51,18 @@ class ConnectionServices extends CoreServices {
     }
   }
 
+  async SEND_EMAIL_CONFIRMATION(payload) {
+    try {
+      const { data } = await axios.post(
+        `${this.apiEnpoint}${AUTH.BASE}${AUTH.SEND_EMAIL_CONFIRMATION}`,
+        payload
+      );
+      return { data };
+    } catch (error) {
+      return { error: this.getErrorMessage(error) };
+    }
+  }
+
   async CHANGE_PASSWORD(payload) {
     try {
       const { data } = await axios.post(

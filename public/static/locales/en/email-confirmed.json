@@ -1,0 +1,16 @@
+{
+  "heading": "Email Confirmation",
+  "description": "Please confirm your email address for successful account verification",
+  "form": {
+    "heading": "Email address",
+    "placeholder": "Enter your profile email address",
+    "submit": "Send",
+    "confirmed": "Email already confirmed?",
+    "sign-in": "Sign in",
+    "success-text": "Email confrimation link send to your email address",
+    "error": {
+      "email-invalid": "Please enter a valid email",
+      "email-required": "Email address is required"
+    }
+  }
+}

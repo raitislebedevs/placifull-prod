@@ -1,0 +1,26 @@
+.email-confirmation-container {
+  height: 100% !important;
+  width: 100%;
+  position: absolute;
+  z-index: 30000;
+  .row {
+    height: 100%;
+  }
+
+  .icon-wrapper {
+    top: 20px;
+    position: absolute;
+    right: 20px;
+    .button-icon-home {
+      color: $white;
+      padding: 0;
+      height: 40px;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @import "../components/pages/email-confirmed/EmailConfirmationForm";
+  @import "../components/pages/email-confirmed/EmailConfirmationImage";
+}

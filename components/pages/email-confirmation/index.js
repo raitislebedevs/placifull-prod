@@ -1,4 +1,4 @@
-import ForgotPasswordForm from './ForgotPasswordForm'
-import ForgotPasswordImage from './ForgotPasswordImage'
+import EmailConfigurationForm from './EmailConfigurationForm';
+import EmailConfirmationImage from './EmailConfirmationImage';
 
-export { ForgotPasswordForm, ForgotPasswordImage }
+export { EmailConfigurationForm, EmailConfirmationImage };
