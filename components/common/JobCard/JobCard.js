@@ -40,7 +40,11 @@ const JobCard = (props) => {
           <FaHourglassEnd className="time__icon" />
           {item?.insertDate}
         </div>
-        <img src={item?.companyLogo?.url} className="logo__avatar" alt="" />
+        <img
+          src={item?.companyLogo?.url}
+          className="logo__avatar"
+          alt="Company Logo"
+        />
         <a className="content__name">{item?.positionHeader}</a>
         <p className="content__position">{item?.companyName}</p>
       </div>

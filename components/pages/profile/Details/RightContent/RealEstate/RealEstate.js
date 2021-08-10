@@ -195,6 +195,7 @@ const RealEstate = (props) => {
                               src={item.url}
                               key={item.id}
                               className="item__image"
+                              alt={`${item?.id}`}
                             />
                           ))
                         ) : (

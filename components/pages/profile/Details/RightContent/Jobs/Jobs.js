@@ -159,7 +159,7 @@ const Jobs = (props) => {
                   >
                     <Col lg={3} className="image__wrapper pl-0 pr-0">
                       <div className="item-wrapper__cover-image">
-                        <img src={item?.companyLogo?.url} />
+                        <img src={item?.companyLogo?.url} alt="company logo" />
                       </div>
                     </Col>
                     <Col lg={9}>

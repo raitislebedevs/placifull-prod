@@ -64,7 +64,11 @@ const Gallery = (props) => {
                   >
                     <FaRegTimesCircle size={18} />
                   </div>
-                  <img src={file.preview} className="inner__image" />
+                  <img
+                    src={file.preview}
+                    className="inner__image"
+                    alt="preview icons"
+                  />
                 </div>
               </div>
             ))}

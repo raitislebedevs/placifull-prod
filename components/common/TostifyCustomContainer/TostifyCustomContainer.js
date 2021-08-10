@@ -12,7 +12,7 @@ const TostifyCustomContainer = (type, heading, message) => {
       return toast.warning(
         <Row className={'toast__custom__container'}>
           <Col xs={2} sm={2} md={2} lg={2} xl={2} className={'toast__icon'}>
-            <img src={warning} className="tostify__icon" alt="" />
+            <img src={warning} className="tostify__icon" alt="Warning" />
           </Col>
           <Col
             xs={10}
@@ -31,7 +31,7 @@ const TostifyCustomContainer = (type, heading, message) => {
       return toast.error(
         <Row className={'toast__custom__container'}>
           <Col xs={2} sm={2} md={2} lg={2} xl={2} className={'toast__icon'}>
-            <img src={erorr} className="tostify__icon" alt="" />{' '}
+            <img src={erorr} className="tostify__icon" alt="Erorr" />{' '}
           </Col>
           <Col
             xs={10}
@@ -51,7 +51,7 @@ const TostifyCustomContainer = (type, heading, message) => {
       return toast.success(
         <Row className={'toast__custom__container'}>
           <Col xs={2} sm={2} md={2} lg={2} xl={2} className={'toast__icon'}>
-            <img src={success} className="tostify__icon" alt="" />{' '}
+            <img src={success} className="tostify__icon" alt="Success" />{' '}
           </Col>
           <Col
             xs={10}
@@ -70,7 +70,7 @@ const TostifyCustomContainer = (type, heading, message) => {
       return toast.info(
         <Row className={'toast__custom__container'}>
           <Col xs={2} sm={2} md={2} lg={2} xl={2} className={'toast__icon'}>
-            <img src={info} className="tostify__icon" alt="" />{' '}
+            <img src={info} className="tostify__icon" alt="Info" />{' '}
           </Col>
           <Col
             xs={10}

@@ -83,6 +83,7 @@ const Gallery = (props) => {
               }
               key={listingItem.listingGallery[index].id}
               className="item__image__dots"
+              alt={`${listingItem.listingGallery[index].id}`}
             />
           </button>
         ) : (
@@ -134,6 +135,7 @@ const Gallery = (props) => {
                 key={item.id}
                 className="item__image"
                 onClick={() => OpenModal(item.id)}
+                alt={`${item?.id}`}
               />
             ))
           ) : (

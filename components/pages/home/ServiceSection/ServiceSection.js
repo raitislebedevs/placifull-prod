@@ -614,7 +614,7 @@ const ServiceSection = (props) => {
                       <img
                         src={activeItem.url}
                         className="img-fluid rounded shadow"
-                        alt=""
+                        alt="Service Url"
                       />
                     </Col>
                     <Col
