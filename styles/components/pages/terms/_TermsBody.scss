@@ -1,44 +1,47 @@
 .terms-container {
   margin-top: 60px;
-  margin-bottom:20px;
-  padding:0 8%;
-
-  .terms-container__content{
+  margin-bottom: 30px;
+  @include media-breakpoint-down(md) {
+    margin-top: 70px;
+  }
+  @include media-breakpoint-down(xs) {
+    margin-top: 115px;
+  }
+  .terms-container__content {
     padding: 25px 30px;
     border-radius: 10px;
-    background:white;
-  box-shadow: 0px 0px 2px 1px #c1c1c1;
+    background: white;
+    box-shadow: 0px 0px 2px 1px #c1c1c1;
 
-
-    .terms-container__content--box{
+    .terms-container__content--box {
       margin: 20px 0;
     }
-    .terms-container__content--heading{
-    margin: 10px 0 15px 0;
-
+    .terms-container__content--heading {
+      margin: 10px 0 15px 0;
     }
-    .terms-container__content--text{
+    .terms-container__content--text {
       margin: 0 0 20px 0;
       font-size: 15px;
     }
 
-    .terms-container__content--retrictions{
-      li{
-        margin:5px 0;
-        svg{
-          color:theme-color('primary');
+    .terms-container__content--retrictions {
+      li {
+        margin: 5px 0;
+        svg {
+          color: theme-color("primary");
           margin-right: 12px;
         }
       }
     }
-    .terms-container__content--faq__box{
-      .faq__img{
-        img{
-          width:100%;
+    .terms-container__content--faq__box {
+      .faq__img {
+        img {
+          width: 100%;
           object-fit: contain;
         }
       }
       .accordion_inner {
+        cursor: pointer;
         min-height: 70px;
         height: auto;
         border: 1px solid #c1c1c1;
@@ -46,27 +49,25 @@
         border-radius: 10px;
         padding: 15px 25px;
 
-        .accordion__header{
+        .accordion__header {
           padding-top: 10px;
-          color:black;
+          color: black;
 
-          &.--active{
-            h6{
-              color:theme-color('primary');
+          &.--active {
+            h6 {
+              color: theme-color("primary");
             }
           }
-          .header__inner{
-            display:flex;
-            justify-content:space-between;
-            h6{
+          .header__inner {
+            display: flex;
+            justify-content: space-between;
+            h6 {
               font-weight: 600;
             }
-            svg{
-              color:theme-color('primary');
+            svg {
+              color: theme-color("primary");
             }
-
           }
-
         }
       }
     }

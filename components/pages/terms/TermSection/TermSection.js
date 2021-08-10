@@ -154,6 +154,49 @@ const TermSection = (props) => {
 
         <div className="terms-container__content--box">
           <h3 className="terms-container__content--heading">
+            {t('terms:privacy-policy.title')}
+          </h3>
+          {t('terms:privacy-policy.intro')}
+          <ul className="terms-container__content--retrictions">
+            <li>
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                The information you provide in your CV can be viewed by people
+                with the 'Browser CV' plan purchased in the scenariou when you
+                have marked published your personal information on your profile.
+                We don't take responsibility on any data which is leaked or
+                accessed unauthorised in any way.
+              </p>
+            </li>
+
+            <li>
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                User can share the referral token he/she is assigned to other
+                people. Once they will purchase an option with this token, the
+                user will be credited from 10-25% of the purchase amount.
+              </p>
+            </li>
+
+            <li>
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                Once the amounte reaches 25 Euro the user will have the rights
+                to withdraw this amount{' '}
+              </p>
+            </li>
+            <li>
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                If in any way the user is suspected to be fradulant. The account
+                can be blocked and amount reduced to 0.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div className="terms-container__content--box">
+          <h3 className="terms-container__content--heading">
             Users Question {'&'} Answer:
           </h3>
           <Row className="terms-container__content--faq__box">
@@ -188,7 +231,9 @@ const TermSection = (props) => {
             Still have a questions?
           </h3>
           <p className="terms-container__content--text">
-            {`Please contact us from the contact page, and we will get back to you as soon as possible. In short we want to do what ever we can to make this site better
+            {`Please contact us from the contact page, and we will get back to you as soon as possible. 
+            In short we want to do what ever we can to make this site better. Be assured that our focus is to discuss any 
+            issues/questions with the user at the highest priority.
          `}
           </p>
         </div>

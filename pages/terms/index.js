@@ -5,7 +5,7 @@ import { HeroTerms, TermSection } from 'components/pages/terms';
 const Terms = (props) => {
   const { t } = props;
   return (
-    <div className="termsPage-container main-container">
+    <div className="termsPage-container">
       <HeroTerms t={t} />
       <TermSection t={t} />
     </div>

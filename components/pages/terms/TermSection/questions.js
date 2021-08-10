@@ -41,6 +41,12 @@ const questions = (t) => [
     answer: `Once you have purchased the promoted option your listing will have the chanse to be displayed on the main page. 
     The system takes all listings which have the promoted tag added and randomly will select which to display on the screen. `,
   },
+  {
+    key: 7,
+    header: `How can I withdraw my referral bonuses?`,
+    answer: `Once you have reached 25 € you are able to withdraw this from your account. In order to do that please contact 
+    and we will transfer the money to your bank account. `,
+  },
 ];
 
 export default questions;
