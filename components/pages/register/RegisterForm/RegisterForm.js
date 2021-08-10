@@ -165,7 +165,11 @@ const RegisterForm = (props) => {
                           className="input__text"
                           placeholder={t('register:form.first-name')}
                         />
-                        <Form.Control.Feedback type="invalid" tooltip>
+                        <Form.Control.Feedback
+                          id={'firstName-tooltip'}
+                          type="invalid"
+                          tooltip
+                        >
                           {touched.firstName && errors.firstName}
                         </Form.Control.Feedback>
                       </div>
@@ -199,7 +203,11 @@ const RegisterForm = (props) => {
                           className="input__text"
                           placeholder={t('register:form.last-name')}
                         />
-                        <Form.Control.Feedback type="invalid" tooltip>
+                        <Form.Control.Feedback
+                          id={'lastName-tooltip'}
+                          type="invalid"
+                          tooltip
+                        >
                           {touched.lastName && errors.lastName}
                         </Form.Control.Feedback>
                       </div>
@@ -231,7 +239,11 @@ const RegisterForm = (props) => {
                           className="input__text"
                           placeholder={t('register:form.email')}
                         />
-                        <Form.Control.Feedback type="invalid" tooltip>
+                        <Form.Control.Feedback
+                          id={'email-tooltip'}
+                          type="invalid"
+                          tooltip
+                        >
                           {touched.email && errors.email}
                         </Form.Control.Feedback>
                       </div>
@@ -265,7 +277,11 @@ const RegisterForm = (props) => {
                           className="form-control input__text"
                           placeholder={t('register:form.password')}
                         />
-                        <Form.Control.Feedback type="invalid" tooltip>
+                        <Form.Control.Feedback
+                          id={'password-tooltip'}
+                          type="invalid"
+                          tooltip
+                        >
                           {touched.password && errors.password}
                         </Form.Control.Feedback>
                       </div>
@@ -299,7 +315,11 @@ const RegisterForm = (props) => {
                           className="form-control input__text"
                           placeholder={t('register:form.confirm-password')}
                         />
-                        <Form.Control.Feedback type="invalid" tooltip>
+                        <Form.Control.Feedback
+                          id={'confirmPassword-tooltip'}
+                          type="invalid"
+                          tooltip
+                        >
                           {touched.confirmPassword && errors.confirmPassword}
                         </Form.Control.Feedback>
                       </div>
@@ -333,7 +353,10 @@ const RegisterForm = (props) => {
                                 </a>
                               </Link>
                             </FormCheck.Label>
-                            <div className="text-danger">
+                            <div
+                              id={'acceptTerms-tooltip'}
+                              className="text-danger"
+                            >
                               {!Boolean(
                                 touched.acceptTerms && errors.acceptTerms
                               ) || t('register:form.error.accept-terms')}

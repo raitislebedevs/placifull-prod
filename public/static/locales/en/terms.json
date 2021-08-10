@@ -21,6 +21,23 @@
       "rule-eleven": ""
     }
   },
+  "privacy-policy": {
+    "title": "Privacy Policy & Referrals",
+    "intro": "Please note where and how we will use your provided information:",
+    "rules": {
+      "rule-one": "",
+      "rule-two": "",
+      "rule-three": "",
+      "rule-four": "",
+      "rule-five": "",
+      "rule-six": "",
+      "rule-seven": "",
+      "rule-eight": "",
+      "rule-nine": "",
+      "rule-ten": "",
+      "rule-eleven": ""
+    }
+  },
   "faq": {
     "question-one": {
       "questions": "",

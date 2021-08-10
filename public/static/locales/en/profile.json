@@ -1,9 +1,9 @@
 {
   "overview": {
     "button-label": {
-      "change": "Change Picture",
-      "delete": "Delete Picture",
-      "save-all": "Save All",
+      "change": "Change picture",
+      "delete": "Delete picture",
+      "save-all": "Save all",
       "preview": "Preview"
     },
     "setting-label": "Purchased",
@@ -15,9 +15,9 @@
     }
   },
   "hover-texts": {
-    "real-estate": "Real Estate Posts",
-    "transport": "Transport Posts",
-    "job": "Job Posts",
+    "real-estate": "Real Estate posts",
+    "transport": "Transport posts",
+    "job": "Job posts",
     "browser": "Browser CV"
   },
   "left-tab": {
@@ -25,11 +25,11 @@
     "titles": {
       "profile": "Profile",
       "cv": "CV",
-      "real-estate": "Real Estate",
+      "real-estate": "Real estate",
       "transport": "Transport",
       "jobs": "Jobs",
       "browser": "Browser CV",
-      "payment": "Payment Receipts",
+      "payment": "Payment receipts",
       "logout": "Logout"
     }
   },
