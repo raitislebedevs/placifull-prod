@@ -13,7 +13,7 @@
     "city": "Consider City",
     "description": {
       "minLength": "Description must be 20 characters long.",
-      "maxLength": "Description can't exceed 1000 charecters.",
+      "maxLength": "Description can't exceed 1000 characters.",
       "required": "Description is required."
     },
 
@@ -25,7 +25,7 @@
       "required": "Price is required."
     },
     "phone": {
-      "minLength": "Phone number must containt 6 digits.",
+      "minLength": "Phone number must contain 6 digits.",
       "maxLength": "Phone number can't exceed 20 digits.",
       "required": "Phone number is required."
     },
@@ -52,13 +52,13 @@
     "type": "Transport type is required.",
     "brand": {
       "minLength": "Brand Name must be 0+ characters long.",
-      "maxLength": "Brand Name can't exceed n charectars.",
+      "maxLength": "Brand Name can't exceed n characters.",
       "required": "Brand Name is required."
     },
 
     "model": {
       "minLength": "Model Name must be 0+ characters long.",
-      "maxLength": "Model Name can't exceed n charectars.",
+      "maxLength": "Model Name can't exceed n characters.",
       "required": "Model Name is required."
     },
     "address": {
