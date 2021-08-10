@@ -75,7 +75,7 @@ const PaymentModalForm = (props) => {
     setTotalAmount(fullCost);
   }, [isPromoted, addedDays]);
 
-  const OpenReceiptModal = (e) => {
+  const OpenReceiptModal = async (e) => {
     e.preventDefault();
 
     let payload = {
@@ -90,8 +90,8 @@ const PaymentModalForm = (props) => {
     setPaymentDetails(payload);
 
     if (!totalAmount) {
-      handleSubmit(e, payload);
-      handleDataSubmit(e);
+      await handleSubmit(e, payload);
+      await handleDataSubmit(e);
       setPaymentModal(false);
       return;
     }

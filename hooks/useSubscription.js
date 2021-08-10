@@ -9,12 +9,16 @@ const useSubscription = (id, area) => {
   const handleInputSubscriptions = async (details, listingId) => {
     if (!details) return;
     try {
+      console.log(details);
+      //Subscription colelction has plan and planInUse properties.
       let spendingPlan = details?.purchasePlan + inUse;
+      console.log(spendingPlan);
       let activeListings = subscriptions[area][spendingPlan]
         ? subscriptions[area][spendingPlan]
         : 0;
 
       activeListings++;
+      console.log(activeListings);
       let subscriptionDetails = subscriptions[area] ? subscriptions[area] : {};
 
       if (details?.purchasePlan == defaultPurchaseOption) {
