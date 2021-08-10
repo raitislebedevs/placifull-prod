@@ -10,8 +10,6 @@ import { FaRegEnvelope } from 'react-icons/fa';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import { ConnectionServices } from 'services';
-import Cookies from 'js-cookie';
-import { loginSuccess } from 'actions';
 import { LoadingOverlay } from 'components/common';
 import { connect } from 'react-redux';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
@@ -55,10 +53,8 @@ const RegisterForm = (props) => {
           t('register:success-text')
         );
         setTimeout(() => {
-          // dispatch(loginSuccess(data?.user));
-          // Cookies.set('access_token', data?.jwt);
-          router.push('/email-confirmation');
-        }, 2000);
+          router.push('/email-confirmed');
+        }, 1500);
       }
       if (error) {
         setErrorText(error);
