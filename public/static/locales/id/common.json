@@ -24,11 +24,11 @@
 
   "social-links": {
     "heading": "Tautan media sosial",
-    "facebook": "Facebook: https://",
-    "twitter": "Twitter: https://",
-    "youtube": "Youtube: https://",
-    "pinterest": "Pinterest: https://",
-    "instagram": "Instagram: https://"
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
   },
 
   "social": {
@@ -75,7 +75,17 @@
       "found": "Ditemukan",
       "items": "item"
     },
-    "not-found": "Tidak tidak menemukan hasil baru"
+    "not-found": "Tidak tidak menemukan hasil baru",
+    "messages": {
+      "success": "Berhasil",
+      "info": "Info",
+      "warning": "Peringatan",
+      "error": "Kesalahan"
+    },
+    "logout-success": "Sampai jumpa!",
+    "bid-placed": "Tawaran ditempatkan",
+    "your-referral": "Tidak dapat menggunakan kode referensi Anda sendiri :) ",
+    "minimal-withdraw": "Jumlah minimum untuk menarik adalah 25 €"
   },
 
   "location": {
@@ -129,5 +139,5 @@
     "profile": "Profil",
     "log-out": "Keluar"
   },
-  "preview-close": "Tutup Pratinjau"
+  "preview-close": "Tutup Pratinjau"
 }

@@ -382,5 +382,19 @@
     "body": "Kas oled kindel, et soovid konto kustutada?",
     "cancel": "Tühista",
     "delete": "Kustuta"
+  },
+  "reffaral": {
+    "heading": "Suunamisprogramm",
+    "balance": "Tasakaal",
+    "code": "Viitekood",
+    "percantage": "Protsent",
+    "next": "Järgmine suurendamine",
+    "withdraw": "Tagasivõtmine"
+  },
+  "referral-modal": {
+    "body-text": "Hetkel töötleme tagasivõtmisi käsitsi. Palun võtke meiega ühendust ja me lahendame selle :)",
+    "header-text": "Teave",
+    "submit-text": "Võtke meiega ühendust",
+    "close-text": "Sulge"
   }
 }

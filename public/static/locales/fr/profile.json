@@ -382,5 +382,19 @@
     "body": "Êtes-vous sûr de vouloir supprimer votre compte ?",
     "cancel": "Annuler",
     "delete": "Supprimer"
+  },
+  "reffaral": {
+    "heading": "Programme de parrainage",
+    "balance": "Montant",
+    "code": "Code de parrainage",
+    "percantage": "Pourcentage",
+    "next": "Prochaine augmentation",
+    "withdraw": "Retrait"
+  },
+  "referral-modal": {
+    "body-text": "Pour le moment",
+    "header-text": "Informations",
+    "submit-text": "Contactez-nous",
+    "close-text": "Fermer"
   }
 }

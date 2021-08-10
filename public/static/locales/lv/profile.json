@@ -382,5 +382,19 @@
     "body": "Vai tu esi drošs ka vēlies dzēst kontu",
     "cancel": "Atcelt",
     "delete": "Dzēst"
+  },
+  "reffaral": {
+    "heading": "Referāļu programma",
+    "balance": "Summa",
+    "code": "Referāļa kods",
+    "percantage": "Procenti",
+    "next": "Nākamais līmenis:",
+    "withdraw": "Izņemt"
+  },
+  "referral-modal": {
+    "body-text": "Pašlaik mēs pārskaitījumus apstrādājam manuāli. Lūdzu, sazinieties ar mums, un mēs to nokārtosim :)",
+    "header-text": "Informācija",
+    "submit-text": "Sazinieties ar mums",
+    "close-text": "Aizvērt"
   }
 }

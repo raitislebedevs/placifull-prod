@@ -382,5 +382,19 @@
     "body": "Apakah Anda ingin menghapus akun Anda?",
     "cancel": "Batalkan",
     "delete": "Hapus"
+  },
+  "reffaral": {
+    "heading": "Program rujukan",
+    "balance": "Jumlah",
+    "code": "Kode rujukan",
+    "percantage": "Persentase",
+    "next": "Peningkatan berikutnya",
+    "withdraw": "Penarikan"
+  },
+  "referral-modal": {
+    "body-text": "Saat ini kami memproses penarikan secara manual. Silakan hubungi kami dan kami akan menyelesaikannya :)",
+    "header-text": "Informasi",
+    "submit-text": "Hubungi kami",
+    "close-text": "Tutup"
   }
 }

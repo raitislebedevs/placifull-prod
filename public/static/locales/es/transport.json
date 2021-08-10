@@ -27,7 +27,7 @@
           }
         },
         "millage": {
-          "label": "Distancia",
+          "label": "Kilometraje",
           "items": {
             "from": "Desde: 0",
             "to": "Hasta: 9,999,999"

@@ -75,7 +75,17 @@
       "found": "Gefunden",
       "items": "Artikel"
     },
-    "not-found": "Es wurden keine neuen Ergebnisse gefunden"
+    "not-found": "Es wurden keine neuen Ergebnisse gefunden",
+    "messages": {
+      "success": "Erfolg",
+      "info": "Info",
+      "warning": "Warnung",
+      "error": "Fehler"
+    },
+    "logout-success": "Bis später!",
+    "bid-placed": "Gebot wurde abgegeben",
+    "your-referral": "Kann keinen eigenen Empfehlungscode verwenden :)",
+    "minimal-withdraw": "Mindestbetrag zur Auszahlung beträgt 25 €"
   },
 
   "location": {

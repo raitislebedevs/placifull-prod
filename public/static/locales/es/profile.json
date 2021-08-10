@@ -382,5 +382,19 @@
     "body": "¿Estás seguro de que quieres eliminar tu cuenta?",
     "cancel": "Cancelar",
     "delete": "Borrar"
+  },
+  "reffaral": {
+    "heading": "Programa de referidos",
+    "balance": "Monto",
+    "code": "Código de referidos",
+    "percantage": "Porcentaje",
+    "next": "Próximo aumento",
+    "withdraw": "Retiro"
+  },
+  "referral-modal": {
+    "body-text": "En este momento procesamos los retiros manualmente. Por favor contáctenos y solucionaremos esto :)",
+    "header-text": "Información",
+    "submit-text": "Contáctenos",
+    "close-text": "Cerrar"
   }
 }

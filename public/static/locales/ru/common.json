@@ -24,11 +24,11 @@
 
   "social-links": {
     "heading": "Ссылки на соцсети",
-    "facebook": "Facebook: https://",
-    "twitter": "Twitter: https://",
-    "youtube": "Youtube: https://",
-    "pinterest": "Pinterest: https://",
-    "instagram": "Instagram: https://"
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
   },
 
   "social": {
@@ -75,7 +75,17 @@
       "found": "Найдено",
       "items": "позиции"
     },
-    "not-found": "Не нашел новых результатов"
+    "not-found": "Не нашел новых результатов",
+    "messages": {
+      "success": "Успех",
+      "info": "Информация",
+      "warning": "Предупреждение",
+      "error": "Ошибка"
+    },
+    "logout-success": "Увидимся позже!",
+    "bid-placed": "Ставка сделана",
+    "your-referral": "Невозможно использовать ваш собственный реферальный код :)",
+    "minimal-withdraw": "Минимальная сумма для вывода составляет 25 €"
   },
 
   "location": {

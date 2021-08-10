@@ -27,7 +27,7 @@
           }
         },
         "millage": {
-          "label": "Percorrenza",
+          "label": "Chilometraggio",
           "items": {
             "from": "Da: 0",
             "to": "A: 9,999,999"
