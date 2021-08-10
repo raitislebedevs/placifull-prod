@@ -382,5 +382,19 @@
     "body": "Sind Sie sicher, dass Sie Ihr Konto löschen möchten?",
     "cancel": "Abbrechen",
     "delete": "löschen"
+  },
+  "reffaral": {
+    "heading": "Empfehlungsprogramm",
+    "balance": "Betrag",
+    "code": "Empfehlungscode",
+    "percantage": "Prozentsatz",
+    "next": "Nächste Erhöhung",
+    "withdraw": "Auszahlung"
+  },
+  "referral-modal": {
+    "body-text": "Im Moment verarbeiten wir die Auszahlungen manuell. Bitte kontaktieren Sie uns und wir werden das klären :)",
+    "header-text": "Informationen",
+    "submit-text": "Kontaktieren Sie uns",
+    "close-text": "Schließen"
   }
 }

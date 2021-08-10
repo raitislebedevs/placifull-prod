@@ -382,5 +382,19 @@
     "body": "您确定要删除您的账号吗？",
     "cancel": "取消",
     "delete": "删除"
+  },
+  "reffaral": {
+    "heading": "推荐程序",
+    "balance": "金额",
+    "code": "推荐代码",
+    "percantage": "百分比",
+    "next": "下次增加",
+    "withdraw": "提款"
+  },
+  "referral-modal": {
+    "body-text": "目前我们手动处理提款。请联系我们，我们会解决这个问题:)",
+    "header-text": "信息",
+    "submit-text": "联系我们",
+    "close-text": "关闭"
   }
 }

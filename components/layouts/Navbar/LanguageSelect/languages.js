@@ -18,14 +18,14 @@ const languages = [
       lang: 'ee',
       flag: 'EE',
     },
-    label: 'Estonian',
+    label: 'Eesti',
   },
   {
     value: {
       lang: 'lt',
       flag: 'LT',
     },
-    label: 'Lithuanian',
+    label: 'Lietuvos',
   },
   {
     value: {

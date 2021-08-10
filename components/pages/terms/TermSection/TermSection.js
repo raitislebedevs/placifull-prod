@@ -168,7 +168,7 @@ const TermSection = (props) => {
             <Col lg={6} xl={6} md={6}>
               <Accordion className="section__accordion">
                 {questions_accord.map((question) => (
-                  <div className="accordion_inner">
+                  <div key={question.key} className="accordion_inner">
                     <AccordionToggle eventKey={question.key}>
                       <h6>{question.header}</h6>
                     </AccordionToggle>

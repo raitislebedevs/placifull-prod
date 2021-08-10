@@ -27,7 +27,7 @@
           }
         },
         "millage": {
-          "label": "Distância",
+          "label": "Quilometragem",
           "items": {
             "from": "De: 0",
             "to": "Até: 9.999.999"

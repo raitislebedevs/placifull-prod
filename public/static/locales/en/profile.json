@@ -384,11 +384,11 @@
     "delete": "Delete"
   },
   "reffaral": {
-    "heading": "Referral Program",
+    "heading": "Referral program",
     "balance": "Ballance",
-    "code": "Referral Code",
-    "percantage": "Percantage",
-    "next": "Next Increase",
+    "code": "Referral code",
+    "percantage": "Percentage",
+    "next": "Next increase",
     "withdraw": "Withdraw"
   },
   "referral-modal": {

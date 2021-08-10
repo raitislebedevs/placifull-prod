@@ -24,11 +24,11 @@
 
   "social-links": {
     "heading": "SNS",
-    "facebook": "Facebook: https://",
-    "twitter": "Twitter: https://",
-    "youtube": "Youtube: https://",
-    "pinterest": "Pinterest: https://",
-    "instagram": "Instagram: https://"
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
   },
 
   "social": {
@@ -75,7 +75,17 @@
       "found": "見つける",
       "items": "アイテム"
     },
-    "not-found": "新しい結果が見つかりませんでした"
+    "not-found": "新しい結果が見つかりませんでした",
+    "messages": {
+      "success": "成功",
+      "info": "情報",
+      "warning": "警告",
+      "error": "エラー"
+    },
+    "logout-success": "またね！",
+    "bid-placed": "入札されました",
+    "your-referral": "独自の紹介コードを使用できません：）",
+    "minimal-withdraw": "引き出しの最低額は25€です"
   },
 
   "location": {

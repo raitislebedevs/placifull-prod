@@ -25,7 +25,7 @@
     "model": "Modelo de transporte",
     "year": "Ano",
     "price": "Preço",
-    "distance": "Distância",
+    "distance": "Quilometragem",
     "max-speed": "Velocidade máxima",
     "fuel-economy": "Economia de combustível",
     "seats": "Assentos",

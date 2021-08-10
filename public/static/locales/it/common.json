@@ -23,16 +23,16 @@
   },
 
   "social-links": {
-    "heading": "Social links",
-    "facebook": "Facebook: https://",
-    "twitter": "Twitter: https://",
-    "youtube": "YouTube: https://",
-    "pinterest": "Pinterest: https://",
-    "instagram": "Instagram: https://"
+    "heading": "Social links",
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "YouTube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
   },
 
   "social": {
-    "heading": "Social links",
+    "heading": "Social links",
     "facebook": "Facebook",
     "twitter": "Twitter",
     "youtube": "YouTube",
@@ -75,7 +75,17 @@
       "found": "Trovato",
       "items": "elementi"
     },
-    "not-found": "Nessun nuovo risultato trovato"
+    "not-found": "Nessun nuovo risultato trovato",
+    "messages": {
+      "success": "Successo",
+      "info": "Info",
+      "warning": "Avviso",
+      "error": "Errore"
+    },
+    "logout-success": "Ci vediamo dopo!",
+    "bid-placed": "L'offerta è stata fatta",
+    "your-referral": "Impossibile utilizzare il tuo codice di riferimento :)",
+    "minimal-withdraw": "L'importo minimo da prelevare è 25 €"
   },
 
   "location": {

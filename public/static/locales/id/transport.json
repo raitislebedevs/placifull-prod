@@ -27,7 +27,7 @@
           }
         },
         "millage": {
-          "label": "Jarak",
+          "label": "Jarak tempuh",
           "items": {
             "from": "Dari: 0",
             "to": "Sampai: 9.999.999"

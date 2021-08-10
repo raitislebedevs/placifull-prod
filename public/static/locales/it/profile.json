@@ -382,5 +382,19 @@
     "body": "Sei sicuro di voler eliminare questo account?",
     "cancel": "Cancella",
     "delete": "Elimina"
+  },
+  "reffaral": {
+    "heading": "Programma di riferimento",
+    "balance": "Importo",
+    "code": "Codice di riferimento",
+    "percantage": "Percentuale",
+    "next": "Prossimo aumento",
+    "withdraw": "Prelievo"
+  },
+  "referral-modal": {
+    "body-text": "Al momento elaboriamo i prelievi manualmente. Per favore contattaci e lo risolveremo :)",
+    "header-text": "Informazioni",
+    "submit-text": "Contattaci",
+    "close-text": "Chiudi"
   }
 }

@@ -9,10 +9,10 @@
         "invalid": "Email or password invalid.",
         "user": {
           "not-exist": "User with this email does not exist",
-          "user-blocked": "This user is blocked. Contact support."
+          "user-blocked": "This user is blocked. Contact support team."
         },
         "code": {
-          "provide": "Unauthorised Access!"
+          "provide": "Unauthorised access!"
         },
         "email": {
           "confirmed": "You must confirm your email address",

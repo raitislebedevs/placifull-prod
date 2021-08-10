@@ -382,5 +382,19 @@
     "body": "Você tem certeza que deseja apagar sua conta?",
     "cancel": "Cancelar",
     "delete": "Apagar"
+  },
+  "reffaral": {
+    "heading": "Programa de referência",
+    "balance": "Valor",
+    "code": "Código de referência",
+    "percantage": "Porcentagem",
+    "next": "Próximo aumento",
+    "withdraw": "Retirar"
+  },
+  "referral-modal": {
+    "body-text": "No momento processamos os saques manualmente. Entre em contato conosco e resolveremos isso :)",
+    "header-text": "Informações",
+    "submit-text": "Entre em contato",
+    "close-text": "Fechar"
   }
 }

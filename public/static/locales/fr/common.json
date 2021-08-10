@@ -24,11 +24,11 @@
 
   "social-links": {
     "heading": "Liens Media Sociaux",
-    "facebook": "Facebook: https://",
-    "twitter": "Twitter: https://",
-    "youtube": "Youtube: https://",
-    "pinterest": "Pinterest: https://",
-    "instagram": "Instagram: https://"
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
   },
 
   "social": {
@@ -51,23 +51,23 @@
   },
 
   "toast": {
-    "submit-success": "Votre annonce a été publiée !",
+    "submit-success": "Votre annonce a été publiée !",
     "server-error": "Entrée incorrecte/serveur non joignable ",
     "logging-required": "La connexion est requise",
-    "cannot-apply": "Hé, ceci est un aperçu",
-    "preview": "Dans Aperçu, vous ne pouvez pas faire une offre",
+    "cannot-apply": "Hé, ceci est un aperçu",
+    "preview": "Dans Aperçu, vous ne pouvez pas faire une offre",
     "log-in": "Vous devez être connecté pour faire une offre",
     "bidding-price": "Pas d'offre",
-    "price-lower": "L'offre est inférieure à 20 % du Prix donné dans L'annonce",
-    "price-upper": "L'offre est plus de 20 % du Prix donné dans L'annonce",
+    "price-lower": "L'offre est inférieure à 20 % du Prix donné dans L'annonce",
+    "price-upper": "L'offre est plus de 20 % du Prix donné dans L'annonce",
     "refresh-page": "Le serveur n'a pas répondu, veuillez actualiser",
     "not-send": "L'e-mail n'a pas été envoyé",
     "contact-directly": "Contacter directement",
     "email-send": "L'e-mail a été envoyé",
     "no-email": "L'adresse e-mail associée à l'annonce n'existe pas",
-    "subscribed": "Félicitations, Vous êtes abonné :)",
+    "subscribed": "Félicitations, Vous êtes abonné :)",
     "already-applied": "Vous avez postulé à ce poste",
-    "already": "Déjà abonné/ E-mail invalide",
+    "already": "Déjà abonné/ E-mail invalide",
     "country-error": "Erreur non spécifiée dans la saisie du pays",
     "location-error": "Impossible de retrouver les emplacements",
     "unknown-error": "Erreur de serveur inconnue",
@@ -75,27 +75,37 @@
       "found": "Trouvé",
       "items": "éléments"
     },
-    "not-found": "N'a pas trouvé de nouveaux résultats"
+    "not-found": "N'a pas trouvé de nouveaux résultats",
+    "messages": {
+      "success": "Succès",
+      "info": "Info",
+      "warning": "Avertissement",
+      "error": "Erreur"
+    },
+    "logout-success": "À plus tard !",
+    "bid-placed": "L'enchère a été placée",
+    "your-referral": "Impossible d'utiliser votre propre code de parrainage :) ",
+    "minimal-withdraw": "Le montant minimum à retirer est de 25 € "
   },
 
   "location": {
     "country": "Pays",
     "state": "État/Région",
     "city": "Ville",
-    "no-city": "Aucune ville",
+    "no-city": "Aucune ville",
     "no-states": "Aucun État",
-    "states-not-registerd": "Aucun état enregistré",
-    "cities-registerd": "Aucune ville enregistrée"
+    "states-not-registerd": "Aucun état enregistré",
+    "cities-registerd": "Aucune ville enregistrée"
   },
 
   "items-per-page": {
     "label": "Annonces",
     "options": {
-      "nine": "9 annonces",
-      "eighteen": "18 annonces",
-      "twenty-seven": "27 annonces",
-      "thirty-six": "36 annonces",
-      "seventy-two": "72 annonces"
+      "nine": "9 annonces",
+      "eighteen": "18 annonces",
+      "twenty-seven": "27 annonces",
+      "thirty-six": "36 annonces",
+      "seventy-two": "72 annonces"
     }
   },
 

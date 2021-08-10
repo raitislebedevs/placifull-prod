@@ -382,5 +382,19 @@
     "body": "本当に削除しますか？",
     "cancel": "取り消し",
     "delete": "削除"
+  },
+  "reffaral": {
+    "heading": "紹介プログラム",
+    "balance": "金額",
+    "code": "紹介コード",
+    "percantage": "パーセンテージ",
+    "next": "次の増加",
+    "withdraw": "撤回"
+  },
+  "referral-modal": {
+    "body-text": "現時点では、手動で撤回を処理しています。お問い合わせください。これを整理します：）",
+    "header-text": "情報",
+    "submit-text": "お問い合わせ",
+    "close-text": "閉じる"
   }
 }

@@ -24,11 +24,11 @@
 
   "social-links": {
     "heading": "Socialiniai saitai",
-    "facebook": "Facebook: https://",
-    "twitter": "Twitter: https://",
-    "youtube": "Youtube: https://",
-    "pinterest": "Pinterest: https://",
-    "instagram": "Instagram: https://"
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
   },
 
   "social": {
@@ -75,7 +75,17 @@
       "found": "Rasta",
       "items": "Skelbimų"
     },
-    "not-found": "Naujų rezultatų nerasta"
+    "not-found": "Naujų rezultatų nerasta",
+    "messages": {
+      "success": "Sėkmė",
+      "info": "Informacija",
+      "warning": "Įspėjimas",
+      "error": "Klaida"
+    },
+    "logout-success": "Iki pasimatymo!",
+    "bid-placed": "Pasiūlymas buvo pateiktas",
+    "your-referral": "Negalima naudoti savo persiuntimo kodo :)",
+    "minimal-withdraw": "Minimali išimama suma yra 25 €"
   },
 
   "location": {

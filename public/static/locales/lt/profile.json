@@ -382,5 +382,19 @@
     "body": "Ar tikrai norite ištrinti anketą? ",
     "cancel": "Atšaukti",
     "delete": "Ištrinti"
+  },
+  "reffaral": {
+    "heading": "Persiuntimo programa",
+    "balance": "Suma",
+    "code": "Persiuntimo kodas",
+    "percantage": "Procentas",
+    "next": "Kitas padidinimas",
+    "withdraw": "Atsiimti"
+  },
+  "referral-modal": {
+    "body-text": "Šiuo metu atsiėmimus apdorojame rankiniu būdu. Prašome susisiekti su mumis ir mes tai išspręsime :)",
+    "header-text": "Informacija",
+    "submit-text": "Susisiekite su mumis",
+    "close-text": "Uždaryti"
   }
 }

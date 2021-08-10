@@ -1,133 +1,143 @@
 {
   "elements": {
-    "loading": "caricamento...",
-    "loading-right": "Caricamento...",
-    "loading-left": "….Caricamento",
-    "no-results": "Nessun risultato trovato"
+    "loading": "carregando...",
+    "loading-right": "Carregando...",
+    "loading-left": "... Carregando",
+    "no-results": "Não foram encontrados resultados"
   },
   "user": {
-    "name": "Nome",
+    "name": "Identificação",
     "first-name": "Nome",
-    "last-name": "Cognome",
+    "last-name": "Sobrenome",
     "email": {
-      "email-upper": "Email",
-      "email-lower": "email",
-      "your-email": "La tua email"
+      "email-upper": "Endereço eletrônico",
+      "email-lower": "e-mail",
+      "your-email": "Seu e-mail"
     }
   },
 
   "listing-input-date": {
-    "today": "Oggi",
-    "yesterday": "Ieri",
-    "days-ago": "giorni fa"
+    "today": "Hoje",
+    "yesterday": "Ontem",
+    "days-ago": "dias atrás"
   },
 
   "social-links": {
-    "heading": "Social links",
+    "heading": "Links para as redes sociais",
     "facebook": "Facebook: https://",
     "twitter": "Twitter: https://",
-    "youtube": "YouTube: https://",
+    "youtube": "Youtube: https://",
     "pinterest": "Pinterest: https://",
     "instagram": "Instagram: https://"
   },
 
   "social": {
-    "heading": "Social links",
+    "heading": "Links para redes sociais",
     "facebook": "Facebook",
     "twitter": "Twitter",
-    "youtube": "YouTube",
+    "youtube": "Youtube",
     "pinterest": "Pinterest",
     "instagram": "Instagram"
   },
 
   "week-days": {
-    "monday": "Lunedì",
-    "tuesday": "Martedì",
-    "wednesday": "Mercoledì",
-    "thursday": "Giovedì",
-    "friday": "Venerdì",
-    "saturday": "Sabato",
-    "sunday": "Domenica"
+    "monday": "Segunda-feira",
+    "tuesday": "Terça-feira",
+    "wednesday": "Quarta-feira",
+    "thursday": "Quinta-feira",
+    "friday": "Sexta-feira",
+    "saturday": "Sábado",
+    "sunday": "Domingo"
   },
 
   "toast": {
-    "submit-success": "Il tuo annuncio è stato pubblicato!",
-    "server-error": "Input errato/Server non raggiungibile",
-    "logging-required": "È necessario effettuare il login",
-    "cannot-apply": "Ehi, questa è un'anteprima",
-    "preview": "Nell'Anteprima non puoi fare un'offerta",
-    "log-in": "Devi essere registrato per fare un'offerta",
-    "bidding-price": "Nessun prezzo d'offerta",
-    "price-lower": "L'offerta è inferiore al 20% del prezzo di listino",
-    "price-upper": "L'offerta è superiore al 20% del prezzo di listino",
-    "refresh-page": "Il server non risponde, si prega di aggiornare",
-    "not-send": "L'email non è stata inviata",
-    "contact-directly": "Contatta direttamente",
-    "email-send": "L'email è stata inviata",
-    "no-email": "L'email dell'annuncio non esiste",
-    "subscribed": "Congratulazioni, ti sei iscritto :)",
-    "already-applied": "Hai presentato la tua candidatura per questa posizione",
-    "already": "Già iscritto/ e-mail non valida",
-    "country-error": "Errore non specificato nell'inserimento della nazione",
-    "location-error": "Impossibile recuperare le località",
-    "unknown-error": "Errore sconosciuto del server",
+    "submit-success": "Seu anúncio foi publicado",
+    "server-error": "Entrada incorreta/Servidor não localizado",
+    "logging-required": "Necessário iniciar sessão",
+    "cannot-apply": "Veja, está é uma prévia",
+    "preview": "Na prévia você podem ser feitas ofertas",
+    "log-in": "Você deve estar logado para fazer oferta",
+    "bidding-price": "Não há preço para oferta",
+    "price-lower": "A oferta é menor que 20% do preço do anúncio",
+    "price-upper": "A oferta é maior que 20% do preço do anúncio",
+    "refresh-page": "O servidor não respondeu, favor atualizar a página",
+    "not-send": "E-mail não enviado",
+    "contact-directly": "Contatar diretamente",
+    "email-send": "E-mail enviado",
+    "no-email": "E-mail do anúncio não existe",
+    "subscribed": "Parabéns, você se inscreveu :)",
+    "already-applied": "Você já está inscrito para este cargo",
+    "already": "Já inscrito / E-mail inválido",
+    "country-error": "Erro não especificado de informação de país",
+    "location-error": "Não foi possível obter localização",
+    "unknown-error": "Erro de servidor desconhecido",
     "search-results": {
-      "found": "Trovato",
-      "items": "elementi"
+      "found": "Itens",
+      "items": "encontrados"
     },
-    "not-found": "Nessun nuovo risultato trovato"
+    "not-found": "Não foram encontrados novos resultados",
+    "messages": {
+      "success": "Sucesso",
+      "info": "Informações",
+      "warning": "Aviso",
+      "error": "Erro"
+    },
+    "logout-success": "Vejo você depois!",
+    "bid-placed": "O lance foi feito",
+    "your-referral": "Não é possível usar seu próprio código de referência :)",
+    "minimal-withdraw": "O valor mínimo para sacar é de 25 €"
   },
 
   "location": {
-    "country": "Nazione",
-    "state": "Stato/Regione",
-    "city": "Città",
-    "no-city": "Nessuna città",
-    "no-states": "Nessuno stato",
-    "states-not-registerd": "Nessuno stato registrato",
-    "cities-registerd": "Nessuna città registrata"
+    "country": "País",
+    "state": "Estado / Região",
+    "city": "Cidade",
+    "no-city": "Não há cidades",
+    "no-states": "Não há estados",
+    "states-not-registerd": "Não há estados registrados",
+    "cities-registerd": "Não há cidades registradas"
   },
 
   "items-per-page": {
-    "label": "Elementi",
+    "label": "Itens",
     "options": {
-      "nine": "9 elementi",
-      "eighteen": "18 elementi",
-      "twenty-seven": "27 elementi",
-      "thirty-six": "36 elementi",
-      "seventy-two": "72 elementi"
+      "nine": "9 itens",
+      "eighteen": "18 itens",
+      "twenty-seven": "27 itens",
+      "thirty-six": "36 itens",
+      "seventy-two": "72 itens"
     }
   },
 
   "month": {
-    "Jan": "Gennaio",
-    "Feb": "Febbraio",
-    "Mar": "Marzo",
-    "Apr": "Aprile",
-    "May": "Maggio",
-    "Jun": "Giugno",
-    "Jul": "Luglio",
+    "Jan": "Janeiro",
+    "Feb": "Fevereiro",
+    "Mar": "Março",
+    "Apr": "Abril",
+    "May": "Maio",
+    "Jun": "Junho",
+    "Jul": "Julho",
     "Aug": "Agosto",
-    "Sep": "Settembre",
-    "Oct": "Ottobre",
-    "Nov": "Novembre",
-    "Dec": "Dicembre"
+    "Sep": "Setembro",
+    "Oct": "Outubro",
+    "Nov": "Novembro",
+    "Dec": "Dezembro"
   },
   "currency": {
-    "currency-label": "Valuta",
-    "no-currency": "Tutte"
+    "currency-label": "Moeda",
+    "no-currency": "Todos"
   },
   "measurement": {
-    "label": "Unità di misura",
+    "label": "Dimensões",
     "system": {
-      "none": "Nessuna",
-      "metric": "Metrico",
-      "imperial": "Imperiale"
+      "none": "Nenhuma",
+      "metric": "Métrico",
+      "imperial": "Imperial"
     }
   },
   "user-box": {
-    "profile": "Profilo",
-    "log-out": "Esci"
+    "profile": "Perfil",
+    "log-out": "Encerrar sessão"
   },
-  "preview-close": "Chiudi anteprima"
+  "preview-close": "Fechar prévia"
 }

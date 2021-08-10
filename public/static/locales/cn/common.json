@@ -24,11 +24,11 @@
 
   "social-links": {
     "heading": "社交链接",
-    "facebook": "Facebook: https://",
-    "twitter": "Twitter: https://",
-    "youtube": "Youtube: https://",
-    "pinterest": "Pinterest: https://",
-    "instagram": "Instagram: https://"
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
   },
 
   "social": {
@@ -75,7 +75,17 @@
       "found": "已发现",
       "items": "物品"
     },
-    "not-found": "没有发现新的结果"
+    "not-found": "没有发现新的结果",
+    "messages": {
+      "success": "成功",
+      "info": "信息",
+      "warning": "警告",
+      "error": "错误"
+    },
+    "logout-success": "稍后见！",
+    "bid-placed": "已出价",
+    "your-referral": "不能使用您自己的推荐代码:)",
+    "minimal-withdraw": "最低提款金额为 25 欧元"
   },
 
   "location": {

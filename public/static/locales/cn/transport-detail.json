@@ -25,7 +25,7 @@
     "model": "交通型号",
     "year": "年份",
     "price": "价格",
-    "distance": "距离",
+    "distance": "里程",
     "max-speed": "最大速度",
     "fuel-economy": "燃油效率",
     "seats": "座位数",

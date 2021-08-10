@@ -75,7 +75,17 @@
       "found": "Encontrado",
       "items": "Elementos"
     },
-    "not-found": "No se encontraron nuevos resultados."
+    "not-found": "No se encontraron nuevos resultados.",
+    "messages": {
+      "success": "Éxito",
+      "info": "Información",
+      "warning": "Advertencia",
+      "error": "Error"
+    },
+    "logout-success": "¡Nos vemos más tarde!",
+    "bid-placed": "Se realizó la oferta",
+    "your-referral": "No se puede usar su propio código de referencia :)",
+    "minimal-withdraw": "La cantidad mínima para retirar es de 25 €"
   },
 
   "location": {
