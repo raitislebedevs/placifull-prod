@@ -67,86 +67,61 @@ const TermSection = (props) => {
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                The content of the pages of this website is for your general
-                information and use only. It is subject to change without
-                notice.
+                {t('terms:user-aggrements.rules.rule-one')}
               </p>
             </li>
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                Neither we nor any third parties provide any warranty or
-                guarantee as to the accuracy, timeliness, performance,
-                completeness or suitability of the information and materials
-                found or offered on this website for any particular purpose. You
-                acknowledge that such information and materials may contain
-                inaccuracies or errors and we expressly exclude liability for
-                any such inaccuracies or errors to the fullest extent permitted
-                by Latvian law.
+                {t('terms:user-aggrements.rules.rule-two')}
               </p>
             </li>
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                Your use of any information or materials on this website is
-                entirely at your own risk, for which we shall not be liable. It
-                shall be your own responsibility to ensure that any products,
-                services or information available through this website meet your
-                specific requirements.
+                {t('terms:user-aggrements.rules.rule-three')}
               </p>
             </li>
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                Unauthorised use of this website may give rise to a claim for
-                damages and/or be a criminal offence.
+                {t('terms:user-aggrements.rules.rule-four')}
               </p>
             </li>
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                From time to time this website may also include links to other
-                websites. These links are provided for your convenience to
-                provide further information. They do not signify that we endorse
-                the website(s). We have no responsibility for the content of the
-                linked website(s).
+                {t('terms:user-aggrements.rules.rule-five')}
               </p>
             </li>
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                By publishing your CV you are allowing anyone to view these
-                details. If by any chance these are
+                {t('terms:user-aggrements.rules.rule-six')}
               </p>
             </li>
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                Support will be provided only in English and/or Latvian. If you
-                contact us in any other language we won't respond.
+                {t('terms:user-aggrements.rules.rule-seven')}
               </p>
             </li>
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                User is prohibited to contact us in a hustile and threatening
-                manner. Any communication will be instantly stopped and customer
-                won't be helped if any problems were expierienced.
+                {t('terms:user-aggrements.rules.rule-eight')}
               </p>
             </li>
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                Main communication language is English/Latvian. All other
-                Languages are just for the user convienience and should not be
-                used when communcating with Placifull.
+                {t('terms:user-aggrements.rules.rule-nine')}
               </p>
             </li>
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                Your use of this website and any dispute arising out of such use
-                of the website is subject to the laws of Latvia
+                {t('terms:user-aggrements.rules.rule-ten')}
               </p>
             </li>
           </ul>
@@ -161,44 +136,34 @@ const TermSection = (props) => {
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                The information you provide in your CV can be viewed by people
-                with the 'Browser CV' plan purchased in the scenariou when you
-                have marked published your personal information on your profile.
-                We don't take responsibility on any data which is leaked or
-                accessed unauthorised in any way.
+                {t('terms:privacy-policy.rules.rule-one')}
               </p>
             </li>
 
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                User can share the referral token he/she is assigned to other
-                people. Once they will purchase an option with this token, the
-                user will be credited from 10-25% of the purchase amount.
+                {t('terms:privacy-policy.rules.rule-two')}
               </p>
             </li>
 
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                Once the amounte reaches 25 Euro the user will have the rights
-                to withdraw this amount{' '}
+                {t('terms:privacy-policy.rules.rule-three')}
               </p>
             </li>
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                If in any way the user is suspected to be fradulant. The account
-                can be blocked and amount reduced to 0.
+                {t('terms:privacy-policy.rules.rule-four')}
               </p>
             </li>
           </ul>
         </div>
 
         <div className="terms-container__content--box">
-          <h3 className="terms-container__content--heading">
-            Users Question {'&'} Answer:
-          </h3>
+          <h3 className="terms-container__content--heading"></h3>
           <Row className="terms-container__content--faq__box">
             <Col lg={6} xl={6} md={6}>
               <Accordion className="section__accordion">
@@ -228,13 +193,10 @@ const TermSection = (props) => {
 
         <div className="terms-container__content--box">
           <h3 className="terms-container__content--heading">
-            Still have a questions?
+            {t('terms:end.title')}
           </h3>
           <p className="terms-container__content--text">
-            {`Please contact us from the contact page, and we will get back to you as soon as possible. 
-            In short we want to do what ever we can to make this site better. Be assured that our focus is to discuss any 
-            issues/questions with the user at the highest priority.
-         `}
+            {t('terms:end.goodbye-text')}
           </p>
         </div>
       </div>
