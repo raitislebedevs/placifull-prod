@@ -155,7 +155,7 @@ const JobPost = (props) => {
   const handleDataSubmit = async (e) => {
     e.preventDefault();
 
-    if (!paymentDetails.totalCost) setIsProcessing(true);
+    if (!paymentDetails?.totalCost) setIsProcessing(true);
 
     setIsLoading(true);
     try {

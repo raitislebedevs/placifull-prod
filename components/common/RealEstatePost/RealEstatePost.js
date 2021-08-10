@@ -160,14 +160,12 @@ const RealEstatePost = (props) => {
 
     setPaymentDetails(paymentDetails);
     if (paymentDetails.totalCost) setIsStripe(true);
-
-    console.log(paymentDetails);
   };
 
   const handleDataSubmit = async (e) => {
     e.preventDefault();
 
-    if (!paymentDetails.totalCost) setIsProcessing(true);
+    if (!paymentDetails?.totalCost) setIsProcessing(true);
 
     setIsLoading(true);
     try {

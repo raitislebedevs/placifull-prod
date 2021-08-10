@@ -118,7 +118,7 @@ const CheckoutForm = (props) => {
         throw new Error('Payment Failed!');
       }
 
-      let success = await handleDataSubmit(event);
+      let success = await handleDataSubmit(event, paymentDetails);
       if (!success) {
         setProcessing(false);
         TostifyCustomContainer(
