@@ -1,5 +1,6 @@
 import { withTranslation } from 'i18n';
 import Link from 'next/link';
+import Head from 'next/head';
 import { BiHomeAlt } from 'react-icons/bi';
 import PropTypes from 'prop-types';
 import { Button, Row, Col } from 'react-bootstrap';
@@ -9,6 +10,9 @@ const Register = (props) => {
   const { t } = props;
   return (
     <div className="register-container">
+      <Head>
+        <title>We Have Waited For You!</title>
+      </Head>
       <Row>
         <RegisterForm t={t} />
         <RegisterImage t={t} />

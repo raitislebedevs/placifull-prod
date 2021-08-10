@@ -556,9 +556,6 @@ const ServiceSection = (props) => {
 
       const { data, error } = await JobApplication.CREATE(payload);
       if (error) throw error?.message;
-      if (data) {
-        toast.success('ADD A SUCCESS MESSSAGE');
-      }
     } catch (e) {
       toast.error(e);
     }

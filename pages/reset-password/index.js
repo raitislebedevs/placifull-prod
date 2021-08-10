@@ -1,6 +1,7 @@
 import { useLayoutEffect } from 'react';
 import { withTranslation } from 'i18n';
 import Link from 'next/link';
+import Head from 'next/head';
 import { BiHomeAlt } from 'react-icons/bi';
 import PropTypes from 'prop-types';
 import { Button, Row, Col } from 'react-bootstrap';
@@ -22,6 +23,9 @@ const ResetPassword = (props) => {
 
   return (
     <div className="forgot-password-container">
+      <Head>
+        <title>You are still awsome!</title>
+      </Head>
       <Row>
         <ResetPasswordForm code={code} t={t} />
         <ResetPasswordImage t={t} />
