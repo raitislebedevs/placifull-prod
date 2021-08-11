@@ -101,7 +101,7 @@ const TransportationSection = (props) => {
                       <img
                         src={noTransport}
                         id="logo"
-                        className="mx-auto d-block"
+                        className="mx-auto d-block item__picture"
                         alt="Transport"
                       />
                     </div>

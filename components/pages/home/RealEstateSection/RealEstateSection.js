@@ -127,7 +127,7 @@ const RealEstateSection = (props) => {
                       <img
                         src={noRealEstate}
                         id="logo"
-                        className="mx-auto d-block"
+                        className="mx-auto d-block item__picture"
                         alt="RealEstate"
                       />
                     </div>

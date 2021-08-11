@@ -32,6 +32,15 @@
     }
   }
   .real-estate-section__right {
+    .listings__not__placed {
+      padding: 42px 0px;
+      .item__picture {
+        @include media-breakpoint-down(xs) {
+          width: 300px;
+          height: auto;
+        }
+      }
+    }
     .real-estate__list-items {
       .featured__items__loading {
         text-align: center;
