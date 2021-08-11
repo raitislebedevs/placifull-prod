@@ -37,7 +37,9 @@ const responsive = {
 const RealEstateCard = (props) => {
   const { t, item } = props;
   return (
-    <div className="real-estate-item-card">
+    <div
+      className={`real-estate-item-card ${item.isPromotable ? 'promoted' : ''}`}
+    >
       <div className="real-estate-item-card__image-cover">
         <Carousel
           arrows={true}
