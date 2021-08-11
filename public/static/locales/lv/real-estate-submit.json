@@ -6,7 +6,7 @@
     "preview-sneak-peak": "Ģenerē…",
     "preview": "Priekštskatīt",
     "no-currency": "VISAS",
-    "no-features": "Izvēlēties sludinājuma kategoriju",
+    "no-features": "Izvēlaties sludinājuma kategoriju",
     "general-information": {
       "heading": "Galvenā informācija",
       "currency-input": "Valūtaa",
@@ -30,7 +30,7 @@
         "address": "Adresse",
         "contact-times": {
           "label": "Sazināšanās laiki",
-          "placeholder": "Izvēlēties vēlamo laiku"
+          "placeholder": "Izvēlaties vēlamo laiku"
         },
         "listing-website": "Vietne: https://"
       }
