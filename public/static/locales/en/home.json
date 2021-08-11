@@ -136,7 +136,7 @@
           "tier-2": {
             "name": "Single Post",
             "offer-1": "Pay once, use whenever needed.",
-            "offer-2": "Listings posted for up to 395 days",
+            "offer-2": "Listings posted for up to 30 days",
             "offer-3": "Freedom to Follow user bids",
             "offer-4": "Remove any time",
             "button": "Try Now"
@@ -144,7 +144,7 @@
           "tier-3": {
             "name": "Quarterly",
             "offer-1": "8 active items",
-            "offer-2": "List up to 395 days",
+            "offer-2": "List up to 30 days",
             "offer-3": "Follow user bids",
             "offer-4": "Close whenever you want and use again",
             "button": "Try Now"
@@ -152,7 +152,7 @@
           "tier-4": {
             "name": "Annually",
             "offer-1": "20 active items",
-            "offer-2": "List up to 120 days",
+            "offer-2": "List up to 30 days",
             "offer-3": "Freedome to follow user bids",
             "offer-4": "Close whenever, and Re-open on need",
             "button": "Try Now"
@@ -165,7 +165,7 @@
           "tier-2": {
             "name": "Single Post",
             "offer-1": "Pay once, use whenever needed.",
-            "offer-2": "Listings posted for up to 395 days",
+            "offer-2": "Listings posted for up to 30 days",
             "offer-3": "Freedom to Follow user bids",
             "offer-4": "Remove any time",
             "button": "Try Now"
@@ -173,7 +173,7 @@
           "tier-3": {
             "name": "Quarterly",
             "offer-1": "8 active items",
-            "offer-2": "List up to 395 days",
+            "offer-2": "List up to 30 days",
             "offer-3": "Follow user bids",
             "offer-4": "Close whenever you want and use again",
             "button": "Try Now"
@@ -181,7 +181,7 @@
           "tier-4": {
             "name": "Annually",
             "offer-1": "20 active items",
-            "offer-2": "List up to 120 days",
+            "offer-2": "List up to 30 days",
             "offer-3": "Freedome to follow user bids",
             "offer-4": "Close whenever, and Re-open on need",
             "button": "Try Now"
@@ -194,7 +194,7 @@
           "tier-2": {
             "name": "Single Post",
             "offer-1": "Pay once, use whenever needed.",
-            "offer-2": "Listings posted for up to 395 days",
+            "offer-2": "Listings posted for up to 30 days",
             "offer-3": "Freedom to Follow user bids",
             "offer-4": "Remove any time",
             "button": "Try Now"
@@ -202,7 +202,7 @@
           "tier-3": {
             "name": "Quarterly",
             "offer-1": "8 active items",
-            "offer-2": "List up to 395 days",
+            "offer-2": "List up to 30 days",
             "offer-3": "Follow user bids",
             "offer-4": "Close whenever you want and use again",
             "button": "Try Now"
@@ -210,7 +210,7 @@
           "tier-4": {
             "name": "Annually",
             "offer-1": "20 active items",
-            "offer-2": "List up to 120 days",
+            "offer-2": "List up to 30 days",
             "offer-3": "Freedome to follow user bids",
             "offer-4": "Close whenever, and Re-open on need",
             "button": "Try Now"

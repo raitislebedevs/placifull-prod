@@ -15,7 +15,7 @@
     }
   },
   "hover-texts": {
-    "real-estate": "Nekustamo īpašumi",
+    "real-estate": "Nekustamie īpašumi",
     "transport": "Trasnsports",
     "job": "Darbs",
     "browser": "Meklēt CV"
@@ -25,7 +25,7 @@
     "titles": {
       "profile": "Profils",
       "cv": "CV",
-      "real-estate": "Nekustamo īpašumi",
+      "real-estate": "Nekustamie īpašumi",
       "transport": "Trasnsports",
       "jobs": "Darbs",
       "browser": "Meklēt CV",
@@ -40,7 +40,7 @@
       "personal-details": {
         "heading": "Personiskā informācija",
         "labels": {
-          "profession": "Identitātes profesija",
+          "profession": "Profesija ar ko sevi identificē",
           "first-name": "Vārds",
           "last-name": "Uzvārds",
           "email": "Tavs e-pasts",
@@ -201,7 +201,7 @@
                 "other": "Cits"
               }
             },
-            "best-fit": "Piemērotākā profesija",
+            "best-fit": "Piemērotākā profesijas sfēra",
             "grade": "Vidējā atzīme",
             "button-add": "Pievienot izglītību"
           }
@@ -217,12 +217,12 @@
           "position-description": "Pozīcijas apraksts",
           "sector": "Nodarbinātības sektors",
           "seniority": {
-            "title": "Profesijas Stāžs",
+            "title": "Profesijas briedums",
             "options": {
               "volunteer": "Brīvprātīgais",
               "intern": "Prakse",
               "junior": "Jaunākais",
-              "intermediate": "Ar pieredzi",
+              "intermediate": "Vidējais",
               "senior": "Vecākais",
               "executive": "Izpilddirektors",
               "ceo": "CEO",
@@ -276,7 +276,7 @@
               "tenToFifteen": "10-15 gadi",
               "moreThanFifteen": "15+ gadi"
             },
-            "certificate": "Certifikāts",
+            "certificate": "Sertifikāts",
             "button-add": "Pievienot prasmi"
           }
         },
@@ -373,28 +373,28 @@
   },
   "delete-modal": {
     "header": "Izdzēst sludinājumu",
-    "body": "Vai tu es drošs ka vēlies izdzēst sludinājumu",
+    "body": "Vai tu es drošs ka vēlies izdzēst sludinājumu?",
     "cancel": "Atcelt",
     "delete": "Dzēst"
   },
   "delete-account": {
     "header": "Dzēst kontu",
-    "body": "Vai tu esi drošs ka vēlies dzēst kontu",
+    "body": "Vai tu esi drošs ka vēlies dzēst kontu?",
     "cancel": "Atcelt",
     "delete": "Dzēst"
   },
   "reffaral": {
-    "heading": "Referāļu programma",
+    "heading": "Ieteikšanas programma",
     "balance": "Summa",
-    "code": "Referāļa kods",
+    "code": "Kods",
     "percantage": "Procenti",
     "next": "Nākamais līmenis:",
     "withdraw": "Izņemt"
   },
   "referral-modal": {
-    "body-text": "Pašlaik mēs pārskaitījumus apstrādājam manuāli. Lūdzu, sazinieties ar mums, un mēs to nokārtosim :)",
+    "body-text": "Pašlaik mēs pārskaitījumus apstrādājam manuāli. Lūdzu, sazinaties ar mums, un mēs to nokārtosim :)",
     "header-text": "Informācija",
-    "submit-text": "Sazinieties ar mums",
+    "submit-text": "Sazinaties ar mums",
     "close-text": "Aizvērt"
   }
 }

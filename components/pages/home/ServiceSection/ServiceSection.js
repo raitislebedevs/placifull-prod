@@ -570,11 +570,12 @@ const ServiceSection = (props) => {
             <Col xs={12} sm={12} md={12} lg={12} xl={12}>
               <div className="section-title text-center text-md-center">
                 <h3 className="title mb-4 font-weight-bold">
-                  {t('service-section.head.line-1')}
+                  {t('service-section.head.line-1')}{' '}
                 </h3>
                 <p className="text-muted mb-0 para-desc">
                   {t('service-section.head.line-2')}{' '}
                   <span className="text-primary font-weight-bold">
+                    {' '}
                     {t('service-section.head.line-3')}
                   </span>{' '}
                   {t('service-section.head.line-4')}

@@ -6,6 +6,7 @@ import priceOptions from './priceOptions';
 import compose from 'recompose/compose';
 import { connect } from 'react-redux';
 import Link from 'next/link';
+import { DISCOUNTS_GREEN, DISCOUNTS_RED } from 'constants/purchasePrice';
 
 function PaymentDetailModal(props) {
   const { t, isLogged } = props;
@@ -80,30 +81,29 @@ const PriceSection = (props) => {
       key: 0,
       option: 'Real Estate',
       label: t('price-section.prices.price-1.name'),
-      discount: null,
-      increase: null,
+      discount: DISCOUNTS_RED.REAL_ESATE,
+      increase: DISCOUNTS_GREEN.REAL_ESATE,
     },
     {
       key: 1,
       option: 'Transportation',
       label: t('price-section.prices.price-2.name'),
-
-      discount: null,
-      increase: null,
+      discount: DISCOUNTS_RED.TRANSPORT,
+      increase: DISCOUNTS_GREEN.TRANSPORT,
     },
     {
       key: 2,
       option: 'Jobs',
       label: t('price-section.prices.price-3.name'),
-      discount: null,
-      increase: null,
+      discount: DISCOUNTS_RED.JOBS,
+      increase: DISCOUNTS_GREEN.JOBS,
     },
     {
       key: 3,
       option: 'Others',
       label: t('price-section.prices.price-4.name'),
-      discount: null,
-      increase: null,
+      discount: DISCOUNTS_RED.REAL_ESATE,
+      increase: DISCOUNTS_GREEN.REAL_ESATE,
     },
   ];
 
@@ -121,6 +121,20 @@ const PriceSection = (props) => {
               className="price-section__head"
             >
               <div className="head__title">
+                {DISCOUNTS_RED.ALL !== 0 && (
+                  <h1>
+                    <Badge pill variant="danger" className={'badge__item'}>
+                      {DISCOUNTS_RED.ALL}% {t('price-section.off')}
+                    </Badge>
+                  </h1>
+                )}
+                {DISCOUNTS_GREEN.ALL !== 0 && (
+                  <h1>
+                    <Badge pill variant="success" className={'badge__item'}>
+                      {DISCOUNTS_GREEN.ALL}% {t('price-section.off')}
+                    </Badge>
+                  </h1>
+                )}
                 {t('price-section.head.line-1')}
               </div>
             </Col>
@@ -146,17 +160,25 @@ const PriceSection = (props) => {
                       key={option.key}
                     >
                       <div
-                        className="nav-link"
+                        className="nav-link badge-container"
                         onClick={() => setCurrentOption(option.key)}
                       >
                         {option.label}
                         <>
                           {option.discount ? (
-                            <Badge pill variant="danger">
+                            <Badge
+                              pill
+                              variant="danger"
+                              className={'badge__item'}
+                            >
                               {option.discount}% {t('price-section.off')}
                             </Badge>
                           ) : option.increase ? (
-                            <Badge pill variant="success">
+                            <Badge
+                              pill
+                              variant="success"
+                              className={'badge__item'}
+                            >
                               {option.increase}% {t('price-section.off')}
                             </Badge>
                           ) : (

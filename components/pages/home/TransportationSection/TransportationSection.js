@@ -128,7 +128,7 @@ const TransportationSection = (props) => {
                   {t('transportation-section.head.line-1')}
                 </h4>
                 <p className="text-muted mx-auto mx-lg-left para-desc mb-0">
-                  {t('transportation-section.head.line-2')}
+                  {t('transportation-section.head.line-2')}{' '}
                   <span className="text-primary font-weight-bold">
                     {' '}
                     {t('transportation-section.head.line-3')}{' '}
