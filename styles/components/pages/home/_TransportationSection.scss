@@ -1,7 +1,7 @@
 .home-container__transportation-section {
   margin-top: 100px;
 
-  .transportation-section__Parentrow {
+  .transportation-section__row {
     @include media-breakpoint-down(md) {
       flex-direction: column-reverse;
     }
