@@ -109,7 +109,9 @@ const fields = (t) => [
   {
     key: 'skillCertificate',
     type: 'text',
-    label: 'Official Certificate',
+    label: t(
+      'profile:right-content.cv.sections.computer.accordion.certificate'
+    ),
   },
   {
     key: 'deleteButton',
