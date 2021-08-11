@@ -16,8 +16,6 @@ const PaymentModalForm = (props) => {
     plan,
     dayCost,
     setPaymentDetails,
-    handleSubmit,
-    paymentDetails,
     handleDataSubmit,
     setReceiptModal,
     setPaymentModal,
@@ -79,7 +77,7 @@ const PaymentModalForm = (props) => {
     e.preventDefault();
 
     let payload = {
-      ...paymentDetails,
+      purchacePrice: 0,
       isPromoted: promotedCost ? true : false,
       addedDays: Number((dayCost * addedDays).toFixed(2)),
       purchasePlan: pricingOption,
@@ -90,9 +88,8 @@ const PaymentModalForm = (props) => {
     setPaymentDetails(payload);
 
     if (!totalAmount) {
-      await handleSubmit(e, payload);
-      await handleDataSubmit(e);
       setPaymentModal(false);
+      await handleDataSubmit(e, payload);
       return;
     }
 

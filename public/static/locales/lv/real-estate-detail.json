@@ -33,7 +33,7 @@
 
   "contact-form": {
     "heading": "Sazināšanās laiki",
-    "not-specified": "Nav precizētas",
+    "not-specified": "Nav precizēts",
     "form": {
       "heading": "Savu jautājumu ievadiet šeit",
       "fullName": "Pilns vārds*",

@@ -3,13 +3,13 @@
   "form": {
     "first-name": "Vārds",
     "last-name": "Uzvārds",
-    "your-email": "Norādiet E-pastu",
+    "your-email": "Norādiet e-pastu",
     "email": "E-pasts",
     "password": "Parole",
-    "confirm-password": "Apstiprināt Paroli",
+    "confirm-password": "Apstiprināt paroli",
     "submit": "Reģistrēties",
-    "terms-text": "Es Piekrītu",
-    "terms-link": "Noteikumiem",
+    "terms-text": "Es piekrītu",
+    "terms-link": "noteikumiem",
     "error": {
       "email-invalid": "Nepareizs e-pasta formāts",
       "email-required": "E-pasts ir vajadzīgs",
@@ -20,10 +20,10 @@
       "accept-terms": "Nepieciešams piekrist noteikumiem"
     }
   },
-  "or": "Vai Pievienoties Ar",
+  "or": "Vai pievienoties Ar",
   "facebook": "Facebook",
   "google": "Google",
   "account": "Jums jau ir savs konts?",
   "sign-in": "Pievienoties",
-  "success-text": "Urrā, Saksim Darboties! "
+  "success-text": "Urrā, sāksim darboties! "
 }

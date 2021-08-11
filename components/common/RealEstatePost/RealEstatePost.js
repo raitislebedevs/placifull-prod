@@ -13,7 +13,7 @@ import Gallery from '../RealEstateForm/Gallery';
 import Preview from '../RealEstateForm/Preview';
 import moment from 'moment';
 import { defaultExpiryDays, dayCostRealEstate } from 'constants/listingDetails';
-import { ListingPayment, SpinnerModal, StripeContainer } from '../index';
+import { ListingPayment, SpinnerModal } from '../index';
 import useSubscription from 'hooks/useSubscription';
 import usePostInputValues from 'hooks/usePostInputValues';
 import { useRouter } from 'next/router';
@@ -24,8 +24,6 @@ const RealEstatePost = (props) => {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
-  const [isStripe, setIsStripe] = useState(false);
-  const [paymentDetails, setPaymentDetails] = useState({});
   const [submitCurrency, setsubmitCurrency] = useState();
   const [addressPosition, setAddressPosition] = useState(null);
   const [previewModal, setPreviewModal] = useState(false);
@@ -68,10 +66,10 @@ const RealEstatePost = (props) => {
     }
   }, [addressPosition]);
 
-  const PopulatePayload = (inputValues) => {
+  const PopulatePayload = (inputValues, promoted) => {
     var expiryDate = addDays(new Date(), defaultExpiryDays);
     let payload = {
-      isPromotable: paymentDetails?.isPromoted || false,
+      isPromotable: promoted || false,
       name: inputValues?.name || null,
       description: inputValues?.description || null,
       price: inputValues?.price || null,
@@ -155,21 +153,15 @@ const RealEstatePost = (props) => {
     return payload;
   };
 
-  const handleSubmit = async (e, paymentDetails) => {
+  const handleDataSubmit = async (e, paymentDetails) => {
     e.preventDefault();
-
-    setPaymentDetails(paymentDetails);
-    if (paymentDetails.totalCost) setIsStripe(true);
-  };
-
-  const handleDataSubmit = async (e) => {
-    e.preventDefault();
+    let promoted = paymentDetails.isPromoted;
 
     if (!paymentDetails?.totalCost) setIsProcessing(true);
 
     setIsLoading(true);
     try {
-      const listingId = await uploadListing();
+      const listingId = await uploadListing(promoted);
       await handleInputSubscriptions(paymentDetails, listingId);
 
       //Getting the latest data back
@@ -196,9 +188,9 @@ const RealEstatePost = (props) => {
   };
 
   //Uploads listing to the database.
-  const uploadListing = async () => {
-    let payload = PopulatePayload(inputValues);
-
+  const uploadListing = async (promoted) => {
+    let payload = PopulatePayload(inputValues, promoted);
+    console.log(payload);
     const formData = new FormData();
     formData.append('data', JSON.stringify(payload));
     if (inputValues?.listingGallery) {
@@ -236,7 +228,7 @@ const RealEstatePost = (props) => {
             errors[i]
           );
       }
-      return;
+      // return;
     }
     setPaymentModal(true);
   };
@@ -379,20 +371,12 @@ const RealEstatePost = (props) => {
         handleDataSubmit={handleDataSubmit}
         setPaymentModal={setPaymentModal}
         dayCost={dayCostRealEstate}
-        handleSubmit={handleSubmit}
         paymentModal={paymentModal}
         plan={'realEstate'}
         user={user}
         t={t}
       />
       <SpinnerModal show={isProcessing} onHide={() => setIsProcessing(false)} />
-      <StripeContainer
-        show={isStripe}
-        setIsStripe={setIsStripe}
-        paymentDetails={paymentDetails}
-        onHide={() => setIsStripe(false)}
-        handleDataSubmit={handleDataSubmit}
-      />
     </div>
   );
 };
