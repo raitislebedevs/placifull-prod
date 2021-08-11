@@ -112,7 +112,8 @@ const CheckoutForm = (props) => {
       if (!data?.charged) {
         TostifyCustomContainer(
           'warning',
-          t(`stripe:declined.${data?.message?.code}`)
+          t('common:toast.messages.warning'),
+          t(`stripe:declined.card_declined`)
         );
 
         throw new Error('Payment Failed!');
