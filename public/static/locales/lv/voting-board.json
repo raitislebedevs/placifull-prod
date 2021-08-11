@@ -1,0 +1,20 @@
+{
+  "title": "Ieteikumu dēlis",
+  "subtitle": "Balsošanas dēlis",
+  "item": {
+    "score": "Pašreizējais vērtējums",
+    "options": "Balsošanas iespējas",
+    "up": "UZ AUGŠU",
+    "down": "UZ LEJU",
+    "rating": "Vērtējums",
+    "vote": "BALSOT"
+  },
+  "toast": {
+    "log-in": "Nepieciešams pieslēgties",
+    "voted": "Mēģināt balsot divreiz?",
+    "rate": "Lūdzu novērtējiet ideju",
+    "up-down": "Atzīmējiet balsošanas iespēju",
+    "idea": "Novertē un atzīmē balsosošanas opciju",
+    "zero": "Šo ideju nevar vērtēt uz leju"
+  }
+}

@@ -19,7 +19,7 @@
   },
 
   "declined": {
-    "card_declined": "Your Card has been declined"
+    "card_declined": "Your card has been declined"
   },
   "checkout": {
     "billing": "Please fill out billing information",
@@ -32,6 +32,6 @@
     "name": "Name",
     "email": "Email",
     "phone": "Phone Nr.",
-    "referral": "Referral Code"
+    "referral": "Referral code"
   }
 }

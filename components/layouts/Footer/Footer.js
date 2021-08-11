@@ -144,13 +144,13 @@ const Footer = (props) => {
                   {t('footer:top.list-menu.menu-2.items.item-7')}
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/" className="list__items">
                   {' '}
                   <FontAwesomeIcon icon="chevron-right" className="icon" />{' '}
                   {t('footer:top.list-menu.menu-2.items.item-4')}
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
 

@@ -74,66 +74,64 @@ const JobSection = (props) => {
 
   return (
     <>
-      {items?.length != 0 && (
-        <div className="home-container__job-section">
-          <Container>
-            <Row className="align-items-center">
-              <Col xs={12} sm={12} md={12} lg={4} xl={4}>
-                <div className="job-section__left">
-                  <span className="left-badge">{t('job-section.badge')}</span>
-                  <h4 className="left-title">{t('job-section.head.line-1')}</h4>
-                  <p className="text-muted mx-auto mx-lg-left para-desc mb-0">
-                    {t('job-section.head.line-2')}
-                    <span className="text-primary font-weight-bold">
-                      {' '}
-                      {t('job-section.head.line-3')}{' '}
-                    </span>
-                    {t('job-section.head.line-4')}
-                  </p>
-                  <Link href={'/job-search'}>
-                    <Button className="left-button">
-                      {t('job-section.button')}
-                    </Button>
-                  </Link>
-                </div>
-              </Col>
-              <Col
-                xs={12}
-                sm={12}
-                md={12}
-                lg={8}
-                xl={8}
-                className="job-section__right"
-              >
-                {' '}
-                <div className="job__list-items">
-                  {isLoading ? (
-                    <div className="featured__items__loading">
-                      <Spinner
-                        as="span"
-                        animation="grow"
-                        variant="danger"
-                        size="lg"
-                        role="status"
-                      />
-                    </div>
-                  ) : (
-                    <>
-                      <Slider {...sliderSettings}>
-                        {items?.map((item, index) => (
-                          <div key={index} className="right__slick-item">
-                            <JobCard t={t} item={item} />
-                          </div>
-                        ))}
-                      </Slider>
-                    </>
-                  )}
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      )}
+      <div className="home-container__job-section">
+        <Container>
+          <Row className="align-items-center">
+            <Col xs={12} sm={12} md={12} lg={4} xl={4}>
+              <div className="job-section__left">
+                <span className="left-badge">{t('job-section.badge')}</span>
+                <h4 className="left-title">{t('job-section.head.line-1')}</h4>
+                <p className="text-muted mx-auto mx-lg-left para-desc mb-0">
+                  {t('job-section.head.line-2')}
+                  <span className="text-primary font-weight-bold">
+                    {' '}
+                    {t('job-section.head.line-3')}{' '}
+                  </span>
+                  {t('job-section.head.line-4')}
+                </p>
+                <Link href={'/job-search'}>
+                  <Button className="left-button">
+                    {t('job-section.button')}
+                  </Button>
+                </Link>
+              </div>
+            </Col>
+            <Col
+              xs={12}
+              sm={12}
+              md={12}
+              lg={8}
+              xl={8}
+              className="job-section__right"
+            >
+              {' '}
+              <div className="job__list-items">
+                {isLoading ? (
+                  <div className="featured__items__loading">
+                    <Spinner
+                      as="span"
+                      animation="grow"
+                      variant="danger"
+                      size="lg"
+                      role="status"
+                    />
+                  </div>
+                ) : (
+                  <>
+                    <Slider {...sliderSettings}>
+                      {items?.map((item, index) => (
+                        <div key={index} className="right__slick-item">
+                          <JobCard t={t} item={item} />
+                        </div>
+                      ))}
+                    </Slider>
+                  </>
+                )}
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 };

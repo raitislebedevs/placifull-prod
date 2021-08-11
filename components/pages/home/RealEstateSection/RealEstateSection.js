@@ -74,71 +74,69 @@ const RealEstateSection = (props) => {
 
   return (
     <>
-      {items?.length != 0 && (
-        <Container
-          id={'promoted-section'}
-          className="home-container__real-estate-section"
-        >
-          <Row className="align-items-center">
-            <Col xs={12} sm={12} md={12} lg={4} xl={4}>
-              <div className="real-estate-section__left">
-                <span className="left-badge">
-                  {t('real-estate-section.badge')}
+      <Container
+        id={'promoted-section'}
+        className="home-container__real-estate-section"
+      >
+        <Row className="align-items-center">
+          <Col xs={12} sm={12} md={12} lg={4} xl={4}>
+            <div className="real-estate-section__left">
+              <span className="left-badge">
+                {t('real-estate-section.badge')}
+              </span>
+              <h4 className="left-title">
+                {t('real-estate-section.head.line-1')}
+              </h4>
+              <p className="text-muted mx-auto mx-lg-left para-desc mb-0">
+                {t('real-estate-section.head.line-2')}
+                <span className="text-primary font-weight-bold">
+                  {' '}
+                  {t('real-estate-section.head.line-3')}{' '}
                 </span>
-                <h4 className="left-title">
-                  {t('real-estate-section.head.line-1')}
-                </h4>
-                <p className="text-muted mx-auto mx-lg-left para-desc mb-0">
-                  {t('real-estate-section.head.line-2')}
-                  <span className="text-primary font-weight-bold">
-                    {' '}
-                    {t('real-estate-section.head.line-3')}{' '}
-                  </span>
-                  {t('real-estate-section.head.line-4')}
-                </p>
-                <Link href={'/real-estate'}>
-                  <Button className="left-button">
-                    {t('real-estate-section.button')}
-                  </Button>
-                </Link>
-              </div>
-            </Col>
-            <Col
-              xs={12}
-              sm={12}
-              md={12}
-              lg={8}
-              xl={8}
-              className="real-estate-section__right"
-            >
-              {' '}
-              <div className="real-estate__list-items">
-                {isLoading ? (
-                  <div className="featured__items__loading">
-                    <Spinner
-                      as="span"
-                      animation="grow"
-                      variant="danger"
-                      size="lg"
-                      role="status"
-                    />
-                  </div>
-                ) : (
-                  <>
-                    <Slider {...sliderSettings}>
-                      {items?.map((item, index) => (
-                        <div key={index} className="right__slick-item">
-                          <RealEstateCard t={t} item={item} />
-                        </div>
-                      ))}
-                    </Slider>
-                  </>
-                )}
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      )}
+                {t('real-estate-section.head.line-4')}
+              </p>
+              <Link href={'/real-estate'}>
+                <Button className="left-button">
+                  {t('real-estate-section.button')}
+                </Button>
+              </Link>
+            </div>
+          </Col>
+          <Col
+            xs={12}
+            sm={12}
+            md={12}
+            lg={8}
+            xl={8}
+            className="real-estate-section__right"
+          >
+            {' '}
+            <div className="real-estate__list-items">
+              {isLoading ? (
+                <div className="featured__items__loading">
+                  <Spinner
+                    as="span"
+                    animation="grow"
+                    variant="danger"
+                    size="lg"
+                    role="status"
+                  />
+                </div>
+              ) : (
+                <>
+                  <Slider {...sliderSettings}>
+                    {items?.map((item, index) => (
+                      <div key={index} className="right__slick-item">
+                        <RealEstateCard t={t} item={item} />
+                      </div>
+                    ))}
+                  </Slider>
+                </>
+              )}
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 };

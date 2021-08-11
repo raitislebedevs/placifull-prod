@@ -1,17 +1,25 @@
 {
   "internal-error": "Nezināma kļūda no servera. Mēģiniet vēlāk vēlreiz. ",
+  "server-error-api": "Server kļūda",
   "connection-error": "Nevar pieslēgties serverim. Mēģiniet vēlāk vēlreiz. ",
   "server-not-reached": "Ak cik apkaunojoši! Serveris ir nesasniedzams. Lūdzu mēģiniet vēlreiz, vai sazinieties ar mums. ",
   "Auth": {
     "form": {
       "error": {
-        "invalid": "Nepareiza parola vai E-pasts",
+        "invalid": "Nepareiza parole vai E-pasts",
         "user": {
-          "not-exist": "Lietotājs ar šo e-pastu neeksistē"
+          "not-exist": "Lietotājs ar šo e-pastu neeksistē",
+          "user-blocked": "Šis lietotājs ir bloķēts. Sazinieties ar atbalsta komandu."
+        },
+        "code": {
+          "provide": "Neatļauta piekļuve!"
+        },
+        "email": {
+          "confirmed": "Jums jāapstiprina sava e-pasta adrese",
+          "taken": "Lietotājs ar šo e -pasta adresi jau pastāv",
+          "already-confirmed": "Epasts jau ir apstiprināts",
+          "format": "Epasta formāts nav pareizs"
         }
-      },
-      "email": {
-        "taken": "Lietotājs ar šo e-pastu eksistē"
       }
     }
   }

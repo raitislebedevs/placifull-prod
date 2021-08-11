@@ -71,67 +71,65 @@ const TransportationSection = (props) => {
 
   return (
     <>
-      {items?.length != 0 && (
-        <div className="home-container__transportation-section">
-          <Container>
-            <Row className="align-items-center transportation-section__row">
-              <Col
-                xs={12}
-                sm={12}
-                md={12}
-                lg={8}
-                xl={8}
-                className="transportation-section__left"
-              >
-                {isLoading ? (
-                  <div className="featured__items__loading">
-                    <Spinner
-                      as="span"
-                      animation="grow"
-                      variant="danger"
-                      size="lg"
-                      role="status"
-                    />
-                  </div>
-                ) : (
-                  <>
-                    <Slider {...sliderSettings}>
-                      {items?.map((item, index) => (
-                        <div key={index} className="left__slick-item">
-                          <TransportationCard t={t} item={item} />
-                        </div>
-                      ))}
-                    </Slider>
-                  </>
-                )}
-              </Col>
-              <Col xs={12} sm={12} md={12} lg={4} xl={4}>
-                <div className="transportation-section-title">
-                  <span className="section-title__badge">
-                    {t('transportation-section.badge')}
-                  </span>
-                  <h4 className="section-title__title">
-                    {t('transportation-section.head.line-1')}
-                  </h4>
-                  <p className="text-muted mx-auto mx-lg-left para-desc mb-0">
-                    {t('transportation-section.head.line-2')}
-                    <span className="text-primary font-weight-bold">
-                      {' '}
-                      {t('transportation-section.head.line-3')}{' '}
-                    </span>
-                    {t('transportation-section.head.line-4')}
-                  </p>
-                  <Link href={'/transport'}>
-                    <Button className="section-title__button">
-                      {t('transportation-section.button')}
-                    </Button>
-                  </Link>
+      <div className="home-container__transportation-section">
+        <Container>
+          <Row className="align-items-center transportation-section__row">
+            <Col
+              xs={12}
+              sm={12}
+              md={12}
+              lg={8}
+              xl={8}
+              className="transportation-section__left"
+            >
+              {isLoading ? (
+                <div className="featured__items__loading">
+                  <Spinner
+                    as="span"
+                    animation="grow"
+                    variant="danger"
+                    size="lg"
+                    role="status"
+                  />
                 </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      )}
+              ) : (
+                <>
+                  <Slider {...sliderSettings}>
+                    {items?.map((item, index) => (
+                      <div key={index} className="left__slick-item">
+                        <TransportationCard t={t} item={item} />
+                      </div>
+                    ))}
+                  </Slider>
+                </>
+              )}
+            </Col>
+            <Col xs={12} sm={12} md={12} lg={4} xl={4}>
+              <div className="transportation-section-title">
+                <span className="section-title__badge">
+                  {t('transportation-section.badge')}
+                </span>
+                <h4 className="section-title__title">
+                  {t('transportation-section.head.line-1')}
+                </h4>
+                <p className="text-muted mx-auto mx-lg-left para-desc mb-0">
+                  {t('transportation-section.head.line-2')}
+                  <span className="text-primary font-weight-bold">
+                    {' '}
+                    {t('transportation-section.head.line-3')}{' '}
+                  </span>
+                  {t('transportation-section.head.line-4')}
+                </p>
+                <Link href={'/transport'}>
+                  <Button className="section-title__button">
+                    {t('transportation-section.button')}
+                  </Button>
+                </Link>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 };
