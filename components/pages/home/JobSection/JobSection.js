@@ -6,6 +6,8 @@ import { JobCard } from 'components/common';
 import VacancyListingService from 'services/vacancyListingService';
 import { random } from 'utils/standaloneFunctions';
 
+const noJobs = '/static/images/no-listings/Jobs.png';
+
 const JobSection = (props) => {
   const { t } = props;
 
@@ -118,13 +120,26 @@ const JobSection = (props) => {
                   </div>
                 ) : (
                   <>
-                    <Slider {...sliderSettings}>
-                      {items?.map((item, index) => (
-                        <div key={index} className="right__slick-item">
-                          <JobCard t={t} item={item} />
-                        </div>
-                      ))}
-                    </Slider>
+                    {items?.length === 0 ? (
+                      <div className={'listings__not__placed'}>
+                        <img
+                          src={noJobs}
+                          id="logo"
+                          className="mx-auto d-block"
+                          alt="Transport"
+                        />
+                      </div>
+                    ) : (
+                      <>
+                        <Slider {...sliderSettings}>
+                          {items?.map((item, index) => (
+                            <div key={index} className="right__slick-item">
+                              <JobCard t={t} item={item} />
+                            </div>
+                          ))}{' '}
+                        </Slider>{' '}
+                      </>
+                    )}
                   </>
                 )}
               </div>

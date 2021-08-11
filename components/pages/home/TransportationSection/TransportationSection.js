@@ -4,6 +4,7 @@ import { Row, Col, Button, Container, Spinner } from 'react-bootstrap';
 import { TransportationCard } from 'components/common';
 import Slider from 'react-slick';
 import { TransportListingService } from 'services';
+const noTransport = '/static/images/no-listings/Transport.png';
 
 const TransportationSection = (props) => {
   const { t } = props;
@@ -94,13 +95,27 @@ const TransportationSection = (props) => {
                 </div>
               ) : (
                 <>
-                  <Slider {...sliderSettings}>
-                    {items?.map((item, index) => (
-                      <div key={index} className="left__slick-item">
-                        <TransportationCard t={t} item={item} />
-                      </div>
-                    ))}
-                  </Slider>
+                  {' '}
+                  {items?.length === 0 ? (
+                    <div className={'listings__not__placed'}>
+                      <img
+                        src={noTransport}
+                        id="logo"
+                        className="mx-auto d-block"
+                        alt="Transport"
+                      />
+                    </div>
+                  ) : (
+                    <>
+                      <Slider {...sliderSettings}>
+                        {items?.map((item, index) => (
+                          <div key={index} className="left__slick-item">
+                            <TransportationCard t={t} item={item} />
+                          </div>
+                        ))}{' '}
+                      </Slider>{' '}
+                    </>
+                  )}
                 </>
               )}
             </Col>
