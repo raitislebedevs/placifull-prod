@@ -10,7 +10,7 @@ import GeneralInformation from '../TransportForm/GeneralInformation';
 import DetailInformation from '../TransportForm/DetailInformation';
 import Gallery from '../TransportForm/Gallery';
 import Preview from '../TransportForm/Preview';
-import { ListingPayment, SpinnerModal, StripeContainer } from '../index';
+import { ListingPayment, SpinnerModal } from '../index';
 import { dayCostTransport, defaultExpiryDays } from 'constants/listingDetails';
 import useSubscription from 'hooks/useSubscription';
 import usePostInputValues from 'hooks/usePostInputValues';
@@ -19,11 +19,9 @@ import { addDays } from 'utils/standaloneFunctions';
 const TransportSubmit = (props) => {
   const { t, user } = props;
   const router = useRouter();
-  const [isStripe, setIsStripe] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [isPreview, setPreview] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
-  const [paymentDetails, setPaymentDetails] = useState({});
   const [previewTransportModal, setPreviewTransportModal] = useState(false);
   const [addressPosition, setAddressPosition] = useState(null);
   const [previewItem, setPreviewItem] = useState({});
@@ -70,11 +68,11 @@ const TransportSubmit = (props) => {
     handleFeatureItemCheckbox,
   ] = usePostInputValues(initial);
 
-  const getPayload = (inputValues) => {
+  const getPayload = (inputValues, isPromoted) => {
     var expiryDate = addDays(new Date(), defaultExpiryDays);
 
     let payload = {
-      isPromotable: paymentDetails?.isPromoted || false,
+      isPromotable: isPromoted || false,
       name: inputValues?.transportName || null,
       currency: inputValues?.transportCurrency || null,
 
@@ -149,21 +147,14 @@ const TransportSubmit = (props) => {
     return payload;
   };
 
-  const handleSubmit = async (e, paymentDetails) => {
+  const handleDataSubmit = async (e, paymentDetails) => {
     e.preventDefault();
-
-    setPaymentDetails(paymentDetails);
-    if (paymentDetails.totalCost) setIsStripe(true);
-  };
-
-  const handleDataSubmit = async (e) => {
-    e.preventDefault();
-
+    let promoted = paymentDetails.isPromoted;
     if (!paymentDetails.totalCost) setIsProcessing(true);
 
     setIsLoading(true);
     try {
-      const listingId = await uploadListing();
+      const listingId = await uploadListing(promoted);
       await handleInputSubscriptions(paymentDetails, listingId);
 
       getSubscriptions(user.id);
@@ -226,8 +217,9 @@ const TransportSubmit = (props) => {
     setPreview(false);
   };
 
-  const uploadListing = async () => {
-    let payload = getPayload(inputValues);
+  const uploadListing = async (promoted) => {
+    let payload = getPayload(inputValues, promoted);
+
     //Generating the Payload message
     const formData = new FormData();
     formData.append('data', JSON.stringify(payload));
@@ -366,19 +358,11 @@ const TransportSubmit = (props) => {
         user={user}
         plan={'transport'}
         dayCost={dayCostTransport}
-        handleSubmit={handleSubmit}
         paymentModal={paymentModal}
         setPaymentModal={setPaymentModal}
         handleDataSubmit={handleDataSubmit}
       />
       <SpinnerModal show={isProcessing} onHide={() => setIsProcessing(false)} />
-      <StripeContainer
-        show={isStripe}
-        setIsStripe={setIsStripe}
-        paymentDetails={paymentDetails}
-        onHide={() => setIsStripe(false)}
-        handleDataSubmit={handleDataSubmit}
-      />
     </div>
   );
 };

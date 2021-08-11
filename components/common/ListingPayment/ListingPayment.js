@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Container, Button, Row, Col } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
+import { StripeContainer } from '../index';
 import PaymentModalForm from './PaymentModalForm/PaymentModalForm';
 
 const ListingPayment = (props) => {
@@ -9,12 +10,12 @@ const ListingPayment = (props) => {
     user,
     paymentModal,
     setPaymentModal,
-    handleSubmit,
     handleDataSubmit,
     plan,
     dayCost,
   } = props;
   const [receiptModal, setReceiptModal] = useState(false);
+  const [isStripe, setIsStripe] = useState(false);
   const [paymentDetails, setPaymentDetails] = useState({
     isPromoted: false,
     addedDays: 0,
@@ -36,11 +37,9 @@ const ListingPayment = (props) => {
       >
         <PaymentModalForm
           setPaymentModal={setPaymentModal}
-          paymentDetails={paymentDetails}
           setPaymentDetails={setPaymentDetails}
           setPaymentModal={setPaymentModal}
           setReceiptModal={setReceiptModal}
-          handleSubmit={handleSubmit}
           handleDataSubmit={handleDataSubmit}
           dayCost={dayCost}
           plan={plan}
@@ -135,7 +134,7 @@ const ListingPayment = (props) => {
           <Button
             onClick={(e) => {
               setReceiptModal(false);
-              handleSubmit(e, paymentDetails);
+              setIsStripe(true);
             }}
           >
             {t('payment:receipt-modal.buttons.proceed')}
@@ -147,6 +146,13 @@ const ListingPayment = (props) => {
 
   return (
     <>
+      <StripeContainer
+        show={isStripe}
+        setIsStripe={setIsStripe}
+        paymentDetails={paymentDetails}
+        onHide={() => setIsStripe(false)}
+        handleDataSubmit={handleDataSubmit}
+      />
       <ReceiptModal show={receiptModal} onHide={() => setReceiptModal(false)} />
       <PaymentModal show={paymentModal} onHide={() => setPaymentModal(false)} />
     </>

@@ -80,7 +80,7 @@ const RealEstateSection = (props) => {
           className="home-container__real-estate-section"
         >
           <Row className="align-items-center">
-            <Col xs={12} sm={12} md={12} lg={8} xl={8}>
+            <Col xs={12} sm={12} md={12} lg={4} xl={4}>
               <div className="real-estate-section__left">
                 <span className="left-badge">
                   {t('real-estate-section.badge')}
@@ -107,8 +107,8 @@ const RealEstateSection = (props) => {
               xs={12}
               sm={12}
               md={12}
-              lg={4}
-              xl={4}
+              lg={8}
+              xl={8}
               className="real-estate-section__right"
             >
               {' '}

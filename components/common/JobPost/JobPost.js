@@ -20,9 +20,7 @@ const JobPost = (props) => {
   const { t, user } = props;
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
-  const [isStripe, setIsStripe] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
-  const [paymentDetails, setPaymentDetails] = useState({});
   const [submitCurrency, setsubmitCurrency] = useState('');
   const [addressPosition, setAddressPosition] = useState(null);
   const [previewJobModal, setPreviewJobModal] = useState(false);
@@ -67,11 +65,11 @@ const JobPost = (props) => {
     }
   }, [addressPosition]);
 
-  const getPayload = (inputValues) => {
+  const getPayload = (inputValues, isPromoted) => {
     var expiryDate = addDays(new Date(), defaultExpiryDays);
 
     let payload = {
-      isPromotable: paymentDetails?.isPromoted || false,
+      isPromotable: isPromoted || null,
       companyName: inputValues?.companyName || null,
       positionHeader: inputValues?.title || null,
       vacancyOption: inputValues?.vacancyOption || null,
@@ -143,23 +141,14 @@ const JobPost = (props) => {
     return payload;
   };
 
-  const handleSubmit = async (e, paymentDetails) => {
+  const handleDataSubmit = async (e, paymentDetails) => {
     e.preventDefault();
-
-    setPaymentDetails(paymentDetails);
-
-    setPaymentDetails(paymentDetails);
-    if (paymentDetails.totalCost) setIsStripe(true);
-  };
-
-  const handleDataSubmit = async (e) => {
-    e.preventDefault();
-
+    let promoted = paymentDetails.isPromoted;
     if (!paymentDetails?.totalCost) setIsProcessing(true);
 
     setIsLoading(true);
     try {
-      const listingId = await uploadListing();
+      const listingId = await uploadListing(promoted);
       await handleInputSubscriptions(paymentDetails, listingId);
 
       TostifyCustomContainer(
@@ -169,7 +158,7 @@ const JobPost = (props) => {
       );
       getSubscriptions(user.id);
       setTimeout(() => {
-        // router.push(`/job-search/${listingId}`);
+        router.push(`/job-search/${listingId}`);
       }, 5000);
     } catch (e) {
       TostifyCustomContainer(
@@ -184,8 +173,8 @@ const JobPost = (props) => {
     return true;
   };
 
-  const uploadListing = async () => {
-    let payload = getPayload(inputValues);
+  const uploadListing = async (promoted) => {
+    let payload = getPayload(inputValues, promoted);
 
     //Upload images during entry creation
     //https://strapi.io/documentation/developer-docs/latest/development/plugins/upload.html#upload-file-during-entry-creation
@@ -367,7 +356,6 @@ const JobPost = (props) => {
       <ListingPayment
         handleDataSubmit={handleDataSubmit}
         setPaymentModal={setPaymentModal}
-        handleSubmit={handleSubmit}
         paymentModal={paymentModal}
         dayCost={dayCostJobs}
         plan={'jobs'}
@@ -375,13 +363,6 @@ const JobPost = (props) => {
         t={t}
       />{' '}
       <SpinnerModal show={isProcessing} onHide={() => setIsProcessing(false)} />
-      <StripeContainer
-        show={isStripe}
-        setIsStripe={setIsStripe}
-        paymentDetails={paymentDetails}
-        onHide={() => setIsStripe(false)}
-        handleDataSubmit={handleDataSubmit}
-      />
     </div>
   );
 };
