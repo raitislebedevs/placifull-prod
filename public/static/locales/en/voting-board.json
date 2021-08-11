@@ -1,20 +1,20 @@
 {
-  "title": "Suggestion Board",
-  "subtitle": "Voting Board",
+  "title": "Suggestion board",
+  "subtitle": "Voting board",
   "item": {
-    "score": "Current score",
-    "options": "Voting options",
+    "score": "Current score",
+    "options": "Voting options",
     "up": "UP",
     "down": "DOWN",
     "rating": "Rating",
     "vote": "VOTE"
   },
   "toast": {
-    "log-in": "Please log in",
-    "voted": "Trying to vote twice?",
-    "rate": "Please rate the idea",
-    "up-down": "Choose voting option",
-    "idea": "Rate and choose voting option.",
-    "zero": "Downvote this item is not allowed"
+    "log-in": "Please log in",
+    "voted": "Trying to vote twice?",
+    "rate": "Please rate the idea",
+    "up-down": "Choose voting option",
+    "idea": "Rate and choose voting option.",
+    "zero": "It is not allowed to downvote this idea"
   }
 }

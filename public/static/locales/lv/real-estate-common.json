@@ -39,7 +39,7 @@
     "label": "Sazināšanās laiki",
     "options": {
       "anyTime": "Jebkurā laikā",
-      "workingDays": "Darba dienāš",
+      "workingDays": "Darba dienās",
       "officeHours": "Biroju stundās",
       "specificTimes": "Specifiskā laikā"
     }

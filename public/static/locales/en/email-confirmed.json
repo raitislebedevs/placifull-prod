@@ -1,5 +1,5 @@
 {
-  "heading": "Email Confirmation",
+  "heading": "Email confirmation",
   "description": "Please confirm your email address for successful account verification",
   "form": {
     "heading": "Email address",
@@ -7,7 +7,7 @@
     "submit": "Send",
     "confirmed": "Email already confirmed?",
     "sign-in": "Sign in",
-    "success-text": "Email confrimation link send to your email address",
+    "success-text": "Email confirmation link sent to your email address",
     "error": {
       "email-invalid": "Please enter a valid email",
       "email-required": "Email address is required"

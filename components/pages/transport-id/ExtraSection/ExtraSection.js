@@ -18,7 +18,7 @@ const ExtraSection = (props) => {
 
   return (
     <>
-      {isSingleListing && (
+      {!isSingleListing && (
         <div className="transport-container__extra">
           <SubPageHeading className="extra__heading">
             {t('transport-detail:extra.heading')} {`(${userItemCount})`}

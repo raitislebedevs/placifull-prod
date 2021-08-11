@@ -34,7 +34,7 @@
         "text-head": "Ziņas",
         "items": {
           "item-1": "Pieraksties uz jaunumiem",
-          "item-2": "Ieraksti E-pastu",
+          "item-2": "Ieraksti e-pastu",
           "item-3": "Tavs epasts",
           "item-4": "Saņemt jaunumus"
         }
@@ -45,6 +45,6 @@
     "left": {
       "copy-right": "Pie Placifull mēs rūpējamies par tevi"
     },
-    "right": "Placifull Team"
+    "right": "Placifull komanda"
   }
 }

@@ -78,7 +78,7 @@ const PaymentModalForm = (props) => {
 
     let payload = {
       purchacePrice: 0,
-      isPromoted: promotedCost ? true : false,
+      isPromoted: isPromoted,
       addedDays: Number((dayCost * addedDays).toFixed(2)),
       purchasePlan: pricingOption,
       totalCost: totalAmount,

@@ -190,7 +190,6 @@ const RealEstatePost = (props) => {
   //Uploads listing to the database.
   const uploadListing = async (promoted) => {
     let payload = PopulatePayload(inputValues, promoted);
-    console.log(payload);
     const formData = new FormData();
     formData.append('data', JSON.stringify(payload));
     if (inputValues?.listingGallery) {

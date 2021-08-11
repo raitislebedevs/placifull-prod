@@ -1,0 +1,16 @@
+{
+  "heading": "Apstipriniet E-pastu",
+  "description": "Lai veiksmīgi piereģistrētos lūdzu apstipriniet epasta adresi",
+  "form": {
+    "heading": "Epasta adrese",
+    "placeholder": "Ievadiet savu epasta adresi",
+    "submit": "Sūtīt",
+    "confirmed": "Epasts ir jau apstiprināts?",
+    "sign-in": "Pieslēgties",
+    "success-text": "Konta apstiprinājuma saite nosūtīta uz jūsu e -pasta adresi",
+    "error": {
+      "email-invalid": "Ievadiet derīgu e-pastu",
+      "email-required": "Nepieciešams epasts"
+    }
+  }
+}
