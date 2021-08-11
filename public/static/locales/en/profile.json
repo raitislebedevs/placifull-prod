@@ -130,21 +130,21 @@
           "name": "Name",
           "email": "Email",
           "phone": "Phone number",
-          "salary": "Expected Salary"
+          "salary": "Expected salary"
         }
       },
       "receipt": {
         "title": "Payment Receipts",
         "search": {
-          "search-from": "Select Start Date",
-          "search-to": "Select End Date",
+          "search-from": "Select start date",
+          "search-to": "Select end date",
           "button": "Search"
         },
         "table": {
           "order": "Order Nr.",
           "date": "Date",
           "premium": "Promoted",
-          "add-days": "Extra Days",
+          "add-days": "Extra days",
           "type": "Listing type"
         }
       }
@@ -154,7 +154,7 @@
       "sections": {
         "personal-details": {
           "form": {
-            "title": "Personal Details",
+            "title": "Personal details",
             "first-name": "First name",
             "last-name": "Last name",
             "email": "Email",
@@ -165,7 +165,7 @@
               "options": {
                 "yes": "Yes",
                 "no": "No",
-                "only-birthdate": "Only Birth Date"
+                "only-birthdate": "Only birth date"
               }
             },
             "gender": {
@@ -184,11 +184,11 @@
         "education": {
           "title": "Education",
           "accordion": {
-            "school": "School Name",
+            "school": "School name",
             "country": "Country",
-            "from-date": "From Date",
-            "to-date": "To Date",
-            "study-area": "Field of Study",
+            "from-date": "From date",
+            "to-date": "To date",
+            "study-area": "Field of study",
             "qualification": {
               "title": "Qualification",
               "options": {
@@ -201,21 +201,21 @@
                 "other": "Other"
               }
             },
-            "best-fit": "Profession Fit",
-            "grade": "Average Grade",
-            "button-add": "Add Education"
+            "best-fit": "Profession fit",
+            "grade": "Average grade",
+            "button-add": "Add education"
           }
         },
         "expierience": {
           "title": "Work Experience",
 
-          "company-name": "Company Name",
-          "from-date": "From Date",
-          "to-date": "To Date",
-          "work-area": "Work Area",
+          "company-name": "Company name",
+          "from-date": "From date",
+          "to-date": "To date",
+          "work-area": "Work area",
           "position": "Position",
-          "position-description": "Position Description",
-          "sector": "Employment Sector",
+          "position-description": "Position description",
+          "sector": "Employment sector",
           "seniority": {
             "title": "Seniority",
             "options": {
@@ -230,13 +230,13 @@
             }
           },
 
-          "button-add": "Add Experience"
+          "button-add": "Add experience"
         },
         "languages": {
-          "title": "Language Skills",
+          "title": "Language skills",
           "accordion": {
             "language": "Language",
-            "certificate": "Name of Certificate",
+            "certificate": "Name of certificate",
             "level": {
               "label": "Level",
               "options": {
@@ -249,21 +249,21 @@
                 "native": "Native"
               }
             },
-            "button-add": "Add Skill"
+            "button-add": "Add skill"
           }
         },
         "computer": {
-          "title": "Computer Skills",
+          "title": "Computer skills",
           "accordion": {
-            "skill-name": "Computer Skill",
+            "skill-name": "Computer skill",
             "knowladge-gained": {
-              "label": "Knowledge Gained",
+              "label": "Knowledge gained",
               "options": {
-                "selfTaught": "Self Taught",
+                "selfTaught": "Self taught",
                 "course": "Course",
                 "freelance": "Freelance",
-                "contractProject": "Contract Project",
-                "fullTimeJob": "Full Time Employment",
+                "contractProject": "Contract project",
+                "fullTimeJob": "Full time employment",
                 "other": "Other"
               }
             },
@@ -276,14 +276,14 @@
               "tenToFifteen": "10-15 years",
               "moreThanFifteen": "15+ years"
             },
-            "certificate": "Certification Name",
-            "button-add": "Add Skill"
+            "certificate": "Certification name",
+            "button-add": "Add skill"
           }
         },
         "licenses": {
-          "title": "Transportation License",
+          "title": "Transportation license",
           "accordion": {
-            "country": "Issue Country",
+            "country": "Issue country",
             "expierience": {
               "label": "Expierience",
               "uptoOne": "< 1 year",
@@ -360,16 +360,16 @@
     }
   },
   "toast": {
-    "succes": "Profile Was Updated",
-    "fail": "Profile was not Updated",
+    "succes": "Profile was updated",
+    "fail": "Profile was not updated",
     "avatar": "Avatar Updated",
-    "avatar-fail": "Failed to Update Avatar",
-    "avatar-remove": "Avatar Removed",
+    "avatar-fail": "Failed to update avatar",
+    "avatar-remove": "Avatar removed",
     "avatar-remove-fail": "Avatar was not removed",
-    "logout": "Loged Out",
-    "password": "Password Was Changed",
+    "logout": "Loged out",
+    "password": "Password was changed",
     "password-fail": "Password was not changed",
-    "item-deleted": "Listing Deleted"
+    "item-deleted": "Listing deleted"
   },
   "delete-modal": {
     "header": "Delete listing",
@@ -378,7 +378,7 @@
     "delete": "Delete"
   },
   "delete-account": {
-    "header": "Delete Account",
+    "header": "Delete account",
     "body": "Are you sure you want to delete your account?",
     "cancel": "Cancel",
     "delete": "Delete"

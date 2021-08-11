@@ -31,7 +31,7 @@ const PersonalInformation = (props) => {
       TostifyCustomContainer(
         'success',
         t('common:toast.messages.success'),
-        t('profile:toast.success')
+        t('profile:toast.succes')
       );
       dispatch(
         setUser({
