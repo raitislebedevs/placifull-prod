@@ -125,7 +125,7 @@ const JobSection = (props) => {
                         <img
                           src={noJobs}
                           id="logo"
-                          className="mx-auto d-block"
+                          className="mx-auto d-block item__picture"
                           alt="Transport"
                         />
                       </div>
