@@ -4,11 +4,9 @@ import { Container, Row, Col, Button, Spinner } from 'react-bootstrap';
 import Slider from 'react-slick';
 import { RealEstateCard } from 'components/common';
 import RealEstateListingServices from 'services/realEstateListingServices';
-import {
-  itemColumnSize,
-  random,
-  textColumnSize,
-} from 'utils/standaloneFunctions';
+import { random } from 'utils/standaloneFunctions';
+
+const noRealEstate = '/static/images/no-listings/RealEstate.png';
 
 const RealEstateSection = (props) => {
   const { t } = props;
@@ -124,13 +122,26 @@ const RealEstateSection = (props) => {
                 </div>
               ) : (
                 <>
-                  <Slider {...sliderSettings}>
-                    {items?.map((item, index) => (
-                      <div key={index} className="right__slick-item">
-                        <RealEstateCard t={t} item={item} />
-                      </div>
-                    ))}
-                  </Slider>
+                  {items?.length === 0 ? (
+                    <div className={'listings__not__placed'}>
+                      <img
+                        src={noRealEstate}
+                        id="logo"
+                        className="mx-auto d-block"
+                        alt="RealEstate"
+                      />
+                    </div>
+                  ) : (
+                    <>
+                      <Slider {...sliderSettings}>
+                        {items?.map((item, index) => (
+                          <div key={index} className="right__slick-item">
+                            <RealEstateCard t={t} item={item} />
+                          </div>
+                        ))}
+                      </Slider>
+                    </>
+                  )}
                 </>
               )}
             </div>
