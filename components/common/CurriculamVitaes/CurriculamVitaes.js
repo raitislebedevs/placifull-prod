@@ -8,12 +8,14 @@ import { AiOutlineMail, AiOutlineCalendar } from 'react-icons/ai';
 import Modal from 'react-bootstrap/Modal';
 import Rating from 'react-rating';
 import { formatMonth, formatNumber } from 'utils/standaloneFunctions';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import guidGenerator from 'utils/guidGenerator';
 import Container from 'node_modules/react-bootstrap/esm/Container';
+import { CurrencyServices } from 'services';
 
 const CurriculamVitaes = (props) => {
-  const { t, curriculamVitaes, setShowCv } = props;
+  const { t, curriculamVitaes, setShowCv, currency } = props;
+  const [cvCurrency, setCvCurrency] = useState('');
 
   const {
     PersonalDetails,
@@ -23,7 +25,6 @@ const CurriculamVitaes = (props) => {
     WorkExpierience,
     EducationHistory,
     ComputerSkiills,
-    currency,
   } = curriculamVitaes;
 
   const getRatingValue = (level) => {
@@ -47,8 +48,23 @@ const CurriculamVitaes = (props) => {
     }
   };
 
+  const handleInitialValue = async () => {
+    let filter = { id: currency };
+    let { data, error } = await CurrencyServices.FIND(filter);
+    if (data) {
+      setCvCurrency(data[0]?.symbol_native);
+    }
+  };
+
   useEffect(() => {
-    console.log(currency);
+    if (currency?.length >= 1) {
+      return handleInitialValue();
+    }
+
+    setCvCurrency(currency);
+  }, [currency]);
+
+  useEffect(() => {
     WorkExpierience?.sort((a, b) => {
       let dateA = new Date(a.fromDate),
         dateB = new Date(b.fromDate);
@@ -319,22 +335,22 @@ const CurriculamVitaes = (props) => {
                                 <Col className="right__content">
                                   {item?.hourlyRate && (
                                     <div className="center">
-                                      {t(`job-common:salary.hourly-rate-from`)}
-                                      :€ {currency?.symbol}
+                                      {t(`job-common:salary.hourly-rate-from`)}:{' '}
+                                      {`${cvCurrency} `}
                                       {formatNumber(item.hourlyRate)}
                                     </div>
                                   )}
                                   {item?.monthly && (
                                     <div className="center">
-                                      {t(`job-common:salary.monthly-from`)}: €{' '}
-                                      {currency?.symbol}
+                                      {t(`job-common:salary.monthly-from`)}:{' '}
+                                      {`${cvCurrency} `}
                                       {formatNumber(item.monthly)}
                                     </div>
                                   )}
                                   {item?.yearly && (
                                     <div className="center">
-                                      {t(`job-common:salary.annual-from`)}: €{' '}
-                                      {currency?.symbol}
+                                      {t(`job-common:salary.annual-from`)}:{' '}
+                                      {`${cvCurrency} `}
                                       {formatNumber(item.yearly)}
                                     </div>
                                   )}
