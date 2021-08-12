@@ -39,7 +39,7 @@ const Profile = (props) => {
   return (
     <div className="profile-container main-container">
       <Head>
-        <title>Profile</title>
+        <title>{t('profile:title')}</title>
       </Head>
       <Overview t={t} isMobile={isMobile} />
       <Details t={t} isMobile={isMobile} isSmall={isSmall} />

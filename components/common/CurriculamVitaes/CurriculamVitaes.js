@@ -7,7 +7,7 @@ import { IoMaleFemaleOutline, IoLocationOutline } from 'react-icons/io5';
 import { AiOutlineMail, AiOutlineCalendar } from 'react-icons/ai';
 import Modal from 'react-bootstrap/Modal';
 import Rating from 'react-rating';
-import { formatMonth } from 'utils/standaloneFunctions';
+import { formatMonth, formatNumber } from 'utils/standaloneFunctions';
 import { useEffect } from 'react';
 import guidGenerator from 'utils/guidGenerator';
 import Container from 'node_modules/react-bootstrap/esm/Container';
@@ -48,6 +48,7 @@ const CurriculamVitaes = (props) => {
   };
 
   useEffect(() => {
+    console.log(currency);
     WorkExpierience?.sort((a, b) => {
       let dateA = new Date(a.fromDate),
         dateB = new Date(b.fromDate);
@@ -318,23 +319,23 @@ const CurriculamVitaes = (props) => {
                                 <Col className="right__content">
                                   {item?.hourlyRate && (
                                     <div className="center">
-                                      {t(`job-common:salary.hourly-rate-from`)}:{' '}
-                                      {currency?.symbol}
-                                      {item.hourlyRate}
+                                      {t(`job-common:salary.hourly-rate-from`)}
+                                      :€ {currency?.symbol}
+                                      {formatNumber(item.hourlyRate)}
                                     </div>
                                   )}
                                   {item?.monthly && (
                                     <div className="center">
-                                      {t(`job-common:salary.monthly-from`)}:{' '}
+                                      {t(`job-common:salary.monthly-from`)}: €{' '}
                                       {currency?.symbol}
-                                      {item.monthly}
+                                      {formatNumber(item.monthly)}
                                     </div>
                                   )}
                                   {item?.yearly && (
                                     <div className="center">
-                                      {t(`job-common:salary.annual-from`)}:{' '}
+                                      {t(`job-common:salary.annual-from`)}: €{' '}
                                       {currency?.symbol}
-                                      {item.yearly}
+                                      {formatNumber(item.yearly)}
                                     </div>
                                   )}
                                 </Col>

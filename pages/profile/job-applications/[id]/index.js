@@ -26,7 +26,7 @@ const KanBoard = (props, query) => {
   return (
     <div>
       <Head>
-        <title>Applicant Board</title>
+        <title>{t('kanban:title')}</title>
       </Head>
       <KanBanBoard
         t={t}

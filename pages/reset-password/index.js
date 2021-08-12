@@ -24,7 +24,7 @@ const ResetPassword = (props) => {
   return (
     <div className="forgot-password-container">
       <Head>
-        <title>You are still awsome!</title>
+        <title>{t('reset-password:title')}</title>
       </Head>
       <Row>
         <ResetPasswordForm code={code} t={t} />

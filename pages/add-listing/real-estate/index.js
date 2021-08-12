@@ -10,7 +10,7 @@ const AddRealEstate = (props) => {
   return (
     <div className="submit-container main-container">
       <Head>
-        <title>Real Estate</title>
+        <title>{t('real-estate-submit:title')}</title>
       </Head>
       <hr />
       <RealEstateSubmit t={t} />

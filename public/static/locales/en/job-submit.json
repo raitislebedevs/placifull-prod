@@ -1,5 +1,6 @@
 {
   "heading": "Submit Listing",
+  "title": "Job",
   "form": {
     "submit-confirm": "Saving...",
     "preview-sneak-peak": "Generating...",

@@ -12,7 +12,7 @@ const UserBoard = (props) => {
         content="voting board, balsošanas dēlis, user imput, user suggestions, lietotāja ieteikumi"
       />
       <Head>
-        <title>Voting Board</title>
+        <title>{t('voting-board:title')}</title>
       </Head>
       <HeroTerms t={t} />
       <VotingBoard t={t} />

@@ -1,4 +1,5 @@
 {
+  "title": "Profils",
   "overview": {
     "button-label": {
       "change": "Mainīt bildi",
@@ -136,8 +137,8 @@
       "receipt": {
         "title": "Maksājumu kvītis",
         "search": {
-          "search-from": "Izvēlēties sākšanas datumu",
-          "search-to": "Izvēlēties beigu datumu",
+          "search-from": "Izvēlaties sākšanas datumu",
+          "search-to": "Izvēlaties beigu datumu",
           "button": "Meklēt"
         },
         "table": {

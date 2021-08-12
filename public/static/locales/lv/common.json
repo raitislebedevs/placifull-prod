@@ -24,11 +24,11 @@
 
   "social-links": {
     "heading": "Sociālie tīkli",
-    "facebook": "Facebook: https://",
-    "twitter": "Twitter: https://",
-    "youtube": "Youtube: https://",
-    "pinterest": "Pinterest: https://",
-    "instagram": "Instagram: https://"
+    "facebook": "Facebook: https://",
+    "twitter": "Twitter: https://",
+    "youtube": "Youtube: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "Instagram: https://"
   },
 
   "social": {
@@ -85,7 +85,7 @@
     "logout-success": "Tiekamies vēlāk!",
     "bid-placed": "Likme pieņemta",
     "your-referral": "Tu nevari izmantot savu references kodu :)",
-    "minimal-withdraw": "Minimālais apjoms ko var izņemt ir 25 € "
+    "minimal-withdraw": "Minimālais apjoms ko var izņemt ir 25 € "
   },
 
   "location": {
@@ -101,11 +101,11 @@
   "items-per-page": {
     "label": "Vienības",
     "options": {
-      "nine": "9 vienības",
-      "eighteen": "18 vienības",
-      "twenty-seven": "27 vienības",
-      "thirty-six": "36 vienības",
-      "seventy-two": "72 vienības"
+      "nine": "9 vienības",
+      "eighteen": "18 vienības",
+      "twenty-seven": "27 vienības",
+      "thirty-six": "36 vienības",
+      "seventy-two": "72 vienības"
     }
   },
 

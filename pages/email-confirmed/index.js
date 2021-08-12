@@ -8,12 +8,12 @@ import {
 } from 'components/pages/email-confirmation';
 import Head from 'next/head';
 
-const ForgotPassword = (props) => {
+const ConfirmedEmail = (props) => {
   const { t } = props;
   return (
     <div className="email-confirmation-container">
       <Head>
-        <title>Email Confirmation</title>
+        <title>{t('email-confirmed:title')}</title>
       </Head>
       <Row>
         <EmailConfigurationForm t={t} />
@@ -38,4 +38,4 @@ const ForgotPassword = (props) => {
 //   t: PropTypes.func.isRequired,
 // };
 
-export default withTranslation(['email-confirmed', 'error'])(ForgotPassword);
+export default withTranslation(['email-confirmed', 'error'])(ConfirmedEmail);
