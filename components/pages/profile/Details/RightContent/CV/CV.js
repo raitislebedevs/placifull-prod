@@ -127,6 +127,7 @@ const CV = (props) => {
     const value = event?.target?.value ?? event?.value ?? event;
     const id = event?.target?.id ?? event?.id;
     setInputValues({ ...inputValues, [id]: value });
+    console.log(inputValues?.currency);
   };
 
   //Education Initiliazier.
@@ -614,6 +615,7 @@ const CV = (props) => {
         show={cvModal}
         setShowCv={setCvModal}
         curriculamVitaes={getPayload()}
+        currency={inputValues?.currency || user.curriculumVitae?.currency}
         onHide={() => setCvModal(false)}
       />
     </div>

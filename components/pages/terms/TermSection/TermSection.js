@@ -85,7 +85,27 @@ const TermSection = (props) => {
             <li>
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
-                {t('terms:user-aggrements.rules.rule-four')}
+                {t('terms:user-aggrements.rules.rule-four.rule')}
+                <ol>
+                  <li>
+                    {' '}
+                    {t('terms:user-aggrements.rules.rule-four.point-one')}{' '}
+                  </li>
+                  <li>
+                    {' '}
+                    {t('terms:user-aggrements.rules.rule-four.point-two')}{' '}
+                  </li>
+                  <li>
+                    {' '}
+                    {t(
+                      'terms:user-aggrements.rules.rule-four.point-three'
+                    )}{' '}
+                  </li>
+                  <li>
+                    {' '}
+                    {t('terms:user-aggrements.rules.rule-four.point-four')}{' '}
+                  </li>
+                </ol>
               </p>
             </li>
             <li>
@@ -124,6 +144,24 @@ const TermSection = (props) => {
                 {t('terms:user-aggrements.rules.rule-ten')}
               </p>
             </li>
+            <li>
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                {t('terms:user-aggrements.rules.rule-eleven')}
+              </p>
+            </li>
+            <li>
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                {t('terms:user-aggrements.rules.rule-twele')}
+              </p>
+            </li>
+            <li>
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                {t('terms:user-aggrements.rules.rule-thriteen')}
+              </p>
+            </li>
           </ul>
         </div>
 
@@ -157,6 +195,18 @@ const TermSection = (props) => {
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
                 {t('terms:privacy-policy.rules.rule-four')}
+              </p>
+            </li>
+            <li>
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                {t('terms:privacy-policy.rules.rule-five')}
+              </p>
+            </li>
+            <li>
+              <p className="terms-container__content--text">
+                <FaRegDotCircle />
+                {t('terms:privacy-policy.rules.rule-six')}
               </p>
             </li>
           </ul>

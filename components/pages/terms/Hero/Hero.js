@@ -8,7 +8,7 @@ const HeroTerms = (props) => {
     <div className="terms__link__container">
       <section className="terms__hero__section">
         <Container className="terms__header__link">
-          <h4 className="terms__header__title"> Terms {'&'} Conditions</h4>
+          <h4 className="terms__header__title"> {t('terms:hero.heading')}</h4>
           <div className="terms__header__navbar">
             <nav aria-label="breadcrumb" className="">
               <ul className="breadcrumb">
@@ -19,13 +19,7 @@ const HeroTerms = (props) => {
                   </a>
                 </li>
                 <li className="breadcrumb-item">
-                  <a href="#">
-                    Terms
-                    <FaChevronRight />
-                  </a>
-                </li>
-                <li className="breadcrumb-item">
-                  <a href="#">Conditions</a>
+                  <a href="#">{t('terms:hero.heading')}</a>
                 </li>
               </ul>
             </nav>
