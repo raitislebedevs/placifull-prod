@@ -16,7 +16,7 @@ const Transport = (props) => {
   return (
     <div className="vehicles-container main-container">
       <Head>
-        <title>Transport</title>
+        <title>{t('transport:title')}</title>
       </Head>
       <HeroSection
         t={t}

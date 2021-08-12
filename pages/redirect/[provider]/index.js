@@ -9,7 +9,7 @@ const Redirect = (props) => {
   return (
     <div>
       <Head>
-        <title>Redirecting You</title>
+        <title>{t('redirect:title')}</title>
       </Head>
 
       <RedirectPage t={t} provider={provider} />
@@ -17,15 +17,17 @@ const Redirect = (props) => {
   );
 };
 
-Redirect.getInitialProps = async ({ query }) => {
-  return {
-    provider: query.provider,
-    namespacesRequired: ['common', 'redirect', 'navbar', 'footer'],
-  };
-};
+// Redirect.getInitialProps = async ({ query }) => {
+//   return {
+//     provider: query.provider,
+//     namespacesRequired: ['common', 'redirect', 'navbar', 'footer'],
+//   };
+// };
 
-Redirect.propTypes = {
-  t: PropTypes.func.isRequired,
-};
+// Redirect.propTypes = {
+//   t: PropTypes.func.isRequired,
+// };
 
-export default withTranslation('redirect')(Redirect);
+export default withTranslation(['common', 'redirect', 'navbar', 'footer'])(
+  Redirect
+);

@@ -11,7 +11,7 @@ const AddTransport = (props) => {
   return (
     <div className="submit-container main-container">
       <Head>
-        <title>Transports</title>
+        <title>{t('transport-submit:title')}</title>
       </Head>
       <hr />
       <TransportSubmit t={t} />

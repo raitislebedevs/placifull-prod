@@ -8,7 +8,7 @@ const Terms = (props) => {
   return (
     <div className="termsPage-container">
       <Head>
-        <title>Terms</title>
+        <title>{t('terms:title')}</title>
       </Head>
       <HeroTerms t={t} />
       <TermSection t={t} />

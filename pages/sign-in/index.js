@@ -11,7 +11,7 @@ const SignIn = (props) => {
   return (
     <div className="signin-container">
       <Head>
-        <title>Welcome Back</title>
+        <title>{t('signin:title')}</title>
       </Head>
       <Row>
         <SigninForm t={t} />

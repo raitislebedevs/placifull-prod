@@ -8,7 +8,7 @@ const Contact = (props) => {
   return (
     <div className="contact-container main-container">
       <Head>
-        <title>Contact us</title>
+        <title>{t('contact:header.title')}</title>
       </Head>
       <Header t={t} />
       <Map t={t} />

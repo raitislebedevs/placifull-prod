@@ -16,7 +16,7 @@ const JobSearch = (props) => {
   return (
     <div className="job-search-container main-container">
       <Head>
-        <title>Search Jobs</title>
+        <title>{t('job-search:title')}</title>
       </Head>
       <HeroSection
         t={t}

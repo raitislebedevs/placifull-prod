@@ -11,7 +11,7 @@ const Register = (props) => {
   return (
     <div className="register-container">
       <Head>
-        <title>We Have Waited For You!</title>
+        <title>{t('register:title')}</title>
       </Head>
       <Row>
         <RegisterForm t={t} />

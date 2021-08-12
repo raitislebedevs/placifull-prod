@@ -1,7 +1,6 @@
 import { withTranslation } from 'i18n';
 import Link from 'next/link';
 import { BiHomeAlt } from 'react-icons/bi';
-import PropTypes from 'prop-types';
 import { Button, Row, Col } from 'react-bootstrap';
 import {
   ForgotPasswordForm,
@@ -14,7 +13,7 @@ const ForgotPassword = (props) => {
   return (
     <div className="forgot-password-container">
       <Head>
-        <title>It Happens To Best</title>
+        <title>{t('forgot-password:title')}</title>
       </Head>
       <Row>
         <ForgotPasswordForm t={t} />

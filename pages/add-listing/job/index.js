@@ -11,7 +11,7 @@ const AddVacancy = (props) => {
   return (
     <div className="submit-container main-container">
       <Head>
-        <title>Best Job</title>
+        <title>{t('job-submit:title')}</title>
       </Head>
       <hr />
       <JobSubmit t={t} />
@@ -42,7 +42,6 @@ const AddVacancy = (props) => {
 export default compose(
   withTranslation([
     'payment',
-    'common',
     'common',
     'navbar',
     'footer',

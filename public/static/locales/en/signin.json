@@ -1,23 +1,24 @@
 {
-  "heading": "Login",
+  "heading": " Login",
+  "title": " Welcome Back.",
   "form": {
-    "your-email": "Provide Email",
-    "email": "Email",
-    "password": "Password",
-    "submit": "Sign in",
-    "remember-me": "Remember me",
-    "forgot-password": "Forgot Password?",
-    "or": "Or Login With",
-    "facebook": "Facebook",
-    "google": "Google",
-    "not-account": "Don't have an account?",
-    "sign-up": "Sign Up",
+    "your-email": " Provide Email",
+    "email": " Email",
+    "password": " Password",
+    "submit": " Sign in",
+    "remember-me": " Remember me",
+    "forgot-password": " Forgot Password?",
+    "or": " Or Login With",
+    "facebook": " Facebook",
+    "google": " Google",
+    "not-account": " Don't have an account?",
+    "sign-up": " Sign Up",
     "error": {
-      "email-invalid": "Email is not valid.",
-      "email-required": "Email is required.",
-      "password-required": "Password is required"
+      "email-invalid": " Email is not valid.",
+      "email-required": " Email is required.",
+      "password-required": " Password is required"
     },
-    "success": "Welcome Back!",
-    "already-login": "Trying to log in twice?"
+    "success": " Welcome Back!",
+    "already-login": " Trying to log in twice?"
   }
 }

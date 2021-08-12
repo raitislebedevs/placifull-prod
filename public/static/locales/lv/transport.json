@@ -1,4 +1,5 @@
 {
+  "title": "Meklēt Transportu",
   "hero": {
     "form": {
       "currency": "Valūta",
@@ -9,7 +10,7 @@
       "transport-model": "Transporta modelis",
       "min-age": "Min. gads",
       "max-age": "Maks. gads",
-      "submit": "Meklēt Tagad",
+      "submit": "Meklēt tagad",
       "accordion": "PAPILDINĀTĀ MEKLĒŠANA",
       "accordion-right": {
         "economy": {
