@@ -6,84 +6,94 @@ const info = '/static/images/tostify/Info.png';
 const success = '/static/images/tostify/Success.png';
 const warning = '/static/images/tostify/Warning.png';
 
+const Container = (props) => <div>{props.children}</div>;
+
 const TostifyCustomContainer = (type, heading, message) => {
   switch (type) {
     case 'warning':
       return toast.warning(
-        <Row className={'toast__custom__container'}>
-          <Col xs={2} sm={2} md={2} lg={2} xl={2} className={'toast__icon'}>
-            <img src={warning} className="tostify__icon" alt="Warning" />
-          </Col>
-          <Col
-            xs={10}
-            sm={10}
-            md={10}
-            lg={10}
-            xl={10}
-            className={'message__field'}
-          >
-            <div className="heading">{heading}</div>
-            <div className="text">{message}</div>
-          </Col>
-        </Row>
+        <Container>
+          <Row className={'toast__custom__container'}>
+            <Col xs={2} sm={2} md={2} lg={2} xl={2} className={'toast__icon'}>
+              <img src={warning} className="tostify__icon" alt="Warning" />
+            </Col>
+            <Col
+              xs={10}
+              sm={10}
+              md={10}
+              lg={10}
+              xl={10}
+              className={'message__field'}
+            >
+              <div className="heading">{heading}</div>
+              <div className="text">{message}</div>
+            </Col>
+          </Row>
+        </Container>
       );
     case 'error':
       return toast.error(
-        <Row className={'toast__custom__container'}>
-          <Col xs={2} sm={2} md={2} lg={2} xl={2} className={'toast__icon'}>
-            <img src={erorr} className="tostify__icon" alt="Erorr" />{' '}
-          </Col>
-          <Col
-            xs={10}
-            sm={10}
-            md={10}
-            lg={10}
-            xl={10}
-            className={'message__field'}
-          >
-            {' '}
-            <div className="heading">{heading}</div>
-            <div className="text">{message}</div>
-          </Col>
-        </Row>
+        <Container>
+          <Row className={'toast__custom__container'}>
+            <Col xs={2} sm={2} md={2} lg={2} xl={2} className={'toast__icon'}>
+              <img src={erorr} className="tostify__icon" alt="Erorr" />{' '}
+            </Col>
+            <Col
+              xs={10}
+              sm={10}
+              md={10}
+              lg={10}
+              xl={10}
+              className={'message__field'}
+            >
+              {' '}
+              <div className="heading">{heading}</div>
+              <div className="text">{message}</div>
+            </Col>
+          </Row>
+        </Container>
       ); // look this line
     case 'success':
       return toast.success(
-        <Row className={'toast__custom__container'}>
-          <Col xs={2} sm={2} md={2} lg={2} xl={2} className={'toast__icon'}>
-            <img src={success} className="tostify__icon" alt="Success" />{' '}
-          </Col>
-          <Col
-            xs={10}
-            sm={10}
-            md={10}
-            lg={10}
-            xl={10}
-            className={'message__field'}
-          >
-            <div className="heading">{heading}</div>
-            <div className="text">{message}</div>
-          </Col>
-        </Row>
+        <Container>
+          <Row className={'toast__custom__container'}>
+            <Col xs={2} sm={2} md={2} lg={2} xl={2} className={'toast__icon'}>
+              <img src={success} className="tostify__icon" alt="Success" />{' '}
+            </Col>
+            <Col
+              xs={10}
+              sm={10}
+              md={10}
+              lg={10}
+              xl={10}
+              className={'message__field'}
+            >
+              <div className="heading">{heading}</div>
+              <div className="text">{message}</div>
+            </Col>
+          </Row>
+        </Container>
       );
     case 'info':
       return toast.info(
-        <Row className={'toast__custom__container'}>
-          <Col xs={2} sm={2} md={2} lg={2} xl={2} className={'toast__icon'}>
-            <img src={info} className="tostify__icon" alt="Info" />{' '}
-          </Col>
-          <Col
-            xs={10}
-            sm={10}
-            md={10}
-            lg={10}
-            xl={10}
-            className={'message__field'}
-          >
-            <div className="heading">{heading}</div>
-            <div className="text">{message}</div>
-          </Col>
-        </Row>
+        <Container>
+          <Row className={'toast__custom__container'}>
+            <Col xs={2} sm={2} md={2} lg={2} xl={2} className={'toast__icon'}>
+              <img src={info} className="tostify__icon" alt="Info" />{' '}
+            </Col>
+            <Col
+              xs={10}
+              sm={10}
+              md={10}
+              lg={10}
+              xl={10}
+              className={'message__field'}
+            >
+              <div className="heading">{heading}</div>
+              <div className="text">{message}</div>
+            </Col>
+          </Row>
+        </Container>
       );
     default:
       return toast(message);

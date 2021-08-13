@@ -17,7 +17,7 @@ const Terms = (props) => {
 };
 
 Terms.getInitialProps = async () => ({
-  namespacesRequired: ['common', 'navbar', 'footer', 'error'],
+  namespacesRequired: ['common', 'navbar', 'footer', 'error', 'terms'],
 });
 
 Terms.propTypes = {

@@ -240,8 +240,8 @@ const Footer = (props) => {
                     <div className="form-contact__input">
                       <AiOutlineMail className="input__icon" />
                       <Form.Control
-                        name="email"
-                        id="email"
+                        name="subscribeEmail"
+                        id="subscribeEmail"
                         type="email"
                         maxLength={'75'}
                         onChange={(event) =>
