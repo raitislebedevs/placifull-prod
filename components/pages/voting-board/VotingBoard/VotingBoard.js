@@ -8,6 +8,7 @@ import ReactPaginate from 'react-paginate';
 import { connect } from 'react-redux';
 import { VotingBoardService } from 'services/index';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
+import ReactMarkdown from 'react-markdown';
 
 const VotingBoard = (props) => {
   const { t, user } = props;
@@ -197,7 +198,9 @@ const VotingBoard = (props) => {
                   >
                     <h3 className={'suggestion_title'}>{item.title}</h3>
                     <div className={'separator'}></div>
-                    <div className={'suggestion__text'}>{item.description}</div>
+                    <div className={'suggestion__text'}>
+                      <ReactMarkdown>{item.description}</ReactMarkdown>
+                    </div>
                   </Col>
                   <Col xs={12} sm={12} md={12} lg={4} xl={4} className={'info'}>
                     <div className={'vote_count'}>
