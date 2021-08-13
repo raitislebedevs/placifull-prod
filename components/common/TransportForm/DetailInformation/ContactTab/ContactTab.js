@@ -167,7 +167,7 @@ const ContactTab = (props) => {
             <AiOutlinePhone />
             <PhoneInput
               containerClass="phone__input__field"
-              country={'lv'}
+              country={localStorage.getItem('countryCode') || 'lv'}
               enableSearch={true}
               id="transportPhone"
               className="form-control"
