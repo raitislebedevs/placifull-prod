@@ -1,24 +1,24 @@
 {
-  "internal-error": "Unknown error from server. Please try again later.",
-  "server-error-api": "Server Error.",
-  "connection-error": "Cannot connect to the server. Please try again later.",
-  "server-not-reached": "So embarrising! The server can't be reached. Please contact us, or try again later.",
+  "internal-error": " Unknown error from the server. Please try again later.",
+  "server-error-api": " Server Error.",
+  "connection-error": " Cannot connect to the server. Please try again later.",
+  "server-not-reached": " So embarrassing! The server can't be reached. Please contact us, or try again later.",
   "Auth": {
     "form": {
       "error": {
-        "invalid": "Email or password invalid.",
+        "invalid": " Email or password invalid.",
         "user": {
-          "not-exist": "User with this email does not exist",
-          "user-blocked": "This user is blocked. Contact support team."
+          "not-exist": " User with this email does not exist",
+          "user-blocked": " This user is blocked. Contact support team."
         },
         "code": {
-          "provide": "Unauthorised access!"
+          "provide": " Unauthorized access!"
         },
         "email": {
-          "confirmed": "You must confirm your email address",
-          "taken": "User with this email already exist",
-          "already-confirmed": "Email is already confirmed",
-          "format": "Invalid email format"
+          "confirmed": " You must confirm your email address",
+          "taken": " User with this email already exists",
+          "already-confirmed": " Email is already confirmed",
+          "format": " Invalid email format"
         }
       }
     }

@@ -12,7 +12,7 @@
     "title": "Terms and Conditions",
     "intro": "The use of this website is subject to the following Terms and Conditions:",
     "rules": {
-      "rule-one": "The term “Placifull” or “us” or “we” or “our”, refers to the owners of the website whose registered office is [address]. Our company registration number is [ company registration number and place of registration].",
+      "rule-one": "The term “Placifull” or “us” or “we” or “our”, refers to the owners of the website whose registered office is [address]. Our company registration number is [company registration number and place of registration].",
       "rule-two": "The term “User” or “You” or “Your” refers to any person who enters, uses or accesses the Website, notwithstanding the fact that such a person may have only visited the home page of the Website",
       "rule-three": "“This Website” means the Placifull website located at http://www.placifull.com  and includes any part or element thereof.",
       "rule-four": {
@@ -37,9 +37,9 @@
     "title": "Privacy & Referrals Policy",
     "intro": "Please note that in using this Website you agree to the following:",
     "rules": {
-      "rule-one": "Placifull takes all reasonable steps to secure the content of the Website to best of Placifull team knowledge, however Placifull does not make any warranties or representations that content shall be 100% safe and secure.",
+      "rule-one": "Placifull takes all reasonable steps to secure the content of the Website to the best of Placifull team knowledge, however, Placifull does not make any warranties or representations that content shall be 100% safe and secure.",
       "rule-two": "Placifull will only have access to/collect information that you voluntarily give us. We will not sell or rent this information to anyone. We will use your information to respond to you regarding the reason you contacted us. We will not share your information with any third party other than as necessary to fulfil your request.",
-      "rule-three": "If submitting your CV it can be viewed by people with the “Browser CV” plan where you have marked publish your personal information, on your profile. Placifull take no responsibility for any data which is leaked or accessed in any unauthorized way.",
+      "rule-three": "If submitting your CV it can be viewed by people with the “Browser CV” plan where you have marked publish your personal information, on your profile. Placifull takes no responsibility for any data which is leaked or accessed in any unauthorized way.",
       "rule-four": "A user of this Website can share the referral token he/she is assigned to other people. When an option is purchased with this token, the User will be credited with 10% to 25% of the purchase amount.",
       "rule-five": "Once the credited amount reaches 25 € the User will have the right to withdraw this amount.",
       "rule-six": "If in any way a User of this Website is suspected to be fraudulent the associated account can be blocked and any amount reduced to zero."
@@ -49,23 +49,23 @@
     "title": "Users Question & Answer:",
     "question-one": {
       "questions": "How does Placifull work?",
-      "answer": "Every User can publish a Listing, which will then be displayed to the public. These Listings will be freely accessible to all on the World Wide Web. Before publishing a Listing, you will need to purchase the option to place it on our Website. This can be done from the Profile page, where you can see three purchase options."
+      "answer": "Every User can publish a Listing, which will then be displayed to the public. These Listings will be freely accessible to all on the World Wide Web. Before publishing a Listing, you will need to purchase the option to place it on our Website. This can be done from the Profile page, where you can see four purchase options."
     },
     "question-two": {
       "questions": "How can I put my Listing on Placifull?",
-      "answer": "You need to have an option that allows you to place a Listing. There are three options from which to choose. The first option is a single post. You purchase it and use it whenever it is most suitable to you. This option has no expiry date.The second and third options have an expiry date and limited quantities. These determine how many active Listings you can have with the particular option. Once they expire you can add them again. You can delete them and input them again as many times as you want."
+      "answer": "You need to have an option that allows you to place a Listing. There are three options from which to choose. The first option is a single post. You purchase it and use it whenever it is most suitable for you. This option has no expiry date. The second and third options have an expiry date and limited quantities. These determine how many active Listings you can have with the particular option. Once they expire you can purchase them again. You can delete them and input them again as many times as you want."
     },
     "question-three": {
       "questions": "How is the payment protected?",
-      "answer": "We use Stripe in order to process the payment. The fields which ask for your card information are components from Stripe, so Placifull does not actuall have the access to your full card information"
+      "answer": "We use Stripe in order to process the payment. The fields which ask for your card information are components from Stripe, so Placifull does not actually have the access to your full card information"
     },
     "question-four": {
-      "questions": "My card was charged but nothing purchased?",
+      "questions": "My card was charged but nothing was purchased?",
       "answer": "In the unlikely event that your card has been charged when nothing has been purchased, please contact us by email or WhatsApp, giving full details. Valid claims will be refunded ASAP"
     },
     "question-five": {
       "questions": "Why did my Listing disappear?",
-      "answer": "The Listing will appear for 30 days, unless you have purchased an extended option which allows the Listing to be active beyond 30 days."
+      "answer": "The listing will appear for 30 days unless you have purchased an extended option that allows the Listing to be active beyond 30 days."
     },
     "question-six": {
       "questions": "I bought the promoted feature, but do not see my Listing?",

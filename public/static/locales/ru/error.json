@@ -1,25 +1,26 @@
 {
-  "internal-error": "Unknown error from server. Please try again later.",
-  "server-error-api": "Server Error.",
-  "connection-error": "Cannot connect to the server. Please try again later.",
-  "server-not-reached": "So embarrising! The server can't be reached. Please contact us, or try again later.",
+  "internal-error": "Неизвестная ошибка сервера. Пожалуйста, повторите попытку позже.",
+  "server-error-api": "Ошибка сервера.",
+  "connection-error": "Невозможно подключиться к серверу. Пожалуйста, повторите попытку позже.",
+  "server-not-reached": "Так стыдно! Сервер недоступен. Свяжитесь с нами или повторите попытку позже.",
   "Auth": {
     "form": {
       "error": {
-        "invalid": "Email or password invalid.",
+        "invalid": "Электронная почта или пароль недействительны.",
         "user": {
-          "not-exist": "User with this email does not exist"
+          "not-exist": "Пользователь с этим адресом электронной почты не существует",
+          "user-blocked": "Этот пользователь заблокирован. Обратитесь в службу поддержки."
         },
         "code": {
-          "provide": "Unauthorised Access!"
+          "provide": "Не авторизованный доступ!"
+        },
+        "email": {
+          "confirmed": "Вы должны подтвердить свой адрес электронной почты",
+          "taken": "Пользователь с этим адресом электронной почты уже существует",
+          "already-confirmed": "Электронная почта уже подтверждена",
+          "format": "Неверный формат электронной почты"
         }
       }
     }
-  },
-  "listing": {
-    "not-deleted": "Listing was not deleted"
-  },
-  "profile": {
-    "cv-notfound": "CV was not retrieved"
   }
 }

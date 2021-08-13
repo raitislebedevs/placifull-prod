@@ -13,13 +13,13 @@ const languages = [
     },
     label: 'Latviešu',
   },
-  // {
-  //   value: {
-  //     lang: 'ee',
-  //     flag: 'EE',
-  //   },
-  //   label: 'Eesti',
-  // },
+  {
+    value: {
+      lang: 'ee',
+      flag: 'EE',
+    },
+    label: 'Eesti',
+  },
   // {
   //   value: {
   //     lang: 'lt',
@@ -34,13 +34,13 @@ const languages = [
   //   },
   //   label: 'Deutsche',
   // },
-  // {
-  //   value: {
-  //     lang: 'ru',
-  //     flag: 'RU',
-  //   },
-  //   label: 'Pусский',
-  // },
+  {
+    value: {
+      lang: 'ru',
+      flag: 'RU',
+    },
+    label: 'Pусский',
+  },
   // {
   //   value: {
   //     lang: 'cn',

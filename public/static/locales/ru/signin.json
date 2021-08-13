@@ -1,5 +1,7 @@
 {
   "heading": "Войти",
+  "title": "С возвращением.",
+
   "form": {
     "your-email": "Укажите email",
     "email": "Email",
