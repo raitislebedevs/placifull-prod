@@ -14,7 +14,8 @@
   "incomplete": {
     "incomplete_cvc": "Jūsu kartes drošības kods nav pilnīgs",
     "incomplete_expiry": "Jūsu kartes derīguma termiņs nav pilnīgs",
-    "incomplete_number": "Jūsu kartes numurs nav pilnīgs"
+    "incomplete_number": "Jūsu kartes numurs nav pilnīgs",
+    "email_invalid": "E-pasts nav derīgs"
   },
 
   "declined": {
@@ -30,6 +31,7 @@
     "quantity": "Dadz.",
     "name": "Vārds",
     "email": "Epasts",
-    "phone": "Telefona Nr."
+    "phone": "Telefona Nr.",
+    "referral": "Novirzīšanas kods"
   }
 }

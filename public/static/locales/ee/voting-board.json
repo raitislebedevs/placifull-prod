@@ -1,0 +1,20 @@
+{
+  "title": "Soovituslaud",
+  "subtitle": "Hääletuskogu",
+  "item": {
+    "score": "Praegune tulemus",
+    "options": "Hääletamisvõimalused",
+    "up": "ÜLES",
+    "down": "ALLA",
+    "rating": "Hinnang",
+    "vote": "HÄÄLETADA"
+  },
+  "toast": {
+    "log-in": "Palun logige sisse",
+    "voted": "Kas proovite kaks korda hääletada?",
+    "rate": "Palun hinnake ideed",
+    "up-down": "Valige hääletusvõimalus",
+    "idea": "Hinda ja vali hääletusvalik.",
+    "zero": "Seda ideed ei tohi alahinnata"
+  }
+}

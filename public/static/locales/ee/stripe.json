@@ -14,7 +14,8 @@
   "incomplete": {
     "incomplete_cvc": "Sinu kaardi turvakood on puudulik",
     "incomplete_expiry": "Sinu kaardi aegumiskuupäev on puudulik",
-    "incomplete_number": "Sinu kaardinumber on puudulik"
+    "incomplete_number": "Sinu kaardinumber on puudulik",
+    "email_invalid": "E -posti aadress ei sobi"
   },
 
   "declined": {
@@ -30,6 +31,7 @@
     "quantity": "Kogus",
     "name": "Nimi",
     "email": "E-mail",
-    "phone": "Telefoni nr"
+    "phone": "Telefoni nr",
+    "referral": "Viitekood"
   }
 }

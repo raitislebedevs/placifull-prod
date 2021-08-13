@@ -1,5 +1,6 @@
 {
   "internal-error": "Tundmatu veateade. Palun proovi hiljem uuesti.",
+  "server-error-api": "Serveri viga.",
   "connection-error": "Serveriga ei saa luua ühendust. Palun proovi hiljem uuesti.",
   "server-not-reached": "Nii piinlik! Serveriga ei saa ühendust. Palun kontakteeru meiega või proovi hiljem uuesti.",
   "Auth": {
@@ -7,7 +8,17 @@
       "error": {
         "invalid": "E-mail või parool on vale.",
         "user": {
-          "not-exist": "Selle e-mailiga kasutajat ei ole olemas."
+          "not-exist": "Selle e-mailiga kasutajat ei ole olemas.",
+          "user-blocked": "See kasutaja on blokeeritud. Võtke ühendust tugimeeskonnaga."
+        },
+        "code": {
+          "provide": "  Volitamata juurdepääs!"
+        },
+        "email": {
+          "confirmed": "  Peate oma e -posti aadressi kinnitama",
+          "taken": "  Selle e -postiga kasutaja on juba olemas",
+          "already-confirmed": "  E -post on juba kinnitatud",
+          "format": "  Sobimatu e -posti vorming"
         }
       }
     }
