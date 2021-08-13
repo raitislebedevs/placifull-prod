@@ -251,6 +251,7 @@ const RealEstatePost = (props) => {
       let localPreviewItem = PopulatePayload(inputValues);
       localPreviewItem['listingGallery'] = inputValues?.listingGallery;
       localPreviewItem['currency'] = submitCurrency;
+      localPreviewItem['country'] = inputValues?.country;
 
       if (inputValues?.action == 'rent') {
         localPreviewItem['moveInDate'] =
