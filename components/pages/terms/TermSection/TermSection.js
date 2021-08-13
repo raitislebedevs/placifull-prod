@@ -86,27 +86,25 @@ const TermSection = (props) => {
               <p className="terms-container__content--text">
                 <FaRegDotCircle />
                 {t('terms:user-aggrements.rules.rule-four.rule')}
-                <ol>
-                  <li>
-                    {' '}
-                    {t('terms:user-aggrements.rules.rule-four.point-one')}{' '}
-                  </li>
-                  <li>
-                    {' '}
-                    {t('terms:user-aggrements.rules.rule-four.point-two')}{' '}
-                  </li>
-                  <li>
-                    {' '}
-                    {t(
-                      'terms:user-aggrements.rules.rule-four.point-three'
-                    )}{' '}
-                  </li>
-                  <li>
-                    {' '}
-                    {t('terms:user-aggrements.rules.rule-four.point-four')}{' '}
-                  </li>
-                </ol>
               </p>
+              <ol>
+                <li>
+                  {' '}
+                  {t('terms:user-aggrements.rules.rule-four.point-one')}{' '}
+                </li>
+                <li>
+                  {' '}
+                  {t('terms:user-aggrements.rules.rule-four.point-two')}{' '}
+                </li>
+                <li>
+                  {' '}
+                  {t('terms:user-aggrements.rules.rule-four.point-three')}{' '}
+                </li>
+                <li>
+                  {' '}
+                  {t('terms:user-aggrements.rules.rule-four.point-four')}{' '}
+                </li>
+              </ol>
             </li>
             <li>
               <p className="terms-container__content--text">

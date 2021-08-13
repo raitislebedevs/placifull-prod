@@ -29,7 +29,7 @@ const SignIn = (props) => {
 };
 
 SignIn.getInitialProps = async () => ({
-  namespacesRequired: ['signin', 'error'],
+  namespacesRequired: ['signin', 'common', 'navbar', 'footer', 'error'],
 });
 
 SignIn.propTypes = {

@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "heading": "Noteikumi & Nosacījumi"
+  },
+  "header": "Ievads",
+  "title": "Noteikumi",
+  "introduction": {
+    "first": "Laipni lūdzam mūsu mājas lapā.",
+    "second": "Izmantojot mūsu tīmekļa vietni un/vai piedāvātos pakalpojumus, jūs apliecināt, ka esat izlasījis un sapratis tālāk sniegtos “Noteikumus un Nosacījumus” un “Privātuma un Ieteikumu politiku”, un piekrītat tiem pilnībā. Ja jūs nepiekrītat vienam punktam “Noteikumu un nosacījumu” un/vai “Privātuma un ieteikumu politikas” sadaļā, jūs nedrīkstat izmantot šo tīmekļa vietni. "
+  },
+  "user-aggrements": {
+    "title": "Noteikumi un Nosacījumi",
+    "intro": "Izmantojot šo vietni uz tevi attiecas šādi noteikumi un nosacījumi:",
+    "rules": {
+      "rule-one": "Termins “Placifull” vai “mēs” vai “mūsu” attiecas uz vietnes īpašniekiem, kuru juridiskā adrese ir [adrese]. Mūsu uzņēmuma reģistrācijas numurs ir [uzņēmuma reģistrācijas numurs un reģistrācijas vieta].",
+      "rule-two": "Termins “Lietotājs” vai “Jūs” vai “Jūsu” attiecas uz jebkuru personu, kas ienāk tīmekļa vietnē, izmanto to vai piekļūst tai, neskatoties uz to, ka šāda persona, iespējams, ir apmeklējusi tikai tīmekļa vietnes sākumlapu",
+      "rule-three": "”Šī Vietne” nozīmē vietni Placifull, kas atrodas vietnē http://www.placifull.com, un ietver jebkuru tās daļu vai elementu.",
+      "rule-four": {
+        "rule": "Šīs vietnes saturs ir paredzēts tikai vispārējai informācijai un lietošanai. Placifull nepārprotami patur tiesības pēc saviem ieskatiem jebkurā laikā bez iepriekšēja brīdinājuma veikt kādu no šīm darbībām:",
+        "point-one": "Mainīt šos noteikumus un nosacījumus;",
+        "point-two": "Mainīt tīmekļa vietnē pieejamo saturu un/vai pakalpojumus;",
+        "point-three": "Pārtraukt jebkurus tīmekļa vietnes pakalpojumus (-u), kas pieejams no šīs vietnes; un/vai",
+        "point-four": "Mainīt programmatūru un aparatūru, kas nepieciešama, lai piekļūtu vietnei un to izmantotu."
+      },
+      "rule-five": "Ne Placifull, ne trešās puses nesniedz nekādas garantijas par šajā vietnē atrastās vai piedāvātās informācijas un materiālu precizitāti, aktualitāti, veiktspēju, pilnīgumu vai piemērotību. Jūs atzīstat, ka šāda informācija un materiāli var saturēt neprecizitātes vai kļūdas, un Placifull nepārprotami izslēdz atbildību par šādām neprecizitātēm vai kļūdām, ciktāl to atļauj Latvijas tiesību akti.",
+      "rule-six": "Jebkādas informācijas vai materiālu izmantošana šajā vietnē ir pilnībā atkarīga no jūsu riska, par ko Placifull nav atbildīgs. Jūs pats esat atbildīgs par to, lai nodrošinātu, ka visi produkti, pakalpojumi vai informācija, kas pieejama, izmantojot šo vietni tīmekļa vietne atbilst jūsu specifiskajām prasībām.",
+      "rule-seven": "Placifull patur tiesības izmeklēt sūdzības, aizdomas vai ziņojumus par mūsu “Noteikumi & Nosacījumi” un/vai  “Privātuma un Ieteikumu politikas” pārkāpumiem un veikt visas darbības, kuras mēs uzskatām par piemērotām, tostarp ziņošanu attiecīgajām iestādēm par iespējamu nelikumīgu darbības veikšanu.",
+      "rule-eight": "Placifull nav atbildīgs par nesaistīto vietņu saturu, kuras var būt pieejams no mūsu vietnes. Šīs saites ir paredzētas tikai jūsu ērtībai, un jūs tām piekļūstat uz savu risku. Jebkura cita vietne, kurai piekļūstat no šī vietne ir neatkarīga no Placifull, un Placifull nekontrolē šīs citas vietnes saturu. Turklāt saite uz jebkuru citu vietni nenozīmē, ka Placifull atbalsta vai uzņemas jebkādu atbildību par šādas citas vietnes saturu vai izmantošanu.",
+      "rule-nine": "Publicējot savu CV šajā tīmekļa vietnē, jūs atļaujat ikvienam, kurš ir iegādājies  “Meklēt CV” plānu, redzēt savu CV.",
+      "rule-ten": "Atbalsts tiks sniegts tikai angļu un/vai latviešu valodā. Ja sazināsieties ar Placifull jebkurā citā valodā, sniegtā atbilde tiks dota, izmantojot Google tulkotāju. Tāpēc mēs negarantējam pakalpojuma kvalitāti un komunikāciju citās valodās pieļautās kļūdas ir lietotāja atbildība.",
+      "rule-eleven": "Placifull nesniedz nekādas garantijas vai apgalvojumus, ka šī vietne un klientu atbalsta centrs būs pieejami vienmēr. Lietotāji atzīst, ka vietne un klientu atbalsta centrs var nebūt pieejami atjauninājumu vai citu iemeslu dēļ kuri nav Placiful kontrolē, ieskaitot, bet ne tikai, vīrusu infekciju, strāvas padeves pārtraukumu vai citi “nepārvaramas varas apstākļus”.",
+      "rule-twele": "Lietotājam ir aizliegts sazināties ar Placifull naidīgā vai draudīgā veidā. Jebkura šāda saziņa tiks nekavējoties pārtraukta un lietotājam netiks sniegta palīdzība, ja radās kādas problēmas.",
+      "rule-thriteen": "Šīs vietnes izmantošanas laikā radušos strīdus, kas radušies lietojot šo vietni var tikt risināti izmantojot Latvijas likumus."
+    }
+  },
+  "privacy-policy": {
+    "title": "Privātuma un Ieteikumu politiku",
+    "intro": "Lūdzu, ņemiet vērā, ka, izmantojot šo vietni, jūs piekrītat šādiem punktiem:",
+    "rules": {
+      "rule-one": "Placifull veic visus saprātīgos pasākumus, lai aizsargātu vietnes saturu, cik vien to atļauj Placifull komandas zināšanas, tomēr Placifull nesniedz nekādas garantijas vai apgalvojumus, ka saturs ir 100% drošs.",
+      "rule-two": "Placifull būs piekļuve tikai informācijai, kuru jūs mums brīvprātīgi sniedzat. Mēs šo informāciju nevienam nepārdosim un neiznomāsim. Mēs izmantosim jūsu informāciju, lai atbildētu ar jums par iemeslu ar kuru jūs sazinājāties. Mēs nedalāmies ar jūsu informāciju nevienai trešajai pusei, izņemot gadījumus, kas nepieciešami jūsu pieprasījuma izpildei.",
+      "rule-three": "Ja iesniedzat savu CV, to var apskatīt personas kyras iegādājušās plānu “Meklēt CV”, kurā esat atzīmējis, savā profilā publicējot savu personisko informāciju. Placifull neuzņemas atbildību par jebkādiem datiem, kas tiek nopludināti vai kuriem piekļūst jebkādā neatļautā veidā.",
+      "rule-four": "Šīs vietnes lietotājs var dalīties ar viņam piešķirto novirzīšanas marķieri citiem cilvēkiem. Kad tiek iegādāta opcija ar šo marķieri, Lietotājam tiks ieskaitīti 10% līdz 25% no pirkuma summas.",
+      "rule-five": "Kad ieskaitītā summa sasniegs 25 €, Lietotājam būs tiesības šo summu izņemt.",
+      "rule-six": "Ja kādā veidā ir aizdomas, ka šīs vietnes lietotājs ir krāpniecisks, saistīto kontu var bloķēt un jebkuru summu samazināt līdz nullei."
+    }
+  },
+  "faq": {
+    "title": "Lietotāju jautājumi un atbildes:",
+    "question-one": {
+      "questions": "Kā Placifull darbojas?",
+      "answer": "Katrs lietotājs var publicēt sludinājumu, kas pēc tam tiks parādīts sabiedrībai. Šie sludinājumi būs brīvi pieejami visiem tīmeklī. Pirms ieraksta publicēšanas jums būs jāiegādājas iespēja to ievietot mūsu vietnē. To var izdarīt profila lapā, kur var redzēt četras pirkuma iespējas."
+    },
+    "question-two": {
+      "questions": "Kā es varu ievietot savu sludinājumu Placifull?",
+      "answer": "Jums ir jābūt iespējai, kas ļauj ievietot sludinājumu. Ir trīs iespējas, no kurām var izvēlēties. Pirmā iespēja ir vienreizējs sludinājums. To iegādājoties varat izmantot uzreiz vai kad tas jums ir vispiemērotāk. Šai opcijai nav derīguma termiņa. Otrajai un trešajai opcijai ir derīguma termiņš un ierobežots daudzums. Tie nosaka, cik aktīvu sludinājumu jums var būt, izmantojot konkrēto opciju. Kad derīguma termiņš ir beidzies, varat tos iegādāties vēlreiz. Varat tos izdzēst un ievadīt no jauna tik reižu, cik vēlaties."
+    },
+    "question-three": {
+      "questions": "Kā tiek aizsargāts maksājums?",
+      "answer": "Mēs izmantojam Stripe, lai apstrādātu maksājumu. Lauki, kuros tiek prasīta jūsu kartes informācija, ir Stripe sastāvdaļa, tāpēc Placifull faktiski nav piekļuves jūsu pilnajai kartes informācijai."
+    },
+    "question-four": {
+      "questions": "No manas kartes tika iekasēta maksa, bet nekas nav nopirkts?",
+      "answer": "Nepatīkamajā gadījumā, kad no jūsu kartes ir iekasēta maksa, bet nekas nav iegādāts, lūdzu, sazinieties ar mums pa e-pastu vai WhatsApp, norādot pilnu informāciju. Derīgās prasības tiks atmaksātas cik ātri vien iespējams."
+    },
+    "question-five": {
+      "questions": "Kāpēc mans sludinājums pazuda?",
+      "answer": "Sludinājums tiks rādīts 30 dienas, ja vien neesat iegādājies paplašinātu opciju, kas ļauj sludinājumam būt aktīvam ilgāk par 30 dienām."
+    },
+    "question-six": {
+      "questions": "Es nopirku izcelto funkciju, bet neredzu savu sludinājumu?",
+      "answer": "Kad esat iegādājies izcelto opciju, jūsu sludinājums varēs tikt parādīts sākumlapā. Sistēma ņem visus sludinājumus, kuriem ir pievienots izceltais tags, un nejauši izvēlas, kurus parādīt ekrānā."
+    },
+    "question-seven": {
+      "questions": "Kā es varu izņemt savu ieteikuma bonusu?",
+      "answer": "Kad esat sasniedzis 25 €, varat tos izņemt no sava konta. Lai to izdarītu, lūdzu, sazinieties ar mums, un mēs pārskaitīsim naudu uz jūsu bankas kontu."
+    }
+  },
+  "end": {
+    "title": "Neatbildejām uz jautājumu?",
+    "goodbye-text": "Lūdzu, sazinieties ar mums no kontaktu sadaļās, un mēs ar jums sazināsimies, cik drīz vien iespējams. Īsāk sakot, mēs vēlamies darīt visu iespējamo, lai padarītu šo vietni labāku. Esiet droši, ka mūsu prioritāte ir lai risinātu visus kļūdas/jautājumus ar lietotāju."
+  }
+}
