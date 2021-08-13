@@ -32,22 +32,20 @@ const Header = (props) => {
             <div className="listing__route">
               {listingItem?.category && (
                 <span>
-                  {t(
+                  {`${t(
                     `real-estate-common:category.options.${listingItem?.category}`
-                  )}
-                  |
+                  )}`}
                 </span>
               )}
               {listingItem?.condition && (
                 <span>
-                  {t(
+                  {` | ${t(
                     `real-estate-common:condition.options.${listingItem?.condition}`
-                  )}
-                  |
+                  )} `}
                 </span>
               )}
               {listingItem?.country?.native && (
-                <span>{listingItem?.country?.native}</span>
+                <span> {` | ${listingItem?.country?.native} `} </span>
               )}
             </div>
 

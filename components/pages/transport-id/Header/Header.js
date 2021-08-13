@@ -40,14 +40,13 @@ const Header = (props) => {
               )}
               {listingItem?.condition && (
                 <span>
-                  {t(
+                  {` | ${t(
                     `transport-common:condition.options.${listingItem?.condition}`
-                  )}
-                  |
+                  )} `}
                 </span>
               )}
               {listingItem?.country?.native && (
-                <span>{listingItem?.country?.native}</span>
+                <span> {` | ${listingItem?.country?.native} `} </span>
               )}
             </div>
 

@@ -133,11 +133,11 @@ const Header = (props) => {
               {t(`job-detail:header.buttons.apply`)}
             </Button>
           </div>
-          <div>
+          {/* <div>
             <Button className="header-buttons btn-success">
               {t(`job-detail:header.buttons.share`)}
             </Button>
-          </div>
+          </div> */}
         </div>
       </Col>
 

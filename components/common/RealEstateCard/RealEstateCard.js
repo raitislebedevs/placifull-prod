@@ -58,10 +58,13 @@ const RealEstateCard = (props) => {
                   style={{ backgroundImage: `url(${i.url}` }}
                 >
                   <div className="item__name-address">
-                    <div className="name-address__address">
-                      <FaSearchLocation className="wrapper__icon" />{' '}
-                      {item?.country?.native}, {item?.city?.name}
-                    </div>
+                    {item?.country?.native && (
+                      <div className="name-address__address">
+                        <FaSearchLocation className="wrapper__icon" />{' '}
+                        {item?.country?.native}{' '}
+                        {item?.city?.name && `, ${item?.city?.name} `}
+                      </div>
+                    )}
                   </div>
                 </a>
               </Link>

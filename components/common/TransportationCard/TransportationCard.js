@@ -100,21 +100,36 @@ const TransportationCard = (props) => {
         <div className="information__upper-transport-item">
           <div className="upper-transport-item__wrapper">
             <FaTachometerAlt className="wrapper__icon" />
-            <div className="wrapper__text">{formatNumber(item?.distance)}</div>
+            <div className="wrapper__text">{` ${
+              item?.distance ? formatNumber(item?.distance) : '-'
+            }  ${item.distanceMesurment === 'kilometer' ? 'km' : 'mi'} `}</div>
           </div>
-          <div className="upper-transport-item__wrapper">
-            <GiCarSeat className="wrapper__icon" />
-            <div className="wrapper__text">{item?.numberOfSeats}</div>
-          </div>
+
+          {item?.numberOfSeats && (
+            <div className="upper-transport-item__wrapper">
+              <GiCarSeat className="wrapper__icon" />
+              <div className="wrapper__text">{item?.numberOfSeats}</div>
+            </div>
+          )}
           <div className="upper-transport-item__wrapper">
             <GiFuelTank className="wrapper__icon" />
-            <div className="wrapper__text">{item?.fuelEconomy}</div>
+            <div className="wrapper__text">{`${
+              item?.fuelEconomy ? item?.fuelEconomy : '-'
+            }   ${
+              item.fuelEconomyMesurment === 'litrePerKilometer'
+                ? 'l/100 km'
+                : 'mpg'
+            } `}</div>
           </div>
         </div>
         <div className="inforamtion__bottom-transport-item">
           <div className="bottom-transport-item__wrapper">
             <GiSpeedometer className="wrapper__icon" />
-            <div className="wrapper__text">{item?.maxSpeed}</div>
+            <div className="wrapper__text">{` ${
+              item?.maxSpeed ? item?.maxSpeed : '-'
+            }  ${
+              item.speedMesurment === 'kilometerPerHour' ? 'km/h' : 'mph'
+            } `}</div>
           </div>
           <div className="bottom-transport-item__wrapper">
             <BsGear className="wrapper__icon" />

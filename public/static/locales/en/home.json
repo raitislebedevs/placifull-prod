@@ -61,7 +61,7 @@
       "service-1": {
         "open-modal": "Learn More",
         "name": "Listing Opportunities",
-        "description": "Our main focus is to help people move to a different country. Moving abroad opens up many challanges, so we are here to help you with the search tools you need. Job, house, transportation all can be found in one place. You don't need to search elsewhere.",
+        "description": "Our primary focus is to help people move to a different country. Moving abroad opens up many challenges. Therefore, we are here to help you with the search tools you need. Such as Job, house, transportation and many more can be found in one place. You don't need to search elsewhere.",
 
         "modal": {
           "header": "Explore",
@@ -72,7 +72,7 @@
       "service-2": {
         "open-modal": "Help Us Now",
         "name": "Help Us Improve",
-        "description": "We are a small team behind the curtains, so any changes you suggest we will be looking at and would add to our voting board. ",
+        "description": "We are a small team behind the curtains, thus any changes you suggest we will be looking at and would add to our voting board. ",
 
         "modal": {
           "header": "Improve",
@@ -88,7 +88,7 @@
       "service-4": {
         "open-modal": "Improve Us Now",
         "name": "Improve our Quality",
-        "description": "Something does not work? Payment didn't go through? Don't hesitate to contact us with the complaint, we will look at it as a priority.",
+        "description": "Something does not work? Payment didn't go through? Don't hesitate to contact us with a complaint. We will look at it as a priority.",
         "modal": {
           "header": "Quality",
           "description": "Placifull is a quality-centered brand and we believe our entire worth is in the quality of the services we provide. We whole-heartedly assure you that we do not compromise on our quality and standards. If you find something on our platform that is not working as smoothly as it should, report the problem to us at your earliest and we will fix it as soon as we can. Your experience with Placifull is of utmost importance and we will enhance and upgrade our system to suit you better.",
@@ -97,8 +97,8 @@
         }
       },
       "service-5": {
-        "open-modal": "Applly Now",
-        "name": "Carrear Opportunities",
+        "open-modal": "Apply Now",
+        "name": "Carreer Opportunities",
         "description": "We work hard and we rest hard. Do you want to be part of us? Then write us. You choose what you want to work at, where and with the salary you want. If we like it YOU will be hired.",
         "modal": {
           "header": "Carrrear",
@@ -153,7 +153,7 @@
             "name": "Annually",
             "offer-1": "20 active items",
             "offer-2": "List up to 30 days",
-            "offer-3": "Freedome to follow user bids",
+            "offer-3": "Freedom to follow user bids",
             "offer-4": "Close whenever, and Re-open on need",
             "button": "Try Now"
           }
@@ -182,7 +182,7 @@
             "name": "Annually",
             "offer-1": "20 active items",
             "offer-2": "List up to 30 days",
-            "offer-3": "Freedome to follow user bids",
+            "offer-3": "Freedom to follow user bids",
             "offer-4": "Close whenever, and Re-open on need",
             "button": "Try Now"
           }
@@ -211,7 +211,7 @@
             "name": "Annually",
             "offer-1": "20 active items",
             "offer-2": "List up to 30 days",
-            "offer-3": "Freedome to follow user bids",
+            "offer-3": "Freedom to follow user bids",
             "offer-4": "Close whenever, and Re-open on need",
             "button": "Try Now"
           }
