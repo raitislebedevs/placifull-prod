@@ -58,6 +58,7 @@ const RegisterForm = (props) => {
       }
       if (error) {
         setErrorText(error);
+        console.log(error);
       }
     } catch (error) {
       setErrorText(error);

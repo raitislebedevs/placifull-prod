@@ -26,6 +26,7 @@
     "currency-symbol-map": "^5.0.1",
     "esri-leaflet-geocoder": "^3.0.0",
     "formik": "^2.2.6",
+    "iplocation": "^7.2.0",
     "js-cookie": "^2.2.1",
     "jspdf": "^2.3.1",
     "jwt-decode": "^3.1.2",

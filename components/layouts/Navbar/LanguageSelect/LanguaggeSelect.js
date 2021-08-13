@@ -1,8 +1,10 @@
-import { useState, useEffect } from 'react'
-import Flags from 'country-flag-icons/react/3x2'
-import Select, { components } from 'react-select'
-import { i18n, withTranslation } from 'i18n'
-import languages from './languages.js'
+import { useState, useEffect } from 'react';
+import Flags from 'country-flag-icons/react/3x2';
+import Select, { components } from 'react-select';
+import { i18n, withTranslation } from 'i18n';
+import languages from './languages.js';
+import languageService from 'services/languageService.js';
+const ipLocation = require('iplocation');
 
 const Option = ({ children, value, ...props }) => {
   const CountryFlag = Flags[value.flag];
@@ -24,13 +26,51 @@ const SingleValue = ({ children, getValue, ...props }) => {
 };
 
 const LanguageSelect = (props) => {
-  const { showNavbarLight } = props
+  const { showNavbarLight } = props;
+
+  const getLocalLanguage = async () => {
+    const local = await languageService.LOCAL();
+    const result = await ipLocation(local.IPv4);
+    localStorage.setItem('countryCode', result?.country?.code.toLowerCase());
+    let localLanguage = languages.filter((item) => {
+      if (result?.country?.code.toLowerCase() === item.value.lang) return item;
+    })[0];
+
+    if (localLanguage) {
+      setLanguage(localLanguage);
+      return i18n.changeLanguage(localLanguage.value.lang);
+    }
+
+    const languageCode = result.country.languages.filter((language) => {
+      let localFound = languages.filter((item) => {
+        if (language.substring(0, 2) === item.value.lang) return item;
+      })[0];
+
+      return localFound;
+    })[0];
+
+    localLanguage = languages.filter((item) => {
+      if (languageCode.toLowerCase() === item.value.lang) return item;
+    })[0];
+
+    if (localLanguage) {
+      setLanguage(localLanguage);
+      return i18n.changeLanguage(localLanguage.value.lang);
+    }
+
+    return true;
+  };
+
   const [language, setLanguage] = useState(languages[0]);
-  useEffect(() => {
+
+  useEffect(async () => {
     const currentLanguage = languages.find(
       (lang) => lang.value.lang === i18n.language
     );
-    setLanguage(currentLanguage);
+    const noLanguages = await getLocalLanguage();
+    if (noLanguages === true) {
+      setLanguage(currentLanguage);
+    }
   }, []);
 
   const handleLanguageChange = (e) => {
@@ -47,7 +87,7 @@ const LanguageSelect = (props) => {
       boxShadow: 'none',
       cursor: 'pointer',
     }),
-    indicatorSeparator: () => { },
+    indicatorSeparator: () => {},
     indicatorsContainer: (provided) => ({
       ...provided,
       width: 20,
@@ -94,7 +134,6 @@ const LanguageSelect = (props) => {
       fontWeight: 'bold',
     }),
   };
-
 
   return (
     <Select
