@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "heading": "Allmänna Villkor"
+  },
+  "header": "Introduktion",
+  "title": "Villkor",
+  "introduction": {
+    "first": "Välkommen till vår hemsida.",
+    "second": "Genom att använda vår webbplats och/eller de tjänster som tillhandahålls bekräftar du att du har läst och förstått följande “Villkor” och “Sekretess- och hänvisningspolicy”; och gå med på att vara bunden av dem. Om du inte håller med någon del av “Villkor” och/eller “Sekretess- och hänvisningspolicy” får du inte använda denna webbplats."
+  },
+  "user-aggrements": {
+    "title": "Villkor",
+    "intro": "Användningen av denna webbplats omfattas av följande villkor:",
+    "rules": {
+      "rule-one": "Termen “Placifull” eller “oss” eller “vi” eller “vår” avser ägare till webbplatsen vars säte är [adress]. Vårt företagsregistreringsnummer är [företagsregistreringsnummer och plats för registrering].",
+      "rule-two": "Termen “Användare” eller “Du” eller “Din” avser varje person som går in på, använder eller får tillgång till webbplatsen, trots att en sådan person kanske bara har besökt webbplatsens hemsida",
+      "rule-three": "Denna webbplats betyder Placifull -webbplatsen som finns på http://www.placifull.com och innehåller alla delar eller delar av den.",
+      "rule-four": {
+        "rule": "Innehållet på denna webbplats är endast för allmän information och för användning. Placifull förbehåller sig uttryckligen rätten att, efter eget gottfinnande, göra något av följande, när som helst utan föregående meddelande:",
+        "point-one": "Ändra dessa villkor;",
+        "point-two": "Ändra innehåll och/eller tjänster som är tillgängliga från webbplatsen;",
+        "point-three": "Avbryt alla aspekter av webbplatsen eller tjänsterna som är tillgängliga från webbplatsen; och/eller",
+        "point-four": "Ändra programvara och hårdvara som krävs för att komma åt och använda webbplatsen."
+      },
+      "rule-five": "Varken Placifull eller någon tredje part ger någon garanti eller garanti om riktigheten, aktualiteten, prestandan, fullständigheten eller lämpligheten av informationen och materialet som finns eller erbjuds på denna webbplats. Du erkänner att sådan information och sådant material kan innehålla felaktigheter eller fel och Placifull utesluter uttryckligen ansvar för sådana felaktigheter eller fel i den utsträckning det tillåts av lettisk lag.",
+      "rule-six": "Din användning av information eller material på denna webbplats är helt på egen risk, för vilken Placifull inte är ansvarig. Det är ditt eget ansvar att se till att alla produkter, tjänster eller information som finns tillgänglig via denna webbplats uppfyller dina specifika krav.",
+      "rule-seven": "Placifull förbehåller sig rätten att utreda klagomål, misstankar eller rapporterade kränkningar av våra “villkor” och/eller vår “sekretess- och hänvisningspolicy” och att vidta alla åtgärder som vi anser lämpliga, inklusive men inte begränsat till att rapportera varje misstänkt olaglig verksamhet till gällande myndigheter, tillsynsmyndigheter eller tredje parter och offentliggörande och information som är nödvändig för att lämpliga sådana personer eller enheter.",
+      "rule-eight": "Placifull ansvarar inte för innehållet på några icke -anslutna webbplatser som kan vara länkade till eller från vår webbplats. Dessa länkar tillhandahålls endast för din bekvämlighet och du kommer åt dem på egen risk. Alla andra webbplatser som nås från denna webbplats är oberoende av Placifull och Placifull har ingen kontroll över innehållet på den andra webbplatsen. Dessutom innebär en länk till någon annan webbplats inte att Placifull godkänner eller accepterar något ansvar för innehållet eller användningen av sådan annan webbplats.",
+      "rule-nine": "Genom att publicera ditt CV på denna webbplats tillåter du alla som har köpt “Webbläsar -CV” att se ditt CV.",
+      "rule-ten": "Support kommer endast att ges på engelska och/eller lettiska. Om du kontaktar Placifull på något annat språk kommer Google Translate att användas för att aktivera ett svar. Därför garanterar vi inte kvaliteten på tjänsten och eventuella misstag i kommunikationen är användarens ansvar.",
+      "rule-eleven": "Placifull lämnar inga garantier eller utfästelser om att denna webbplats och kundsupportcenter alltid är tillgängliga. Användare erkänner att webbplatsen och kundsupportcentret kan vara otillgänglig på grund av uppdateringar eller andra orsaker som Placiful inte kan kontrollera, inklusive, men inte begränsat till, virusinfektion, strömavbrott eller annan “Force Majeure”.",
+      "rule-twele": "Användaren får inte kontakta Placifull på ett fientligt eller hotfullt sätt. All sådan kommunikation avbryts omedelbart och användaren kommer inte att få hjälp om det uppstår problem.",
+      "rule-thriteen": "Din användning av denna webbplats och alla tvister som uppstår vid sådan användning omfattas av Lettlands lagar."
+    }
+  },
+  "privacy-policy": {
+    "title": "Sekretess- och remisspolicy",
+    "intro": "Observera att när du använder denna webbplats godkänner du följande:",
+    "rules": {
+      "rule-one": "Placifull vidtar alla rimliga åtgärder för att säkra innehållet på webbplatsen efter bästa Placifull -teamkännedom, men Placifull lämnar inga garantier om att innehållet ska vara 100% säkert.",
+      "rule-two": "Placifull kommer endast att ha tillgång till/samla in information som du frivilligt ger oss. Vi kommer inte att sälja eller hyra ut denna information till någon. Vi kommer att använda din information för att svara dig angående anledningen till att du kontaktade oss. Vi kommer inte att dela din information med någon tredje part än vad som är nödvändigt för att uppfylla din begäran.",
+      "rule-three": "Om du skickar in ditt CV kan det ses av personer med “Browser CV” -planen där du har markerat publicera din personliga information, på din profil. Placifull tar inget ansvar för data som läcker ut eller nås på något obehörigt sätt.",
+      "rule-four": "En användare av denna webbplats kan dela den hänvisningstoken han/hon har tilldelats till andra personer. När ett alternativ köps med denna token krediteras användaren med 10% till 25% av köpesumman.",
+      "rule-five": "När det krediterade beloppet når 25 € har användaren rätt att ta ut detta belopp.",
+      "rule-six": "Om en användare av denna webbplats på något sätt misstänks vara bedräglig kan det associerade kontot blockeras och varje belopp reduceras till noll."
+    }
+  },
+  "faq": {
+    "title": "Användares fråga och svar:",
+    "question-one": {
+      "questions": "Hur fungerar Placifull?",
+      "answer": "Varje användare kan publicera en lista som sedan visas för allmänheten. Dessa listor kommer att vara fritt tillgängliga för alla på World Wide Web. Innan du publicerar en lista måste du köpa alternativet för att placera den på vår webbplats. Detta kan göras från profilsidan, där du kan se fyra köpalternativ."
+    },
+    "question-two": {
+      "questions": "Hur kan jag lägga min lista på Placifull?",
+      "answer": "Du måste ha ett alternativ som gör att du kan placera en lista. Det finns tre alternativ att välja mellan. Det första alternativet är ett enda inlägg. Du köper den och använder den när den passar dig bäst. Det här alternativet har inget utgångsdatum. Det andra och tredje alternativet har ett utgångsdatum och begränsade mängder. Dessa avgör hur många aktiva listor du kan ha med det specifika alternativet. När de har gått ut kan du köpa dem igen. Du kan radera dem och mata in dem igen så många gånger du vill."
+    },
+    "question-three": {
+      "questions": "Hur skyddas betalningen?",
+      "answer": "Vi använder Stripe för att behandla betalningen. Fälten som ber om din kortinformation är komponenter från Stripe, så Placifull har faktiskt inte tillgång till din fullständiga kortinformation"
+    },
+    "question-four": {
+      "questions": "Mitt kort var debiterat men inget köptes?",
+      "answer": "I det osannolika fallet att ditt kort har debiterats när ingenting har köpts, vänligen kontakta oss via e -post eller WhatsApp, med fullständig information. Giltiga fordringar återbetalas ASAP"
+    },
+    "question-five": {
+      "questions": "Varför försvann min lista?",
+      "answer": "Listan visas i 30 dagar om du inte har köpt ett utökat alternativ som gör att listan kan vara aktiv efter 30 dagar."
+    },
+    "question-six": {
+      "questions": "Jag köpte den marknadsförda funktionen, men ser inte min lista?",
+      "answer": "När du har köpt det marknadsförda alternativet har dina listor chansen att visas på huvudsidan. Systemet tar alla listor som har den marknadsförda taggen tillagd och väljer slumpmässigt vilka som ska visas på skärmen."
+    },
+    "question-seven": {
+      "questions": "Hur kan jag ta ut min remissbonus?",
+      "answer": "När du har nått 25 € kan du ta ut detta från ditt konto. För att göra det, kontakta oss så överför vi pengarna till ditt bankkonto"
+    }
+  },
+  "end": {
+    "title": "Har du fortfarande en fråga?",
+    "goodbye-text": "Kontakta oss från kontaktsidan, så återkommer vi så snart som möjligt. Kort sagt, vi vill göra vad vi kan för att göra den här webbplatsen bättre. Var säker på att vårt fokus är att diskutera eventuella frågor/frågor med användaren med högsta prioritet."
+  }
+}

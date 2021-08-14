@@ -1,27 +1,31 @@
 {
-  "heading": "Registrer",
+  "heading": "Neu registrieren",
+  "title": "Wir haben auf dich gewartet!",
   "form": {
-    "first-name": "Fornavn",
-    "last-name": "Efternavn",
-    "your-email": "Angiv e-mail",
-    "email": "E-mail",
-    "password": "Adgangskode",
-    "confirm-password": "Bekræft adgangskode",
-    "submit": "Registrer",
-    "terms-text": "Jeg accepterer",
-    "terms-link": "Vilkår og betingelser",
+    "first-name": "Vorname",
+    "last-name": "Nachname",
+    "your-email": "Email-Adresse",
+    "email": "Email-Adresse",
+    "password": "Passwort",
+    "confirm-password": "Passwort wiederholen",
+    "submit": "Registrieren",
+    "terms-text": "Ich stimme zu",
+    "terms-link": "AGB & Datenschutzbestimmungen",
     "error": {
-      "email-invalid": "Ugyldig e-mail",
-      "email-required": "E-mail påkrævet",
-      "password-required": "Adgangskode påkrævet",
-      "first-name-required": "Fornavn påkrævet",
-      "last-name-required": "Efternavn påkrævet"
+      "email-invalid": "Email- Adresse ungültig",
+      "email-required": "Email- Adresse erforderlich",
+      "password-required": "Passwort erforderlich",
+      "first-name-required": "Vorname erforderlich",
+      "last-name-required": "Nachname erforderlich",
+      "confirm-password-required": "Bitte bestätigen Sie Ihr Passwort",
+      "accept-terms": "AGB akzeptieren ist erforderlich",
+      "password-not-match": "Passwörter stimmen nicht überein"
     }
   },
-  "or": "Eller log ind med",
+  "or": "Oder Andelden über",
   "facebook": "Facebook",
   "google": "Google",
-  "account": "Har du allerede en konto?",
-  "sign-in": "Log ind",
-  "success-text": "Sådan, lad os komme i gang!"
+  "account": "Sie haben bereits ein Konto?",
+  "sign-in": "Anmelden",
+  "success-text": "Super, es geht Los!"
 }

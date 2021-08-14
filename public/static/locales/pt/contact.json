@@ -1,40 +1,41 @@
 {
   "header": {
-    "heading": "Hjælp og support",
+    "heading": "Ajuda e Suporte",
+    "title": "Contate-Nos",
     "info": {
-      "text": "WhatsApp kontaktnummer",
-      "phone": "+45 12345678"
+      "text": "Número de whatsapp",
+      "phone": " +55 99 999999999"
     }
   },
   "contact-form": {
     "contact": {
-      "heading": "Kontaktinformation",
+      "heading": "Informações de contato",
       "items": {
         "item-1": {
-          "label": "Placering",
-          "description": "Hovedgaden 15"
+          "label": "Endereço",
+          "description": "Rua Nancy, 4758"
         },
         "item-2": {
-          "label": "Telefonnummer",
-          "description": "+45 12345678"
+          "label": "Telefone",
+          "description": " +55 99 99999999"
         },
         "item-3": {
           "label": "E-mail",
-          "description": "eksempel@gmail.com"
+          "description": "ola@exemplo.com"
         },
         "item-4": {
-          "label": "Kundeservice",
-          "description": "support@example.com"
+          "label": "Atendimento ao cliente",
+          "description": "suporte@exemplo.com"
         }
       }
     },
     "form": {
-      "heading": "Formular",
-      "name": "Navn",
+      "heading": "Formulário",
+      "name": "Nome",
       "email": "E-mail",
-      "subject": "Emne",
-      "message": "Besked",
-      "submit": "Send besked"
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "submit": "Enviar mensagem"
     }
   }
 }

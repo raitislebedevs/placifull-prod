@@ -1,5 +1,6 @@
 {
   "heading": "Registrera",
+  "title": "Vi väntade på dig!",
   "form": {
     "first-name": "Förnamn",
     "last-name": "Efternamn",
@@ -15,7 +16,10 @@
       "email-required": "E-mail krävs",
       "password-required": "Lösenord krävs",
       "first-name-required": "Förnamn krävs",
-      "last-name-required": "Efternamn krävs"
+      "last-name-required": "Efternamn krävs",
+      "confirm-password-required": "Bekräfta ditt lösenord",
+      "accept-terms": " Godkänn villkor krävs",
+      "password-not-match": " Lösenord matchar inte"
     }
   },
   "or": "Eller logga in med",

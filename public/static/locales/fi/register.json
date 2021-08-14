@@ -1,5 +1,6 @@
 {
   "heading": "Rekisteröidy",
+  "title": "Odotimme sinua!",
   "form": {
     "first-name": "Etunimi",
     "last-name": "Sukunimi",
@@ -15,7 +16,10 @@
       "email-required": "Sähköposti vaaditaan.",
       "password-required": "Salasana vaaditaan",
       "first-name-required": "Etunimi vaaditaan",
-      "last-name-required": "Sukunimi vaaditaan"
+      "last-name-required": "Sukunimi vaaditaan",
+      "confirm-password-required": "Vahvista salasanasi",
+      "accept-terms": " Hyväksy ehdot ja edellytykset",
+      "password-not-match": " Salasanat eivät täsmää"
     }
   },
   "or": "Vaihtoehtoinen Rekisteröinti",

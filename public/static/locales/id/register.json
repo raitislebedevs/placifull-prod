@@ -1,5 +1,6 @@
 {
   "heading": "Mendaftar",
+  "title": "Kami menunggumu!",
   "form": {
     "first-name": "Nama Depan",
     "last-name": "Nama Belakang",
@@ -15,7 +16,10 @@
       "email-required": "Diperlukan Email",
       "password-required": "Diperlukan Kata Sandi",
       "first-name-required": "Diperlukan Nama Depan",
-      "last-name-required": "Diperlukan Nama Belakang"
+      "last-name-required": "Diperlukan Nama Belakang",
+      "confirm-password-required": "Harap konfirmasi kata sandi Anda",
+      "accept-terms": "Terima syarat & ketentuan diperlukan",
+      "password-not-match": "Kata sandi tidak cocok"
     }
   },
   "or": "Atau Mendaftar Dengan",

@@ -1,5 +1,6 @@
 {
   "heading": "Registrer",
+  "title": "Vi ventede på dig!",
   "form": {
     "first-name": "Fornavn",
     "last-name": "Efternavn",
@@ -15,7 +16,10 @@
       "email-required": "E-mail påkrævet",
       "password-required": "Adgangskode påkrævet",
       "first-name-required": "Fornavn påkrævet",
-      "last-name-required": "Efternavn påkrævet"
+      "last-name-required": "Efternavn påkrævet",
+      "confirm-password-required": "Bekræft venligst din adgangskode",
+      "accept-terms": " Accepter vilkår og betingelser er påkrævet",
+      "password-not-match": " Adgangskoder matcher ikke"
     }
   },
   "or": "Eller log ind med",

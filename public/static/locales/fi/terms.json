@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "heading": "käyttöehdot"
+  },
+  "header": "Johdanto",
+  "title": "Ehdot",
+  "introduction": {
+    "first": "Tervetuloa verkkosivullemme.",
+    "second": "Käyttämällä verkkosivustoamme ja/tai tarjottavia palveluita vahvistat, että olet lukenut ja ymmärtänyt seuraavat “Käyttöehdot” ja “Tietosuoja- ja viittauskäytännöt”; ja suostua sitoutumaan niihin. Jos olet eri mieltä “Käyttöehtojen” ja/tai “Tietosuoja- ja viittauskäytännön” osasta, et saa käyttää tätä verkkosivustoa."
+  },
+  "user-aggrements": {
+    "title": "Käyttöehdot",
+    "intro": "Tämän verkkosivuston käyttöä koskevat seuraavat käyttöehdot:",
+    "rules": {
+      "rule-one": "Termi “Placifull” tai “me” tai “me” tai “meidän” viittaa verkkosivuston omistajiin, joiden sääntömääräinen kotipaikka on [osoite]. Yrityksemme rekisteröintinumero on [yrityksen rekisteröintinumero ja rekisteröintipaikka].",
+      "rule-two": "Termi “käyttäjä” tai “sinä” tai “sinun” viittaa kaikkiin henkilöihin, jotka tulevat, käyttävät tai käyttävät verkkosivustoa, huolimatta siitä, että tällainen henkilö on saattanut käydä vain verkkosivuston kotisivulla",
+      "rule-three": "Tämä verkkosivusto tarkoittaa Placifull -verkkosivustoa, joka sijaitsee osoitteessa http://www.placifull.com ja joka sisältää sen osan tai osan.",
+      "rule-four": {
+        "rule": "Tämän verkkosivuston sisältö on tarkoitettu vain yleistä tietoa varten ja vain käyttöön. Placifull pidättää nimenomaisesti oikeuden oman harkintansa mukaan tehdä mitä tahansa seuraavista milloin tahansa ilman ennakkoilmoitusta:",
+        "point-one": "Muuttaa näitä ehtoja;",
+        "point-two": "Muuttaa verkkosivustolla saatavilla olevaa sisältöä ja/tai palveluita;",
+        "point-three": "Lopettaa kaikki Verkkosivuston tai palvelujen osa, jotka ovat saatavilla verkkosivustolta; ja tai",
+        "point-four": "Muuta verkkosivuston käyttämiseen ja käyttöön tarvittavia ohjelmistoja ja laitteistoja."
+      },
+      "rule-five": "Placifull tai kolmannet osapuolet eivät anna mitään takuuta tältä sivustolta löytyvien tai tarjottavien tietojen ja materiaalien tarkkuudesta, ajantasaisuudesta, suorituskyvystä, täydellisyydestä tai soveltuvuudesta. Hyväksytte, että tällaiset tiedot ja materiaalit voivat sisältää epätarkkuuksia tai virheitä, ja Placifull sulkee nimenomaisesti pois vastuun tällaisista epätarkkuuksista tai virheistä Latvian lain sallimissa rajoissa.",
+      "rule-six": "Tämän sivuston tietojen tai materiaalien käyttö on täysin omalla vastuullasi, mistä Placifull ei ole vastuussa. On sinun vastuullasi varmistaa, että kaikki tämän verkkosivuston kautta saatavilla olevat tuotteet, palvelut tai tiedot täyttävät erityisvaatimuksesi.",
+      "rule-seven": "Placifull pidättää itsellään oikeuden tutkia valituksia, epäilyjä tai raportoituja “käyttöehtojemme” ja/tai “tietosuoja- ja viittauskäytäntömme” rikkomuksia ja ryhtyä mihinkään aiheellisiksi katsomamme toimiin, mukaan lukien, mutta ei rajoittuen, raportoiminen epäillystä laittomasta toiminnasta viranomaiset, sääntelyviranomaiset tai kolmannet osapuolet ja tällaisten henkilöiden tai yhteisöjen paljastaminen ja tarvittavat tiedot.",
+      "rule-eight": "Placifull ei ole vastuussa sellaisten liittoutumattomien verkkosivustojen sisällöstä, jotka voivat olla linkitettyjä sivustollemme tai sieltä. Nämä linkit ovat vain avuksesi ja käytät niitä omalla vastuullasi. Kaikki muut tällä sivustolla käytetyt verkkosivustot ovat Placifullista riippumattomia, eikä Placifull voi hallita toisen verkkosivuston sisältöä. Lisäksi linkki muille verkkosivustoille ei tarkoita, että Placifull hyväksyy tai hyväksyy minkäänlaisen vastuun tällaisen muun verkkosivuston sisällöstä tai käytöstä.",
+      "rule-nine": "Julkaisemalla CV: si tällä verkkosivustolla sallit kaikkien, jotka ovat ostaneet “Selain -CV” -suunnitelman, nähdä CV: si.",
+      "rule-ten": "Tukea annetaan vain englanniksi ja/tai latviaksi. Jos otat yhteyttä Placifulliin jollakin muulla kielellä, vastaus otetaan käyttöön Google -kääntäjän avulla. Siksi emme takaa palvelun laatua ja kaikki viestinnässä tehdyt virheet ovat käyttäjän vastuulla.",
+      "rule-eleven": "Placifull ei takaa mitään tai takaa, että tämä verkkosivusto ja asiakastukikeskus ovat aina käytettävissä. Käyttäjät ymmärtävät, että verkkosivusto ja asiakastukikeskus eivät ehkä ole käytettävissä päivitysten tai muiden Placifulin kohtuullisesti hallitsemattomien syiden vuoksi, mukaan lukien, mutta ei rajoittuen, virustartunta, sähkökatkos tai muu ”ylivoimainen este”.",
+      "rule-twele": "Käyttäjää ei saa ottaa yhteyttä Placifulliin vihamielisellä tai uhkaavalla tavalla. Tällainen viestintä keskeytetään välittömästi, eikä käyttäjää avusteta, jos ilmenee ongelmia.",
+      "rule-thriteen": "Tämän verkkosivuston käyttö ja kaikki sen käytöstä johtuvat kiistat ovat Latvian lakien alaisia."
+    }
+  },
+  "privacy-policy": {
+    "title": "Tietosuoja- ja viittauskäytäntö",
+    "intro": "Huomaa, että käyttäessäsi tätä verkkosivustoa hyväksyt seuraavat asiat:",
+    "rules": {
+      "rule-one": "Placifull ryhtyy kaikkiin kohtuullisiin toimiin turvatakseen Verkkosivuston sisällön Placifull -tiimin parhaan tietämyksen mukaan, Placifull ei kuitenkaan takaa mitään tai takaa, että sisältö on 100% turvallista.",
+      "rule-two": "Placifullilla on pääsy vain tietoihin, jotka annat meille vapaaehtoisesti. Emme myy tai vuokraa näitä tietoja kenellekään. Käytämme tietojasi vastataksemme sinulle siitä syystä, miksi otit meihin yhteyttä. Emme jaa tietojasi kolmansille osapuolille, paitsi pyynnön täyttämiseksi.",
+      "rule-three": "Jos lähetät CV: si, sitä voivat tarkastella henkilöt, joilla on ”Selaimen CV” -suunnitelma, johon olet merkinnyt, julkaisemaan henkilökohtaiset tietosi profiilissasi. Placifull ei ole vastuussa mistään tiedoista, jotka vuotavat tai joita käsitellään luvattomalla tavalla.",
+      "rule-four": "Tämän verkkosivuston käyttäjä voi jakaa hänelle määrittämänsä viittausmerkin muille ihmisille. Kun optio ostetaan tällä tunnuksella, Käyttäjälle hyvitetään 10–25% ostosummasta.",
+      "rule-five": "Kun hyvitetty summa saavuttaa 25 €, Käyttäjällä on oikeus nostaa tämä summa.",
+      "rule-six": "Jos tämän verkkosivuston käyttäjää epäillään jollakin tavalla vilpilliseksi, siihen liittyvä tili voidaan estää ja kaikki summat pienentää nollaan."
+    }
+  },
+  "faq": {
+    "title": "Käyttäjien kysymys ja vastaus:",
+    "question-one": {
+      "questions": "Miten Placifull toimii?",
+      "answer": "Jokainen käyttäjä voi julkaista luettelon, joka näytetään sitten yleisölle. Nämä listaukset ovat kaikkien vapaasti käytettävissä World Wide Webissä. Ennen yritystietojen julkaisemista sinun on ostettava mahdollisuus sijoittaa se verkkosivustollemme. Tämä voidaan tehdä Profiilisivulta, jossa näet neljä ostovaihtoehtoa."
+    },
+    "question-two": {
+      "questions": "Kuinka voin laittaa yritystietoni Placifulliin?",
+      "answer": "Sinulla on oltava vaihtoehto, jonka avulla voit sijoittaa yritystiedot. Valittavana on kolme vaihtoehtoa. Ensimmäinen vaihtoehto on yksi viesti. Ostat sen ja käytät sitä aina, kun se sopii sinulle parhaiten. Tällä vaihtoehdolla ei ole viimeistä käyttöpäivää. Toisella ja kolmannella vaihtoehdolla on viimeinen voimassaolopäivä ja rajoitettu määrä. Nämä määrittävät, kuinka monta aktiivista yritystietoa sinulla voi olla kyseisen vaihtoehdon kanssa. Kun ne vanhenevat, voit ostaa ne uudelleen. Voit poistaa ne ja syöttää ne uudelleen niin monta kertaa kuin haluat."
+    },
+    "question-three": {
+      "questions": "Miten maksu on suojattu?",
+      "answer": "Käytämme Stripea maksun käsittelyyn. Kentät, joissa kysytään korttitietojasi, ovat Stripen komponentteja, joten Placifullilla ei ole oikeutta käyttää kaikkia korttitietojasi"
+    },
+    "question-four": {
+      "questions": "Korttini veloitettiin, mutta mitään ei ostettu?",
+      "answer": "Siinä epätodennäköisessä tapauksessa, että korttiasi on veloitettu, kun mitään ei ole ostettu, ota meihin yhteyttä sähköpostitse tai WhatsAppissa ja kerro kaikki tiedot. Hyväksytyt korvaukset palautetaan ASAP"
+    },
+    "question-five": {
+      "questions": "Miksi tietoni katosivat?",
+      "answer": "Luettelo näkyy 30 päivän ajan, ellet ole ostanut laajennettua vaihtoehtoa, jonka avulla luettelo voi olla aktiivinen yli 30 päivän ajan."
+    },
+    "question-six": {
+      "questions": "Ostin korostetun ominaisuuden, mutta en näe yritystietoani?",
+      "answer": "Kun olet ostanut ylennetyn vaihtoehdon, yritystietosi näkyvät pääsivulla. Järjestelmä ottaa kaikki listaukset, joihin on lisätty korostettu tunniste, ja valitsee satunnaisesti, mitkä näytetään näytöllä."
+    },
+    "question-seven": {
+      "questions": "Kuinka voin nostaa viittausbonukseni?",
+      "answer": "Kun olet saavuttanut 25 €, voit nostaa sen tililtäsi. Ota meihin yhteyttä, niin siirrämme rahat pankkitilillesi"
+    }
+  },
+  "end": {
+    "title": "Onko sinulla vielä kysyttävää?",
+    "goodbye-text": "Ota meihin yhteyttä yhteystietosivulta, niin otamme sinuun yhteyttä mahdollisimman pian. Lyhyesti sanottuna haluamme tehdä kaikkemme parantaaksemme tätä sivustoa. Voit olla varma, että keskitymme keskustelemaan kaikista ongelmista/kysymyksistä käyttäjän kanssa ensisijaisesti."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "heading": "Sähköpostivarmistus",
+  "title": "  sähköpostivarmistus",
+  "description": "  Vahvista sähköpostiosoitteesi, jotta tili voidaan vahvistaa",
+  "form": {
+    "heading": "  Sähköpostiosoite",
+    "placeholder": "  Anna profiilisi sähköpostiosoite",
+    "submit": "  Lähettää",
+    "confirmed": "  Onko sähköposti jo vahvistettu?",
+    "sign-in": "  Kirjaudu sisään",
+    "success-text": "Sähköpostin vahvistuslinkki lähetetty sähköpostiosoitteeseesi",
+    "error": {
+      "email-invalid": "  Anna kelvollinen sähköpostiosoite",
+      "email-required": "  Sähköpostiosoite vaaditaan"
+    }
+  }
+}

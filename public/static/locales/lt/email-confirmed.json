@@ -1,0 +1,17 @@
+{
+  "heading": "Patvirtinimas el. Paštu",
+  "title": "  Pašto patvirtinimas",
+  "description": "  Patvirtinkite savo el. Pašto adresą, kad paskyra būtų sėkmingai patvirtinta",
+  "form": {
+    "heading": "  Elektroninio pašto adresas",
+    "placeholder": "  Įveskite savo profilio el. Pašto adresą",
+    "submit": "  Siųsti",
+    "confirmed": "  El. Paštas jau patvirtintas?",
+    "sign-in": "  Prisijungti",
+    "success-text": "Pašto patvirtinimo nuoroda išsiųsta jūsų el. Pašto adresu",
+    "error": {
+      "email-invalid": "  Įveskite tinkamą el. Pašto adresą",
+      "email-required": "  Būtinas el. Pašto adresas"
+    }
+  }
+}

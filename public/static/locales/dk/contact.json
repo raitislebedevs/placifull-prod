@@ -1,40 +1,41 @@
 {
   "header": {
-    "heading": "帮助和支持",
+    "heading": "Hjælp og support",
+    "title": "Kontakt os",
     "info": {
-      "text": "WhatsApp 电话号码",
-      "phone": "+371 9999999999"
+      "text": "WhatsApp kontaktnummer",
+      "phone": "+45 12345678"
     }
   },
   "contact-form": {
     "contact": {
-      "heading": "联络信息",
+      "heading": "Kontaktinformation",
       "items": {
         "item-1": {
-          "label": "位置",
-          "description": "南希街 4758号"
+          "label": "Placering",
+          "description": "Hovedgaden 15"
         },
         "item-2": {
-          "label": "电话号码",
-          "description": "+1 919-571-2528"
+          "label": "Telefonnummer",
+          "description": "+45 12345678"
         },
         "item-3": {
-          "label": "邮箱",
-          "description": "kevinyongfy@yahoo.com"
+          "label": "E-mail",
+          "description": "eksempel@gmail.com"
         },
         "item-4": {
-          "label": "客服",
+          "label": "Kundeservice",
           "description": "support@example.com"
         }
       }
     },
     "form": {
-      "heading": "表格",
-      "name": "姓名",
-      "email": "邮箱",
-      "subject": "主题",
-      "message": "信息",
-      "submit": "发送信息"
+      "heading": "Formular",
+      "name": "Navn",
+      "email": "E-mail",
+      "subject": "Emne",
+      "message": "Besked",
+      "submit": "Send besked"
     }
   }
 }

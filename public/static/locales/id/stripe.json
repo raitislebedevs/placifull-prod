@@ -14,7 +14,8 @@
   "incomplete": {
     "incomplete_cvc": "Kode keamanan kartu Anda tidak lengkap.",
     "incomplete_expiry": "Masa berlaku kartu Anda tidak lengkap.",
-    "incomplete_number": "Nomor kartu Anda tidak lengkap."
+    "incomplete_number": "Nomor kartu Anda tidak lengkap.",
+    "email_invalid": "Email tidak valid"
   },
 
   "declined": {
@@ -30,6 +31,7 @@
     "quantity": "Jumlah",
     "name": "Nama",
     "email": "Email",
-    "phone": "Nomor Telepon"
+    "phone": "Nomor Telepon",
+    "referral": "Kode referensi"
   }
 }

@@ -14,7 +14,8 @@
   "incomplete": {
     "incomplete_cvc": "Jūsų kortelės kodas neteisingai įvestas",
     "incomplete_expiry": "Jūsų kortelės galiojimo data neteisingai įvesta",
-    "incomplete_number": "Jūsų kortelės numeris neteisingai įvestas"
+    "incomplete_number": "Jūsų kortelės numeris neteisingai įvestas",
+    "email_invalid": "El. Pašto adresas negalioja"
   },
 
   "declined": {
@@ -30,6 +31,7 @@
     "quantity": "Kiekis",
     "name": "Vardas",
     "email": "El. Paštas",
-    "phone": "Telefono numeris"
+    "phone": "Telefono numeris",
+    "referral": "Persiuntimo kodas"
   }
 }

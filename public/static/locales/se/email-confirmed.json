@@ -1,0 +1,17 @@
+{
+  "heading": "E-post bekräftelse",
+  "title": "  e-post bekräftelse",
+  "description": "  Bekräfta din e -postadress för att kunna verifiera kontot",
+  "form": {
+    "heading": "  E-postadress",
+    "placeholder": "  Ange din profilens e -postadress",
+    "submit": "  Skicka",
+    "confirmed": "  E -post redan bekräftat?",
+    "sign-in": "  Logga in",
+    "success-text": "E -postbekräftelse länk skickad till din e -postadress",
+    "error": {
+      "email-invalid": "  Ange ett giltigt mejl",
+      "email-required": "  E -postadress krävs"
+    }
+  }
+}

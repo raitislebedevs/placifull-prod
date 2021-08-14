@@ -1,5 +1,6 @@
 {
   "heading": "登録する",
+  "title": "お待ちしております！",
   "form": {
     "first-name": "名前",
     "last-name": "名字",
@@ -15,7 +16,10 @@
       "email-required": "メールアドレスが必要です",
       "password-required": "パスワードが必要です",
       "first-name-required": "名前が必要です",
-      "last-name-required": "名字が必要です"
+      "last-name-required": "名字が必要です",
+      "confirm-password-required": "パスワードを確認してください",
+      "accept-terms": " 利用規約に同意する必要があります",
+      "password-not-match": " パスワードが一致しません"
     }
   },
   "or": "その他の登録オプション",

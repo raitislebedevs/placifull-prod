@@ -1,5 +1,6 @@
 {
   "heading": "Registrace",
+  "title": "Čekali jsme na tebe!",
   "form": {
     "first-name": "Jméno",
     "last-name": "Příjmení",
@@ -15,7 +16,10 @@
       "email-required": "Email je povinný",
       "password-required": "Heslo je povinné",
       "first-name-required": "Jméno je povinné",
-      "last-name-required": "Příjmení je povinné"
+      "last-name-required": "Příjmení je povinné",
+      "confirm-password-required": "Potvrďte prosím své heslo",
+      "accept-terms": " Je vyžadováno přijetí podmínek",
+      "password-not-match": " Hesla se neshodují"
     }
   },
   "or": "Nebo se zaregistrujte pomocí",

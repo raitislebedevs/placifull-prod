@@ -1,5 +1,6 @@
 {
   "heading": "S’inscrire",
+  "title": "Nous vous attendions !",
   "form": {
     "first-name": "Prénom",
     "last-name": "Nom",
@@ -15,7 +16,10 @@
       "email-required": "Une adresse mail est requise.",
       "password-required": "Un mot de passe est requis.",
       "first-name-required": "Un prénom est requis.",
-      "last-name-required": "Un nom est requis."
+      "last-name-required": "Un nom est requis.",
+      "confirm-password-required": "Veuillez confirmer votre mot de passe",
+      "accept-terms": " Accepter les termes et conditions est requis",
+      "password-not-match": " Les mots de passe ne correspondent pas"
     }
   },
   "or": "Ou se connecter avec",

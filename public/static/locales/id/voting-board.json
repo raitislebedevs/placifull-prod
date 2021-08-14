@@ -1,0 +1,20 @@
+{
+  "title": "Papan saran",
+  "subtitle": "Papan suara",
+  "item": {
+    "score": "Skor saat ini",
+    "options": "Opsi pemungutan suara",
+    "up": "KE ATAS",
+    "down": "TURUN",
+    "rating": "Peringkat",
+    "vote": "PILIH"
+  },
+  "toast": {
+    "log-in": "Silahkan masuk",
+    "voted": "Mencoba untuk memilih dua kali?",
+    "rate": "Silakan menilai idenya",
+    "up-down": "Pilih opsi pemungutan suara",
+    "idea": "Beri peringkat dan pilih opsi pemungutan suara.",
+    "zero": "Tidak diperbolehkan untuk menolak ide ini"
+  }
+}

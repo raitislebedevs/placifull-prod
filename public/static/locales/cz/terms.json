@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "heading": "Všeobecné obchodní podmínky"
+  },
+  "header": "Úvod",
+  "title": "Podmínky",
+  "introduction": {
+    "first": "Vítejte na našem webu.",
+    "second": "Používáním našich webových stránek a/nebo služeb, které jsou poskytovány, potvrzujete, že jste si přečetli a porozuměli následujícím „podmínkám“ a „zásadám ochrany osobních údajů a doporučení“; a souhlasí s tím, že jimi budou vázáni. Pokud nesouhlasíte s jakoukoli částí „Podmínek“ a/nebo „Zásad ochrany osobních údajů a doporučení“, nesmíte tento web používat."
+  },
+  "user-aggrements": {
+    "title": "Pravidla a podmínky",
+    "intro": "Na používání této webové stránky se vztahují následující smluvní podmínky:",
+    "rules": {
+      "rule-one": "Pojem „Placifull“ nebo „my“ nebo „my“ nebo „naše“ označuje majitele webových stránek, jejichž sídlo je [adresa]. Naše registrační číslo společnosti je [registrační číslo společnosti a místo registrace].",
+      "rule-two": "Pojem „Uživatel“ nebo „Vy“ nebo „Váš“ označuje jakoukoli osobu, která vstupuje na webové stránky, používá je nebo na ně přistupuje, bez ohledu na skutečnost, že taková osoba mohla navštívit pouze domovskou stránku webových stránek",
+      "rule-three": "„Tato webová stránka“ znamená webovou stránku Placifull umístěnou na adrese http://www.placifull.com a zahrnuje jakoukoli její část nebo prvek.",
+      "rule-four": {
+        "rule": "Obsah těchto webových stránek je pouze pro obecné informace a použití. Placifull si výslovně vyhrazuje právo podle svého výhradního a absolutního uvážení kdykoli bez předchozího upozornění provést následující:",
+        "point-one": "Změňte tyto podmínky;",
+        "point-two": "Změňte obsah a/nebo služby dostupné na Webových stránkách;",
+        "point-three": "Ukončete jakýkoli aspekt webových stránek nebo služeb dostupných na webových stránkách; a/nebo",
+        "point-four": "Změňte software a hardware požadovaný pro přístup a používání Webových stránek."
+      },
+      "rule-five": "Společnost Placifull ani žádné třetí strany neposkytují žádnou záruku ani přesnost, aktuálnost, výkon, úplnost nebo vhodnost informací a materiálů nalezených nebo nabízených na těchto webových stránkách. Berete na vědomí, že tyto informace a materiály mohou obsahovat nepřesnosti nebo chyby a společnost Placifull výslovně vylučuje odpovědnost za jakékoli takové nepřesnosti nebo chyby v plném rozsahu povoleném lotyšskými zákony.",
+      "rule-six": "Používání jakýchkoli informací nebo materiálů na těchto webových stránkách je zcela na vaše vlastní riziko, za což Placifull nenese žádnou odpovědnost. Je vaší vlastní odpovědností zajistit, aby všechny produkty, služby nebo informace dostupné prostřednictvím této webové stránky splňovaly vaše specifické požadavky.",
+      "rule-seven": "Placifull si vyhrazuje právo prošetřit stížnosti, podezření nebo nahlášená porušení našich „Smluvních podmínek“ a/nebo „Zásad ochrany osobních údajů a doporučení“ a učinit veškerá opatření, která považujeme za vhodná, mimo jiné včetně nahlášení jakékoli podezřelé nezákonné činnosti příslušným úřady, regulační orgány nebo třetí strany a zveřejňování a informace nezbytné k přivlastnění takových osob nebo subjektů.",
+      "rule-eight": "Placifull neodpovídá za obsah jakýchkoli přidružených webových stránek, které mohou být propojeny s nebo z našeho webu. Tyto odkazy jsou poskytovány pouze pro vaše pohodlí a přistupujete k nim na vlastní riziko. Jakékoli jiné webové stránky přístupné z tohoto webu jsou nezávislé na společnosti Placifull a Placifull nemá žádnou kontrolu nad obsahem těchto jiných webových stránek. Kromě toho odkaz na jinou webovou stránku neznamená, že společnost Placifull schvaluje nebo přijímá jakoukoli odpovědnost za obsah nebo použití těchto jiných webových stránek.",
+      "rule-nine": "Zveřejněním svého životopisu na těchto webových stránkách umožňujete každému, kdo si koupil plán „Životopis prohlížeče“, zobrazit váš životopis.",
+      "rule-ten": "Podpora bude poskytována pouze v angličtině a/nebo lotyštině. Pokud budete kontaktovat Placifull v jakémkoli jiném jazyce, bude k povolení odpovědi použit Překladač Google. Proto nezaručujeme kvalitu služby a jakákoli chyba při komunikaci je odpovědností uživatele.",
+      "rule-eleven": "Placifull neposkytuje žádné záruky ani prohlášení, že tyto webové stránky a středisko zákaznické podpory budou vždy k dispozici. Uživatelé berou na vědomí, že web a středisko zákaznické podpory mohou být nedostupné z důvodu aktualizací nebo jiných příčin mimo přiměřenou kontrolu společnosti Placiful, mimo jiné včetně virové infekce, výpadku napájení nebo jiné „vyšší moci“.",
+      "rule-twele": "Uživateli je zakázáno kontaktovat Placifull nepřátelským nebo výhružným způsobem. Jakákoli taková komunikace bude okamžitě zastavena a uživateli nebude poskytnuta pomoc, pokud dojde k jakýmkoli problémům.",
+      "rule-thriteen": "Vaše používání této webové stránky a jakýkoli spor vyplývající z takového použití podléhá zákonům Lotyšska."
+    }
+  },
+  "privacy-policy": {
+    "title": "Zásady ochrany osobních údajů a doporučení",
+    "intro": "Vezměte prosím na vědomí, že používáním této webové stránky souhlasíte s následujícím:",
+    "rules": {
+      "rule-one": "Placifull podniká všechny přiměřené kroky k zajištění obsahu webových stránek podle nejlepších znalostí týmu Placifull, nicméně Placifull neposkytuje žádné záruky ani prohlášení, že obsah bude 100% bezpečný a zabezpečený.",
+      "rule-two": "Placifull bude mít přístup pouze k/shromažďovat informace, které nám dobrovolně poskytnete. Tyto informace nikomu neprodáme ani nepronajmeme. Vaše údaje použijeme k tomu, abychom vám odpověděli ohledně důvodu, proč jste nás kontaktovali. Vaše údaje nebudeme sdílet s žádnou třetí stranou jinak, než je nutné ke splnění vašeho požadavku.",
+      "rule-three": "Pokud svůj životopis odešlete, mohou ho zobrazit lidé s plánem „Životopis prohlížeče“, kde jste označili zveřejnění svých osobních údajů, ve vašem profilu. Placifull nenese žádnou odpovědnost za jakákoli data, která uniknou nebo se k nim dostane jakýmkoli neoprávněným způsobem.",
+      "rule-four": "Uživatel těchto webových stránek může sdílet token doporučení, který je přiřazen jiným lidem. Když je s tímto tokenem zakoupena opce, bude uživateli připsáno 10% až 25% z částky nákupu.",
+      "rule-five": "Jakmile připsaná částka dosáhne 25 EUR, bude mít Uživatel právo tuto částku vybrat.",
+      "rule-six": "Pokud je jakýmkoli způsobem podezření, že je uživatel této webové stránky podvodný, může být přidružený účet zablokován a jakákoli částka snížena na nulu."
+    }
+  },
+  "faq": {
+    "title": "Otázky a odpovědi uživatelů:",
+    "question-one": {
+      "questions": "Jak přípravek Placifull působí?",
+      "answer": "Každý uživatel může zveřejnit zápis, který se poté zobrazí veřejnosti. Tyto seznamy budou volně přístupné všem na World Wide Web. Před zveřejněním záznamu budete muset zakoupit možnost umístění na náš web. To lze provést na stránce Profil, kde vidíte čtyři možnosti nákupu."
+    },
+    "question-two": {
+      "questions": "Jak mohu svůj zápis umístit na Placifull?",
+      "answer": "Musíte mít možnost, která vám umožní umístit zápis. Na výběr jsou tři možnosti. První možností je jediný příspěvek. Koupíte si ji a použijete ji, kdykoli je pro vás nejvhodnější. Tato možnost nemá žádné datum vypršení platnosti. Druhá a třetí možnost mají datum vypršení platnosti a omezené množství. Ty určují, kolik aktivních výpisů můžete mít s konkrétní možností. Jakmile vyprší jejich platnost, můžete je zakoupit znovu. Můžete je odstranit a zadat je tolikrát, kolikrát chcete."
+    },
+    "question-three": {
+      "questions": "Jak je platba chráněna?",
+      "answer": "Ke zpracování platby používáme Stripe. Pole, která požadují informace o vaší kartě, jsou součástmi Stripe, takže Placifull ve skutečnosti nemá přístup k vašim úplným informacím o kartě"
+    },
+    "question-four": {
+      "questions": "Moje karta byla nabitá, ale nic nebylo zakoupeno?",
+      "answer": "V nepravděpodobném případě, že by byla vaše karta naúčtována, když nebylo nic zakoupeno, kontaktujte nás prosím e -mailem nebo WhatsApp a uveďte všechny podrobnosti. Platné nároky budou vráceny ASAP"
+    },
+    "question-five": {
+      "questions": "Proč můj výpis zmizel?",
+      "answer": "Záznam se zobrazí po dobu 30 dnů, pokud jste nezakoupili rozšířenou možnost, která umožňuje, aby byl zápis aktivní déle než 30 dnů."
+    },
+    "question-six": {
+      "questions": "Koupil jsem si propagovanou funkci, ale nevidíte můj výpis?",
+      "answer": "Jakmile si zakoupíte propagovanou možnost, vaše výpisy budou mít šanci být zobrazeny na hlavní stránce. Systém vezme všechny výpisy, které mají přidanou propagovanou značku, a náhodně vybere, které se mají zobrazit na obrazovce."
+    },
+    "question-seven": {
+      "questions": "Jak mohu vybrat svůj bonus za doporučení?",
+      "answer": "Jakmile dosáhnete 25 EUR, můžete je vybrat ze svého účtu. Za tímto účelem nás prosím kontaktujte a my vám převedeme peníze na váš bankovní účet"
+    }
+  },
+  "end": {
+    "title": "Stále máte otázku?",
+    "goodbye-text": "Kontaktujte nás prosím z kontaktní stránky a my se vám co nejdříve ozveme. Stručně řečeno, chceme udělat vše pro to, aby byl tento web lepší. Buďte si jisti, že naším cílem je prodiskutovat jakékoli problémy/otázky s uživatelem s nejvyšší prioritou."
+  }
+}

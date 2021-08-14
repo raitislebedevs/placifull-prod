@@ -1,5 +1,7 @@
 {
   "heading": "リストを提出",
+  "title": "不動産",
+
   "form": {
     "submit": "提出",
     "submit-confirm": "保存中…",

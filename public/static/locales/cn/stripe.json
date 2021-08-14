@@ -14,7 +14,8 @@
   "incomplete": {
     "incomplete_cvc": "您的银行卡的安全代码不完整。",
     "incomplete_expiry": "您的银行卡的到期日不完整。",
-    "incomplete_number": "您的银行卡号不完整。"
+    "incomplete_number": "您的银行卡号不完整。",
+    "email_invalid": "电子邮件无效"
   },
 
   "declined": {
@@ -30,6 +31,7 @@
     "quantity": "数量",
     "name": "名字",
     "email": "电子邮件",
-    "phone": "电话号码"
+    "phone": "电话号码",
+    "referral": "推荐码"
   }
 }

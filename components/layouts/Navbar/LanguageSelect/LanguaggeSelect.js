@@ -29,9 +29,13 @@ const LanguageSelect = (props) => {
   const { showNavbarLight } = props;
 
   const getLocalLanguage = async () => {
+    if (localStorage.getItem('countryCode')) {
+      return true;
+    }
     const local = await languageService.LOCAL();
     const result = await ipLocation(local.IPv4);
     localStorage.setItem('countryCode', result?.country?.code.toLowerCase());
+
     let localLanguage = languages.filter((item) => {
       if (result?.country?.code.toLowerCase() === item.value.lang) return item;
     })[0];
@@ -52,12 +56,10 @@ const LanguageSelect = (props) => {
     localLanguage = languages.filter((item) => {
       if (languageCode.toLowerCase() === item.value.lang) return item;
     })[0];
-
     if (localLanguage) {
       setLanguage(localLanguage);
       return i18n.changeLanguage(localLanguage.value.lang);
     }
-
     return true;
   };
 

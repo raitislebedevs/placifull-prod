@@ -1,4 +1,37 @@
 {
-  "login": "ログイン中…",
-  "success": "ログイン成功。リダイレクト中…"
+  "main": {
+    "success": "支払いが完了しました。",
+    "plan_update": "プランを更新できませんでした。",
+    "card_not": "カードに請求できませんでした。",
+    "pay": "支払う：€",
+    "processing": "処理中…"
+  },
+  "placeholders": {
+    "name": "Jane Doe",
+    "email": "janedoe@placifull.com",
+    "phone": "(941) 555-7777"
+  },
+  "incomplete": {
+    "incomplete_cvc": "セキュリティコードが違います。",
+    "incomplete_expiry": "有効期限が違います。",
+    "incomplete_number": "カード番号が違います。",
+    "email_invalid": "メールが無効です"
+  },
+
+  "declined": {
+    "card_declined": "カードが拒否されました"
+  },
+  "checkout": {
+    "billing": "支払情報を入力してください",
+    "card-details": "カード情報を入力してください",
+    "cancel": "取り消し"
+  },
+  "labels": {
+    "plan": "プラン",
+    "quantity": "量",
+    "name": "氏名",
+    "email": "メールアドレス",
+    "phone": "携帯電話番号",
+    "referral": "紹介コード"
+  }
 }

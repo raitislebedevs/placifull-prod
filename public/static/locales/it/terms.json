@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "heading": "Termini & Condizioni"
+  },
+  "header": "introduzione",
+  "title": "Termini",
+  "introduction": {
+    "first": "Benvenuti sul nostro sito web.",
+    "second": "Utilizzando il nostro sito Web e/o i servizi forniti, l'utente riconosce di aver letto e compreso i seguenti “Termini e condizioni” e “Informativa sulla privacy e sui referral”; e accetta di esserne vincolato. Se non sei d'accordo con qualsiasi parte dei “Termini e condizioni” e/o della “Politica sulla privacy e sui referral”, non devi utilizzare questo sito web."
+  },
+  "user-aggrements": {
+    "title": "Termini e Condizioni",
+    "intro": "L'utilizzo di questo sito web è soggetto ai seguenti Termini e Condizioni:",
+    "rules": {
+      "rule-one": "Il termine “Placifull” o “noi” o “noi” o “nostro”, si riferisce ai proprietari del sito web la cui sede legale è [indirizzo]. Il nostro numero di registrazione della società è [numero di registrazione della società e luogo di registrazione].",
+      "rule-two": "Il termine “Utente” o “Tu” o “Suo” si riferisce a qualsiasi persona che accede, utilizza o accede al Sito Web, nonostante tale persona possa aver visitato solo la home page del Sito Web",
+      "rule-three": "Questo sito Web indica il sito Web Placifull situato all'indirizzo http://www.placifull.com e include qualsiasi parte o elemento di esso.",
+      "rule-four": {
+        "rule": "Il contenuto di questo sito Web è solo per informazioni generali e per uso. Placifull si riserva espressamente il diritto, a sua esclusiva e assoluta discrezione, di eseguire una delle seguenti azioni, in qualsiasi momento e senza preavviso:",
+        "point-one": "Modificare questi termini e condizioni;",
+        "point-two": "Modificare i contenuti e/oi servizi disponibili dal Sito;",
+        "point-three": "Interrompere qualsiasi aspetto del Sito Web o dei servizi disponibili dal Sito Web; e/o",
+        "point-four": "Modificare il software e l'hardware necessari per accedere e utilizzare il sito Web."
+      },
+      "rule-five": "Né Placifull, né terze parti, forniscono alcuna garanzia in merito all'accuratezza, tempestività, prestazioni, completezza o idoneità delle informazioni e dei materiali trovati o offerti su questo sito web. Riconosci che tali informazioni e materiali possono contenere inesattezze o errori e Placifull esclude espressamente la responsabilità per tali inesattezze o errori nella misura massima consentita dalla legge lettone.",
+      "rule-six": "L'utilizzo di qualsiasi informazione o materiale su questo sito Web è interamente a proprio rischio, per il quale Placifull non sarà responsabile. Sarà tua responsabilità assicurarti che qualsiasi prodotto, servizio o informazione disponibile attraverso questo sito web soddisfi le tue esigenze specifiche.",
+      "rule-seven": "Placifull si riserva il diritto di indagare su reclami, sospetti o violazioni segnalate dei nostri “Termini e condizioni” e/o della nostra “Politica sulla privacy e sui referral” e di intraprendere qualsiasi azione che riterrà appropriata, incluso ma non limitato alla segnalazione di qualsiasi attività illecita sospetta all'autorità competente autorità, autorità di regolamentazione o terzi e la divulgazione e le informazioni necessarie per appropriarsi di tali persone o entità.",
+      "rule-eight": "Placifull non è responsabile per il contenuto di siti Web non affiliati che possono essere collegati ao dal nostro sito. Questi collegamenti sono forniti solo per tua comodità e l'accesso è a tuo rischio e pericolo. Qualsiasi altro sito Web a cui si accede da questo sito è indipendente da Placifull e Placifull non ha alcun controllo sul contenuto di quell'altro sito Web. Inoltre, un collegamento a qualsiasi altro sito Web non implica che Placifull approvi o accetti alcuna responsabilità per il contenuto o l'uso di tale altro sito Web.",
+      "rule-nine": "Pubblicando il tuo CV su questo sito Web, consenti a chiunque abbia acquistato il piano “Browser CV” di visualizzare il tuo CV.",
+      "rule-ten": "Il supporto sarà fornito solo in inglese e/o lettone. Se contatti Placifull in qualsiasi altra lingua, Google Translate verrà utilizzato per abilitare una risposta. Pertanto non garantiamo la qualità del servizio e qualsiasi errore commesso nella comunicazione è responsabilità dell'utente.",
+      "rule-eleven": "Placifull non fornisce alcuna garanzia o dichiarazione che questo sito Web e il Centro assistenza clienti saranno disponibili in ogni momento. Gli utenti riconoscono che il Sito Web e il Centro assistenza clienti potrebbero non essere disponibili a causa di aggiornamenti o altre cause al di fuori del ragionevole controllo di Placiful, inclusi, ma non limitati a, infezioni da virus, interruzioni di corrente o altre “Forze maggiori”.",
+      "rule-twele": "All'Utente è vietato contattare Placifull in modo ostile o minaccioso. Qualsiasi comunicazione di questo tipo verrà immediatamente interrotta e l'utente non sarà assistito in caso di problemi.",
+      "rule-thriteen": "L'utilizzo di questo sito Web e qualsiasi controversia derivante da tale utilizzo è soggetto alle leggi della Lettonia."
+    }
+  },
+  "privacy-policy": {
+    "title": "Politica sulla privacy e sui referral",
+    "intro": "Si prega di notare che utilizzando questo sito Web si accetta quanto segue:",
+    "rules": {
+      "rule-one": "Placifull adotta tutte le misure ragionevoli per proteggere il contenuto del sito Web al meglio delle conoscenze del team di Placifull, tuttavia, Placifull non fornisce alcuna garanzia o dichiarazione che il contenuto sarà sicuro e protetto al 100%.",
+      "rule-two": "Placifull avrà accesso/raccoglierà solo le informazioni che ci fornite volontariamente. Non venderemo o affitteremo queste informazioni a nessuno. Utilizzeremo le tue informazioni per risponderti in merito al motivo per cui ci hai contattato. Non condivideremo le tue informazioni con terze parti se non per quanto necessario per soddisfare la tua richiesta.",
+      "rule-three": "Se invii il tuo CV può essere visualizzato dalle persone con il piano “Browser CV” dove hai contrassegnato come pubblicare le tue informazioni personali, sul tuo profilo. Placifull non si assume alcuna responsabilità per eventuali dati trapelati o accessibili in qualsiasi modo non autorizzato.",
+      "rule-four": "Un utente di questo sito Web può condividere il token di riferimento assegnato ad altre persone. Quando viene acquistata un'opzione con questo token, all'Utente verrà accreditato dal 10% al 25% dell'importo dell'acquisto.",
+      "rule-five": "Una volta che l'importo accreditato raggiunge i 25 € l'Utente avrà il diritto di prelevare tale importo.",
+      "rule-six": "Se in qualsiasi modo si sospetta che un Utente di questo Sito Web sia fraudolento, l'account associato può essere bloccato e qualsiasi importo ridotto a zero."
+    }
+  },
+  "faq": {
+    "title": "Domanda e risposta degli utenti:",
+    "question-one": {
+      "questions": "Come funziona Placifull?",
+      "answer": "Ogni Utente può pubblicare un Annuncio, che verrà poi mostrato al pubblico. Questi elenchi saranno liberamente accessibili a tutti sul World Wide Web. Prima di pubblicare un annuncio, dovrai acquistare l'opzione per inserirlo nel nostro sito web. Questo può essere fatto dalla pagina Profilo, dove puoi vedere quattro opzioni di acquisto."
+    },
+    "question-two": {
+      "questions": "Come posso inserire il mio annuncio su Placifull?",
+      "answer": "Devi avere un'opzione che ti permetta di inserire un annuncio. Ci sono tre opzioni tra cui scegliere. La prima opzione è un singolo post. Lo acquisti e lo usi quando è più adatto a te. Questa opzione non ha una data di scadenza. La seconda e la terza opzione hanno una data di scadenza e quantità limitate. Questi determinano quanti Annunci attivi puoi avere con la particolare opzione. Una volta scaduti puoi acquistarli nuovamente. Puoi eliminarli e reinserirli tutte le volte che vuoi."
+    },
+    "question-three": {
+      "questions": "Come è protetto il pagamento?",
+      "answer": "Usiamo Stripe per elaborare il pagamento. I campi che richiedono le informazioni della tua carta sono componenti di Stripe, quindi Placifull non ha effettivamente accesso alle informazioni complete della tua carta"
+    },
+    "question-four": {
+      "questions": "La mia carta è stata addebitata ma non è stato acquistato nulla?",
+      "answer": "Nel caso improbabile che la tua carta sia stata addebitata quando non è stato acquistato nulla, ti preghiamo di contattarci via e-mail o WhatsApp, fornendo tutti i dettagli. I reclami validi saranno rimborsati al più presto"
+    },
+    "question-five": {
+      "questions": "Perché il mio annuncio è scomparso?",
+      "answer": "L'annuncio verrà visualizzato per 30 giorni a meno che tu non abbia acquistato un'opzione estesa che consente all'annuncio di essere attivo oltre i 30 giorni."
+    },
+    "question-six": {
+      "questions": "Ho acquistato la funzione promossa, ma non visualizzi il mio annuncio?",
+      "answer": "Una volta acquistata l'opzione promossa, i tuoi annunci avranno la possibilità di essere visualizzati nella pagina principale. Il sistema prende tutti gli annunci a cui è stato aggiunto il tag promosso e seleziona casualmente quali visualizzare sullo schermo."
+    },
+    "question-seven": {
+      "questions": "Come posso prelevare il mio bonus di riferimento?",
+      "answer": "Una volta raggiunti i 25 € potrai prelevarli dal tuo conto. Per fare ciò, ti preghiamo di contattarci e trasferiremo i soldi sul tuo conto bancario"
+    }
+  },
+  "end": {
+    "title": "Hai ancora una domanda?",
+    "goodbye-text": "Contattaci dalla pagina dei contatti e ti risponderemo il prima possibile. In breve, vogliamo fare tutto il possibile per migliorare questo sito. Siate certi che il nostro obiettivo è discutere eventuali problemi/domande con l'utente con la massima priorità."
+  }
+}

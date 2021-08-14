@@ -1,5 +1,6 @@
 {
   "heading": "Cadastro",
+  "title": "Esperamos por você!",
   "form": {
     "first-name": "Primeiro nome",
     "last-name": "Sobrenome",
@@ -15,7 +16,10 @@
       "email-required": "Endereço eletrônico necessário",
       "password-required": "Senha necessária",
       "first-name-required": "Primeiro nome necessário",
-      "last-name-required": "Sobrenome necessário"
+      "last-name-required": "Sobrenome necessário",
+      "confirm-password-required": "Por favor, confirme sua senha",
+      "accept-terms": " Aceitar os termos e condições é obrigatório",
+      "password-not-match": " As senhas não coincidem"
     }
   },
   "or": "Ou acesse via",

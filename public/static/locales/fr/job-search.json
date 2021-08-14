@@ -1,4 +1,6 @@
 {
+  "title": "Recherche d'emploi",
+
   "form": {
     "currency": "Devise",
     "no-currency": "TOUTES",

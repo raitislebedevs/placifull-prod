@@ -1,0 +1,17 @@
+{
+  "heading": "Potvrzení e-mailem",
+  "title": "  potvrzení e-mailem",
+  "description": "  Potvrďte prosím svou e -mailovou adresu pro úspěšné ověření účtu",
+  "form": {
+    "heading": "  Emailová adresa",
+    "placeholder": "  Zadejte e -mailovou adresu svého profilu",
+    "submit": "  Poslat",
+    "confirmed": "  E -mail již potvrzen?",
+    "sign-in": "  Přihlásit se",
+    "success-text": "Na vaši e -mailovou adresu byl odeslán potvrzovací e -mail",
+    "error": {
+      "email-invalid": "  prosím zadejte platný email",
+      "email-required": "  E -mailová adresa je povinná"
+    }
+  }
+}

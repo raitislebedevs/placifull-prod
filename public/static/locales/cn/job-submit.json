@@ -1,5 +1,7 @@
 {
   "heading": "提交列表",
+  "title": "工作",
+
   "form": {
     "submit-confirm": "保存中...",
     "preview-sneak-peak": "生成中...",

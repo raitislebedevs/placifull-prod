@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "heading": "Vilkår og Betingelser"
+  },
+  "header": "Introduktion",
+  "title": "Betingelser",
+  "introduction": {
+    "first": "Velkommen til vores hjemmeside.",
+    "second": "Ved at bruge vores websted og/eller de tjenester, der leveres, anerkender du, at du har læst og forstået følgende “Vilkår og betingelser” og “Politik om beskyttelse af fortrolige oplysninger og henvisninger”; og accepterer at være bundet af dem. Hvis du er uenig i nogen del af “Vilkår og betingelser” og/eller “Politik om beskyttelse af fortrolige oplysninger og henvisninger”, må du ikke bruge dette websted."
+  },
+  "user-aggrements": {
+    "title": "Vilkår og betingelser",
+    "intro": "Brugen af ​​dette websted er underlagt følgende vilkår og betingelser:",
+    "rules": {
+      "rule-one": "Udtrykket “Placifull” eller “os” eller “vi” eller “vores” henviser til ejerne af det websted, hvis hjemsted er [adresse]. Vores virksomhedsregistreringsnummer er [virksomhedsregistreringsnummer og registreringssted].",
+      "rule-two": "Udtrykket “bruger” eller “dig” eller “dit” refererer til enhver person, der går ind på, bruger eller får adgang til webstedet, på trods af at en sådan person muligvis kun har besøgt webstedets hjemmeside",
+      "rule-three": "Dette websted betyder Placifull -webstedet på http://www.placifull.com og omfatter enhver del eller element deraf.",
+      "rule-four": {
+        "rule": "Indholdet på dette websted er kun til generel information og brug. Placifull forbeholder sig udtrykkeligt retten til efter eget skøn at foretage et af følgende, når som helst uden forudgående varsel:",
+        "point-one": "Ændre disse vilkår og betingelser;",
+        "point-two": "Ændre indhold og/eller tjenester, der er tilgængelige fra webstedet;",
+        "point-three": "Afslut ethvert aspekt af webstedet eller tjenesterne, der er tilgængelige fra webstedet; og/eller",
+        "point-four": "Skift den software og hardware, der kræves for at få adgang til og bruge webstedet."
+      },
+      "rule-five": "Hverken Placifull eller tredjemand giver nogen garanti eller garanti med hensyn til nøjagtigheden, aktualiteten, ydeevnen, fuldstændigheden eller egnetheden af ​​de oplysninger og materialer, der findes eller tilbydes på dette websted. Du anerkender, at sådanne oplysninger og materialer kan indeholde unøjagtigheder eller fejl, og Placifull udelukker udtrykkeligt ansvar for sådanne unøjagtigheder eller fejl i det omfang, der er tilladt i lettisk lov.",
+      "rule-six": "Din brug af oplysninger eller materialer på dette websted er helt på egen risiko, for hvilket Placifull ikke er ansvarlig. Det er dit eget ansvar at sikre, at alle produkter, tjenester eller oplysninger, der er tilgængelige via dette websted, opfylder dine specifikke krav.",
+      "rule-seven": "Placifull forbeholder sig retten til at undersøge klager, mistanke eller rapporterede overtrædelser af vores “vilkår og betingelser” og/eller vores “fortroligheds- og henvisningspolitik” og at foretage enhver handling, vi finder passende, herunder men ikke begrænset til at indberette enhver formodet ulovlig aktivitet til den relevante myndigheder, tilsynsmyndigheder eller tredjeparter og videregivelse og nødvendige oplysninger til passende personer eller enheder.",
+      "rule-eight": "Placifull er ikke ansvarlig for indholdet på eventuelle ikke -tilknyttede websteder, der kan være knyttet til eller fra vores websted. Disse links er kun til rådighed for din bekvemmelighed, og du får adgang til dem på egen risiko. Ethvert andet websted, der tilgås fra dette websted, er uafhængigt af Placifull, og Placifull har ingen kontrol over indholdet på det andet websted. Derudover indebærer et link til ethvert andet websted ikke, at Placifull godkender eller accepterer ethvert ansvar for indholdet eller brugen af ​​et andet websted.",
+      "rule-nine": "Ved at offentliggøre dit CV på dette websted tillader du alle, der har købt “Browser -CV”, at se dit CV.",
+      "rule-ten": "Support ydes kun på engelsk og/eller lettisk. Hvis du kontakter Placifull på et andet sprog, bruges Google Oversæt til at aktivere et svar. Derfor garanterer vi ikke kvaliteten af ​​tjenesten, og enhver fejl i kommunikationen er brugerens ansvar.",
+      "rule-eleven": "Placifull giver ingen garantier eller erklæringer om, at dette websted og kundesupportcenter altid vil være tilgængelige. Brugere anerkender, at webstedet og kundesupportcentret muligvis ikke er tilgængeligt på grund af opdateringer eller andre årsager, der ligger uden for rimelig kontrol af Placiful, herunder, men ikke begrænset til, virusinfektion, strømsvigt eller anden “Force Majeure”.",
+      "rule-twele": "Det er forbudt for brugeren at kontakte Placifull på en fjendtlig eller truende måde. Enhver sådan kommunikation stoppes straks, og brugeren vil ikke blive hjulpet, hvis der blev opstået problemer.",
+      "rule-thriteen": "Din brug af dette websted og enhver tvist, der måtte opstå som følge af en sådan brug, er underlagt lovgivningen i Letland."
+    }
+  },
+  "privacy-policy": {
+    "title": "Politik om beskyttelse af personlige oplysninger og henvisninger",
+    "intro": "Bemærk, at du ved brug af dette websted accepterer følgende:",
+    "rules": {
+      "rule-one": "Placifull tager alle rimelige skridt for at sikre indholdet på webstedet efter bedste kendskab til Placifull -teamet, men Placifull giver ingen garantier eller erklæringer om, at indholdet skal være 100% sikkert og sikkert.",
+      "rule-two": "Placifull vil kun have adgang til/indsamle oplysninger, som du frivilligt giver os. Vi vil ikke sælge eller udleje disse oplysninger til nogen. Vi vil bruge dine oplysninger til at svare dig angående årsagen til, at du kontaktede os. Vi vil ikke dele dine oplysninger med nogen tredjepart end det er nødvendigt for at opfylde din anmodning.",
+      "rule-three": "Hvis du indsender dit CV, kan det ses af personer med “Browser CV” -planen, hvor du har markeret offentliggøre dine personlige oplysninger, på din profil. Placifull påtager sig intet ansvar for data, der lækker eller tilgås på en uautoriseret måde.",
+      "rule-four": "En bruger af dette websted kan dele henvisningstokenet, han/hun er tildelt til andre mennesker. Når der købes en option med dette token, krediteres brugeren med 10% til 25% af købsbeløbet.",
+      "rule-five": "Når det krediterede beløb når 25 €, har brugeren ret til at trække dette beløb tilbage.",
+      "rule-six": "Hvis der på en eller anden måde mistænkes en bruger af dette websted for at være svigagtig, kan den tilhørende konto blokeres og ethvert beløb reduceres til nul."
+    }
+  },
+  "faq": {
+    "title": "Brugers spørgsmål og svar:",
+    "question-one": {
+      "questions": "Hvordan fungerer Placifull?",
+      "answer": "Hver bruger kan offentliggøre en fortegnelse, som derefter vil blive vist for offentligheden. Disse fortegnelser vil være frit tilgængelige for alle på World Wide Web. Inden du offentliggør en fortegnelse, skal du købe muligheden for at placere den på vores websted. Dette kan gøres fra profilsiden, hvor du kan se fire indkøbsmuligheder."
+    },
+    "question-two": {
+      "questions": "Hvordan kan jeg sætte min fortegnelse på Placifull?",
+      "answer": "Du skal have en mulighed, der giver dig mulighed for at placere en fortegnelse. Der er tre muligheder at vælge imellem. Den første mulighed er et enkelt indlæg. Du køber det og bruger det, når det er bedst egnet til dig. Denne mulighed har ingen udløbsdato. Den anden og tredje mulighed har en udløbsdato og begrænsede mængder. Disse bestemmer, hvor mange aktive fortegnelser du kan have med den særlige mulighed. Når de er udløbet, kan du købe dem igen. Du kan slette dem og indtaste dem igen så mange gange du vil."
+    },
+    "question-three": {
+      "questions": "Hvordan er betalingen beskyttet?",
+      "answer": "Vi bruger Stripe til at behandle betalingen. Felterne, der beder om dine kortoplysninger, er komponenter fra Stripe, så Placifull har faktisk ikke adgang til dine fulde kortoplysninger"
+    },
+    "question-four": {
+      "questions": "Mit kort blev opkrævet, men intet blev købt?",
+      "answer": "I det usandsynlige tilfælde, at dit kort er blevet debiteret, når der ikke er købt noget, bedes du kontakte os via e -mail eller WhatsApp og give alle detaljer. Gyldige krav refunderes ASAP"
+    },
+    "question-five": {
+      "questions": "Hvorfor forsvandt min fortegnelse?",
+      "answer": "Fortegnelsen vises i 30 dage, medmindre du har købt en udvidet mulighed, der gør det muligt for fortegnelsen at være aktiv ud over 30 dage."
+    },
+    "question-six": {
+      "questions": "Jeg købte den promoverede funktion, men kan ikke se min fortegnelse?",
+      "answer": "Når du har købt den promoverede mulighed, vil dine fortegnelser have mulighed for at blive vist på hovedsiden. Systemet tager alle fortegnelser, der har det promoverede tag tilføjet, og vælger tilfældigt, hvilke der skal vises på skærmen."
+    },
+    "question-seven": {
+      "questions": "Hvordan kan jeg hæve min henvisningsbonus?",
+      "answer": "Når du har nået 25 €, kan du hæve dette fra din konto. For at gøre det, bedes du kontakte os, så overfører vi pengene til din bankkonto"
+    }
+  },
+  "end": {
+    "title": "Har du stadig et spørgsmål?",
+    "goodbye-text": "Kontakt os venligst fra kontaktsiden, så vender vi tilbage hurtigst muligt. Kort sagt, vi vil gøre hvad vi kan for at gøre dette websted bedre. Vær sikker på, at vores fokus er at diskutere eventuelle spørgsmål/spørgsmål med brugeren med højeste prioritet."
+  }
+}

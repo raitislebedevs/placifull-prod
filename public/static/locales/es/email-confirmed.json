@@ -1,0 +1,17 @@
+{
+  "heading": "Confirmación de correo electrónico",
+  "title": "  confirmación de correo electrónico",
+  "description": "  Confirme su dirección de correo electrónico para verificar con éxito la cuenta",
+  "form": {
+    "heading": "  Dirección de correo electrónico",
+    "placeholder": "  Ingrese la dirección de correo electrónico de su perfil",
+    "submit": "  Enviar",
+    "confirmed": "  ¿Correo electrónico ya confirmado?",
+    "sign-in": "  Registrarse",
+    "success-text": "Enlace de confirmación por correo electrónico enviado a su dirección de correo electrónico",
+    "error": {
+      "email-invalid": "  Por favor introduzca una dirección de correo electrónico válida",
+      "email-required": "  Se requiere Dirección de correo electrónico"
+    }
+  }
+}

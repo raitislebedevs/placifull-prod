@@ -1,0 +1,17 @@
+{
+  "heading": "E-postbekreftelse",
+  "title": "  E-postbekreftelse",
+  "description": "  Bekreft e -postadressen din for å bekrefte kontoen din",
+  "form": {
+    "heading": "  Epostadresse",
+    "placeholder": "  Skriv inn profilens e -postadresse",
+    "submit": "  Sende",
+    "confirmed": "  E -posten allerede bekreftet?",
+    "sign-in": "  Logg inn",
+    "success-text": "E -postbekreftelseslenke sendt til e -postadressen din",
+    "error": {
+      "email-invalid": "  Vennligst skriv inn en gyldig e-postadresse",
+      "email-required": "  E -postadresse er påkrevd"
+    }
+  }
+}

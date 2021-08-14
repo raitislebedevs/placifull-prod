@@ -1,0 +1,20 @@
+{
+  "title": "Forslagstavle",
+  "subtitle": "Stemmebord",
+  "item": {
+    "score": "Nuværende score",
+    "options": "Valgmuligheder",
+    "up": "OP",
+    "down": "NED",
+    "rating": "Bedømmelse",
+    "vote": "STEMME"
+  },
+  "toast": {
+    "log-in": "Vær venlig at logge ind",
+    "voted": "Prøver du at stemme to gange?",
+    "rate": "Bedøm venligst ideen",
+    "up-down": "Vælg en valgmulighed",
+    "idea": "Vurder og vælg en valgmulighed.",
+    "zero": "Det er ikke tilladt at nedstemme denne idé"
+  }
+}

@@ -1,5 +1,7 @@
 {
   "heading": "リストを提出",
+  "title": "仕事",
+
   "form": {
     "submit-confirm": "保存中…",
     "preview-sneak-peak": "実行中…",

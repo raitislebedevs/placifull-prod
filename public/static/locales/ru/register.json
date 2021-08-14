@@ -16,7 +16,10 @@
       "email-required": "Требуется указать email.",
       "password-required": "Требуется указать пароль",
       "first-name-required": "Требуется указать имя",
-      "last-name-required": "Требуется указать фамилию"
+      "last-name-required": "Требуется указать фамилию",
+      "confirm-password-required": "Пожалуйста, подтвердите свой пароль",
+      "accept-terms": "Принять условия и положения требуется",
+      "password-not-match": "Пароли не совпадают"
     }
   },
   "or": "Или зарегистрироваться под аккаунтом",

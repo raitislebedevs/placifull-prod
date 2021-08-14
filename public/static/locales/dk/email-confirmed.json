@@ -1,0 +1,17 @@
+{
+  "heading": "Email bekræftelse",
+  "title": "  email bekræftelse",
+  "description": "  Bekræft venligst din e -mail -adresse for en vellykket kontobekræftelse",
+  "form": {
+    "heading": "  Email adresse",
+    "placeholder": "  Indtast din profil -e -mail -adresse",
+    "submit": "  Sende",
+    "confirmed": "  E -mail allerede bekræftet?",
+    "sign-in": "  Log ind",
+    "success-text": "E -mail -bekræftelseslink sendt til din e -mail -adresse",
+    "error": {
+      "email-invalid": "  Indtast venligst en gyldig e -mail",
+      "email-required": "  E -mail -adresse er påkrævet"
+    }
+  }
+}

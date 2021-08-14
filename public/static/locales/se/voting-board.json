@@ -1,0 +1,20 @@
+{
+  "title": "Förslagstavla",
+  "subtitle": "Röstningstavla",
+  "item": {
+    "score": "Nuvarande poäng",
+    "options": "Röstningsalternativ",
+    "up": "UPP",
+    "down": "NER",
+    "rating": "Betyg",
+    "vote": "RÖSTA"
+  },
+  "toast": {
+    "log-in": "Vänligen logga in",
+    "voted": "Försöker du rösta två gånger?",
+    "rate": "Vänligen betygsätt idén",
+    "up-down": "Välj ett röstningsalternativ",
+    "idea": "Betygsätt och välj ett röstningsalternativ.",
+    "zero": "Det är inte tillåtet att nedrösta denna idé"
+  }
+}

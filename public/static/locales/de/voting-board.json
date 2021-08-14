@@ -1,0 +1,20 @@
+{
+  "title": "Vorschlagstafel",
+  "subtitle": "Abstimmungsgremium",
+  "item": {
+    "score": "Momentaner Punktestand",
+    "options": "Wahlmöglichkeiten",
+    "up": "HOCH",
+    "down": "NIEDER",
+    "rating": "Bewertung",
+    "vote": "ABSTIMMUNG"
+  },
+  "toast": {
+    "log-in": "Bitte loggen Sie sich ein",
+    "voted": "Versuchen Sie zweimal zu wählen?",
+    "rate": "Bitte bewerten Sie die Idee",
+    "up-down": "Wähle eine Abstimmungsoption",
+    "idea": "Bewerten und wählen Sie eine Abstimmungsoption.",
+    "zero": "Es ist nicht erlaubt, diese Idee abzulehnen"
+  }
+}
