@@ -1,5 +1,6 @@
 {
   "heading": "Registracija",
+  "title": "Mes jūsų laukėme!",
   "form": {
     "first-name": "Vardas",
     "last-name": "Pavardė",
@@ -15,7 +16,10 @@
       "email-required": "El. paštas yra privalomas",
       "password-required": "Slaptažodis yra privalomas",
       "first-name-required": "Vardas yra privalomas",
-      "last-name-required": "Pavardė yra privaloma"
+      "last-name-required": "Pavardė yra privaloma",
+      "confirm-password-required": "Patvirtinkite slaptažodį",
+      "accept-terms": " Būtina sutikti su sąlygomis",
+      "password-not-match": " Slaptažodžiai nesutampa"
     }
   },
   "or": "Arba prisijunk su",

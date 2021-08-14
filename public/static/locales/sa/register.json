@@ -1,5 +1,6 @@
 {
   "heading": "التسجيل",
+  "title": "نحن في انتظارك!",
   "form": {
     "first-name": "الأسم الأول",
     "last-name": "أسم العائله",
@@ -15,7 +16,10 @@
       "email-required": "البريد الألكتروني مطلوب",
       "password-required": "كلمة المرور مطلوبه",
       "first-name-required": "الأسم الأول مطلوب",
-      "last-name-required": "أسم العائله مطلوب"
+      "last-name-required": "أسم العائله مطلوب",
+      "confirm-password-required": " يرجى التأكد من صحة كلمة المرور الخاصة بك",
+      "accept-terms": " مطلوب قبول الشروط والأحكام",
+      "password-not-match": " كلمات المرور غير متطابقة"
     }
   },
   "or": "أو سجل الدخول بواسطة",

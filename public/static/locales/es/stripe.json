@@ -14,7 +14,8 @@
   "incomplete": {
     "incomplete_cvc": "El código de seguridad de su tarjeta está incompleto.",
     "incomplete_expiry": "La fecha de caducidad de su tarjeta está incompleta.",
-    "incomplete_number": "El número de su tarjeta está incompleto."
+    "incomplete_number": "El número de su tarjeta está incompleto.",
+    "email_invalid": "El correo no es válido"
   },
 
   "declined": {
@@ -30,6 +31,7 @@
     "quantity": "Cantidad",
     "name": "Nombre",
     "email": "Correo electrónico",
-    "phone": "Número de teléfono"
+    "phone": "Número de teléfono",
+    "referral": "Código de referencia"
   }
 }

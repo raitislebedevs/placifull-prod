@@ -1,0 +1,17 @@
+{
+  "heading": "Konfirmasi email",
+  "title": "  konfirmasi email",
+  "description": "  Harap konfirmasi alamat email Anda untuk verifikasi akun yang berhasil",
+  "form": {
+    "heading": "  Alamat email",
+    "placeholder": "  Masukkan alamat email profil Anda",
+    "submit": "  Mengirim",
+    "confirmed": "  Email sudah dikonfirmasi?",
+    "sign-in": "  Masuk",
+    "success-text": "Tautan konfirmasi email dikirim ke alamat email Anda",
+    "error": {
+      "email-invalid": "  tolong masukkan email yang benar",
+      "email-required": "  Alamat email diperlukan"
+    }
+  }
+}

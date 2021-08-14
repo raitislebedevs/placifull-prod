@@ -1,5 +1,6 @@
 {
   "heading": "Registrati",
+  "title": "Ti abbiamo aspettato!",
   "form": {
     "first-name": "Nome",
     "last-name": "Cognome",
@@ -15,7 +16,10 @@
       "email-required": "L'email è obbligatoria.",
       "password-required": "È necessaria la password",
       "first-name-required": "È necessario il nome",
-      "last-name-required": "È necessario il cognome"
+      "last-name-required": "È necessario il cognome",
+      "confirm-password-required": "Si prega di confermare la password",
+      "accept-terms": " È necessario accettare termini e condizioni",
+      "password-not-match": " Le password non corrispondono"
     }
   },
   "or": "o Accedi con",

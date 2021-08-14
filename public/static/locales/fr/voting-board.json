@@ -1,0 +1,20 @@
+{
+  "title": "Tableau de suggestions",
+  "subtitle": "Bureau de vote",
+  "item": {
+    "score": "Score actuel",
+    "options": "Options de vote",
+    "up": "EN HAUT",
+    "down": "VERS LE BAS",
+    "rating": "Évaluation",
+    "vote": "VOTE"
+  },
+  "toast": {
+    "log-in": "Veuillez vous connecter",
+    "voted": "Essayer de voter deux fois ?",
+    "rate": "S'il vous plaît noter l'idée",
+    "up-down": "Choisissez une option de vote",
+    "idea": "Évaluez et choisissez une option de vote.",
+    "zero": "Il n'est pas permis de voter contre cette idée"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Deska návrhů",
+  "subtitle": "Volební komise",
+  "item": {
+    "score": "Aktuální skóre",
+    "options": "Možnosti hlasování",
+    "up": "NAHORU",
+    "down": "DOLŮ",
+    "rating": "Hodnocení",
+    "vote": "HLASOVÁNÍ"
+  },
+  "toast": {
+    "log-in": "Prosím přihlašte se",
+    "voted": "Pokoušíte se hlasovat dvakrát?",
+    "rate": "Ohodnoťte prosím myšlenku",
+    "up-down": "Vyberte možnost hlasování",
+    "idea": "Ohodnoťte a vyberte možnost hlasování.",
+    "zero": "Není dovoleno hlasovat proti tomuto nápadu"
+  }
+}

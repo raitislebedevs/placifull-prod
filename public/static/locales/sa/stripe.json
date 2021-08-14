@@ -14,7 +14,8 @@
   "incomplete": {
     "incomplete_cvc": "رمز الحِماية لبطاقتك ناقِص.",
     "incomplete_expiry": "تاريخ انتهاء صلاحية بطاقتك ناقِص.",
-    "incomplete_number": "رقم بطاقتك ناقِص."
+    "incomplete_number": "رقم بطاقتك ناقِص.",
+    "email_invalid": "البريد الإلكتروني غير صالح"
   },
 
   "declined": {
@@ -30,6 +31,7 @@
     "quantity": "الكمّية",
     "name": "الاسم",
     "email": "البريد الإلكتروني",
-    "phone": "رقم الهاتف"
+    "phone": "رقم الهاتف",
+    "referral": "كود الإحالة"
   }
 }

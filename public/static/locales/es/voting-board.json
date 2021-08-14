@@ -1,0 +1,20 @@
+{
+  "title": "Tablero de sugerencias",
+  "subtitle": "Junta de votaciones",
+  "item": {
+    "score": "Puntuación actual",
+    "options": "Opciones de votación",
+    "up": "ARRIBA",
+    "down": "ABAJO",
+    "rating": "Clasificación",
+    "vote": "VOTAR"
+  },
+  "toast": {
+    "log-in": "Por favor Iniciar sesión",
+    "voted": "¿Intentas votar dos veces?",
+    "rate": "Califica la idea",
+    "up-down": "Elija una opción de votación",
+    "idea": "Califica y elige una opción de votación.",
+    "zero": "No está permitido rechazar esta idea."
+  }
+}

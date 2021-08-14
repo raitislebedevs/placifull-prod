@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "heading": "Sąlygos ir nuostatos"
+  },
+  "header": "Įvadas",
+  "title": "Sąlygos",
+  "introduction": {
+    "first": "Sveiki atvykę į mūsų svetainę.",
+    "second": "Naudodamiesi mūsų svetaine ir (arba) teikiamomis paslaugomis, jūs pripažįstate, kad perskaitėte ir supratote šias „Sąlygas“ ir „Privatumo ir persiuntimų politiką“; ir sutinka būti su jais saistomas. Jei nesutinkate su bet kuria „Sąlygų ir sąlygų“ ir (arba) „Privatumo ir persiuntimų politikos“ dalimi, neturite naudotis šia svetaine."
+  },
+  "user-aggrements": {
+    "title": "Sąlygos ir sąlygos",
+    "intro": "Naudojant šią svetainę taikomos šios sąlygos ir sąlygos:",
+    "rules": {
+      "rule-one": "Terminas „Placifull“ arba „mes“, „mes“ arba „mūsų“ reiškia svetainės, kurios registruota buveinė yra [adresas], savininkus. Mūsų įmonės registracijos numeris yra [įmonės registracijos numeris ir registracijos vieta].",
+      "rule-two": "Sąvoka „Vartotojas“ arba „Jūs“ arba „Jūsų“ reiškia bet kurį asmenį, kuris įeina į svetainę, ją naudoja ar prie jos prieina, nepaisant to, kad toks asmuo galėjo lankytis tik pagrindiniame svetainės puslapyje",
+      "rule-three": "„Ši svetainė“ reiškia „Placifull“ svetainę, esančią http://www.placifull.com, ir apima bet kurią jos dalį ar elementą.",
+      "rule-four": {
+        "rule": "Šios svetainės turinys yra skirtas bendrai informacijai ir tik naudojimui. „Placifull“ aiškiai pasilieka teisę savo nuožiūra ir bet kuriuo metu be išankstinio įspėjimo atlikti bet kurią iš šių veiksmų:",
+        "point-one": "Pakeisti šias sąlygas;",
+        "point-two": "Pakeisti turinį ir (arba) paslaugas, prieinamas iš svetainės;",
+        "point-three": "Nutraukti bet kokį Svetainės ar paslaugos (-ų), kurią galima gauti iš Svetainės, aspektą; ir (arba)",
+        "point-four": "Pakeiskite programinę ir techninę įrangą, reikalingą norint pasiekti ir naudoti svetainę."
+      },
+      "rule-five": "Nei „Placifull“, nei jokios trečiosios šalys nesuteikia jokios garantijos ar garantijos dėl šioje svetainėje rastos ar siūlomos informacijos ir medžiagos tikslumo, savalaikiškumo, veikimo, išsamumo ar tinkamumo. Jūs pripažįstate, kad tokioje informacijoje ir medžiagoje gali būti netikslumų ar klaidų, ir „Placifull“ aiškiai atmeta atsakomybę už bet kokius tokius netikslumus ar klaidas, kiek tai leidžia Latvijos įstatymai.",
+      "rule-six": "Bet kokios informacijos ar medžiagos naudojimas šioje svetainėje yra visiškai jūsų pačių rizika, už kurią „Placifull“ neatsako. Jūs esate atsakingi už tai, kad visi šioje svetainėje esantys produktai, paslaugos ar informacija atitiktų jūsų konkrečius reikalavimus.",
+      "rule-seven": "„Placifull“ pasilieka teisę išnagrinėti skundus, įtarimus ar „Sąlygų“ ir (arba) „Privatumo ir persiuntimų politikos“ pažeidimus, apie kuriuos pranešta, ir imtis bet kokių veiksmų, kurie, mūsų manymu, yra tinkami, įskaitant, bet neapsiribojant, pranešimą bet kuriai įtariamai neteisėtai veiklai. valdžios institucijoms, reguliavimo institucijoms ar trečiosioms šalims ir atskleisti bei informaciją, reikalingą tokiems asmenims ar subjektams.",
+      "rule-eight": "„Placifull“ neatsako už bet kokių nepriklausomų svetainių, kurios gali būti susietos su mūsų svetaine ar iš jos, turinį. Šios nuorodos pateikiamos tik jūsų patogumui ir jūs prieinate prie jų savo rizika. Bet kuri kita iš šios svetainės pasiekiama svetainė yra nepriklausoma nuo „Placifull“, o „Placifull“ nekontroliuoja tos kitos svetainės turinio. Be to, nuoroda į bet kurią kitą svetainę nereiškia, kad „Placifull“ pritaria ar prisiima atsakomybę už tokios kitos svetainės turinį ar naudojimą.",
+      "rule-nine": "Skelbdami savo CV šioje svetainėje, jūs leidžiate visiems, įsigijusiems „Naršyklės CV“ planą, peržiūrėti savo CV.",
+      "rule-ten": "Parama bus teikiama tik anglų ir (arba) latvių kalba. Jei susisiekiate su „Placifull“ bet kuria kita kalba, atsakymui įgalinti bus naudojamas „Google“ vertėjas. Todėl mes negarantuojame paslaugos kokybės ir už bet kokias klaidas, padarytas bendraujant, atsako vartotojas.",
+      "rule-eleven": "„Placifull“ nesuteikia jokių garantijų ar pareiškimų, kad ši svetainė ir klientų aptarnavimo centras bus prieinami bet kuriuo metu. Vartotojai pripažįsta, kad svetainė ir klientų aptarnavimo centras gali būti nepasiekiami dėl atnaujinimų ar kitų priežasčių, kurių „Placiful“ negali pagrįstai kontroliuoti, įskaitant, bet neapsiribojant, virusinę infekciją, elektros energijos tiekimo sutrikimą ar kitą „force majeure“.",
+      "rule-twele": "Vartotojui draudžiama susisiekti su „Placifull“ priešiškai ar grasinant. Bet koks toks bendravimas bus nedelsiant sustabdytas ir vartotojui nebus suteikta pagalba, jei iškils kokių nors problemų.",
+      "rule-thriteen": "Jūsų naudojimui šia svetaine ir bet kokiems ginčams, kylantiems dėl tokio naudojimo, taikomi Latvijos įstatymai."
+    }
+  },
+  "privacy-policy": {
+    "title": "Privatumo ir persiuntimų politika",
+    "intro": "Atminkite, kad naudodamiesi šia svetaine jūs sutinkate su šiais dalykais:",
+    "rules": {
+      "rule-one": "„Placifull“ imasi visų pagrįstų veiksmų, kad užtikrintų Svetainės turinį, kiek tai žino „Placifull“ komanda, tačiau „Placifull“ nesuteikia jokių garantijų ar pareiškimų, kad turinys turi būti 100% saugus.",
+      "rule-two": "„Placifull“ galės pasiekti/rinkti tik informaciją, kurią jūs savanoriškai mums suteikiate. Mes niekam neparduosime ir neišnuomosime šios informacijos. Mes naudosime jūsų informaciją atsakydami į jus dėl priežasties, dėl kurios susisiekėte su mumis. Mes nesidalinsime jūsų informacija su jokia trečiąja šalimi, išskyrus tai, kas būtina jūsų prašymui įvykdyti.",
+      "rule-three": "Jei pateikiate savo CV, jį gali peržiūrėti žmonės, turintys planą „Naršyklės CV“, kuriame pažymėjote, paskelbkite savo asmeninę informaciją savo profilyje. „Placifull“ neprisiima jokios atsakomybės už bet kokius duomenis, kurie nutekėjo ar buvo pasiekti neteisėtai.",
+      "rule-four": "Šios svetainės vartotojas gali pasidalinti jam priskirtu persiuntimo ženklu kitiems žmonėms. Perkant pasirinkimą su šiuo ženklu, Vartotojui bus įskaityta 10–25% pirkinio sumos.",
+      "rule-five": "Kai įskaityta suma pasieks 25 €, Vartotojas turės teisę šią sumą atsiimti.",
+      "rule-six": "Jei kaip nors įtariama, kad šios svetainės naudotojas sukčiauja, susieta paskyra gali būti užblokuota ir suma sumažinta iki nulio."
+    }
+  },
+  "faq": {
+    "title": "Vartotojų klausimas ir atsakymas:",
+    "question-one": {
+      "questions": "Kaip veikia „Placifull“?",
+      "answer": "Kiekvienas vartotojas gali paskelbti sąrašą, kuris vėliau bus rodomas visuomenei. Šie įrašai bus laisvai prieinami visiems žiniatinklyje. Prieš paskelbdami Sąrašą, turėsite įsigyti galimybę jį patalpinti mūsų svetainėje. Tai galima padaryti profilio puslapyje, kuriame galite pamatyti keturias pirkimo parinktis."
+    },
+    "question-two": {
+      "questions": "Kaip galiu įtraukti savo įrašą į „Placifull“?",
+      "answer": "Turite turėti parinktį, leidžiančią sudaryti įrašą. Yra trys variantai, iš kurių pasirinkti. Pirmasis variantas yra vienas pranešimas. Jūs perkate ir naudojate, kai tik jums labiausiai tinka. Ši parinktis neturi galiojimo datos. Antroji ir trečioji parinktys turi galiojimo datą ir ribotą kiekį. Tai nustato, kiek aktyvių sąrašų galite turėti pasirinkę konkrečią parinktį. Pasibaigus jų galiojimo laikui, galite juos vėl įsigyti. Galite juos ištrinti ir įvesti dar kartą tiek kartų, kiek norite."
+    },
+    "question-three": {
+      "questions": "Kaip apsaugotas mokėjimas?",
+      "answer": "Mokėjimui apdoroti naudojame „Stripe“. Laukai, kuriuose prašoma jūsų kortelės informacijos, yra „Stripe“ komponentai, todėl „Placifull“ iš tikrųjų neturi prieigos prie visos jūsų kortelės informacijos"
+    },
+    "question-four": {
+      "questions": "Mano kortelė buvo apmokestinta, bet nieko nebuvo nupirkta?",
+      "answer": "Mažai tikėtinu atveju, kai jūsų kortelė buvo apmokestinta, kai nieko nebuvo nupirkta, susisiekite su mumis el. Paštu arba „WhatsApp“ ir pateikite išsamią informaciją. Galiojančios pretenzijos bus grąžintos ASAP"
+    },
+    "question-five": {
+      "questions": "Kodėl mano įrašas dingo?",
+      "answer": "Sąrašas bus rodomas 30 dienų, nebent įsigijote išplėstinę parinktį, leidžiančią Sąrašas būti aktyvus ilgiau nei 30 dienų."
+    },
+    "question-six": {
+      "questions": "Aš nusipirkau reklamuojamą funkciją, bet nematau savo įrašo?",
+      "answer": "Įsigiję reklamuojamą parinktį, jūsų įrašai turės galimybę būti rodomi pagrindiniame puslapyje. Sistema paima visus sąrašus, prie kurių pridėta reklamuojama žyma, ir atsitiktine tvarka pasirenka, kuriuos rodyti ekrane."
+    },
+    "question-seven": {
+      "questions": "Kaip galiu atsiimti persiuntimo premiją?",
+      "answer": "Kai pasieksite 25 €, galėsite jį atsiimti iš savo sąskaitos. Norėdami tai padaryti, susisiekite su mumis ir mes pervesime pinigus į jūsų banko sąskaitą"
+    }
+  },
+  "end": {
+    "title": "Vis dar turite klausimą?",
+    "goodbye-text": "Prašome susisiekti su mumis iš kontaktų puslapio ir mes su jumis susisieksime kaip įmanoma greičiau. Trumpai tariant, norime padaryti viską, ką galime, kad ši svetainė būtų geresnė. Būkite tikri, kad mūsų tikslas yra su vartotoju aukščiausiu prioritetu aptarti visas problemas/klausimus."
+  }
+}

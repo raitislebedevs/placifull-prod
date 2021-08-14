@@ -1,0 +1,20 @@
+{
+  "title": "Ehdotustaulu",
+  "subtitle": "Äänestyslautakunta",
+  "item": {
+    "score": "Nykyinen tulos",
+    "options": "Äänestysvaihtoehdot",
+    "up": "YLÖS",
+    "down": "ALAS",
+    "rating": "Luokitus",
+    "vote": "ÄÄNESTYS"
+  },
+  "toast": {
+    "log-in": "Kirjaudu sisään, ole hyvä",
+    "voted": "Yritätkö äänestää kahdesti?",
+    "rate": "Arvioi ajatus",
+    "up-down": "Valitse äänestysvaihtoehto",
+    "idea": "Arvioi ja valitse äänestysvaihtoehto.",
+    "zero": "Tätä ajatusta ei saa aliarvioida"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Pasiūlymų lenta",
+  "subtitle": "Balsavimo taryba",
+  "item": {
+    "score": "Dabartinis rezultatas",
+    "options": "Balsavimo galimybės",
+    "up": "AUKŠTYN",
+    "down": "ŽEMYN",
+    "rating": "Įvertinimas",
+    "vote": "BALSAS"
+  },
+  "toast": {
+    "log-in": "Prašome prisijungti",
+    "voted": "Bandai balsuoti du kartus?",
+    "rate": "Prašome įvertinti idėją",
+    "up-down": "Pasirinkite balsavimo variantą",
+    "idea": "Įvertinkite ir pasirinkite balsavimo variantą.",
+    "zero": "Neleidžiama neigiamai vertinti šios idėjos"
+  }
+}

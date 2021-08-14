@@ -1,0 +1,20 @@
+{
+  "title": "Consiglio dei suggerimenti",
+  "subtitle": "Tabellone per le votazioni",
+  "item": {
+    "score": "Punteggio attuale",
+    "options": "Opzioni di voto",
+    "up": "SU",
+    "down": "FUORI USO",
+    "rating": "Valutazione",
+    "vote": "VOTAZIONE"
+  },
+  "toast": {
+    "log-in": "Accedete, per favore",
+    "voted": "Cerchi di votare due volte?",
+    "rate": "Si prega di valutare l'idea",
+    "up-down": "Scegli un'opzione di voto",
+    "idea": "Valuta e scegli un'opzione di voto.",
+    "zero": "Non è consentito votare negativamente questa idea"
+  }
+}

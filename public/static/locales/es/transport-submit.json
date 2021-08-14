@@ -1,5 +1,7 @@
 {
   "heading": "Enviar anuncio",
+  "title": "Transporte",
+
   "form": {
     "submit": "Enviar",
     "submit-confirm": "Guardar...",

@@ -1,5 +1,6 @@
 {
   "heading": "Registrere",
+  "title": "Vi ventet på deg!",
   "form": {
     "first-name": "Fornavn",
     "last-name": "Efternavn",
@@ -15,7 +16,10 @@
       "email-required": "E-postadresse kreves",
       "password-required": "Passord kreves",
       "first-name-required": "Fornavn kreves",
-      "last-name-required": "Efternavn kreves"
+      "last-name-required": "Efternavn kreves",
+      "confirm-password-required": "Bekreft passordet ditt",
+      "accept-terms": " Godta vilkår og betingelser er nødvendig",
+      "password-not-match": " Passord stemmer ikke overens"
     }
   },
   "or": "Eller logg inn med",

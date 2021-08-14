@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "heading": "Syarat & Ketentuan"
+  },
+  "header": "pengantar",
+  "title": "Ketentuan",
+  "introduction": {
+    "first": "Selamat datang di website kami.",
+    "second": "Dengan menggunakan situs web kami dan/atau layanan yang disediakan, Anda mengakui bahwa Anda telah membaca dan memahami “Syarat dan Ketentuan” dan “Kebijakan Privasi dan Rujukan” berikut; dan setuju untuk terikat oleh mereka. Jika Anda tidak setuju dengan bagian mana pun dari “Syarat dan Ketentuan” dan/atau “Kebijakan Privasi dan Rujukan”, Anda tidak boleh menggunakan situs web ini."
+  },
+  "user-aggrements": {
+    "title": "Syarat dan ketentuan",
+    "intro": "Penggunaan situs web ini tunduk pada Syarat dan Ketentuan berikut:",
+    "rules": {
+      "rule-one": "Istilah “Placifull” atau “kami” atau “kami” atau “milik kami”, mengacu pada pemilik situs web yang kantor terdaftarnya adalah [alamat]. Nomor pendaftaran perusahaan kami adalah [nomor pendaftaran perusahaan dan tempat pendaftaran].",
+      "rule-two": "Istilah “Pengguna” atau “Anda” atau “Anda” mengacu pada setiap orang yang memasuki, menggunakan, atau mengakses Situs Web, meskipun orang tersebut mungkin hanya mengunjungi halaman beranda Situs Web.",
+      "rule-three": "“Situs Web Ini” berarti situs web Placifull yang terletak di http://www.placifull.com dan mencakup setiap bagian atau elemennya.",
+      "rule-four": {
+        "rule": "Konten Situs Web ini adalah untuk informasi umum dan penggunaan saja. Placifull secara tegas berhak, atas kebijakannya sendiri dan mutlak, untuk melakukan salah satu hal berikut, kapan saja tanpa pemberitahuan sebelumnya:",
+        "point-one": "Ubah syarat dan ketentuan ini;",
+        "point-two": "Mengubah konten dan/atau layanan yang tersedia dari Situs Web;",
+        "point-three": "Menghentikan aspek apa pun dari Situs Web atau layanan yang tersedia dari Situs Web; dan/atau",
+        "point-four": "Mengubah perangkat lunak dan perangkat keras yang diperlukan untuk mengakses dan menggunakan Situs Web."
+      },
+      "rule-five": "Baik Placifull, maupun pihak ketiga mana pun, tidak memberikan jaminan atau jaminan apa pun atas keakuratan, ketepatan waktu, kinerja, kelengkapan, atau kesesuaian informasi dan materi yang ditemukan atau ditawarkan di situs web ini. Anda mengakui bahwa informasi dan materi tersebut mungkin mengandung ketidakakuratan atau kesalahan dan Placifull secara tegas mengecualikan tanggung jawab atas ketidakakuratan atau kesalahan tersebut sejauh diizinkan oleh hukum Latvia.",
+      "rule-six": "Penggunaan Anda atas informasi atau materi apa pun di situs web ini sepenuhnya merupakan risiko Anda sendiri, di mana Placifull tidak bertanggung jawab. Merupakan tanggung jawab Anda sendiri untuk memastikan bahwa setiap produk, layanan, atau informasi yang tersedia melalui situs web ini memenuhi persyaratan spesifik Anda.",
+      "rule-seven": "Placifull berhak untuk menyelidiki keluhan, kecurigaan, atau pelanggaran yang dilaporkan terhadap “Syarat dan Ketentuan” kami dan/atau “Kebijakan Privasi dan Rujukan” kami dan untuk mengambil tindakan apa pun yang kami anggap tepat termasuk tetapi tidak terbatas pada melaporkan dugaan aktivitas melanggar hukum ke pihak terkait. otoritas, regulator atau pihak ketiga dan pengungkapan dan informasi yang diperlukan untuk orang atau entitas yang sesuai.",
+      "rule-eight": "Placifull tidak bertanggung jawab atas konten Situs Web yang tidak terafiliasi yang mungkin ditautkan ke atau dari situs kami. Tautan ini disediakan hanya untuk kenyamanan Anda dan Anda mengaksesnya dengan risiko Anda sendiri. Situs web lain yang diakses dari situs ini tidak bergantung pada Placifull dan Placifull tidak memiliki kendali atas konten Situs Web lain tersebut. Selain itu, tautan ke Situs Web lain tidak menyiratkan bahwa Placifull mendukung atau menerima tanggung jawab apa pun atas konten atau penggunaan Situs Web lain tersebut.",
+      "rule-nine": "Dengan menerbitkan CV Anda di Situs Web ini, Anda mengizinkan siapa saja yang telah membeli paket “CV Browser” untuk melihat CV Anda.",
+      "rule-ten": "Dukungan hanya akan diberikan dalam bahasa Inggris dan/atau Latvia. Jika Anda menghubungi Placifull dalam bahasa lain, Google Terjemahan akan digunakan untuk mengaktifkan tanggapan. Oleh karena itu kami tidak menjamin kualitas layanan dan segala kesalahan yang terjadi dalam komunikasi adalah tanggung jawab pengguna.",
+      "rule-eleven": "Placifull tidak memberikan jaminan atau pernyataan apa pun bahwa Situs Web ini dan Pusat Dukungan Pelanggan akan tersedia setiap saat. Pengguna mengakui bahwa Situs Web dan Pusat Dukungan Pelanggan mungkin tidak tersedia karena pembaruan atau penyebab lain di luar kendali Placiful, termasuk, namun tidak terbatas pada, infeksi virus, kegagalan daya, atau “Keadaan Kahar” lainnya.",
+      "rule-twele": "Pengguna dilarang menghubungi Placifull dengan cara yang tidak bersahabat atau mengancam. Komunikasi semacam itu akan segera dihentikan dan pengguna tidak akan dibantu jika ada masalah yang dialami.",
+      "rule-thriteen": "Penggunaan Anda atas situs web ini dan setiap perselisihan yang timbul dari penggunaan tersebut tunduk pada hukum Latvia."
+    }
+  },
+  "privacy-policy": {
+    "title": "Kebijakan Privasi & Referensi",
+    "intro": "Harap dicatat bahwa dalam menggunakan Situs Web ini Anda menyetujui hal-hal berikut:",
+    "rules": {
+      "rule-one": "Placifull mengambil semua langkah yang wajar untuk mengamankan konten Situs web sepengetahuan tim Placifull, namun, Placifull tidak membuat jaminan atau pernyataan apa pun bahwa konten akan 100% aman dan terjamin.",
+      "rule-two": "Placifull hanya akan memiliki akses ke/mengumpulkan informasi yang Anda berikan secara sukarela kepada kami. Kami tidak akan menjual atau menyewakan informasi ini kepada siapa pun. Kami akan menggunakan informasi Anda untuk menanggapi Anda mengenai alasan Anda menghubungi kami. Kami tidak akan membagikan informasi Anda dengan pihak ketiga selain yang diperlukan untuk memenuhi permintaan Anda.",
+      "rule-three": "Jika mengirimkan CV Anda, itu dapat dilihat oleh orang-orang dengan paket “CV Browser” di mana Anda telah menandai publikasikan informasi pribadi Anda, di profil Anda. Placifull tidak bertanggung jawab atas data apa pun yang bocor atau diakses dengan cara yang tidak sah.",
+      "rule-four": "Pengguna Situs Web ini dapat membagikan token rujukan yang diberikan kepadanya kepada orang lain. Ketika opsi dibeli dengan token ini, Pengguna akan dikreditkan dengan 10% hingga 25% dari jumlah pembelian.",
+      "rule-five": "Setelah jumlah yang dikreditkan mencapai 25 €, Pengguna akan memiliki hak untuk menarik jumlah ini.",
+      "rule-six": "Jika dengan cara apa pun Pengguna Situs Web ini dicurigai melakukan penipuan, akun terkait dapat diblokir dan jumlah berapa pun dikurangi menjadi nol."
+    }
+  },
+  "faq": {
+    "title": "Pertanyaan & Jawaban Pengguna:",
+    "question-one": {
+      "questions": "Bagaimana cara kerja Placifull?",
+      "answer": "Setiap Pengguna dapat menerbitkan Daftar, yang kemudian akan ditampilkan kepada publik. Daftar ini akan dapat diakses secara bebas oleh semua orang di World Wide Web. Sebelum menerbitkan Daftar, Anda perlu membeli opsi untuk menempatkannya di Situs Web kami. Ini dapat dilakukan dari halaman Profil, di mana Anda dapat melihat empat opsi pembelian."
+    },
+    "question-two": {
+      "questions": "Bagaimana saya bisa menempatkan Listing saya di Placifull?",
+      "answer": "Anda harus memiliki opsi yang memungkinkan Anda menempatkan Daftar. Ada tiga opsi yang bisa dipilih. Opsi pertama adalah satu posting. Anda membelinya dan menggunakannya kapan pun itu paling cocok untuk Anda. Opsi ini tidak memiliki tanggal kedaluwarsa. Opsi kedua dan ketiga memiliki tanggal kedaluwarsa dan jumlah terbatas. Ini menentukan berapa banyak Daftar aktif yang dapat Anda miliki dengan opsi tertentu. Setelah habis masa berlakunya, Anda dapat membelinya lagi. Anda dapat menghapusnya dan memasukkannya lagi sebanyak yang Anda inginkan."
+    },
+    "question-three": {
+      "questions": "Bagaimana pembayaran dilindungi?",
+      "answer": "Kami menggunakan Stripe untuk memproses pembayaran. Bidang yang meminta informasi kartu Anda adalah komponen dari Stripe, jadi Placifull sebenarnya tidak memiliki akses ke informasi kartu lengkap Anda"
+    },
+    "question-four": {
+      "questions": "Kartu saya ditagih tetapi tidak ada yang dibeli?",
+      "answer": "Jika kartu Anda telah ditagih ketika tidak ada yang dibeli, silakan hubungi kami melalui email atau WhatsApp, dengan memberikan perincian lengkap. Klaim yang valid akan dikembalikan secepatnya"
+    },
+    "question-five": {
+      "questions": "Mengapa Daftar saya hilang?",
+      "answer": "Cantuman akan muncul selama 30 hari kecuali Anda telah membeli opsi perpanjangan yang memungkinkan Cantuman aktif lebih dari 30 hari."
+    },
+    "question-six": {
+      "questions": "Saya membeli fitur yang dipromosikan, tetapi tidak melihat Daftar saya?",
+      "answer": "Setelah Anda membeli opsi yang dipromosikan, Daftar Anda akan memiliki kesempatan untuk ditampilkan di halaman utama. Sistem mengambil semua Daftar yang memiliki tag yang dipromosikan ditambahkan dan secara acak memilih mana yang akan ditampilkan di layar."
+    },
+    "question-seven": {
+      "questions": "Bagaimana saya bisa menarik bonus referral saya?",
+      "answer": "Setelah Anda mencapai € 25, Anda dapat menarik ini dari akun Anda. Untuk melakukannya, silakan hubungi kami dan kami akan mentransfer uang ke rekening bank Anda"
+    }
+  },
+  "end": {
+    "title": "Masih punya pertanyaan?",
+    "goodbye-text": "Silakan hubungi kami dari halaman kontak, dan kami akan menghubungi Anda sesegera mungkin. Singkatnya, kami ingin melakukan apa pun yang dapat kami lakukan untuk membuat situs ini lebih baik. Yakinlah bahwa fokus kami adalah mendiskusikan masalah/pertanyaan dengan pengguna pada prioritas tertinggi."
+  }
+}

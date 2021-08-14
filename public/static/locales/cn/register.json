@@ -1,5 +1,6 @@
 {
   "heading": "注册",
+  "title": "我们等你！",
   "form": {
     "first-name": "名字",
     "last-name": "姓氏",
@@ -15,7 +16,10 @@
       "email-required": "请提供邮箱",
       "password-required": "请提供密码",
       "first-name-required": "请提供名字",
-      "last-name-required": "请提供姓氏"
+      "last-name-required": "请提供姓氏",
+      "confirm-password-required": "请确认您的密码",
+      "accept-terms": " 接受条款和条件是必需的",
+      "password-not-match": " 密码不匹配"
     }
   },
   "or": "或其他登录方式",

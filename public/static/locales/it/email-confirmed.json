@@ -1,0 +1,17 @@
+{
+  "heading": "Conferma via email",
+  "title": "  conferma via email",
+  "description": "  Conferma il tuo indirizzo e-mail per verificare con successo l'account",
+  "form": {
+    "heading": "  Indirizzo email",
+    "placeholder": "  Inserisci l'indirizzo email del tuo profilo",
+    "submit": "  Spedire",
+    "confirmed": "  E-mail già confermata?",
+    "sign-in": "  Registrazione",
+    "success-text": "Link di conferma e-mail inviato al tuo indirizzo e-mail",
+    "error": {
+      "email-invalid": "  Inserisci una email valida",
+      "email-required": "  L'indirizzo email è obbligatorio"
+    }
+  }
+}

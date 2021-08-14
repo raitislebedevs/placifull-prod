@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "heading": "Terms & amp; Bedingungen"
+  },
+  "header": "Einführung",
+  "title": "Bedingungen",
+  "introduction": {
+    "first": "Willkommen auf unserer Webseite.",
+    "second": "Durch die Nutzung unserer Website und/oder der bereitgestellten Dienste bestätigen Sie, dass Sie die folgenden „Allgemeinen Geschäftsbedingungen“ und „Datenschutz- und Empfehlungsrichtlinie“ gelesen und verstanden haben; und stimmen zu, an sie gebunden zu sein. Wenn Sie mit einem Teil der „Allgemeinen Geschäftsbedingungen“ und/oder der „Datenschutz- und Empfehlungsrichtlinie“ nicht einverstanden sind, dürfen Sie diese Website nicht nutzen."
+  },
+  "user-aggrements": {
+    "title": "Geschäftsbedingungen",
+    "intro": "Die Nutzung dieser Website unterliegt den folgenden Allgemeinen Geschäftsbedingungen:",
+    "rules": {
+      "rule-one": "Der Begriff „Placifull“ oder „uns“ oder „wir“ oder „unser“ bezieht sich auf die Inhaber der Website mit Sitz in [Adresse]. Unsere Firmenregistrierungsnummer lautet [Firmenregistrierungsnummer und Registrierungsort].",
+      "rule-two": "Der Begriff „Benutzer“ oder „Sie“ oder „Ihr“ bezieht sich auf jede Person, die die Website betritt, nutzt oder darauf zugreift, ungeachtet der Tatsache, dass diese Person möglicherweise nur die Homepage der Website besucht hat",
+      "rule-three": "„Diese Website“ bezeichnet die Placifull-Website unter http://www.placifull.com und umfasst alle Teile oder Elemente davon.",
+      "rule-four": {
+        "rule": "Der Inhalt dieser Website dient ausschließlich der allgemeinen Information und Verwendung. Placifull behält sich ausdrücklich das Recht vor, jederzeit und ohne vorherige Ankündigung nach eigenem und absolutem Ermessen Folgendes zu tun:",
+        "point-one": "Diese Allgemeinen Geschäftsbedingungen ändern;",
+        "point-two": "Die auf der Website verfügbaren Inhalte und/oder Dienste ändern;",
+        "point-three": "jeden Aspekt der Website oder der auf der Website verfügbaren Dienste einzustellen; und/oder",
+        "point-four": "Ändern Sie die für den Zugriff und die Nutzung der Website erforderliche Software und Hardware."
+      },
+      "rule-five": "Weder Placifull noch Dritte geben eine Garantie oder Garantie hinsichtlich der Genauigkeit, Aktualität, Leistung, Vollständigkeit oder Eignung der auf dieser Website gefundenen oder angebotenen Informationen und Materialien. Sie erkennen an, dass diese Informationen und Materialien Ungenauigkeiten oder Fehler enthalten können und Placifull schließt ausdrücklich die Haftung für solche Ungenauigkeiten oder Fehler aus, soweit dies nach lettischem Recht zulässig ist.",
+      "rule-six": "Ihre Nutzung von Informationen oder Materialien auf dieser Website erfolgt ausschließlich auf Ihr eigenes Risiko, für das Placifull nicht haftet. Es liegt in Ihrer eigenen Verantwortung sicherzustellen, dass alle Produkte, Dienstleistungen oder Informationen, die über diese Website verfügbar sind, Ihren spezifischen Anforderungen entsprechen.",
+      "rule-seven": "Placifull behält sich das Recht vor, Beschwerden, Verdachtsfälle oder gemeldete Verstöße gegen unsere „Allgemeinen Geschäftsbedingungen“ und/oder unsere „Datenschutz- und Empfehlungsrichtlinie“ zu untersuchen und alle Maßnahmen zu ergreifen, die wir für angemessen halten, einschließlich, aber nicht beschränkt auf die Meldung mutmaßlicher rechtswidriger Aktivitäten an die zuständigen Behörden, Regulierungsbehörden oder Dritte sowie Offenlegung und Informationen, die erforderlich sind, um solche Personen oder Einrichtungen zu beschlagnahmen.",
+      "rule-eight": "Placifull ist nicht verantwortlich für den Inhalt nicht verbundener Websites, die mit oder von unserer Website verlinkt sind. Diese Links werden nur zu Ihrer Bequemlichkeit bereitgestellt und Sie greifen auf eigenes Risiko darauf zu. Jede andere Website, auf die von dieser Website aus zugegriffen wird, ist von Placifull unabhängig und Placifull hat keine Kontrolle über den Inhalt dieser anderen Website. Darüber hinaus bedeutet ein Link zu einer anderen Website nicht, dass Placifull den Inhalt oder die Nutzung dieser anderen Website befürwortet oder irgendeine Verantwortung dafür übernimmt.",
+      "rule-nine": "Indem Sie Ihren Lebenslauf auf dieser Website veröffentlichen, erlauben Sie jedem, der den „Browser-Lebenslauf“-Plan erworben hat, Ihren Lebenslauf anzuzeigen.",
+      "rule-ten": "Support wird nur in Englisch und/oder Lettisch geleistet. Wenn Sie Placifull in einer anderen Sprache kontaktieren, wird Google Translate verwendet, um eine Antwort zu ermöglichen. Daher garantieren wir nicht die Qualität des Dienstes und jeder Fehler bei der Kommunikation liegt in der Verantwortung des Benutzers.",
+      "rule-eleven": "Placifull gibt keine Garantien oder Zusicherungen dafür ab, dass diese Website und das Kundendienstzentrum jederzeit verfügbar sind. Die Benutzer erkennen an, dass die Website und das Kunden-Support-Center aufgrund von Updates oder anderen Gründen, die außerhalb der angemessenen Kontrolle von Placiful liegen, nicht verfügbar sein können, einschließlich, aber nicht beschränkt auf Virusinfektion, Stromausfall oder andere „höhere Gewalt“.",
+      "rule-twele": "Dem Benutzer ist es untersagt, mit Placifull in feindseliger oder drohender Weise in Kontakt zu treten. Jede solche Kommunikation wird sofort gestoppt und dem Benutzer wird nicht geholfen, wenn Probleme aufgetreten sind.",
+      "rule-thriteen": "Ihre Nutzung dieser Website und alle Streitigkeiten, die sich aus einer solchen Nutzung ergeben, unterliegen den Gesetzen von Lettland."
+    }
+  },
+  "privacy-policy": {
+    "title": "Datenschutz- und Empfehlungsrichtlinie",
+    "intro": "Bitte beachten Sie, dass Sie mit der Nutzung dieser Website folgendem zustimmen:",
+    "rules": {
+      "rule-one": "Placifull unternimmt alle angemessenen Schritte, um den Inhalt der Website nach bestem Wissen des Placifull-Teams zu sichern. Placifull gibt jedoch keine Garantien oder Zusicherungen, dass der Inhalt zu 100% sicher und geschützt ist.",
+      "rule-two": "Placifull hat nur Zugriff auf/sammelt Informationen, die Sie uns freiwillig geben. Wir werden diese Informationen an niemanden verkaufen oder vermieten. Wir werden Ihre Informationen verwenden, um Ihnen bezüglich des Grundes zu antworten, aus dem Sie uns kontaktiert haben. Wir werden Ihre Daten nur dann an Dritte weitergeben, wenn dies zur Erfüllung Ihrer Anfrage erforderlich ist.",
+      "rule-three": "Wenn Sie Ihren Lebenslauf einreichen, kann er von Personen mit dem Plan „Browser-Lebenslauf“ eingesehen werden, bei dem Sie Ihre persönlichen Daten in Ihrem Profil veröffentlichen markiert haben. Placifull übernimmt keine Verantwortung für Daten, die auf unberechtigte Weise durchgesickert oder abgerufen werden.",
+      "rule-four": "Ein Benutzer dieser Website kann das ihm zugewiesene Empfehlungs-Token an andere Personen weitergeben. Beim Kauf einer Option mit diesem Token werden dem Nutzer 10 bis 25 % des Kaufbetrags gutgeschrieben.",
+      "rule-five": "Sobald der gutgeschriebene Betrag 25 € erreicht, hat der Benutzer das Recht, diesen Betrag abzuheben.",
+      "rule-six": "Wenn in irgendeiner Weise der Verdacht besteht, dass ein Benutzer dieser Website betrügerisch ist, kann das zugehörige Konto gesperrt und jeder Betrag auf Null reduziert werden."
+    }
+  },
+  "faq": {
+    "title": "Benutzer Frage & Antwort:",
+    "question-one": {
+      "questions": "Wie funktioniert Placifull?",
+      "answer": "Jeder Benutzer kann einen Eintrag veröffentlichen, der dann der Öffentlichkeit angezeigt wird. Diese Listen werden für alle im World Wide Web frei zugänglich sein. Bevor Sie ein Inserat veröffentlichen, müssen Sie die Option erwerben, um es auf unserer Website zu platzieren. Dies kann über die Profilseite erfolgen, auf der Sie vier Kaufoptionen sehen können."
+    },
+    "question-two": {
+      "questions": "Wie kann ich mein Inserat auf Placifull einstellen?",
+      "answer": "Sie benötigen eine Option, mit der Sie einen Eintrag platzieren können. Es stehen drei Optionen zur Auswahl. Die erste Option ist ein einzelner Beitrag. Sie kaufen es und verwenden es, wann immer es für Sie am besten geeignet ist. Diese Option hat kein Ablaufdatum. Die zweite und dritte Option haben ein Verfallsdatum und eine begrenzte Menge. Diese bestimmen, wie viele aktive Inserate Sie mit der jeweiligen Option haben können. Sobald sie abgelaufen sind, können Sie sie erneut kaufen. Sie können diese beliebig oft löschen und erneut eingeben."
+    },
+    "question-three": {
+      "questions": "Wie ist die Zahlung geschützt?",
+      "answer": "Wir verwenden Stripe, um die Zahlung abzuwickeln. Die Felder, in denen Ihre Karteninformationen abgefragt werden, sind Komponenten von Stripe, sodass Placifull keinen Zugriff auf Ihre vollständigen Karteninformationen hat"
+    },
+    "question-four": {
+      "questions": "Meine Karte wurde belastet, aber nichts gekauft?",
+      "answer": "Für den unwahrscheinlichen Fall, dass Ihre Karte belastet wurde, obwohl nichts gekauft wurde, kontaktieren Sie uns bitte per E-Mail oder WhatsApp und geben Sie alle Details an. Gültige Ansprüche werden so schnell wie möglich zurückerstattet"
+    },
+    "question-five": {
+      "questions": "Warum ist mein Eintrag verschwunden?",
+      "answer": "Der Eintrag wird 30 Tage lang angezeigt, es sei denn, Sie haben eine erweiterte Option erworben, die es ermöglicht, dass der Eintrag über 30 Tage hinaus aktiv ist."
+    },
+    "question-six": {
+      "questions": "Ich habe die beworbene Funktion gekauft, sehe aber meinen Eintrag nicht?",
+      "answer": "Sobald Sie die beworbene Option erworben haben, können Ihre Angebote auf der Hauptseite angezeigt werden. Das System nimmt alle Einträge, denen das beworbene Tag hinzugefügt wurde, und wählt zufällig aus, welche auf dem Bildschirm angezeigt werden sollen."
+    },
+    "question-seven": {
+      "questions": "Wie kann ich meinen Empfehlungsbonus abheben?",
+      "answer": "Sobald Sie 25 € erreicht haben, können Sie diese von Ihrem Konto abheben. Bitte kontaktieren Sie uns dazu und wir überweisen das Geld auf Ihr Bankkonto"
+    }
+  },
+  "end": {
+    "title": "Haben Sie noch eine Frage?",
+    "goodbye-text": "Bitte kontaktieren Sie uns über die Kontaktseite, und wir werden uns so schnell wie möglich bei Ihnen melden. Kurz gesagt, wir möchten alles tun, um diese Website zu verbessern. Seien Sie versichert, dass unser Fokus darauf liegt, alle Probleme/Fragen mit dem Benutzer mit höchster Priorität zu besprechen."
+  }
+}

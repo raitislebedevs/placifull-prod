@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "heading": "termes et conditions"
+  },
+  "header": "introduction",
+  "title": "termes",
+  "introduction": {
+    "first": "Bienvenue sur notre site.",
+    "second": "En utilisant notre site Web et/ou les services qui sont fournis, vous reconnaissez avoir lu et compris les « Conditions générales » et la « Politique de confidentialité et de parrainage » ; et acceptez d'être lié par eux. Si vous n'êtes pas d'accord avec une partie des « Termes et conditions » et/ou de la « Politique de confidentialité et de parrainage », vous ne devez pas utiliser ce site Web."
+  },
+  "user-aggrements": {
+    "title": "Termes et conditions",
+    "intro": "L'utilisation de ce site Web est soumise aux conditions générales suivantes :",
+    "rules": {
+      "rule-one": "Le terme « Placifull » ou « nous » ou « nous » ou « notre », désigne les propriétaires du site Web dont le siège social est [adresse]. Notre numéro d'enregistrement de l'entreprise est [numéro d'enregistrement de l'entreprise et lieu d'enregistrement].",
+      "rule-two": "Le terme « utilisateur » ou « vous » ou « votre » fait référence à toute personne qui entre, utilise ou accède au site Web, nonobstant le fait qu'une telle personne peut n'avoir visité que la page d'accueil du site Web.",
+      "rule-three": "« Ce site Web » désigne le site Web de Placifull situé à l'adresse http://www.placifull.com et comprend toute partie ou élément de celui-ci.",
+      "rule-four": {
+        "rule": "Le contenu de ce site Web est destiné à des fins d'information et d'utilisation générales uniquement. Placifull se réserve expressément le droit, à sa seule et absolue discrétion, d'effectuer l'une des actions suivantes, à tout moment et sans préavis :",
+        "point-one": "Modifier ces termes et conditions ;",
+        "point-two": "Modifier le contenu et/ou les services disponibles sur le site Web ;",
+        "point-three": "interrompre tout aspect du site Web ou des services disponibles sur le site Web ; et/ou",
+        "point-four": "Modifier les logiciels et le matériel requis pour accéder et utiliser le site Web."
+      },
+      "rule-five": "Ni Placifull, ni aucun tiers, ne fournissent aucune garantie quant à l'exactitude, l'actualité, la performance, l'exhaustivité ou la pertinence des informations et des documents trouvés ou proposés sur ce site Web. Vous reconnaissez que ces informations et documents peuvent contenir des inexactitudes ou des erreurs et Placifull exclut expressément toute responsabilité pour de telles inexactitudes ou erreurs dans toute la mesure permise par la loi lettone.",
+      "rule-six": "Votre utilisation de toute information ou matériel sur ce site Web est entièrement à vos risques et périls, pour lesquels Placifull ne sera pas responsable. Il sera de votre responsabilité de vous assurer que tous les produits, services ou informations disponibles sur ce site Web répondent à vos besoins spécifiques.",
+      "rule-seven": "Placifull se réserve le droit d'enquêter sur les plaintes, les soupçons ou les violations signalées de nos « Conditions générales » et/ou de notre « Politique de confidentialité et de recommandations » et de prendre toute mesure que nous jugeons appropriée, y compris, mais sans s'y limiter, le signalement de toute activité illégale suspectée à l'autorité compétente. autorités, régulateurs ou tiers et la divulgation et les informations nécessaires pour s'approprier ces personnes ou entités.",
+      "rule-eight": "Placifull n'est pas responsable du contenu des sites Web non affiliés pouvant être liés à ou à partir de notre site. Ces liens sont fournis uniquement pour votre commodité et vous y accédez à vos risques et périls. Tout autre site Web accessible à partir de ce site est indépendant de Placifull et Placifull n'a aucun contrôle sur le contenu de cet autre site Web. En outre, un lien vers un autre site Web n'implique pas que Placifull approuve ou accepte une quelconque responsabilité pour le contenu ou l'utilisation de cet autre site Web.",
+      "rule-nine": "En publiant votre CV sur ce site Web, vous autorisez toute personne ayant acheté le plan « CV par navigateur » à consulter votre CV.",
+      "rule-ten": "L'assistance sera fournie uniquement en anglais et/ou en letton. Si vous contactez Placifull dans une autre langue, Google Translate sera utilisé pour permettre une réponse. Par conséquent, nous ne garantissons pas la qualité du service et toute erreur de communication est de la responsabilité de l'utilisateur.",
+      "rule-eleven": "Placifull ne fait aucune garantie ou représentation que ce site Web et le centre de support client seront disponibles à tout moment. Les utilisateurs reconnaissent que le site Web et le centre de support client peuvent être indisponibles en raison de mises à jour ou d'autres causes indépendantes de la volonté de Placiful, y compris, mais sans s'y limiter, une infection virale, une panne de courant ou autre « Force Majeure ».",
+      "rule-twele": "Il est interdit à l'Utilisateur de contacter Placifull de manière hostile ou menaçante. Toute communication de ce type sera immédiatement interrompue et l'utilisateur ne sera pas assisté en cas de problème.",
+      "rule-thriteen": "Votre utilisation de ce site Web et tout litige découlant d'une telle utilisation sont soumis aux lois de la Lettonie."
+    }
+  },
+  "privacy-policy": {
+    "title": "Politique de confidentialité et de références",
+    "intro": "Veuillez noter qu'en utilisant ce site Web, vous acceptez ce qui suit :",
+    "rules": {
+      "rule-one": "Placifull prend toutes les mesures raisonnables pour sécuriser le contenu du site Web au meilleur des connaissances de l'équipe de Placifull, cependant, Placifull ne fait aucune garantie ou représentation que le contenu sera 100% sûr et sécurisé.",
+      "rule-two": "Placifull n'aura accès/collecte que les informations que vous nous fournissez volontairement. Nous ne vendrons ni ne louerons ces informations à qui que ce soit. Nous utiliserons vos informations pour vous répondre concernant la raison pour laquelle vous nous avez contactés. Nous ne partagerons vos informations avec aucun tiers, sauf si cela est nécessaire pour répondre à votre demande.",
+      "rule-three": "Si vous soumettez votre CV, il peut être consulté par les personnes disposant du plan « CV par navigateur » où vous avez marqué publier vos informations personnelles, sur votre profil. Placifull décline toute responsabilité pour les données divulguées ou consultées de manière non autorisée.",
+      "rule-four": "Un utilisateur de ce site Web peut partager le jeton de parrainage qui lui est attribué à d'autres personnes. Lorsqu'une option est achetée avec ce token, l'Utilisateur sera crédité de 10 à 25 % du montant de l'achat.",
+      "rule-five": "Une fois que le montant crédité atteint 25 €, l'Utilisateur aura le droit de retirer ce montant.",
+      "rule-six": "Si, de quelque manière que ce soit, un utilisateur de ce site Web est suspecté d'être frauduleux, le compte associé peut être bloqué et tout montant réduit à zéro."
+    }
+  },
+  "faq": {
+    "title": "Questions et réponses des utilisateurs :",
+    "question-one": {
+      "questions": "Comment fonctionne Placifull ?",
+      "answer": "Chaque Utilisateur peut publier une Annonce, qui sera ensuite affichée au public. Ces annonces seront librement accessibles à tous sur le World Wide Web. Avant de publier une annonce, vous devrez acheter l'option de la placer sur notre site Web. Cela peut être fait à partir de la page Profil, où vous pouvez voir quatre options d'achat."
+    },
+    "question-two": {
+      "questions": "Comment mettre mon annonce sur Placifull ?",
+      "answer": "Vous devez avoir une option qui vous permet de placer une annonce. Il y a trois options parmi lesquelles choisir. La première option est un poste unique. Vous l'achetez et l'utilisez quand cela vous convient le mieux. Cette option n'a pas de date d'expiration. Les deuxième et troisième options ont une date d'expiration et des quantités limitées. Ceux-ci déterminent le nombre d'annonces actives que vous pouvez avoir avec l'option particulière. Une fois qu'ils expirent, vous pouvez les acheter à nouveau. Vous pouvez les supprimer et les saisir à nouveau autant de fois que vous le souhaitez."
+    },
+    "question-three": {
+      "questions": "Comment le paiement est-il protégé ?",
+      "answer": "Nous utilisons Stripe pour traiter le paiement. Les champs qui demandent les informations de votre carte sont des composants de Stripe, donc Placifull n'a pas réellement accès à toutes les informations de votre carte."
+    },
+    "question-four": {
+      "questions": "Ma carte a été débitée mais rien n'a été acheté ?",
+      "answer": "Dans le cas peu probable où votre carte aurait été débitée alors que rien n'a été acheté, veuillez nous contacter par e-mail ou WhatsApp, en donnant tous les détails. Les réclamations valides seront remboursées dès que possible"
+    },
+    "question-five": {
+      "questions": "Pourquoi mon annonce a-t-elle disparu ?",
+      "answer": "L'annonce apparaîtra pendant 30 jours, sauf si vous avez acheté une option étendue qui permet à l'annonce d'être active au-delà de 30 jours."
+    },
+    "question-six": {
+      "questions": "J'ai acheté la fonctionnalité promue, mais je ne vois pas mon annonce ?",
+      "answer": "Une fois que vous avez acheté l'option promue, vos annonces auront la chance d'être affichées sur la page principale. Le système prend toutes les annonces auxquelles la balise promue a été ajoutée et sélectionne au hasard celles à afficher à l'écran."
+    },
+    "question-seven": {
+      "questions": "Comment puis-je retirer mon bonus de parrainage ?",
+      "answer": "Une fois que vous avez atteint 25 €, vous pouvez le retirer de votre compte. Pour ce faire, veuillez nous contacter et nous transférerons l'argent sur votre compte bancaire"
+    }
+  },
+  "end": {
+    "title": "Vous avez encore une question ?",
+    "goodbye-text": "Veuillez nous contacter depuis la page contact, nous vous répondrons dans les plus brefs délais. Bref, nous voulons faire tout notre possible pour améliorer ce site. Soyez assuré que notre objectif est de discuter de tout problème/question avec l'utilisateur à la plus haute priorité."
+  }
+}

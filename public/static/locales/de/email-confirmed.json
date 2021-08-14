@@ -1,0 +1,17 @@
+{
+  "heading": "Email Bestätigung",
+  "title": "  Email Bestätigung",
+  "description": "  Bitte bestätigen Sie Ihre E-Mail-Adresse für eine erfolgreiche Kontobestätigung",
+  "form": {
+    "heading": "  E-Mail-Addresse",
+    "placeholder": "  Geben Sie Ihre Profil-E-Mail-Adresse ein",
+    "submit": "  Senden",
+    "confirmed": "  E-Mail bereits bestätigt?",
+    "sign-in": "  Einloggen",
+    "success-text": "E-Mail-Bestätigungslink an Ihre E-Mail-Adresse gesendet",
+    "error": {
+      "email-invalid": "  Bitte geben Sie eine gültige Email-Adresse ein",
+      "email-required": "  E-Mailadresse wird benötigt"
+    }
+  }
+}

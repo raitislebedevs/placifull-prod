@@ -1,5 +1,6 @@
 {
   "heading": "रजिस्टर करें",
+  "title": "हमने आपका इंतजार किया!",
   "form": {
     "first-name": "नाम",
     "last-name": "उपनाम",
@@ -15,7 +16,10 @@
       "email-required": "ईमेल जरूरी है।",
       "password-required": "पासवर्ड जरूरी है।",
       "first-name-required": "नाम जरूरी है ",
-      "last-name-required": "उपनाम जरूरी है "
+      "last-name-required": "उपनाम जरूरी है ",
+      "confirm-password-required": "कृपया अपने पासवर्ड की पुष्टि करें",
+      "accept-terms": " स्वीकार नियम और शर्तें आवश्यक हैं",
+      "password-not-match": " पासवर्ड मेल नहीं खाते"
     }
   },
   "or": "या साइनअप करें",

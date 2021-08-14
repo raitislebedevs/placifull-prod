@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import Link from 'next/link';
@@ -11,6 +11,7 @@ import {
 import { Container, Row, Col, Form, Button, Spinner } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Modal from 'react-bootstrap/Modal';
+import { i18n } from 'i18n';
 import { CustomFormControl } from 'components/common';
 import { JobApplication } from 'services';
 import { toast } from 'react-toastify';
@@ -141,6 +142,10 @@ const ServiceSection = (props) => {
       </Modal>
     );
   };
+
+  useEffect(() => {
+    setActiveItem(services[0]);
+  }, [i18n.language]);
 
   const HelpUsImprove = (props) => {
     return (

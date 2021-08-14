@@ -1,0 +1,17 @@
+{
+  "heading": "Confirmation de l'émail",
+  "title": "  confirmation de l'émail",
+  "description": "  Veuillez confirmer votre adresse e-mail pour une vérification de compte réussie",
+  "form": {
+    "heading": "  Adresse e-mail",
+    "placeholder": "  Entrez votre adresse e-mail de profil",
+    "submit": "  Envoyer",
+    "confirmed": "  E-mail déjà confirmé ?",
+    "sign-in": "  S'identifier",
+    "success-text": "Lien de confirmation par e-mail envoyé à votre adresse e-mail",
+    "error": {
+      "email-invalid": "  Veuillez entrer un email valide",
+      "email-required": "  Adresse e-mail est nécessaire"
+    }
+  }
+}
