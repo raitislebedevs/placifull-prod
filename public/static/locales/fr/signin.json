@@ -1,5 +1,6 @@
 {
   "heading": "S’identifier",
+  "title": "Content de te revoir",
   "form": {
     "your-email": "Veuillez entrer votre adresse mail.",
     "email": "Email",
@@ -18,6 +19,7 @@
       "password-required": "Mot de passe requis"
     },
     "success": "Nous sommes heureux de vous revoir !",
-    "already-login": "Vous essayez de vous connecter à nouveau ?"
+    "already-login": "Vous essayez de vous connecter à nouveau ?",
+    "confirm-email": "Confirmez votre email"
   }
 }

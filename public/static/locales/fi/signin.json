@@ -1,5 +1,6 @@
 {
   "heading": "Kirjaudu sisään",
+  "title": "Tervetuloa takaisin",
   "form": {
     "your-email": "Syötä Sähköposti",
     "email": "Sähköposti",
@@ -18,6 +19,7 @@
       "password-required": "Salasana vaaditaan"
     },
     "success": "Tervetuloa Takaisin!",
-    "already-login": "Yritätkö kirjautua sisään kahdesti?"
+    "already-login": "Yritätkö kirjautua sisään kahdesti?",
+    "confirm-email": "Vahvista sähköposti"
   }
 }

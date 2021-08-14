@@ -1,7 +1,6 @@
 {
   "heading": "Войти",
   "title": "С возвращением.",
-
   "form": {
     "your-email": "Укажите email",
     "email": "Email",
@@ -20,6 +19,7 @@
       "password-required": "Требуется указать пароль"
     },
     "success": "С возвращением!",
-    "already-login": "Пытаетесь войти второй раз?"
+    "already-login": "Пытаетесь войти второй раз?",
+    "confirm-email": "Подтвердить email"
   }
 }

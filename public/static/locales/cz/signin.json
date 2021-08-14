@@ -1,5 +1,6 @@
 {
   "heading": "Přihlášení",
+  "title": "Vítej zpět",
   "form": {
     "your-email": "Zadejte Email",
     "email": "Email",
@@ -18,6 +19,7 @@
       "password-required": "Heslo je povinné"
     },
     "success": "Vítejte Zpět!",
-    "already-login": "Pokoušíte se přihlásit znovu?"
+    "already-login": "Pokoušíte se přihlásit znovu?",
+    "confirm-email": "Potvrdit email"
   }
 }

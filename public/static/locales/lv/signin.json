@@ -11,7 +11,7 @@
     "or": "Vai Pieslēgties Ar",
     "facebook": "Facebook",
     "google": "Google",
-    "not-account": "Man vēl nav ",
+    "not-account": "Jums vēl nav konta?",
     "sign-up": "Reģistrēties",
     "error": {
       "email-invalid": "Nepareizs e-pasta formāts",
@@ -19,6 +19,7 @@
       "password-required": "Parole ir nepieciešama"
     },
     "success": "Prieks Jūs Atkal Redzēt!",
-    "already-login": "Mēģināt pieslēgties vēlreiz?"
+    "already-login": "Mēģināt pieslēgties vēlreiz?",
+    "confirm-email": "Apstiprināt e-pastu"
   }
 }

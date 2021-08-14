@@ -1,5 +1,6 @@
 {
   "heading": "Acesso",
+  "title": "Bem vindo de volta",
   "form": {
     "your-email": "Informe seu endereço eletrônico",
     "email": "E-mail",
@@ -18,6 +19,7 @@
       "password-required": "Senha necessária"
     },
     "success": "Bem-vindo de volta!",
-    "already-login": "Tentando acessar novamente?"
+    "already-login": "Tentando acessar novamente?",
+    "confirm-email": "Confirmar e-mail"
   }
 }

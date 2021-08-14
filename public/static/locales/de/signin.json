@@ -1,5 +1,6 @@
 {
   "heading": "Anmelden",
+  "title": "Willkommen zurück",
   "form": {
     "your-email": "Email erteilen",
     "email": "Email-Adresse",
@@ -18,6 +19,7 @@
       "password-required": "Passwort benötigt"
     },
     "success": "Willkommen zurück",
-    "already-login": "Versuchen Sie sich nochmal einzuloggen?"
+    "already-login": "Versuchen Sie sich nochmal einzuloggen?",
+    "confirm-email": "Bestätigungs-E-Mail"
   }
 }

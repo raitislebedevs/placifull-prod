@@ -18,9 +18,13 @@
           "confirmed": " You must confirm your email address",
           "taken": " User with this email already exists",
           "already-confirmed": " Email is already confirmed",
-          "format": " Invalid email format"
+          "format": " Invalid email format",
+          "not-send": "We could not send an email to the provided email. Please check if it is correct or contact support."
         }
       }
+    },
+    "advanced": {
+      "allow_register": "Currently we do not allow more users to register."
     }
   }
 }
