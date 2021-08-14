@@ -1,5 +1,6 @@
 {
   "heading": "Logga in",
+  "title": "Välkommen tillbaka",
   "form": {
     "your-email": "Skriv in e-mail",
     "email": "E-mail",
@@ -18,6 +19,7 @@
       "password-required": "Lösenord krävs"
     },
     "success": "Välkommen tillbaka!",
-    "already-login": "Redan inloggad"
+    "already-login": "Redan inloggad",
+    "confirm-email": "Bekräfta e-postadress"
   }
 }

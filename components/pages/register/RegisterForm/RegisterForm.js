@@ -53,7 +53,7 @@ const RegisterForm = (props) => {
           t('register:success-text')
         );
         setTimeout(() => {
-          router.push('/email-confirmed');
+          router.push('/sign-in');
         }, 1500);
       }
       if (error) {

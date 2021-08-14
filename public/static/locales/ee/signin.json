@@ -19,6 +19,7 @@
       "password-required": "Parool on nõutud"
     },
     "success": "Teretulemast tagasi!",
-    "already-login": "Proovid kaks korda sisse logida?"
+    "already-login": "Proovid kaks korda sisse logida?",
+    "confirm-email": "Kinnita email"
   }
 }

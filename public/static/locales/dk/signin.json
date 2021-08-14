@@ -1,5 +1,6 @@
 {
   "heading": "Login",
+  "title": "Velkommen tilbage",
   "form": {
     "your-email": "Angiv e-mail",
     "email": "E-mail",
@@ -18,6 +19,7 @@
       "password-required": "Adgangskode påkrævet"
     },
     "success": "Velkommen tilbage!",
-    "already-login": "Allerede logget ind"
+    "already-login": "Allerede logget ind",
+    "confirm-email": "Bekræft Email"
   }
 }

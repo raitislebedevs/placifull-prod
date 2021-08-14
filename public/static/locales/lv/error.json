@@ -18,9 +18,13 @@
           "confirmed": "Jums jāapstiprina sava e-pasta adrese",
           "taken": "Lietotājs ar šo e -pasta adresi jau pastāv",
           "already-confirmed": "Epasts jau ir apstiprināts",
-          "format": "Epasta formāts nav pareizs"
+          "format": "Epasta formāts nav pareizs",
+          "not-send": "Mēs nevarējām nosūtīt e-pastu uz jūsu norādīto adresi. Lūdzu pārbaudiet vai tā ir pareize vai sazinieties ar atbalsta komandu. "
         }
       }
+    },
+    "advanced": {
+      "allow_register": "Šobrīd mēs neatļaujaum jauniem lietotājiem reģistrēties"
     }
   }
 }

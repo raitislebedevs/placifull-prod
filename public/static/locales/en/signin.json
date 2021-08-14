@@ -19,6 +19,7 @@
       "password-required": " Password is required"
     },
     "success": " Welcome Back!",
-    "already-login": " Trying to log in twice?"
+    "already-login": " Trying to log in twice?",
+    "confirm-email": "Confirm email"
   }
 }

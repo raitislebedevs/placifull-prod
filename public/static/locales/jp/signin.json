@@ -1,5 +1,6 @@
 {
   "heading": "ログイン",
+  "title": "お帰りなさい",
   "form": {
     "your-email": "メールアドレスの入力が必要です",
     "email": "メールアドレス",
@@ -18,6 +19,7 @@
       "password-required": "パスワードが必要です"
     },
     "success": "いらっしゃいませ！",
-    "already-login": "ログインしていますか？"
+    "already-login": "ログインしていますか？",
+    "confirm-email": "メールアドレス 確認"
   }
 }

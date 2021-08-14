@@ -285,6 +285,20 @@ const SigninForm = (props) => {
                       </Link>
                     </p>
                   </Col>
+                  <Col
+                    xs={12}
+                    sm={12}
+                    md={12}
+                    lg={12}
+                    xl={12}
+                    className="text-center container"
+                  >
+                    <Link href="/email-confirmed">
+                      <a className="confirm__email">
+                        {t('signin:form.confirm-email')}
+                      </a>
+                    </Link>
+                  </Col>
                 </Row>
               </Form>
             )}

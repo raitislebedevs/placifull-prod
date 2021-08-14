@@ -1,5 +1,6 @@
 {
   "heading": "Iniciar sesión",
+  "title": "Bienvenido de nuevo",
   "form": {
     "your-email": "Proporciona tu correo",
     "email": "Correo electrónico",
@@ -18,6 +19,7 @@
       "password-required": "Contraseña requerida"
     },
     "success": "Bienvenido devuelta",
-    "already-login": "Intentando iniciar sesión de nuevo?"
+    "already-login": "Intentando iniciar sesión de nuevo?",
+    "confirm-email": "Confirmar correo electrónico"
   }
 }

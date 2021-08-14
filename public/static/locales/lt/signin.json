@@ -1,5 +1,6 @@
 {
   "heading": "Prisijungimas",
+  "title": "Sveikas sugrįžęs",
   "form": {
     "your-email": "Įvesk savo el. paštą",
     "email": "El. paštas",
@@ -18,6 +19,7 @@
       "password-required": "Slaptažodis yra privalomas"
     },
     "success": "Sveiki sugrįžę!",
-    "already-login": "Bandai prisijungti antrą kartą?"
+    "already-login": "Bandai prisijungti antrą kartą?",
+    "confirm-email": "Patvirtinkite el.pašto adresą"
   }
 }

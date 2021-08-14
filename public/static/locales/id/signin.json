@@ -1,5 +1,6 @@
 {
   "heading": "Masuk",
+  "title": "Selamat datang kembali",
   "form": {
     "your-email": "Berikan Email",
     "email": "Email",
@@ -18,6 +19,7 @@
       "password-required": "Kata sandi diperlukan"
     },
     "success": "Selamat datang kembali!",
-    "already-login": "Mencoba untuk masuk kedua kalinya?"
+    "already-login": "Mencoba untuk masuk kedua kalinya?",
+    "confirm-email": "Konfirmasi email"
   }
 }

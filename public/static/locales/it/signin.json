@@ -1,5 +1,6 @@
 {
   "heading": "Accedi",
+  "title": "Ben tornato",
   "form": {
     "your-email": "Fornisci un indirizzo email",
     "email": "Email",
@@ -18,6 +19,7 @@
       "password-required": "È necessaria la password"
     },
     "success": "Bentornato!",
-    "already-login": "Hai dovuto accedere due volte?"
+    "already-login": "Hai dovuto accedere due volte?",
+    "confirm-email": "Conferma email"
   }
 }
