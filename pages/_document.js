@@ -21,11 +21,11 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="Helps to move abroad by finding all important things, real estate, transport and job. Moving abroad has not been so easy and quick"
+            content="At Placifull we help to move abroad by finding all the important things, real estate, transport, and job. Only all relevant tools. Lowest prices in the market."
           />
           <meta
             name="keywords"
-            content="real estate, transport, car, cars, jobs, vacancy, jobs abroad, real estate abroad, cheap listing site, simple listing site, nekustamie īpašumi, transports, vieglās mašīnas, mašīnas, darbs, darbs ārzemēs, lēts sludinājums"
+            content="opportunities, lowest listing prices, less than 2 $, less than a dollar, less than euro, only 0.99 Euro,  real estate, transport, car, cars, jobs, vacancy, jobs abroad, real estate abroad, cheap listing site, simple listing site, nekustamie īpašumi, transports, vieglās mašīnas, mašīnas, darbs, darbs ārzemēs, lēts sludinājums"
           />
           <link rel="icon" href={logo} sizes="any" type="image/svg+xml" />
         </Head>

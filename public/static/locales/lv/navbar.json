@@ -1,15 +1,13 @@
 {
-  "home": "Sākums",
+  "home": "SĀKUMS",
   "opportunities": {
-    "base": "Iespājas",
-    "real-estate": "Īpašumi",
-    "vehicles": "Transports",
-    "job-search": "Darbs",
-    "personal-company": "Biznesam",
-    "invest": "Investēt"
+    "base": "IESPĒJAS",
+    "real-estate": "Nek. ĪPAŠUMI",
+    "vehicles": "TRANSPORTS",
+    "job-search": "DARBA IESPĒJAS"
   },
-  "help": "Palīdzība & Atbalsts",
-  "sign-in": "Pieslēgties",
-  "register": "Reģistrēties",
-  "add-listing": "Ievietot"
+  "help": "PALĪDZĪBA & ATBALSTS",
+  "sign-in": "PIESLĒGTIES",
+  "register": "REĢISTRĒTIES",
+  "add-listing": "IEVIETOT"
 }

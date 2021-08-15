@@ -7,12 +7,16 @@ const UserBoard = (props) => {
   const { t } = props;
   return (
     <div className="termsPage-container main-container">
-      <meta
-        name="keywords"
-        content="voting board, balsošanas dēlis, user imput, user suggestions, lietotāja ieteikumi"
-      />
       <Head>
         <title>{t('voting-board:title')}</title>
+        <meta
+          name="description"
+          content="Straight forward terms and conditions. We try to make it simple and straight to the point."
+        />
+        <meta
+          name="keywords"
+          content="voting board, user input, user suggestions, user meaningful, meaningful life, balsošanas dēlis, lietotāja ieteikumi, lietotāja viedoklis"
+        />
       </Head>
       <HeroTerms t={t} />
       <VotingBoard t={t} />
