@@ -1,7 +1,6 @@
 {
-  "title": "Imobiliária",
-
   "heading": "Enviar anúncio",
+  "title": "Imobiliária",
   "form": {
     "submit": "Enviar",
     "submit-confirm": "Salvando...",
@@ -46,7 +45,7 @@
       "heading": "Horário de contato",
       "heading-tip": "Opcional",
       "accordion": {
-        "heading": "Informe a melhor hora para encontro/conversa",
+        "heading": "Informe a melhor hora para encontro/conversa...",
         "start-time": "De",
         "end-time": "Até"
       }

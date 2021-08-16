@@ -1,18 +1,18 @@
 {
   "title": "Quadro de sugestões",
-  "subtitle": "Mesa de Votação",
+  "subtitle": "Mesa de votação",
   "item": {
     "score": "Pontuação atual",
     "options": "Opções de votação",
-    "up": "PRA CIMA",
-    "down": "BAIXA",
+    "up": "PARA CIMA",
+    "down": "PARA BAIXO",
     "rating": "Avaliação",
     "vote": "VOTO"
   },
   "toast": {
-    "log-in": "Por favor entre",
+    "log-in": "Por favor, entre",
     "voted": "Tentando votar duas vezes?",
-    "rate": "Avalie a ideia",
+    "rate": "Por favor, avalie a ideia",
     "up-down": "Escolha uma opção de votação",
     "idea": "Avalie e escolha uma opção de voto.",
     "zero": "Não é permitido votar contra esta ideia"

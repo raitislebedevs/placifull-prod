@@ -88,10 +88,10 @@
       "service-4": {
         "open-modal": "Melhore-nos agora",
         "name": "Melhore nossa qualidade",
-        "description": "Algo não funciona? O pagamento não foi realizado? Não hesite em fazer contato com a reclamação, iremos considerá-la como prioridade.",
+        "description": "Algo não funciona? O pagamento não foi realizado? Não hesite em fazer uma reclamação, iremos considerá-la como prioridade.",
         "modal": {
           "header": "Qualidade",
-          "description": "A Placifull é uma marca centrada na qualidade e acreditamos que todo o nosso valor está na qualidade dos serviços que prestamos. Asseguramos, de todo o coração, que não comprometemos nossa qualidade e padrões. Se você encontrar algo em nossa plataforma que não está funcionando tão bem quanto deveria, relate o problema para nós o mais cedo possível e nós o corrigiremos o quanto antes. A sua experiência com a Placifull é de extrema importância e iremos melhorar e atualizar o nosso sistema para melhor se adequar a você.",
+          "description": "A Placifull é uma marca centrada na qualidade e acreditamos que todo o nosso valor está na qualidade dos serviços que prestamos. Asseguramos, de todo o coração, que não comprometemos nossa qualidade e padrões. Se você encontrar algo em nossa plataforma que não está funcionando tão bem quanto deveria, relate o problema para nós o mais cedo possível e nós o corrigiremos o quanto antes. A sua experiência com a Placifull é de extrema importância e iremos melhorar e atualizar o nosso sistema para se adequar melhor a você.",
           "close-button": "Fechar",
           "contact-button": "Entrar em contato"
         }
@@ -99,10 +99,10 @@
       "service-5": {
         "open-modal": "Candidatar-me agora",
         "name": "Oportunidades de carreira",
-        "description": "Trabalhamos muito e descansamos muito. Você quer fazer parte de nossa equipe? Então escreva-nos. Você escolhe com o que quer trabalhar, onde e que salário que deseja. Se gostarmos, VOCÊ será contratado.",
+        "description": "Trabalhamos muito e descansamos muito. Você quer fazer parte de nossa equipe? Então escreva-nos. Você escolhe com o que quer trabalhar, onde e que salário deseja. Se gostarmos, VOCÊ será contratado.",
         "modal": {
           "header": "Carreira",
-          "description": "Nossos anúncios de empregos são exclusivos e você não encontrará estas ofertas em nenhum outro lugar. Oferecemos um excelente esquema de horas de trabalho, o que significa que você só terá que trabalhar 4 dias por semana e 8 horas por dia em vez de 12. Nas sextas-feiras de cada semana, você terá a opção de visitar o escritório ou não. Você pode definitivamente usar o tempo extra para colocar os amigos em dia, fazer exercícios, praticar seus hobbies e muito mais! A Placifull garante que o tempo de qualidade com seus amigos e familiares não seja interrompido devido ao seu trabalho. É por isso que a plataforma também garante que você tenha tempo de férias suficiente, começando com 20 dias e você pode obter até 28 dias de férias todos os anos. Isso dá um total de 76 dias. É quase impossível encontrar um horário de trabalho tão frutífero como este, por isso não espere mais e inscreva-se na Placifull.",
+          "description": "Nossos anúncios de emprego são exclusivos e você não encontrará estas ofertas em nenhum outro lugar. Oferecemos um excelente esquema de horas de trabalho, o que significa que você só terá que trabalhar 4 dias por semana e 8 horas por dia em vez de 12. Nas sextas-feiras de cada semana, você terá a opção de visitar o escritório ou não. Você pode definitivamente usar o tempo extra para colocar a conversa com os amigos em dia, fazer exercícios, praticar seus hobbies e muito mais! A Placifull garante que o tempo de qualidade com seus amigos e familiares não seja interrompido devido ao seu trabalho. É por isso que a plataforma também garante que você tenha tempo de férias suficiente, começando com 20 dias, e você pode obter até 28 dias de férias todos os anos. Isso dá um total de 76 dias. É quase impossível encontrar um horário de trabalho tão frutífero como este, por isso não espere mais e inscreva-se na Placifull.",
           "close-button": "Fechar",
           "contact-button": "Candidatar-me agora"
         },
@@ -111,7 +111,7 @@
             "header": "Envie-nos sua proposta!",
             "firstName": "Nome",
             "lastName": "Sobrenome",
-            "email": "Endereço eletrônico",
+            "email": "Endereço de e-mail",
             "phone": "Telefone",
             "dreamJob": "Em que você gostaria de trabalhar?",
             "applyText": "Por que devemos contratar você?",
@@ -231,7 +231,7 @@
           "tier-2": {
             "name": "Item em destaque",
             "offer-1": "Pagar ao enviar",
-            "offer-2": "Área promocional",
+            "offer-2": "Área promovida",
             "offer-3": "Marcado como destaque",
             "button": "Experimentar agora"
           },
@@ -262,7 +262,7 @@
       },
       "post": {
         "title": "Favor escolher uma opção",
-        "body": "Você deseja adquirir novas opções para seu perfil ou usar as disponíveis?",
+        "body": "Você deseja Adquirir novas opções para seu perfil ou usar as disponíveis?",
         "post": "Não, publicar anúncio",
         "purchase": "Sim, comprar"
       }

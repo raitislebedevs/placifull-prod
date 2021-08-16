@@ -1,7 +1,6 @@
 {
   "heading": "Enviar anúncio",
   "title": "Transporte",
-
   "form": {
     "submit": "Enviar",
     "submit-confirm": "Salvando...",
@@ -63,14 +62,14 @@
     },
     "gallery": {
       "heading": "Galeria",
-      "click-drop": "SELECIONE OU ARRASTE AS IMAGENS PARA AQUI",
+      "click-drop": "SELECIONE OU ARRASTE AS IMAGENS ATÉ AQUI",
       "video-url": "URL do vídeo: https://"
     },
     "contact-hours": {
       "heading": "Horário de contato",
       "heading-tip": "Opcional",
       "accordion": {
-        "heading": "Adicionar o horário mais adequado para encontro/chamada",
+        "heading": "Adicionar o horário mais adequado para encontro/chamada...",
         "start-time": "De",
         "end-time": "Até"
       }

@@ -10,7 +10,7 @@
     "first-name": "Nome",
     "last-name": "Sobrenome",
     "email": {
-      "email-upper": "Endereço eletrônico",
+      "email-upper": "E-mail",
       "email-lower": "e-mail",
       "your-email": "Seu e-mail"
     }
@@ -23,7 +23,7 @@
   },
 
   "social-links": {
-    "heading": "Links para as redes sociais",
+    "heading": "Links para redes sociais",
     "facebook": "Facebook: https://",
     "twitter": "Twitter: https://",
     "youtube": "Youtube: https://",
@@ -55,8 +55,8 @@
     "server-error": "Entrada incorreta/Servidor não localizado",
     "logging-required": "Necessário iniciar sessão",
     "cannot-apply": "Veja, está é uma prévia",
-    "preview": "Na prévia você podem ser feitas ofertas",
-    "log-in": "Você deve estar logado para fazer oferta",
+    "preview": "Você não pode fazer ofertas em uma prévia",
+    "log-in": "Você deve estar logado para fazer uma oferta",
     "bidding-price": "Não há preço para oferta",
     "price-lower": "A oferta é menor que 20% do preço do anúncio",
     "price-upper": "A oferta é maior que 20% do preço do anúncio",
@@ -85,7 +85,7 @@
     "logout-success": "Vejo você depois!",
     "bid-placed": "O lance foi feito",
     "your-referral": "Não é possível usar seu próprio código de referência :)",
-    "minimal-withdraw": "O valor mínimo para sacar é de 25 €"
+    "minimal-withdraw": "O valor mínimo para saque é de 25 €"
   },
 
   "location": {

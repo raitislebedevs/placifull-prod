@@ -1,6 +1,6 @@
 {
   "hero": {
-    "heading": "termos e Condições"
+    "heading": "Termos e Condições"
   },
   "header": "Introdução",
   "title": "Termos",
@@ -12,7 +12,7 @@
     "title": "Termos e Condições",
     "intro": "A utilização deste site está sujeita aos seguintes Termos e Condições:",
     "rules": {
-      "rule-one": "O termo “Placifull” ou “nos” ou “nós” ou “nosso”, refere-se aos proprietários do site com sede social em [endereço]. O número de registro de nossa empresa é [número de registro da empresa e local de registro].",
+      "rule-one": "O termo “Placifull” ou “nós” ou “nosso” refere-se aos proprietários do site com sede social em [endereço]. O número de registro de nossa empresa é [número de registro da empresa e local de registro].",
       "rule-two": "O termo “Usuário” ou “Você” ou “Seu” refere-se a qualquer pessoa que entra, usa ou acessa o Site, não obstante o fato de que tal pessoa possa ter visitado apenas a página inicial do Site",
       "rule-three": "“Este site” significa o site da Placifull localizado em http://www.placifull.com e inclui qualquer parte ou elemento do mesmo.",
       "rule-four": {
@@ -24,9 +24,9 @@
       },
       "rule-five": "Nem a Placifull, nem terceiros, fornecem qualquer garantia quanto à exatidão, oportunidade, desempenho, integridade ou adequação das informações e materiais encontrados ou oferecidos neste site. Você reconhece que tais informações e materiais podem conter imprecisões ou erros e a Placifull expressamente exclui a responsabilidade por tais imprecisões ou erros em toda a extensão permitida pela lei letã.",
       "rule-six": "O uso de quaisquer informações ou materiais neste site é inteiramente por sua própria conta e risco, pelo qual a Placifull não será responsável. É de sua responsabilidade garantir que quaisquer produtos, serviços ou informações disponíveis por meio deste site atendam às suas necessidades específicas.",
-      "rule-seven": "A Placifull reserva-se o direito de investigar reclamações, suspeitas ou violações relatadas de nossos “Termos e Condições” e / ou nossa “Política de Privacidade e Referências” e de tomar qualquer ação que considerarmos apropriada, incluindo, mas não se limitando a, relatar qualquer atividade suspeita ilegal ao autoridades, reguladores ou terceiros e divulgação e informações necessárias para se apropriar de tais pessoas ou entidades.",
+      "rule-seven": "A Placifull reserva-se o direito de investigar reclamações, suspeitas ou violações relatadas de nossos “Termos e Condições” e / ou nossa “Política de Privacidade e Referências” e de tomar qualquer ação que considerarmos apropriada, incluindo, mas não se limitando a, relatar qualquer atividade suspeita ilegal ao autoridades, reguladores ou terceiros e divulgação e informações necessárias para apropriar tais pessoas ou entidades.",
       "rule-eight": "A Placifull não é responsável pelo conteúdo de quaisquer sites não afiliados que possam ter links para ou a partir do nosso site. Esses links são fornecidos apenas para sua conveniência e você os acessa por sua própria conta e risco. Qualquer outro site acessado a partir deste site é independente da Placifull e a Placifull não tem controle sobre o conteúdo desse outro site. Além disso, um link para qualquer outro site não significa que a Placifull endossa ou aceita qualquer responsabilidade pelo conteúdo ou uso de tal outro site.",
-      "rule-nine": "Ao publicar o seu currículo neste site, você está permitindo que qualquer pessoa que tenha adquirido o plano “CV do navegador” visualize o seu currículo.",
+      "rule-nine": "Ao publicar o seu currículo neste site, você está permitindo que qualquer pessoa que tenha adquirido o plano “Buscar CV” visualize o seu currículo.",
       "rule-ten": "O suporte será fornecido apenas em inglês e / ou letão. Se você entrar em contato com a Placifull em qualquer outro idioma, o Google Tradutor será usado para permitir uma resposta. Por isso não garantimos a qualidade do serviço e qualquer erro de comunicação é da responsabilidade do utilizador.",
       "rule-eleven": "A Placifull não oferece nenhuma garantia ou representação de que este site e o Centro de Suporte ao Cliente estarão disponíveis o tempo todo. Os usuários reconhecem que o Site e o Centro de Suporte ao Cliente podem estar indisponíveis devido a atualizações ou outras causas além do controle razoável da Placiful, incluindo, mas não se limitando a, infecção por vírus, falha de energia ou outra “Força Maior”.",
       "rule-twele": "O Usuário está proibido de entrar em contato com a Placifull de forma hostil ou ameaçadora. Qualquer comunicação será interrompida imediatamente e o usuário não será assistido se houver problemas.",
@@ -39,9 +39,9 @@
     "rules": {
       "rule-one": "A Placifull toma todas as medidas razoáveis ​​para proteger o conteúdo do Site com o melhor conhecimento da equipe da Placifull; no entanto, a Placifull não oferece quaisquer garantias ou declarações de que o conteúdo deve ser 100% seguro e seguro.",
       "rule-two": "A Placifull só terá acesso / coleta informações que você nos fornecer voluntariamente. Não iremos vender ou alugar essas informações para ninguém. Usaremos suas informações para responder a você sobre o motivo pelo qual nos contatou. Não compartilharemos suas informações com terceiros, exceto conforme necessário para atender à sua solicitação.",
-      "rule-three": "Se enviar o seu currículo, ele poderá ser visualizado por pessoas com o plano “CV do navegador”, onde você marcou para publicar suas informações pessoais, no seu perfil. A Placifull não se responsabiliza por quaisquer dados que sejam vazados ou acessados ​​de qualquer forma não autorizada.",
-      "rule-four": "Um usuário deste site pode compartilhar o token de indicação que ele / ela foi atribuído a outras pessoas. Quando uma opção é comprada com este token, o usuário será creditado com 10% a 25% do valor da compra.",
-      "rule-five": "Assim que o montante creditado atingir os 25 €, o Utilizador terá o direito de levantar esse montante.",
+      "rule-three": "Se enviar o seu currículo, ele poderá ser visualizado por pessoas com o plano “buscar CV”, onde você marcou para publicar suas informações pessoais, no seu perfil. A Placifull não se responsabiliza por quaisquer dados que sejam vazados ou acessados ​​de qualquer forma não autorizada.",
+      "rule-four": "Um usuário deste site pode compartilhar o token de indicação que lhe foi atribuído a outras pessoas. Quando uma opção é comprada com este token, o usuário será creditado com 10% a 25% do valor da compra.",
+      "rule-five": "Assim que o montante creditado atingir os 25 €, o Utilizador terá o direito de sacar esse montante.",
       "rule-six": "Se, de alguma forma, um usuário deste site for suspeito de ser fraudulento, a conta associada pode ser bloqueada e qualquer valor reduzido a zero."
     }
   },
@@ -49,11 +49,11 @@
     "title": "Pergunta e resposta do usuário:",
     "question-one": {
       "questions": "Como funciona o Placifull?",
-      "answer": "Cada usuário pode publicar uma listagem, que será exibida ao público. Essas listagens estarão acessíveis gratuitamente a todos na rede mundial de computadores. Antes de publicar uma listagem, você precisará adquirir a opção de colocá-la em nosso site. Isso pode ser feito na página Perfil, onde você pode ver quatro opções de compra."
+      "answer": "Cada usuário pode publicar um Anúncio, que será então exibido ao público. Esses Anúncios estarão acessíveis gratuitamente a todos na rede mundial de computadores. Antes de publicar um Anúncio, você precisará adquirir a opção de colocá-la em nosso site. Isso pode ser feito na página Perfil, onde você pode ver quatro opções de compra."
     },
     "question-two": {
-      "questions": "Como posso colocar minha listagem no Placifull?",
-      "answer": "Você precisa ter uma opção que permite colocar uma listagem. Existem três opções para escolher. A primeira opção é uma única postagem. Você o compra e usa sempre que for mais adequado para você. Esta opção não tem data de validade. A segunda e a terceira opções têm data de vencimento e quantidades limitadas. Isso determina quantas Listagens ativas você pode ter com a opção específica. Assim que expirarem, você pode comprá-los novamente. Você pode excluí-los e inseri-los novamente quantas vezes quiser."
+      "questions": "Como posso colocar meu Anúncio no Placifull?",
+      "answer": "Você precisa ter uma opção que permite colocar um Anúncio. Existem três opções para escolher. A primeira opção é uma única postagem. Você o compra e usa sempre que for mais adequado para você. Esta opção não tem data de validade. A segunda e a terceira opções têm data de vencimento e quantidades limitadas. Isso determina quantos Anúncios ativos você pode ter com a opção específica. Assim que expirarem, você pode comprá-los novamente. Você pode excluí-los e inseri-los novamente quantas vezes quiser."
     },
     "question-three": {
       "questions": "Como o pagamento é protegido?",
@@ -64,12 +64,12 @@
       "answer": "No caso improvável de que seu cartão tenha sido cobrado sem nada ter sido comprado, entre em contato conosco por e-mail ou WhatsApp, fornecendo todos os detalhes. As reivindicações válidas serão reembolsadas o mais rápido possível"
     },
     "question-five": {
-      "questions": "Por que minha listagem desapareceu?",
-      "answer": "A listagem aparecerá por 30 dias, a menos que você tenha adquirido uma opção estendida que permite que a Listagem fique ativa por mais de 30 dias."
+      "questions": "Por que meu Anúncio desapareceu?",
+      "answer": "O anúncio aparecerá por 30 dias, a menos que você tenha adquirido uma opção estendida que permite que o Anúncio fique ativo por mais de 30 dias."
     },
     "question-six": {
-      "questions": "Comprei o recurso promovido, mas não vejo minha Listagem?",
-      "answer": "Depois de adquirir a opção promovida, suas Listagens terão a chance de serem exibidas na página principal. O sistema pega todas as listagens que têm a tag promovida adicionada e seleciona aleatoriamente qual exibir na tela."
+      "questions": "Comprei o recurso promovido, mas não vejo meu Anúncio?",
+      "answer": "Depois de adquirir a opção promovida, seus Anúncios terão a chance de serem exibidas na página principal. O sistema pega todos os anúncios que têm a tag promovida adicionada e seleciona aleatoriamente qual exibir na tela."
     },
     "question-seven": {
       "questions": "Como posso sacar meu bônus de indicação?",
@@ -78,6 +78,6 @@
   },
   "end": {
     "title": "Ainda tem alguma dúvida?",
-    "goodbye-text": "Entre em contato conosco na página de contato e entraremos em contato com você o mais breve possível. Resumindo, queremos fazer tudo o que estiver ao nosso alcance para tornar este site melhor. Esteja certo de que nosso foco é discutir quaisquer problemas / dúvidas com o usuário com a mais alta prioridade."
+    "goodbye-text": "Entre em contato conosco na página de contato e retornaremos o mais breve possível. Resumindo, queremos fazer tudo o que estiver ao nosso alcance para tornar este site melhor. Esteja certo de que nosso foco é discutir quaisquer problemas / dúvidas do usuário com a mais alta prioridade."
   }
 }

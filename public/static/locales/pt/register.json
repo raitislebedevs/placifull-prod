@@ -4,7 +4,7 @@
   "form": {
     "first-name": "Primeiro nome",
     "last-name": "Sobrenome",
-    "your-email": "Endereço eletrônico",
+    "your-email": "Endereço de e-mail",
     "email": "E-mail",
     "password": "Senha",
     "confirm-password": "Confirme a senha",
@@ -12,8 +12,8 @@
     "terms-text": "Eu aceito",
     "terms-link": "Termos e Condições",
     "error": {
-      "email-invalid": "Endereço eletrônico inválido",
-      "email-required": "Endereço eletrônico necessário",
+      "email-invalid": "Endereço de e-mail inválido",
+      "email-required": "Endereço de e-mail necessário",
       "password-required": "Senha necessária",
       "first-name-required": "Primeiro nome necessário",
       "last-name-required": "Sobrenome necessário",
@@ -27,5 +27,5 @@
   "google": "Google",
   "account": "Já possui uma conta?",
   "sign-in": "Acessar",
-  "success-text": "Ótimo! Vamos começar!"
+  "success-text": "Registrado com sucesso."
 }

@@ -2,7 +2,7 @@
   "labels": {
     "about-me": "Sobre mim",
     "languages": "Idiomas",
-    "computer-skills": "Conhecimentos de informática",
+    "computer-skills": "Habilidades de informática",
     "education": "Educação",
     "expierience": "Experiência de trabalho",
     "licenses": "Habilitação",
@@ -39,7 +39,7 @@
     "bachelors": "Ensino superior",
     "master": "Mestrado",
     "doctorate": "Doutorado",
-    "other": "Outros"
+    "other": "Outro"
   },
 
   "seniority": {
@@ -54,7 +54,7 @@
     "other": "Outro"
   },
 
-  "avarage-grade": "Grau médio",
+  "avarage-grade": "Nota média",
   "present": "Atual",
   "license-category": "Registro de categoria"
 }

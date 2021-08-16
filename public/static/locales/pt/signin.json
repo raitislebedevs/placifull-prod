@@ -1,12 +1,12 @@
 {
   "heading": "Acesso",
-  "title": "Bem vindo de volta",
+  "title": "Bem vindo de volta.",
   "form": {
-    "your-email": "Informe seu endereço eletrônico",
+    "your-email": "Informe seu endereço de e-mail",
     "email": "E-mail",
     "password": "Senha",
     "submit": "Acessar",
-    "remember-me": "Lembre-me",
+    "remember-me": "Lembre de mim",
     "forgot-password": "Esqueceu a senha?",
     "or": "Ou acesse via",
     "facebook": "Facebook",
@@ -14,8 +14,8 @@
     "not-account": "Não possui uma conta?",
     "sign-up": "Cadastrar-se",
     "error": {
-      "email-invalid": "Endereço eletrônico inválido",
-      "email-required": "Endereço eletrônico necessário",
+      "email-invalid": "Endereço de e-mail inválido.",
+      "email-required": "Endereço de e-mail necessário.",
       "password-required": "Senha necessária"
     },
     "success": "Bem-vindo de volta!",
