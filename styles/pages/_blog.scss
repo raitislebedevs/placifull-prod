@@ -65,6 +65,18 @@
   }
 
   .search-result__paginate {
-    margin-top: 33px;
+    margin-top: 42px;
+  }
+
+  .blog__filters {
+    margin-bottom: 42px;
+    .option__item {
+      background-color: #ffffff;
+      border-radius: 5px;
+      color: #777777;
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 }
