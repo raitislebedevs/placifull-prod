@@ -7,7 +7,11 @@ import { IoMaleFemaleOutline, IoLocationOutline } from 'react-icons/io5';
 import { AiOutlineMail, AiOutlineCalendar } from 'react-icons/ai';
 import Modal from 'react-bootstrap/Modal';
 import Rating from 'react-rating';
-import { formatMonth, formatNumber } from 'utils/standaloneFunctions';
+import {
+  formatDate,
+  formatMonth,
+  formatNumber,
+} from 'utils/standaloneFunctions';
 import { useEffect, useState } from 'react';
 import guidGenerator from 'utils/guidGenerator';
 import Container from 'node_modules/react-bootstrap/esm/Container';
@@ -103,82 +107,123 @@ const CurriculamVitaes = (props) => {
               </div>
               <div className={'cv__role'}>{PersonalDetails?.cvProfession}</div>
               <div className={'contact__seperator'}> </div>
-              <div className={'cv__personal__info'}>
-                <AiOutlineMail className={'cv__icon'} />{' '}
-                <span> {PersonalDetails?.cvPersonalEmail}</span>
-              </div>
-              <div className={'cv__personal__info'}>
-                <FiPhone className={'cv__icon'} />{' '}
-                <span> {PersonalDetails?.cvPhoneNumber}</span>
-              </div>
-              <div className={'cv__personal__info'}>
-                <AiOutlineCalendar className={'cv__icon'} />{' '}
-                <span> {PersonalDetails?.birthDay}</span>
-              </div>
-              <div className={'cv__personal__info'}>
-                <IoMaleFemaleOutline className={'cv__icon'} />{' '}
-                <span>{t(`cv:gender.${PersonalDetails?.gender}`)} </span>
-              </div>
-              <div className={'cv__personal__info'}>
-                <IoLocationOutline className={'cv__icon'} />{' '}
-                <span>
-                  {`${PersonalDetails?.country}, ${PersonalDetails?.state}, ${PersonalDetails?.city}`}
-                </span>
-              </div>
-              <div className={'cv__section'}>
-                <div className={'section__header'}>
-                  {t('cv:labels.about-me')}
+              {PersonalDetails?.cvPersonalEmail && (
+                <div className={'cv__personal__info'}>
+                  <AiOutlineMail className={'cv__icon'} />{' '}
+                  <span> {PersonalDetails?.cvPersonalEmail}</span>
                 </div>
-                <div className={'section__body'}>
-                  {PersonalDetails?.aboutMe}
+              )}
+              {PersonalDetails?.cvPhoneNumber && (
+                <div className={'cv__personal__info'}>
+                  <FiPhone className={'cv__icon'} />{' '}
+                  <span> {PersonalDetails?.cvPhoneNumber}</span>
                 </div>
-              </div>
-              <div className={'cv__section'}>
-                <div className={'section__header'}>
-                  {t('cv:labels.languages')}
+              )}
+              {PersonalDetails?.showAge === 'yes' && PersonalDetails?.birthDay && (
+                <div className={'cv__personal__info'}>
+                  <AiOutlineCalendar className={'cv__icon'} />{' '}
+                  <span> {formatDate(PersonalDetails?.birthDay, t)}</span>
                 </div>
-                <div className={'section__body'}>
-                  {LanguageSkiills?.map((item) => {
-                    return (
-                      <div className={'item__container'} key={guidGenerator()}>
-                        <span>{item?.languageName}</span>
-                        <span className={'cv__ratings'}>
-                          <Rating
-                            stop={7}
-                            initialRating={getRatingValue(item?.level)}
-                            className="real-estate-item-card__ratings"
-                            readonly
-                            fullSymbol={<FaCircle className={'full__circle'} />}
-                            emptySymbol={
-                              <FaCircle className={'empty__circle'} />
-                            }
-                          />
-                        </span>
-                      </div>
-                    );
-                  })}
+              )}
+              {PersonalDetails?.gender !== 'notSpecified' &&
+                PersonalDetails?.gender &&
+                PersonalDetails?.gender && (
+                  <div className={'cv__personal__info'}>
+                    <IoMaleFemaleOutline className={'cv__icon'} />{' '}
+                    <span>{t(`cv:gender.${PersonalDetails?.gender}`)} </span>
+                  </div>
+                )}
+              {(PersonalDetails?.country ||
+                PersonalDetails?.state ||
+                PersonalDetails?.city) && (
+                <div className={'cv__personal__info'}>
+                  <IoLocationOutline className={'cv__icon'} />{' '}
+                  <span>
+                    {`${
+                      PersonalDetails?.country
+                        ? `${PersonalDetails?.country}`
+                        : ''
+                    }${
+                      PersonalDetails?.state && PersonalDetails?.country
+                        ? `,${PersonalDetails?.state}`
+                        : PersonalDetails?.state
+                        ? PersonalDetails?.state
+                        : ''
+                    }${
+                      PersonalDetails?.city ? `, ${PersonalDetails?.city}` : ''
+                    }`}
+                  </span>
                 </div>
-              </div>
-              <div className={'cv__section'}>
-                <div className={'section__header'}>
-                  {t('cv:labels.computer-skills')}
+              )}
+              {PersonalDetails?.aboutMe && (
+                <div className={'cv__section'}>
+                  <div className={'section__header'}>
+                    {t('cv:labels.about-me')}
+                  </div>
+                  <div className={'section__body'}>
+                    {PersonalDetails?.aboutMe}
+                  </div>
                 </div>
-                <div className={'section__body'}>
-                  {ComputerSkiills?.map((item) => {
-                    return (
-                      <div className={'item__container'} key={guidGenerator()}>
-                        <span>{item?.skill}:</span>
-                        <span className={'cv__ratings'}>
-                          {t(`cv:expierience.${item?.yearExpierience}`)} {', '}{' '}
-                          {t(
-                            `cv:knowladge-gained.${item?.expierienceGathered}`
-                          )}
-                        </span>
-                      </div>
-                    );
-                  })}
+              )}
+              {LanguageSkiills?.length > 0 && (
+                <div className={'cv__section'}>
+                  <div className={'section__header'}>
+                    {t('cv:labels.languages')}
+                  </div>
+                  <div className={'section__body'}>
+                    {LanguageSkiills?.map((item) => {
+                      return (
+                        <div
+                          className={'item__container'}
+                          key={guidGenerator()}
+                        >
+                          <span>{item?.languageName}</span>
+                          <span className={'cv__ratings'}>
+                            <Rating
+                              stop={7}
+                              initialRating={getRatingValue(item?.level)}
+                              className="real-estate-item-card__ratings"
+                              readonly
+                              fullSymbol={
+                                <FaCircle className={'full__circle'} />
+                              }
+                              emptySymbol={
+                                <FaCircle className={'empty__circle'} />
+                              }
+                            />
+                          </span>
+                        </div>
+                      );
+                    })}
+                  </div>
                 </div>
-              </div>
+              )}
+              {ComputerSkiills?.length > 0 && (
+                <div className={'cv__section'}>
+                  <div className={'section__header'}>
+                    {t('cv:labels.computer-skills')}
+                  </div>
+                  <div className={'section__body'}>
+                    {ComputerSkiills?.map((item) => {
+                      return (
+                        <div
+                          className={'item__container'}
+                          key={guidGenerator()}
+                        >
+                          <span>{item?.skill}:</span>
+                          <span className={'cv__ratings'}>
+                            {t(`cv:expierience.${item?.yearExpierience}`)}{' '}
+                            {', '}{' '}
+                            {t(
+                              `cv:knowladge-gained.${item?.expierienceGathered}`
+                            )}
+                          </span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
             </Col>
             <Col
               className="preview__cv__detail"
@@ -197,30 +242,34 @@ const CurriculamVitaes = (props) => {
                     {EducationHistory?.map((item) => {
                       return (
                         <div key={guidGenerator()}>
-                          <div className="body__header">
-                            {' '}
-                            {item?.studyArea},{' '}
-                            {t(`cv:qualification.${item?.qualification}`)}{' '}
-                          </div>
-                          <Row className="body__content">
-                            <Col className="left__content">
-                              {item?.schoolName}
-                            </Col>
-                            <Col className="right__content">
-                              <div className="center">
-                                {t(`cv:avarage-grade`)}:
-                                {` ${item?.avarageGrade}`}
+                          {item?.schoolName && (
+                            <>
+                              <div className="body__header">
+                                {' '}
+                                {item?.studyArea},{' '}
+                                {t(`cv:qualification.${item?.qualification}`)}{' '}
                               </div>
-                              <div className="center">
-                                {item?.fromYear &&
-                                  formatMonth(item?.fromYear, t)}{' '}
-                                -{' '}
-                                {item?.toYear
-                                  ? formatMonth(item?.toYear, t)
-                                  : t(`cv:present`)}
-                              </div>
-                            </Col>
-                          </Row>
+                              <Row className="body__content">
+                                <Col className="left__content">
+                                  {item?.schoolName}
+                                </Col>
+                                <Col className="right__content">
+                                  <div className="center">
+                                    {t(`cv:avarage-grade`)}:
+                                    {` ${item?.avarageGrade}`}
+                                  </div>
+                                  <div className="center">
+                                    {item?.fromYear &&
+                                      formatMonth(item?.fromYear, t)}{' '}
+                                    -{' '}
+                                    {item?.toYear
+                                      ? formatMonth(item?.toYear, t)
+                                      : t(`cv:present`)}
+                                  </div>
+                                </Col>
+                              </Row>{' '}
+                            </>
+                          )}
                         </div>
                       );
                     })}
@@ -236,30 +285,34 @@ const CurriculamVitaes = (props) => {
                     {WorkExpierience?.map((item) => {
                       return (
                         <div key={guidGenerator()}>
-                          <div className="body__header">
-                            {' '}
-                            {item?.companyName}
-                          </div>
-                          <Row className="body__content">
-                            <Col className="left__content">
-                              {' '}
-                              {item?.positionName}
-                            </Col>
-                            <Col className="right__content">
-                              <div className="center">
+                          {item?.companyName && (
+                            <>
+                              <div className="body__header">
                                 {' '}
-                                {item?.fromDate &&
-                                  formatMonth(item?.fromDate, t)}{' '}
-                                -{' '}
-                                {item?.toDate
-                                  ? formatMonth(item?.toDate, t)
-                                  : t(`cv:present`)}
+                                {item?.companyName}
                               </div>
-                            </Col>
-                          </Row>
-                          <Row className={'content__description'}>
-                            {item?.positionDescription}
-                          </Row>
+                              <Row className="body__content">
+                                <Col className="left__content">
+                                  {' '}
+                                  {item?.positionName}
+                                </Col>
+                                <Col className="right__content">
+                                  <div className="center">
+                                    {' '}
+                                    {item?.fromDate &&
+                                      formatMonth(item?.fromDate, t)}{' '}
+                                    -{' '}
+                                    {item?.toDate
+                                      ? formatMonth(item?.toDate, t)
+                                      : t(`cv:present`)}
+                                  </div>
+                                </Col>
+                              </Row>
+                              <Row className={'content__description'}>
+                                {item?.positionDescription}
+                              </Row>
+                            </>
+                          )}
                         </div>
                       );
                     })}
@@ -275,20 +328,26 @@ const CurriculamVitaes = (props) => {
                     {TransportLicenses?.map((item) => {
                       return (
                         <div key={guidGenerator()}>
-                          <div className="body__header">
-                            {item?.issueCountry}
-                          </div>
-                          <Row className="body__content">
-                            <Col className="left__content">
-                              {t(`cv:license-category`)}: {item?.licence}
-                            </Col>
-                            <Col className="right__content">
-                              <div className="center">
-                                {t(`cv:expierience.${item?.yearExpierience}`)}{' '}
-                                {t(`cv:expierience.label`)}{' '}
+                          {item?.licence && (
+                            <>
+                              <div className="body__header">
+                                {item?.issueCountry}
                               </div>
-                            </Col>
-                          </Row>
+                              <Row className="body__content">
+                                <Col className="left__content">
+                                  {t(`cv:license-category`)}: {item?.licence}
+                                </Col>
+                                <Col className="right__content">
+                                  <div className="center">
+                                    {t(
+                                      `cv:expierience.${item?.yearExpierience}`
+                                    )}{' '}
+                                    {t(`cv:expierience.label`)}{' '}
+                                  </div>
+                                </Col>
+                              </Row>
+                            </>
+                          )}
                         </div>
                       );
                     })}
@@ -304,40 +363,46 @@ const CurriculamVitaes = (props) => {
                     {WorkExpectations?.map((item) => {
                       return (
                         <div key={guidGenerator()}>
-                          {' '}
-                          <div className="body__header"> {item?.position}</div>
-                          <Row className="body__content">
-                            <Col className="left__content">
-                              <div>
-                                {t(
-                                  `job-common:work-area.options.${item?.vacancyOption}`
-                                )}
+                          {item?.vacancyOption && (
+                            <>
+                              <div className="body__header">
+                                {' '}
+                                {item?.position}
                               </div>
-                            </Col>
-                            <Col className="right__content">
-                              {item?.hourlyRate && (
-                                <div className="center">
-                                  {t(`job-common:salary.hourly-rate-from`)}:{' '}
-                                  {`${cvCurrency} `}
-                                  {formatNumber(item.hourlyRate)}
-                                </div>
-                              )}
-                              {item?.monthly && (
-                                <div className="center">
-                                  {t(`job-common:salary.monthly-from`)}:{' '}
-                                  {`${cvCurrency} `}
-                                  {formatNumber(item.monthly)}
-                                </div>
-                              )}
-                              {item?.yearly && (
-                                <div className="center">
-                                  {t(`job-common:salary.annual-from`)}:{' '}
-                                  {`${cvCurrency} `}
-                                  {formatNumber(item.yearly)}
-                                </div>
-                              )}
-                            </Col>
-                          </Row>
+                              <Row className="body__content">
+                                <Col className="left__content">
+                                  <div>
+                                    {t(
+                                      `job-common:work-area.options.${item?.vacancyOption}`
+                                    )}
+                                  </div>
+                                </Col>
+                                <Col className="right__content">
+                                  {item?.hourlyRate && (
+                                    <div className="center">
+                                      {t(`job-common:salary.hourly-rate-from`)}:{' '}
+                                      {`${cvCurrency} `}
+                                      {formatNumber(item.hourlyRate)}
+                                    </div>
+                                  )}
+                                  {item?.monthly && (
+                                    <div className="center">
+                                      {t(`job-common:salary.monthly-from`)}:{' '}
+                                      {`${cvCurrency} `}
+                                      {formatNumber(item.monthly)}
+                                    </div>
+                                  )}
+                                  {item?.yearly && (
+                                    <div className="center">
+                                      {t(`job-common:salary.annual-from`)}:{' '}
+                                      {`${cvCurrency} `}
+                                      {formatNumber(item.yearly)}
+                                    </div>
+                                  )}
+                                </Col>
+                              </Row>
+                            </>
+                          )}
                         </div>
                       );
                     })}

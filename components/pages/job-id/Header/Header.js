@@ -31,6 +31,7 @@ const Header = (props) => {
     if (!user)
       return TostifyCustomContainer(
         'info',
+        t('common:toast.messages.info'),
         t('job-application:job-apply.toast.log-in')
       );
 
@@ -55,6 +56,7 @@ const Header = (props) => {
       if (element?.cv?.id === user?.curriculumVitae?.id) {
         TostifyCustomContainer(
           'info',
+          t('common:toast.messages.info'),
           t('job-application:job-apply.toast.applied')
         );
         result = true;
