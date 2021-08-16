@@ -1,6 +1,5 @@
 {
   "title": "Perfil",
-
   "overview": {
     "button-label": {
       "change": "Trocar a imagem",
@@ -20,7 +19,7 @@
     "real-estate": "Anúncios imobiliários",
     "transport": "Anúncios de transporte",
     "job": "Anúncios de empregos",
-    "browser": "Pesquisa de CV"
+    "browser": "Buscar CV"
   },
   "left-tab": {
     "navigation": "Navegação",
@@ -30,7 +29,7 @@
       "real-estate": "Imóveis",
       "transport": "Transporte",
       "jobs": "Empregos",
-      "browser": "Pesquisa de CV",
+      "browser": "Buscar CV",
       "payment": "Recibos de pagamento",
       "logout": "Encerrar a sessão"
     }
@@ -75,7 +74,7 @@
         "confirm-password": "Confirme a senha",
         "button-save": "Salvar a senha",
         "validation": {
-          "current-password-required": "Por, favor, confirme a senha",
+          "current-password-required": "Por favor, confirme a senha",
           "new-password-required": "Falta a senha nova ",
           "password-not-match": "Senhas não conferem",
           "confirm-password-required": "Por favor, confirme a senha"
@@ -179,7 +178,7 @@
               }
             },
             "about-me": "Qual o seu diferencial?",
-            "cv-published": "Publicados",
+            "cv-published": "Publicado",
             "cv-hidden": "Escondido"
           }
         },
@@ -204,7 +203,7 @@
               }
             },
             "best-fit": "Adequação profissional",
-            "grade": "Grau médio",
+            "grade": "Nota média",
             "button-add": "Adicionar formação"
           }
         },
@@ -255,9 +254,9 @@
           }
         },
         "computer": {
-          "title": "Conhecimentos de informática",
+          "title": "Habilidades em informática",
           "accordion": {
-            "skill-name": "Habilidade em informática",
+            "skill-name": "Habilidades em informática",
             "knowladge-gained": {
               "label": "Conhecimentos adquiridos",
               "options": {

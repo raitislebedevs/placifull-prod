@@ -1,5 +1,5 @@
 {
-  "car": "Veículo de passeio",
+  "car": "Carro",
   "motorcycle": "Motocicleta",
   "withTrailer": "Com reboque",
   "withSemiTrailer": "Com semi-reboque",
@@ -15,7 +15,7 @@
   "nonNeeded": "Desnecessário",
   "highSchool": "Ensino Médio",
   "collage": "Universidade",
-  "vacational": "Formação profissional",
+  "vacational": "Formação técnica",
   "undergraduate": "Universitário",
   "bachelorDegree": "Ensino Superior",
   "masterDegree": "Mestrado",

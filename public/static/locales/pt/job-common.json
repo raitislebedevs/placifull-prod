@@ -21,7 +21,7 @@
   },
   "contact-times": {
     "label": "Horário para contato",
-    "placeholder": "Escolha horário preferencial para contato",
+    "placeholder": "Escolha o horário preferencial para contato",
     "not-specified": "Não especificado",
     "options": {
       "any-time": "Qualquer horário",
@@ -33,7 +33,7 @@
   "features": {
     "heading": "Características",
     "licenses": "Habilitação",
-    "education": "Formação/Títulação",
+    "education": "Formação/Titulação",
     "expierience": "Experiência em anos",
     "candiadate": "O candidato deve ser capaz de",
     "weOffer": "Oferecemos"
@@ -50,7 +50,7 @@
   "work-area": {
     "label": "Área de trabalho",
     "options": {
-      "intern": "Estágio",
+      "intern": "Estagiário",
       "volunteerWork": "Trabalho voluntário",
       "stockExchange": "Bolsa de valores",
       "administrationAssistance": "Administração/assistência",
@@ -67,7 +67,7 @@
       "jurisprudenceJustice": "Jurisprudência/Justiça",
       "cultureArtEntertainemnt": "Cultura/Arte/Entretenimento",
       "sports": "Esportes",
-      "qualityControl": "Controle de Qualidade/Gestão da Qualidade",
+      "qualityControl": "Controle de Qualidade/Gestão de Qualidade",
       "agricutureEnvironmental": "Agricultura/Ciências Ambientais",
       "medicineSocialCare": "Medicina/Assistência social",
       "mediaPublicRelations": "Mídia/Relações públicas",
