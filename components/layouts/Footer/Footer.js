@@ -145,7 +145,7 @@ const Footer = (props) => {
                 </a>
               </li>
               <li>
-                <a href="/" className="list__items">
+                <a href="/blog" className="list__items">
                   {' '}
                   <FontAwesomeIcon icon="chevron-right" className="icon" />{' '}
                   {t('footer:top.list-menu.menu-2.items.item-4')}

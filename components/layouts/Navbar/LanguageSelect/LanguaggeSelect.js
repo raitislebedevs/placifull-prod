@@ -3,7 +3,7 @@ import Flags from 'country-flag-icons/react/3x2';
 import Select, { components } from 'react-select';
 import { i18n, withTranslation } from 'i18n';
 import languages from './languages.js';
-import languageService from 'services/languageService.js';
+import LanguageService from 'services/languageService.js';
 const ipLocation = require('iplocation');
 
 const Option = ({ children, value, ...props }) => {
@@ -32,7 +32,7 @@ const LanguageSelect = (props) => {
     if (localStorage.getItem('countryCode')) {
       return true;
     }
-    const local = await languageService.LOCAL();
+    const local = await LanguageService.LOCAL();
     const result = await ipLocation(local.IPv4);
     localStorage.setItem('countryCode', result?.country?.code.toLowerCase());
 

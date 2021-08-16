@@ -110,3 +110,7 @@ export const VOTING_BOARD = {
 export const REFERRAL_PROGRAM = {
   BASE: '/referral-programs',
 };
+
+export const BLOGS = {
+  BASE: '/blogs',
+};

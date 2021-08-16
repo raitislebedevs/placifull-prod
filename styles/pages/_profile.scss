@@ -7,6 +7,74 @@
   }
   @import "../components/pages/profile/Details";
   @import "../components/pages/profile/Overview";
+
+  .section__dropzone {
+    height: 150px;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px dashed theme-color("primary");
+    transition: 0.2s all;
+    background-color: rgba(0, 0, 0, 0.05);
+    .dropzone__text {
+      color: #7b7b7b;
+      font-weight: 600;
+      font-size: 13px;
+    }
+
+    .dropzone__icon {
+      svg {
+        color: theme-color("primary");
+        font-size: 45px;
+      }
+    }
+    &:hover {
+      border: 2px dashed theme-color("primary");
+    }
+  }
+  .blog__button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dropzone-thumbnail-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    justify-content: center;
+    .dropzone-thumbnail-container__thumb {
+      display: inline-flex;
+      border-radius: 5px;
+      border: 1px solid #eaeaea;
+      margin-bottom: 8px;
+      margin-right: 8px;
+      width: 350px;
+      height: 350px;
+      padding: 4px;
+      box-sizing: border-box;
+      position: relative;
+      .thumb__inner {
+        display: flex;
+        min-width: 0;
+        overflow: hidden;
+        .inner__image {
+          display: block;
+          width: auto;
+          height: 100%;
+        }
+        .inner__remove {
+          top: -10px;
+          right: 0px;
+          position: absolute;
+          color: #d82323;
+          cursor: pointer;
+        }
+      }
+    }
+  }
 }
 
 @import "../components/pages/profile/Curriculam_Vitaes";
