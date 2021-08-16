@@ -1,21 +1,27 @@
 import { useEffect, useState } from 'react';
+import LanguageService from 'services/languageService.js';
+
 //Based on Popularity component
-const usePopularity = (listingItem, Service) => {
+const usePopularity = (component, Service) => {
   const [isLoading, setIsLoading] = useState(false);
   const [liveViews, setLiveViews] = useState(2);
   const [starValue, setStarValue] = useState();
 
   useEffect(() => {
     handlePopularity();
-  }, []);
+  }, [component]);
 
   const handleRating = async (rate) => {
-    if (!listingItem.id) return;
+    if (!component.id) return;
 
     setIsLoading(true);
     try {
-      const rating = listingItem?.popularity?.rating || 0;
-      const voteCount = listingItem?.popularity?.voteCount || 0;
+      const rating = component?.popularity?.rating || 0;
+      const voteCount = component?.popularity?.voteCount || 0;
+      let usersVoted = component?.popularity?.usersVoted || [];
+      const local = await LanguageService.LOCAL();
+
+      if (usersVoted.includes(local.IPv4)) return;
 
       let newRate =
         parseFloat(
@@ -24,14 +30,16 @@ const usePopularity = (listingItem, Service) => {
 
       let payload = {
         popularity: {
+          ...component.popularity,
           views: liveViews,
           rating: newRate,
           voteCount: voteCount + 1,
+          usersVoted,
         },
       };
       setStarValue(newRate);
 
-      await Service.UPDATE(listingItem.id, payload);
+      await Service.UPDATE(component.id, payload);
     } catch (error) {
       setIsLoading(false);
     }
@@ -39,22 +47,29 @@ const usePopularity = (listingItem, Service) => {
   };
 
   const handlePopularity = async () => {
-    if (!listingItem.id) return;
+    if (!component.id) return;
 
     try {
-      setStarValue(listingItem?.popularity?.rating || 0);
-      let views = listingItem?.popularity?.views || 0;
+      const local = await LanguageService.LOCAL();
+      let usersViewed = component?.popularity?.usersViewed || [];
+
+      if (usersViewed.includes(local.IPv4)) return;
+
+      usersViewed.push(local.IPv4);
+      setStarValue(component?.popularity?.rating || 0);
+      let views = component?.popularity?.views || 0;
       views++;
       setLiveViews(views || 0);
       if (!views) return;
 
       let payload = {
         popularity: {
-          ...listingItem.popularity,
+          ...component.popularity,
           views,
+          usersViewed,
         },
       };
-      await Service.UPDATE(listingItem.id, payload);
+      await Service.UPDATE(component.id, payload);
     } catch (error) {}
   };
 

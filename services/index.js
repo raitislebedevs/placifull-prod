@@ -18,3 +18,4 @@ export { default as StripeServiss } from './stripeServiss';
 export { default as SubscriberService } from './subscriberService';
 export { default as VotingBoardService } from './votingBoardService';
 export { default as RefferalServices } from './refferalServices';
+export { default as BlogService } from './blogService';

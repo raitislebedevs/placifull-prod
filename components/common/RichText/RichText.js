@@ -2,11 +2,17 @@ import React, { useRef } from 'react';
 import { Editor } from '@tinymce/tinymce-react';
 
 const RichText = (props) => {
-  const { t, value, initialValue, onChange, id } = props;
+  const { t, value, initialValue, handleOnChange, id, setPureText } = props;
   const editorRef = useRef(null);
-  const log = () => {
+  const onChange = () => {
     if (editorRef.current) {
-      console.log(editorRef.current.getContent());
+      let richText = editorRef.current.getContent();
+      var pureText = editorRef.current
+        .getContent({ format: 'text' })
+        .replace(/\r?\n|\r/g, '');
+
+      setPureText(pureText);
+      handleOnChange({ target: { value: richText, id } });
     }
   };
   return (

@@ -8,6 +8,7 @@ import {
 import { FcCancel } from 'react-icons/fc';
 import { GiModernCity, GiArchiveResearch } from 'react-icons/gi';
 import { MdPayment } from 'react-icons/md';
+import { FaBlog } from 'react-icons/fa';
 import { CgWorkAlt } from 'react-icons/cg';
 import {
   Row,
@@ -123,6 +124,13 @@ const LeftTabs = (props) => {
       icon: <GiArchiveResearch size="30px" />,
       disabled: permissions?.browserCv,
     },
+    {
+      key: 'blog-content',
+      label: 'Blog Content',
+      icon: <FaBlog size="30px" />,
+      disabled: true,
+      admin: false,
+    },
 
     /*{
       key: 'payment-receipts',
@@ -164,6 +172,9 @@ const LeftTabs = (props) => {
         <div className="detail-container__left-tab">
           <Row>
             {tabsMenu.map((item) => {
+              if (item.key === 'blog-content' && !user?.blogContent) {
+                return;
+              }
               return (
                 <Col
                   key={item.key}
