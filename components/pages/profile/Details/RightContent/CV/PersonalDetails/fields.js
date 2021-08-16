@@ -82,13 +82,13 @@ const fields = (t) => [
         ),
         id: 'showAge',
       },
-      {
-        value: 'birthDateOnly',
-        label: t(
-          'profile:right-content.profile.personal-details.labels.age.only-birth-date'
-        ),
-        id: 'showAge',
-      },
+      // {
+      //   value: 'birthDateOnly',
+      //   label: t(
+      //     'profile:right-content.profile.personal-details.labels.age.only-birth-date'
+      //   ),
+      //   id: 'showAge',
+      // },
     ],
   },
   {
@@ -113,7 +113,7 @@ const fields = (t) => [
         id: 'gender',
       },
       {
-        value: 'female',
+        value: 'women',
         label: t(
           'profile:right-content.profile.personal-details.labels.gender.women'
         ),

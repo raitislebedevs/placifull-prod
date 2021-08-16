@@ -5,6 +5,7 @@ import { VacancyListingService } from 'services';
 import Link from 'next/link';
 import { formatNumber } from 'utils';
 import useUserListings from 'hooks/useUserListings';
+import { formatDate } from 'utils/standaloneFunctions';
 
 const ExtraSection = (props) => {
   const { t, listingItem } = props;
@@ -99,11 +100,7 @@ const ExtraSection = (props) => {
                                 } ${formatNumber(item?.annualSalaryFrom)} `}
                             </div>
                           </td>
-                          <td>
-                            {t(
-                              `job-detail:extra.table.condition.${item?.condition}`
-                            )}
-                          </td>
+                          <td>{item?.expiryDate}</td>
                         </tr>
                       </Link>
                     );

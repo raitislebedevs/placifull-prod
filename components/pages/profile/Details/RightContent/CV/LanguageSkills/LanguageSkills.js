@@ -178,7 +178,7 @@ const LanguageSkills = (props) => {
         <Col lg={6} className="wrapper__body--footer__left">
           <div className="footer__button-wrapper">
             <Button
-              onClick={() => props.goNext('Languages')}
+              onClick={() => props.goNext('workExpierience')}
               variant="outline-primary"
               className="footer-wrapper__prev"
             >

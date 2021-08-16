@@ -55,7 +55,7 @@
           "gender": {
             "label": "Sex",
             "men": "Male",
-            "women": "Female",
+            "female": "Female",
             "not-specified": "Don't show"
           },
           "age": {
@@ -386,7 +386,7 @@
   },
   "reffaral": {
     "heading": "Referral program",
-    "balance": "Ballance",
+    "balance": "Amount",
     "code": "Referral code",
     "percantage": "Percentage",
     "next": "Next increase",
