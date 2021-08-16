@@ -227,7 +227,7 @@ const RealEstatePost = (props) => {
             errors[i]
           );
       }
-      // return;
+      return;
     }
     setPaymentModal(true);
   };
