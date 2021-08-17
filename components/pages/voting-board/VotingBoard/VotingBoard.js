@@ -15,7 +15,7 @@ const VotingBoard = (props) => {
   const [limit, setLimit] = useState(9);
   const [skip, setSkip] = useState(0);
   const [total, setTotal] = useState(45);
-  const [rating, setRating] = useState(45);
+  const [rating, setRating] = useState(5);
   const [votingItems, setVotingItems] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [isVoting, setIsVoting] = useState(false);
@@ -95,12 +95,11 @@ const VotingBoard = (props) => {
 
       votedUserList.push(user.id);
 
-      const rating = rating;
       const totalRaters = votingItem?.totalRaters || 0;
 
       let newRate =
         parseFloat(
-          ((rate + rating * totalRaters) / (totalRaters + 1)).toFixed(1)
+          ((rating + rate * totalRaters) / (totalRaters + 1)).toFixed(1)
         ) || rate;
 
       if (totalRaters == 0) {
@@ -172,12 +171,13 @@ const VotingBoard = (props) => {
   };
 
   const handleRatingChange = (e, id) => {
+    console.log(e);
     if (id === voteItem) {
       setRating(e);
       setVoteItem(id);
       return;
     }
-
+    console.log(e);
     setRating(e);
     setVoteItem(id);
     setVotingOption('');
