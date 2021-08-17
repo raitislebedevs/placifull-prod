@@ -1,7 +1,6 @@
 {
   "heading": "Pateikti pasiūlymą",
   "title": "Transportas",
-
   "form": {
     "submit": "Pateikti",
     "submit-confirm": "Saugoma…",
@@ -46,7 +45,7 @@
             "specific-times": "Konkrečiu laiku"
           }
         },
-        "listing-website": "Svetainė: gttps://"
+        "listing-website": "Svetainė: https://"
       },
       "features": {
         "heading": "Funkcijos",
@@ -68,7 +67,7 @@
     },
     "contact-hours": {
       "heading": "Susisiekimo valandos",
-      "heading-tip": "Nenurodyta",
+      "heading-tip": "Neprivaloma",
       "accordion": {
         "heading": "Nurodykite jums tinkamiausią laiką susitikimui/pokalbiui…",
         "start-time": "Nuo",

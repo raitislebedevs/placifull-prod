@@ -74,7 +74,7 @@
         "confirm-password": "Patvirtinti slaptažodį",
         "button-save": "Išsaugoti slaptažodį",
         "validation": {
-          "current-password-required": "Prašome Patvirtinkite Slaptažodį",
+          "current-password-required": "Prašome Patvirtinti Slaptažodį",
           "new-password-required": "Trūksta naujo slaptažodžio ",
           "password-not-match": "Slaptažodžiai nesutampa",
           "confirm-password-required": "Prašome patvirtinkite slaptažodį"
@@ -151,7 +151,7 @@
       }
     },
     "cv": {
-      "title": "Gyvenimo aprašymai",
+      "title": "Gyvenimo aprašymas",
       "sections": {
         "personal-details": {
           "form": {

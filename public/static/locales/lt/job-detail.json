@@ -12,9 +12,9 @@
       "heading": "Įrašykite savo klausimą čia",
       "fullName": "Pilnas vardas*",
       "phoneNumber": "Telefono numeris*",
-      "email": "El. Pašto adresas",
+      "email": "El. pašto adresas",
       "message": "Jūsų žinutė",
-      "submit": "Siųsti žinutę"
+      "submit": "SIŲSTI ŽINUTĘ"
     }
   },
   "about": {
@@ -48,7 +48,7 @@
   },
 
   "extra": {
-    "heading": "Kiti šio darbdavio siūlomi darbai ",
+    "heading": "Šio darbdavio siūlomi darbai ",
     "table": {
       "number": "Nr.",
       "country": "Šalis",

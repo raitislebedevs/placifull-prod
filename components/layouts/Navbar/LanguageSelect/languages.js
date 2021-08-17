@@ -20,13 +20,13 @@ const languages = [
   //   },
   //   label: 'Eesti',
   // },
-  // {
-  //   value: {
-  //     lang: 'lt',
-  //     flag: 'LT',
-  //   },
-  //   label: 'Lietuvos',
-  // },
+  {
+    value: {
+      lang: 'lt',
+      flag: 'LT',
+    },
+    label: 'Lietuvos',
+  },
   // {
   //   value: {
   //     lang: 'de',

@@ -1,14 +1,13 @@
 {
   "title": "Ieškoti transporto",
-
   "hero": {
     "form": {
       "currency": "Valiuta",
       "no-currency": "VISI",
       "min-price": "Minimumas: 0.00",
       "max-price": "Maksimumas: 9,999,999,999",
-      "transport-brand": "Transporto priemonės modelis",
-      "transport-model": "Transporto priemonės prekinis ženklas",
+      "transport-brand": "Transporto priemonės prekinis ženklas",
+      "transport-model": "Transporto priemonės prekinis modelis",
       "min-age": "Minimalus amžius",
       "max-age": "Maksimalus amžius",
       "submit": "Ieškoti dabar",

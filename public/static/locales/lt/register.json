@@ -4,7 +4,7 @@
   "form": {
     "first-name": "Vardas",
     "last-name": "Pavardė",
-    "your-email": "Įvesk savo el. paštą",
+    "your-email": "Jūsų el. paštas",
     "email": "El. paštas",
     "password": "Slaptažodis",
     "confirm-password": "Patvirtinti slaptažodį",
@@ -26,6 +26,6 @@
   "facebook": "Facebook",
   "google": "Google",
   "account": "Jau turi paskyrą?",
-  "sign-in": "Registruokis su",
+  "sign-in": "Prisijungti",
   "success-text": "Šaunu, pradėkime!"
 }

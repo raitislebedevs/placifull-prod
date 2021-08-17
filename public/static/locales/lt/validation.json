@@ -1,6 +1,6 @@
 {
   "common": {
-    "name": "Būtinas sąrašo pavadinimas.",
+    "name": "Būtinas pasiūlymo pavadinimas.",
     "currency": {
       "required": "Privalote nurodyti valiutą"
     },
@@ -12,8 +12,8 @@
     "country": "Privalote nurodyti šalį",
     "city": "Apsvarstykite miestą",
     "description": {
-      "minLength": "Aprašymas negali viršyti 1000 simbolių",
-      "maxLength": "Aprašymas privalo turėti bent 20 simbolių",
+      "minLength": "Aprašymas privalo turėti bent 20 simbolių",
+      "maxLength": "Aprašymas negali viršyti 1000 simbolių",
       "required": "Privalote pridėti aprašymą"
     },
 
@@ -30,8 +30,8 @@
       "required": "Privalote nurodyti telefono numerį"
     },
     "email": {
-      "valid": "Prašome nurodyti teisinga El. Pašto adresą",
-      "required": "Privalote nurodyti El. Pašto adresą"
+      "valid": "Prašome nurodyti teisinga el. pašto adresą",
+      "required": "Privalote nurodyti el. pašto adresą"
     },
     "contact": {
       "required": "Privalote nurodyti susisiekimo laiką"

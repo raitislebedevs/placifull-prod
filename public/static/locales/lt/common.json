@@ -3,7 +3,7 @@
     "loading": "kraunama…",
     "loading-right": "Kraunama…",
     "loading-left": "…Kraunama",
-    "no-results": "Nieko nerasta"
+    "no-results": "Rezultatų nerasta"
   },
   "user": {
     "name": "Vardas",
@@ -23,7 +23,7 @@
   },
 
   "social-links": {
-    "heading": "Socialiniai saitai",
+    "heading": "Socialiniai tinklai",
     "facebook": "Facebook: https://",
     "twitter": "Twitter: https://",
     "youtube": "Youtube: https://",
@@ -32,7 +32,7 @@
   },
 
   "social": {
-    "heading": "Socialiniai saitai",
+    "heading": "Socialiniai tinklai",
     "facebook": "Facebook",
     "twitter": "Twitter",
     "youtube": "Youtube",
@@ -54,9 +54,9 @@
     "submit-success": "Jūsų įrašas buvo paskelbtas!",
     "server-error": "Neteisingai įvesta/Serveris nepasiektas",
     "logging-required": "Būtina prisijungti",
-    "cannot-apply": "Hey, tai yra peržiūra",
-    "preview": "Norint siūlyti kaina, privalote prisijungti",
-    "log-in": "Pasiūlymų kainos nėra",
+    "cannot-apply": "Ei, tai yra peržiūra",
+    "preview": "Peržiūroje kainos siūlyti negalima",
+    "log-in": "Norint siūlyti kainą, privalote prisijungti",
     "bidding-price": "Pasiūlymų kainos nėra",
     "price-lower": "Pasiūlyta kaina yra žemesnė nei 20% paskelbtų kainų",
     "price-upper": "Pasiūlyta kaina yra aukštesnė nei 20% paskelbtų kainų",
@@ -65,15 +65,15 @@
     "contact-directly": "Susisiekite su mumis",
     "email-send": "El. Laiškas išsiųstas",
     "no-email": "El. Pašto adresas neegzistuoja",
-    "subscribed": "Sveikiname, užsiprenumeravote :)",
+    "subscribed": "Sveikiname, jūs užsiprenumeravote :)",
     "already-applied": "Jūs jau aplikavote šiai pozicijai",
     "already": "Jau užprenumeravote/neteisingas El. Paštas",
-    "country-error": "Nežinoma klaida",
+    "country-error": "Nežinoma klaida įvedant šalį",
     "location-error": "Nepavyko gauti vietų",
     "unknown-error": "Nežinoma serverio klaida",
     "search-results": {
       "found": "Rasta",
-      "items": "Skelbimų"
+      "items": "Skelbimai"
     },
     "not-found": "Naujų rezultatų nerasta",
     "messages": {
@@ -132,7 +132,7 @@
     "system": {
       "none": "Nieko",
       "metric": "Metrika",
-      "imperial": "Imperialas"
+      "imperial": "Imperinis"
     }
   },
   "user-box": {
