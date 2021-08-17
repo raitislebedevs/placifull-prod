@@ -34,7 +34,6 @@
   "contact-form": {
     "heading": "Susisiekite su savininku",
     "not-specified": "Nenurodyta",
-
     "form": {
       "heading": "Savo klausimą įrašykite čia",
       "fullName": "Pilnas vardas",
@@ -52,7 +51,7 @@
       "full-address": "Pilnas adresas",
       "property-type": "Nuosavybės tipas",
       "price": "Kaina",
-      "area": "Zona",
+      "area": "Plotas",
       "bed-rooms": "Kambariai",
       "year-built": "Pastatymo metai"
     }

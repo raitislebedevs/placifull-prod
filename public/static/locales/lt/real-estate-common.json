@@ -39,7 +39,7 @@
     "label": "Susisiekimo laikas",
     "options": {
       "anyTime": "Bet kada",
-      "workingDays": "Savaitės dienomis",
+      "workingDays": "Darbo dienomis",
       "officeHours": "Darbo valandomis",
       "specificTimes": "Konkrečiu laiku"
     }

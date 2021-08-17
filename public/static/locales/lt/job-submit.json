@@ -1,7 +1,6 @@
 {
-  "heading": "Pateikti sąrašą",
+  "heading": "Pateikti skelbimą",
   "title": "Darbas",
-
   "form": {
     "submit-confirm": "Saugoma…",
     "preview-sneak-peak": "Generuajama…",
@@ -10,7 +9,7 @@
     "no-features": "Prašome pasirinkti skelbimų kategoriją",
     "job-title": {
       "title": "Pozicijos pavadinimas ",
-      "placeholder": "Pareigos pavadinimas, pvz. Placifull globėjas"
+      "placeholder": "Pareigos pavadinimas"
     },
     "company": "Kompanijos pavadinimas",
     "submit": "PATEIKTI",
@@ -29,7 +28,7 @@
       },
       "contact": {
         "heading": "Kontaktai",
-        "email": "El. Paštas",
+        "email": "El. paštas",
         "phone": "Telefono numeris",
         "address": "Adresas",
         "listing-website": "Svetainė: https://"
@@ -38,15 +37,15 @@
     "gallery": {
       "heading": "Kompanijos logotipas",
       "click-drop": "Pasirinkite arba vilkite logotipą čia",
-      "video-url": "Vaizdo įrašo url: kttps://"
+      "video-url": "Vaizdo įrašo url: https://"
     },
     "contact-hours": {
       "heading": "Darbo valandos",
       "heading-tip": "Neprivaloma",
       "accordion": {
-        "heading": "Darbuotojas privalės darbuotis šiais laikais…",
-        "start-time": "Darbo pradžia",
-        "end-time": "Darbo pabaiga"
+        "heading": "Darbuotojas privalės dirbti šiuo laiku…",
+        "start-time": "Darbas prasideda",
+        "end-time": "Darbo pasibaigia"
       }
     },
     "input-languages": {

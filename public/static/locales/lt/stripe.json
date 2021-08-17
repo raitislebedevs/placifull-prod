@@ -2,7 +2,7 @@
   "main": {
     "success": "Apmokėjimas sėkmingas.",
     "plan_update": "Mes negalėjome atnaujinti jūsų plano.",
-    "card_not": "Kortelė nebuvo papildyta.",
+    "card_not": "Kortelė nebuvo apmokestinta.",
     "pay": "Mokėti € ",
     "processing": "Jungiama…"
   },
@@ -15,7 +15,7 @@
     "incomplete_cvc": "Jūsų kortelės kodas neteisingai įvestas",
     "incomplete_expiry": "Jūsų kortelės galiojimo data neteisingai įvesta",
     "incomplete_number": "Jūsų kortelės numeris neteisingai įvestas",
-    "email_invalid": "El. Pašto adresas negalioja"
+    "email_invalid": "El. pašto adresas negalioja"
   },
 
   "declined": {

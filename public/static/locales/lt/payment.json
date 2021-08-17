@@ -10,7 +10,7 @@
     "quantity-label": "Kiekis",
     "listed": "Paskelbta:",
     "purchase": "Įsigyta:",
-    "extend-expiry": "Pratęstas galiojimo laikas",
+    "extend-expiry": "Pratęsti galiojimo laiką",
     "promote": "Reklamuoti",
     "subscription-valid": "Parinktis galioja",
     "days": "dieną/ų",
@@ -79,7 +79,7 @@
     "thank-you-message": "Dėkojame kad palaikote Placifull kompaniją. Tikimės, kad liksite patenkinti savo pasirinkimu. ",
     "buttons": {
       "cancel": "Atšaukti",
-      "proceed": "Mokėti & Tęsti"
+      "proceed": "Mokėti ir Tęsti"
     }
   },
   "error": {

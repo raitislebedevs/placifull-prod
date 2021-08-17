@@ -1,19 +1,30 @@
 {
-  "internal-error": "Unknown error from server. Please try again later.",
-  "server-error-api": "Server Error.",
-  "connection-error": "Cannot connect to the server. Please try again later.",
-  "server-not-reached": "So embarrising! The server can't be reached. Please contact us, or try again later.",
+  "internal-error": "Nežinoma serverio klaida. Pabandykite vėliau.",
+  "server-error-api": "Serverio klaida.",
+  "connection-error": "Negalima prisijungti prie serverio. Pabandykite vėliau.",
+  "server-not-reached": "Kaip gėda! Serveris nepasiekiamas. Susisiekite su mumis arba bandykite vėliau.",
   "Auth": {
     "form": {
       "error": {
-        "invalid": "Email or password invalid.",
+        "invalid": "El. paštas arba slaptažodis neteisingas.",
         "user": {
-          "not-exist": "User with this email does not exist"
+          "not-exist": "Vartotojas su šiuo el. paštu neegzistuoja.",
+          "user-blocked": "Šis vartotojas yra užblokuotas. Susisiekite su mumis."
         },
         "code": {
-          "provide": "Unauthorised Access!"
+          "provide": "Neleistina prieiga!"
+        },
+        "email": {
+          "confirmed": "Jūs privalote patvirtinti savo el. pašto adresą",
+          "taken": "Vartotojas su šiuo el. paštu jau egzistuoja",
+          "already-confirmed": "El. paštas jau patvirtintas",
+          "format": "Neteisingas el. pašto formatas",
+          "not-send": "Nepavyko išsiųsti el. laiško nurodytu el. pašto adresu. Patikrinkite, ar jis teisingas, arba kreipkitės į palaikymo komandą."
         }
       }
+    },
+    "advanced": {
+      "allow_register": "Šiuo metu neleidžiame užsiregistruoti daugiau naudotojų."
     }
   }
 }

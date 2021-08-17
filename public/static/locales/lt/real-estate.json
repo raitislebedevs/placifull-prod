@@ -7,8 +7,8 @@
         "max-price": "Maksimali kaina",
         "min-rooms": "Minimalus kambarių kiekis",
         "max-rooms": "Maksimalus kambarių kiekis",
-        "min-area": "Minimali zona",
-        "max-area": "Maksimali zona",
+        "min-area": "Minimali plotas",
+        "max-area": "Maksimali plotas",
         "move-in-date": "Įsikraustyti nuo",
         "move-out-date": "Įsikraustyti iki",
         "currency": "Valiuta"
@@ -42,7 +42,7 @@
         "label": "Rūšiuoti pagal",
         "options": {
           "price": "Kainą",
-          "area": "Zoną",
+          "area": "Plotą",
           "rooms": "Kambarių kiekį",
           "street-name": "Gatvės pavadinimą",
           "popularity": "Populiarumą",
@@ -58,7 +58,7 @@
     "see-more": "Skaityti daugiau"
   },
   "error": {
-    "tags": "Prašome susisiekti nurodant: 'Žymos nerastos' "
+    "tags": "Prašome susisiekti nurodant: 'Žymos nerastos'"
   },
   "no-tags": "Funkcijos nerastos šiam pasirinkimui"
 }

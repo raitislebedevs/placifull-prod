@@ -1,7 +1,7 @@
 {
   "hero-section": {
     "head": {
-      "line-1": "Placifull, kur pasitinka paprastumas",
+      "line-1": "Placifull, kur susitinka paprastumas",
       "line-2": "Kruopščiai sukurti sprendimai jūsų svajonei įgyvendinti",
       "line-3": "Raskite darbą, nekilnojamą turtą, ir transportą, atitinkančius visus jūsų poreikius kiekviename pasaulio kampelyje.",
       "options": {
@@ -19,7 +19,7 @@
       "line-1": "Nekilnojamas turtas",
       "line-2": "Dažniausiai reklamuojamos prekės",
       "line-3": "Placifull",
-      "line-4": "Vertos viso jūsų dėmesio. "
+      "line-4": "vertos viso jūsų dėmesio. "
     },
     "button": "Žiūrėti viską"
   },
@@ -27,41 +27,41 @@
     "badge": "Reklamuojamos prekės",
     "head": {
       "line-1": "Transportas",
-      "line-2": "Šie transportavimai",
+      "line-2": "Šis transportas",
       "line-3": "Placifull",
-      "line-4": "Yra verti jūsų dėmesio"
+      "line-4": "yra vertas jūsų laiko."
     },
     "button": "Žiūrėti viską"
   },
   "job-section": {
     "badge": "Reklamuojamos prekės",
     "head": {
-      "line-1": "Premijos darbai",
+      "line-1": "Premium darbai",
       "line-2": "Ištroškęs permainų? ",
-      "line-3": "Tik Placifull",
-      "line-4": "Raskite savo svajonių darbą, kurio visada norėjote. "
+      "line-3": "Placifull",
+      "line-4": "raskite savo svajonių darbą, kurio visada norėjote. "
     },
     "jobs": {
       "location": "Vieta",
       "working-schedule": "Darbo grafikas",
       "salary": "Atlyginimas",
       "working-place": "Darbo vieta",
-      "button": "Rodyti detales"
+      "button": "Rodyti informaciją"
     },
     "button": "Žiūrėti daugiau"
   },
   "service-section": {
     "head": {
       "line-1": "Apie ką mes! ",
-      "line-2": "Tyrinėkite tai, ką mes vertiname labiausiai. ",
+      "line-2": "Atraskite tai, ką mes vertiname labiausiai. ",
       "line-3": "Placifull",
-      "line-4": "Išklausys, ką jūs norite pasakyti"
+      "line-4": "Išklausys, ką jūs norite pasakyti."
     },
     "services": {
       "service-1": {
         "open-modal": "Sužinokite daugiau",
-        "name": "Sąrašo pateikimas",
-        "description": "Pagrindinis mūsų tikslas yra padėti žmonėms persikelti į kitą šalį. Kraustymasis užsienin kelia daugybę iššūkių, todėl esame pasirengę padėti rasti jums reikiamus dalykus. Darbą, namus, transportą, viską rasite vienoje vietoje. Jums nereikės ieškoti kitur. ",
+        "name": "Sąrašo galimybės",
+        "description": "Pagrindinis mūsų tikslas yra padėti žmonėms persikelti į kitą šalį. Kraustymasis į užsienį kelia daugybę iššūkių, todėl esame pasirengę padėti rasti jums reikiamus dalykus. Darbą, namus, transportą, viską rasite vienoje vietoje. Jums nereikės ieškoti kitur. ",
 
         "modal": {
           "header": "Ieškoti",
@@ -88,7 +88,7 @@
       "service-4": {
         "open-modal": "Padėkite mums tobulėti dabar",
         "name": "Padėkite mums pagerinti kokybę",
-        "description": "Kažkas neveikia? Nepavyko sumokėti? Nedvejodami susisiekite su mumis dėl skundo, kurį nagrinėsime kaip prioritetą.",
+        "description": "Kažkas neveikia? Nepavyko sumokėti? Nedvėjodami susisiekite su mumis dėl skundo, kurį nagrinėsime kaip prioritetą.",
         "modal": {
           "header": "Kokybė",
           "description": "Placifull tai į kokybę orientuotas prekės ženklas ir mes esame įsitikinę, kad mūsų vertė slypi teikiamų paslaugų kokybėje. Mes nuoširdžiai užtikriname kad nepažeidžiame kokybės ir standartų. Jei mūsų platformoje rasite kažką, kas neveikia sklandžiai, prašome mums pranešti ir stengsimės kuo greičiau tai ištaisyti. Jūsų patirtis su Placifull mums yra nepaprastai svarbi, todėl stengiamės nuolat tobulėti atnaujindami sistemą, kad užtikrintumėme kuo sklandesnę patirtį jums. ",
@@ -99,10 +99,10 @@
       "service-5": {
         "open-modal": "Registruokitės dabar",
         "name": "Karjeros galimybės",
-        "description": "Daug dirbame ir daug ilsimės. Norite prisijungti prie komandos? Tada parašykite mums. Galėsite pasirinkti atlyginimą, ką ir kur norite dirbti. Jei mums patiks, JUS pasamdys. ",
+        "description": "Daug dirbame ir daug ilsimės. Norite prisijungti prie mūsų komandos? Tada parašykite mums. Galite pasirinkti atlyginimą, ką ir kur norite dirbti. Jei mums patiks, JUS pasamdys. ",
         "modal": {
           "header": "Karjera",
-          "description": "Mūsų darbo skelbimai yra unikalūs ir niekur kitur nerasite to, ką mes siūlome. Mes siūlome įdomią darbo valandų schemą, su kuria, jūs dirbsite tik 4 dienas per savaitę, 8 valandas kiekvieną dieną, o ne 12. Kiekvienos savaitės penktadieniais jums bus suteikta galimybė pasirinkti apsilankyti biure ar ne. Jūs galite rinktis kur panaudoti savo laisvą laiką, ar susitikimams su draugais, ar sportui, savo pomėgiams ar hobiams, ir daug daugiau! Placifull užtikrina, kad jūsų kokybiškas laikas su draugais ir šeima nebūtų sutrikdytas dėl darbo reikalų. Štai todėl platforma taip pat užtikrina, kad jūs gausite pakankamai atostogų laiko, pradedant 20 dienų, plius, jūs galite gauti iki 28 dienų atostogoms kiekvienais metais. Iš viso, tai yra lygu 76 dienoms. Beveik neįmanoma rasti tokio patogaus darbo grafiko kaip šis, todėl nieko nelaukę, kreipkitės į Placefull komandą. ",
+          "description": "Mūsų darbo skelbimai yra unikalūs ir niekur kitur nerasite to, ką mes siūlome. Mes siūlome įdomią darbo valandų schemą, su kuria, jūs dirbsite tik 4 dienas per savaitę, 8 valandas kiekvieną dieną, o ne 12. Kiekvienos savaitės penktadieniais jums bus suteikta galimybė pasirinkti apsilankyti biure ar ne. Jūs galite rinktis kur panaudoti savo laisvą laiką, ar susitikimams su draugais, ar sportui, savo pomėgiams ar hobiams, ir daug daugiau! Placifull užtikrina, kad jūsų kokybiškas laikas su draugais ir šeima nebūtų sutrikdytas dėl darbo reikalų. Štai todėl platforma taip pat užtikrina, kad jūs gausite pakankamai atostogų laiko, pradedant 20 dienų, plius, jūs galite gauti iki 28 dienų atostogoms kiekvienais metais. Iš viso, tai yra lygu 76 dienoms. Beveik neįmanoma rasti tokio patogaus darbo grafiko kaip šis, todėl nieko nelaukę kreipkitės į Placefull komandą. ",
           "close-button": "Uždaryti",
           "contact-button": "Registruokitės dabar"
         },
@@ -111,7 +111,7 @@
             "header": "Pateikite savo pasiūlymą!",
             "firstName": "Vardas",
             "lastName": "Pavardė",
-            "email": "El. Paštas",
+            "email": "El. paštas",
             "phone": "Telefono numeris",
             "dreamJob": "Kuo norėtumėte dirbti? ",
             "applyText": "Kodėl turėtume tave įdarbinti?",
@@ -136,15 +136,15 @@
           "tier-2": {
             "name": "Vienas pranešimas",
             "offer-1": "Sumokėkite vieną kartą, naudokite bet kada.",
-            "offer-2": "Skelbimai paskelbti iki 365 dienų",
+            "offer-2": "Skelbimai paskelbti iki 395 dienų",
             "offer-3": "Laisvė stebėti vartotojų pasiūlymus ",
-            "offer-4": "Pašalinti bet kada",
+            "offer-4": "Pašalinkite bet kada",
             "button": "Bandyti dabar"
           },
           "tier-3": {
             "name": "Kas ketvirtį",
             "offer-1": "8 aktyvūs elementai",
-            "offer-2": "Skelbimai iki 365 dienų",
+            "offer-2": "Skelbimai iki 395 dienų",
             "offer-3": "Stebėkite vartotojų pasiūlymus ",
             "offer-4": "Uždarykite bet kada ir naudokite dar kartą",
             "button": "Bandyti dabar"
@@ -165,15 +165,15 @@
           "tier-2": {
             "name": "Vienas pranešimas",
             "offer-1": "Sumokėkite vieną kartą, naudokite bet kada.",
-            "offer-2": "Skelbimai paskelbti iki 365 dienų",
+            "offer-2": "Skelbimai paskelbti iki 395 dienų",
             "offer-3": "Laisvė stebėti vartotojų pasiūlymus ",
-            "offer-4": "Pašalinti bet kada",
+            "offer-4": "Pašalinkite bet kada",
             "button": "Bandyti dabar"
           },
           "tier-3": {
             "name": "Kas ketvirtį",
             "offer-1": "8 aktyvūs elementai",
-            "offer-2": "Skelbimai iki 365 dienų",
+            "offer-2": "Skelbimai iki 395 dienų",
             "offer-3": "Stebėkite vartotojų pasiūlymus ",
             "offer-4": "Uždarykite bet kada ir naudokite dar kartą",
             "button": "Bandyti dabar"
@@ -194,15 +194,15 @@
           "tier-2": {
             "name": "Vienas pranešimas",
             "offer-1": "Sumokėkite vieną kartą, naudokite bet kada.",
-            "offer-2": "Skelbimai paskelbti iki 365 dienų",
+            "offer-2": "Skelbimai paskelbti iki 395 dienų",
             "offer-3": "Laisvė stebėti vartotojų pasiūlymus ",
-            "offer-4": "Pašalinti bet kada",
+            "offer-4": "Pašalinkite bet kada",
             "button": "Bandyti dabar"
           },
           "tier-3": {
             "name": "Kas ketvirtį",
             "offer-1": "8 aktyvūs elementai",
-            "offer-2": "Skelbimai iki 365 dienų",
+            "offer-2": "Skelbimai iki 395 dienų",
             "offer-3": "Stebėkite vartotojų pasiūlymus ",
             "offer-4": "Uždarykite bet kada ir naudokite dar kartą",
             "button": "Bandyti dabar"
@@ -230,7 +230,7 @@
           },
           "tier-2": {
             "name": "Reklamuojamos prekės",
-            "offer-1": "Mokėjimas už siuntimą",
+            "offer-1": "Mokėjimas pateikus",
             "offer-2": "Reklamuojama sritis",
             "offer-3": "Pažymėta kaip siūloma",
             "button": "Bandyti dabar"
@@ -245,7 +245,7 @@
             "name": "Pridėti papildomų dienų",
             "offer-1": "Pratęsti įtrauktas dienas",
             "offer-2": "Pasirinkite dienų skaičių",
-            "offer-3": "iki 365 dienų",
+            "offer-3": "Iki 365 dienų",
             "offer-4": "Pradedant nuo €0.11 per dieną",
             "button": "Bandyti dabar"
           }
