@@ -34,9 +34,8 @@
   "contact-form": {
     "heading": "Contactar directamente con el propietario",
     "not-specified": "No especificado",
-
     "form": {
-      "heading": "Escriba su pregunta aquí",
+      "heading": "Escribe tu pregunta aquí",
       "fullName": "Nombre Completo*",
       "phoneNumber": "Número de teléfono*",
       "email": "Dirección de correo electrónico*",

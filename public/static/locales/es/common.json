@@ -56,16 +56,16 @@
     "logging-required": "Es necesario iniciar sesión",
     "cannot-apply": "Ojo, esto es una vista previa",
     "preview": "En la vista previa no se puede ofertar",
-    "log-in": "Debe iniciar sesión para ofertar",
+    "log-in": "Debes iniciar sesión para ofertar",
     "bidding-price": "No hay precio de oferta",
     "price-lower": "La oferta es inferior al 20% del precio de venta",
     "price-upper": "La oferta es superior al 20% del precio de venta",
-    "refresh-page": "El servidor no responde, por favor actualice",
-    "not-send": "El correo electrónico no fue enviado",
+    "refresh-page": "El servidor no responde, por favor actualiza",
+    "not-send": "El correo electrónico no ha sido enviado",
     "contact-directly": "Contactar directamente",
     "email-send": "El correo electrónico ha sido enviado",
     "no-email": "El correo electrónico del anuncio no existe",
-    "subscribed": "Enhorabuena, se ha suscrito :)",
+    "subscribed": "Enhorabuena, ya te has suscrito :)",
     "already-applied": "Te inscribiste a esta posición",
     "already": "Ya estás inscrito/ correo electrónico no válido",
     "country-error": "Error no especificado de información de país",
@@ -73,7 +73,7 @@
     "unknown-error": "Error de servidor desconocido",
     "search-results": {
       "found": "Encontrado",
-      "items": "Elementos"
+      "items": "elementos"
     },
     "not-found": "No se encontraron nuevos resultados.",
     "messages": {
@@ -84,7 +84,7 @@
     },
     "logout-success": "¡Nos vemos más tarde!",
     "bid-placed": "Se realizó la oferta",
-    "your-referral": "No se puede usar su propio código de referencia :)",
+    "your-referral": "No puedes usar tu propio código de referencia :)",
     "minimal-withdraw": "La cantidad mínima para retirar es de 25 €"
   },
 
@@ -93,8 +93,8 @@
     "state": "Estado/Región",
     "city": "Ciudad",
     "no-city": "No hay ciudades",
-    "no-states": "No hay estados",
-    "states-not-registerd": "No hay estados registrados",
+    "no-states": "No hay Estados",
+    "states-not-registerd": "No hay Estados registrados",
     "cities-registerd": "No hay ciudades registradas"
   },
 

@@ -1,7 +1,7 @@
 {
-  "powerSteering": "Dirección asistida",
-  "electricPowerSteering": "Dirección asistida eléctrica",
-  "conditioner": "Aira acondicionado",
+  "powerSteering": "Conducción asistida",
+  "electricPowerSteering": "Conducción asistida eléctrica",
+  "conditioner": "Aire acondicionado",
   "climateControl": "Climatizador",
   "autonomousHeater": "Calefacción autónoma",
   "cabinAirFilter": "Filtro de aire de cabina",

@@ -77,13 +77,13 @@ const languages = [
   //   },
   //   label: 'Bahasa Indonesia',
   // },
-  // {
-  //   value: {
-  //     lang: 'es',
-  //     flag: 'ES',
-  //   },
-  //   label: 'Español',
-  // },
+  {
+    value: {
+      lang: 'es',
+      flag: 'ES',
+    },
+    label: 'Español',
+  },
   // {
   //   value: {
   //     lang: 'fr',

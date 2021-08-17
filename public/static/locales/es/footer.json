@@ -2,9 +2,9 @@
   "top": {
     "list-menu": {
       "menu-1": {
-        "text-head": "Comience su viaje",
+        "text-head": "Empieza tu viaje",
         "items": {
-          "item-1": "¿Qué estás esperando todavía? Empiece a buscar la casa de sus sueños, el auto perfecto, el trabajo de sus sueños y el país en el que siempre quiso vivir."
+          "item-1": "¿Qué estás esperando? Empieza a buscar la casa de tus sueños, el auto perfecto, el trabajo de tus sueños y el país en el que siempre has querido vivir."
         }
       },
       "menu-2": {
@@ -15,17 +15,17 @@
           "item-3": "Carrera",
           "item-4": "Blog",
           "item-5": "Precios",
-          "item-6": "Promovido",
+          "item-6": "Destacado",
           "item-7": "Junta de votaciones"
         }
       },
       "menu-3": {
-        "text-head": "Enlaces",
+        "text-head": "Enlaces rápidos",
         "items": {
           "item-1": "Iniciar sesión",
           "item-2": "Registrarse",
-          "item-3": "Bienes raíces",
-          "item-4": "Trasnporte",
+          "item-3": "Inmobiliario",
+          "item-4": "Transporte",
           "item-5": "Empleos",
           "item-6": "Términos de Servicio"
         }
@@ -33,9 +33,9 @@
       "menu-4": {
         "text-head": "Boletín",
         "items": {
-          "item-1": "Suscríbete al boletín para recibir tips vía Email",
-          "item-2": "Correo Electrónico",
-          "item-3": "Su correo electrónico",
+          "item-1": "Suscríbete al boletín para recibir las novedades en tu email",
+          "item-2": "Este campo es obligatorio",
+          "item-3": "Tu correo electrónico",
           "item-4": "Suscribirme"
         }
       }
@@ -43,7 +43,7 @@
   },
   "bottom": {
     "left": {
-      "copy-right": "Placifull. Nos preocupamos por ti"
+      "copy-right": "Placifull. Nos preocupamos por ti con"
     },
     "right": "Equipo Placifull"
   }

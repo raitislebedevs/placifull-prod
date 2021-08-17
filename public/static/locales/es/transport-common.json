@@ -25,10 +25,10 @@
     }
   },
   "gear-box": {
-    "label": "Caja de cambios",
+    "label": "Tipo de cambio",
     "options": {
       "manual": "Manual",
-      "automatic": "Automática",
+      "automatic": "Automático",
       "other": "Otros"
     }
   },

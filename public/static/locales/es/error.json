@@ -1,19 +1,30 @@
 {
-  "internal-error": "Unknown error from server. Please try again later.",
-  "server-error-api": "Server Error.",
-  "connection-error": "Cannot connect to the server. Please try again later.",
-  "server-not-reached": "So embarrising! The server can't be reached. Please contact us, or try again later.",
+  "internal-error": "Error desconocido del servidor. Por favor, inténtalo más tarde.",
+  "server-error-api": "Error del servidor. ",
+  "connection-error": "No se puede conectar con el servidor. Por favor, inténtalo de nuevo más tarde.",
+  "server-not-reached": "¡Qué vergüenza! No se puede acceder al servidor. Por favor, ponte en contacto con nosotros o inténtalo más tarde.",
   "Auth": {
     "form": {
       "error": {
-        "invalid": "Email or password invalid.",
+        "invalid": "Email o contraseña no válidos.",
         "user": {
-          "not-exist": "User with this email does not exist"
+          "not-exist": "El usuario con este email no existe",
+          "user-blocked": "El usuario está bloqueado. Contacta nuestro equipo de soporte. "
         },
         "code": {
-          "provide": "Unauthorised Access!"
+          "provide": "¡Acceso no autorizado!"
+        },
+        "email": {
+          "confirmed": "Tienes que confirmar tu correo electrónico",
+          "taken": "Ya existe un usuario con este correo electrónico ",
+          "already-confirmed": "Correo electrónico ya confirmado",
+          "format": "Formato de correo electrónico no válido",
+          "not-send": "No fue posible enviar un email a la dirección de correo electrónico proporcionada. Por favor, controla si es correcta o contacta nuestro equipo de soporte. "
         }
       }
+    },
+    "advanced": {
+      "allow_register": "En estos momentos no aceptamos más registros de usuarios. "
     }
   }
 }

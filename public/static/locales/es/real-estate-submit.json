@@ -1,10 +1,9 @@
 {
-  "title": "Bienes raíces",
-
   "heading": "Enviar anuncio",
+  "title": "Bienes inmobiliarios",
   "form": {
     "submit": "Enviar",
-    "submit-confirm": "Guardar...",
+    "submit-confirm": "Guardando...",
     "preview-sneak-peak": "Generando...",
     "preview": "Vista previa",
     "no-currency": "TODO",
@@ -32,14 +31,14 @@
         "address": "Dirección",
         "contact-times": {
           "label": "Horario de contacto",
-          "placeholder": "Elija la hora que prefiera"
+          "placeholder": "Elije la hora que prefieras"
         },
         "listing-website": "Página web: https://"
       }
     },
     "gallery": {
       "real-estate": "Galería",
-      "click-drop": "HAGA CLIC O ARRASTRE LAS IMÁGENES AQUÍ",
+      "click-drop": "HAZ CLIC O ARRASTRA LAS IMÁGENES AQUÍ",
       "video-url": "Video https://"
     },
     "contact-hours": {

@@ -1,13 +1,13 @@
 {
-  "home": "Inicio",
+  "home": "INICIO",
   "opportunities": {
-    "base": "Oportunidades",
-    "real-estate": "Immobiliaria",
-    "vehicles": "Vehículos",
-    "job-search": "Búsqueda de Empleo"
+    "base": "OPORTUNIDADES",
+    "real-estate": "INMOBILIARIA",
+    "vehicles": "VEHICULOS",
+    "job-search": "BUSQUEDA DE EMPLEO"
   },
-  "help": "Ayuda y soporte",
-  "sign-in": "Iniciar sesión",
-  "register": "Registrarse",
-  "add-listing": "Añadir listado"
+  "help": "AYUDA Y SOPORTE",
+  "sign-in": "INICIAR SESION",
+  "register": "REGISTRARSE",
+  "add-listing": "AÑADIR ANUNCIO"
 }

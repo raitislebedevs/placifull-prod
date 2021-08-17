@@ -1,9 +1,8 @@
 {
   "title": "Perfil",
-
   "overview": {
     "button-label": {
-      "change": "Cambiar la imagen",
+      "change": "Cambiar imagen",
       "delete": "Borrar imagen",
       "save-all": "Guardar todo",
       "preview": "Vista previa"
@@ -11,7 +10,7 @@
     "setting-label": "Comprado",
     "delete-avatar-modal": {
       "header": "Borrar avatar",
-      "body": "¿Quieres eliminar tu avatar?",
+      "body": "¿Quieres borrar tu avatar?",
       "submit": "Borrar",
       "cancel": "Cancelar"
     }
@@ -45,10 +44,10 @@
           "profession": "Tipo de Profesión",
           "first-name": "Nombre",
           "last-name": "Apellido",
-          "email": "Su correo electrónico",
+          "email": "Tu correo electrónico",
           "phone-number": "Número de teléfono",
           "about-me-heading": "Sobre mí",
-          "about-me": "¿Qué le hace diferente?",
+          "about-me": "¿Qué te hace diferente?",
           "country": "País",
           "state": "Estado/Región",
           "city": "Ciudad",
@@ -75,15 +74,15 @@
         "confirm-password": "Confirmar contraseña",
         "button-save": "Guardar contraseña",
         "validation": {
-          "current-password-required": "Por favor, confirme la contraseña",
+          "current-password-required": "Por favor, confirma la contraseña",
           "new-password-required": "Falta la nueva contraseña",
           "password-not-match": "Las contraseñas no coinciden",
-          "confirm-password-required": "Por favor, confirme la contraseña"
+          "confirm-password-required": "Por favor, confirma la contraseña"
         }
       },
       "delete-form": {
         "text": "Borrar cuenta:",
-        "content": "¿Desea eliminar la cuenta? Por favor, pulse el botón 'Eliminar'.",
+        "content": "¿Deseas eliminar la cuenta? Por favor, pulsa el botón 'Eliminar'.",
         "button-delete": "Borrar cuenta"
       },
       "validation": {
@@ -283,7 +282,7 @@
           }
         },
         "licenses": {
-          "title": "Licencia de Conducción",
+          "title": "Licencia de Conducir",
           "accordion": {
             "country": "País de emisión",
             "expierience": {
@@ -387,16 +386,16 @@
   },
   "reffaral": {
     "heading": "Programa de referidos",
-    "balance": "Monto",
+    "balance": "Saldo",
     "code": "Código de referidos",
     "percantage": "Porcentaje",
     "next": "Próximo aumento",
     "withdraw": "Retiro"
   },
   "referral-modal": {
-    "body-text": "En este momento procesamos los retiros manualmente. Por favor contáctenos y solucionaremos esto :)",
+    "body-text": "En este momento procesamos los retiros manualmente. Por favor contáctanos y solucionaremos esto :)",
     "header-text": "Información",
-    "submit-text": "Contáctenos",
+    "submit-text": "Contáctanos",
     "close-text": "Cerrar"
   }
 }

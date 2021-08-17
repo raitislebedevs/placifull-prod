@@ -1,10 +1,9 @@
 {
   "heading": "Enviar anuncio",
   "title": "Transporte",
-
   "form": {
     "submit": "Enviar",
-    "submit-confirm": "Guardar...",
+    "submit-confirm": "Guardando...",
     "preview-sneak-peak": "Generando...",
     "preview": "Vista previa",
     "currency": "Moneda",
@@ -21,7 +20,7 @@
         "production-year": "Año de producción",
         "price": "Precio",
         "engine-type": "Tipo de motor",
-        "gear-box": "Caja de cambios",
+        "gear-box": "Tipo de cambio",
         "millage": "Kilometraje",
         "speed": "Velocidad máxima",
         "fueal-economy": "Ahorro de combustible",
@@ -38,7 +37,7 @@
         "address": "Dirección",
         "contact-times": {
           "label": "Hora de contacto",
-          "placeholder": "Elija la hora de contacto preferida",
+          "placeholder": "Elije la hora de contacto preferida",
           "options": {
             "any-time": "Cualquier hora",
             "working-days": "Días laborables",
@@ -63,7 +62,7 @@
     },
     "gallery": {
       "heading": "Galería",
-      "click-drop": "HAGA CLIC O ARRASTRE LAS IMÁGENES AQUÍ",
+      "click-drop": "HAZ CLIC O ARRASTRA LAS IMÁGENES AQUÍ",
       "video-url": "URL del vídeo: https://"
     },
     "contact-hours": {

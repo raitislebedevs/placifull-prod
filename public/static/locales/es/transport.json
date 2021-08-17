@@ -1,6 +1,5 @@
 {
   "title": "Búsqueda de transporte",
-
   "hero": {
     "form": {
       "currency": "Moneda",
@@ -32,7 +31,7 @@
           "label": "Kilometraje",
           "items": {
             "from": "Desde: 0",
-            "to": "Hasta: 9,999,999"
+            "to": "Hasta: 9.999.999"
           }
         },
         "units": "Unidades"
@@ -49,7 +48,7 @@
           "millage": "Kilometraje",
           "fuel-economy": "Ahorro de combustible",
           "popularity": "Popularidad",
-          "views": "Visto",
+          "views": "Visualizaciones",
           "country": "País",
           "insert-date": "Insertar fecha"
         }

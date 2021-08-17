@@ -1,23 +1,23 @@
 {
   "heading": "Registrarse",
-  "title": "¡Te esperamos!",
+  "title": "¡Te esperábamos!",
   "form": {
     "first-name": "Nombre",
     "last-name": "Apellido",
     "your-email": "Correo electrónico",
     "email": "Correo electrónico",
     "password": "Contraseña",
-    "confirm-password": "repetir contraseña",
+    "confirm-password": "Repetir contraseña",
     "submit": "Registrarse",
     "terms-text": "Acepto",
     "terms-link": "Términos y condiciones",
     "error": {
-      "email-invalid": "Correo electrónico inválido",
+      "email-invalid": "Correo electrónico no válido",
       "email-required": "Se requiere correo electrónico",
       "password-required": "Se requiere contraseña",
       "first-name-required": "Nombre requerido",
       "last-name-required": "Apellido requerido",
-      "confirm-password-required": "Por favor, confirme su contraseña",
+      "confirm-password-required": "Por favor, confirma tu contraseña",
       "accept-terms": " Se requiere aceptar términos y condiciones",
       "password-not-match": " Las contraseñas no coinciden"
     }

@@ -1,9 +1,9 @@
 {
   "main": {
-    "success": "El pago fue exitoso.",
-    "plan_update": "No hemos podido actualizar su plan.",
+    "success": "Pago procesado con éxito. ",
+    "plan_update": "No hemos podido actualizar tu plan.",
     "card_not": "La tarjeta no fue cargada.",
-    "pay": "Pagar €. ",
+    "pay": "Pagar €",
     "processing": "Procesando..."
   },
   "placeholders": {
@@ -12,18 +12,18 @@
     "phone": "(941) 555-7777"
   },
   "incomplete": {
-    "incomplete_cvc": "El código de seguridad de su tarjeta está incompleto.",
-    "incomplete_expiry": "La fecha de caducidad de su tarjeta está incompleta.",
-    "incomplete_number": "El número de su tarjeta está incompleto.",
+    "incomplete_cvc": "El código de seguridad de tu tarjeta está incompleto.",
+    "incomplete_expiry": "La fecha de caducidad de tu tarjeta está incompleta.",
+    "incomplete_number": "El número de tu tarjeta está incompleto.",
     "email_invalid": "El correo no es válido"
   },
 
   "declined": {
-    "card_declined": "Su tarjeta ha sido rechazada"
+    "card_declined": "Tu tarjeta ha sido rechazada"
   },
   "checkout": {
-    "billing": "Por favor, rellene la información de facturación",
-    "card-details": "Por favor, proporcione la información de la tarjeta",
+    "billing": "Por favor, rellena la información de facturación",
+    "card-details": "Por favor, proporciona la información de la tarjeta",
     "cancel": "Cancelar"
   },
   "labels": {
