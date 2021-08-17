@@ -10,7 +10,7 @@
     "no-features": "Por favor, selecione uma categoria de anúncio",
     "job-title": {
       "title": "Título do cargo",
-      "placeholder": "Nome do cargo, por exemplo, patrono da Placifull"
+      "placeholder": "Nome do cargo"
     },
     "company": "Nome da empresa",
     "submit": "ENVIAR",
