@@ -15,24 +15,24 @@ const useUserListings = (listingItem, Service) => {
       setIsLoading(true);
       const result = await Service.FIND({
         _where: {
-          user: listingItem.user.id,
+          user: listingItem?.user?.id,
         },
       });
       const count = await Service.COUNT({
         _where: {
-          user: listingItem.user.id,
+          user: listingItem?.user?.id,
         },
       });
 
       setUserItems(result.data);
       setUserItemCount(count.data);
 
-      if (userItemCount === 1 || !listingItem?.user?.id)
-        setIsSingleListing(true);
+      if (count.data <= 1 || !listingItem?.user?.id) setIsSingleListing(true);
 
       setIsLoading(false);
     } catch (e) {
       setIsLoading(false);
+      setIsSingleListing(true);
       console.log(e.message);
     }
   };

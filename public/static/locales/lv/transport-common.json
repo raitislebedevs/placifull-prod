@@ -68,7 +68,7 @@
   "transport-type": {
     "label": "Transporta tips",
     "options": {
-      "car": "Pasaziešu auto",
+      "car": "Vieglā automašīna",
       "truck": "Smagā mašīna",
       "motorcycle": "Motocikls",
       "boat": "Laivas ",

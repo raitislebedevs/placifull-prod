@@ -5,6 +5,7 @@ import {
   FaSearchLocation,
   FaStar,
   FaRegStar,
+  FaRegEye,
   FaTachometerAlt,
 } from 'react-icons/fa';
 import { GiSpeedometer, GiFuelTank, GiCarSeat } from 'react-icons/gi';
@@ -34,7 +35,6 @@ const responsive = {
 
 const TransportationCard = (props) => {
   const { t, item } = props;
-
   return (
     <div className="transport-item-card">
       <Rating
@@ -46,10 +46,10 @@ const TransportationCard = (props) => {
         emptySymbol={<FaRegStar className="ratings__icon" />}
       />
       <div className="transport-item-card__count">
-        ({item?.popularity?.views || 0})
+        <FaRegEye /> ({item?.popularity?.views || 0})
       </div>
       <div className="transport-item-card__price-tag">
-        {item?.currency?.symbol} {item?.price}
+        {item?.currency?.symbol} {formatNumber(item?.price)}
       </div>
 
       <div className="transport-item-card__image-cover">
@@ -72,7 +72,12 @@ const TransportationCard = (props) => {
                   <div className="item__name-address">
                     <div className="name-address__address">
                       <FaSearchLocation className="wrapper__icon" />{' '}
-                      {item?.country?.native}, {item?.city?.name}
+                      {item?.country?.native}{' '}
+                      {item?.city?.name && item?.country?.native
+                        ? `, ${item?.city?.name}`
+                        : item?.city?.name
+                        ? item?.city?.name
+                        : ''}
                     </div>
                   </div>
                 </a>

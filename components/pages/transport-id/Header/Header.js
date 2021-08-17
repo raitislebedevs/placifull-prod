@@ -35,7 +35,6 @@ const Header = (props) => {
                   {t(
                     `transport-common:transport-type.options.${listingItem?.transportType}`
                   )}
-                  |
                 </span>
               )}
               {listingItem?.condition && (
@@ -97,7 +96,7 @@ const Header = (props) => {
 
             <h3 className="listing__location">
               <FontAwesomeIcon icon="map-marker-alt" />{' '}
-              {listingItem?.country?.native}, {listingItem?.city?.name}
+              {listingItem?.meetUpAddress}
             </h3>
           </Col>
           <Col xl={4} lg={4} md={12} sm={12} xs={12} className=" __right">

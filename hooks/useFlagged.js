@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 //All listing items whihc has the property flagged set as boolean
 const useFlagged = (listingItem, Service) => {
   const [isLoadingFlag, setIsLoadingFlag] = useState(false);
@@ -19,13 +18,7 @@ const useFlagged = (listingItem, Service) => {
 
       if (!listingItem.flagged) {
         setIsLoadingFlag(false);
-        return TostifyCustomContainer(
-          'success',
-          t('common:toast.messages.success')
-        );
       }
-
-      TostifyCustomContainer('success', t('common:toast.messages.success'));
     } catch (error) {
       console.log(error);
     }
