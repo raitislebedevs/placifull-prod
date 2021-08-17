@@ -18,6 +18,7 @@ import useSubscription from 'hooks/useSubscription';
 import usePostInputValues from 'hooks/usePostInputValues';
 import { useRouter } from 'next/router';
 import { addDays } from 'utils/standaloneFunctions';
+import { isListingsFree } from 'constants/parameters';
 
 const RealEstatePost = (props) => {
   const { t, user } = props;
@@ -69,7 +70,7 @@ const RealEstatePost = (props) => {
   const PopulatePayload = (inputValues, promoted) => {
     var expiryDate = addDays(new Date(), defaultExpiryDays);
     let payload = {
-      isPromotable: promoted || false,
+      isPromotable: isListingsFree || promoted || false,
       name: inputValues?.name || null,
       description: inputValues?.description || null,
       price: inputValues?.price || null,
@@ -162,7 +163,13 @@ const RealEstatePost = (props) => {
     setIsLoading(true);
     try {
       const listingId = await uploadListing(promoted);
-      await handleInputSubscriptions(paymentDetails, listingId);
+
+      //If listing is free then no need to update Subscriptions
+      if (!isListingsFree) {
+        await handleInputSubscriptions(paymentDetails, listingId);
+
+        getSubscriptions(user.id);
+      }
 
       //Getting the latest data back
       TostifyCustomContainer(
@@ -170,7 +177,6 @@ const RealEstatePost = (props) => {
         t('common:toast.messages.success'),
         t('common:toast.submit-success')
       );
-      getSubscriptions(user.id);
       setTimeout(() => {
         router.push(`/real-estate/${listingId}`);
       }, 1500);
@@ -209,6 +215,7 @@ const RealEstatePost = (props) => {
   // Opens up the first model, if validation is ok.
   const handlePayment = async (e) => {
     e.preventDefault();
+
     if (!user?.id) {
       TostifyCustomContainer(
         'info',
@@ -229,6 +236,12 @@ const RealEstatePost = (props) => {
       }
       return;
     }
+
+    if (isListingsFree) {
+      await handleDataSubmit(e, {});
+      return;
+    }
+
     setPaymentModal(true);
   };
 

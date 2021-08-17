@@ -15,6 +15,7 @@ import useSubscription from 'hooks/useSubscription';
 import useJobPost from 'hooks/useJobPost';
 import { useRouter } from 'next/router';
 import { addDays } from 'utils/standaloneFunctions';
+import { isListingsFree } from 'constants/parameters';
 
 const JobPost = (props) => {
   const { t, user } = props;
@@ -69,7 +70,7 @@ const JobPost = (props) => {
     var expiryDate = addDays(new Date(), defaultExpiryDays);
 
     let payload = {
-      isPromotable: isPromoted || null,
+      isPromotable: isListingsFree || isPromoted || null,
       companyName: inputValues?.companyName || null,
       positionHeader: inputValues?.title || null,
       vacancyOption: inputValues?.vacancyOption || null,
@@ -149,17 +150,21 @@ const JobPost = (props) => {
     setIsLoading(true);
     try {
       const listingId = await uploadListing(promoted);
-      await handleInputSubscriptions(paymentDetails, listingId);
+
+      if (!isListingsFree) {
+        await handleInputSubscriptions(paymentDetails, listingId);
+        getSubscriptions(user.id);
+      }
 
       TostifyCustomContainer(
         'success',
         t('common:toast.messages.success'),
         t('common:toast.submit-success')
       );
-      getSubscriptions(user.id);
+
       setTimeout(() => {
         router.push(`/job-search/${listingId}`);
-      }, 5000);
+      }, 1500);
     } catch (e) {
       TostifyCustomContainer(
         'error',
@@ -209,6 +214,10 @@ const JobPost = (props) => {
             errors[i]
           );
       }
+      return;
+    }
+    if (isListingsFree) {
+      await handleDataSubmit(e, {});
       return;
     }
 

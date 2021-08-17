@@ -37,13 +37,10 @@ export const getLowestBid = (listingItem, user, bidPrice) => {
 export const getAvarageBid = (listingItem, bidPrice) => {
   const bid = listingItem?.bidOffer?.avarage || 0;
   const bidCount = listingItem?.bidOffer?.avarageCount || 0;
-  console.log(bid);
-  console.log(bidCount);
+
   let avarageBids =
     parseFloat(((bidPrice + bid * bidCount) / (bidCount + 1)).toFixed(2)) ||
     bidPrice;
-
-  console.log(avarageBids);
 
   let avarageProposol = {};
   avarageProposol.avarage = avarageBids || null;

@@ -50,13 +50,9 @@ const BlogContent = (props) => {
   ];
 
   const handleOnChange = (event) => {
-    console.log(event);
     const value = event?.target?.value ?? event?.value ?? event;
     const id = event?.target?.id ?? event?.id;
-    console.log(value);
-    console.log(id);
     setInputValues({ ...inputValues, [id]: value });
-    console.log(pureText);
   };
 
   const insertNewBlogPost = async (event) => {

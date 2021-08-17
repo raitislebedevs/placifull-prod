@@ -9,7 +9,7 @@
     "no-features": "Please Select a Listing category",
     "job-title": {
       "title": "Position Title",
-      "placeholder": "Name of the Position e.g. Placifull Patron."
+      "placeholder": "Name of the Position"
     },
     "company": "Company Name",
     "submit": "SUBMIT",
