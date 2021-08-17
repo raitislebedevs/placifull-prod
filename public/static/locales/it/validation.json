@@ -21,7 +21,7 @@
 
     "price": {
       "minLength": "Il prezzo deve essere maggiore di 0.",
-      "maxLength": "Il prezzo non può superare 999.999.999.999.00",
+      "maxLength": "Il prezzo non può superare 999.999.999.999,00",
       "required": "È richiesto il prezzo."
     },
     "phone": {
@@ -66,7 +66,7 @@
       "address": "È richiesto l'indirizzo dell'incontro nella mappa."
     },
     "engine": "È richiesto il tipo di motore è richiesto",
-    "gear": "È richiesto il cambio"
+    "gear": "È richiesto il tipo di cambio"
   },
 
   "job": {
@@ -75,8 +75,8 @@
       "address": "È richiesto l'indirizzo dell'ufficio."
     },
     "gallery": "È richiesto il logo delle aziende",
-    "monthly-from": "È richiesto da quanto parte lo stipendio mensile",
-    "monthly-to": "È richiesto fino a quanto arriva lo stipendio mensile",
+    "monthly-from": "È richiesto lo stipendio mensile da",
+    "monthly-to": "È richiesto lo stipendio mensile a",
     "logo-size": "La dimensione supera i 5 MB"
   },
   "email": {

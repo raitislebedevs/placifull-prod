@@ -15,7 +15,7 @@
   "nonNeeded": "Non necessario",
   "highSchool": "Scuola superiore",
   "collage": "Università",
-  "vacational": "Laurea professionale",
+  "vacational": "Formazione professionale",
   "undergraduate": "Studente universitario",
   "bachelorDegree": "Laurea di Primo livello",
   "masterDegree": "Laurea specialistica",
@@ -34,7 +34,7 @@
   "meetWithClients": "Incontrare i clienti",
   "findNewClients": "Trovare nuovi clienti",
   "learnNewThings": "Imparare cose nuove",
-  "holdUnderPressure": "Mantenersi sotto pressione",
+  "holdUnderPressure": "Lavorare sotto pressione",
   "trainPeople": "Formare i clienti/colleghi",
 
   "insuarance": "Assicurazione",
@@ -46,7 +46,7 @@
   "placeToLive": "Luogo dove vivere",
   "officeGym": "Palestra in ufficio",
   "officeEvents": "Eventi in ufficio",
-  "vacationHouse": "Case sfitte",
+  "vacationHouse": "Case vacanze",
   "paidTravelExpenses": "Rimborso spese di viaggio",
   "safeWorkEnv": "Ambiente di lavoro sicuro"
 }

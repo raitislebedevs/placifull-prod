@@ -23,7 +23,7 @@
   },
 
   "social-links": {
-    "heading": "Social links",
+    "heading": "Links ai Social",
     "facebook": "Facebook: https://",
     "twitter": "Twitter: https://",
     "youtube": "YouTube: https://",
@@ -32,7 +32,7 @@
   },
 
   "social": {
-    "heading": "Social links",
+    "heading": "Links ai Social",
     "facebook": "Facebook",
     "twitter": "Twitter",
     "youtube": "YouTube",
@@ -65,10 +65,10 @@
     "contact-directly": "Contatta direttamente",
     "email-send": "L'email è stata inviata",
     "no-email": "L'email dell'annuncio non esiste",
-    "subscribed": "Congratulazioni, ti sei iscritto :)",
+    "subscribed": "Congratulazioni, iscrizione completata :)",
     "already-applied": "Hai presentato la tua candidatura per questa posizione",
-    "already": "Già iscritto/ e-mail non valida",
-    "country-error": "Errore non specificato nell'inserimento della nazione",
+    "already": "Iscrizione già effettuata / e-mail non valida",
+    "country-error": "Errore non specificato nell'inserimento della Nazione",
     "location-error": "Impossibile recuperare le località",
     "unknown-error": "Errore sconosciuto del server",
     "search-results": {
@@ -84,8 +84,8 @@
     },
     "logout-success": "Ci vediamo dopo!",
     "bid-placed": "L'offerta è stata fatta",
-    "your-referral": "Impossibile utilizzare il tuo codice di riferimento :)",
-    "minimal-withdraw": "L'importo minimo da prelevare è 25 €"
+    "your-referral": "Impossibile utilizzare il tuo codice di raccomandazione :)",
+    "minimal-withdraw": "L'importo minimo per prelevare è 25 €"
   },
 
   "location": {
@@ -93,8 +93,8 @@
     "state": "Stato/Regione",
     "city": "Città",
     "no-city": "Nessuna città",
-    "no-states": "Nessuno stato",
-    "states-not-registerd": "Nessuno stato registrato",
+    "no-states": "Nessuno Stato",
+    "states-not-registerd": "Nessuno Stato registrato",
     "cities-registerd": "Nessuna città registrata"
   },
 

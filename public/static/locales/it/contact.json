@@ -3,17 +3,17 @@
     "heading": "Assistenza e supporto",
     "title": "Contattaci",
     "info": {
-      "text": "Numero WhatsApp",
+      "text": "Contatto WhatsApp",
       "phone": "+371 9999999999"
     }
   },
   "contact-form": {
     "contact": {
-      "heading": "Recapiti",
+      "heading": "Informazioni di contatto",
       "items": {
         "item-1": {
           "label": "Località",
-          "description": "4758 Nancy Street"
+          "description": "Via Milano, 12"
         },
         "item-2": {
           "label": "Numero di telefono",

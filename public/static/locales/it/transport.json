@@ -1,18 +1,17 @@
 {
-  "title": "Cerca trasporti",
-
+  "title": "Cerca veicoli",
   "hero": {
     "form": {
       "currency": "Valuta",
       "no-currency": "TUTTE",
       "min-price": "Min: 0.00",
-      "max-price": "Max: 9,999,999,999",
+      "max-price": "Max: 9.999.999.999",
       "transport-brand": "Marca veicolo",
       "transport-model": "Modello veicolo",
-      "min-age": "Età min.",
-      "max-age": "Età max.",
+      "min-age": "Anni min.",
+      "max-age": "Anni max.",
       "submit": "Cerca ora",
-      "accordion": "Ricerca avanzata",
+      "accordion": "RICERCA AVANZATA",
       "accordion-right": {
         "economy": {
           "label": "Risparmio di carburante",
@@ -32,7 +31,7 @@
           "label": "Chilometraggio",
           "items": {
             "from": "Da: 0",
-            "to": "A: 9,999,999"
+            "to": "A: 9.999.999"
           }
         },
         "units": "Unità"

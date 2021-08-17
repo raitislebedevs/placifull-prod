@@ -1,7 +1,6 @@
 {
   "heading": "Invia annuncio",
   "title": "Trasporto",
-
   "form": {
     "submit": "Invia",
     "submit-confirm": "Salvataggio….",
@@ -63,7 +62,7 @@
     },
     "gallery": {
       "heading": "Galleria",
-      "click-drop": "Clicca o trascina le immagini qui",
+      "click-drop": "CLICCA O TRASCINA LE IMMAGINI QUI",
       "video-url": "Video url: https://"
     },
     "contact-hours": {

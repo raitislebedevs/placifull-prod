@@ -1,6 +1,5 @@
 {
   "title": "Ricerca di lavoro",
-
   "form": {
     "currency": "Valuta",
     "no-currency": "TUTTE",
@@ -25,21 +24,21 @@
         "label": "Tariffa oraria",
         "items": {
           "from": "Da: 0",
-          "to": "A: 999,999"
+          "to": "A: 999.999"
         }
       },
       "monthly-salary": {
         "label": "Stipendio mensile",
         "items": {
           "from": "Da: 0",
-          "to": "A: 999,999,999"
+          "to": "A: 999.999.999"
         }
       },
       "yearly-salary": {
         "label": "Stipendio annuale",
         "items": {
           "from": "Da: 0",
-          "to": "A: 99,999,999,999"
+          "to": "A: 99.999.999.999"
         }
       }
     }

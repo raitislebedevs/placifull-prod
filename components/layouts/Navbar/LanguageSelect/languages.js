@@ -91,13 +91,13 @@ const languages = [
   //   },
   //   label: 'Français',
   // },
-  // {
-  //   value: {
-  //     lang: 'it',
-  //     flag: 'IT',
-  //   },
-  //   label: 'Italiano',
-  // },
+  {
+    value: {
+      lang: 'it',
+      flag: 'IT',
+    },
+    label: 'Italiano',
+  },
   // {
   //   value: {
   //     lang: 'cz',

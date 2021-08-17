@@ -1,10 +1,10 @@
 {
   "heading": "Registrati",
-  "title": "Ti abbiamo aspettato!",
+  "title": "Ti aspettavamo!",
   "form": {
     "first-name": "Nome",
     "last-name": "Cognome",
-    "your-email": "Fornisci un indirizzo email",
+    "your-email": "La tua email",
     "email": "Email",
     "password": "Password",
     "confirm-password": "Conferma password",
