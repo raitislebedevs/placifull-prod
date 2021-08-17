@@ -55,7 +55,7 @@
           "gender": {
             "label": "Sex",
             "men": "Male",
-            "female": "Female",
+            "women": "Female",
             "not-specified": "Don't show"
           },
           "age": {

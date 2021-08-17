@@ -27,21 +27,31 @@ const inputFields = (t, listingItem, listingCurrency) => [
   {
     key: 'distance',
     label: t('transport-detail:general-info.distance'),
-    value: `${formatNumber(listingItem?.distance)}`,
+    value: listingItem?.distance
+      ? `${formatNumber(listingItem?.distance)}  ${
+          listingItem.distanceMesurment === 'kilometer' ? 'km' : 'mi'
+        }`
+      : '',
   },
   {
     key: 'maxSpeed',
     label: t('transport-detail:general-info.max-speed'),
     value: listingItem?.maxSpeed
       ? `${listingItem?.maxSpeed}  ${
-          listingItem?.areaMeasurement === 'kilometerPerHour' ? 'km/h' : 'mph'
+          listingItem.speedMesurment === 'kilometerPerHour' ? 'km/h' : 'mph'
         }`
       : '',
   },
   {
     key: 'fuelEconomy',
     label: t('transport-detail:general-info.fuel-economy'),
-    value: listingItem?.fuelEconomy,
+    value: listingItem?.fuelEconomy
+      ? `${listingItem?.fuelEconomy}  ${
+          listingItem.fuelEconomyMesurment === 'litrePerKilometer'
+            ? 'l/100 km'
+            : 'mpg'
+        }`
+      : '',
   },
   {
     key: 'doorCount',
