@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import { Provider } from 'react-redux';
 import { useStore } from '../store/';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -114,11 +115,12 @@ library.add(
   faHome,
   faCamera
 );
+import * as ga from '../lib/ga';
+
 function App(props) {
   const { Component, pageProps } = props;
   const store = useStore(pageProps.initialReduxState);
-
-  const [scrollY, setScrollY] = useState(0);
+  const router = useRouter();
 
   useEffect(() => {
     scrollRef.current.scrollIntoView({
@@ -128,6 +130,21 @@ function App(props) {
     }),
       [];
   });
+
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      ga.pageview(url);
+    };
+    //When the component is mounted, subscribe to router changes
+    //and log those page views
+    router.events.on('routeChangeComplete', handleRouteChange);
+
+    // If the component is unmounted, unsubscribe
+    // from the event with the `off` method
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, [router.events]);
 
   const scrollRef = useRef(null);
   return (

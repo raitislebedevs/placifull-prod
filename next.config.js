@@ -8,6 +8,7 @@ module.exports = withImages({
     API_SUFFIX: process.env.API_SUFFIX,
     STRIPE_PUBLIC_KEY: process.env.STRIPE_PUBLIC_KEY,
     EMAIL_ADDRESS: process.env.EMAIL_ADDRESS,
+    EMAIL_ADDRESS: process.env.EMAIL_ADDRESS,
   },
   future: {
     webpack5: true,
