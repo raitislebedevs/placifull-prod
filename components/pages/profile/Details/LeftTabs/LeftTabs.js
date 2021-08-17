@@ -24,6 +24,7 @@ import { logout } from 'actions';
 import Subscriptions from 'services/subscriptions';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { isListingsFree } from 'constants/parameters';
 
 const LeftTabs = (props) => {
   const { t, currentTab, dispatch, setCurrentTab, isMobile, user } = props;
@@ -104,19 +105,19 @@ const LeftTabs = (props) => {
       key: 'real-estate',
       label: t('profile:left-tab.titles.real-estate'),
       icon: <GiModernCity size="30px" />,
-      disabled: permissions?.realEstate,
+      disabled: isListingsFree || permissions?.realEstate,
     },
     {
       key: 'transport',
       label: t('profile:left-tab.titles.transport'),
       icon: <AiTwotoneCar size="30px" />,
-      disabled: permissions?.transport,
+      disabled: isListingsFree || permissions?.transport,
     },
     {
       key: 'jobs',
       label: t('profile:left-tab.titles.jobs'),
       icon: <CgWorkAlt size="30px" />,
-      disabled: permissions?.jobs,
+      disabled: isListingsFree || permissions?.jobs,
     },
     {
       key: 'browser-cv',

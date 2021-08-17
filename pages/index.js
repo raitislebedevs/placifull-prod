@@ -9,6 +9,7 @@ import {
   ServiceSection,
   PriceSection,
 } from '../components/pages/home';
+import { isListingsFree } from 'constants/parameters';
 
 const Home = (props) => {
   const { t } = props;
@@ -22,7 +23,7 @@ const Home = (props) => {
       <TransportationSection t={t} />
       <JobSection t={t} />
       <ServiceSection t={t} />
-      <PriceSection t={t} />
+      {!isListingsFree && <PriceSection t={t} />}
     </div>
   );
 };

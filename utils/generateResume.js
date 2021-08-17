@@ -29,7 +29,6 @@ const generateResume = async () => {
   splitText = doc.splitTextToSize('Raitis Lebedevs', leftMaxWide);
   doc.text(leftPadding, yAxis, splitText);
   dim = doc.getTextDimensions(splitText);
-  console.log(dim);
 
   yAxis = yAxis + dim.h + 1;
   //Sub Text

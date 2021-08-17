@@ -103,6 +103,10 @@ const VotingBoard = (props) => {
           ((rate + rating * totalRaters) / (totalRaters + 1)).toFixed(1)
         ) || rate;
 
+      if (totalRaters == 0) {
+        newRate = rating;
+      }
+
       let payload = {
         rating: newRate,
         totalRaters: totalRaters + 1,
@@ -168,7 +172,6 @@ const VotingBoard = (props) => {
   };
 
   const handleRatingChange = (e, id) => {
-    console.log(e);
     if (id === voteItem) {
       setRating(e);
       setVoteItem(id);

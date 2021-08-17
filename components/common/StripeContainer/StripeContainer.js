@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Modal } from 'react-bootstrap';
 import CheckoutForm from '../CheckoutForm';
 import { Elements } from '@stripe/react-stripe-js';

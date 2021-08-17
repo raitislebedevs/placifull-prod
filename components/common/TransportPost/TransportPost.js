@@ -15,6 +15,7 @@ import { dayCostTransport, defaultExpiryDays } from 'constants/listingDetails';
 import useSubscription from 'hooks/useSubscription';
 import usePostInputValues from 'hooks/usePostInputValues';
 import { addDays } from 'utils/standaloneFunctions';
+import { isListingsFree } from 'constants/parameters';
 
 const TransportSubmit = (props) => {
   const { t, user } = props;
@@ -72,7 +73,7 @@ const TransportSubmit = (props) => {
     var expiryDate = addDays(new Date(), defaultExpiryDays);
 
     let payload = {
-      isPromotable: isPromoted || false,
+      isPromotable: isListingsFree || isPromoted || false,
       name: inputValues?.transportName || null,
       currency: inputValues?.transportCurrency || null,
 
@@ -155,9 +156,14 @@ const TransportSubmit = (props) => {
     setIsLoading(true);
     try {
       const listingId = await uploadListing(promoted);
-      await handleInputSubscriptions(paymentDetails, listingId);
 
-      getSubscriptions(user.id);
+      //If listing is free then no need to update Subscriptions
+      if (!isListingsFree) {
+        await handleInputSubscriptions(paymentDetails, listingId);
+
+        getSubscriptions(user.id);
+      }
+
       setTimeout(() => {
         router.push(`/transport/${listingId}`);
       }, 1500);
@@ -263,6 +269,11 @@ const TransportSubmit = (props) => {
             errors[i]
           );
       }
+      return;
+    }
+
+    if (isListingsFree) {
+      await handleDataSubmit(e, {});
       return;
     }
 

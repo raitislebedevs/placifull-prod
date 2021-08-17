@@ -38,11 +38,9 @@ const KanbanColumn = (props) => {
   }, [columnCount]);
 
   const removeColumn = (id) => {
-    console.log(id);
     if (id == 'applicants') return;
     if (columnCount <= 2) return;
     let bordColumns = columns.filter((item) => item.columnId != id);
-    console.log(columns);
     setColumns(bordColumns);
   };
 
@@ -50,8 +48,6 @@ const KanbanColumn = (props) => {
     let index = columns.findIndex((item) => item.columnId == id);
     let bordColumns = [...columns];
     bordColumns[index].title = column;
-
-    console.log(bordColumns);
     setColumns(bordColumns);
   };
   const handleEnter = (e, id) => {
