@@ -5,7 +5,7 @@
     "computer-skills": "Conocimientos de informática",
     "education": "Educación",
     "expierience": "Experiencia laboral",
-    "licenses": "Licencia de conducción",
+    "licenses": "Licencia de conducir",
     "expectations": "Expectativas de trabajo",
     "certification": "Certificación"
   },
@@ -45,7 +45,7 @@
   "seniority": {
     "title": "Antigüedad",
     "volunteer": "Voluntario",
-    "intern": "Pasante",
+    "intern": "Becario",
     "junior": "Junior",
     "intermediate": "Intermedio",
     "senior": "Senior",

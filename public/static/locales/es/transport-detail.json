@@ -32,20 +32,20 @@
     "doors": "Puertas",
     "bid-price": "Precio de la oferta de transporte",
     "submit": "OFERTA",
-    "bid-placeholder": "Oferta en 20 % de margen"
+    "bid-placeholder": "Oferta con 20 % de margen"
   },
   "features": {
     "heading": "Características"
   },
   "contact-form": {
     "not-specified": "No especificado",
-    "heading": "Contacte directamente con el propietario",
+    "heading": "Contacta directamente con el propietario",
     "form": {
-      "heading": "Escriba su pregunta aquí",
+      "heading": "Escribe tu pregunta aquí",
       "fullName": "Nombre Completo*",
       "phoneNumber": "Número de teléfono*",
       "email": "Dirección de correo electrónico*",
-      "message": "Su mensaje",
+      "message": "Tu mensaje",
       "submit": "ENVIAR MENSAJE"
     }
   },

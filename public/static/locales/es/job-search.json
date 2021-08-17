@@ -1,6 +1,5 @@
 {
   "title": "Búsqueda de trabajo",
-
   "form": {
     "currency": "Moneda",
     "no-currency": "TODOS",
@@ -13,7 +12,7 @@
       "label": "BÚSQUEDA AVANZADA",
       "searchFilter": {
         "heading": "Características",
-        "licenses": "Licencia de conducción",
+        "licenses": "Licencia de conducir",
         "education": "Educación/Titulación",
         "expierience": "Experiencia en años",
         "candiadate": "El candidato es capaz de:",

@@ -1,16 +1,15 @@
 {
   "heading": "Enviar anuncio",
   "title": "Trabajo",
-
   "form": {
     "submit-confirm": "Guardando...",
     "preview-sneak-peak": "Generando...",
     "preview": "Vista previa",
     "no-currency": "Moneda",
-    "no-features": "Por favor, seleccione una categoría de anuncio",
+    "no-features": "Por favor, selecciona una categoría de anuncio",
     "job-title": {
       "title": "Título del Puesto",
-      "placeholder": "Nombre del cargo, por ejemplo, Patrocinador de Placifull."
+      "placeholder": "Nombre del cargo"
     },
     "company": "Nombre de la empresa",
     "submit": "ENVIAR",
@@ -37,7 +36,7 @@
     },
     "gallery": {
       "heading": "Logotipo de la empresa",
-      "click-drop": "HAGA CLIC O ARRASTRE EL LOGOTIPO AQUÍ",
+      "click-drop": "HAZ CLIC O ARRASTRA EL LOGOTIPO AQUÍ",
       "video-url": "URL del vídeo: https://"
     },
     "contact-hours": {

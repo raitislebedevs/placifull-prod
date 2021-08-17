@@ -7,18 +7,18 @@
     "password": "Contraseña",
     "submit": "Iniciar sesión",
     "remember-me": "Recordar Usuario",
-    "forgot-password": "Olvidó Contraseña",
-    "or": "Iniciar cuenta con",
+    "forgot-password": "Olvidé mi contraseña",
+    "or": "Iniciar sesión con",
     "facebook": "Facebook",
     "google": "Google",
     "not-account": "No tienes cuenta?",
     "sign-up": "Registrarse",
     "error": {
-      "email-invalid": "Email Inválido",
+      "email-invalid": "Email no válido",
       "email-required": "Email requerido",
       "password-required": "Contraseña requerida"
     },
-    "success": "Bienvenido devuelta",
+    "success": "Bienvenido de vuelta",
     "already-login": "Intentando iniciar sesión de nuevo?",
     "confirm-email": "Confirmar correo electrónico"
   }

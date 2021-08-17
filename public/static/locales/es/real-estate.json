@@ -17,7 +17,7 @@
       "submit": "Buscar ahora",
       "accordion": "BÚSQUEDA AVANZADA",
       "accordion-right": {
-        "utility-label": "Rango de facturación de servicios públicos",
+        "utility-label": "Rango de coste de servicios públicos",
         "utility": {
           "from-price": "Desde: 0.00",
           "to-price": "Hasta: 9,999,999,999"
@@ -27,11 +27,11 @@
           "from-year": "Desde: 1000",
           "to-year": "Hasta: 9999"
         },
-        "measurement-label": "Medida",
+        "measurement-label": "Sistema medida",
         "system": {
-          "none": "Ninguna",
-          "metric": "Métrico m2",
-          "imperial": "Pies anglosajones"
+          "none": "Ninguno",
+          "metric": "Métrico (metros)",
+          "imperial": "Imperial (pies)"
         }
       }
     }
@@ -46,7 +46,7 @@
           "rooms": "Habitaciones",
           "street-name": "Nombre de la calle",
           "popularity": "Popularidad",
-          "views": "Visto",
+          "views": "Visualizaciones",
           "country": "País",
           "insert-date": "Insertar fecha"
         }
@@ -58,7 +58,7 @@
     "see-more": "Leer más"
   },
   "error": {
-    "tags": "Póngase en contacto con nosotros diciendo: 'No se encontraron etiquetas'"
+    "tags": "Ponte en contacto con nosotros diciendo: 'No se encontraron etiquetas'"
   },
   "no-tags": "No hay características para esta opción"
 }
