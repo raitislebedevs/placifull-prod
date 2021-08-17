@@ -1,7 +1,7 @@
 {
   "currency": "€",
   "payment-modal": {
-    "header": "Pianifica i dettagli dell'acquisto",
+    "header": "Dettagli del piano di acquisto",
     "sub-header": "Seleziona il tuo piano dai dettagli qui sotto",
     "total-cost": "Prezzo:",
     "expiry-date": "Data di scadenza:",
@@ -11,7 +11,7 @@
     "listed": "Inserito:",
     "purchase": "Acquistato:",
     "extend-expiry": "Proroga della scadenza",
-    "promote": "Promozione",
+    "promote": "Promuovi",
     "subscription-valid": "L'opzione è valida",
     "days": "giorni",
     "browser-cv": "Cerca CV",
@@ -62,7 +62,7 @@
     "receipt-table": {
       "plan": "Piano",
       "quantity": "Quantità",
-      "promote": "Promozione",
+      "promote": "In evidenza",
       "extend-expiry": "Estensione della scadenza",
       "total": "Totale",
       "total-amount": "Importo totale:",
@@ -76,7 +76,7 @@
         "activeSubscription": "Cerca CV"
       }
     },
-    "thank-you-message": "Ti ringraziamo per aver sostenuto Placifull Company. Crediamo che sarai soddisfatto della tua scelta,",
+    "thank-you-message": "Ti ringraziamo per aver scelto Placifull Company. Siamo certi che sarai soddisfatto della tua scelta.",
     "buttons": {
       "cancel": "Cancella",
       "proceed": "Paga e procedi"
@@ -84,6 +84,6 @@
   },
   "error": {
     "transaction": "Transazione fallita",
-    "subscriptions": "Abbonamento fallito"
+    "subscriptions": "Iscrizione fallita"
   }
 }

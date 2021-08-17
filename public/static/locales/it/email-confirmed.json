@@ -5,7 +5,7 @@
   "form": {
     "heading": "  Indirizzo email",
     "placeholder": "  Inserisci l'indirizzo email del tuo profilo",
-    "submit": "  Spedire",
+    "submit": "Inviare",
     "confirmed": "  E-mail già confermata?",
     "sign-in": "  Registrazione",
     "success-text": "Link di conferma e-mail inviato al tuo indirizzo e-mail",

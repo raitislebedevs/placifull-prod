@@ -3,14 +3,14 @@
   "hero": {
     "form": {
       "search-fields": {
-        "min-price": "Prezzo min.",
-        "max-price": "Prezzo Max.",
-        "min-rooms": "Camere min.",
-        "max-rooms": "Camere max.",
-        "min-area": "Superficie min.",
-        "max-area": "Superficie min.",
-        "move-in-date": "Data di arrivo",
-        "move-out-date": "Data di partenza",
+        "min-price": "Prezzo min",
+        "max-price": "Prezzo max",
+        "min-rooms": "Camere min",
+        "max-rooms": "Camere max",
+        "min-area": "Superficie min",
+        "max-area": "Superficie max",
+        "move-in-date": "Data di arrivo da",
+        "move-out-date": "Data di arrivo a",
         "currency": "Valuta"
       },
 
@@ -20,7 +20,7 @@
         "utility-label": "Media costo utenze",
         "utility": {
           "from-price": "Da: 0,00",
-          "to-price": "A: 9,999,999,999"
+          "to-price": "A: 9.999.999.999"
         },
         "year-label": "Anno di costruzione",
         "built": {

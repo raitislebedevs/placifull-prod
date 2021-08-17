@@ -1,6 +1,5 @@
 {
   "title": "Candidati",
-
   "kanban": {
     "save": "Salva scheda",
     "saving": "Salvataggio…..",
@@ -22,9 +21,9 @@
       "title": "Statistiche",
       "applicants": "Candidati",
       "interviewed": "Intervistati",
-      "processing": "Elaborati",
-      "reviewed": "Recensiti",
-      "shortlisted": "Selezionati",
+      "processing": "In corso",
+      "reviewed": "Rivisti",
+      "shortlisted": "Pre-selezionati",
       "hired": "Assunti"
     },
     "columns": {

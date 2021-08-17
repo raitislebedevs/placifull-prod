@@ -1,7 +1,6 @@
 {
-  "title": "Immobiliare",
-
   "heading": "Invia annuncio",
+  "title": "Immobiliare",
   "form": {
     "submit": "Invia",
     "submit-confirm": "Salvataggio…..",
@@ -13,7 +12,7 @@
       "heading": "Informazioni generali",
       "currency-input": "Valuta",
       "input-fields": {
-        "name": "Il nome de ltuo annuncio",
+        "name": "Nome del tuo annuncio",
         "description": "Descrizione",
         "price": "Prezzo",
         "bed-rooms": "Camere da letto",

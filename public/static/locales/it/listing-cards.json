@@ -15,7 +15,7 @@
       }
     },
     "working-schedule": {
-      "label": "Calendario di lavoro",
+      "label": "Orario di lavoro",
       "options": {
         "officeHours": "Orario d'ufficio",
         "shifts": "Turni",
@@ -38,7 +38,7 @@
 
   "real-estate-card": {
     "location": "Luogo",
-    "working-schedule": "Calendario di lavoro",
+    "working-schedule": "Orario di lavoro",
     "salary": "Stipendio",
     "contract-type": "Tipo di contratto",
     "button": "Vedi in dettaglio"

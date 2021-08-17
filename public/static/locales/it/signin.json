@@ -1,13 +1,13 @@
 {
   "heading": "Accedi",
-  "title": "Ben tornato",
+  "title": "Bentornato",
   "form": {
     "your-email": "Fornisci un indirizzo email",
     "email": "Email",
     "password": "Password",
-    "submit": "Registrati",
+    "submit": "Accedi",
     "remember-me": "Ricordami",
-    "forgot-password": "Hai dimenticato la password?",
+    "forgot-password": "Password dimenticata?",
     "or": "Oppure accedi con",
     "facebook": "Facebook",
     "google": "Google",
@@ -19,7 +19,7 @@
       "password-required": "È necessaria la password"
     },
     "success": "Bentornato!",
-    "already-login": "Hai dovuto accedere due volte?",
+    "already-login": "Stai provando ad accedere nuovamente?",
     "confirm-email": "Conferma email"
   }
 }

@@ -1,16 +1,16 @@
 {
-  "title": "Consiglio dei suggerimenti",
+  "title": "Bacheca dei suggerimenti",
   "subtitle": "Tabellone per le votazioni",
   "item": {
     "score": "Punteggio attuale",
     "options": "Opzioni di voto",
     "up": "SU",
-    "down": "FUORI USO",
+    "down": "GIÙ",
     "rating": "Valutazione",
-    "vote": "VOTAZIONE"
+    "vote": "VOTA"
   },
   "toast": {
-    "log-in": "Accedete, per favore",
+    "log-in": "Accedi, per favore",
     "voted": "Cerchi di votare due volte?",
     "rate": "Si prega di valutare l'idea",
     "up-down": "Scegli un'opzione di voto",

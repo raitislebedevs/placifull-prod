@@ -35,10 +35,10 @@
   "qualification": {
     "primary": "Primaria",
     "secondary": "Secondaria",
-    "vocational": "Professionale",
-    "bachelors": "Diplomi",
+    "vocational": "Formazione professionale",
+    "bachelors": "Laurea",
     "master": "Master",
-    "doctorate": "Laurea",
+    "doctorate": "Dottorato",
     "other": "Altro"
   },
 

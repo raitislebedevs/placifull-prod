@@ -34,7 +34,6 @@
   "contact-form": {
     "heading": "Contatta direttamente il proprietario",
     "not-specified": "Non specificato",
-
     "form": {
       "heading": "Scrivi la tua domanda qui",
       "fullName": "Nome completo*",
@@ -45,7 +44,7 @@
     }
   },
   "extra": {
-    "heading": "Altri oggetti elencati da questo profilo",
+    "heading": "Altri annunci da questo profilo",
     "table": {
       "number": "N.",
       "country": "Nazione",

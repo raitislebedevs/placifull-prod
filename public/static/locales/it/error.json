@@ -1,5 +1,6 @@
 {
   "internal-error": "Errore sconosciuto dal server. Si prega di riprovare più tardi.",
+  "server-error-api": "Errore del server. ",
   "connection-error": "Impossibile connettersi al server. Si prega di riprovare più tardi.",
   "server-not-reached": "È così imbarazzante! Non è possibile raggiungere il server. Per favore, contattaci o riprova più tardi.",
   "Auth": {
@@ -7,9 +8,23 @@
       "error": {
         "invalid": "E-mail o password non valida.",
         "user": {
-          "not-exist": "L'utente con questa email è inesistente."
+          "not-exist": "L'utente associato a questa email è inesistente.",
+          "user-blocked": "Questo utente è bloccato. Contatta la nostra assistenza. "
+        },
+        "code": {
+          "provide": "Accesso non autorizzato! "
+        },
+        "email": {
+          "confirmed": "Devi confermare il tuo indirizzo email",
+          "taken": "L'utente associato a questa email esiste già.",
+          "already-confirmed": "L'email è già confermata",
+          "format": "Formato email non valido",
+          "not-send": "Non siamo riusciti a mandare una email all'indirizzo email fornito. Per favore, controlla se è corretto o contatta la nostra assistenza. "
         }
       }
+    },
+    "advanced": {
+      "allow_register": "Al momento non accettiamo più registrazioni di altri utenti. "
     }
   }
 }

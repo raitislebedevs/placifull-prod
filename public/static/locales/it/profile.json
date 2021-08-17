@@ -1,6 +1,5 @@
 {
   "title": "Profilo",
-
   "overview": {
     "button-label": {
       "change": "Cambia foto",
@@ -17,7 +16,7 @@
     }
   },
   "hover-texts": {
-    "real-estate": "Messaggi immobiliari",
+    "real-estate": "Messaggi immobili",
     "transport": "Messaggi veicoli",
     "job": "Messaggi di lavoro",
     "browser": "Sfoglia CV"
@@ -82,8 +81,8 @@
         }
       },
       "delete-form": {
-        "text": "Elimina account",
-        "content": "Vuoi eliminare l'account? Per favore, premi il pulsante 'Cancella' qui sotto",
+        "text": "Elimina account:",
+        "content": "Vuoi eliminare l'account? Per favore, premi il pulsante 'Elimina' qui sotto",
         "button-delete": "Elimina account"
       },
       "validation": {
@@ -136,7 +135,7 @@
         }
       },
       "receipt": {
-        "title": "Cedolini",
+        "title": "Ricevute di pagamento",
         "search": {
           "search-from": "Seleziona data d'inizio",
           "search-to": "Seleziona la data di fine",
@@ -145,7 +144,7 @@
         "table": {
           "order": "Ordine n.",
           "date": "Data",
-          "premium": "Promozione",
+          "premium": "In evidenza",
           "add-days": "Giorni extra",
           "type": "Tipo di annuncio"
         }
@@ -197,9 +196,9 @@
                 "primary": "Primaria",
                 "secondary": "Secondaria",
                 "vocational": "Professionale",
-                "bachelors": "Diplomi",
+                "bachelors": "Laurea",
                 "master": "Master",
-                "doctorate": "Laurea",
+                "doctorate": "Dottorato",
                 "other": "Altro"
               }
             },
@@ -251,7 +250,7 @@
                 "native": "Madrelingua"
               }
             },
-            "button-add": "Aggiungi competenze"
+            "button-add": "Aggiungi competenza"
           }
         },
         "computer": {
@@ -279,7 +278,7 @@
               "moreThanFifteen": "15+ anni"
             },
             "certificate": "Denominazione del Diploma",
-            "button-add": "Aggiungi competenze"
+            "button-add": "Aggiungi competenza"
           }
         },
         "licenses": {
@@ -331,25 +330,25 @@
       "search": "Cerca",
       "work-expierience": "Esperienza di lavoro",
       "work-expectations": "Aspettative di lavoro",
-      "education-fit": "Istruzione appropriata",
+      "education-fit": "Istruzione correlata",
       "salary-hourly": "Stipendio orario fino a",
       "salary-monthly": "Stipendio mensile fino a",
       "salary-annual": "Stipendio annuale fino a",
       "seniority": "Anzianità",
-      "monthly": "/mensile",
+      "monthly": " /mensile",
       "result-table": {
         "nr": "N.",
         "name": "Nome completo",
         "email": "Email",
         "phone": "Telefono",
-        "worked-as": "Ultima posizione",
+        "worked-as": "Ultima posizione,",
         "salary": "Stipendio previsto",
         "cv": "CV",
         "view": "Vedi"
       }
     },
     "receipt": {
-      "title": "Cedolini",
+      "title": "Ricevute di pagamento",
       "start-date": "Data d'inizio",
       "end-date": "Data di fine",
       "table": {
@@ -368,7 +367,7 @@
     "avatar-fail": "Aggiornamento avatar fallito",
     "avatar-remove": "Avatar rimosso",
     "avatar-remove-fail": "L'Avatar non è stato rimosso",
-    "logout": "Disconnetti",
+    "logout": "Disconnesso",
     "password": "La password è stata modificata",
     "password-fail": "La password non è stata modificata",
     "item-deleted": "Annuncio rimosso"
