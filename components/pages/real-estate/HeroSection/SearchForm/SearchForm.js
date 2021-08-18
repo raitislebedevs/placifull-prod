@@ -102,6 +102,7 @@ const SearchForm = (props) => {
   };
 
   const handleOnChange = (event) => {
+    console.log(event);
     const value = event?.target?.value ?? event;
     const id = event?.target?.id ?? event?.id;
     setInputValues({ ...inputValues, [id]: value });
@@ -199,7 +200,7 @@ const SearchForm = (props) => {
 
       let filter = {
         ...cleanObject({
-          transportType_contains: inputValues?.transportType?.value || null,
+          category_contains: inputValues?.category?.value || null,
           action_contains: inputValues?.action?.value || null,
           condition_contains: inputValues?.condition?.value || null,
           areaMeasurement_contains: inputValues?.areaMeasurement?.value || null,
