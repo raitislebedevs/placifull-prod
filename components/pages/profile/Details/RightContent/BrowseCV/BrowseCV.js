@@ -15,8 +15,6 @@ import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import { cleanObject } from 'utils/standaloneFunctions';
 import guidGenerator from 'utils/guidGenerator';
 
-const noCV = '/static/images/no-listings/CV.png';
-
 const BrowseCV = (props) => {
   const { t } = props;
   const peopleCv = fields(t);
@@ -235,7 +233,9 @@ const BrowseCV = (props) => {
             {applicantCvs?.length === 0 ? (
               <div className={'listings__not__placed'}>
                 <img
-                  src={noCV}
+                  src={
+                    'https://placifull-static.s3.eu-central-1.amazonaws.com/CV.png'
+                  }
                   id="logo"
                   className="mx-auto d-block"
                   alt="CV"

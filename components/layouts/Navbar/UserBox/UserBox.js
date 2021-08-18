@@ -5,7 +5,8 @@ import Link from 'next/link';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import useOutsideAlerter from 'hooks/useOutsideAlerter';
 
-const defaultAvatar = '/static/images/default-avatar.png';
+const defaultAvatar =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/default-avatar.png';
 
 const ProfileMenu = (props) => {
   const { t, user, dispatch } = props;

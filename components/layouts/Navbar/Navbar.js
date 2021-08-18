@@ -21,7 +21,8 @@ import { loginSuccess, setLoadingUser } from 'actions';
 import UserBox from './UserBox';
 
 const logo = '/static/images/logo.svg';
-const logoWhite = '/static/images/logo-white.png';
+const logoWhite =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/logo-white.png';
 
 const Navbar = (props) => {
   const { t, dispatch, user } = props;

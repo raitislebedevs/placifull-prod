@@ -233,7 +233,7 @@ const TermSection = (props) => {
             </Col>
             <Col lg={6} xl={6} md={6}>
               <div className="faq__img">
-                <img src="/static/images/background/imageTerm.png" />
+                <img src="https://placifull-static.s3.eu-central-1.amazonaws.com/imageTerm.png" />
               </div>
             </Col>
           </Row>

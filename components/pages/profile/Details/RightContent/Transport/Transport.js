@@ -12,7 +12,8 @@ import { ModalAsk } from 'components/common';
 import useSubscriptions from 'hooks/useSubscriptions';
 import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
 
-const noTransport = '/static/images/no-listings/Transport.png';
+const noTransport =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/Transport.png';
 
 const responsive = {
   superLargeDesktop: {

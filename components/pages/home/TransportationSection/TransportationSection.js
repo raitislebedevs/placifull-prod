@@ -4,7 +4,8 @@ import { Row, Col, Button, Container, Spinner } from 'react-bootstrap';
 import { TransportationCard } from 'components/common';
 import Slider from 'react-slick';
 import { TransportListingService } from 'services';
-const noTransport = '/static/images/no-listings/Transport.png';
+const noTransport =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/Transport.png';
 
 const TransportationSection = (props) => {
   const { t } = props;

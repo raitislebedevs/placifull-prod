@@ -1,7 +1,8 @@
 import { withTranslation } from 'i18n';
 import { Col } from 'react-bootstrap';
 
-const background = '/static/images/background/ResetPasswordBackground.jpg';
+const background =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/ResetPasswordBackground.jpg';
 
 const ResetPasswordImage = (props) => {
   let { t } = props;

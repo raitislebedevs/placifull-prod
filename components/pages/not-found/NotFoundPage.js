@@ -1,7 +1,5 @@
 import Link from 'next/link';
 
-const notFound = '/static/images/404.png';
-
 const NotFoundPage = (props) => {
   const { t } = props;
 
@@ -9,7 +7,13 @@ const NotFoundPage = (props) => {
     <div id="notfound">
       <div className="not_found_container">
         <div>
-          <img src={notFound} className="not_found_image" alt="Placifull" />
+          <img
+            src={
+              'https://placifull-static.s3.eu-central-1.amazonaws.com/404.png'
+            }
+            className="not_found_image"
+            alt="Placifull"
+          />
         </div>
         <div className="not_found_text">
           <h2>{t('main-text')}</h2>

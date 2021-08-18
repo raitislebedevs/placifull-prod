@@ -6,7 +6,8 @@ import { RealEstateCard } from 'components/common';
 import RealEstateListingServices from 'services/realEstateListingServices';
 import { random } from 'utils/standaloneFunctions';
 
-const noRealEstate = '/static/images/no-listings/RealEstate.png';
+const noRealEstate =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/RealEstate.png';
 
 const RealEstateSection = (props) => {
   const { t } = props;
