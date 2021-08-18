@@ -50,12 +50,6 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-
-          {/* <!-- Go to www.addthis.com/dashboard to customize your tools --> */}
-          <script
-            type="text/javascript"
-            src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-611cb227d93d97eb"
-          ></script>
         </body>
       </Html>
     );
