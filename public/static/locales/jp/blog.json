@@ -1,0 +1,16 @@
+{
+  "title": "Placifullブログ",
+  "hero": {
+    "heading": "アドバイスをお探しですか？"
+  },
+  "blog-item": {
+    "button": "続きを見る"
+  },
+  "search": {
+    "real-estate": "不動産",
+    "transport": "輸送",
+    "job": "ジョブズ",
+    "other": "他の",
+    "all": "全て"
+  }
+}

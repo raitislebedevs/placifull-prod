@@ -2,7 +2,7 @@
   "balcony": "バルコニー",
   "basement": "地下",
   "bathlab": "バスタブ",
-  "bed": "寝室",
+  "bed": "ベット",
   "builtinCloset": "ビルトインクローゼット",
   "builtinKitchen": "システムキッチン",
   "builtinLighting": "埋め込み照明",
@@ -12,7 +12,7 @@
   "cookerHood": "レンジフード",
   "eatingTable": "ダイニングテーブル",
   "firePlace": "暖炉",
-  "freeParking": "駐車場",
+  "freeParking": "無料駐車場",
   "freezer": "冷凍庫",
   "fridge": "冷蔵庫",
   "furnitures": "家具",
@@ -58,13 +58,13 @@
   "recordStudio": "レコーディングスタジオ",
   "garden": "庭",
 
-  "commade": "トイレ",
+  "commade": "タンス",
   "bathtub": "バスタブ",
   "showerCabin": "シャワーキャビン",
   "ligthingSystem": "照明設備",
 
   "cabinets": "キャビネット",
-  "vegyFruitRack": "野菜室/果物室",
+  "vegyFruitRack": "野菜/果物用ラック",
 
   "forestFive": "森林 5%",
   "forestTen": "森林 10%",
@@ -87,14 +87,14 @@
   "agriculturalLand": "農地",
   "forestyLand": "森林",
   "waterLand": "水のある土地",
-  "miningAreas": "鉱山",
+  "miningAreas": "炭鉱地帯",
   "buildingLand": "宅地",
 
   "landPrivateHome": "一軒家",
   "apartment": "アパート",
   "commercialLand": "商業用",
-  "productionFacility": "生産拠点",
-  "publicImportance": "公共施設",
+  "productionFacility": "製造施設",
+  "publicImportance": "重要な建造物",
   "traficLand": "インフラ施設",
   "enginierNetwork": "物流ネットワーク施設"
 }

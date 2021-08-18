@@ -11,7 +11,7 @@
     "listed": "一覧：",
     "purchase": "購入済み：",
     "extend-expiry": "期限を延長",
-    "promote": "昇進",
+    "promote": "プロモーション",
     "subscription-valid": "オプションは有効です",
     "days": "日",
     "browser-cv": "履歴書の検索",
@@ -28,7 +28,7 @@
         "label": "カード情報を提供",
         "card-holder": "カード所有者",
         "card-number": "カード番号",
-        "card-date": "期限",
+        "card-date": "有効期限",
         "card-csv": "セキュリティコード"
       },
       "buttons": {
@@ -38,20 +38,20 @@
 
       "purchase-items": {
         "intro": "イントロダクション",
-        "single": "単発",
+        "single": "1回きり",
         "quarterly": "四半期",
-        "life": "一年ごと"
+        "life": "1年"
       },
       "user-stock": {
-        "single": "単発",
+        "single": "1回きり",
         "quartery": "四半期",
-        "life": "一年ごと"
+        "life": "1年"
       }
     }
   },
 
   "receipt-modal": {
-    "header": "詳細をまとめる",
+    "header": "購入内容の詳細",
     "sub-header": "次に進む前に購入の詳細を確認してください",
     "card-details": {
       "card-holder": "カード所有者",
@@ -62,17 +62,17 @@
     "receipt-table": {
       "plan": "プラン",
       "quantity": "量",
-      "promote": "昇進",
-      "extend-expiry": "期限延長",
+      "promote": "プロモーション",
+      "extend-expiry": "掲載期限延長",
       "total": "合計",
       "total-amount": "合計量：",
       "price": "価格",
       "expiry-date": "期限",
       "no-expiry": "なし",
       "plans": {
-        "standalone": "単発",
+        "standalone": "1回きり",
         "subscriptionQuarterly": "四半期",
-        "subscriptionYearly": "一年",
+        "subscriptionYearly": "1年",
         "activeSubscription": "履歴書を検索"
       }
     },

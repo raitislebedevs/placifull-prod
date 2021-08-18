@@ -1,6 +1,5 @@
 {
   "title": "プロフィール",
-
   "overview": {
     "button-label": {
       "change": "写真を変更",
@@ -18,9 +17,9 @@
   },
   "hover-texts": {
     "real-estate": "不動産のポスト",
-    "transport": "交通機関のポスト",
+    "transport": "交通手段のポスト",
     "job": "求人のポスト",
-    "browser": "履歴書ブラウザ"
+    "browser": "履歴書閲覧"
   },
   "left-tab": {
     "navigation": "検索",
@@ -28,9 +27,9 @@
       "profile": "プロフィール",
       "cv": "履歴書",
       "real-estate": "不動産",
-      "transport": "交通機関",
+      "transport": "交通手段",
       "jobs": "求人",
-      "browser": "履歴書ブラウザ",
+      "browser": "履歴書閲覧",
       "payment": "領収書",
       "logout": "ログアウト"
     }
@@ -47,7 +46,7 @@
           "last-name": "姓",
           "email": "メールアドレス",
           "phone-number": "携帯電話番号",
-          "about-me-heading": "私について",
+          "about-me-heading": "自己紹介",
           "about-me": "アピールポイント",
           "country": "国",
           "state": "州/地域",
@@ -76,19 +75,19 @@
         "button-save": "パスワードを保存",
         "validation": {
           "current-password-required": "パスワードを確認してください",
-          "new-password-required": "新しいパスワードが見つかりません",
+          "new-password-required": "新しいパスワードが入力されていません",
           "password-not-match": "パスワードが一致しません",
           "confirm-password-required": "パスワードを確認してください"
         }
       },
       "delete-form": {
         "text": "アカウントを削除",
-        "content": "本当に削除しますか？",
+        "content": "本当に削除しますか？実行する場合には下の削除ボタンを押してください。",
         "button-delete": "削除"
       },
       "validation": {
-        "first-name": "要求されている名",
-        "last-name": "要求されている姓"
+        "first-name": "名を入力してください",
+        "last-name": "姓を入力してください"
       }
     },
     "tabs": {
@@ -145,7 +144,7 @@
         "table": {
           "order": "注文番号",
           "date": "日付",
-          "premium": "昇進",
+          "premium": "おすすめ",
           "add-days": "追加日数",
           "type": "リストのタイプ"
         }
@@ -180,7 +179,7 @@
             },
             "about-me": "アピールポイント",
             "cv-published": "公開済み",
-            "cv-hidden": "隠れた"
+            "cv-hidden": "非公開"
           }
         },
         "education": {
@@ -219,14 +218,14 @@
           "position-description": "役職の説明",
           "sector": "雇用形態",
           "seniority": {
-            "title": "年功",
+            "title": "キャリアレベル",
             "options": {
               "volunteer": "ボランティア",
               "intern": "インターン",
               "junior": "ジュニア",
-              "intermediate": "中級",
+              "intermediate": "ミドル",
               "senior": "シニア",
-              "executive": "役員",
+              "executive": "エグゼクティブ",
               "ceo": "CEO",
               "other": "その他"
             }
@@ -306,14 +305,14 @@
             "interest": "興味のある分野",
             "position": "役職",
             "seniority": {
-              "title": "年功",
+              "title": "キャリアレベル",
               "options": {
                 "volunteer": "ボランティア",
                 "intern": "インターン",
                 "junior": "ジュニア",
-                "intermediate": "中級",
+                "intermediate": "ミドル",
                 "senior": "シニア",
-                "executive": "役員",
+                "executive": "エグゼクティブ",
                 "ceo": "CEO",
                 "other": "その他"
               }
@@ -327,7 +326,7 @@
       }
     },
     "browser-cv": {
-      "browser": "履歴書ブラウザ",
+      "browser": "履歴書の検索",
       "search": "検索",
       "work-expierience": "職歴",
       "work-expectations": "仕事への期待",
@@ -394,7 +393,7 @@
     "withdraw": "撤回"
   },
   "referral-modal": {
-    "body-text": "現時点では、手動で撤回を処理しています。お問い合わせください。これを整理します：）",
+    "body-text": "現時点では、手動で取り消しの処理しています。お問い合わせください。",
     "header-text": "情報",
     "submit-text": "お問い合わせ",
     "close-text": "閉じる"

@@ -1,6 +1,5 @@
 {
   "title": "応募者",
-
   "kanban": {
     "save": "ボードを保存",
     "saving": "保存中…",
@@ -11,7 +10,7 @@
     },
     "job-overview": {
       "title": "仕事の概要",
-      "industry": "産業",
+      "industry": "業種",
       "languages-en": "言語（英語）",
       "native": "母語",
       "contract-type": "契約タイプ",

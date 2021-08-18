@@ -1,9 +1,8 @@
 {
-  "heading": "リストを提出",
+  "heading": "リスト掲載",
   "title": "不動産",
-
   "form": {
-    "submit": "提出",
+    "submit": "掲載",
     "submit-confirm": "保存中…",
     "preview-sneak-peak": "実行中…",
     "preview": "プレビュー",
@@ -17,11 +16,11 @@
         "description": "説明",
         "price": "価格",
         "bed-rooms": "寝室",
-        "bath-rooms": "お風呂",
-        "area": "所有エリア",
+        "bath-rooms": "お風呂・トイレ",
+        "area": "面積",
         "start-renting": "賃貸を始める",
         "end-renting": "賃貸を終わる",
-        "year-built": "築年数"
+        "year-built": "築年"
       }
     },
     "detail-information": {
@@ -39,7 +38,7 @@
     },
     "gallery": {
       "real-estate": "ギャラリー",
-      "click-drop": "画像をドラッグしてください ",
+      "click-drop": "クリック、もしくは画像をドラッグしてください ",
       "video-url": "動画 https://"
     },
     "contact-hours": {

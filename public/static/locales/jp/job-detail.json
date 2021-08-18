@@ -27,8 +27,8 @@
     "items": {
       "offered-salary": "提示された給与",
       "languages": "言語",
-      "native": "出身",
-      "industry": "産業"
+      "native": "母語",
+      "industry": "業種"
     },
     "views": "閲覧数",
     "applicants": "応募数",
@@ -40,7 +40,7 @@
   },
 
   "application": {
-    "header": "応募する",
+    "header": "応募する：",
     "body": {
       "proposal": "提示された給与"
     },
@@ -50,7 +50,7 @@
   "extra": {
     "heading": "プロフィールから提案された仕事",
     "table": {
-      "number": "番号：",
+      "number": "番号",
       "country": "国",
       "full-address": "住所",
       "position": "役職",

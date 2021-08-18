@@ -1,0 +1,16 @@
+{
+  "title": "Ramus dienoraštis",
+  "hero": {
+    "heading": "Ieškai patarimo?"
+  },
+  "blog-item": {
+    "button": "Žiūrėti daugiau"
+  },
+  "search": {
+    "real-estate": "Nekilnojamasis turtas",
+    "transport": "Transportas",
+    "job": "Darbai",
+    "other": "Kiti",
+    "all": "Visi"
+  }
+}

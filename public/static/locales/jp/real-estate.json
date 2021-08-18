@@ -9,15 +9,15 @@
         "max-rooms": "最大部屋数",
         "min-area": "最小面積",
         "max-area": "最大面積",
-        "move-in-date": "移動日（から）",
-        "move-out-date": "移動日（まで）",
+        "move-in-date": "入居日（から）",
+        "move-out-date": "入居日（まで）",
         "currency": "通貨"
       },
 
       "submit": "今すぐ検索",
       "accordion": "詳細検索",
       "accordion-right": {
-        "utility-label": "光熱費の範囲",
+        "utility-label": "光熱水費の範囲",
         "utility": {
           "from-price": "から：0.00",
           "to-price": "まで：9,999,999,999"

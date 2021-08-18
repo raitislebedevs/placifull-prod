@@ -21,8 +21,8 @@
     }
   },
   "condition": {
-    "label": "条件",
-    "label-land": "所有タイプ",
+    "label": "状態",
+    "label-land": "不動産タイプ",
     "options": {
       "brandNew": "新しい",
       "goodCondition": "良い",
@@ -54,19 +54,19 @@
       "housing-extras": "その他",
       "land-type": "土地のタイプ",
       "buildingLand": "宅地",
-      "forest-properties": "森林資源",
-      "agriculture-properties": "農業資源"
+      "forest-properties": "森林用土地",
+      "agriculture-properties": "農業用土地"
     }
   },
   "utilities": {
-    "heading": "公共施設",
+    "heading": "光熱水費",
     "total": "合計",
     "items": {
       "coldWater": "冷水",
       "hotWater": "温水",
       "electricity": "電気",
       "garbage": "ゴミ",
-      "propertyManagement": "財産管理",
+      "propertyManagement": "管理費",
       "heating": "暖房",
       "parking": "駐車",
       "others": "その他"

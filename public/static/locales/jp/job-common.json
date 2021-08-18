@@ -35,27 +35,27 @@
     "licenses": "運転免許",
     "education": "学歴",
     "expierience": "職歴（年）",
-    "candiadate": "アピールポイント",
-    "weOffer": "提供するもの"
+    "candiadate": "応募必須条件",
+    "weOffer": "利点"
   },
   "salary": {
     "heading": "給料",
-    "monthly-from": "から",
-    "monthly-to": "まで",
-    "hourly-rate-from": "から（時給）",
-    "annual-from": "から（年収）",
-    "annual-to": "まで（年収）",
-    "hourly-rate-to": "まで（時給）"
+    "monthly-from": "給料（最低金額）",
+    "monthly-to": "給料（最高金額）",
+    "hourly-rate-from": "最低時給",
+    "annual-from": "最低年収",
+    "annual-to": "最高年収",
+    "hourly-rate-to": "最高時給"
   },
   "work-area": {
-    "label": "希望エリア",
+    "label": "職種",
     "options": {
       "intern": "インターン",
       "volunteerWork": "ボランティア",
       "stockExchange": "証券取引",
       "administrationAssistance": "アドミニストレーション/アシスタント",
       "constructionRealEstate": "建設/不動産",
-      "humanResources": "人的資源",
+      "humanResources": "人事",
       "securityRescue": "セキュリティ/救助",
       "military": "軍",
       "electronicsTelecomunication": "電気/通信",
@@ -79,7 +79,7 @@
       "services": "サービス",
       "transportLogistics": "交通/物流",
       "tourismCateringHotels": "観光/飲食/ホテル",
-      "managment": "経営",
+      "managment": "マネジメント",
       "government": "政府",
       "others": "その他"
     }

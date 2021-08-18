@@ -127,7 +127,6 @@ const JobSection = (props) => {
                           src={noJobs}
                           id="transport"
                           alt="Transport"
-                          layout="responsive"
                           width={483}
                           height={300}
                         />

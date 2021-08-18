@@ -18,12 +18,12 @@
 
   "general-info": {
     "heading": "概要",
-    "property-area": "所有領域",
-    "rooms": "部屋",
-    "year-built": "築年数",
+    "property-area": "面積",
+    "rooms": "部屋数",
+    "year-built": "築年",
     "price": "価格",
-    "total-ultilities": "公共施設",
-    "move-in": "引越し日",
+    "total-ultilities": "合計光熱水費",
+    "move-in": "入居日",
     "move-out": "退出日",
     "min-time": "最小時間",
     "bid-price": "入札額",
@@ -34,7 +34,6 @@
   "contact-form": {
     "heading": "所有者と直接連絡",
     "not-specified": "指定しない",
-
     "form": {
       "heading": "質問を書いてください",
       "fullName": "氏名",
@@ -50,11 +49,11 @@
       "number": "番号",
       "country": "国",
       "full-address": "住所",
-      "property-type": "所有タイプ",
+      "property-type": "不動産タイプ",
       "price": "価格",
       "area": "地域",
       "bed-rooms": "部屋",
-      "year-built": "築年数"
+      "year-built": "築年"
     }
   }
 }

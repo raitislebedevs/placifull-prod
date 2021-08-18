@@ -18,7 +18,7 @@
 
   "listing-input-date": {
     "today": "今日",
-    "yesterday": "機能",
+    "yesterday": "昨日",
     "days-ago": "日前"
   },
 
@@ -60,12 +60,12 @@
     "bidding-price": "入札価格がありません",
     "price-lower": "入札が掲載価格の20%より低くなっています",
     "price-upper": "入札が掲載価格の20%より高くなっています",
-    "refresh-page": "サーバーが反応しませんでした。リフレッシュしてください。",
+    "refresh-page": "サーバーが応答しませんでした。更新してください。",
     "not-send": "メールを送信できませんでした",
     "contact-directly": "直接連絡する",
     "email-send": "メールが送信されました",
-    "no-email": "このメールは存在しません",
-    "subscribed": "サブスクリプションに成功しました、おめでとうございます。",
+    "no-email": "このメールアドレスは存在しません",
+    "subscribed": "サブスクリプションが完了しました、おめでとうございます。",
     "already-applied": "すでにこの職種には応募しています",
     "already": "すでにサブスクリプション登録しています / 無効なメール",
     "country-error": "国の入力時のエラー",
@@ -84,7 +84,7 @@
     },
     "logout-success": "またね！",
     "bid-placed": "入札されました",
-    "your-referral": "独自の紹介コードを使用できません：）",
+    "your-referral": "独自の紹介コードは使用できません：）",
     "minimal-withdraw": "引き出しの最低額は25€です"
   },
 
@@ -99,7 +99,7 @@
   },
 
   "items-per-page": {
-    "label": "アイテム",
+    "label": "表示数",
     "options": {
       "nine": "9件",
       "eighteen": "18件",
@@ -128,7 +128,7 @@
     "no-currency": "すべて"
   },
   "measurement": {
-    "label": "計測",
+    "label": "単位",
     "system": {
       "none": "なし",
       "metric": "メートル",
