@@ -6,7 +6,8 @@ import { FaRegEnvelope } from 'react-icons/fa';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import { ConnectionServices } from 'services';
-const envelope = '/static/images/background/envelope.png';
+const envelope =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/envelope.png';
 
 const EmailConfigurationForm = (props) => {
   let { t } = props;

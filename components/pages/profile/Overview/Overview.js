@@ -13,8 +13,6 @@ import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import Subscriptions from 'services/subscriptions';
 import { ProfilePayment, StripeContainer } from 'components//common/index';
 
-const defaultAvatar = '/static/images/default-avatar.png';
-
 const Overview = (props) => {
   const { t, user, dispatch } = props;
   const { userInfo } = user;
@@ -314,7 +312,10 @@ const Overview = (props) => {
                   pl-0 pr-2"
                 >
                   <img
-                    src={user?.userInfo?.avatar?.url || defaultAvatar}
+                    src={
+                      user?.userInfo?.avatar?.url ||
+                      'https://placifull-static.s3.eu-central-1.amazonaws.com/default-avatar.png'
+                    }
                     className="left__avatar"
                     alt=""
                   />

@@ -7,7 +7,8 @@ const ReactTypingEffect = dynamic(() => import('react-typing-effect'), {
   ssr: false,
 });
 
-const backgroundHero = '/static/images/enterprise.png';
+const backgroundHero =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/enterprise.png';
 
 const HeroSection = (props) => {
   const { t } = props;

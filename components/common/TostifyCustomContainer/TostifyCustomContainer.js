@@ -1,10 +1,13 @@
 import { toast } from 'react-toastify';
 import { Row, Col } from 'react-bootstrap';
 
-const erorr = '/static/images/tostify/Error.png';
-const info = '/static/images/tostify/Info.png';
-const success = '/static/images/tostify/Success.png';
-const warning = '/static/images/tostify/Warning.png';
+const erorr =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/Error.png';
+const info = 'https://placifull-static.s3.eu-central-1.amazonaws.com/Info.png';
+const success =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/Success.png';
+const warning =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/Warning.png';
 
 const Container = (props) => <div>{props.children}</div>;
 

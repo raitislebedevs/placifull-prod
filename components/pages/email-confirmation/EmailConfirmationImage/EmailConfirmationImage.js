@@ -1,6 +1,7 @@
 import { Col } from 'react-bootstrap';
 
-const background = '/static/images/background/EmailConfirmed.png';
+const background =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/EmailConfirmed.png';
 
 const EmailConfirmationImage = (props) => {
   let { t } = props;
