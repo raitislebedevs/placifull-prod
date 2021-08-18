@@ -7,10 +7,9 @@ const ReactTypingEffect = dynamic(() => import('react-typing-effect'), {
   ssr: false,
 });
 
-const backgroundHero =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/enterprise.png';
-
 const HeroSection = (props) => {
+  const backgroundHero =
+    'https://placifull-static.s3.eu-central-1.amazonaws.com/enterprise.png';
   const { t } = props;
   const messages = [
     t('hero-section.head.options.text-1'),
