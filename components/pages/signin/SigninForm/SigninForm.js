@@ -96,139 +96,144 @@ const SigninForm = (props) => {
               touched,
               values,
             }) => (
-              <Form onSubmit={handleSubmit}>
-                <Row className="mt-4">
-                  <Col
-                    xs={12}
-                    sm={12}
-                    md={12}
-                    lg={12}
-                    xl={12}
-                    className="wrapper__items"
-                  >
-                    <Form.Group>
-                      <Form.Label>
-                        {t('signin:form.your-email')}{' '}
-                        <span className="text-danger">*</span>
-                      </Form.Label>
-                      <div className="items__input">
-                        <AiOutlineUser className="input__icon" size="20px" />
-                        <Form.Control
-                          onChange={handleChange}
-                          value={values.identifier}
-                          onBlur={handleBlur}
-                          isInvalid={Boolean(
-                            touched.identifier && errors.identifier
-                          )}
-                          id="identifier"
-                          type="email"
-                          className="input__text"
-                          placeholder={t('signin:form.email')}
-                        />
-                        <Form.Control.Feedback type="invalid" tooltip>
-                          {touched.identifier && errors.identifier}
-                        </Form.Control.Feedback>
-                      </div>
-                    </Form.Group>
-                  </Col>
-                  <Col
-                    xs={12}
-                    sm={12}
-                    md={12}
-                    lg={12}
-                    xl={12}
-                    className="wrapper__items"
-                  >
-                    <Form.Group>
-                      <Form.Label>
-                        {t('signin:form.password')}{' '}
-                        <span className="text-danger">*</span>
-                      </Form.Label>
-                      <div className="items__input">
-                        <FiKey className="input__icon" size="20px" />
-                        <Form.Control
-                          onChange={handleChange}
-                          value={values.password}
-                          onBlur={handleBlur}
-                          isInvalid={Boolean(
-                            touched.password && errors.password
-                          )}
-                          id="password"
-                          type="password"
-                          className="form-control input__text"
-                          placeholder={t('signin:form.password')}
-                        />
-                        <Form.Control.Feedback type="invalid" tooltip>
-                          {touched.password && errors.password}
-                        </Form.Control.Feedback>
-                      </div>
-                    </Form.Group>
-                  </Col>
-                  <Col
-                    xs={12}
-                    sm={12}
-                    md={12}
-                    lg={12}
-                    xl={12}
-                    className="wrapper__items"
-                  >
-                    <div className="d-flex justify-content-between">
-                      <Form.Group controlId="remember">
-                        <Form.Check
-                          id="rememberMe"
-                          type="checkbox"
-                          label={t('signin:form.remember-me')}
-                        />
-                      </Form.Group>
-                      <p className="forgot-pass mb-0">
-                        <Link href="/forgot-password">
-                          <a className="text-dark font-weight-bold">
-                            {t('signin:form.forgot-password')}
-                          </a>
-                        </Link>
-                      </p>
-                    </div>
-                  </Col>
-                  <Col
-                    xs={12}
-                    sm={12}
-                    md={12}
-                    lg={12}
-                    xl={12}
-                    className="wrapper__items"
-                  >
-                    <div className="error-text">{t(`error:${errorText}`)}</div>
-                    <Button
-                      className="btn-block"
-                      id="signIn"
-                      type="submit"
-                      disabled={isSubmitting}
+              <div itemScope itemType="https://schema.org/Person">
+                <Form onSubmit={handleSubmit}>
+                  <Row className="mt-4">
+                    <Col
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      lg={12}
+                      xl={12}
+                      className="wrapper__items"
                     >
-                      {isSubmitting ? (
-                        <>
-                          <Spinner
-                            as="span"
-                            animation="border"
-                            size="sm"
-                            role="status"
-                          />{' '}
-                          {t('signin:form.submit')}
-                        </>
-                      ) : (
-                        t('signin:form.submit')
-                      )}
-                    </Button>
-                  </Col>
-                  <Col
-                    xs={12}
-                    sm={12}
-                    md={12}
-                    lg={12}
-                    xl={12}
-                    className="wrapper__items text-center"
-                  >
-                    <Row>
-                      {/* <Col xs={6} sm={6} md={6} lg={6} xl={6} className="mt-3">
+                      <Form.Group>
+                        <Form.Label>
+                          {t('signin:form.your-email')}{' '}
+                          <span className="text-danger">*</span>
+                        </Form.Label>
+                        <div className="items__input">
+                          <AiOutlineUser className="input__icon" size="20px" />
+                          <div itemProp="email">
+                            <Form.Control
+                              onChange={handleChange}
+                              value={values.identifier}
+                              onBlur={handleBlur}
+                              isInvalid={Boolean(
+                                touched.identifier && errors.identifier
+                              )}
+                              id="identifier"
+                              type="email"
+                              className="input__text"
+                              placeholder={t('signin:form.email')}
+                            />
+                          </div>
+                          <Form.Control.Feedback type="invalid" tooltip>
+                            {touched.identifier && errors.identifier}
+                          </Form.Control.Feedback>
+                        </div>
+                      </Form.Group>
+                    </Col>
+                    <Col
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      lg={12}
+                      xl={12}
+                      className="wrapper__items"
+                    >
+                      <Form.Group>
+                        <Form.Label>
+                          {t('signin:form.password')}{' '}
+                          <span className="text-danger">*</span>
+                        </Form.Label>
+                        <div className="items__input">
+                          <FiKey className="input__icon" size="20px" />
+                          <Form.Control
+                            onChange={handleChange}
+                            value={values.password}
+                            onBlur={handleBlur}
+                            isInvalid={Boolean(
+                              touched.password && errors.password
+                            )}
+                            id="password"
+                            type="password"
+                            className="form-control input__text"
+                            placeholder={t('signin:form.password')}
+                          />
+                          <Form.Control.Feedback type="invalid" tooltip>
+                            {touched.password && errors.password}
+                          </Form.Control.Feedback>
+                        </div>
+                      </Form.Group>
+                    </Col>
+                    <Col
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      lg={12}
+                      xl={12}
+                      className="wrapper__items"
+                    >
+                      <div className="d-flex justify-content-between">
+                        <Form.Group controlId="remember">
+                          <Form.Check
+                            id="rememberMe"
+                            type="checkbox"
+                            label={t('signin:form.remember-me')}
+                          />
+                        </Form.Group>
+                        <p className="forgot-pass mb-0">
+                          <Link href="/forgot-password">
+                            <a className="text-dark font-weight-bold">
+                              {t('signin:form.forgot-password')}
+                            </a>
+                          </Link>
+                        </p>
+                      </div>
+                    </Col>
+                    <Col
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      lg={12}
+                      xl={12}
+                      className="wrapper__items"
+                    >
+                      <div className="error-text">
+                        {t(`error:${errorText}`)}
+                      </div>
+                      <Button
+                        className="btn-block"
+                        id="signIn"
+                        type="submit"
+                        disabled={isSubmitting}
+                      >
+                        {isSubmitting ? (
+                          <>
+                            <Spinner
+                              as="span"
+                              animation="border"
+                              size="sm"
+                              role="status"
+                            />{' '}
+                            {t('signin:form.submit')}
+                          </>
+                        ) : (
+                          t('signin:form.submit')
+                        )}
+                      </Button>
+                    </Col>
+                    <Col
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      lg={12}
+                      xl={12}
+                      className="wrapper__items text-center"
+                    >
+                      <Row>
+                        {/* <Col xs={6} sm={6} md={6} lg={6} xl={6} className="mt-3">
                         <Button
                           variant="outline-secondary"
                           className="items__button-social"
@@ -244,7 +249,7 @@ const SigninForm = (props) => {
                           <p>{t('signin:heading-texts.facebook')}</p>
                         </Button>
                       </Col> */}
-                      {/* <Col
+                        {/* <Col
                         xs={12}
                         sm={12}
                         md={12}
@@ -264,43 +269,44 @@ const SigninForm = (props) => {
                           <p>{t('signin:form.google')}</p>
                         </Button>
                       </Col> */}
-                    </Row>
-                  </Col>
-                  <Col
-                    xs={12}
-                    sm={12}
-                    md={12}
-                    lg={12}
-                    xl={12}
-                    className="text-center"
-                  >
-                    <p className="mb-0 mt-3">
-                      <small className="text-dark mr-2">
-                        {t('signin:form.not-account')}
-                      </small>{' '}
-                      <Link href="/register">
-                        <a className="text-dark font-weight-bold">
-                          {t('signin:form.sign-up')}
+                      </Row>
+                    </Col>
+                    <Col
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      lg={12}
+                      xl={12}
+                      className="text-center"
+                    >
+                      <p className="mb-0 mt-3">
+                        <small className="text-dark mr-2">
+                          {t('signin:form.not-account')}
+                        </small>{' '}
+                        <Link href="/register">
+                          <a className="text-dark font-weight-bold">
+                            {t('signin:form.sign-up')}
+                          </a>
+                        </Link>
+                      </p>
+                    </Col>
+                    <Col
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      lg={12}
+                      xl={12}
+                      className="text-center container"
+                    >
+                      <Link href="/email-confirmed">
+                        <a className="confirm__email">
+                          {t('signin:form.confirm-email')}
                         </a>
                       </Link>
-                    </p>
-                  </Col>
-                  <Col
-                    xs={12}
-                    sm={12}
-                    md={12}
-                    lg={12}
-                    xl={12}
-                    className="text-center container"
-                  >
-                    <Link href="/email-confirmed">
-                      <a className="confirm__email">
-                        {t('signin:form.confirm-email')}
-                      </a>
-                    </Link>
-                  </Col>
-                </Row>
-              </Form>
+                    </Col>
+                  </Row>
+                </Form>
+              </div>
             )}
           </Formik>
         </div>
