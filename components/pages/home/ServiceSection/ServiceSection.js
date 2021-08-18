@@ -626,6 +626,7 @@ const ServiceSection = (props) => {
                         onLoadingComplete="naturalHeight"
                         width={426}
                         height={285}
+                        quality={100}
                       />
                     </Col>
                     <Col

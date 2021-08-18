@@ -132,8 +132,9 @@ const RealEstateSection = (props) => {
                         id="realEstate"
                         alt="RealEstate"
                         onLoadingComplete="naturalWidth"
-                        width={483}
+                        width={516}
                         height={300}
+                        quality={100}
                       />
                     </div>
                   ) : (

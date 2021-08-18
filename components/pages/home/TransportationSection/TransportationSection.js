@@ -32,8 +32,7 @@ const TransportationSection = (props) => {
       });
       const count = await TransportListingService.COUNT();
       setTotal(count.data);
-      // setItems(result.data);
-      setItems([]);
+      setItems(result.data);
       let randomShow = random(0, Math.ceil(total / limit));
       setSkip(randomShow);
       setIsLoading(false);
@@ -109,6 +108,7 @@ const TransportationSection = (props) => {
                         onLoadingComplete="naturalWidth"
                         width={483}
                         height={300}
+                        quality={100}
                       />
                     </div>
                   ) : (
