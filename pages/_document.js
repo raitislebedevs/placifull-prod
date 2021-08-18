@@ -27,6 +27,11 @@ class MyDocument extends Document {
           `,
             }}
           />
+          {/* <!-- Go to www.addthis.com/dashboard to customize your tools --> */}
+          <script
+            type="text/javascript"
+            src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-611cb38658523fb3"
+          ></script>
 
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
