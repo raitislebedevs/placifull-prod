@@ -40,13 +40,9 @@
 
   .transportation-section__left {
     .listings__not__placed {
-      padding: 42px 0px;
-      .item__picture {
-        @include media-breakpoint-down(xs) {
-          width: 300px;
-          height: auto;
-        }
-      }
+      margin: 42px 0px;
+      display: flex;
+      justify-content: space-around;
     }
     .left__slick-item {
       padding: 15px;

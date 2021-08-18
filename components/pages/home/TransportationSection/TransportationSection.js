@@ -4,12 +4,14 @@ import { Row, Col, Button, Container, Spinner } from 'react-bootstrap';
 import { TransportationCard } from 'components/common';
 import Slider from 'react-slick';
 import { TransportListingService } from 'services';
+import Image from 'next/image';
+
+const noTransport =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/Transport.png';
 
 const TransportationSection = (props) => {
   const { t } = props;
-  const noTransport =
-    'https://placifull-static.s3.eu-central-1.amazonaws.com/Transport.png';
-  const [limit, setLimit] = useState(7);
+  const limit = 9;
   const [skip, setSkip] = useState(0);
   const [total, setTotal] = useState(0);
   const [items, setItems] = useState([]);
@@ -30,7 +32,8 @@ const TransportationSection = (props) => {
       });
       const count = await TransportListingService.COUNT();
       setTotal(count.data);
-      setItems(result.data);
+      // setItems(result.data);
+      setItems([]);
       let randomShow = random(0, Math.ceil(total / limit));
       setSkip(randomShow);
       setIsLoading(false);
@@ -41,7 +44,7 @@ const TransportationSection = (props) => {
 
   useEffect(() => {
     getRealEstate();
-  }, [limit, skip]);
+  }, [limit]);
 
   const sliderSettings = {
     dots: true,
@@ -99,11 +102,13 @@ const TransportationSection = (props) => {
                   {' '}
                   {items?.length === 0 ? (
                     <div className={'listings__not__placed'}>
-                      <img
+                      <Image
                         src={noTransport}
-                        id="logo"
-                        className="mx-auto d-block item__picture"
+                        id="transport"
                         alt="Transport"
+                        onLoadingComplete="naturalWidth"
+                        width={483}
+                        height={300}
                       />
                     </div>
                   ) : (

@@ -16,6 +16,7 @@ import { CustomFormControl } from 'components/common';
 import { JobApplication } from 'services';
 import { toast } from 'react-toastify';
 import { connect } from 'react-redux';
+import Image from 'next/image';
 
 const ServiceSection = (props) => {
   const { t, user } = props;
@@ -617,10 +618,14 @@ const ServiceSection = (props) => {
                 <div className="service__content tab-pane fade bg-white show active p-4 rounded shadow">
                   <Row>
                     <Col xs={12} sm={12} md={6} lg={6} xl={6}>
-                      <img
+                      <Image
                         src={activeItem.url}
-                        className="img-fluid rounded shadow"
+                        className="img-fluid rounded shadow service_image"
                         alt="Service Url"
+                        layout="responsive"
+                        onLoadingComplete="naturalHeight"
+                        width={426}
+                        height={285}
                       />
                     </Col>
                     <Col

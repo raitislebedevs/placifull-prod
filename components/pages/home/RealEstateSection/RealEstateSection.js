@@ -5,13 +5,15 @@ import Slider from 'react-slick';
 import { RealEstateCard } from 'components/common';
 import RealEstateListingServices from 'services/realEstateListingServices';
 import { random } from 'utils/standaloneFunctions';
+import Image from 'next/image';
+
+const noRealEstate =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/RealEstate.png';
 
 const RealEstateSection = (props) => {
   const { t } = props;
-  const noRealEstate =
-    'https://placifull-static.s3.eu-central-1.amazonaws.com/RealEstate.png';
 
-  const [limit, setLimit] = useState(7);
+  const limit = 9;
   const [skip, setSkip] = useState(0);
   const [total, setTotal] = useState(0);
   const [items, setItems] = useState([]);
@@ -41,7 +43,7 @@ const RealEstateSection = (props) => {
 
   useEffect(() => {
     getRealEstate();
-  }, [limit, skip]);
+  }, [limit]);
 
   const sliderSettings = {
     dots: true,
@@ -125,11 +127,13 @@ const RealEstateSection = (props) => {
                 <>
                   {items?.length === 0 ? (
                     <div className={'listings__not__placed'}>
-                      <img
+                      <Image
                         src={noRealEstate}
-                        id="logo"
-                        className="mx-auto d-block item__picture"
+                        id="realEstate"
                         alt="RealEstate"
+                        onLoadingComplete="naturalWidth"
+                        width={483}
+                        height={300}
                       />
                     </div>
                   ) : (
