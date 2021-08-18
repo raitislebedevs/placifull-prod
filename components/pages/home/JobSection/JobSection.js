@@ -6,12 +6,10 @@ import { JobCard } from 'components/common';
 import VacancyListingService from 'services/vacancyListingService';
 import { random } from 'utils/standaloneFunctions';
 
-const noJobs =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/Jobs.png';
-
 const JobSection = (props) => {
   const { t } = props;
-
+  const noJobs =
+    'https://placifull-static.s3.eu-central-1.amazonaws.com/Jobs.png';
   const [limit, setLimit] = useState(7);
   const [skip, setSkip] = useState(0);
   const [total, setTotal] = useState(0);

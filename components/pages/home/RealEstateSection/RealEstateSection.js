@@ -6,11 +6,11 @@ import { RealEstateCard } from 'components/common';
 import RealEstateListingServices from 'services/realEstateListingServices';
 import { random } from 'utils/standaloneFunctions';
 
-const noRealEstate =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/RealEstate.png';
-
 const RealEstateSection = (props) => {
   const { t } = props;
+  const noRealEstate =
+    'https://placifull-static.s3.eu-central-1.amazonaws.com/RealEstate.png';
+
   const [limit, setLimit] = useState(7);
   const [skip, setSkip] = useState(0);
   const [total, setTotal] = useState(0);
