@@ -1,0 +1,16 @@
+{
+  "title": "Placifull blogs",
+  "hero": {
+    "heading": "Vai meklējat padomu?"
+  },
+  "blog-item": {
+    "button": "Redzēt vairāk"
+  },
+  "search": {
+    "real-estate": "Nekustamais īpašums",
+    "transport": "Transports",
+    "job": "Darbs",
+    "other": "Citi",
+    "all": "Visi"
+  }
+}

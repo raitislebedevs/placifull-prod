@@ -1,0 +1,16 @@
+{
+  "title": "Placifull Blog",
+  "hero": {
+    "heading": "Procurando um conselho?"
+  },
+  "blog-item": {
+    "button": "Ver mais"
+  },
+  "search": {
+    "real-estate": "Imobiliária",
+    "transport": "Transporte",
+    "job": "Empregos",
+    "other": "Outro",
+    "all": "Tudo"
+  }
+}

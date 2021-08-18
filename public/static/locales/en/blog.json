@@ -1,11 +1,13 @@
 {
-  "title": "Placifull Blog",
-  "hero": { "heading": "Looking for an advise?" },
+  "title": "Placifull Blog",
+  "hero": {
+    "heading": "Looking for an advise? "
+  },
   "blog-item": {
-    "button": "See more"
+    "button": "See more"
   },
   "search": {
-    "real-estate": "Real Estate",
+    "real-estate": "Real Estate",
     "transport": "Transport",
     "job": "Jobs",
     "other": "Other",

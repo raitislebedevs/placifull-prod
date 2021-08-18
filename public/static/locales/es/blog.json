@@ -1,0 +1,16 @@
+{
+  "title": "Blog de Placifull",
+  "hero": {
+    "heading": "Buscando un consejo?"
+  },
+  "blog-item": {
+    "button": "Ver más"
+  },
+  "search": {
+    "real-estate": "Bienes raíces",
+    "transport": "Transporte",
+    "job": "Trabajos",
+    "other": "Otro",
+    "all": "Todos"
+  }
+}
