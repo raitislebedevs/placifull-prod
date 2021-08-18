@@ -1,24 +1,23 @@
 {
-  "heading": "リストを提出",
-  "title": "仕事",
-
+  "heading": "求人掲載",
+  "title": "求人",
   "form": {
     "submit-confirm": "保存中…",
     "preview-sneak-peak": "実行中…",
     "preview": "プレビュー",
     "no-currency": "通貨",
-    "no-features": "リストのカテゴリーを選択してください",
+    "no-features": "掲載カテゴリーを選択してください",
     "job-title": {
       "title": "ポジション名",
-      "placeholder": "ポジションの名前（例：Placifullのパトロン）"
+      "placeholder": "ポジションの名前"
     },
     "company": "企業名",
-    "submit": "提出",
+    "submit": "掲載",
     "general-information": {
       "heading": "概要",
       "input-fields": {
-        "description": "役職の説明",
-        "requirements": "条件",
+        "description": "求人の説明",
+        "requirements": "求人応募条件",
         "beneftis": "利点"
       }
     },
@@ -51,7 +50,7 @@
     },
     "input-languages": {
       "label": "必要な言語（英語）",
-      "labelNative": "必要な言語（母語）"
+      "labelNative": "必要な言語（現地語）"
     }
   }
 }

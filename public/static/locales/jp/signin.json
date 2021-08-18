@@ -8,9 +8,9 @@
     "submit": "サインイン",
     "remember-me": "ログインしたままにする",
     "forgot-password": "パスワードを忘れた場合",
-    "or": "ログインはまたは",
+    "or": "以下のサービスを利用してログイン",
     "facebook": "Facebook",
-    "google": "グーグル",
+    "google": "Google",
     "not-account": "登録していますか？",
     "sign-up": "登録を開始",
     "error": {
@@ -18,7 +18,7 @@
       "email-required": "メールアドレスが必要です",
       "password-required": "パスワードが必要です"
     },
-    "success": "いらっしゃいませ！",
+    "success": "お帰りなさい",
     "already-login": "ログインしていますか？",
     "confirm-email": "メールアドレス 確認"
   }

@@ -1,12 +1,11 @@
 {
   "title": "仕事探し",
-
   "form": {
     "currency": "通貨",
     "no-currency": "すべて",
     "languages": {
       "native": "母語",
-      "english": "英語圏での言語"
+      "english": "言語（英語表記）"
     },
     "submit": "今すぐ検索",
     "accordion": {
@@ -24,22 +23,22 @@
       "hourly-rate": {
         "label": "時給",
         "items": {
-          "from": "から：0",
-          "to": "まで：999,999"
+          "from": "最低：0",
+          "to": "最高：999,999"
         }
       },
       "monthly-salary": {
         "label": "月給",
         "items": {
-          "from": "から：0",
-          "to": "まで：999,999,999"
+          "from": "最低：0",
+          "to": "最高：999,999,999"
         }
       },
       "yearly-salary": {
         "label": "年収",
         "items": {
-          "from": "から：0",
-          "to": "まで：99,999,999,999"
+          "from": "最低：0",
+          "to": "最高：999,999,999,999"
         }
       }
     }
@@ -47,7 +46,7 @@
   "search-result": {
     "filters": {
       "sort-by": {
-        "label": "並び替え：",
+        "label": "並び替え",
         "options": {
           "monthly-salary": "月給",
           "annual-salary": "年収",

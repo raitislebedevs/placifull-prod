@@ -6,7 +6,7 @@
     "education": "学歴",
     "expierience": "職歴",
     "licenses": "運転免許",
-    "expectations": "仕事への期待",
+    "expectations": "仕事への希望",
     "certification": "資格"
   },
   "gender": {
@@ -43,13 +43,13 @@
   },
 
   "seniority": {
-    "title": "年功序列",
+    "title": "キャリアレベル",
     "volunteer": "ボランティア",
     "intern": "インターン",
     "junior": "ジュニア",
-    "intermediate": "中級",
+    "intermediate": "ミドル",
     "senior": "シニア",
-    "executive": "役員",
+    "executive": "エグゼクティブ",
     "ceo": "CEO",
     "other": "その他"
   },

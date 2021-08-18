@@ -1,8 +1,8 @@
 {
   "car": "乗用車",
   "motorcycle": "バイク",
-  "withTrailer": "トレーラー",
-  "withSemiTrailer": "セミトレーラー",
+  "withTrailer": "トレーラー付",
+  "withSemiTrailer": "セミトレーラー付",
   "truck": "トラック",
   "bus": "バス",
   "tractor": "トラクター",
@@ -26,7 +26,7 @@
   "threeToFive": "3-5年",
   "fiveToTen": "5-10年",
   "tenPlus": "10年以上",
-  "anyYears": "未経験可",
+  "anyYears": "経験年数不問",
 
   "travelAbroad": "海外旅行",
   "usePersonalCar": "自家用車使用",

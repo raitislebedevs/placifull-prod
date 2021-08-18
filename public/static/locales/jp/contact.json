@@ -12,7 +12,7 @@
       "heading": "連絡情報",
       "items": {
         "item-1": {
-          "label": "ご住所",
+          "label": "住所",
           "description": "4758 Nancy Street"
         },
         "item-2": {
@@ -24,18 +24,18 @@
           "description": "name.lastname@gmail.com"
         },
         "item-4": {
-          "label": "お客様に対するサービス",
+          "label": "カスタマーサポート",
           "description": "support@example.com"
         }
       }
     },
     "form": {
-      "heading": "資料",
+      "heading": "メールフォーム",
       "name": "名前",
       "email": "メールアドレス",
       "subject": "内容",
       "message": "メッセージ",
-      "submit": "メッセージを送る"
+      "submit": "送信"
     }
   }
 }

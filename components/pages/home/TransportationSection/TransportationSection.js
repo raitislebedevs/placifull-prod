@@ -105,7 +105,6 @@ const TransportationSection = (props) => {
                         src={noTransport}
                         id="transport"
                         alt="Transport"
-                        layout="responsive"
                         width={483}
                         height={300}
                         quality={100}

@@ -8,6 +8,13 @@ const languages = [
   },
   {
     value: {
+      lang: 'en',
+      flag: 'GB',
+    },
+    label: 'English',
+  },
+  {
+    value: {
       lang: 'lv',
       flag: 'LV',
     },
@@ -63,13 +70,13 @@ const languages = [
   //   },
   //   label: 'हिन्दी, हिंदी',
   // },
-  // {
-  //   value: {
-  //     lang: 'jp',
-  //     flag: 'JP',
-  //   },
-  //   label: '日本人',
-  // },
+  {
+    value: {
+      lang: 'jp',
+      flag: 'JP',
+    },
+    label: '日本人',
+  },
   // {
   //   value: {
   //     lang: 'id',

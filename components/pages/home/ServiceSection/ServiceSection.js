@@ -622,7 +622,6 @@ const ServiceSection = (props) => {
                         src={activeItem.url}
                         className="img-fluid rounded shadow service_image"
                         alt="Service Url"
-                        layout="responsive"
                         width={426}
                         height={285}
                         quality={100}

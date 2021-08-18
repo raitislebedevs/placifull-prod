@@ -4,8 +4,8 @@
   "item": {
     "score": "現在のスコア",
     "options": "投票オプション",
-    "up": "上",
-    "down": "下",
+    "up": "UP",
+    "down": "DOWN",
     "rating": "評価",
     "vote": "投票"
   },
