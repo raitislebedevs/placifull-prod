@@ -19,6 +19,7 @@ import { UserServices } from 'services';
 import Cookies from 'js-cookie';
 import { loginSuccess, setLoadingUser } from 'actions';
 import UserBox from './UserBox';
+import Image from 'next/image';
 
 const logo = '/static/images/logo.svg';
 const logoWhite =
@@ -72,16 +73,30 @@ const Navbar = (props) => {
       className={`${showNavbarLight ? 'navbar--light' : ''}`}
     >
       <Container>
-        <Link href="/">
-          <NavbarBootstrap.Brand href="/">
-            <img
-              src={showNavbarLight ? logo : logoWhite}
-              id="logo"
-              className="d-inline-block align-top"
-              alt="Placifull"
-            />
-          </NavbarBootstrap.Brand>
-        </Link>
+        <NavbarBootstrap.Brand href="/">
+          <div className="d-inline-block align-top">
+            {showNavbarLight ? (
+              <Image
+                src={logo}
+                id="logo"
+                alt="Placifull"
+                layout="responsive"
+                width={639}
+                height={200}
+              />
+            ) : (
+              <Image
+                src={logoWhite}
+                id="logo"
+                alt="Placifull"
+                layout="responsive"
+                width={639}
+                height={200}
+              />
+            )}
+          </div>
+        </NavbarBootstrap.Brand>
+
         <Nav className="ml-auto">
           <Nav className="navbar__right__links">
             <Nav.Item>

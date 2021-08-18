@@ -25,6 +25,9 @@
               transition-duration: 0.5s;
             }
           }
+          a {
+            color: $gray-text-level-1;
+          }
         }
       }
     }

@@ -623,7 +623,6 @@ const ServiceSection = (props) => {
                         className="img-fluid rounded shadow service_image"
                         alt="Service Url"
                         layout="responsive"
-                        onLoadingComplete="naturalHeight"
                         width={426}
                         height={285}
                         quality={100}

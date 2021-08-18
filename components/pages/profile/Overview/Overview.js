@@ -317,7 +317,7 @@ const Overview = (props) => {
                       'https://placifull-static.s3.eu-central-1.amazonaws.com/default-avatar.png'
                     }
                     className="left__avatar"
-                    alt=""
+                    alt="Avatar"
                   />
                 </Col>
                 <Col

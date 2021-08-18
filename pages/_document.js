@@ -37,6 +37,7 @@ class MyDocument extends Document {
             name="google-site-verification"
             content="ZFzbY-Sgp7ARP--dYQ3KPBobwM9SBLQV4XfTco7HgV0"
           />
+
           <meta
             name="description"
             content="At Placifull we help to move abroad by finding all the important things, real estate, transport, and job. Only all relevant tools. Lowest prices in the market."

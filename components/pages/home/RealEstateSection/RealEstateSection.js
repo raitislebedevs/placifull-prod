@@ -131,7 +131,7 @@ const RealEstateSection = (props) => {
                         src={noRealEstate}
                         id="realEstate"
                         alt="RealEstate"
-                        onLoadingComplete="naturalWidth"
+                        layout="responsive"
                         width={516}
                         height={300}
                         quality={100}

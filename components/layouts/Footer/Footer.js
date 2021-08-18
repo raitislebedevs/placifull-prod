@@ -66,38 +66,65 @@ const Footer = (props) => {
             <div className="top__head">
               {t('footer:top.list-menu.menu-1.items.item-1')}
             </div>
+            <Col
+              xs={12}
+              sm={12}
+              md={12}
+              lg={12}
+              xl={12}
+              className="mb-0 mb-sm-4 pb-0 pb-sm-2"
+            >
+              <ul className="social__meadia  mb-0 mt-4">
+                <li className="list-inline-item top__button-social">
+                  <div className="button-social__icon">
+                    <a href="https://facebook.com" data-size="large">
+                      <FontAwesomeIcon
+                        icon={['fab', 'facebook-f']}
+                        className="icon"
+                      />{' '}
+                    </a>
+                  </div>
+                </li>
+                <li className="list-inline-item top__button-social">
+                  <div className="button-social__icon">
+                    <a href="https://www.instagram.com/" data-size="large">
+                      <FontAwesomeIcon
+                        icon={['fab', 'instagram']}
+                        className="icon"
+                      />
+                    </a>
+                  </div>
+                </li>
+                <li className="list-inline-item top__button-social">
+                  <div className="button-social__icon">
+                    <a
+                      href="https://twitter.com/intent/tweet?text=placifull.com"
+                      data-size="large"
+                    >
+                      <FontAwesomeIcon
+                        icon={['fab', 'twitter']}
+                        className="icon"
+                      />
+                    </a>
+                  </div>
+                </li>
+                <li className="list-inline-item top__button-social">
+                  <div className="button-social__icon">
+                    <a
+                      href="https://https://www.linkedin.com//"
+                      data-size="large"
+                    >
+                      <FontAwesomeIcon
+                        icon={['fab', 'linkedin-in']}
+                        className="icon"
+                      />
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </Col>
           </Col>
-          {/* <ul className="social__meadia  mb-0 mt-4">
-              <li className="list-inline-item top__button-social">
-                <div className="button-social__icon">
-                  <FontAwesomeIcon
-                    icon={['fab', 'facebook-f']}
-                    className="icon"
-                  />
-                </div>
-              </li>
-              <li className="list-inline-item top__button-social">
-                <div className="button-social__icon">
-                  <FontAwesomeIcon
-                    icon={['fab', 'instagram']}
-                    className="icon"
-                  />
-                </div>
-              </li>
-              <li className="list-inline-item top__button-social">
-                <div className="button-social__icon">
-                  <FontAwesomeIcon icon={['fab', 'twitter']} className="icon" />
-                </div>
-              </li>
-              <li className="list-inline-item top__button-social">
-                <div className="button-social__icon">
-                  <FontAwesomeIcon
-                    icon={['fab', 'linkedin-in']}
-                    className="icon"
-                  />
-                </div>
-              </li>
-            </ul> */}
+
           <Col
             xs={12}
             sm={6}
