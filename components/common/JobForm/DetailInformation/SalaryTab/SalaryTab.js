@@ -88,11 +88,11 @@ const SalaryTab = (props) => {
     let salaryValue = e.target.value;
     let salaryid = e.target.id;
 
-    if (salaryid == 'hourlySalaryFrom') {
+    if (salaryid === 'hourlySalaryFrom') {
       changeFromHourly(salaryValue);
     }
 
-    if (salaryid == 'hourlySalaryTo') {
+    if (salaryid === 'hourlySalaryTo') {
       changeToHourly(salaryValue);
     }
   };

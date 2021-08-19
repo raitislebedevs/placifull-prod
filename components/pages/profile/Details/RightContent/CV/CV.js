@@ -466,7 +466,7 @@ const CV = (props) => {
                 sm={6}
                 xs={12}
                 className={`cv__section-wrapper ${
-                  active == item.key ? '--active' : ''
+                  active === item.key ? '--active' : ''
                 }`}
                 onClick={() => setActive(item.key)}
                 key={item.key}
@@ -505,7 +505,7 @@ const CV = (props) => {
       )}
 
       <Row className="right-content__cv--body">
-        {active == 'personalDetails' ? (
+        {active === 'personalDetails' ? (
           <PersonalDetails
             t={t}
             saveCv={saveCv}
@@ -521,7 +521,7 @@ const CV = (props) => {
         ) : (
           ''
         )}
-        {active == 'education' ? (
+        {active === 'education' ? (
           <Education
             t={t}
             saveCv={saveCv}
@@ -537,7 +537,7 @@ const CV = (props) => {
           ''
         )}
 
-        {active == 'workExpierience' ? (
+        {active === 'workExpierience' ? (
           <WorkExperience
             t={t}
             expItems={expItems}
@@ -551,7 +551,7 @@ const CV = (props) => {
         ) : (
           ''
         )}
-        {active == 'languageSkills' ? (
+        {active === 'languageSkills' ? (
           <LanguageSkills
             t={t}
             saveCv={saveCv}
@@ -565,7 +565,7 @@ const CV = (props) => {
         ) : (
           ''
         )}
-        {active == 'computerSkills' ? (
+        {active === 'computerSkills' ? (
           <ComputerSkills
             t={t}
             saveCv={saveCv}
@@ -579,7 +579,7 @@ const CV = (props) => {
         ) : (
           ''
         )}
-        {active == 'transportationLicenses' ? (
+        {active === 'transportationLicenses' ? (
           <TransportationLicense
             t={t}
             saveCv={saveCv}
@@ -594,7 +594,7 @@ const CV = (props) => {
           ''
         )}
 
-        {active == 'workExpactations' ? (
+        {active === 'workExpactations' ? (
           <WorkExpectations
             t={t}
             saveCv={saveCv}

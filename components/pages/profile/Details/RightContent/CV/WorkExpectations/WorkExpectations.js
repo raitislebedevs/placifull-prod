@@ -30,7 +30,7 @@ const WorkExpectations = (props) => {
   };
 
   const removeItem = (id) => {
-    if (workExpItems.length == 1) return;
+    if (workExpItems.length === 1) return;
     setWorkExpItems(() => {
       let removeItems = [];
       for (let i = 0; i < workExpItems.length - 1; i++) {

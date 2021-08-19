@@ -169,7 +169,7 @@ const PaymentModalForm = (props) => {
                 <Col
                   lg={3}
                   className={
-                    pricingOption == item.key
+                    pricingOption === item.key
                       ? 'price__option__container active'
                       : 'price__option__container'
                   }
@@ -193,7 +193,7 @@ const PaymentModalForm = (props) => {
                     )}
                   </div>
                   <div className="price__icon">
-                    {pricingOption == item.key ? (
+                    {pricingOption === item.key ? (
                       <AiFillCheckCircle />
                     ) : (
                       <AiOutlineCheckCircle />

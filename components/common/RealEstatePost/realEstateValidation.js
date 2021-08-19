@@ -16,7 +16,7 @@ const getRealEstateSchema = (category, t) => {
     category
   );
 
-  if (!category || isCategory != -1) {
+  if (!category || isCategory !== -1) {
     return Yup.object().shape({
       name: Yup.string().required(t('validation:common.name')),
       currency: Yup.string().required(t('validation:common.currency.required')),

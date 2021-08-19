@@ -205,7 +205,7 @@ const Overview = (props) => {
       //Spreading the inner object
       const updateProperty = subscriptions[plan];
       const recordId = subscriptions?.id;
-      if (plan == 'browserCv') {
+      if (plan === 'browserCv') {
         purchaseAmount = true;
       } else {
         purchaseAmount = currentQty + addedQty;
@@ -240,9 +240,9 @@ const Overview = (props) => {
   };
 
   const handlePurchase = (key) => {
-    if (key == 'real-estate-posts') return setRealEstatePayment(true);
-    if (key == 'transport-posts') return setTransportPayment(true);
-    if (key == 'job-posts') return setJobPayment(true);
+    if (key === 'real-estate-posts') return setRealEstatePayment(true);
+    if (key === 'transport-posts') return setTransportPayment(true);
+    if (key === 'job-posts') return setJobPayment(true);
     setBrowserPayment(true);
   };
 
@@ -256,10 +256,10 @@ const Overview = (props) => {
         _where: filter,
       });
 
-      if (data?.length == 0) {
+      if (data?.length === 0) {
         setSubscriptions({});
       }
-      if (data?.length == 1) {
+      if (data?.length === 1) {
         setSubscriptions(data[0]);
       }
       setIsLoading(false);

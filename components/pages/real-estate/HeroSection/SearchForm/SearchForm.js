@@ -81,18 +81,18 @@ const SearchForm = (props) => {
 
   const isRendeable = (category, action) => {
     if (
-      category != null &&
-      (inputValues['category']?.value == null ||
-        inputValues['category']?.value == '')
+      category !== null &&
+      (inputValues['category']?.value === null ||
+        inputValues['category']?.value === '')
     )
       return category.includes(defaultValues.category);
 
     if (category) return category.includes(inputValues['category']?.value);
 
     if (
-      action != null &&
-      (inputValues['action']?.value == null ||
-        inputValues['action']?.value == '')
+      action !== null &&
+      (inputValues['action']?.value === null ||
+        inputValues['action']?.value === '')
     )
       return action.includes(defaultValues.action);
 
@@ -128,7 +128,7 @@ const SearchForm = (props) => {
       if (
         inputValues.category?.value === 'agents' ||
         !inputValues.category ||
-        inputValues.category?.value == ''
+        inputValues.category?.value === ''
       ) {
         setActiveItem([]);
         return [];
@@ -378,7 +378,7 @@ const SearchForm = (props) => {
                           values.value >= item.min && values.value <= item.max
                         }
                         prefix={
-                          item.prefix == 'currency'
+                          item.prefix === 'currency'
                             ? `${submitCurrency ? submitCurrency : 'ALL'} `
                             : item.prefix
                         }
@@ -604,7 +604,7 @@ const SearchForm = (props) => {
                                 values.value <= item.max
                               }
                               prefix={
-                                item.prefix == 'currency'
+                                item.prefix === 'currency'
                                   ? `${
                                       submitCurrency ? submitCurrency : 'ALL'
                                     } `
