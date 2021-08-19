@@ -24,10 +24,11 @@
       }
 
       .learn__more {
-        font-weight: 900;
+        font-weight: 700;
         color: theme-color("primary");
         animation: rightleft 1.5s infinite alternate ease-in-out;
         cursor: pointer;
+        text-shadow: 1px 1px;
       }
       .about__us__icons {
         font-size: 32px;

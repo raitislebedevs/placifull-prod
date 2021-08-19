@@ -129,9 +129,9 @@ const TransportationSection = (props) => {
                 <span className="section-title__badge">
                   {t('transportation-section.badge')}
                 </span>
-                <h4 className="section-title__title">
+                <h1 className="section-title__title">
                   {t('transportation-section.head.line-1')}
-                </h4>
+                </h1>
                 <p className="text-muted mx-auto mx-lg-left para-desc mb-0">
                   {t('transportation-section.head.line-2')}{' '}
                   <span className="text-primary font-weight-bold">
