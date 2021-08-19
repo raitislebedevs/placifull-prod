@@ -43,7 +43,7 @@ class MyDocument extends Document {
           <link rel="alternate" href="https://placifull.com/lt" hreflang="lt" />
           <link rel="alternate" href="https://placifull.com/ru" hreflang="ru" />
           <link rel="alternate" href="https://placifull.com/pt" hreflang="pt" />
-          <link rel="alternate" href="https://placifull.com/jp" hreflang="jp" />
+          <link rel="alternate" href="https://placifull.com/jp" hreflang="ja" />
           <link rel="alternate" href="https://placifull.com/es" hreflang="es" />
           <link rel="alternate" href="https://placifull.com/it" hreflang="it" />
         </Head>
