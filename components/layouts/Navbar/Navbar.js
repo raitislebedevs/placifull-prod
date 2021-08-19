@@ -120,6 +120,7 @@ const Navbar = (props) => {
                     href="/sign-in"
                     active={router.pathname === '/sign-in'}
                     className="nav-item__link "
+                    aria-label="SignIn"
                   >
                     <FontAwesomeIcon
                       icon="sign-in-alt"
@@ -135,6 +136,7 @@ const Navbar = (props) => {
                     href="/register"
                     active={router.pathname === '/register'}
                     className="nav-item__link"
+                    aria-label="Register"
                   >
                     <FontAwesomeIcon
                       icon="user"

@@ -71,7 +71,11 @@ const Footer = (props) => {
                 <ul className="social__meadia  mt-4">
                   <li className="list-inline-item top__button-social">
                     <div className="button-social__icon">
-                      <a href="https://facebook.com" data-size="large">
+                      <a
+                        href="https://facebook.com"
+                        data-size="large"
+                        aria-label="Facebook"
+                      >
                         <FontAwesomeIcon
                           icon={['fab', 'facebook-f']}
                           className="icon"
@@ -81,7 +85,11 @@ const Footer = (props) => {
                   </li>
                   <li className="list-inline-item top__button-social">
                     <div className="button-social__icon">
-                      <a href="https://www.instagram.com/" data-size="large">
+                      <a
+                        href="https://www.instagram.com/"
+                        data-size="large"
+                        aria-label="Instagram"
+                      >
                         <FontAwesomeIcon
                           icon={['fab', 'instagram']}
                           className="icon"
@@ -94,6 +102,7 @@ const Footer = (props) => {
                       <a
                         href="https://twitter.com/intent/tweet?text=placifull.com"
                         data-size="large"
+                        aria-label="Twitter"
                       >
                         <FontAwesomeIcon
                           icon={['fab', 'twitter']}
@@ -104,7 +113,11 @@ const Footer = (props) => {
                   </li>
                   <li className="list-inline-item top__button-social">
                     <div className="button-social__icon">
-                      <a href="https://www.linkedin.com/" data-size="large">
+                      <a
+                        href="https://www.linkedin.com/"
+                        data-size="large"
+                        aria-label="LinkedIn"
+                      >
                         <FontAwesomeIcon
                           icon={['fab', 'linkedin-in']}
                           className="icon"
