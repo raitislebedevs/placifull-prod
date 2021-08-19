@@ -19,7 +19,7 @@ const LanguageSkills = (props) => {
   };
 
   const removeItem = (id) => {
-    if (lanItems.length === 1) return;
+    if (lanItems.length == 1) return;
     setLanItems(() => {
       let removeItems = [];
       for (let i = 0; i < lanItems.length - 1; i++) {

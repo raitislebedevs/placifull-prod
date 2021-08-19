@@ -222,7 +222,7 @@ const SearchForm = (props) => {
         <Form className="search-form__form" onSubmit={handleSubmit}>
           <Row>
             {inputFields.searchForm.map((item) => {
-              if (item.type === 'select') {
+              if (item.type == 'select') {
                 return (
                   <Col
                     lg={3}
@@ -242,7 +242,7 @@ const SearchForm = (props) => {
                   </Col>
                 );
               }
-              if (item.type === 'currency') {
+              if (item.type == 'currency') {
                 return (
                   <Col key={item.key} lg={3} md={6} sm={6}>
                     <Form.Group>
@@ -431,7 +431,7 @@ const SearchForm = (props) => {
                             values.value >= item.min && values.value <= item.max
                           }
                           prefix={
-                            item.prefix === 'currency'
+                            item.prefix == 'currency'
                               ? `${submitCurrency ? submitCurrency : 'ALL'} `
                               : item.prefix
                           }

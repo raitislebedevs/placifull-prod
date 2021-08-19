@@ -52,7 +52,7 @@ const CountryInput = (props) => {
       if (e.id === country) {
         setInputValues((prev) => ({ ...prev, [state]: '', [city]: '' }));
         setClearIds([state, city]);
-      } else if (e.id === state) {
+      } else if (e.id == state) {
         setInputValues((prev) => ({ ...prev, [city]: '' }));
         setClearIds([city]);
       } else {
@@ -99,7 +99,7 @@ const CountryInput = (props) => {
     if (item.native) {
       return `${item.native}/${item.name}`;
     }
-    if (item.native === item.name) {
+    if (item.native == item.name) {
       return item.name;
     }
     return item.name;
@@ -127,7 +127,7 @@ const CountryInput = (props) => {
         );
       }
 
-      if (data?.length === 0) {
+      if (data?.length == 0) {
         data = [
           {
             value: 'noState',
@@ -183,7 +183,7 @@ const CountryInput = (props) => {
       };
       let { data, error } = await CityServices.FIND(filter);
 
-      if (data?.length === 0 || error) {
+      if (data?.length == 0 || error) {
         data = [
           {
             value: 'noCity',

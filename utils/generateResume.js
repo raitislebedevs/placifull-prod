@@ -53,10 +53,10 @@ const generateResume = async () => {
 
   if (showAge) pngItems(doc, calendar, '1980-05-03');
 
-  if (sex === 'male') {
+  if (sex == 'male') {
     pngItems(doc, male, 'Male');
   }
-  if (sex === 'female') {
+  if (sex == 'female') {
     pngItems(doc, female, 'Female');
   }
 

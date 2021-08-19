@@ -59,10 +59,10 @@ const GeneralInformation = (props) => {
   };
 
   const isRendeable = (category, action) => {
-    if (category !== null && inputValues['category'] === null)
+    if (category != null && inputValues['category'] == null)
       return category.includes(defaultValues.category);
 
-    if (action !== null && inputValues['action'] === null)
+    if (action != null && inputValues['action'] == null)
       return action.includes(defaultValues.action);
 
     if (category) return category.includes(inputValues['category']);

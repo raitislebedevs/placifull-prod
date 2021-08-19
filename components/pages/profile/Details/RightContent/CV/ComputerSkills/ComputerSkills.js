@@ -20,7 +20,7 @@ const ComputerSkills = (props) => {
   };
 
   const removeItem = (id) => {
-    if (pcItems.length === 1) return;
+    if (pcItems.length == 1) return;
     setPcItems(() => {
       let removeItems = [];
       for (let i = 0; i < pcItems.length - 1; i++) {

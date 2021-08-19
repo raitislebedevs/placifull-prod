@@ -22,7 +22,7 @@ const WorkExperience = (props) => {
   };
 
   const removeItem = (id) => {
-    if (expItems.length === 1) return;
+    if (expItems.length == 1) return;
     setExpItems(() => {
       let removeItems = [];
       for (let i = 0; i < expItems.length - 1; i++) {

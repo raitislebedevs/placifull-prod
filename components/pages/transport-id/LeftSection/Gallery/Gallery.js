@@ -55,7 +55,7 @@ const Gallery = (props) => {
   const CustomDot = ({ index, onClick, active }) => {
     return (
       <>
-        {index === 0 && listingItem.listingGallery.length > 4 ? (
+        {index == 0 && listingItem.listingGallery.length > 4 ? (
           <>
             <a className="prev" onClick={Backward}>
               &#10094;
