@@ -2,12 +2,12 @@ import { toast } from 'react-toastify';
 import { Row, Col } from 'react-bootstrap';
 
 const erorr =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/Error.png';
-const info = 'https://placifull-static.s3.eu-central-1.amazonaws.com/Info.png';
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/Error.webp';
+const info = 'https://placifull-static.s3.eu-central-1.amazonaws.com/Info.webp';
 const success =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/Success.png';
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/Success.webp';
 const warning =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/Warning.png';
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/Warning.webp';
 
 const Container = (props) => <div>{props.children}</div>;
 

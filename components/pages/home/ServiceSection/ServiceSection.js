@@ -23,7 +23,7 @@ const ServiceSection = (props) => {
   const services = [
     {
       key: 0,
-      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/listing_opts.jpg',
+      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/listing_opts.webp',
       title: t('service-section.services.service-1.name'),
       content: t('service-section.services.service-1.description'),
       learnMore: (
@@ -38,7 +38,7 @@ const ServiceSection = (props) => {
     },
     {
       key: 1,
-      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/help_us_improve.jpg',
+      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/help_us_improve.webp',
       title: t('service-section.services.service-2.name'),
       content: t('service-section.services.service-2.description'),
       learnMore: (
@@ -53,7 +53,7 @@ const ServiceSection = (props) => {
     },
     {
       key: 2,
-      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/like_share.jpg',
+      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/like_share.webp',
       title: t('service-section.services.service-3.name'),
       content: t('service-section.services.service-3.description'),
       learnMore: (
@@ -72,7 +72,7 @@ const ServiceSection = (props) => {
     },
     {
       key: 3,
-      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/make_us_better.jpg',
+      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/make_us_better.webp',
       title: t('service-section.services.service-4.name'),
       content: t('service-section.services.service-4.description'),
       learnMore: (
@@ -87,7 +87,7 @@ const ServiceSection = (props) => {
     },
     {
       key: 4,
-      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/career.jpg',
+      url: 'https://placifull-static.s3.eu-central-1.amazonaws.com/career.webp',
       title: t('service-section.services.service-5.name'),
       content: t('service-section.services.service-5.description'),
       learnMore: (

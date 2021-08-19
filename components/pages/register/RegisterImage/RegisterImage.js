@@ -2,7 +2,7 @@ import { withTranslation } from 'i18n';
 import { Col } from 'react-bootstrap';
 
 const background =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/SignUpBackground.jpg';
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/SignUpBackground.webp';
 
 const RegisterImage = (props) => {
   let { t } = props;

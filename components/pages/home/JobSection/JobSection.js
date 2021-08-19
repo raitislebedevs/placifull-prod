@@ -8,7 +8,7 @@ import { random } from 'utils/standaloneFunctions';
 import Image from 'next/image';
 
 const noJobs =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/Jobs.png';
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/Jobs.webp';
 
 const JobSection = (props) => {
   const { t } = props;

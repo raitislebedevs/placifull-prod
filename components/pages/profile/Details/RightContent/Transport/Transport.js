@@ -13,7 +13,7 @@ import useSubscriptions from 'hooks/useSubscriptions';
 import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
 
 const noTransport =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/Transport.png';
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/Transport.webp';
 
 const responsive = {
   superLargeDesktop: {

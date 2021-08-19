@@ -9,7 +9,7 @@ const NotFoundPage = (props) => {
         <div>
           <img
             src={
-              'https://placifull-static.s3.eu-central-1.amazonaws.com/404.png'
+              'https://placifull-static.s3.eu-central-1.amazonaws.com/404.webp'
             }
             className="not_found_image"
             alt="Placifull"

@@ -7,7 +7,7 @@ import { TransportListingService } from 'services';
 import Image from 'next/image';
 
 const noTransport =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/Transport.png';
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/Transport.webp';
 
 const TransportationSection = (props) => {
   const { t } = props;

@@ -8,7 +8,7 @@ import { random } from 'utils/standaloneFunctions';
 import Image from 'next/image';
 
 const noRealEstate =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/RealEstate.png';
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/RealEstate.webp';
 
 const RealEstateSection = (props) => {
   const { t } = props;

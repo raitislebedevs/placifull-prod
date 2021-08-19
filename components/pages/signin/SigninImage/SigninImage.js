@@ -1,7 +1,7 @@
 import { Col } from 'react-bootstrap';
 
 const background =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/LogInBackground.jpg';
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/LogInBackground.webp';
 
 const SigninImage = (props) => {
   let { t } = props;

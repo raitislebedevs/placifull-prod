@@ -7,7 +7,7 @@ import { Formik } from 'formik';
 import * as Yup from 'yup';
 import { ConnectionServices } from 'services';
 const envelope =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/envelope.png';
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/envelope.webp';
 
 const EmailConfigurationForm = (props) => {
   let { t } = props;

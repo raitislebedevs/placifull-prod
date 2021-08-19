@@ -17,7 +17,7 @@ import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
 import { FileServices } from 'services';
 
 const noRealEstate =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/RealEstate.png';
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/RealEstate.webp';
 
 const responsive = {
   superLargeDesktop: {
