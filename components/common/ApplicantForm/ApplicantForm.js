@@ -106,7 +106,7 @@ const ApplicantForm = (props) => {
 
   useEffect(() => {
     let applicant = applicants?.filter(
-      (item) => item?.cv?._id === user?.curriculumVitae?._id
+      (item) => item?.cv?._id == user?.curriculumVitae?._id
     )[0];
 
     if (applicant) {

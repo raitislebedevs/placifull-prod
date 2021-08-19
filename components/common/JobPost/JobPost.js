@@ -263,7 +263,7 @@ const JobPost = (props) => {
       if (userTags) {
         for (let i = 0; i < userTags?.length; ++i) {
           tagOptions.forEach((item, index) => {
-            if (item.id === userTags[i]) previewTags.push(item);
+            if (item.id == userTags[i]) previewTags.push(item);
           });
         }
       }

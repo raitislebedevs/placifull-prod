@@ -192,7 +192,7 @@ const SearchForm = (props) => {
         <Form className="search-form__form" onSubmit={handleSubmit}>
           <Row>
             {formFields.searchForm.map((item) => {
-              if (item.type === 'select') {
+              if (item.type == 'select') {
                 return (
                   <Col
                     lg={2}
@@ -212,7 +212,7 @@ const SearchForm = (props) => {
                   </Col>
                 );
               }
-              if (item.type === 'number') {
+              if (item.type == 'number') {
                 return (
                   <Col
                     lg={2}
@@ -258,7 +258,7 @@ const SearchForm = (props) => {
                   </Col>
                 );
               }
-              if (item.type === 'date') {
+              if (item.type == 'date') {
                 return (
                   <Col
                     lg={2}

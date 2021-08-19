@@ -83,7 +83,7 @@ const VotingBoard = (props) => {
         votes--;
       }
 
-      if (votedUserList.filter((item) => item === user.id).length > 0) {
+      if (votedUserList.filter((item) => item == user.id).length > 0) {
         setIsVoting(false);
         TostifyCustomContainer(
           'info',
@@ -102,7 +102,7 @@ const VotingBoard = (props) => {
           ((rating + rate * totalRaters) / (totalRaters + 1)).toFixed(1)
         ) || rate;
 
-      if (totalRaters === 0) {
+      if (totalRaters == 0) {
         newRate = rating;
       }
 
@@ -185,7 +185,7 @@ const VotingBoard = (props) => {
 
   return (
     <>
-      {!isLoading === true ? (
+      {!isLoading == true ? (
         <>
           {votingItems?.map((item) => {
             return (

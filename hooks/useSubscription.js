@@ -18,7 +18,7 @@ const useSubscription = (id, area) => {
       activeListings++;
       let subscriptionDetails = subscriptions[area] ? subscriptions[area] : {};
 
-      if (details?.purchasePlan === defaultPurchaseOption) {
+      if (details?.purchasePlan == defaultPurchaseOption) {
         spendingPlan = defaultPurchaseOption;
         activeListings = subscriptions[area][spendingPlan] - 1;
       }

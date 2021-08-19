@@ -53,7 +53,7 @@ const ApplicantItem = (props) => {
   };
 
   const removeUser = async (id) => {
-    let updatedKanBanList = kanBanItems.filter((item) => item.email !== email);
+    let updatedKanBanList = kanBanItems.filter((item) => item.email != email);
     setKanBanItems(updatedKanBanList);
   };
 

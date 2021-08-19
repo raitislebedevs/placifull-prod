@@ -131,15 +131,15 @@ const PaymentModalForm = (props) => {
     //if (!extendDays && purchaseControl) return setExpiryDays('-');
     let addedDays = extendDays ? extendDays : 0;
 
-    if (pricingOption === subscriptionExpiryBrowserCV) {
+    if (pricingOption == subscriptionExpiryBrowserCV) {
       return setExpiryDays(addDays(expiryDate, addedDays + defaultExpiry));
     }
 
-    if (pricingOption === subscriptionQuarterly) {
+    if (pricingOption == subscriptionQuarterly) {
       return setExpiryDays(addDays(expiryDate, addedDays + defaultExpiry));
     }
 
-    if (pricingOption === subscriptionYearly) {
+    if (pricingOption == subscriptionYearly) {
       return setExpiryDays(addDays(expiryDate, addedDays + defaultExpiry));
     }
   }, [extendDays, pricingOption]);
@@ -174,17 +174,17 @@ const PaymentModalForm = (props) => {
   };
 
   useEffect(() => {
-    if (purchaseControl && plan !== 'browserCv') {
+    if (purchaseControl && plan != 'browserCv') {
       handleOptionChange(purchaseOptions[0]);
     }
-    if (purchaseControl && plan === 'browserCv') {
+    if (purchaseControl && plan == 'browserCv') {
       handleOptionChange();
     }
   }, [purchaseControl]);
 
   useEffect(() => {
     getSubscriptions();
-    if (plan === 'browserCv') {
+    if (plan == 'browserCv') {
       setExpiryDays(addDays(expiryDate, 0));
     }
   }, []);
@@ -203,10 +203,10 @@ const PaymentModalForm = (props) => {
         _where: filter,
       });
 
-      if (data?.length === 0) {
+      if (data?.length == 0) {
         setSubscriptions({});
       }
-      if (data?.length === 1) {
+      if (data?.length == 1) {
         setSubscriptions(data[0][plan]);
       }
 
@@ -271,7 +271,7 @@ const PaymentModalForm = (props) => {
               />
             </Col>
 
-            {plan !== 'browserCv' && (
+            {plan != 'browserCv' && (
               <Col lg={3} md={6}>
                 <Form.Group className="extra__day__input">
                   <NumberFormat
@@ -305,7 +305,7 @@ const PaymentModalForm = (props) => {
                     setExtendDays(parseInt(e.value));
                   }}
                   readOnly={
-                    !purchaseControl || pricingOption === defaultPurchaseOption
+                    !purchaseControl || pricingOption == defaultPurchaseOption
                   }
                   autoComplete="current-text"
                   thousandSeparator={true}
@@ -328,7 +328,7 @@ const PaymentModalForm = (props) => {
                     <Col
                       lg={3}
                       className={
-                        pricingOption === item.key
+                        pricingOption == item.key
                           ? 'price__option__container active'
                           : 'price__option__container'
                       }
@@ -353,7 +353,7 @@ const PaymentModalForm = (props) => {
                         {t('payment:currency')} {item.price}
                       </div>
                       <div className="price__icon">
-                        {pricingOption === item.key ? (
+                        {pricingOption == item.key ? (
                           <AiFillCheckCircle />
                         ) : (
                           <AiOutlineCheckCircle />
@@ -363,12 +363,12 @@ const PaymentModalForm = (props) => {
                   );
                 })
               : userStack.map((item) => {
-                  if (item?.key === 'singlePositions') {
+                  if (item?.key == 'singlePositions') {
                     return (
                       <Col
                         lg={3}
                         className={
-                          pricingOption === item.key
+                          pricingOption == item.key
                             ? 'price__option__container profile active'
                             : 'price__option__container profile'
                         }
@@ -392,7 +392,7 @@ const PaymentModalForm = (props) => {
                           )}
                         </div>
                         <div className="price__icon">
-                          {pricingOption === item.key ? (
+                          {pricingOption == item.key ? (
                             <AiFillCheckCircle />
                           ) : (
                             <AiOutlineCheckCircle />
@@ -401,12 +401,12 @@ const PaymentModalForm = (props) => {
                       </Col>
                     );
                   }
-                  if (item?.key === 'browserCvPurchase') {
+                  if (item?.key == 'browserCvPurchase') {
                     return (
                       <Col
                         lg={3}
                         className={
-                          pricingOption === item.key
+                          pricingOption == item.key
                             ? 'price__option__container active'
                             : 'price__option__container'
                         }
@@ -429,7 +429,7 @@ const PaymentModalForm = (props) => {
                           )}
                         </div>
                         <div className="price__icon">
-                          {pricingOption === item.key ? (
+                          {pricingOption == item.key ? (
                             <AiFillCheckCircle />
                           ) : (
                             <AiOutlineCheckCircle />
@@ -439,14 +439,14 @@ const PaymentModalForm = (props) => {
                     );
                   }
                   if (
-                    item?.key !== 'activeSubscription' &&
-                    item?.key !== 'singlePositions'
+                    item?.key != 'activeSubscription' &&
+                    item?.key != 'singlePositions'
                   ) {
                     return (
                       <Col
                         lg={3}
                         className={
-                          pricingOption === item.key
+                          pricingOption == item.key
                             ? 'price__option__container profile active'
                             : 'price__option__container profile'
                         }
@@ -487,7 +487,7 @@ const PaymentModalForm = (props) => {
                           </div>
                         </div>
                         <div className="price__icon">
-                          {pricingOption === item.key ? (
+                          {pricingOption == item.key ? (
                             <AiFillCheckCircle />
                           ) : (
                             <AiOutlineCheckCircle />

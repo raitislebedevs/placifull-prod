@@ -27,7 +27,7 @@ const Education = (props) => {
   };
 
   const removeItem = (id) => {
-    if (items?.length === 1) return;
+    if (items?.length == 1) return;
     setItems(() => {
       let removeItems = [];
       for (let i = 0; i < items?.length - 1; i++) {

@@ -150,10 +150,10 @@ const LeftTabs = (props) => {
         _where: filter,
       });
 
-      if (data?.length === 0) {
+      if (data?.length == 0) {
         setSubscriptions({});
       }
-      if (data?.length === 1) {
+      if (data?.length == 1) {
         setSubscriptions(data[0]);
       }
       setIsLoading(false);
