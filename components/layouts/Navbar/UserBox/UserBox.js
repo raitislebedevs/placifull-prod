@@ -6,7 +6,7 @@ import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import useOutsideAlerter from 'hooks/useOutsideAlerter';
 
 const defaultAvatar =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/default-avatar.png';
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/default-avatar.webp';
 
 const ProfileMenu = (props) => {
   const { t, user, dispatch } = props;

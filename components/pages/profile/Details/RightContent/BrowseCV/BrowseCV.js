@@ -234,7 +234,7 @@ const BrowseCV = (props) => {
               <div className={'listings__not__placed'}>
                 <img
                   src={
-                    'https://placifull-static.s3.eu-central-1.amazonaws.com/CV.png'
+                    'https://placifull-static.s3.eu-central-1.amazonaws.com/CV.webp'
                   }
                   id="logo"
                   className="mx-auto d-block"

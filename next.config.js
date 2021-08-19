@@ -10,9 +10,6 @@ module.exports = withImages({
     EMAIL_ADDRESS: process.env.EMAIL_ADDRESS,
     EMAIL_ADDRESS: process.env.EMAIL_ADDRESS,
   },
-  future: {
-    webpack5: true,
-  },
   images: {
     domains: ['placifull-static.s3.eu-central-1.amazonaws.com'],
   },

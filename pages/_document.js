@@ -1,6 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 const logo =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/favicon.png';
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/favicon.webp';
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);

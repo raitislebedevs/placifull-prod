@@ -12,7 +12,7 @@ import { ModalAsk } from 'components/common';
 import useSubscriptions from 'hooks/useSubscriptions';
 import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
 
-const noJobs = '/static/images/no-listings/Jobs.png';
+const noJobs = '/static/images/no-listings/Jobs.webp';
 
 const Jobs = (props) => {
   const { t, user } = props;

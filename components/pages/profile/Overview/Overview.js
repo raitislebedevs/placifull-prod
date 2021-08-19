@@ -314,7 +314,7 @@ const Overview = (props) => {
                   <img
                     src={
                       user?.userInfo?.avatar?.url ||
-                      'https://placifull-static.s3.eu-central-1.amazonaws.com/default-avatar.png'
+                      'https://placifull-static.s3.eu-central-1.amazonaws.com/default-avatar.webp'
                     }
                     className="left__avatar"
                     alt="Avatar"

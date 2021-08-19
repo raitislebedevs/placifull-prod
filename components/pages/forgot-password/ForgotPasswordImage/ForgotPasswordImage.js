@@ -1,7 +1,7 @@
 import { Col } from 'react-bootstrap';
 
 const background =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/ForgetPasswordBackground.jpg';
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/ForgetPasswordBackground.webp';
 
 const ForgotPasswordImage = (props) => {
   let { t } = props;
