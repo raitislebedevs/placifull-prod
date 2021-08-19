@@ -8,15 +8,15 @@
     "submit": "Авторизоваться",
     "remember-me": "Запомнить меня",
     "forgot-password": "Забыли пароль?",
-    "or": "Или войти под аккаунтом",
+    "or": "Или войти в другой аккаунт",
     "facebook": "Facebook",
     "google": "Google",
     "not-account": "Нет аккаунта?",
     "sign-up": "Зарегистрироваться",
     "error": {
-      "email-invalid": "Email недействителен.",
-      "email-required": "Требуется указать email.",
-      "password-required": "Требуется указать пароль"
+      "email-invalid": "Неверно указан e-mail.",
+      "email-required": "Необходимо указать email.",
+      "password-required": "Необходимо указать пароль"
     },
     "success": "С возвращением!",
     "already-login": "Пытаетесь войти второй раз?",
