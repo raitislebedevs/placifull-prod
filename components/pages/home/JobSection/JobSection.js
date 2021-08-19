@@ -93,7 +93,7 @@ const JobSection = (props) => {
                   {t('job-section.head.line-4')}
                 </p>
                 <Link href={'/job-search'}>
-                  <Button className="left-button">
+                  <Button className="left-button" aria-label="Job Section">
                     {t('job-section.button')}
                   </Button>
                 </Link>

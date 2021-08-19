@@ -97,7 +97,7 @@ const RealEstateSection = (props) => {
                 {t('real-estate-section.head.line-4')}
               </p>
               <Link href={'/real-estate'}>
-                <Button className="left-button">
+                <Button className="left-button" aria-label="RealEstate">
                   {t('real-estate-section.button')}
                 </Button>
               </Link>

@@ -13,7 +13,7 @@ const HeroTerms = (props) => {
             <nav aria-label="breadcrumb" className="">
               <ul className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <a href="/">
+                  <a href="/" aria-label="Home">
                     Placifull
                     <FaChevronRight />
                   </a>

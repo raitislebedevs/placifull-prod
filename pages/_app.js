@@ -169,6 +169,7 @@ function App(props) {
 
       <Button
         className="btn-back-to-top"
+        aria-label="Back To Top"
         onClick={() =>
           scrollRef.current.scrollIntoView({
             behavior: 'smooth',

@@ -58,7 +58,10 @@ const HeroSection = (props) => {
                   {t('hero-section.head.line-3')}
                 </p>
                 <Link href="/sign-in">
-                  <Button className="content-hero__button">
+                  <Button
+                    className="content-hero__button"
+                    aria-label="HeroButton"
+                  >
                     <AiOutlineArrowRight className="button__icon" />{' '}
                     {t('hero-section.button')}
                   </Button>
