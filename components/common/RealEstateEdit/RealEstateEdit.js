@@ -120,7 +120,7 @@ const RealEstatePost = (props) => {
       //Listing Rent Details
       moveInDate:
         inputValues?.moveInDate ||
-        (inputValues?.action == 'rent' && new Date()) ||
+        (inputValues?.action === 'rent' && new Date()) ||
         null,
       moveOutDate: inputValues?.moveOutDate || null,
 
@@ -196,7 +196,7 @@ const RealEstatePost = (props) => {
       if (userTags) {
         for (let i = 0; i < userTags.length; ++i) {
           tagOptions.forEach((item, index) => {
-            if (item.id == userTags[i]) previewTags.push(item);
+            if (item.id === userTags[i]) previewTags.push(item);
           });
         }
       }

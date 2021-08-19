@@ -151,22 +151,22 @@ const KanBanBoard = (props) => {
 
   const getApplicantCount = (items) => {
     setApplied(
-      items.reduce((p, c) => (c.column == 'applicants' ? (p = p + 1) : p), 0)
+      items.reduce((p, c) => (c.column === 'applicants' ? (p = p + 1) : p), 0)
     );
     setReviewd(
-      items.reduce((p, c) => (c.column == 'reviewed' ? (p = p + 1) : p), 0)
+      items.reduce((p, c) => (c.column === 'reviewed' ? (p = p + 1) : p), 0)
     );
     setInterview(
-      items.reduce((p, c) => (c.column == 'interviewed' ? (p = p + 1) : p), 0)
+      items.reduce((p, c) => (c.column === 'interviewed' ? (p = p + 1) : p), 0)
     );
     setHired(
-      items.reduce((p, c) => (c.column == 'accepted' ? (p = p + 1) : p), 0)
+      items.reduce((p, c) => (c.column === 'accepted' ? (p = p + 1) : p), 0)
     );
     setShortlisted(
-      items.reduce((p, c) => (c.column == 'shortlisted' ? (p = p + 1) : p), 0)
+      items.reduce((p, c) => (c.column === 'shortlisted' ? (p = p + 1) : p), 0)
     );
     setPending(
-      items.reduce((p, c) => (c.column == 'pending' ? (p = p + 1) : p), 0)
+      items.reduce((p, c) => (c.column === 'pending' ? (p = p + 1) : p), 0)
     );
   };
 
@@ -180,7 +180,7 @@ const KanBanBoard = (props) => {
 
   useEffect(() => {
     getApplicantCount(kanBanItems);
-    if (kanBanListing?.KanBanColumns.length != 0)
+    if (kanBanListing?.KanBanColumns.length !== 0)
       return setColumns(kanBanListing?.KanBanColumns);
 
     setColumns(initialColumns);

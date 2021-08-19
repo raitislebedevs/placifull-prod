@@ -78,7 +78,7 @@ const CustomFormControl = (props) => {
           )}
           <Form.Control maxLength={maxLength} {...rest} ref={inputEl} />
           <>
-            {(valueLength || valueLength == 0) && (
+            {(valueLength || valueLength === 0) && (
               <div className={'max__length__counter'}>{valueLength}</div>
             )}
           </>

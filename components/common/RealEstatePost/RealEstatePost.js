@@ -132,7 +132,7 @@ const RealEstatePost = (props) => {
       //Listing Rent Details
       moveInDate:
         inputValues?.moveInDate ||
-        (inputValues?.action == 'rent' && new Date()) ||
+        (inputValues?.action === 'rent' && new Date()) ||
         null,
       moveOutDate: inputValues?.moveOutDate || null,
 
@@ -266,7 +266,7 @@ const RealEstatePost = (props) => {
       localPreviewItem['currency'] = submitCurrency;
       localPreviewItem['country'] = inputValues?.country;
 
-      if (inputValues?.action == 'rent') {
+      if (inputValues?.action === 'rent') {
         localPreviewItem['moveInDate'] =
           inputValues?.moveInDate && moment(inputValues?.moveInDate || null);
         localPreviewItem['moveOutDate'] =
@@ -278,7 +278,7 @@ const RealEstatePost = (props) => {
       if (userTags) {
         for (let i = 0; i < userTags.length; ++i) {
           tagOptions.forEach((item, index) => {
-            if (item.id == userTags[i]) previewTags.push(item);
+            if (item.id === userTags[i]) previewTags.push(item);
           });
         }
       }

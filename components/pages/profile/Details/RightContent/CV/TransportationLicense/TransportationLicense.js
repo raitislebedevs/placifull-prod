@@ -26,7 +26,7 @@ const TransportationLicense = (props) => {
   };
 
   const removeItem = (id) => {
-    if (licenseItems.length == 1) return;
+    if (licenseItems.length === 1) return;
     setLicenseItems(() => {
       let removeItems = [];
       for (let i = 0; i < licenseItems.length - 1; i++) {

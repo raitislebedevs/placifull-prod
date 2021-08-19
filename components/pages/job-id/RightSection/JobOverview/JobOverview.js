@@ -108,9 +108,9 @@ const JobOverview = (props) => {
           </Col>
           <Col lg={10} sm={10} xs={10} className={'item__info'}>
             <div>
-              {getDayCount(listingItem?.insertDate) == 0
+              {getDayCount(listingItem?.insertDate) === 0
                 ? t('common:listing-input-date.today')
-                : getDayCount(listingItem?.insertDate) == 1
+                : getDayCount(listingItem?.insertDate) === 1
                 ? t('common:listing-input-date.yesterday')
                 : `${getDayCount(listingItem?.insertDate)} ${t(
                     'common:listing-input-date.days-ago'

@@ -6,16 +6,16 @@ const useUpdateSubscriptions = () => {
   const handleUpdate = async (subscriptions, subscription, id, subId) => {
     try {
       let element = subscription.listingIds.filter(
-        (listing) => listing?.id == id
+        (listing) => listing?.id === id
       )[0];
 
       subscription.listingIds = subscription.listingIds.filter(
-        (listing) => listing?.id != id
+        (listing) => listing?.id !== id
       );
 
       const { plan } = element;
       let newInuse = plan + inUse;
-      if (plan != standalone) {
+      if (plan !== standalone) {
         subscription[plan]++;
         subscription[newInuse]--;
       }

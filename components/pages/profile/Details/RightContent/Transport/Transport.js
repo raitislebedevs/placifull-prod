@@ -195,21 +195,21 @@ const Transport = (props) => {
                           <></>
                         )}
                       </Carousel>
-                      {item.action == 'rent' && (
+                      {item.action === 'rent' && (
                         <div className="item-wrapper__label for__rent">
                           <span>
                             {t('profile:right-content.tabs.actions.rent')}
                           </span>
                         </div>
                       )}
-                      {item.action == 'sell' && (
+                      {item.action === 'sell' && (
                         <div className="item-wrapper__label for__sale">
                           <span>
                             {t('profile:right-content.tabs.actions.sell')}
                           </span>
                         </div>
                       )}
-                      {item.action == 'exchange' && (
+                      {item.action === 'exchange' && (
                         <div className="item-wrapper__label for__exchange">
                           <span>
                             {t('profile:right-content.tabs.actions.exchange')}

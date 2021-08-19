@@ -34,18 +34,18 @@ const KanbanColumn = (props) => {
   useEffect(() => {
     if (columnCount > 3) return setColumnWide(2);
     if (columnCount > 2) return setColumnWide(3);
-    if (columnCount == 2) return setColumnWide(5);
+    if (columnCount === 2) return setColumnWide(5);
   }, [columnCount]);
 
   const removeColumn = (id) => {
-    if (id == 'applicants') return;
+    if (id === 'applicants') return;
     if (columnCount <= 2) return;
-    let bordColumns = columns.filter((item) => item.columnId != id);
+    let bordColumns = columns.filter((item) => item.columnId !== id);
     setColumns(bordColumns);
   };
 
   const handleEdit = (id) => {
-    let index = columns.findIndex((item) => item.columnId == id);
+    let index = columns.findIndex((item) => item.columnId === id);
     let bordColumns = [...columns];
     bordColumns[index].title = column;
     setColumns(bordColumns);
@@ -116,7 +116,7 @@ const KanbanColumn = (props) => {
                       {t('kanban:kanban.columns.edit')}
                     </div>
 
-                    {id != 'applicants' && (
+                    {id !== 'applicants' && (
                       <div
                         onClick={() => removeColumn(id)}
                         className={'single_option'}
