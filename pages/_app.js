@@ -59,7 +59,6 @@ import {
 } from '@fortawesome/free-regular-svg-icons';
 
 //Styles
-import 'react-perfect-scrollbar/dist/css/styles.css';
 import 'react-toastify/dist/ReactToastify.css';
 import 'react-multi-carousel/lib/styles.css';
 import 'react-datetime/css/react-datetime.css';
