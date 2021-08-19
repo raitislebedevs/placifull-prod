@@ -609,7 +609,7 @@ const ServiceSection = (props) => {
                       onClick={() => setActiveItem(item)}
                     >
                       <div className="text-center py-1">
-                        <h6 className="mb-0">{item.title}</h6>
+                        <h4 className="mb-0 service__title">{item.title}</h4>
                       </div>
                     </div>
                   </div>

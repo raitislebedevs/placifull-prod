@@ -85,9 +85,9 @@ const RealEstateSection = (props) => {
               <span className="left-badge">
                 {t('real-estate-section.badge')}
               </span>
-              <h4 className="left-title">
+              <h1 className="left-title">
                 {t('real-estate-section.head.line-1')}
-              </h4>
+              </h1>
               <p className="text-muted mx-auto mx-lg-left para-desc mb-0">
                 {t('real-estate-section.head.line-2')}
                 <span className="text-primary font-weight-bold">

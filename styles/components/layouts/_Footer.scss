@@ -76,8 +76,16 @@
       }
     }
     .top-button-submit {
+      background-color: rgba(255, 255, 255, 0.918);
+      font-weight: 900;
       width: 100%;
       margin-top: 15px;
+      &:hover {
+        cursor: pointer;
+        color: $white;
+        transition: 0.5s color;
+        background-color: theme-color("primary");
+      }
     }
   }
   .footer-container__bottom {
