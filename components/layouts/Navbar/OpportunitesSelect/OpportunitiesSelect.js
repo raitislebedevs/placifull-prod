@@ -23,7 +23,7 @@ const OpportunitiesSelect = (props) => {
   const { t } = props;
   return (
     <Dropdown>
-      <Dropdown.Toggle id="options" as={CustomToggle} aria-label="Add Listing">
+      <Dropdown.Toggle id="options" as={CustomToggle}>
         {t('navbar:opportunities.base')}
       </Dropdown.Toggle>
       <Dropdown.Menu>

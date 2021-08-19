@@ -1,9 +1,9 @@
 {
   "header": {
-    "heading": "Помощь и поддержка",
+    "heading": "Справка и поддержка",
     "title": "Свяжитесь с нами",
     "info": {
-      "text": "Номер WhatsApp",
+      "text": "WhatsApp ",
       "phone": "+371 9999999999"
     }
   },
@@ -13,7 +13,7 @@
       "items": {
         "item-1": {
           "label": "Местоположение",
-          "description": "ул. Русова, 7/5"
+          "description": " 7/5"
         },
         "item-2": {
           "label": "Телефон",
@@ -24,13 +24,13 @@
           "description": "hello@example.com"
         },
         "item-4": {
-          "label": "Обслуживание клиентов",
+          "label": "Служба поддержки клиентов ",
           "description": "support@example.com"
         }
       }
     },
     "form": {
-      "heading": "Форма",
+      "heading": "Свяжитесь с нами",
       "name": "ФИО",
       "email": "Email",
       "subject": "Тема",
