@@ -166,7 +166,11 @@ const Navbar = (props) => {
             </Nav.Item>
             <Nav.Item>
               <Dropdown alignRight>
-                <Dropdown.Toggle menualign="right" className="navbar-hamburger">
+                <Dropdown.Toggle
+                  aria-label="Mobile Button"
+                  menualign="right"
+                  className="navbar-hamburger"
+                >
                   <FontAwesomeIcon icon="bars" />
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
