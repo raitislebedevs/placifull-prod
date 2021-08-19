@@ -11,10 +11,6 @@ const BlogPosts = (props) => {
       <Head>
         <title>{t('blog:title')}</title>
         <meta
-          name="description"
-          content="Best information when looking for an advise when buying a house, car or moving to a different job."
-        />
-        <meta
           name="keywords"
           content="voting board, user input, user suggestions, user meaningful, meaningful life, balsošanas dēlis, lietotāja ieteikumi, lietotāja viedoklis"
         />

@@ -17,10 +17,7 @@ const Transport = (props) => {
     <div className="vehicles-container main-container">
       <Head>
         <title>{t('transport:title')}</title>
-        <meta
-          name="description"
-          content="Multiple transportation styles. You can sell, rent and buy a car, boat, plane and a donkey if you find one."
-        />
+
         <meta
           name="keywords"
           content="boat buy, buy boat, sell car, buy car, rent car, car rent, plane buy, rent plane, rent a donkey, buy girraffe"

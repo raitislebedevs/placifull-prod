@@ -9,10 +9,7 @@ const UserBoard = (props) => {
     <div className="termsPage-container main-container">
       <Head>
         <title>{t('voting-board:title')}</title>
-        <meta
-          name="description"
-          content="Straight forward terms and conditions. We try to make it simple and straight to the point."
-        />
+
         <meta
           name="keywords"
           content="voting board, user input, user suggestions, user meaningful, meaningful life, balsošanas dēlis, lietotāja ieteikumi, lietotāja viedoklis"

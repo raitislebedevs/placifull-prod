@@ -10,10 +10,6 @@ const Terms = (props) => {
       <Head>
         <title>{t('terms:title')}</title>
         <meta
-          name="description"
-          content="Straight forward terms and conditions. We try to make it simple and straight to the point."
-        />
-        <meta
           name="keywords"
           content="referral code, opportunities, prices, privacy policy, terms and conditions, how to use placifull, use placifull, listing, promoted listings, promoted"
         />
