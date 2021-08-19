@@ -2,12 +2,12 @@ import React, { useRef, useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { Provider } from 'react-redux';
 import { useStore } from '../store/';
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { ToastContainer, Zoom } from 'react-toastify';
 import { appWithTranslation } from './../i18n';
 import { Navbar, Footer, LoaderBar } from 'components/layouts';
 import { Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faPlus,
   faUser,

@@ -24,6 +24,7 @@
       }
 
       .learn__more {
+        font-weight: 900;
         color: theme-color("primary");
         animation: rightleft 1.5s infinite alternate ease-in-out;
         cursor: pointer;
@@ -42,6 +43,9 @@
           display: inline;
         }
       }
+    }
+    .service__title {
+      font-size: 16px;
     }
   }
   .service__option.nav.nav-pills {

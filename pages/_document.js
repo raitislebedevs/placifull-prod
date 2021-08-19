@@ -9,7 +9,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           {/* Global Site Tag (gtag.js) - Google Analytics */}
 
@@ -38,6 +38,14 @@ class MyDocument extends Document {
             sizes="any"
             type="image/svg+xml"
           ></link>
+          {/* Href Langues will be next */}
+          <link rel="alternate" href="https://placifull.com/lv" hreflang="lv" />
+          <link rel="alternate" href="https://placifull.com/lt" hreflang="lt" />
+          <link rel="alternate" href="https://placifull.com/ru" hreflang="ru" />
+          <link rel="alternate" href="https://placifull.com/pt" hreflang="pt" />
+          <link rel="alternate" href="https://placifull.com/jp" hreflang="jp" />
+          <link rel="alternate" href="https://placifull.com/es" hreflang="es" />
+          <link rel="alternate" href="https://placifull.com/it" hreflang="it" />
         </Head>
         <body>
           <Main />

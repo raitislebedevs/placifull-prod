@@ -33,6 +33,9 @@ const LanguageSelect = (props) => {
       return true;
     }
     const local = await LanguageService.LOCAL();
+    if (!local?.IPv4) {
+      return true;
+    }
     const result = await ipLocation(local.IPv4);
     localStorage.setItem('countryCode', result?.country?.code.toLowerCase());
 

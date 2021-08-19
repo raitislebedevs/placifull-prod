@@ -54,6 +54,7 @@ const LoaderBar = (props) => {
 
   return (
     <ProgressBar
+      aria-label="progressbar"
       now={progress}
       className={`top-loader-bar ${
         progress > 0 ? 'top-loader-bar--show' : 'top-loader-bar--hide'
