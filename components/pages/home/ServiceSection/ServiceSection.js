@@ -135,7 +135,7 @@ const ServiceSection = (props) => {
           <p> {t('service-section.services.service-1.modal.description')}</p>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>
+          <Button onClick={props.onHide} aria-label="Close Modal">
             {' '}
             {t('service-section.services.service-1.modal.close-button')}
           </Button>
@@ -170,11 +170,11 @@ const ServiceSection = (props) => {
         </Modal.Body>
         <Modal.Footer>
           <Link href={'/contact'}>
-            <Button onClick={props.onHide}>
+            <Button onClick={props.onHide} aria-label="Help Us Close">
               {t('service-section.services.service-2.modal.contact-button')}
             </Button>
           </Link>
-          <Button onClick={props.onHide}>
+          <Button onClick={props.onHide} aria-label="Help Us Close Two">
             {t('service-section.services.service-2.modal.close-button')}
           </Button>
         </Modal.Footer>
@@ -204,11 +204,11 @@ const ServiceSection = (props) => {
         </Modal.Body>
         <Modal.Footer>
           <Link href={'/contact'}>
-            <Button onClick={props.onHide}>
+            <Button onClick={props.onHide} aria-label="Improve Qualtity">
               {t('service-section.services.service-4.modal.contact-button')}
             </Button>
           </Link>
-          <Button onClick={props.onHide}>
+          <Button onClick={props.onHide} aria-label="Improve Quality Close">
             {t('service-section.services.service-4.modal.close-button')}
           </Button>
         </Modal.Footer>
@@ -241,10 +241,15 @@ const ServiceSection = (props) => {
             <Button
               variant="outline-success"
               onClick={() => handleJobSecondModal()}
+              aria-label="Handle Job Apply"
             >
               {t('service-section.services.service-5.modal.contact-button')}
             </Button>
-            <Button variant="outline-danger" onClick={props.onHide}>
+            <Button
+              variant="outline-danger"
+              onClick={props.onHide}
+              aria-label="ModalClose"
+            >
               {t('service-section.services.service-5.modal.close-button')}
             </Button>
           </Modal.Footer>

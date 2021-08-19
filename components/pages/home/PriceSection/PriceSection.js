@@ -29,7 +29,7 @@ function PaymentDetailModal(props) {
         </Modal.Body>
         <Modal.Footer>
           <Link href={'/sign-in'}>
-            <Button onClick={props.onHide}>
+            <Button onClick={props.onHide} aria-label="ModalClose">
               {' '}
               {t('price-section.modal.no-user.log')}
             </Button>
@@ -55,12 +55,12 @@ function PaymentDetailModal(props) {
         </Modal.Body>
         <Modal.Footer>
           <Link href={'/add-listing'} scroll={true}>
-            <Button onClick={props.onHide}>
+            <Button onClick={props.onHide} aria-label="ModalClose">
               {t('price-section.modal.post.post')}
             </Button>
           </Link>
           <Link href={'/profile'}>
-            <Button onClick={props.onHide}>
+            <Button onClick={props.onHide} aria-label="ModalClose">
               {t('price-section.modal.post.purchase')}
             </Button>
           </Link>

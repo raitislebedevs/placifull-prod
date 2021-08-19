@@ -153,6 +153,7 @@ const Navbar = (props) => {
             <Nav.Item>
               <Link href="/add-listing/real-estate">
                 <Button
+                  aria-label="Add Listing"
                   className="add-listing-button"
                   variant={showNavbarLight ? 'primary' : 'outline-light'}
                 >
