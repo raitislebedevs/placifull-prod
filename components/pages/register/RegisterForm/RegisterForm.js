@@ -154,28 +154,26 @@ const RegisterForm = (props) => {
                         </Form.Label>
                         <div className="items__input">
                           <AiOutlineUser className="input__icon" size="20px" />
-                          <div itemProp="givenName">
-                            <Form.Control
-                              onChange={handleChange}
-                              value={values.firstName}
-                              onBlur={handleBlur}
-                              maxLength={'33'}
-                              isInvalid={Boolean(
-                                touched.firstName && errors.firstName
-                              )}
-                              id="firstName"
-                              type="text"
-                              className="input__text"
-                              placeholder={t('register:form.first-name')}
-                            />
-                          </div>
+                          <Form.Control
+                            onChange={handleChange}
+                            value={values.firstName}
+                            onBlur={handleBlur}
+                            maxLength={'33'}
+                            isInvalid={Boolean(
+                              touched.firstName && errors.firstName
+                            )}
+                            id="firstName"
+                            type="text"
+                            className="input__text"
+                            placeholder={t('register:form.first-name')}
+                          />
                           <Form.Control.Feedback
                             id={'firstName-tooltip'}
                             type="invalid"
                             tooltip
                           >
                             {touched.firstName && errors.firstName}
-                          </Form.Control.Feedback>
+                          </Form.Control.Feedback>{' '}
                         </div>
                       </Form.Group>
                     </Col>
@@ -194,21 +192,19 @@ const RegisterForm = (props) => {
                         </Form.Label>
                         <div className="items__input">
                           <AiOutlineUser className="input__icon" size="20px" />
-                          <div itemProp="familyName">
-                            <Form.Control
-                              onChange={handleChange}
-                              value={values.lastName}
-                              onBlur={handleBlur}
-                              maxLength={'33'}
-                              isInvalid={Boolean(
-                                touched.lastName && errors.lastName
-                              )}
-                              id="lastName"
-                              type="text"
-                              className="input__text"
-                              placeholder={t('register:form.last-name')}
-                            />
-                          </div>
+                          <Form.Control
+                            onChange={handleChange}
+                            value={values.lastName}
+                            onBlur={handleBlur}
+                            maxLength={'33'}
+                            isInvalid={Boolean(
+                              touched.lastName && errors.lastName
+                            )}
+                            id="lastName"
+                            type="text"
+                            className="input__text"
+                            placeholder={t('register:form.last-name')}
+                          />
                           <Form.Control.Feedback
                             id={'lastName-tooltip'}
                             type="invalid"
@@ -234,19 +230,17 @@ const RegisterForm = (props) => {
                         </Form.Label>
                         <div className="items__input">
                           <FaRegEnvelope className="input__icon" size="20px" />
-                          <div itemProp="email">
-                            <Form.Control
-                              onChange={handleChange}
-                              value={values.email}
-                              onBlur={handleBlur}
-                              maxLength={'50'}
-                              isInvalid={Boolean(touched.email && errors.email)}
-                              id="email"
-                              type="text"
-                              className="input__text"
-                              placeholder={t('register:form.email')}
-                            />
-                          </div>
+                          <Form.Control
+                            onChange={handleChange}
+                            value={values.email}
+                            onBlur={handleBlur}
+                            maxLength={'50'}
+                            isInvalid={Boolean(touched.email && errors.email)}
+                            id="email"
+                            type="text"
+                            className="input__text"
+                            placeholder={t('register:form.email')}
+                          />
                           <Form.Control.Feedback
                             id={'email-tooltip'}
                             type="invalid"

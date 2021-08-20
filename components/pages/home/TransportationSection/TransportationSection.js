@@ -114,8 +114,16 @@ const TransportationSection = (props) => {
                     <>
                       <Slider {...sliderSettings}>
                         {items?.map((item, index) => (
-                          <div key={index} className="left__slick-item">
-                            <TransportationCard t={t} item={item} />
+                          <div
+                            key={index}
+                            className="left__slick-item"
+                            key={`${item?.id}_container`}
+                          >
+                            <TransportationCard
+                              t={t}
+                              item={item}
+                              key={item?.id}
+                            />
                           </div>
                         ))}{' '}
                       </Slider>{' '}

@@ -46,7 +46,8 @@ class MyDocument extends Document {
           <link rel="alternate" href="https://placifull.com/jp" hrefLang="ja" />
           <link rel="alternate" href="https://placifull.com/es" hrefLang="es" />
           <link rel="alternate" href="https://placifull.com/it" hrefLang="it" />
-
+          <link rel="manifest" href="/manifest.json" />
+          <meta name="theme-color" content="#fff" />
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}

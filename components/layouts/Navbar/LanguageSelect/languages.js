@@ -2,14 +2,14 @@ const languages = [
   {
     value: {
       lang: 'en',
-      flag: 'US',
+      flag: 'GB',
     },
     label: 'English',
   },
   {
     value: {
       lang: 'en',
-      flag: 'GB',
+      flag: 'US',
     },
     label: 'English',
   },
