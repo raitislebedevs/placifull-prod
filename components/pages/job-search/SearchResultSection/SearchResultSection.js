@@ -40,7 +40,7 @@ const SearchResultSection = (props) => {
   const sortOptions = [
     {
       value: 'insertDate:asc',
-      label: t('job-search:search-result.filters.sort-by.label'),
+      label: <>{t('job-search:search-result.filters.sort-by.label')}</>,
     },
     {
       value: 'hourlySalaryTo:asc',

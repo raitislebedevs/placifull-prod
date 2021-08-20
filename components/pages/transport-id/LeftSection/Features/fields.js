@@ -24,7 +24,7 @@ const fields = (t) => ({
     items: [],
   },
   mirrors: {
-    label: t('transport-common:features.category.mirrros'),
+    label: t('transport-common:features.category.mirrors'),
     items: [],
   },
 });

@@ -64,12 +64,34 @@ const TransportationCard = (props) => {
         >
           {item?.listingGallery?.length > 0 ? (
             item?.listingGallery?.map((i) => (
-              <Link href={`/transport/${item?.id}`} key={item?.id}>
-                <a
-                  className="carousel-container__item"
-                  style={{ backgroundImage: `url(${i.url}` }}
-                >
-                  <div className="item__name-address">
+              <a
+                className="carousel-container__item"
+                style={{ backgroundImage: `url(${i.url}` }}
+              >
+                <div className="item__name-address">
+                  {item?.country?.native || item?.city?.name ? (
+                    <>
+                      <div className="name-address__address">
+                        <FaSearchLocation className="wrapper__icon" />{' '}
+                        {item?.country?.native}{' '}
+                        {item?.city?.name && item?.country?.native
+                          ? `, ${item?.city?.name}`
+                          : item?.city?.name
+                          ? item?.city?.name
+                          : ''}
+                      </div>
+                    </>
+                  ) : (
+                    ''
+                  )}
+                </div>
+              </a>
+            ))
+          ) : (
+            <a className="carousel-container__item">
+              <div className="item__name-address">
+                {item?.country?.native || item?.city?.name ? (
+                  <>
                     <div className="name-address__address">
                       <FaSearchLocation className="wrapper__icon" />{' '}
                       {item?.country?.native}{' '}
@@ -79,21 +101,12 @@ const TransportationCard = (props) => {
                         ? item?.city?.name
                         : ''}
                     </div>
-                  </div>
-                </a>
-              </Link>
-            ))
-          ) : (
-            <Link href={`/transport/${item?.id}`} key={item?.id}>
-              <a className="carousel-container__item">
-                <div className="item__name-address">
-                  <div className="name-address__address">
-                    <FaSearchLocation className="wrapper__icon" />{' '}
-                    {item?.country?.native}, {item?.city?.name}
-                  </div>
-                </div>
-              </a>
-            </Link>
+                  </>
+                ) : (
+                  ''
+                )}
+              </div>
+            </a>
           )}
         </Carousel>
       </div>

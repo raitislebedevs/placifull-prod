@@ -16,7 +16,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Head>
-        <title>New World at Placifull</title>
+        <title>Placifull - Searching for your Dream</title>
       </Head>
       <HeroSection t={t} />
       <RealEstateSection t={t} />

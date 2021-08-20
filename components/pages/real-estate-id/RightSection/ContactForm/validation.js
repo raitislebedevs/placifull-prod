@@ -2,7 +2,7 @@ import * as Yup from 'yup';
 
 const validation = async (inputValues, t) => {
   let ContactSchema = Yup.object().shape({
-    fullName: Yup.string().required(t('validation:common.email.full-name')),
+    fullName: Yup.string().required(t('validation:email.full-name')),
     phoneNumber: Yup.string()
       .min(6, t('validation:common.phone.minLength'))
       .max(20, t('validation:common.phone.maxLength'))
@@ -10,7 +10,7 @@ const validation = async (inputValues, t) => {
     emailId: Yup.string()
       .email(t('validation:common.email.valid'))
       .required(t('validation:common.email.required')),
-    message: Yup.string().required(t('validation:common.email.message')),
+    message: Yup.string().required(t('validation:email.message')),
   });
 
   let schemaResult = await ContactSchema.validate(inputValues, {
