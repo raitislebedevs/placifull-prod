@@ -6,8 +6,7 @@ import dynamic from 'next/dynamic';
 const ReactTypingEffect = dynamic(() => import('react-typing-effect'), {
   ssr: false,
 });
-const backgroundHero =
-  'https://placifull-static.s3.eu-central-1.amazonaws.com/enterprise.webp';
+
 const HeroSection = (props) => {
   const { t } = props;
   const messages = [
@@ -19,11 +18,7 @@ const HeroSection = (props) => {
 
   return (
     <>
-      <div
-        id="hero-section"
-        className="home-container__hero-section"
-        style={{ backgroundImage: `url(${backgroundHero})` }}
-      >
+      <div id="hero-section" className="home-container__hero-section">
         <div className="hero-section__bg-overlay"></div>
         <Container>
           <Row>
