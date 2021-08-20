@@ -106,9 +106,10 @@ const PersonalInformation = (props) => {
                         'profile:right-content.profile.personal-details.labels.first-name'
                       )}
                     </Form.Label>
-                    <div className="profile__input" itemProp="givenName">
+                    <div className="profile__input">
                       <AiOutlineUser className="input__icon" size="20px" />
                       <Form.Control
+                        itemProp="givenName"
                         name="firstName"
                         id="firstName"
                         type="text"
@@ -134,9 +135,10 @@ const PersonalInformation = (props) => {
                         'profile:right-content.profile.personal-details.labels.last-name'
                       )}
                     </Form.Label>
-                    <div className="profile__input" itemProp="familyName">
+                    <div className="profile__input">
                       <FiUserCheck className="input__icon" size="20px" />
                       <Form.Control
+                        itemProp="familyName"
                         name="lastName"
                         id="lastName"
                         type="text"
@@ -160,9 +162,10 @@ const PersonalInformation = (props) => {
                         'profile:right-content.profile.personal-details.labels.email'
                       )}
                     </Form.Label>
-                    <div className="profile__input" itemProp="email">
+                    <div className="profile__input">
                       <AiOutlineMail className="input__icon" size="20px" />
                       <Form.Control
+                        itemProp="email"
                         name="email"
                         id="email"
                         type="email"
@@ -205,14 +208,12 @@ const PersonalInformation = (props) => {
                         'profile:right-content.profile.personal-details.labels.about-me-heading'
                       )}
                     </Form.Label>
-                    <div
-                      className="profile__input form-control-container"
-                      itemProp="description"
-                    >
+                    <div className="profile__input form-control-container">
                       <FiMessageCircle className="input__icon" size="20px" />
                       <Form.Control
                         name="description"
                         rows={5}
+                        itemProp="description"
                         id="description"
                         type="text"
                         as="textarea"
