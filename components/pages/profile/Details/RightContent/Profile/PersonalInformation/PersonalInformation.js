@@ -94,11 +94,7 @@ const PersonalInformation = (props) => {
             values,
           }) => (
             <Form onSubmit={handleSubmit}>
-              <Row
-                className="mt-4"
-                itemScope
-                itemType="https://schema.org/Person"
-              >
+              <Row className="mt-4">
                 <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                   <Form.Group>
                     <Form.Label>
@@ -106,7 +102,11 @@ const PersonalInformation = (props) => {
                         'profile:right-content.profile.personal-details.labels.first-name'
                       )}
                     </Form.Label>
-                    <div className="profile__input">
+                    <div
+                      className="profile__input"
+                      itemScope
+                      itemType="https://schema.org/Person"
+                    >
                       <AiOutlineUser className="input__icon" size="20px" />
                       <Form.Control
                         itemProp="givenName"
@@ -135,7 +135,11 @@ const PersonalInformation = (props) => {
                         'profile:right-content.profile.personal-details.labels.last-name'
                       )}
                     </Form.Label>
-                    <div className="profile__input">
+                    <div
+                      className="profile__input"
+                      itemScope
+                      itemType="https://schema.org/Person"
+                    >
                       <FiUserCheck className="input__icon" size="20px" />
                       <Form.Control
                         itemProp="familyName"
@@ -162,7 +166,11 @@ const PersonalInformation = (props) => {
                         'profile:right-content.profile.personal-details.labels.email'
                       )}
                     </Form.Label>
-                    <div className="profile__input">
+                    <div
+                      className="profile__input"
+                      itemScope
+                      itemType="https://schema.org/Person"
+                    >
                       <AiOutlineMail className="input__icon" size="20px" />
                       <Form.Control
                         itemProp="email"
@@ -183,7 +191,12 @@ const PersonalInformation = (props) => {
                         'profile:right-content.profile.personal-details.labels.phone-number'
                       )}
                     </Form.Label>
-                    <div className="profile__input" itemProp="telephone">
+                    <div
+                      className="profile__input"
+                      itemProp="telephone"
+                      itemScope
+                      itemType="https://schema.org/Person"
+                    >
                       <FiPhone className="input__icon" size="20px" />
                       <Form.Control
                         name="phone"
@@ -208,7 +221,11 @@ const PersonalInformation = (props) => {
                         'profile:right-content.profile.personal-details.labels.about-me-heading'
                       )}
                     </Form.Label>
-                    <div className="profile__input form-control-container">
+                    <div
+                      className="profile__input form-control-container"
+                      itemScope
+                      itemType="https://schema.org/Person"
+                    >
                       <FiMessageCircle className="input__icon" size="20px" />
                       <Form.Control
                         name="description"

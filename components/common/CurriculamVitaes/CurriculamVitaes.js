@@ -101,11 +101,15 @@ const CurriculamVitaes = (props) => {
               md={12}
               sm={12}
               xs={12}
+              itemScope
+              itemType="https://schema.org/Person"
             >
-              <div className={'cv__name'}>
+              <div className={'cv__name'} itemProp="name">
                 {PersonalDetails?.cvFirstName} {PersonalDetails?.cvLasttName}
               </div>
-              <div className={'cv__role'}>{PersonalDetails?.cvProfession}</div>
+              <div className={'cv__role'} itemProp="hasOccupation">
+                {PersonalDetails?.cvProfession}
+              </div>
               <div className={'contact__seperator'}> </div>
               {PersonalDetails?.cvPersonalEmail && (
                 <div className={'cv__personal__info'}>
