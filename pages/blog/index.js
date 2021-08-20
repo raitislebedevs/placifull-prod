@@ -12,7 +12,7 @@ const BlogPosts = (props) => {
         <title>{t('blog:title')}</title>
         <meta
           name="keywords"
-          content="voting board, user input, user suggestions, user meaningful, meaningful life, balsošanas dēlis, lietotāja ieteikumi, lietotāja viedoklis"
+          content="nekustamie īpašumi, transports, blogs, darbs, padoms darba meklējumos, padoms dzīvokļa iegādē, padoms mājas iegādē, kā sakrāt mājai, real estate, job, transportation, blog, advice moving abroad, advice job hunting, advice buying a hous"
         />
       </Head>
       <Hero t={t} />

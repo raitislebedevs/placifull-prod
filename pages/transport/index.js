@@ -20,7 +20,7 @@ const Transport = (props) => {
 
         <meta
           name="keywords"
-          content="boat buy, buy boat, sell car, buy car, rent car, car rent, plane buy, rent plane, rent a donkey, buy girraffe"
+          content="boat buy, buy boat, sell car, buy car, rent car, car rent, plane buy, rent plane, rent a donkey, pirkt mašīnu, pārdod mašīnu, mainīt mašīnu, īrēt mašīnu"
         />
       </Head>
       <HeroSection

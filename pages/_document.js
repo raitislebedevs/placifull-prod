@@ -29,7 +29,7 @@ class MyDocument extends Document {
           />
           <meta
             name="keywords"
-            content="opportunities, lowest listing prices, less than 2 $, less than a dollar, less than euro, only 0.99 Euro,  real estate, transport, car, cars, jobs, vacancy, jobs abroad, real estate abroad, cheap listing site, simple listing site, nekustamie īpašumi, transports, vieglās mašīnas, mašīnas, darbs, darbs ārzemēs, lēts sludinājums"
+            content="real estate, transport, jobs, jobs abroad, mājas, dzīvokļi, nekustamie īpašumi, mašīnas, vieglās mašīnas, darbs ārzemēs"
           />
           <link rel="icon" href={logo} sizes="any" type="image/svg+xml" />
           <link

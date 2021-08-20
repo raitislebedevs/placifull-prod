@@ -94,11 +94,7 @@ const PersonalInformation = (props) => {
             values,
           }) => (
             <Form onSubmit={handleSubmit}>
-              <Row
-                className="mt-4"
-                itemScope
-                itemType="https://schema.org/Person"
-              >
+              <Row className="mt-4">
                 <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                   <Form.Group>
                     <Form.Label>
@@ -106,9 +102,14 @@ const PersonalInformation = (props) => {
                         'profile:right-content.profile.personal-details.labels.first-name'
                       )}
                     </Form.Label>
-                    <div className="profile__input" itemProp="givenName">
+                    <div
+                      className="profile__input"
+                      itemScope
+                      itemType="https://schema.org/Person"
+                    >
                       <AiOutlineUser className="input__icon" size="20px" />
                       <Form.Control
+                        itemProp="givenName"
                         name="firstName"
                         id="firstName"
                         type="text"
@@ -134,9 +135,14 @@ const PersonalInformation = (props) => {
                         'profile:right-content.profile.personal-details.labels.last-name'
                       )}
                     </Form.Label>
-                    <div className="profile__input" itemProp="familyName">
+                    <div
+                      className="profile__input"
+                      itemScope
+                      itemType="https://schema.org/Person"
+                    >
                       <FiUserCheck className="input__icon" size="20px" />
                       <Form.Control
+                        itemProp="familyName"
                         name="lastName"
                         id="lastName"
                         type="text"
@@ -160,9 +166,14 @@ const PersonalInformation = (props) => {
                         'profile:right-content.profile.personal-details.labels.email'
                       )}
                     </Form.Label>
-                    <div className="profile__input" itemProp="email">
+                    <div
+                      className="profile__input"
+                      itemScope
+                      itemType="https://schema.org/Person"
+                    >
                       <AiOutlineMail className="input__icon" size="20px" />
                       <Form.Control
+                        itemProp="email"
                         name="email"
                         id="email"
                         type="email"
@@ -180,7 +191,12 @@ const PersonalInformation = (props) => {
                         'profile:right-content.profile.personal-details.labels.phone-number'
                       )}
                     </Form.Label>
-                    <div className="profile__input" itemProp="telephone">
+                    <div
+                      className="profile__input"
+                      itemProp="telephone"
+                      itemScope
+                      itemType="https://schema.org/Person"
+                    >
                       <FiPhone className="input__icon" size="20px" />
                       <Form.Control
                         name="phone"
@@ -207,12 +223,14 @@ const PersonalInformation = (props) => {
                     </Form.Label>
                     <div
                       className="profile__input form-control-container"
-                      itemProp="description"
+                      itemScope
+                      itemType="https://schema.org/Person"
                     >
                       <FiMessageCircle className="input__icon" size="20px" />
                       <Form.Control
                         name="description"
                         rows={5}
+                        itemProp="description"
                         id="description"
                         type="text"
                         as="textarea"
