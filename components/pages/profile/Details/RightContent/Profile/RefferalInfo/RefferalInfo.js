@@ -43,6 +43,8 @@ const RefferalInfo = (props) => {
       lg={12}
       xl={12}
       className="right-content__refferal-account"
+      itemScope
+      itemType="https://schema.org/Person"
     >
       <div className="p-4 border-bottom program">
         <h5 className="mb-0 text-success">
@@ -51,7 +53,7 @@ const RefferalInfo = (props) => {
       </div>
       <Row className="referral__row">
         <Col xs={12} sm={12} md={6} lg={6} xl={6}>
-          <div className="mb-0 ">
+          <div className="mb-0 " itemProp="netWorth">
             {t('profile:reffaral.balance')}:
             <strong>{` € ${
               formatNumber(referralProgram?.amountEarned) || '0.00'

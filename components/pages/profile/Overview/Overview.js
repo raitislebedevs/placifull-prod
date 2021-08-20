@@ -297,7 +297,7 @@ const Overview = (props) => {
       />
 
       <SpinnerModal show={isPaying} onHide={() => setIsPaying(false)} />
-      <Container>
+      <Container itemscope itemtype="https://schema.org/Person">
         <Row>
           <Col xs={12} sm={12} md={12} lg={12} xl={12}>
             <div className="overview-container__card-body">
@@ -312,6 +312,7 @@ const Overview = (props) => {
                   pl-0 pr-2"
                 >
                   <img
+                    itemProp="image"
                     src={
                       user?.userInfo?.avatar?.url ||
                       'https://placifull-static.s3.eu-central-1.amazonaws.com/default-avatar.webp'
@@ -339,7 +340,7 @@ const Overview = (props) => {
                       className="right__info
                       pl-1 pr-0"
                     >
-                      <h3 className="right__name ">
+                      <h3 itemProp="name" className="right__name ">
                         {user?.userInfo?.firstName} {user?.userInfo?.lastName}
                       </h3>
                       <div className="right__button">
