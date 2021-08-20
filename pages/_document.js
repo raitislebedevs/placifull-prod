@@ -39,17 +39,13 @@ class MyDocument extends Document {
             type="image/svg+xml"
           ></link>
           {/* Href Langues will be next */}
-          <link rel="alternate" href="https://placifull.com/lv" hreflang="lv" />
-          <link rel="alternate" href="https://placifull.com/lt" hreflang="lt" />
-          <link rel="alternate" href="https://placifull.com/ru" hreflang="ru" />
-          <link rel="alternate" href="https://placifull.com/pt" hreflang="pt" />
-          <link rel="alternate" href="https://placifull.com/jp" hreflang="ja" />
-          <link rel="alternate" href="https://placifull.com/es" hreflang="es" />
-          <link rel="alternate" href="https://placifull.com/it" hreflang="it" />
-        </Head>
-        <body>
-          <Main />
-          <NextScript />
+          <link rel="alternate" href="https://placifull.com/lv" hrefLang="lv" />
+          <link rel="alternate" href="https://placifull.com/lt" hrefLang="lt" />
+          <link rel="alternate" href="https://placifull.com/ru" hrefLang="ru" />
+          <link rel="alternate" href="https://placifull.com/pt" hrefLang="pt" />
+          <link rel="alternate" href="https://placifull.com/jp" hrefLang="ja" />
+          <link rel="alternate" href="https://placifull.com/es" hrefLang="es" />
+          <link rel="alternate" href="https://placifull.com/it" hrefLang="it" />
 
           <script
             async
@@ -67,6 +63,10 @@ class MyDocument extends Document {
           `,
             }}
           />
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
         </body>
       </Html>
     );
