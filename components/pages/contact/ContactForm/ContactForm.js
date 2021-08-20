@@ -4,19 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { SectionHeading, CustomFormControl } from 'components/common';
 import { connect } from 'react-redux';
 import useEmail from 'hooks/useEmail';
+import { Formik } from 'formik';
+import * as Yup from 'yup';
 
 const ContactForm = (props) => {
   const { t, user } = props;
-  const [isLoading, setIsLoading] = useState(false);
   const [sendEmail] = useEmail(t);
-  const [inputValues, setInputValues] = useState({
-    name: user?.userInfo?.firstName
-      ? `${user?.userInfo?.firstName} ${user?.userInfo?.lastName}`
-      : '',
-    contactEmail: user?.email || '',
-    subject: '',
-    message: '',
-  });
 
   const infoCardMenu = [
     {
@@ -45,24 +38,19 @@ const ContactForm = (props) => {
     },
   ];
 
-  const handleOnChange = (event) => {
-    const value = event.target.value;
-    const id = event.target.id;
-    setInputValues({ ...inputValues, [id]: value });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsLoading(true);
+  const handleSubmit = async (values) => {
     let payload = {
       to: 'support@placifull.com',
-      from: inputValues.name,
-      replyTo: inputValues.contactEmail,
-      subject: inputValues.subject,
-      text: inputValues.message,
+      from: values.name,
+      replyTo: values.contactEmail,
+      subject: values.subject,
+      text: values.message,
     };
-    await sendEmail(payload);
-    setIsLoading(false);
+    try {
+      await sendEmail(payload);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
@@ -91,91 +79,134 @@ const ContactForm = (props) => {
         <SectionHeading className="form-wrapper__heading">
           {t('contact:contact-form.form.heading')}
         </SectionHeading>
-        <Form className="wrapper__form" onSubmit={handleSubmit}>
-          <Row>
-            <Col xs={12} sm={12} md={12} lg={4} xl={4}>
-              <Form.Group>
-                <CustomFormControl
-                  onChange={handleOnChange}
-                  id={'name'}
-                  value={inputValues.name}
-                  maxLength={'42'}
-                  type="text"
-                  autoComplete="current-text"
-                  label={t('contact:contact-form.form.name')}
-                />
-              </Form.Group>
-            </Col>
-            <Col xs={12} sm={12} md={12} lg={4} xl={4}>
-              <Form.Group>
-                <CustomFormControl
-                  onChange={handleOnChange}
-                  id={'contactEmail'}
-                  value={inputValues.contactEmail}
-                  maxLength={'75'}
-                  type="contactEmail"
-                  autoComplete="current-text"
-                  label={t('contact:contact-form.form.email')}
-                />
-              </Form.Group>
-            </Col>
-            <Col xs={12} sm={12} md={12} lg={4} xl={4}>
-              <Form.Group>
-                <CustomFormControl
-                  onChange={handleOnChange}
-                  id={'subject'}
-                  value={inputValues.subject}
-                  maxLength={'25'}
-                  type="text"
-                  label={t('contact:contact-form.form.subject')}
-                  autoComplete="current-text"
-                />
-              </Form.Group>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <Form.Group>
-                <CustomFormControl
-                  as="textarea"
-                  rows={6}
-                  id={'message'}
-                  value={inputValues.message}
-                  valueLength={3000 - inputValues.subject?.length}
-                  maxLength={'3000'}
-                  onChange={handleOnChange}
-                  type="text"
-                  style={{ height: 'auto' }}
-                  label={t('contact:contact-form.form.message')}
-                  autoComplete="current-text"
-                />
-              </Form.Group>
-            </Col>
-          </Row>
-          <Button
-            variant="primary"
-            type="submit"
-            size="lg"
-            disabled={isLoading}
-            className="form__button btn-block"
-          >
-            {isLoading ? (
-              <>
-                <FontAwesomeIcon icon="envelope" className="button__icon" />
-                <Spinner as="span" animation="border" size="sm" role="status" />
-              </>
-            ) : (
-              <>
-                {' '}
-                <FontAwesomeIcon
-                  icon="envelope"
-                  className="button__icon"
-                />{' '}
-                {t('contact:contact-form.form.submit')}
-              </>
-            )}
-          </Button>
-        </Form>
+        <Formik
+          initialValues={{
+            name: user?.userInfo?.firstName
+              ? `${user?.userInfo?.firstName} ${user?.userInfo?.lastName}`
+              : '',
+            contactEmail: user?.email || '',
+            subject: '',
+            message: '',
+          }}
+          validationSchema={Yup.object().shape({
+            name: Yup.string().max(57).required(),
+            contactEmail: Yup.string().max(50).email().required(),
+            subject: Yup.string().max(50).required(),
+            message: Yup.string().max(300).required(),
+          })}
+          onSubmit={(value) => handleSubmit(value)}
+        >
+          {({
+            errors,
+            handleBlur,
+            handleChange,
+            handleSubmit,
+            isSubmitting,
+            touched,
+            values,
+          }) => (
+            <Form className={'wrapper__form'} onSubmit={handleSubmit}>
+              <Row>
+                <Col xs={12} sm={12} md={12} lg={4} xl={4}>
+                  <Form.Group>
+                    <CustomFormControl
+                      onChange={handleChange}
+                      id={'name'}
+                      value={values.name}
+                      onBlur={handleBlur}
+                      isInvalid={Boolean(touched.name && errors.name)}
+                      maxLength={'42'}
+                      type="text"
+                      autoComplete="current-text"
+                      label={t('contact:contact-form.form.name')}
+                    />
+                  </Form.Group>
+                </Col>
+                <Col xs={12} sm={12} md={12} lg={4} xl={4}>
+                  <Form.Group>
+                    <CustomFormControl
+                      onChange={handleChange}
+                      id={'contactEmail'}
+                      value={values.contactEmail}
+                      isInvalid={Boolean(
+                        touched.contactEmail && errors.contactEmail
+                      )}
+                      onBlur={handleBlur}
+                      maxLength={'75'}
+                      type="contactEmail"
+                      autoComplete="current-text"
+                      label={t('contact:contact-form.form.email')}
+                    />
+                  </Form.Group>
+                </Col>
+                <Col xs={12} sm={12} md={12} lg={4} xl={4}>
+                  <Form.Group>
+                    <CustomFormControl
+                      onChange={handleChange}
+                      id={'subject'}
+                      value={values.subject}
+                      isInvalid={Boolean(touched.subject && errors.subject)}
+                      onBlur={handleBlur}
+                      maxLength={'25'}
+                      type="text"
+                      label={t('contact:contact-form.form.subject')}
+                      autoComplete="current-text"
+                    />
+                  </Form.Group>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Form.Group>
+                    <CustomFormControl
+                      as="textarea"
+                      rows={6}
+                      id={'message'}
+                      value={values.message}
+                      valueLength={3000 - values.message?.length}
+                      maxLength={'3000'}
+                      onChange={handleChange}
+                      onBlur={handleBlur}
+                      isInvalid={Boolean(touched.message && errors.message)}
+                      type="text"
+                      style={{ height: 'auto' }}
+                      label={t('contact:contact-form.form.message')}
+                      autoComplete="current-text"
+                    />
+                  </Form.Group>
+                </Col>
+              </Row>
+              <Button
+                variant="primary"
+                type="submit"
+                size="lg"
+                disabled={isSubmitting}
+                className="form__button btn-block"
+              >
+                {isSubmitting ? (
+                  <>
+                    <FontAwesomeIcon icon="envelope" className="button__icon" />
+                    <Spinner
+                      as="span"
+                      animation="border"
+                      size="sm"
+                      role="status"
+                    />
+                  </>
+                ) : (
+                  <>
+                    {' '}
+                    <FontAwesomeIcon
+                      icon="envelope"
+                      className="button__icon"
+                    />{' '}
+                    {t('contact:contact-form.form.submit')}
+                  </>
+                )}
+              </Button>
+            </Form>
+          )}
+        </Formik>
       </div>
     </Container>
   );

@@ -15,6 +15,7 @@ const Footer = (props) => {
     e.preventDefault();
     setIsSubscribing(true);
     if (!subscriber) {
+      setIsSubscribing(false);
       return;
     }
     try {
@@ -31,8 +32,8 @@ const Footer = (props) => {
 
       if (result?.error)
         TostifyCustomContainer(
-          'error',
-          t('common:toast.messages.error'),
+          'info',
+          t('common:toast.messages.info'),
           t('common:toast.already')
         );
     } catch {
