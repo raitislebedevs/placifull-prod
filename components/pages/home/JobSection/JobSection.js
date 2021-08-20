@@ -83,7 +83,9 @@ const JobSection = (props) => {
             <Col xs={12} sm={12} md={12} lg={4} xl={4}>
               <div className="job-section__left">
                 <span className="left-badge">{t('job-section.badge')}</span>
-                <h4 className="left-title">{t('job-section.head.line-1')} </h4>
+                <div className="left-title">
+                  {t('job-section.head.line-1')}{' '}
+                </div>
                 <p className="text-muted mx-auto mx-lg-left para-desc mb-0">
                   {t('job-section.head.line-2')}{' '}
                   <span className="text-primary font-weight-bold">
