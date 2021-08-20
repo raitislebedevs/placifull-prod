@@ -52,34 +52,33 @@ const RealEstateCard = (props) => {
         >
           {item?.listingGallery?.length > 0 ? (
             item?.listingGallery?.map((i) => (
-              <Link href={`/real-estate/${item?.id}`} key={item.id}>
-                <a
-                  className="carousel-container__item"
-                  style={{ backgroundImage: `url(${i.url}` }}
-                >
-                  <div className="item__name-address">
-                    {item?.country?.native && (
-                      <div className="name-address__address">
-                        <FaSearchLocation className="wrapper__icon" />{' '}
-                        {item?.country?.native}{' '}
-                        {item?.city?.name && `, ${item?.city?.name} `}
-                      </div>
-                    )}
-                  </div>
-                </a>
-              </Link>
-            ))
-          ) : (
-            <Link href={`/real-estate/${item?.id}`} key={item.id}>
-              <a className="carousel-container__item">
+              <a
+                className="carousel-container__item"
+                style={{ backgroundImage: `url(${i.url}` }}
+              >
                 <div className="item__name-address">
-                  <div className="name-address__address">
-                    <FaSearchLocation className="wrapper__icon" />{' '}
-                    {item?.country?.native}, {item?.city?.name}
-                  </div>
+                  {item?.country?.native && (
+                    <div className="name-address__address">
+                      <FaSearchLocation className="wrapper__icon" />{' '}
+                      {item?.country?.native}{' '}
+                      {item?.city?.name && `, ${item?.city?.name} `}
+                    </div>
+                  )}
                 </div>
               </a>
-            </Link>
+            ))
+          ) : (
+            <a className="carousel-container__item">
+              <div className="item__name-address">
+                {item?.country?.native && (
+                  <div className="name-address__address">
+                    <FaSearchLocation className="wrapper__icon" />{' '}
+                    {item?.country?.native}{' '}
+                    {item?.city?.name && `, ${item?.city?.name} `}
+                  </div>
+                )}
+              </div>
+            </a>
           )}
         </Carousel>
       </div>

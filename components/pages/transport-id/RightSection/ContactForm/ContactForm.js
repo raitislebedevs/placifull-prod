@@ -56,7 +56,7 @@ const ContactForm = (props) => {
 
     try {
       let payload = {
-        to: 'raitis.lebedevs@gmail.com', //listingItem.email,
+        to: listingItem.email,
         from: 'Placifull Team <placifull@placifull.com>',
         replyTo: inputValues.emailId,
         subject: `${inputValues.fullName}[${inputValues.phoneNumber}] is interested in ${listingItem.name}`,
