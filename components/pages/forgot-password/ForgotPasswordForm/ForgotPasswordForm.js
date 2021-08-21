@@ -101,7 +101,11 @@ const ForgotPasswordForm = (props) => {
                             'forgot-password:form.email-placeholder'
                           )}
                         />
-                        <Form.Control.Feedback type="invalid" tooltip>
+                        <Form.Control.Feedback
+                          type="invalid"
+                          tooltip
+                          id="email-tooltip"
+                        >
                           {touched.email && errors.email}
                         </Form.Control.Feedback>
                       </div>
@@ -117,7 +121,11 @@ const ForgotPasswordForm = (props) => {
                   >
                     <div className="success-text">{t(successText)}</div>
                     <div className="error-text">{t(`error:${errorText}`)}</div>
-                    <Button type="submit" className="btn-block">
+                    <Button
+                      type="submit"
+                      className="btn-block"
+                      id="password-submit"
+                    >
                       {isSubmitting ? (
                         <>
                           <Spinner
@@ -146,7 +154,10 @@ const ForgotPasswordForm = (props) => {
                         {t('forgot-password:form.account')}
                       </small>{' '}
                       <Link href="/sign-in">
-                        <a className="text-dark font-weight-bold">
+                        <a
+                          className="text-dark font-weight-bold"
+                          id="reset-signIn"
+                        >
                           {t('forgot-password:form.sign-in')}
                         </a>
                       </Link>

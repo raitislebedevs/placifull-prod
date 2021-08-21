@@ -30,7 +30,16 @@ const inputFields = (t, listingItem, listingCurrency) => [
   {
     key: 'price',
     label: t('real-estate-detail:general-info.price'),
-    value: `${listingCurrency} ${formatNumber(listingItem?.price)}`,
+    value: (
+      <>
+        {`${formatNumber(
+          (listingItem?.price / listingItem?.area).toFixed(2)
+        )} ${listingCurrency}/${
+          listingItem?.areaMeasurement === 'metter' ? 'm' : 'ft'
+        }`}
+        <sup>2</sup>{' '}
+      </>
+    ),
   },
   {
     key: 'totalUltilities',
