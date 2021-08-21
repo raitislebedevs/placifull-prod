@@ -116,7 +116,11 @@ const ResetPasswordForm = (props) => {
                             'reset-password:form.password-placeholder'
                           )}
                         />
-                        <Form.Control.Feedback type="invalid" tooltip>
+                        <Form.Control.Feedback
+                          type="invalid"
+                          tooltip
+                          id="password-tooltip"
+                        >
                           {touched.password && errors.password}
                         </Form.Control.Feedback>
                       </div>
@@ -144,7 +148,11 @@ const ResetPasswordForm = (props) => {
                             'reset-password:form.confirmPassword-placeholder'
                           )}
                         />
-                        <Form.Control.Feedback type="invalid" tooltip>
+                        <Form.Control.Feedback
+                          type="invalid"
+                          tooltip
+                          id="passwordConfirmation-tooltip"
+                        >
                           {touched.passwordConfirmation &&
                             errors.passwordConfirmation}
                         </Form.Control.Feedback>
@@ -161,7 +169,11 @@ const ResetPasswordForm = (props) => {
                   >
                     <div className="success-text">{t(successText)}</div>
                     <div className="error-text">{t(`error:${errorText}`)}</div>
-                    <Button type="submit" className="btn-block">
+                    <Button
+                      type="submit"
+                      className="btn-block"
+                      id="reset-password"
+                    >
                       {isSubmitting ? (
                         <>
                           <Spinner
@@ -190,7 +202,10 @@ const ResetPasswordForm = (props) => {
                         {t('reset-password:account')}
                       </small>{' '}
                       <Link href="/sign-in">
-                        <a className="text-dark font-weight-bold">
+                        <a
+                          className="text-dark font-weight-bold"
+                          id="reset-sign-in"
+                        >
                           {t('reset-password:form.sign-in')}
                         </a>
                       </Link>

@@ -120,7 +120,12 @@ const CV = (props) => {
 
   useEffect(() => {
     getcv(user?.curriculumVitae?.id);
-    initializeValues();
+    CvProperties(educationDetail, setEducation, setItems);
+    CvProperties(workExpierience, setExpierience, setExpItems);
+    CvProperties(languageSkills, setLanguages, setLanItems);
+    CvProperties(computerSkills, setPcSkills, setPcItems);
+    CvProperties(transportLicenses, setTransportLicense, setLicenseItems);
+    CvProperties(workExpectations, setExpectation, setWorkExpItems);
   }, []);
 
   const handleOnChange = (event) => {
@@ -129,203 +134,62 @@ const CV = (props) => {
     setInputValues({ ...inputValues, [id]: value });
   };
 
-  //Education Initiliazier.
-  const initializeValues = () => {
-    if (educationDetail?.length) {
-      setEducation(educationDetail);
+  const CvProperties = (property, setProperty, setState) => {
+    if (property?.length) {
+      setProperty(property);
       let initItems = [];
-      for (let i = 0; i < educationDetail.length; i++) {
+      for (let i = 0; i < property.length; i++) {
         initItems.push({ id: i });
       }
-      setItems(initItems);
+      setState(initItems);
+    }
+  };
+
+  const handleCvPropertyUpdate = (event, element, setState) => {
+    const value = event?.target?.value ?? event?.value ?? event;
+    const id = event?.target?.id ?? event?.id;
+    const eventId = event?.property;
+    const index = event?.index;
+
+    if (event?.remove) {
+      let elements = [...element];
+      elements[id] = {};
+      elements.splice(id, 1);
+      setState(elements);
+      setInputValues({ ...inputValues, [eventId]: elements });
+
+      return;
     }
 
-    if (workExpierience?.length) {
-      setExpierience(workExpierience);
-      let initItems = [];
-      for (let i = 0; i < workExpierience.length; i++) {
-        initItems.push({ id: i });
-      }
-      setExpItems(initItems);
-    }
-
-    if (languageSkills?.length) {
-      setLanguages(languageSkills);
-      let initItems = [];
-      for (let i = 0; i < languageSkills.length; i++) {
-        initItems.push({ id: i });
-      }
-      setLanItems(initItems);
-    }
-
-    if (computerSkills?.length) {
-      setPcSkills(computerSkills);
-      let initItems = [];
-      for (let i = 0; i < computerSkills.length; i++) {
-        initItems.push({ id: i });
-      }
-      setPcItems(initItems);
-    }
-
-    if (transportLicenses?.length) {
-      setTransportLicense(transportLicenses);
-      let initItems = [];
-      for (let i = 0; i < transportLicenses.length; i++) {
-        initItems.push({ id: i });
-      }
-      setLicenseItems(initItems);
-    }
-
-    if (workExpectations?.length) {
-      setExpectation(workExpectations);
-      let initItems = [];
-      for (let i = 0; i < workExpectations.length; i++) {
-        initItems.push({ id: i });
-      }
-      setWorkExpItems(initItems);
-    }
+    let elements = [...element];
+    let item = { ...elements[index], [id]: value };
+    elements[index] = item;
+    setState(elements);
+    setInputValues({ ...inputValues, [eventId]: elements });
   };
 
   const handleOnEducationHistory = (event) => {
-    const value = event?.target?.value ?? event?.value ?? event;
-    const id = event?.target?.id ?? event?.id;
-    const eventId = event?.property;
-    const index = event?.index;
-
-    if (event?.remove) {
-      let educations = [...education];
-      educations[id] = {};
-      educations.splice(id, 1);
-      setEducation(educations);
-      setInputValues({ ...inputValues, [eventId]: educations });
-
-      return;
-    }
-
-    let educations = [...education];
-    let item = { ...educations[index], [id]: value };
-    educations[index] = item;
-    setEducation(educations);
-    setInputValues({ ...inputValues, [eventId]: educations });
+    handleCvPropertyUpdate(event, education, setEducation);
   };
 
   const handleOnWorkExpierience = (event) => {
-    const value = event?.target?.value ?? event?.value ?? event;
-    const id = event?.target?.id ?? event?.id;
-    const eventId = event?.property;
-    const index = event?.index;
-
-    if (event?.remove) {
-      let workExpirience = [...expierience];
-      workExpirience[id] = {};
-      workExpirience.splice(id, 1);
-      setExpierience(workExpirience);
-      setInputValues({ ...inputValues, [eventId]: workExpirience });
-      return;
-    }
-
-    let workExpirience = [...expierience];
-    let item = { ...workExpirience[index], [id]: value };
-    workExpirience[index] = item;
-
-    setExpierience(workExpirience);
-    setInputValues({ ...inputValues, [eventId]: workExpirience });
+    handleCvPropertyUpdate(event, expierience, setExpierience);
   };
 
   const handleOnLanguageSkills = (event) => {
-    const value = event?.target?.value ?? event?.value ?? event;
-    const id = event?.target?.id ?? event?.id;
-    const eventId = event?.property;
-    const index = event?.index;
-
-    if (event?.remove) {
-      let languageSkills = [...languages];
-      languageSkills[id] = {};
-      languageSkills.splice(id, 1);
-      setLanguages(languageSkills);
-      setInputValues({ ...inputValues, [eventId]: languageSkills });
-      return;
-    }
-
-    let languageSkills = [...languages];
-    let item = { ...languageSkills[index], [id]: value };
-    languageSkills[index] = item;
-
-    setLanguages(languageSkills);
-    setInputValues({ ...inputValues, [eventId]: languageSkills });
+    handleCvPropertyUpdate(event, languages, setLanguages);
   };
 
   const handleOnComputerSkills = (event) => {
-    const value = event?.target?.value ?? event?.value ?? event;
-    const id = event?.target?.id ?? event?.id;
-    const eventId = event?.property;
-    const index = event?.index;
-
-    if (event?.remove) {
-      let computerSkills = [...pcSkills];
-      computerSkills[id] = {};
-      computerSkills.splice(id, 1);
-      setPcSkills(computerSkills);
-      setInputValues({ ...inputValues, [eventId]: computerSkills });
-      return;
-    }
-
-    let computerSkills = [...pcSkills];
-    let item = { ...computerSkills[index], [id]: value };
-    computerSkills[index] = item;
-
-    setPcSkills(computerSkills);
-    setInputValues({ ...inputValues, [eventId]: computerSkills });
+    handleCvPropertyUpdate(event, pcSkills, setPcSkills);
   };
 
   const handleOnTransportLicenses = (event) => {
-    const value = event?.target?.value ?? event?.value ?? event;
-    const id = event?.target?.id ?? event?.id;
-    const eventId = event?.property;
-    const index = event?.index;
-
-    if (event?.remove) {
-      let licences = [...transportLicense];
-      licences[id] = {};
-      licences.splice(id, 1);
-
-      setTransportLicense(licences);
-
-      setInputValues({ ...inputValues, [eventId]: licences });
-      return;
-    }
-
-    let licences = [...transportLicense];
-    let item = { ...licences[index], [id]: value };
-    licences[index] = item;
-
-    setTransportLicense(licences);
-    setInputValues({ ...inputValues, [eventId]: licences });
+    handleCvPropertyUpdate(event, transportLicense, setTransportLicense);
   };
 
   const handleOnWorkExpectations = (event) => {
-    const value = event?.target?.value ?? event?.value ?? event;
-    const id = event?.target?.id ?? event?.id;
-    const eventId = event?.property;
-    const index = event?.index;
-
-    if (event?.remove) {
-      let expectations = [...expectation];
-      expectations[id] = {};
-      expectations.splice(id, 1);
-
-      setExpectation(expectations);
-
-      setInputValues({ ...inputValues, [eventId]: expectations });
-      return;
-    }
-
-    let expectations = [...expectation];
-    let item = { ...expectations[index], [id]: value };
-    expectations[index] = item;
-
-    setExpectation(expectations);
-    setInputValues({ ...inputValues, [eventId]: expectations });
+    handleCvPropertyUpdate(event, expectation, setExpectation);
   };
 
   const onQualificationChange = (event) => {
