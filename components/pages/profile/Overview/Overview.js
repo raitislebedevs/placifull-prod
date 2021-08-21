@@ -297,7 +297,7 @@ const Overview = (props) => {
       />
 
       <SpinnerModal show={isPaying} onHide={() => setIsPaying(false)} />
-      <Container itemscope itemtype="https://schema.org/Person">
+      <Container itemScope itemType="https://schema.org/Person">
         <Row>
           <Col xs={12} sm={12} md={12} lg={12} xl={12}>
             <div className="overview-container__card-body">

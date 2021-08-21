@@ -21,6 +21,7 @@ const fields = (t) => [
   },
   {
     key: 'qualification',
+    type: 'select',
     maxLength: '15',
     label: t(
       'profile:right-content.cv.sections.education.accordion.qualification.title'

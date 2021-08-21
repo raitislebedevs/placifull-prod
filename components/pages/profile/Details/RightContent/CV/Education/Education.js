@@ -157,7 +157,7 @@ const Education = (props) => {
             }
             if (item.type === 'selectMulti') {
               return (
-                <Col lg={6} md={6} sm={12} key={item.key + edu.id}>
+                <Col lg={12} md={12} sm={12} key={item.key + edu.id}>
                   <Form.Group>
                     <SelectInputSubmit
                       id={item.key + edu.id}
@@ -277,7 +277,7 @@ const Education = (props) => {
               return (
                 <Col
                   lg={5}
-                  md={4}
+                  md={5}
                   sm={5}
                   key={item.key + edu.id}
                   className={'decorator__container'}
