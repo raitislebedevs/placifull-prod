@@ -13,7 +13,7 @@
     "featured": "تمّ ترويجها",
     "notFeatured": "لم يتمّ ترويجها",
     "rentTime": "شهريا",
-    "inputTimeDays": "أيّامٌ مضت"
+    "inputTimeDays": "قبل عدة أيام"
   },
 
   "general-info": {
@@ -34,7 +34,6 @@
   "contact-form": {
     "heading": "الاتّصال بالمالك مباشرة",
     "not-specified": "غير محدّدة",
-
     "form": {
       "heading": "أكتب سؤالك هنا",
       "fullName": "الاسم بالكامل*",

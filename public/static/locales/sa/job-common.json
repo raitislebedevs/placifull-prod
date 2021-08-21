@@ -14,7 +14,7 @@
     "label": "وقت العمل",
     "options": {
       "officeHours": "ساعات العمل",
-      "shifts": "الفِرَق",
+      "shifts": "المناوبات",
       "flexible": "قابِلة للتّعديل (المرونة)",
       "other": "غير ذلك"
     }
@@ -67,7 +67,7 @@
       "jurisprudenceJustice": "الفقه القانوني/ العدالة",
       "cultureArtEntertainemnt": "ثقافة/ فن/ ترفيه",
       "sports": "الألعاب الرّياضية",
-      "qualityControl": "الألعاب الرّياضية",
+      "qualityControl": "مراقبة الجودة / إدارة الجودة",
       "agricutureEnvironmental": "الزراعة/ علوم البيئة",
       "medicineSocialCare": "الطب/ الرعاية الاجتماعية",
       "mediaPublicRelations": "وسائط الإعلام/العلاقات العامة",

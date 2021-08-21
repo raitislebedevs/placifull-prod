@@ -25,7 +25,7 @@
   },
 
   "knowladge-gained": {
-    "selfTaught": "عصامي",
+    "selfTaught": "مثقِّف نفسَه بنفسه",
     "course": "دورة تدريبية",
     "freelance": "مُستقلّ (عمل حرّ)",
     "contractProject": "مشروع عقد",
@@ -49,7 +49,7 @@
     "junior": "مُبتدئ",
     "intermediate": "مُتوسّط",
     "senior": "طالب تخرّج",
-    "executive": "إطار",
+    "executive": "موظف إداري",
     "ceo": "مدير تنفيذي",
     "other": "غير ذلك"
   },

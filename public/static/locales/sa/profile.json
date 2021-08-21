@@ -1,6 +1,5 @@
 {
   "title": "حساب تعريفي",
-
   "overview": {
     "button-label": {
       "change": "تغيير الصّورة",
@@ -261,7 +260,7 @@
             "knowladge-gained": {
               "label": "المَعارِف المُكتَسَبة",
               "options": {
-                "selfTaught": "عِصامي",
+                "selfTaught": "مثقِّف نفسَه بنفسه",
                 "course": "دورة تدريبية",
                 "freelance": "مُستقلّ (عمل حرّ)",
                 "contractProject": "مشروع عقد",

@@ -1,8 +1,8 @@
 {
   "elements": {
-    "loading": "...جارٍ التّحميل",
+    "loading": ".جارٍ التّحميل…",
     "loading-right": "...جارٍ التّحميل",
-    "loading-left": " جارٍ التّحميل...",
+    "loading-left": " ….جارٍ التّحميل",
     "no-results": "لم يتمّ العُثور على نتائج"
   },
   "user": {
@@ -19,7 +19,7 @@
   "listing-input-date": {
     "today": "اليوم",
     "yesterday": "أمس",
-    "days-ago": "أيّام مضت"
+    "days-ago": "قبل عدة أيام"
   },
 
   "social-links": {
@@ -41,7 +41,7 @@
   },
 
   "week-days": {
-    "monday": "الاثنين",
+    "monday": "الإثنين",
     "tuesday": "الثلاثاء",
     "wednesday": "الأربعاء",
     "thursday": "الخميس",
@@ -101,7 +101,7 @@
   "items-per-page": {
     "label": "العناصر",
     "options": {
-      "nine": " 9عناصر",
+      "nine": "  9عناصر",
       "eighteen": "18عنصر",
       "twenty-seven": "27عنصر",
       "thirty-six": "36عنصر",
