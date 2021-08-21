@@ -78,6 +78,7 @@ const fields = (t) => ({
       label: t('real-estate:hero.form.accordion-right.measurement-label'),
       key: 'areaMeasurement',
       type: 'select',
+      tick: true,
       options: [
         {
           value: '',

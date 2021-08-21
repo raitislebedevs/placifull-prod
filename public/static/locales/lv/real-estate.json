@@ -29,7 +29,7 @@
         },
         "measurement-label": "Mērvienības",
         "system": {
-          "none": "bez",
+          "none": "Nevienas",
           "metric": "Metriskās m",
           "imperial": "Imperālās ft"
         }

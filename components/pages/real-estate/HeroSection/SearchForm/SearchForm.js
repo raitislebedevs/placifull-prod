@@ -54,7 +54,6 @@ const SearchForm = (props) => {
 
   const [inputValues, setInputValues] = useState({ tags: [] });
   const [activeItem, setActiveItem] = useState([]);
-  const [currentCenter, setCurrentCenter] = useState(null);
   const [submitCurrency, setsubmitCurrency] = useState();
   const [tagOptions, setTagOptions] = useState([]);
   const [realEstateTags, setRealEstateTags] = useState([]);
@@ -102,22 +101,16 @@ const SearchForm = (props) => {
   };
 
   const handleOnChange = (event) => {
-    console.log(event);
     const value = event?.target?.value ?? event;
     const id = event?.target?.id ?? event?.id;
     setInputValues({ ...inputValues, [id]: value });
-    if (id === 'city') {
-      setCurrentCenter({
-        latitude: event?.target?.latitude,
-        longitude: event?.target?.longitude,
-      });
-    }
   };
 
   const handleCheckBoxChange = (event) => {
     const value = event?.target?.checked;
     const id = event?.target?.id ?? event?.id;
     setInputValues({ ...inputValues, [id]: value });
+    console.log(inputValues);
   };
 
   const tagFields = useMemo(() => {
@@ -665,18 +658,36 @@ const SearchForm = (props) => {
                     }
                     if (group?.type === 'select') {
                       return (
-                        <div className="accordion__right" key={guidGenerator()}>
-                          <div className="right__header">{group.label}:</div>
-                          <Form.Group>
-                            <SelectInputSearchForm
-                              id={group.key}
-                              onChange={handleOnChange}
-                              value={inputValues[group.key]}
-                              options={group.options}
-                              placeholder={group.label}
-                            />
-                          </Form.Group>
-                        </div>
+                        <>
+                          <div
+                            className="accordion__right"
+                            key={guidGenerator()}
+                          >
+                            <div className="right__header">
+                              {group.label}{' '}
+                              {group?.tick && (
+                                <>
+                                  <input
+                                    type="checkbox"
+                                    checked={inputValues.messarmentUnits}
+                                    onChange={handleCheckBoxChange}
+                                    id={'messarmentUnits'}
+                                  />
+                                </>
+                              )}
+                              :
+                            </div>
+                            <Form.Group>
+                              <SelectInputSearchForm
+                                id={group.key}
+                                onChange={handleOnChange}
+                                value={inputValues[group.key]}
+                                options={group.options}
+                                placeholder={group.label}
+                              />
+                            </Form.Group>
+                          </div>
+                        </>
                       );
                     }
                   })}
