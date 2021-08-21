@@ -141,6 +141,7 @@ const CountryInput = (props) => {
         }));
         TostifyCustomContainer(
           'info',
+          t('common:toast.messages.info'),
           t('common:location.states-not-registerd')
         );
         return setLoaders((prev) => prev.filter((item) => item !== state));

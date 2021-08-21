@@ -57,6 +57,7 @@ const customStyles = {
   input: (provided) => ({
     ...provided,
     userSelect: 'none',
+    color: 'lightgray',
   }),
   option: (provided, state) => ({
     ...provided,
