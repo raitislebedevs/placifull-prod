@@ -1,0 +1,56 @@
+{
+  "job-card": {
+    "location": "स्थान",
+    "salary": "वेतन",
+    "button": "विस्तार से देखें",
+    "contract-type": {
+      "label": "अनुबंध का प्रकार",
+      "options": {
+        "temporarly": "अस्थायी रूप से",
+        "fullTime": "पूरा समय",
+        "partTime": "पार्ट टाईम",
+        "remoteFullTime": "रिमोट (पूर्णकालिक)",
+        "remotePartTime": "रिमोट (अंशकालिक)",
+        "other": "अन्य"
+      }
+    },
+    "working-schedule": {
+      "label": "काम का शेड्यूल",
+      "options": {
+        "officeHours": "कार्यालय अवधि",
+        "shifts": "परिवर्तन",
+        "flexible": "लचीला",
+        "other": "अन्य"
+      }
+    }
+  },
+
+  "transport-card": {
+    "gear-box": {
+      "label": "गियर बॉक्स",
+      "options": {
+        "manual": "हाथ से किया हुआ",
+        "automatic": "स्वचालित",
+        "other": "अन्य"
+      }
+    }
+  },
+
+  "real-estate-card": {
+    "location": "स्थान",
+    "working-schedule": "काम का शेड्यूल",
+    "salary": "वेतन",
+    "contract-type": "अनुबंध का प्रकार",
+    "button": "विस्तार से देखें"
+  },
+
+  "action": {
+    "label": "कार्य",
+    "options": {
+      "sell": "बेचना",
+      "rent": "किराया",
+      "exchange": "अदला बदली",
+      "forParts": "भागों के लिए"
+    }
+  }
+}

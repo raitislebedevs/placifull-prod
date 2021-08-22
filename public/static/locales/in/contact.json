@@ -1,7 +1,7 @@
 {
   "header": {
-    "heading": "हेल्प और सपोर्ट",
-    "title": "संपर्क करें",
+    "heading": "सहायता",
+    "title": "हमसे  संपर्क करें",
     "info": {
       "text": "व्हाट्सएप नंबर",
       "phone": "+371 9999999999"
@@ -24,7 +24,7 @@
           "description": "hello@example.com"
         },
         "item-4": {
-          "label": "कस्टमर केयर",
+          "label": "ग्राहक सहायता",
           "description": "support@example.com"
         }
       }

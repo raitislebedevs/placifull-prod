@@ -1,0 +1,89 @@
+{
+  "currency": "€ ",
+  "payment-modal": {
+    "header": "योजना खरीद विवरण",
+    "sub-header": "कृपया नीचे दिए गए विवरण में से अपनी योजना चुनें",
+    "total-cost": "लागत:",
+    "expiry-date": "समाप्ति तिथि:",
+    "expiry-label": "समाप्ति तिथि",
+    "quantity": "मात्रा:",
+    "quantity-label": "मात्रा",
+    "listed": "सूचीबद्ध:",
+    "purchase": "खरीदा गया:",
+    "extend-expiry": "एक्सपायरी बढ़ाएं",
+    "promote": "बढ़ावा देना",
+    "subscription-valid": "विकल्प वैध है",
+    "days": "दिन",
+    "browser-cv": "सीवी खोज",
+    "purchase-text": {
+      "user-held": "उपयोगकर्ता द्वारा स्वामित्व",
+      "purchase": "खरीदना"
+    },
+    "form": {
+      "added-days": {
+        "label": "लिस्टिंग को इसके द्वारा बढ़ाएँ",
+        "suffix": "दिन"
+      },
+      "card-details": {
+        "label": "कार्ड की जानकारी प्रदान करें",
+        "card-holder": "कार्ड धारक",
+        "card-number": "कार्ड संख्या",
+        "card-date": "समाप्ति तिथि",
+        "card-csv": "सीएसवी"
+      },
+      "buttons": {
+        "decline": "पतन",
+        "proceed": "आगे बढ़ना"
+      },
+
+      "purchase-items": {
+        "intro": "पहचान",
+        "single": "एकल",
+        "quarterly": "त्रैमासिक",
+        "life": "सालाना"
+      },
+      "user-stock": {
+        "single": "एकल",
+        "quartery": "त्रैमासिक",
+        "life": "सालाना"
+      }
+    }
+  },
+
+  "receipt-modal": {
+    "header": "सारांश विवरण",
+    "sub-header": "आगे बढ़ने से पहले कृपया अपने खरीद विवरण की समीक्षा करें।",
+    "card-details": {
+      "card-holder": "कार्डधारक का नाम",
+      "card-number": "कार्ड के विवरण",
+      "card-date": "समाप्ति तिथि"
+    },
+
+    "receipt-table": {
+      "plan": "योजना",
+      "quantity": "मात्रा",
+      "promote": "प्रचारित",
+      "extend-expiry": "विस्तारित अनुभव",
+      "total": "संपूर्ण",
+      "total-amount": "कुल राशि:",
+      "price": "कीमत",
+      "expiry-date": "समाप्ति तिथि",
+      "no-expiry": "कोई नहीं",
+      "plans": {
+        "standalone": "एकल",
+        "subscriptionQuarterly": "तिमाही",
+        "subscriptionYearly": "वर्ष",
+        "activeSubscription": "खोज सीवी"
+      }
+    },
+    "thank-you-message": "प्लेसीफुल कंपनी का समर्थन करने के लिए धन्यवाद। हमें विश्वास है कि आप अपनी पसंद से संतुष्ट होंगे।",
+    "buttons": {
+      "cancel": "रद्द करना",
+      "proceed": "भुगतान करें और आगे बढ़ें"
+    }
+  },
+  "error": {
+    "transaction": "लेन देन असफल",
+    "subscriptions": "सदस्यता असफल"
+  }
+}

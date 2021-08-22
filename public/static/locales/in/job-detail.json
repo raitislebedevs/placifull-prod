@@ -1,0 +1,63 @@
+{
+  "header": {
+    "salary-month": "/महीना",
+    "buttons": {
+      "apply": "अभी अप्लाई करें",
+      "share": "नौकरी साझा करें"
+    }
+  },
+  "contact-form": {
+    "heading": "सीधे कंपनी से संपर्क करें",
+    "form": {
+      "heading": "अपना प्रश्न यहां से लिखें",
+      "fullName": "पूरा नाम*",
+      "phoneNumber": "फ़ोन नंबर*",
+      "email": "ईमेल पता*",
+      "message": "आपका संदेश",
+      "submit": "मेसेज भेजें"
+    }
+  },
+  "about": {
+    "description": "विवरण",
+    "requirements": "आवश्यकताएं",
+    "benefits": "लाभ"
+  },
+  "job-overview": {
+    "heading": "नौकरी का अवलोकन",
+    "items": {
+      "offered-salary": "ऑफ़र किया गया वेतन",
+      "languages": "भाषा",
+      "native": "मूल निवासी",
+      "industry": "उद्योग"
+    },
+    "views": "विचारों",
+    "applicants": "आवेदक",
+    "salary": {
+      "monthly": "महीने के",
+      "annual": "वार्षिक",
+      "hourly": "प्रति घंटा"
+    }
+  },
+
+  "application": {
+    "header": "के लिए आवेदन देना",
+    "body": {
+      "proposal": "प्रस्तावित वेतन"
+    },
+    "info": "आपका सीवी रोजगार को भेज दिया जाएगा*"
+  },
+
+  "extra": {
+    "heading": "इस प्रोफ़ाइल द्वारा सूचीबद्ध नौकरियां",
+    "table": {
+      "number": "नं.",
+      "country": "देश",
+      "full-address": "कार्यालय का पता",
+      "position": "पद",
+      "contract": "अनुबंध का प्रकार",
+      "time": "काम का समय",
+      "salary": "वेतन से",
+      "end-date": "समाप्ति तिथि"
+    }
+  }
+}

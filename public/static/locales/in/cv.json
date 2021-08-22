@@ -1,0 +1,60 @@
+{
+  "labels": {
+    "about-me": "मेरे बारे में",
+    "languages": "भाषाएं",
+    "computer-skills": "कंप्यूटर कौशल",
+    "education": "शिक्षा",
+    "expierience": "काम का अनुभव",
+    "licenses": "परिवहन लाइसेंस",
+    "expectations": "काम की उम्मीदें",
+    "certification": "प्रमाणीकरण"
+  },
+  "gender": {
+    "label": "लिंग",
+    "male": "पुरुष",
+    "women": "महिला"
+  },
+  "expierience": {
+    "label": "अनुभव",
+    "uptoOne": "< 1 वर्ष",
+    "oneToThree": "1-3 वर्ष",
+    "threeToFive": "3-5 वर्ष",
+    "fiveToTen": "5-10 वर्ष",
+    "tenToFifteen": "10-15 वर्ष",
+    "moreThanFifteen": "15+ वर्ष"
+  },
+
+  "knowladge-gained": {
+    "selfTaught": "स्वयं से सीखा हुआ",
+    "course": "अवधि",
+    "freelance": "स्वच्छंद कार्यकर्ता",
+    "contractProject": "अनुबंध परियोजना",
+    "fullTimeJob": "पूर्णकालिक रोजगार",
+    "other": "अन्य"
+  },
+  "qualification": {
+    "primary": "मुख्य",
+    "secondary": "माध्यमिक",
+    "vocational": "व्यवसायिक",
+    "bachelors": "स्नातक",
+    "master": "स्नातकोत्तर उपाधि",
+    "doctorate": "डॉक्टरेट की उपाधि",
+    "other": "अन्य"
+  },
+
+  "seniority": {
+    "title": "ज्येष्ठता",
+    "volunteer": "स्वयंसेवक",
+    "intern": "प्रशिक्षु",
+    "junior": "कनिष्ठ",
+    "intermediate": "मध्यम",
+    "senior": "वरिष्ठ",
+    "executive": "कार्यकारी",
+    "ceo": "सीईओ",
+    "other": "अन्य"
+  },
+
+  "avarage-grade": "औसत ग्रेड",
+  "present": "वर्तमान",
+  "license-category": "लाइसेंस श्रेणी"
+}

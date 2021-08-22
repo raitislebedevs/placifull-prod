@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "श्रेणी",
+    "options": {
+      "houses": "मकान",
+      "apartments": "फ्लैट",
+      "land": "भूमि",
+      "farmhouse": "फार्महाउस",
+      "commercial": "कमर्शिअल",
+      "exclusive": "अनन्य",
+      "offices": "कार्यालय",
+      "agents": "अचल संपत्ति एजेंसी"
+    }
+  },
+  "action": {
+    "label": "कार्य",
+    "options": {
+      "sell": "बेचना",
+      "rent": "किराया",
+      "exchange": "अदला बदली"
+    }
+  },
+  "condition": {
+    "label": "हालत",
+    "label-land": "संपत्ति के प्रकार",
+    "options": {
+      "brandNew": "एकदम नया",
+      "goodCondition": "अच्छी हालत",
+      "medium": "मध्यम",
+      "requiresFixing": "फिक्सिंग की आवश्यकता है",
+      "requiresConstruction": "निर्माण की आवश्यकता है",
+      "residential": "आवासीय",
+      "comercial": "व्यावसायिक",
+      "industrial": "औद्योगिक",
+      "agricultural": "कृषि"
+    }
+  },
+  "contact-times": {
+    "label": "संपर्क समय",
+    "options": {
+      "anyTime": "किसी भी समय",
+      "workingDays": "काम कर दिन",
+      "officeHours": "कार्यालय अवधि",
+      "specificTimes": "विशिष्ट समय"
+    }
+  },
+  "features": {
+    "heading": "विशेषताएं",
+    "category": {
+      "kitchen": "रसोईघर",
+      "bathroom": "स्नानघर",
+      "living-room": "बैठक कक्ष",
+      "bedroom": "शयनकक्ष",
+      "housing-extras": "अन्य अतिरिक्त",
+      "land-type": "भूमि प्रकार",
+      "buildingLand": "भवन भूमि के लिए",
+      "forest-properties": "वन गुण",
+      "agriculture-properties": "कृषि गुण"
+    }
+  },
+  "utilities": {
+    "heading": "उपयोगिताओं",
+    "total": "संपूर्ण",
+    "items": {
+      "coldWater": "ठंडा पानी",
+      "hotWater": "गर्म पानी",
+      "electricity": "बिजली",
+      "garbage": "कचरा",
+      "propertyManagement": "संपत्ति प्रबंधन",
+      "heating": "गरम करना",
+      "parking": "पार्किंग",
+      "others": "अन्य"
+    }
+  }
+}

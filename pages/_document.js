@@ -47,6 +47,7 @@ class MyDocument extends Document {
           <link rel="alternate" href="https://placifull.com/es" hrefLang="es" />
           <link rel="alternate" href="https://placifull.com/it" hrefLang="it" />
           <link rel="alternate" href="https://placifull.com/sa" hrefLang="ar" />
+          <link rel="alternate" href="https://placifull.com/in" hrefLang="hi" />
 
           <meta name="theme-color" content="#fff" />
           <script

@@ -1,0 +1,59 @@
+{
+  "header": {
+    "flag-button": "इस सामग्री को फ़्लैग करें"
+  },
+  "detail-info": {
+    "button": "मैं अभी अंदर जाना चाहता हूं"
+  },
+  "contact-times": {
+    "heading": "पसंदीदा संपर्क समय"
+  },
+  "about": {
+    "heading": "के बारे में",
+    "featured": "प्रचारित",
+    "notFeatured": "प्रचारित नहीं",
+    "rentTime": "प्रति माह",
+    "inputTimeDays": "दिन पहले"
+  },
+
+  "general-info": {
+    "heading": "सामान्य जानकारी",
+    "property-area": "संपत्ति क्षेत्र",
+    "rooms": "कमरा",
+    "year-built": "निर्माण वर्ष",
+    "price": "कीमत",
+    "total-ultilities": "कुल उपयोगिताएँ",
+    "move-in": "तिथि पर आएँ",
+    "move-out": "बाहर जाने की तारीख",
+    "min-time": "न्यूनतम समय",
+    "bid-price": "संपत्ति के लिए बोली मूल्य",
+    "submit": "बोली",
+    "bid-placeholder": "२०% मार्जिन में बोली लगाएं"
+  },
+
+  "contact-form": {
+    "heading": "मालिक से सीधे संपर्क करें",
+    "not-specified": "निर्दिष्ट नहीं है",
+    "form": {
+      "heading": "अपना प्रश्न यहां से लिखें",
+      "fullName": "पूरा नाम*",
+      "phoneNumber": "फ़ोन नंबर*",
+      "email": "ईमेल पता*",
+      "message": "आपका संदेश*",
+      "submit": "मेसेज भेजें"
+    }
+  },
+  "extra": {
+    "heading": "इस प्रोफ़ाइल में सूचीबद्ध अन्य ऑब्जेक्ट",
+    "table": {
+      "number": "नं.",
+      "country": "देश",
+      "full-address": "पूरा पता",
+      "property-type": "संपत्ति के प्रकार",
+      "price": "कीमत",
+      "area": "क्षेत्र",
+      "bed-rooms": "कमरा",
+      "year-built": "निर्माण वर्ष"
+    }
+  }
+}

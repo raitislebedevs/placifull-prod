@@ -1,0 +1,401 @@
+{
+  "title": "प्रोफ़ाइल",
+  "overview": {
+    "button-label": {
+      "change": "चित्र बदलें",
+      "delete": "चित्र हटाएं",
+      "save-all": "सब कुछ सेव करे",
+      "preview": "पूर्वावलोकन"
+    },
+    "setting-label": "खरीदा हुआ",
+    "delete-avatar-modal": {
+      "header": "अवतार हटाएं",
+      "body": "क्या आप अपना अवतार हटाना चाहते हैं?",
+      "submit": "हटाएं",
+      "cancel": "रद्द करना"
+    }
+  },
+  "hover-texts": {
+    "real-estate": "रियल एस्टेट पोस्ट",
+    "transport": "परिवहन पोस्ट",
+    "job": "नौकरी पोस्ट",
+    "browser": "ब्राउज़र सीवी"
+  },
+  "left-tab": {
+    "navigation": "मार्गदर्शन",
+    "titles": {
+      "profile": "प्रोफ़ाइल",
+      "cv": "सीवी",
+      "real-estate": "रियल एस्टेट",
+      "transport": "परिवहन",
+      "jobs": "नौकरियां",
+      "browser": "ब्राउज़र सीवी",
+      "payment": "भुगतान रसीदें",
+      "logout": "लॉग आउट"
+    }
+  },
+  "right-content": {
+    "prev-button": "पिछला चरण",
+    "next-button": "अगला कदम",
+    "profile": {
+      "personal-details": {
+        "heading": "व्यक्तिगत जानकारी:",
+        "labels": {
+          "profession": "पहचान का पेशा",
+          "first-name": "नाम",
+          "last-name": "उपनाम",
+          "email": "आपका ईमेल",
+          "phone-number": "दूरभाष क्रमांक।",
+          "about-me-heading": "मेरे बारे में",
+          "about-me": "आपके बारे में क्या अलग है?",
+          "country": "देश",
+          "state": "राज्य/क्षेत्र",
+          "city": "शहर",
+          "birth-date": "जन्म दिन",
+          "gender": {
+            "label": "लिंग",
+            "men": "पुरुष",
+            "women": "महिला",
+            "not-specified": "न दिखाएं"
+          },
+          "age": {
+            "label": "उम्र दिखाएँ",
+            "yes": "हाँ",
+            "no": "नहीं",
+            "only-birth-date": "केवल जन्मतिथि"
+          }
+        },
+        "button-save": "परिवर्तनों को  सेव करे"
+      },
+      "password-form": {
+        "text": "पासवर्ड बदलें:",
+        "old-password": "पुराना पासवर्ड",
+        "new-password": "नया पासवर्ड",
+        "confirm-password": "पासवर्ड की पुष्टि कीजिये",
+        "button-save": "सेव पासवर्ड",
+        "validation": {
+          "current-password-required": "कृपया पासवर्ड की पुष्टि करें",
+          "new-password-required": "नया पासवर्ड गुम है",
+          "password-not-match": "पासवर्ड मेल नहीं खाते",
+          "confirm-password-required": "कृपया पासवर्ड की पुष्टि करें"
+        }
+      },
+      "delete-form": {
+        "text": "खाता हटा दो",
+        "content": "क्या आप खाता हटाना चाहते हैं? कृपया नीचे 'हटाएं' बटन दबाएं",
+        "button-delete": "खाता हटा दो"
+      },
+      "validation": {
+        "first-name": "पहला नाम आवश्यक है",
+        "last-name": "सरनेम आवश्यक है"
+      }
+    },
+    "tabs": {
+      "actions": {
+        "sell": "बेचने के लिए",
+        "rent": "किराए के लिए",
+        "exchange": "अदला बदली"
+      },
+      "common": {
+        "button-edit": "संपादित करें",
+        "button-reviews": "समीक्षा",
+        "button-delete": "हटाएं",
+        "days-left": "दिन शेष",
+        "title": "मेरी लिस्टिंग",
+        "highest": "उच्चतम बोली",
+        "lowest": "न्यूनतम बोली"
+      },
+      "job": {
+        "count": "आवेदक गणना",
+        "avarage": "अवेरेज ऑफर",
+        "lowest": "सबसे कम ऑफ़र",
+        "highest": "उच्चतम ऑफ़र",
+        "button": "सब देखे"
+      },
+      "browser": {
+        "common": {
+          "area": "कार्य क्षेत्र"
+        },
+        "title": "ब्राउज सीवी",
+        "search": {
+          "button": "खोज",
+          "expirience": {
+            "label": "अनुभव",
+            "options": {}
+          },
+          "hourly-to": "प्रति घंटा से",
+          "monthly-to": "मासिक प्रति",
+          "annual-to": "वार्षिक प्रति"
+        },
+        "table": {
+          "name": "नाम",
+          "email": "ईमेल",
+          "phone": "फ़ोन नंबर",
+          "salary": "अपेक्षित वेतन"
+        }
+      },
+      "receipt": {
+        "title": "भुगतान रसीदें",
+        "search": {
+          "search-from": "प्रारंभ दिनांक चुनें",
+          "search-to": "समाप्ति तिथि चुनें",
+          "button": "खोज"
+        },
+        "table": {
+          "order": "आदेश नं.",
+          "date": "दिनांक",
+          "premium": "प्रचारित",
+          "add-days": "अतिरिक्त दिन",
+          "type": "लिस्टिंग प्रकार"
+        }
+      }
+    },
+    "cv": {
+      "title": "पाठ्यचर्या विटास",
+      "sections": {
+        "personal-details": {
+          "form": {
+            "title": "व्यक्तिगत विवरण",
+            "first-name": "पहला नाम",
+            "last-name": "सरनेम",
+            "email": "ईमेल",
+            "phone": "फ़ोन",
+            "birthday": "जन्मदिन",
+            "age": {
+              "label": "उम्र दिखाएँ",
+              "options": {
+                "yes": "हाँ",
+                "no": "नहीं",
+                "only-birthdate": "केवल जन्मतिथि"
+              }
+            },
+            "gender": {
+              "label": "लिंग",
+              "options": {
+                "male": "पुरुष",
+                "female": "महिला",
+                "dont–show": "न दिखाएं"
+              }
+            },
+            "about-me": "आपके बारे में क्या अलग है?",
+            "cv-published": "प्रकाशित",
+            "cv-hidden": "छिपा हुआ"
+          }
+        },
+        "education": {
+          "title": "शिक्षा",
+          "accordion": {
+            "school": "स्कूल के नाम",
+            "country": "देश",
+            "from-date": "की तिथि से",
+            "to-date": "तारीख तक",
+            "study-area": "अध्ययन क्षेत्र",
+            "qualification": {
+              "title": "योग्यता",
+              "options": {
+                "primary": "मुख्य",
+                "secondary": "माध्यमिक",
+                "vocational": "व्यवसायिक",
+                "bachelors": "स्नातक",
+                "master": "गुरुजी",
+                "doctorate": "डॉक्टर की उपाधि",
+                "other": "अन्य"
+              }
+            },
+            "best-fit": "पेशा फिट",
+            "grade": "औसत क्षेणी",
+            "button-add": "शिक्षा जोड़ें"
+          }
+        },
+        "expierience": {
+          "title": "काम का अनुभव",
+
+          "company-name": "कंपनी का नाम",
+          "from-date": "की तिथि से",
+          "to-date": "तारीख तक",
+          "work-area": "काम का क्षेत्र",
+          "position": "पद",
+          "position-description": "स्थान का विवरण",
+          "sector": "रोजगार क्षेत्र",
+          "seniority": {
+            "title": "ज्येष्ठता",
+            "options": {
+              "volunteer": "स्वयंसेवक",
+              "intern": "नजरबंद",
+              "junior": "जूनियर",
+              "intermediate": "मध्यम",
+              "senior": "वरिष्ठ",
+              "executive": "कार्यकारी",
+              "ceo": "सीईओ",
+              "other": "अन्य"
+            }
+          },
+
+          "button-add": "अनुभव जोड़ें"
+        },
+        "languages": {
+          "title": "भाषा कौशल",
+          "accordion": {
+            "language": "भाषा",
+            "certificate": "प्रमाणपत्र का नाम",
+            "level": {
+              "label": "स्तर",
+              "options": {
+                "a1": "ए 1",
+                "a2": "ए2",
+                "b1": "बी 1",
+                "b2": "बी२",
+                "c1": "सी 1",
+                "c2": "सी२",
+                "native": "मूल निवासी"
+              }
+            },
+            "button-add": "कौशल जोड़ें"
+          }
+        },
+        "computer": {
+          "title": "कंप्यूटर कौशल",
+          "accordion": {
+            "skill-name": "कंप्यूटर कौशल",
+            "knowladge-gained": {
+              "label": "ज्ञान प्राप्त हुआ",
+              "options": {
+                "selfTaught": "स्वयं शिक्षित",
+                "course": "अवधि",
+                "freelance": "स्वच्छंद कार्यकर्ता",
+                "contractProject": "अनुबंध परियोजना",
+                "fullTimeJob": "पूर्णकालिक रोजगार",
+                "other": "अन्य"
+              }
+            },
+            "expierience": {
+              "label": "अनुभव",
+              "uptoOne": "< 1 वर्ष",
+              "oneToThree": "1-3 सालyear",
+              "threeToFive": "3-5 वर्ष",
+              "fiveToTen": "5-10 वर्ष",
+              "tenToFifteen": "10-15 साल",
+              "moreThanFifteen": "15+ साल"
+            },
+            "certificate": "प्रमाणन नाम",
+            "button-add": "कौशल जोड़ें"
+          }
+        },
+        "licenses": {
+          "title": "परिवहन लाइसेंस",
+          "accordion": {
+            "country": "जारीकर्ता देश",
+            "expierience": {
+              "label": "अनुभव",
+              "uptoOne": "< 1 वर्ष",
+              "oneToThree": "1-3 साल",
+              "threeToFive": "3-5 वर्ष",
+              "fiveToTen": "5-10 वर्ष",
+              "tenToFifteen": "10-15 साल",
+              "moreThanFifteen": "15+ साल"
+            },
+            "category": "लाइसेंस श्रेणी",
+            "button-add": "लाइसेंस जोड़ें"
+          }
+        },
+        "expectations": {
+          "title": "कार्य अपेक्षाएं",
+          "accordion": {
+            "title": "कार्य अपेक्षाएं",
+            "interest": "पंसदीदा छेत्र",
+            "position": "पद",
+            "seniority": {
+              "title": "ज्येष्ठता",
+              "options": {
+                "volunteer": "स्वयंसेवक",
+                "intern": "प्रशिक्षु",
+                "junior": "जूनियर",
+                "intermediate": "मध्यम",
+                "senior": "वरिष्ठ",
+                "executive": "कार्यकारी",
+                "ceo": "सीईओ",
+                "other": "अन्य"
+              }
+            },
+            "hourly": "प्रति घंटा से",
+            "monthly": "मासिक से",
+            "yearly": "वार्षिक से",
+            "button-add": "उम्मीद जोड़ें"
+          }
+        }
+      }
+    },
+    "browser-cv": {
+      "browser": "ब्राउज़र सीवी",
+      "search": "खोज",
+      "work-expierience": "काम करने का अनुभव",
+      "work-expectations": "काम की उम्मीदें",
+      "education-fit": "शिक्षा फिट",
+      "salary-hourly": "प्रति घंटा वेतन",
+      "salary-monthly": "मासिक वेतन",
+      "salary-annual": "मासिक वेतन",
+      "seniority": "ज्येष्ठता",
+      "monthly": "/महीने के",
+      "result-table": {
+        "nr": "नं.",
+        "name": "पूरा नाम",
+        "email": "ईमेल",
+        "phone": "फ़ोन",
+        "worked-as": "आखिरी स्थान,",
+        "salary": "अपेक्षित वेतन",
+        "cv": "सीवी",
+        "view": "राय"
+      }
+    },
+    "receipt": {
+      "title": "भुगतान रसीदें",
+      "start-date": "आरंभ करने की तिथि",
+      "end-date": "समाप्ति तिथि",
+      "table": {
+        "reference": "आदेश #",
+        "date": "दिनांक",
+        "purchase": "योजना",
+        "total": "राशि",
+        "status": "स्थिति"
+      }
+    }
+  },
+  "toast": {
+    "succes": "प्रोफ़ाइल अपडेट की गई थी",
+    "fail": "प्रोफ़ाइल अपडेट नहीं की गई थी",
+    "avatar": "अवतार अपडेट किया गया",
+    "avatar-fail": "अवतार अपडेट करने में विफल",
+    "avatar-remove": "अवतार हटा दिया गया",
+    "avatar-remove-fail": "अवतार को नहीं हटाया गया था",
+    "logout": "लॉग आउट",
+    "password": "पासवर्ड बदला गया था",
+    "password-fail": "पासवर्ड बदला नहीं गया था",
+    "item-deleted": "लिस्टिंग मिटा दी गई"
+  },
+  "delete-modal": {
+    "header": "लिस्टिंग हटाएं",
+    "body": "क्या आप वाकई इस लिस्टनिग को हटाना चाहते हैं?",
+    "cancel": "रद्द करना",
+    "delete": "हटाएं"
+  },
+  "delete-account": {
+    "header": "खाता हटाएं",
+    "body": "क्या आप इस खाते को हटाने के लिए सुनिश्चित हैं?",
+    "cancel": "रद्द करना",
+    "delete": "हटाएं"
+  },
+  "reffaral": {
+    "heading": "रेफरल कार्यक्रम",
+    "balance": "संतुलन",
+    "code": "रेफरल कोड",
+    "percantage": "प्रतिशत",
+    "next": "अगली वृद्धि",
+    "withdraw": "निकालना"
+  },
+  "referral-modal": {
+    "body-text": "फिलहाल हम निकासी को मैन्युअल रूप से संसाधित करते हैं। कृपया हमसे संपर्क करें और हम इसे सुलझा लेंगे :)",
+    "header-text": "जानकारी",
+    "submit-text": "संपर्क करें",
+    "close-text": "बंद करे"
+  }
+}

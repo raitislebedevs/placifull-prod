@@ -1,0 +1,64 @@
+{
+  "title": "रियल एस्टेट लिस्टिंग के लिए खोजें",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "न्यूनतम कीमत",
+        "max-price": "अधिकतम मूल्य",
+        "min-rooms": "न्यूनतम कमरे",
+        "max-rooms": "अधिकतम कमरे",
+        "min-area": "न्यूनतम क्षेत्र",
+        "max-area": "अधिकतम क्षेत्र",
+        "move-in-date": "दिनांक से में ले जाएं",
+        "move-out-date": "आज तक में ले जाएं",
+        "currency": "मुद्रा"
+      },
+
+      "submit": "अभी खोजो",
+      "accordion": "उन्नत खोज",
+      "accordion-right": {
+        "utility-label": "उपयोगिता बिल रेंज",
+        "utility": {
+          "from-price": "से: 0.00",
+          "to-price": "प्रति: 9,999,999,999"
+        },
+        "year-label": "निर्माण वर्ष",
+        "built": {
+          "from-year": "प्रेषक: 1000",
+          "to-year": "प्रति: ९९९९"
+        },
+        "measurement-label": "माप",
+        "system": {
+          "none": "कोई नहीं",
+          "metric": "मीट्रिक एम",
+          "imperial": "इम्पेरिअल  फ़ुट"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "इसके अनुसार क्रमबद्ध करें",
+        "options": {
+          "price": "कीमत",
+          "area": "क्षेत्र",
+          "rooms": "कमरा",
+          "street-name": "सड़क का नाम",
+          "popularity": "लोकप्रियता",
+          "views": "देखा गया",
+          "country": "देश",
+          "insert-date": "तारीख डालें"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "ब्लॉग से",
+    "see-more": "अधिक पढ़ें"
+  },
+  "error": {
+    "tags": "कृपया हमसे यह कहते हुए संपर्क करें:' टैग  नहीं मिला'"
+  },
+  "no-tags": "इस विकल्प के लिए कोई सुविधा नहीं"
+}

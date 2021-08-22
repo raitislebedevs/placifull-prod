@@ -1,0 +1,63 @@
+{
+  "header": {
+    "flag-button": "इस विषय को फ़्लैग करें"
+  },
+  "detail-info": {
+    "button": "मैं अब अंदर जाना चाहता हूँ"
+  },
+  "contact-times": {
+    "heading": "पसंदीदा संपर्क टाइम्स"
+  },
+
+  "promoted": "प्रचारित",
+
+  "about": {
+    "heading": "के बारे में",
+    "featured": "प्रचारित",
+    "notFeatured": "प्रचारित नहीं",
+    "rentTime": "प्रति महीने",
+    "inputTimeDays": "दिन पहले"
+  },
+
+  "general-info": {
+    "heading": "सामान्य जानकारी",
+    "brand": "परिवहन ब्रांड",
+    "model": "परिवहन मॉडल",
+    "year": "वर्ष",
+    "price": "कीमत",
+    "distance": "माइलेज",
+    "max-speed": "अधिकतम चाल",
+    "fuel-economy": "ईंधन की अर्थव्यवस्था",
+    "seats": "सीटों",
+    "doors": "दरवाजे",
+    "bid-price": "परिवहन के लिए बोली मूल्य",
+    "submit": "बोली",
+    "bid-placeholder": "20% मार्जिन में बोली लगाएं"
+  },
+  "features": {
+    "heading": "विशेषताएं"
+  },
+  "contact-form": {
+    "not-specified": "निर्दिष्ट नहीं है",
+    "heading": "सीधे मालिक से संपर्क करें",
+    "form": {
+      "heading": "अपना प्रश्न यहाँ से लिखें",
+      "fullName": "पूरा नाम*",
+      "phoneNumber": "फ़ोन नंबर*",
+      "email": "ईमेल पता*",
+      "message": "आपका सन्देश",
+      "submit": "मेसेज भेजें"
+    }
+  },
+  "extra": {
+    "heading": "इस प्रोफ़ाइल द्वारा सूचीबद्ध अन्य परिवहन",
+    "table": {
+      "number": "संख्या",
+      "country": "देश",
+      "brand-model": "मॉडल/ब्रांड",
+      "price": "कीमत",
+      "condition": "शर्त",
+      "production-year": "वर्ष"
+    }
+  }
+}

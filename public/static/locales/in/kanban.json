@@ -1,0 +1,42 @@
+{
+  "title": "आवेदक",
+  "kanban": {
+    "save": "बोर्ड सहेजें",
+    "saving": "सेव किया जा रहा है",
+    "salary": {
+      "hour": "/घंटा",
+      "month": "/महीना",
+      "year": "/वर्ष"
+    },
+    "job-overview": {
+      "title": "नौकरी का अवलोकन",
+      "industry": "उद्योग",
+      "languages-en": "भाषाएं (एन)",
+      "native": "भाषाएँ मूल",
+      "contract-type": "अनुबंध का प्रकार",
+      "working-time": "काम का समय",
+      "expiry-date": "समाप्ति तिथि"
+    },
+    "statistics": {
+      "title": "आंकड़े",
+      "applicants": "आवेदन",
+      "interviewed": "साक्षात्कार",
+      "processing": "प्रसंस्करण",
+      "reviewed": "समीक्षित",
+      "shortlisted": "चुने",
+      "hired": "काम पर रखा"
+    },
+    "columns": {
+      "applicants": "आवेदक आवेदन किया गया",
+      "reviewed": "आवेदनों की समीक्षा की गई",
+      "shortlisted": "चुने",
+      "interviewed": "आवेदकों का साक्षात्कार लिया गया",
+      "pending": "लंबित स्वीकृति",
+      "accepted": "आवेदकों को काम पर रखा गया",
+      "column-name": "नया कॉलम",
+      "edit": "संपादित करें"
+    },
+    "view-cv": "सीवी देखें",
+    "remove": "हटाना"
+  }
+}

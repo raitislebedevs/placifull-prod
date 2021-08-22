@@ -1,0 +1,56 @@
+{
+  "heading": "लिस्टिंग सबमिट करें",
+  "title": "काम",
+  "form": {
+    "submit-confirm": "सेव हो रहा है",
+    "preview-sneak-peak": "जनरेट किया जा रहा है...",
+    "preview": "पूर्वावलोकन",
+    "no-currency": "मुद्रा",
+    "no-features": "कृपया एक सूची श्रेणी चुनें",
+    "job-title": {
+      "title": "पद का नाम",
+      "placeholder": "पद का नाम  |  उदाहरण -  प्लेसीफुल संरक्षक।"
+    },
+    "company": "कंपनी का नाम",
+    "submit": "प्रस्तुत",
+    "general-information": {
+      "heading": "सामान्य जानकारी",
+      "input-fields": {
+        "description": "स्थान का विवरण",
+        "requirements": "स्थिति आवश्यकताएँ",
+        "beneftis": "स्थिति लाभ"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "संपर्क जानकारी",
+        "detail-requirements": "विस्तृत आवश्यकताएं"
+      },
+      "contact": {
+        "heading": "संपर्क करें",
+        "email": "ईमेल",
+        "phone": "फ़ोन नंबर",
+        "address": "पता",
+        "listing-website": "वेबसाइट: https://"
+      }
+    },
+    "gallery": {
+      "heading": "कंपनी का लोगो",
+      "click-drop": "यहां क्लिक करें या लोगो को खीचें",
+      "video-url": "वीडियो यूआरएल: https://"
+    },
+    "contact-hours": {
+      "heading": "कार्य के घंटे",
+      "heading-tip": "ऐच्छिक",
+      "accordion": {
+        "heading": "ऐसे समय जब कर्मचारी को काम करने की आवश्यकता होगी...",
+        "start-time": "काम शुरू होता है",
+        "end-time": "काम पर खत्म"
+      }
+    },
+    "input-languages": {
+      "label": "जानने के लिए आवश्यक भाषाएं। (अंग्रेज़ी)",
+      "labelNative": "जानने के लिए आवश्यक भाषाएं। (मूल निवासी)"
+    }
+  }
+}

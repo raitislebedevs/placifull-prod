@@ -1,0 +1,54 @@
+{
+  "heading": "सूची सबमिट करें",
+  "title": "रियल एस्टेट",
+  "form": {
+    "submit": "प्रस्तुत करना",
+    "submit-confirm": "सेव कर रहे है",
+    "preview-sneak-peak": "जनरेट किया जा रहा है...",
+    "preview": "पूर्वावलोकन",
+    "no-currency": "सब",
+    "no-features": "कृपया एक सूची श्रेणी चुनें",
+    "general-information": {
+      "heading": "सामान्य जानकारी",
+      "currency-input": "मुद्रा",
+      "input-fields": {
+        "name": "आपकी लिस्टिंग का नाम",
+        "description": "विवरण",
+        "price": "कीमत",
+        "bed-rooms": "बिस्तर कमरे",
+        "bath-rooms": "स्नान",
+        "area": "संपत्ति क्षेत्र",
+        "start-renting": "किराये पर लेना शुरू करें",
+        "end-renting": "अंत किराए पर लेना",
+        "year-built": "निर्माण वर्ष"
+      }
+    },
+    "detail-information": {
+      "heading": "विस्तार से जानकारी",
+      "contact": {
+        "heading": "संपर्क करें",
+        "email": "ईमेल",
+        "address": "पता",
+        "contact-times": {
+          "label": "संपर्क समय",
+          "placeholder": "पसंदीदा समय चुनें"
+        },
+        "listing-website": "वेबसाइट: https://"
+      }
+    },
+    "gallery": {
+      "real-estate": "चित्र प्रदर्शनी",
+      "click-drop": "छवियों को यहां क्लिक करें या खींचें",
+      "video-url": "वीडियो https://"
+    },
+    "contact-hours": {
+      "heading": "संपर्क के घंटे",
+      "heading-tip": "ऐच्छिक",
+      "accordion": {
+        "heading": "मुलाकात/बातचीत के लिए सबसे उपयुक्त समय जोड़ें...",
+        "start-time": "से",
+        "end-time": "जब तक"
+      }
+    }
+  }
+}

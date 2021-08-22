@@ -1,0 +1,58 @@
+{
+  "title": "परिवहन के लिए खोजें",
+  "hero": {
+    "form": {
+      "currency": "मुद्रा",
+      "no-currency": "सब",
+      "min-price": "न्यूनतम: 0.00",
+      "max-price": "अधिकतम: 9,999,999,999",
+      "transport-brand": "परिवहन ब्रांड",
+      "transport-model": "परिवहन मॉडल",
+      "min-age": "न्यूनतम आयु",
+      "max-age": "अधिकतम आयु",
+      "submit": "अब खोजें",
+      "accordion": "उन्नत खोज",
+      "accordion-right": {
+        "economy": {
+          "label": "ईंधन की अर्थव्यवस्था",
+          "items": {
+            "from": "से: 0",
+            "to": "प्रति: 999"
+          }
+        },
+        "speed": {
+          "label": "अधिकतम चाल",
+          "items": {
+            "from": "से: 0",
+            "to": "प्रति: 999"
+          }
+        },
+        "millage": {
+          "label": "दूरी",
+          "items": {
+            "from": "से: 0",
+            "to": "प्रति: 9,999,999"
+          }
+        },
+        "units": "इकाइयों"
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "इसके अनुसार क्रमबद्ध करें",
+        "options": {
+          "price": "कीमत",
+          "speed": "स्पीड",
+          "millage": "माइलेज",
+          "fuel-economy": "ईंधन की अर्थव्यवस्था",
+          "popularity": "लोकप्रियता",
+          "views": "देखा गया",
+          "country": "देश",
+          "insert-date": "तारीख डालें"
+        }
+      }
+    }
+  }
+}

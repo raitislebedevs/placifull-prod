@@ -12,7 +12,8 @@ import { ModalAsk } from 'components/common';
 import useSubscriptions from 'hooks/useSubscriptions';
 import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
 
-const noJobs = '/static/images/no-listings/Jobs.webp';
+const noJobs =
+  'https://placifull-static.s3.eu-central-1.amazonaws.com/Jobs.webp';
 
 const Jobs = (props) => {
   const { t, user } = props;

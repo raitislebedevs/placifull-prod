@@ -1,0 +1,78 @@
+{
+  "heading": "लिस्टिंग सबमिट करें",
+  "title": "परिवहन",
+  "form": {
+    "submit": "प्रस्तुत करना",
+    "submit-confirm": "सेव हो रहा है",
+    "preview-sneak-peak": "जनरेट किया जा रहा है...",
+    "preview": "पूर्वावलोकन",
+    "currency": "मुद्रा",
+    "no-currency": "सब",
+    "general-information": {
+      "heading": "सामान्य जानकारी",
+      "transport-type": "परिवहन प्रकार",
+      "action": "कार्य",
+      "condition": "हालत",
+      "input-fields": {
+        "description": "विवरण",
+        "brand": "परिवहन ब्रांड",
+        "model": "परिवहन मॉडल",
+        "production-year": "उत्पादन वर्ष",
+        "price": "कीमत",
+        "engine-type": "इंजन के प्रकार",
+        "gear-box": "गियर बॉक्स",
+        "millage": "दूरी",
+        "speed": "अधिकतम चाल",
+        "fueal-economy": "वास्तविक अर्थव्यवस्था",
+        "seats": "सीटों की संख्या",
+        "doors": "दरवाजों की संख्या",
+        "name": "परिवहन लिस्टिंग नाम"
+      }
+    },
+    "detail-information": {
+      "heading": "विस्तार से जानकारी",
+      "contact": {
+        "heading": "संपर्क करें",
+        "email": "ईमेल",
+        "address": "पता",
+        "contact-times": {
+          "label": "संपर्क समय",
+          "placeholder": "पसंदीदा संपर्क समय चुनें",
+          "options": {
+            "any-time": "किसी भी समय",
+            "working-days": "काम कर दिन",
+            "office-hours": "कार्यालय अवधि",
+            "specific-times": "विशिष्ट समय"
+          }
+        },
+        "listing-website": "वेबसाइट: https://"
+      },
+      "features": {
+        "heading": "विशेषताएं",
+        "category": {
+          "equipment": "उपकरण",
+          "interior": "आंतरिक भाग",
+          "steering-wheel": "स्टीयरिंग व्हील",
+          "seats": "सीटों",
+          "lights": "दीपक",
+          "audio-video": "ऑडियो / वीडियो",
+          "mirrros": "दर्पण"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "गेलरी",
+      "click-drop": "यहां क्लिक करें या चित्र खींचें",
+      "video-url": "वीडियो यूआरएल: https://"
+    },
+    "contact-hours": {
+      "heading": "संपर्क के घंटे",
+      "heading-tip": "ऐच्छिक",
+      "accordion": {
+        "heading": "मीटिंग/कॉल के लिए सबसे उपयुक्त समय जोड़ें...",
+        "start-time": "से",
+        "end-time": "जब तक"
+      }
+    }
+  }
+}
