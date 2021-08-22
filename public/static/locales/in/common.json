@@ -1,0 +1,143 @@
+{
+  "elements": {
+    "loading": "लोड हो रहा है कृपया प्रतीक्षा करें...",
+    "loading-right": "लोड हो रहा है कृपया प्रतीक्षा करें...",
+    "loading-left": "... लोड हो रहा है कृपया प्रतीक्षा करें...",
+    "no-results": "कोई परिणाम नहीं मिला"
+  },
+  "user": {
+    "name": "नाम",
+    "first-name": "मूल नाम",
+    "last-name": "सरनेम",
+    "email": {
+      "email-upper": "ईमेल",
+      "email-lower": "ईमेल",
+      "your-email": "आपका ईमेल"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "आज",
+    "yesterday": "बीता हुआ कल",
+    "days-ago": "दिन पहले"
+  },
+
+  "social-links": {
+    "heading": "सामाजिक संपर्क",
+    "facebook": "फेसबुक: https://",
+    "twitter": "ट्विटर: https://",
+    "youtube": "यूट्यूब: https://",
+    "pinterest": "Pinterest: https://",
+    "instagram": "इंस्टाग्राम: https://"
+  },
+
+  "social": {
+    "heading": "सामाजिक संपर्क",
+    "facebook": "फेसबुक",
+    "twitter": "ट्विटर",
+    "youtube": "यूट्यूब",
+    "pinterest": "Pinterest",
+    "instagram": "इंस्टाग्राम"
+  },
+
+  "week-days": {
+    "monday": "सोमवार",
+    "tuesday": "मंगलवार",
+    "wednesday": "बुधवार",
+    "thursday": "गुरुवार",
+    "friday": "शुक्रवार",
+    "saturday": "शनिवार",
+    "sunday": "रविवार"
+  },
+
+  "toast": {
+    "submit-success": "आपकी लिस्टिंग प्रकाशित हो चुकी है।.",
+    "server-error": "गलत इनपुट/ सर्वर पहुंच योग्य नहीं है",
+    "logging-required": "लॉग इन करना आवश्यक है",
+    "cannot-apply": "नमस्ते, यह एक पूर्वावलोकन  है",
+    "preview": "पूर्वावलोकन में आप बोली नहीं लगा सकते",
+    "log-in": "बोली लगाने के लिए आपको लॉग इन होना चाहिए",
+    "bidding-price": "कोई बोली मूल्य नहीं",
+    "price-lower": "बोली सूची मूल्य के 20% से कम है",
+    "price-upper": "बोली सूची मूल्य के 20% से अधिक है",
+    "refresh-page": "सर्वर ने जवाब नहीं दिया, कृपया रीफ्रेश करें",
+    "not-send": "ईमेल नहीं  गया ",
+    "contact-directly": "सीधे संपर्क करें",
+    "email-send": "ईमेल भेजा गया  है",
+    "no-email": "लिस्टिंग ईमेल मौजूद नहीं है",
+    "subscribed": "बधाई हो, आपने सदस्यता ले ली है :)",
+    "already-applied": "आपने इस पद पर आवेदन किया था",
+    "already": "पहले से ही सदस्यता ली है/अमान्य ईमेल",
+    "country-error": "निर्दिष्ट नहीं देश इनपुट में ग़लती",
+    "location-error": "स्थानों की जानकारी नहीं निकाल सकते",
+    "unknown-error": "सर्वर में अज्ञात समस्या",
+    "search-results": {
+      "found": "मिला",
+      "items": "आइटम"
+    },
+    "not-found": "नए परिणाम नहीं मिले",
+    "messages": {
+      "success": "सफलता",
+      "info": "जानकारी",
+      "warning": "चेतावनी",
+      "error": "त्रुटि"
+    },
+    "logout-success": "बाद में मिलते है!",
+    "bid-placed": "बोली लगाई गई",
+    "your-referral": "अपने स्वयं के रेफरल कोड का उपयोग नहीं कर सकते :)",
+    "minimal-withdraw": "निकासी की न्यूनतम राशि 25 € . है"
+  },
+
+  "location": {
+    "country": "देश",
+    "state": "राज्य/क्षेत्र",
+    "city": "शहर",
+    "no-city": "कोई शहर नहीं",
+    "no-states": "कोई राज्य नहीं",
+    "states-not-registerd": "कोई राज्य पंजीकृत नहीं है",
+    "cities-registerd": "कोई शहर पंजीकृत नहीं"
+  },
+
+  "items-per-page": {
+    "label": "आइटम",
+    "options": {
+      "nine": "9 आइटम",
+      "eighteen": "18 आइटम",
+      "twenty-seven": "27 आइटम ",
+      "thirty-six": "36 आइटम",
+      "seventy-two": "72 आइटम"
+    }
+  },
+
+  "month": {
+    "Jan": "जनवरी",
+    "Feb": "फ़रवरी",
+    "Mar": "मार्च",
+    "Apr": "अप्रैल",
+    "May": "मई",
+    "Jun": "जून",
+    "Jul": "जुलाई",
+    "Aug": "अगस्त",
+    "Sep": "सितंबर",
+    "Oct": "अक्टूबर",
+    "Nov": "नवंबर",
+    "Dec": "दिसंबर"
+  },
+  "currency": {
+    "currency-label": "मुद्रा",
+    "no-currency": "सभी"
+  },
+  "measurement": {
+    "label": "माप",
+    "system": {
+      "none": "कोई नहीं",
+      "metric": "मापीय",
+      "imperial": "राज्य-संबंधी"
+    }
+  },
+  "user-box": {
+    "profile": "प्रोफ़ाइल",
+    "log-out": "लॉग आउट"
+  },
+  "preview-close": "पूर्वावलोकन बंद करें"
+}

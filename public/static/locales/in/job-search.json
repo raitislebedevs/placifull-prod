@@ -1,0 +1,62 @@
+{
+  "title": "नौकरी की खोज",
+  "form": {
+    "currency": "मुद्रा",
+    "no-currency": "सब",
+    "languages": {
+      "native": "देशी भाषा",
+      "english": "अंग्रेजी में भाषाएं"
+    },
+    "submit": "अब खोजें",
+    "accordion": {
+      "label": "उन्नत खोज",
+      "searchFilter": {
+        "heading": "विशेषताएं",
+        "licenses": "परिवहन लाइसेंस",
+        "education": "शिक्षा की डिग्री",
+        "expierience": "वर्षों में अनुभव",
+        "candiadate": "उम्मीदवार सक्षम है:",
+        "benefits": "लाभ"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "प्रति घंटा - दर",
+        "items": {
+          "from": "से: 0",
+          "to": "प्रति: 999,999"
+        }
+      },
+      "monthly-salary": {
+        "label": "मासिक वेतन",
+        "items": {
+          "from": "से: 0",
+          "to": "प्रति: 999,999,999"
+        }
+      },
+      "yearly-salary": {
+        "label": "वार्षिक वेतन",
+        "items": {
+          "from": "से: 0",
+          "to": "प्रति: 99,999,999,999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "इसके अनुसार क्रमबद्ध करें",
+        "options": {
+          "monthly-salary": "मासिक वेतन",
+          "annual-salary": "वार्षिक वेतन",
+          "hourly-salary": "प्रति घंटा - दर",
+          "popularity": "लोकप्रियता",
+          "views": "देखा गया",
+          "country": "देश",
+          "insert-date": "तारीख डालें"
+        }
+      }
+    }
+  }
+}

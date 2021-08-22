@@ -1,0 +1,87 @@
+{
+  "contract-type": {
+    "label": "अनुबंध का प्रकार",
+    "options": {
+      "temporarly": "अस्थायी रूप से",
+      "fullTime": "पूर्णकालिक",
+      "partTime": "पार्ट टाईम",
+      "remoteFullTime": "रिमोट (पूर्णकालिक)",
+      "remotePartTime": "रिमोट (अंशकालिक)",
+      "other": "अन्य"
+    }
+  },
+  "working-time": {
+    "label": "काम का समय",
+    "options": {
+      "officeHours": "ऑफिस अवधि",
+      "shifts": "शिफ्ट",
+      "flexible": "फ्लेक्सिबल ",
+      "other": "अन्य"
+    }
+  },
+  "contact-times": {
+    "label": "संपर्क समय",
+    "placeholder": "पसंदीदा संपर्क समय चुनें",
+    "not-specified": "निर्दिष्ट नहीं है",
+    "options": {
+      "any-time": "किसी भी समय",
+      "working-days": "कार्य-दिवस",
+      "office-hours": "कार्यालय अवधि",
+      "specific-times": "विशिष्ट समय"
+    }
+  },
+  "features": {
+    "heading": "विशेषताएं",
+    "licenses": "परिवहन लाइसेंस",
+    "education": "शिक्षा की डिग्री",
+    "expierience": "वर्षों में अनुभव",
+    "candiadate": "उम्मीदवार को सक्षम होना चाहिए",
+    "weOffer": "हम प्रस्ताव रखते हैं"
+  },
+  "salary": {
+    "heading": "वेतन",
+    "monthly-from": "वेतन से",
+    "monthly-to": "वेतन",
+    "hourly-rate-from": "घंटे की दर से",
+    "annual-from": "वार्षिक वेतन से",
+    "annual-to": "वार्षिक वेतन",
+    "hourly-rate-to": "प्रति घंटा दर प्रति"
+  },
+  "work-area": {
+    "label": "काम का क्षेत्र",
+    "options": {
+      "intern": "नजरबंद",
+      "volunteerWork": "स्वैच्छिक काम",
+      "stockExchange": "शेयर बाजार",
+      "administrationAssistance": "प्रशासन/सहायता",
+      "constructionRealEstate": "निर्माण / अचल संपत्ति",
+      "humanResources": "मानव संसाधन",
+      "securityRescue": "सुरक्षा/बचाव सेवाएं",
+      "military": "सैन्य",
+      "electronicsTelecomunication": "इलेक्ट्रॉनिक्स/दूरसंचार",
+      "freelanceTemporary": "फ्रीलांस/अस्थायी पद",
+      "energyElectricity": "ऊर्जा / बिजली",
+      "pharmacy": "फार्मेसी",
+      "financeAccounting": "वित्तीय लेखांकन",
+      "infromationTechnology": "सूचना प्रौद्योगिकी (आईटी)",
+      "jurisprudenceJustice": "न्यायशास्त्र/न्याय",
+      "cultureArtEntertainemnt": "संस्कृति/कला/मनोरंजन",
+      "sports": "खेल",
+      "qualityControl": "गुणवत्ता नियंत्रण/गुणवत्ता प्रबंधन",
+      "agricutureEnvironmental": "कृषि/पर्यावरण विज्ञान",
+      "medicineSocialCare": "चिकित्सा/सामाजिक देखभाल",
+      "mediaPublicRelations": "मीडिया/जनसंपर्क",
+      "forestryWoodworkingMetalWorking": "वानिकी/लकड़ी का काम/धातु कार्य",
+      "marketingAdvertising": "विपणन विज्ञापन",
+      "productionIndustry": "उत्पादन / उद्योग",
+      "seasonalWork": "मौसमी काम",
+      "technicalScience": "तकनीकी विज्ञान",
+      "services": "सेवाएं",
+      "transportLogistics": "परिवहन / रसद",
+      "tourismCateringHotels": "पर्यटन/खानपान/होटल",
+      "managment": "प्रबंधन",
+      "government": "सरकार",
+      "others": "अन्य"
+    }
+  }
+}

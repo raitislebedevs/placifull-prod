@@ -62,14 +62,13 @@ const languages = [
     },
     label: 'Português',
   },
-
-  // {
-  //   value: {
-  //     lang: 'in',
-  //     flag: 'IN',
-  //   },
-  //   label: 'हिन्दी, हिंदी',
-  // },
+  {
+    value: {
+      lang: 'in',
+      flag: 'IN',
+    },
+    label: 'हिन्दी, हिंदी',
+  },
   {
     value: {
       lang: 'jp',

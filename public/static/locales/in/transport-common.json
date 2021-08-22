@@ -1,0 +1,89 @@
+{
+  "color": {
+    "label": "रंग",
+    "options": {
+      "red": "लाल",
+      "orange": "संतरा",
+      "yellow": "पीला",
+      "green": "हरा",
+      "blue": "नीला",
+      "violent": "बैंगनी",
+      "pink": "गुलाबी",
+      "tan": "टैन",
+      "beige": "बेज रंग",
+      "white": "सफेद",
+      "silver": "चांदी",
+      "gray": "धूसर",
+      "black": "काला",
+      "brown": "भूरा",
+      "gold": "सोना",
+      "indigo": "नील",
+      "purple": "बैंगनी",
+      "lime": "नींबू",
+      "azure": "नीला",
+      "other": "अन्य"
+    }
+  },
+  "gear-box": {
+    "label": "गियर बॉक्स",
+    "options": {
+      "manual": "हाथ से किया हुआ",
+      "automatic": "स्वचालित",
+      "other": "अन्य"
+    }
+  },
+  "engine": {
+    "label": "इंजन के प्रकार",
+    "options": {
+      "diesel": "डीज़ल",
+      "benzine": "पेट्रोल",
+      "gas": "गैस",
+      "electric": "विद्युत",
+      "other": "अन्य"
+    }
+  },
+  "features": {
+    "heading": "विशेषताएं",
+    "category": {
+      "equipment": "उपकरण",
+      "interior": "आंतरिक भाग",
+      "steering-wheel": "स्टीयरिंग व्हील",
+      "seats": "सीटों",
+      "lights": "दीपक",
+      "audio-video": "ऑडियो / वीडियो",
+      "mirrors": "दर्पण"
+    }
+  },
+  "condition": {
+    "label": "शर्त",
+    "options": {
+      "brandNew": "एकदम नया",
+      "likeNew": "नए जैसा",
+      "used": "उपयोग किया गया",
+      "requiresFixing": "फिक्सिंग की आवश्यकता है",
+      "afterCrash": "क्रैश के बाद"
+    }
+  },
+
+  "transport-type": {
+    "label": "परिवहन प्रकार",
+    "options": {
+      "car": "कार",
+      "truck": "ट्रक",
+      "motorcycle": "मोटरसाइकिल",
+      "boat": "नौकाओं",
+      "airTransport": "वायु परिवहन",
+      "others": "अन्य"
+    }
+  },
+
+  "action": {
+    "label": "कार्य",
+    "options": {
+      "sell": "बेचना",
+      "rent": "किराया",
+      "exchange": "अदला बदली",
+      "forParts": "भागों के लिए"
+    }
+  }
+}

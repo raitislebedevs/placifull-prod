@@ -1,0 +1,37 @@
+{
+  "main": {
+    "success": "भुगतान सफल रहा.",
+    "plan_update": "हम आपकी योजना को अपडेट नहीं कर सके।",
+    "card_not": "कार्ड का शुल्क नहीं लिया गया था।",
+    "pay": "भुगतान करें €",
+    "processing": "संसाधित किया जा रहा है…"
+  },
+  "placeholders": {
+    "name": "जेन डोए",
+    "email": "janedoe@placifull.com",
+    "phone": "(941) 555-7777"
+  },
+  "incomplete": {
+    "incomplete_cvc": "आपके कार्ड का सुरक्षा कोड अधूरा है।",
+    "incomplete_expiry": "आपके कार्ड की समाप्ति तिथि अपूर्ण है।",
+    "incomplete_number": "आपका कार्ड नंबर अधूरा है।",
+    "email_invalid": "ईमेल  मान्य नहीं है"
+  },
+
+  "declined": {
+    "card_declined": "आपका कार्ड अस्वीकार किया जा चुका है"
+  },
+  "checkout": {
+    "billing": "कृपया बिलिंग जानकारी भरें",
+    "card-details": "कृपया कार्ड की जानकारी प्रदान करें",
+    "cancel": "रद्द करना"
+  },
+  "labels": {
+    "plan": "योजना",
+    "quantity": "मात्रा",
+    "name": "नाम",
+    "email": "ईमेल",
+    "phone": "दूरभाष क्रमांक।",
+    "referral": "रेफरल कोड"
+  }
+}
