@@ -1,0 +1,59 @@
+{
+  "header": {
+    "flag-button": "මෙම අන්තර්ගතය සලකුණු කරන්න"
+  },
+  "detail-info": {
+    "button": "මට දැන්ම මාරැ වීමට අවශ්‍යයි"
+  },
+  "contact-times": {
+    "heading": "වඩාත් යෝග්‍ය සම්බන්ධතා වේලාවන්"
+  },
+  "about": {
+    "heading": "පිළිබදව",
+    "featured": "උසස් කර ඇත",
+    "notFeatured": "උසස් කර නැත",
+    "rentTime": "මසකට",
+    "inputTimeDays": "දින ගණනකට පෙර"
+  },
+
+  "general-info": {
+    "heading": "සාමාන්ය තොරතුරු",
+    "property-area": "දේපල කලාපය",
+    "rooms": "කාමර",
+    "year-built": "ඉදි කළ වර්ෂය",
+    "price": "මිල",
+    "total-ultilities": "මුළු උපයෝගිතා",
+    "move-in": "මාරැ වන දිනය ",
+    "move-out": "පිටතට යන දිනය",
+    "min-time": "අවම කාලය",
+    "bid-price": "දේපල සඳහා ලංසු මිල",
+    "submit": "ලංසුව",
+    "bid-placeholder": "ලංසු 20 % ක ආන්තිකයකින්"
+  },
+
+  "contact-form": {
+    "heading": "ඍජුවම අයිතිකරු අමතන්න",
+    "not-specified": "විශේෂයෙන් දක්වා නැති",
+    "form": {
+      "heading": "ඔබේ ප්‍රශ්නය මෙතැනින් ලියන්න",
+      "fullName": "සම්පූර්ණ නම*",
+      "phoneNumber": "දුරකථන අංකය*",
+      "email": "විද්‍යුත් තැපැල් ලිපිනය*",
+      "message": "ඔබේ පණිවිඩය*",
+      "submit": "පණිවුඩය යවන්න"
+    }
+  },
+  "extra": {
+    "heading": "මෙම ගිණුමේ පැතිකඩ මඟින් ලැයිස්තුගත කර ඇති අනෙකුත් දේ/වස්තූන්",
+    "table": {
+      "number": "Nr.",
+      "country": "රට",
+      "full-address": "සම්පූර්ණ ලිපිනය",
+      "property-type": "ඉඩකඩම් වර්ගය",
+      "price": "මිල",
+      "area": "ප්‍රදේශය",
+      "bed-rooms": "කාමර",
+      "year-built": "ඉදි කළ වර්ෂය"
+    }
+  }
+}

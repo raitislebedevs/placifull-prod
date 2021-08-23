@@ -1,0 +1,87 @@
+{
+  "contract-type": {
+    "label": "කොන්ත්‍රාත් වර්ගය",
+    "options": {
+      "temporarly": "තාවකාලිකව",
+      "fullTime": "පූර්ණ කාලීන",
+      "partTime": "අර්ධ කාලීන",
+      "remoteFullTime": "දුරස්ථ (පූර්ණ කාලීන)",
+      "remotePartTime": "දුරස්ථ (අර්ධ කාලීන)",
+      "other": "වෙනත්"
+    }
+  },
+  "working-time": {
+    "label": "වැඩ කරන වෙලාව",
+    "options": {
+      "officeHours": "කාර්යාල වේලාවන්",
+      "shifts": "මුර",
+      "flexible": "නම්යශීලී",
+      "other": "වෙනත්"
+    }
+  },
+  "contact-times": {
+    "label": "සම්බන්ධතා කාලය",
+    "placeholder": "කැමති සම්බන්ධතා කාලය තෝරන්න",
+    "not-specified": "විශේෂයෙන් දක්වා නැති",
+    "options": {
+      "any-time": "ඕනෑම අවස්ථාවක",
+      "working-days": "වැඩ කරන දවස්",
+      "office-hours": "කාර්යාල වේලාවන්",
+      "specific-times": "නිශ්චිත වේලාවන්"
+    }
+  },
+  "features": {
+    "heading": "විශේෂාංග",
+    "licenses": "ප්‍රවාහන බලපත්‍රය",
+    "education": "අධ්‍යාපනය/උපාධිය",
+    "expierience": "අත්දැකීම් වසර වලින්",
+    "candiadate": "අපේක්‍ෂකයාට හැකි විය යුතුයි",
+    "weOffer": "අපි ඉදිරිපත් කරනවා"
+  },
+  "salary": {
+    "heading": "වැටුප",
+    "monthly-from": "සිට වැටුප",
+    "monthly-to": "දක්වා වැටුප",
+    "hourly-rate-from": "සිට පැය ගණන් අනුපාතය",
+    "annual-from": "සිට වාර්ෂික වැටුප",
+    "annual-to": "වාර්ෂික වැටුප",
+    "hourly-rate-to": "දක්වා පැය ගණන්"
+  },
+  "work-area": {
+    "label": "වැඩ කරන ප්‍රදේශය",
+    "options": {
+      "intern": "සීමාවාසික",
+      "volunteerWork": "ස්වෙච්චා වැඩ",
+      "stockExchange": "කොටස් වෙළඳපොල",
+      "administrationAssistance": "පරිපාලනය/සහාය",
+      "constructionRealEstate": "ඉදිකිරීම්/නිශ්චල දේපල",
+      "humanResources": "මානව සම්පත්",
+      "securityRescue": "ආරක්ෂක/ගලවා ගැනීමේ සේවා",
+      "military": "හමුදා",
+      "electronicsTelecomunication": "ඉලෙක්ට්රොනික උපකරණ/විදුලි සංදේශ",
+      "freelanceTemporary": "නිදහස්/තාවකාලික තනතුර",
+      "energyElectricity": "ශක්තිය/විදුලිය",
+      "pharmacy": "ෆාමසිය",
+      "financeAccounting": "මුදල්/ගිණුම්කරණය",
+      "infromationTechnology": "තොරතුරු තාක්‍ෂණය (තොරතුරු තාක්‍ෂණය)",
+      "jurisprudenceJustice": "නීති විද්‍යාව/යුක්තිය",
+      "cultureArtEntertainemnt": "සංස්කෘතිය/කලාව/විනෝදය",
+      "sports": "ක්‍රීඩා",
+      "qualityControl": "තත්ත්ව පාලනය/තත්ත්ව කළමනාකරණය",
+      "agricutureEnvironmental": "කෘෂිකර්මාන්තය/පාරිසරික විද්‍යාව",
+      "medicineSocialCare": "වෛද්‍ය විද්‍යාව/ සමාජ සත්කාර",
+      "mediaPublicRelations": "මාධ්‍ය/මහජන සම්බන්ධතා",
+      "forestryWoodworkingMetalWorking": "වනාන්තරය/ලී වැඩ කිරීම/ලෝහ වැඩ කිරීම",
+      "marketingAdvertising": "අලෙවිකරණය/වෙළඳ දැන්වීම්",
+      "productionIndustry": "නිෂ්පාදනය/කර්මාන්ත",
+      "seasonalWork": "සෘතුමය වැඩ",
+      "technicalScience": "කාර්මික විද්‍යා",
+      "services": "සේවාවන්",
+      "transportLogistics": "ප්‍රවාහනය/සැපයුම්",
+      "tourismCateringHotels": "සංචාරක/ආහාරපාන/හෝටල්",
+      "managment": "කළමනාකරණ",
+      "government": "ආණ්ඩුව",
+      "others": "වෙනත්"
+    }
+  }
+}

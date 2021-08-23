@@ -1,0 +1,143 @@
+{
+  "elements": {
+    "loading": "පූරණය වෙමින් ...",
+    "loading-right": "පූරණය වෙමින් ...",
+    "loading-left": "... පූරණය වෙමින්",
+    "no-results": "ප්‍රතිඵල කිසිවක් නැත"
+  },
+  "user": {
+    "name": "නම",
+    "first-name": "මුල් නම",
+    "last-name": "අවසන් නම",
+    "email": {
+      "email-upper": "විද්‍යුත් තැපෑල",
+      "email-lower": "විද්‍යුත් තැපෑල",
+      "your-email": "ඔබගේ විද්‍යුත් තැපෑල"
+    }
+  },
+
+  "listing-input-date": {
+    "today": "අද",
+    "yesterday": "ඊයේ",
+    "days-ago": "දින ගණනකට පෙර"
+  },
+
+  "social-links": {
+    "heading": "සමාජ සම්බන්ධක",
+    "facebook": "Facebook: https: //",
+    "twitter": "Twitter: https: //",
+    "youtube": "Youtube: https: //",
+    "pinterest": "Pinterest: https: //",
+    "instagram": "Instagram: https: //"
+  },
+
+  "social": {
+    "heading": "සමාජ සම්බන්ධක",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "youtube": "Youtube",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram"
+  },
+
+  "week-days": {
+    "monday": "සඳුදා",
+    "tuesday": "අඟහරුවාදා",
+    "wednesday": "බදාදා",
+    "thursday": "බ්‍රහස්පතින්දා",
+    "friday": "සිකුරාදා",
+    "saturday": "සෙනසුරාදා",
+    "sunday": "ඉරිදා"
+  },
+
+  "toast": {
+    "submit-success": "ඔබගේ ලැයිස්තුගත කිරීම ප්‍රකාශයට පත් කරන ලදි!",
+    "server-error": "වැරදි ඇතුළත් කිරීමකි/'Server' එකට ළඟා වී නැත",
+    "logging-required": "ගිණුමට ලොග් වීම අවශ්‍යයි",
+    "cannot-apply": "හේයි, මෙය පෙරදසුනකි",
+    "preview": "පෙරදසුනෙහිදී ඔබට ලංසු තැබිය නොහැක",
+    "log-in": "ලංසු තැබීම සඳහා ඔබ ගිණුමට ලොග් විය යුතුය",
+    "bidding-price": "ලංසු මිලක් නැත",
+    "price-lower": "ලංසුව ලැයිස්තුගත මිලෙන් 20 % ට වඩා අඩුය",
+    "price-upper": "ලංසුව ලැයිස්තුගත මිලෙන් 20 % ට වඩා වැඩිය",
+    "refresh-page": "'Server'ය ප්‍රතිචාර නොදක්වයි, කරුණාකර නැවත උත්සහ කරන්න",
+    "not-send": "විද්‍යුත් තැපෑල යැව්වේ නැත",
+    "contact-directly": "සෘජුවම සම්බන්ධ වන්න",
+    "email-send": "විද්‍යුත් තැපෑල යවන ලදි",
+    "no-email": "ලැයිස්තුගත කිරීම කරපු විද්‍යුත් තැපෑල නොමැත",
+    "subscribed": "සුභ පැතුම්, ඔබ මෙයට දායක විය :)",
+    "already-applied": "ඔබ මෙම තනතුර සඳහා අයදුම් කර ඇත",
+    "already": "දැනටමත් මෙයට දායක වී ඇත/ අවලංගු විද්‍යුත් තැපෑලකි",
+    "country-error": "නිශ්චිතව දක්විය නොහැකි දෝෂයකි රට ඇතුළත් කරනයේ",
+    "location-error": "ස්ථානයන් ලබා ගැනීමට නොහැකි විය",
+    "unknown-error": "'Server' යෙහි නොදන්නා දෝෂයක්",
+    "search-results": {
+      "found": "හමුවිය",
+      "items": "අයිතම"
+    },
+    "not-found": "නව ප්‍රතිඵල හමු නොවීය",
+    "messages": {
+      "success": "සාර්ථකයි",
+      "info": "තොරතුරු",
+      "warning": "අනතුරු ඇඟවීමකි",
+      "error": "දෝෂයකි"
+    },
+    "logout-success": "ඔබව පසුව හමුවෙන්නම්!",
+    "bid-placed": "ලංසුව තැබුවා",
+    "your-referral": "ඔබේම යොමු කේතය භාවිතා කළ නොහැක :)",
+    "minimal-withdraw": "ඉවතට ගැනීම සඳහා අවම මුදල 25 €"
+  },
+
+  "location": {
+    "country": "රට",
+    "state": "ජනපදය/කලාපය",
+    "city": "නගරය",
+    "no-city": "නගර නැත",
+    "no-states": "ජනපද නැත",
+    "states-not-registerd": "ජනපද ලියාපදිංචි වී නොමැත",
+    "cities-registerd": "නගර ලියාපදිංචි වී නොමැත"
+  },
+
+  "items-per-page": {
+    "label": "අයිතම",
+    "options": {
+      "nine": "අයිතම 9 ක්",
+      "eighteen": "අයිතම 18 ක්",
+      "twenty-seven": "අයිතම 27 ක්",
+      "thirty-six": "අයිතම 36 ක්",
+      "seventy-two": "අයිතම 72 ක්"
+    }
+  },
+
+  "month": {
+    "Jan": "ජනවාරි",
+    "Feb": "පෙබරවාරි",
+    "Mar": "මාර්තු",
+    "Apr": "අප්‍රේල්",
+    "May": "මැයි",
+    "Jun": "ජූනි",
+    "Jul": "ජුලි",
+    "Aug": "අගෝස්තු",
+    "Sep": "සැප්තැම්බර්",
+    "Oct": "ඔක්තෝම්බර්",
+    "Nov": "නොවැම්බර්",
+    "Dec": "දෙසැම්බර්"
+  },
+  "currency": {
+    "currency-label": "මුදල්",
+    "no-currency": "සියල්ල"
+  },
+  "measurement": {
+    "label": "මිනුම්",
+    "system": {
+      "none": "කිසිවක් නැත",
+      "metric": "මෙට්රික්",
+      "imperial": "අධිරාජ්‍යවාදී"
+    }
+  },
+  "user-box": {
+    "profile": "ගිණුමෙහි පැතිකඩ",
+    "log-out": "ඉවත් වන්න"
+  },
+  "preview-close": "පෙරදසුන වසන්න"
+}

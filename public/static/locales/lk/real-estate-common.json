@@ -1,0 +1,75 @@
+{
+  "category": {
+    "label": "වර්ගය",
+    "options": {
+      "houses": "නිවස",
+      "apartments": "මහල් නිවාසය",
+      "land": "ඉඩම්",
+      "farmhouse": "ගොවිපල",
+      "commercial": "වාණිජ",
+      "exclusive": "බැහැරව",
+      "offices": "කාර්යාලය",
+      "agents": "නිශ්චල දේපල ඒජන්ත ආයතනය"
+    }
+  },
+  "action": {
+    "label": "ක්‍රියාව",
+    "options": {
+      "sell": "විකිණීමට",
+      "rent": "කුලියට",
+      "exchange": "හුවමාරුවට"
+    }
+  },
+  "condition": {
+    "label": "තත්ත්වය",
+    "label-land": "ඉඩකඩම් වර්ගය",
+    "options": {
+      "brandNew": "අලුත්ම අලුත්",
+      "goodCondition": "හොඳ තත්වය",
+      "medium": "මධ්යම",
+      "requiresFixing": "සවි කිරීම්/සෑදීම් අවශ්‍යයි",
+      "requiresConstruction": "ඉදිකිරීම් අවශ්‍යයි",
+      "residential": "නේවාසික",
+      "comercial": "වාණිජ",
+      "industrial": "කාර්මික",
+      "agricultural": "කෘෂි"
+    }
+  },
+  "contact-times": {
+    "label": "සම්බන්ධතා කාලය",
+    "options": {
+      "anyTime": "ඕනෑම අවස්ථාවක",
+      "workingDays": "වැඩ කරන දවස්",
+      "officeHours": "කාර්යාල වේලාවන්",
+      "specificTimes": "නිශ්චිත කාලයන්"
+    }
+  },
+  "features": {
+    "heading": "විශේෂාංග",
+    "category": {
+      "kitchen": "කුස්සිය",
+      "bathroom": "නාන කාමරය",
+      "living-room": "විසිත්ත කාමරය",
+      "bedroom": "නිදන කාමරය",
+      "housing-extras": "වෙනත් අමතර",
+      "land-type": "ඉඩම් වර්ගය",
+      "buildingLand": "ගොඩනගන ඉඩම් සඳහා",
+      "forest-properties": "වනාන්තර දේපල",
+      "agriculture-properties": "කෘෂිකාර්මික දේපල"
+    }
+  },
+  "utilities": {
+    "heading": "උපයෝගිතා",
+    "total": "සමස්ත",
+    "items": {
+      "coldWater": "සීතල වතුර",
+      "hotWater": "උණු වතුර",
+      "electricity": "විදුලිය",
+      "garbage": "කුණු",
+      "propertyManagement": "දේපල කළමනාකරණය",
+      "heating": "උණුසුම් කිරීම",
+      "parking": "වාහන නැවැත්වීම",
+      "others": "වෙනත්"
+    }
+  }
+}

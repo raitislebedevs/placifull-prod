@@ -1,0 +1,63 @@
+{
+  "header": {
+    "flag-button": "මෙම අන්තර්ගතය සලකුණු කරන්න"
+  },
+  "detail-info": {
+    "button": "මට දැන්ම මාරැවීමට අවශ්‍යයි"
+  },
+  "contact-times": {
+    "heading": "වඩාත් යෝග්‍ය සම්බන්ධතා වේලාවන්"
+  },
+
+  "promoted": "උසස් කර ඇත",
+
+  "about": {
+    "heading": "පිළිබදව",
+    "featured": "උසස් කර ඇත",
+    "notFeatured": "උසස් කර නැත",
+    "rentTime": "මසකට",
+    "inputTimeDays": "දින ගණනකට පෙර"
+  },
+
+  "general-info": {
+    "heading": "සාමාන්ය තොරතුරු",
+    "brand": "ප්‍රවාහන  වෙළඳ නාමය",
+    "model": "ප්‍රවාහන  ආකෘතිය",
+    "year": "අවුරුද්ද",
+    "price": "මිල",
+    "distance": "සැතපුම්",
+    "max-speed": "උපරිම වේගය",
+    "fuel-economy": "ඉන්ධන ආර්ථිකය",
+    "seats": "ආසන",
+    "doors": "දොරවල්",
+    "bid-price": "ප්‍රවාහන කටයුතු සඳහා ලංසු මිල",
+    "submit": "ලංසුව",
+    "bid-placeholder": "ලංසු 20 % ක ආන්තිකයකින්"
+  },
+  "features": {
+    "heading": "විශේෂාංග"
+  },
+  "contact-form": {
+    "not-specified": "විශේෂයෙන් දක්වා නැති",
+    "heading": "ඍජුවම අයිතිකරු අමතන්න",
+    "form": {
+      "heading": "ඔබේ ප්‍රශ්නය මෙතැනින් ලියන්න",
+      "fullName": "සම්පූර්ණ නම*",
+      "phoneNumber": "දුරකථන අංකය*",
+      "email": "විද්‍යුත් තැපැල් ලිපිනය*",
+      "message": "ඔබගේ පණිවිඩය",
+      "submit": "පණිවුඩය යවන්න"
+    }
+  },
+  "extra": {
+    "heading": "මෙම ගිණුමේ පැතිකඩ මඟින් ලැයිස්තුගත කර ඇති වෙනත් ප්‍රවාහන",
+    "table": {
+      "number": "Nr.",
+      "country": "රට",
+      "brand-model": "මාදිලිය/වෙළඳ නාමය",
+      "price": "මිල",
+      "condition": "තත්ත්වය",
+      "production-year": "අවුරුද්ද"
+    }
+  }
+}

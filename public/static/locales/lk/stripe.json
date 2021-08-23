@@ -1,0 +1,37 @@
+{
+  "main": {
+    "success": "ගෙවීම සාර්ථක විය.",
+    "plan_update": "අපට ඔබේ සැලැස්ම යාවත්කාලීන කළ නොහැක.",
+    "card_not": "කාඩ්පතෙන් අය නොකරන ලදී",
+    "pay": "ගෙවන්න: €",
+    "processing": "සැකසෙමින්…"
+  },
+  "placeholders": {
+    "name": "Jane Doe",
+    "email": "janedoe@placifull.com",
+    "phone": "(941) 555-7777"
+  },
+  "incomplete": {
+    "incomplete_cvc": "ඔබගේ කාඩ්පතේ ආරක්‍ෂක කේතය අසම්පූර්ණයි.",
+    "incomplete_expiry": "ඔබගේ කාඩ් පතේ කල් ඉකුත් වීමේ දිනය අසම්පූර්ණයි.",
+    "incomplete_number": "ඔබගේ කාඩ්පත් අංකය අසම්පූර්ණයි.",
+    "email_invalid": "විද්‍යුත් තැපෑල වලංගු නොවේ"
+  },
+
+  "declined": {
+    "card_declined": "ඔබගේ කාඩ්පත ප්‍රතික්ෂේප කර ඇත"
+  },
+  "checkout": {
+    "billing": "කරුණාකර බිල්පත් තොරතුරු පුරවන්න",
+    "card-details": "කරුණාකර කාඩ්පත් තොරතුරු ලබා දෙන්න",
+    "cancel": "අවලංගු කරන්න"
+  },
+  "labels": {
+    "plan": "සැලැස්ම",
+    "quantity": "ප්‍රමාණය/Qty.",
+    "name": "නම",
+    "email": "විද්‍යුත් තැපෑල",
+    "phone": "දුරකථන අංකය.",
+    "referral": "යොමු කේතය"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "title": "සොයන්න නිශ්චල දේපල ලැයිස්තුගත කිරීම්",
+  "hero": {
+    "form": {
+      "search-fields": {
+        "min-price": "අවම මිල",
+        "max-price": "උපරිම මිල",
+        "min-rooms": "අවම කාමර",
+        "max-rooms": "උපරිම කාමර",
+        "min-area": "අවම ප්‍රදේශය",
+        "max-area": "උපරිම ප්‍රදේශය",
+        "move-in-date": "මාරැ වන දිනය සිට",
+        "move-out-date": "මාරැ වන දිනය දක්වා",
+        "currency": "මුදල්"
+      },
+
+      "submit": "දැන්ම සොයන්න",
+      "accordion": "වැඩි දියුණු කළ සෙවීම",
+      "accordion-right": {
+        "utility-label": "උපයෝගිතා බිල් පරාසය",
+        "utility": {
+          "from-price": "සිට: 0.00",
+          "to-price": "දක්වා: 9,999,999,999"
+        },
+        "year-label": "ඉදි කළ වර්ෂය",
+        "built": {
+          "from-year": "සිට: 1000",
+          "to-year": "දක්වා: 9999"
+        },
+        "measurement-label": "මිනුම්",
+        "system": {
+          "none": "එකක්වත් නැත",
+          "metric": "මෙට්රික් එම්",
+          "imperial": "අධිරාජ්ය අඩි"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "තෝරා ගනු ලබනුයේ",
+        "options": {
+          "price": "මිල",
+          "area": "ප්‍රදේශය",
+          "rooms": "කාමර",
+          "street-name": "වීදියේ නම",
+          "popularity": "ජනප්‍රියත්වය",
+          "views": "බැලුවා",
+          "country": "රට",
+          "insert-date": "දිනය ඇතුළත් කරන්න"
+        }
+      }
+    }
+  },
+  "blog": {
+    "heading": "බ්ලොගයෙන්",
+    "see-more": "වැඩිදුර කියවන්න"
+  },
+  "error": {
+    "tags": "කරුණාකර අප හා සම්බන්ධ වන්න: 'ටැග්ස් හමුවුයේ නැත'"
+  },
+  "no-tags": "මෙම විකල්පය සඳහා විශේෂාංග නොමැත"
+}

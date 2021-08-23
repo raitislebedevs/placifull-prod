@@ -1,0 +1,56 @@
+{
+  "heading": "ලැයිස්තුව ඉදිරිපත් කරන්න",
+  "title": "රැකියා",
+  "form": {
+    "submit-confirm": "දත්ත පටිගත කරමින්...",
+    "preview-sneak-peak": "උත්පාදනය වෙමින්...",
+    "preview": "පෙරදසුන",
+    "no-currency": "මුදල්",
+    "no-features": "කරුණාකර ලැයිස්තුගත කරන වර්‍ගය තෝරන්න",
+    "job-title": {
+      "title": "තනතුරු නාමය",
+      "placeholder": "තනතුරේ නම උදා. Placifull අනුග්‍රාහකයා."
+    },
+    "company": "සමාගම් නාමය",
+    "submit": "ඉදිරිපත් කරන්න",
+    "general-information": {
+      "heading": "සාමාන්ය තොරතුරු",
+      "input-fields": {
+        "description": "තනතුරු විස්තරය",
+        "requirements": "තනතුරු අවශ්‍යතා",
+        "beneftis": "තනතුරු ප්‍රතිලාභ"
+      }
+    },
+    "detail-information": {
+      "heading": {
+        "contact": "සබඳතා තොරතුරු",
+        "detail-requirements": "සවිස්තරාත්මක අවශ්‍යතා"
+      },
+      "contact": {
+        "heading": "අමතන්න",
+        "email": "විද්‍යුත්  තැපෑල",
+        "phone": "දුරකථන අංකය",
+        "address": "ලිපිනය",
+        "listing-website": "වෙබ් අඩවිය: https: //"
+      }
+    },
+    "gallery": {
+      "heading": "සමාගමේ ලාංඡනය",
+      "click-drop": "මෙතැන ක්ලික් කරන්න හෝ ලාංඡනය ඇදගෙන ඇවිත් දමන්න",
+      "video-url": "වීඩියෝ url: https: //"
+    },
+    "contact-hours": {
+      "heading": "වැඩ කරන පැය",
+      "heading-tip": "විකල්ප",
+      "accordion": {
+        "heading": "සේවකයාට වැඩ කිරීමට අවශ්‍ය වන අවස්ථා ...",
+        "start-time": "වැඩ පටන් ගන්නේ",
+        "end-time": "වැඩ අවසන් වන්නේ"
+      }
+    },
+    "input-languages": {
+      "label": "දැන ගැනීමට අවශ්‍ය භාෂා. (ඉංග්රීසි)",
+      "labelNative": "දැන ගැනීමට අවශ්‍ය භාෂා. (ස්වදේශික)"
+    }
+  }
+}

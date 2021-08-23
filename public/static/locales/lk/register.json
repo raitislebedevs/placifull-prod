@@ -1,0 +1,31 @@
+{
+  "heading": "ලියාපදිංචි වන්න",
+  "title": "අපි ඔබ එනතුරු බලා සිටියෙමු!",
+  "form": {
+    "first-name": "  මුල් නම",
+    "last-name": "  අවසන් නම",
+    "your-email": "  ඔබගේ විද්‍යුත් තැපැල් ලිපිනය",
+    "email": "  විද්‍යුත් තැපෑල",
+    "password": "  රහස් පදය",
+    "confirm-password": "  මුරපදය තහවුරු කරන්න",
+    "submit": "  ලියාපදිංචි වන්න",
+    "terms-text": "  මම පිළිගන්නවා",
+    "terms-link": "  නියමයන් සහ කොන්දේසි",
+    "error": {
+      "email-invalid": "  විද්‍යුත් තැපෑල වලංගු නොවේ.",
+      "email-required": "  විද්‍යුත් තැපෑල අවශ්‍යයි.",
+      "password-required": "  මුරපදය අවශ්යයි",
+      "first-name-required": "  පළමු නම අවශ්‍යයි",
+      "last-name-required": "  අවසාන නම අවශ්‍යයි",
+      "confirm-password-required": "  කරුණාකර ඔබගේ මුරපදය තහවුරු කරන්න",
+      "accept-terms": "  කොන්දේසි සහ කොන්දේසි පිළිගැනීම අවශ්‍යයි",
+      "password-not-match": "  මුරපද නොගැලපේ"
+    }
+  },
+  "or": "  හෝ ලියාපදිංචි වන්න සමඟ",
+  "facebook": " Facebook",
+  "google": " Google",
+  "account": "  දැනටමත් ගිණුමක් තිබේද?",
+  "sign-in": "ඇතුලත් වන්න",
+  "success-text": "  සාර්ථකව ලියාපදිංචිවිය."
+}

@@ -1,0 +1,123 @@
+.tools_container {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  .feature_suggestion {
+    border-right: 2px solid rgb(0, 0, 0, 0.1);
+    @include media-breakpoint-down(md) {
+      border: none;
+      border-bottom: 2px solid rgb(0, 0, 0, 0.1);
+      padding-bottom: 15px;
+    }
+    .separator {
+      margin: 15px 0px;
+      border-top: 3px solid theme-color("primary");
+      max-width: 25%;
+    }
+  }
+
+  .info {
+    @include media-breakpoint-down(md) {
+      text-align: center;
+    }
+    h6 {
+      font-size: 18px;
+      padding-bottom: 5px;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    @include media-breakpoint-down(md) {
+      padding-top: 15px;
+    }
+    .upvote__count {
+      font-size: 16px;
+      > svg {
+        color: theme-color("primary");
+        font-size: 37px;
+      }
+      padding: 0px 10px;
+    }
+  }
+
+  .tool_button {
+    background-color: theme-color("primary");
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 15px;
+    &:hover {
+      background-color: darken($color: theme-color("primary"), $amount: 10);
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  .monthly__payment {
+    font-size: x-large;
+    text-align: center;
+  }
+
+  .table__overflow {
+    margin-top: 25px;
+    overflow-x: auto;
+    .extra__heading {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      margin-bottom: 15px;
+      color: #1f1f1f;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .table__Listing {
+      overflow-x: auto;
+      width: 100%;
+
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #343a40;
+        color: white;
+      }
+      tr:nth-child(even) {
+        background-color: #f5f5f5;
+      }
+      .standalone__row {
+        &:hover {
+          cursor: pointer;
+          color: brown;
+        }
+      }
+
+      .first__col__row {
+        border-top: 1px solid #fff;
+        border-left: 1px solid #fff;
+        border-radius: 20px 0 0 0;
+      }
+
+      .last__col__row {
+        border-top: 1px solid #fff;
+        border-right: 1px solid #fff;
+        border-radius: 0 20px 0 0;
+      }
+    }
+  }
+  .table__footer {
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #343a40;
+    color: white;
+  }
+}

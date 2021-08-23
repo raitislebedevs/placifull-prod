@@ -1,0 +1,401 @@
+{
+  "title": "ගිණුමේ පැතිකඩ",
+  "overview": {
+    "button-label": {
+      "change": "පින්තූරය වෙනස් කරන්න",
+      "delete": "පින්තූරය මකන්න",
+      "save-all": "සියල්ල සුරකින්න",
+      "preview": "පෙරදසුන"
+    },
+    "setting-label": "මිලදී ගත්තා",
+    "delete-avatar-modal": {
+      "header": "'Avatar'එක මකන්න",
+      "body": "ඔබට ඔබේ 'Avatar'එක මැකීමට අවශ්‍යද?",
+      "submit": "මකන්න",
+      "cancel": "අවලංගු කරන්න"
+    }
+  },
+  "hover-texts": {
+    "real-estate": "නිශ්චල දේපල පෝස්ටු",
+    "transport": "ප්‍රවාහනය පෝස්ටු",
+    "job": "රැකියා පෝස්ටු",
+    "browser": "බ්‍රව්සර් CV"
+  },
+  "left-tab": {
+    "navigation": "සංචලනය",
+    "titles": {
+      "profile": "ගිණුමේ පැතිකඩ",
+      "cv": "CV",
+      "real-estate": "නිශ්චල දේපල",
+      "transport": "ප්‍රවාහනය",
+      "jobs": "රැකියා",
+      "browser": "බ්‍රව්සර් CV",
+      "payment": "ගෙවීම් රිසිට්පත්",
+      "logout": "ඉවත් වීම"
+    }
+  },
+  "right-content": {
+    "prev-button": "පෙර පියවර",
+    "next-button": "ඊළඟ පියවර",
+    "profile": {
+      "personal-details": {
+        "heading": "පෞද්ගලික විස්තර:",
+        "labels": {
+          "profession": "අනන්යතාව පිළිබඳ වෘත්තිය",
+          "first-name": "මුල් නම",
+          "last-name": "අවසන් නම",
+          "email": "ඔබේ විද්‍යුත් තැපැල් ලිපිනය",
+          "phone-number": "දුරකථන අංකය.",
+          "about-me-heading": "මා පිළිබදව",
+          "about-me": "ඔබ පිළිබදව වෙනස කුමක්ද?",
+          "country": "රට",
+          "state": "ජනපදය/කලාපය",
+          "city": "නගරය",
+          "birth-date": "උපන් දිනය",
+          "gender": {
+            "label": "ලිංගික",
+            "men": "පිරිමි",
+            "women": "ගැහැණු",
+            "not-specified": "පෙන්වන්න එපා"
+          },
+          "age": {
+            "label": "වයස පෙන්වන්න",
+            "yes": "ඔව්",
+            "no": "නැත",
+            "only-birth-date": "උපන් දිනය පමණි"
+          }
+        },
+        "button-save": "වෙනස්කම් සුරකින්න"
+      },
+      "password-form": {
+        "text": "මුරපදය වෙනස් කරන්න:",
+        "old-password": "පැරණි මුරපදය",
+        "new-password": "නව මුරපදය",
+        "confirm-password": "මුරපදය තහවුරු කරන්න",
+        "button-save": "මුරපදය සුරකින්න",
+        "validation": {
+          "current-password-required": "කරුණාකර මුරපදය තහවුරු කරන්න",
+          "new-password-required": "නව මුරපදය අස්ථානගත වී ඇත",
+          "password-not-match": "මුරපද නොගැලපේ",
+          "confirm-password-required": "කරුණාකර මුරපදය තහවුරු කරන්න"
+        }
+      },
+      "delete-form": {
+        "text": "ගිණුම මකන්න:",
+        "content": "ඔබට ගිණුම මැකීමට අවශ්‍යද? කරුණාකර පහත ඇති 'මකන්න' බොත්තම ඔබන්න",
+        "button-delete": "ගිණුම මකන්න"
+      },
+      "validation": {
+        "first-name": "මුල් නම අවශ්‍යයි",
+        "last-name": "අන්තිම නම අවශ්‍යයි"
+      }
+    },
+    "tabs": {
+      "actions": {
+        "sell": "විකිණීමට",
+        "rent": "කුලියට",
+        "exchange": "හුවමාරුවට"
+      },
+      "common": {
+        "button-edit": "සංස්කරණය කරන්න",
+        "button-reviews": "සමාලෝචන",
+        "button-delete": "මකන්න",
+        "days-left": "දින ඉතිරිව ඇත",
+        "title": "මගේ ලැයිස්තුගත කිරීම්",
+        "highest": "වැඩිම ලංසුව",
+        "lowest": "අඩුම ලංසුව"
+      },
+      "job": {
+        "count": "අයදුම්කරුවන් ගණන",
+        "avarage": "සාමාන්ය දීමනාව",
+        "lowest": "අඩුම දීමනාව",
+        "highest": "ඉහළම දීමනාව",
+        "button": "සියල්ල බලන්න"
+      },
+      "browser": {
+        "common": {
+          "area": "වැඩ කරන ප්‍රදේශය"
+        },
+        "title": "CV පිරික්සන්න",
+        "search": {
+          "button": "සෙවීම",
+          "expirience": {
+            "label": "අත්දැකීම",
+            "options": {}
+          },
+          "hourly-to": "පැය ගණන් දක්වා",
+          "monthly-to": "මාසික දක්වා",
+          "annual-to": "වාර්ෂික දක්වා"
+        },
+        "table": {
+          "name": "නම",
+          "email": "විද්‍යුත් තැපෑල",
+          "phone": "දුරකථන අංකය",
+          "salary": "අපේක්ෂිත වැටුප"
+        }
+      },
+      "receipt": {
+        "title": "ගෙවීම් රිසිට්පත්",
+        "search": {
+          "search-from": "ආරම්භක දිනය තෝරන්න",
+          "search-to": "අවසන් දිනය තෝරන්න",
+          "button": "සෙවීම"
+        },
+        "table": {
+          "order": "නියෝගය අංක.",
+          "date": "දිනය",
+          "premium": "උසස් කර ඇත",
+          "add-days": "අමතර දින",
+          "type": "ලැයිස්තුගත වර්ගය"
+        }
+      }
+    },
+    "cv": {
+      "title": "Curriculum Vitae",
+      "sections": {
+        "personal-details": {
+          "form": {
+            "title": "පුද්ගලික තොරතුරු",
+            "first-name": "මුල් නම",
+            "last-name": "අවසන් නම",
+            "email": "විද්‍යුත් තැපෑල",
+            "phone": "දුරකථන",
+            "birthday": "උපන් දිනය",
+            "age": {
+              "label": "වයස පෙන්වන්න",
+              "options": {
+                "yes": "ඔව්",
+                "no": "නැත",
+                "only-birthdate": "උපන් දිනය පමණි"
+              }
+            },
+            "gender": {
+              "label": "ස්ත්‍රී-පුරුෂ භාවය",
+              "options": {
+                "male": "පිරිමි",
+                "female": "ගැහැණු",
+                "dont–show": "පෙන්වන්න එපා"
+              }
+            },
+            "about-me": "ඔබ පිළිබදව වෙනස කුමක්ද?",
+            "cv-published": "ප්‍රකාශයට පත් කරන ලදි",
+            "cv-hidden": "සැඟවුවා"
+          }
+        },
+        "education": {
+          "title": "අධ්‍යාපනය",
+          "accordion": {
+            "school": "පාසලේ නම",
+            "country": "රට",
+            "from-date": "දින සිට",
+            "to-date": "දින දක්වා",
+            "study-area": "අධ්‍යාපන ක්ෂේත්‍රය",
+            "qualification": {
+              "title": "සුදුසුකම්",
+              "options": {
+                "primary": "ප්‍රාථමික",
+                "secondary": "ද්විතියික",
+                "vocational": "වෘත්තීය",
+                "bachelors": "උපාධිය",
+                "master": "මාස්ටර්",
+                "doctorate": "ආචාර්ය උපාධිය",
+                "other": "වෙනත්"
+              }
+            },
+            "best-fit": "වෘත්තීය සුදුසුකම",
+            "grade": "සාමාන්‍ය ශ්‍රේණිය",
+            "button-add": "අධ්‍යාපනය එකතු කරන්න"
+          }
+        },
+        "expierience": {
+          "title": "වැඩ පළපුරුද්ද",
+
+          "company-name": "සමාගම් නාමය",
+          "from-date": "දින සිට",
+          "to-date": "දින දක්වා",
+          "work-area": "වැඩ කරන ප්‍රදේශය",
+          "position": "තනතුර",
+          "position-description": "තනතුරු විස්තරය",
+          "sector": "රැකියා අංශය",
+          "seniority": {
+            "title": "ජ්‍යෙෂ්ඨත්වය",
+            "options": {
+              "volunteer": "ස්වේච්ඡා සේවකයා",
+              "intern": "සීමාවාසික",
+              "junior": "කනිෂ්ඨ",
+              "intermediate": "අතරමැදි",
+              "senior": "ජ්‍යෙෂ්ඨ",
+              "executive": "විධායක",
+              "ceo": "විධායක නිලධාරී",
+              "other": "වෙනත්"
+            }
+          },
+
+          "button-add": "අත්දැකීම් එකතු කරන්න"
+        },
+        "languages": {
+          "title": "භාෂා කුසලතා",
+          "accordion": {
+            "language": "භාෂාව",
+            "certificate": "සහතිකයේ නම",
+            "level": {
+              "label": "මට්ටම",
+              "options": {
+                "a1": "A1",
+                "a2": "A2",
+                "b1": "B1",
+                "b2": "B2",
+                "c1": "C1",
+                "c2": "C2",
+                "native": "ස්වදේශික"
+              }
+            },
+            "button-add": "නිපුණතා එකතු කරන්න"
+          }
+        },
+        "computer": {
+          "title": "පරිගණක කුසලතාවන්",
+          "accordion": {
+            "skill-name": "පරිගණක කුසලතාව",
+            "knowladge-gained": {
+              "label": "ලබා ගත් දැනුම",
+              "options": {
+                "selfTaught": "ස්වයං ඉගැන්වීම",
+                "course": "පාඨමාලාව",
+                "freelance": "නිදහස්",
+                "contractProject": "කොන්ත්‍රාත් ව්යාපෘතිය",
+                "fullTimeJob": "පූර්ණ කාලීන රැකියා",
+                "other": "වෙනත්"
+              }
+            },
+            "expierience": {
+              "label": "අත්දැකීම",
+              "uptoOne": "<වසර 1 යි",
+              "oneToThree": "වසර 1-3",
+              "threeToFive": "වසර 3-5",
+              "fiveToTen": "වසර 5-10",
+              "tenToFifteen": "වසර 10-15",
+              "moreThanFifteen": "වසර 15+"
+            },
+            "certificate": "සහතිකයේ නම",
+            "button-add": "නිපුණතා එකතු කරන්න"
+          }
+        },
+        "licenses": {
+          "title": "ප්‍රවාහන බලපත්‍රය",
+          "accordion": {
+            "country": "ලබා දුන් රට",
+            "expierience": {
+              "label": "අත්දැකීම",
+              "uptoOne": "<වසර 1 යි",
+              "oneToThree": "වසර 1-3",
+              "threeToFive": "වසර 3-5",
+              "fiveToTen": "වසර 5-10",
+              "tenToFifteen": "වසර 10-15",
+              "moreThanFifteen": "වසර 15+"
+            },
+            "category": "බලපත්‍ර කාණ්ඩය",
+            "button-add": "බලපත්‍රය එකතු කරන්න"
+          }
+        },
+        "expectations": {
+          "title": "රැකියා බලාපොරොත්තු",
+          "accordion": {
+            "title": "රැකියා බලාපොරොත්තු",
+            "interest": "උනන්දුවක් දක්වන අංශය",
+            "position": "තනතුර",
+            "seniority": {
+              "title": "ජ්‍යෙෂ්ඨත්වය",
+              "options": {
+                "volunteer": "ස්වේච්ඡා සේවකයා",
+                "intern": "සීමාවාසික",
+                "junior": "කනිෂ්ඨ",
+                "intermediate": "අතරමැදි",
+                "senior": "ජ්‍යෙෂ්ඨ",
+                "executive": "විධායක",
+                "ceo": "විධායක නිලධාරී",
+                "other": "වෙනත්"
+              }
+            },
+            "hourly": "පැය සිට",
+            "monthly": "මාසිකව සිට",
+            "yearly": "වාර්ෂිකව සිට",
+            "button-add": "අපේක්ෂාවන් එකතු කරන්න"
+          }
+        }
+      }
+    },
+    "browser-cv": {
+      "browser": "බ්‍රව්සර් CV",
+      "search": "සෙවීම",
+      "work-expierience": "රැකියා පළපුරුද්ද",
+      "work-expectations": "රැකියා බලාපොරොත්තු",
+      "education-fit": "අධ්‍යාපනයට සුදුසුකම්",
+      "salary-hourly": "පැය ගණන් වැටුප දක්වා ",
+      "salary-monthly": "මාසික වැටුප දක්වා ",
+      "salary-annual": "වාර්ෂික වැටුප දක්වා ",
+      "seniority": "ජ්‍යෙෂ්ඨත්වය",
+      "monthly": " /මාසිකව",
+      "result-table": {
+        "nr": "ආචාර්ය",
+        "name": "සම්පූර්ණ නම",
+        "email": "විද්‍යුත් තැපෑල",
+        "phone": "දුරකථන",
+        "worked-as": "අවසාන තනතුර,",
+        "salary": "අපේක්ෂිත වැටුප",
+        "cv": "CV",
+        "view": "බලන්න"
+      }
+    },
+    "receipt": {
+      "title": "ගෙවීම් රිසිට්පත්",
+      "start-date": "ආරම්භක දිනය",
+      "end-date": "අවසාන දිනය",
+      "table": {
+        "reference": "නියෝග #",
+        "date": "දිනය",
+        "purchase": "සැලැස්ම",
+        "total": "ප්‍රමාණය",
+        "status": "තත්ත්වය"
+      }
+    }
+  },
+  "toast": {
+    "succes": "ගිණුමේ පැතිකඩ යාවත්කාලීන කරන ලදි",
+    "fail": "ගිණුමේ පැතිකඩ යාවත්කාලීන කළේ නැත",
+    "avatar": "'Avatar'එක යාවත්කාලීන කරන ලදි",
+    "avatar-fail": "'Avatar'එක යාවත්කාලීන කිරීමට අසමත් විය",
+    "avatar-remove": "'Avatar'එක ඉවත් කළා",
+    "avatar-remove-fail": "'Avatar'එක ඉවත් නොකළේය",
+    "logout": "ඉවත් විය",
+    "password": "මුරපදය වෙනස් කරන ලදි",
+    "password-fail": "මුරපදය වෙනස් කළේ නැත",
+    "item-deleted": "ලැයිස්තු මකන ලදි"
+  },
+  "delete-modal": {
+    "header": "ලැයිස්තුගත කිරීම මකන්න",
+    "body": "ඔබට මෙම ලැයිස්තු මකා දැමීමට අවශ්‍ය බව ඔබට විශ්වාසයි ද?",
+    "cancel": "අවලංගු කරන්න",
+    "delete": "මකන්න"
+  },
+  "delete-account": {
+    "header": "ගිණුම මකන්න",
+    "body": "ඔබට ඔබේ ගිණුම මැකීමට අවශ්‍ය බව විශ්වාසයි ද?",
+    "cancel": "අවලංගු කරන්න",
+    "delete": "මකන්න"
+  },
+  "reffaral": {
+    "heading": "යොමු කිරීමේ වැඩසටහන",
+    "balance": "ශේෂය",
+    "code": "යොමු කේතය",
+    "percantage": "ප්‍රතිශතය",
+    "next": "ඊළඟ වැඩි කිරීම",
+    "withdraw": "ඉවත් කර ගන්න"
+  },
+  "referral-modal": {
+    "body-text": "මේ මොහොතේ අපි මුදල් ආපසු ගැනීම අතින් සිදු කරන්නෙමු. කරුණාකර අප හා සම්බන්ධ වන්න, අපි මෙය විසඳන්නෙමු :)",
+    "header-text": "විස්තර",
+    "submit-text": "අප අමතන්න",
+    "close-text": "වසන්න"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "heading": "ලැයිස්තු ඉදිරිපත් කරන්න",
+  "title": "ප්‍රවාහනය",
+  "form": {
+    "submit": "ඉදිරිපත් කරන්න",
+    "submit-confirm": "දත්ත පටිගත කරමින් ...",
+    "preview-sneak-peak": "උත්පාදනයවෙමින් ...",
+    "preview": "පෙරදසුන",
+    "currency": "මුදල්",
+    "no-currency": "සියල්ල ",
+    "general-information": {
+      "heading": "සාමාන්ය තොරතුරු",
+      "transport-type": "ප්‍රවාහන වර්ගය",
+      "action": "ක්‍රියාව",
+      "condition": "තත්ත්වය",
+      "input-fields": {
+        "description": "විස්තර",
+        "brand": "ප්‍රවාහන වෙළඳ නාමය",
+        "model": "ප්‍රවාහන ආකෘතිය",
+        "production-year": "නිෂ්පාදන වර්ෂය",
+        "price": "මිල",
+        "engine-type": "එන්ජින් වර්ගය",
+        "gear-box": "ගියර් පෙට්ටිය",
+        "millage": "සැතපුම්",
+        "speed": "උපරිම වේගය",
+        "fueal-economy": "ඉන්ධන ආර්ථිකය",
+        "seats": "ආසන ගණන",
+        "doors": "දොරවල් ගණන",
+        "name": "ප්‍රවාහන ලැයිස්තුගත කිරීමේ නම"
+      }
+    },
+    "detail-information": {
+      "heading": "තොරතුරු විස්තර",
+      "contact": {
+        "heading": "අමතන්න",
+        "email": "විද්‍යුත් තැපෑල",
+        "address": "ලිපිනය",
+        "contact-times": {
+          "label": "සම්බන්ධතා කාලය",
+          "placeholder": "කැමති සම්බන්ධතා කාලය තෝරන්න",
+          "options": {
+            "any-time": "ඕනෑම අවස්ථාවක",
+            "working-days": "වැඩ කරන දවස්",
+            "office-hours": "කාර්යාල වේලාවන්",
+            "specific-times": "නිශ්චිත කාලයන්"
+          }
+        },
+        "listing-website": "වෙබ් අඩවිය: https: //"
+      },
+      "features": {
+        "heading": "විශේෂාංග",
+        "category": {
+          "equipment": "උපකරණ",
+          "interior": "අභ්යන්තර",
+          "steering-wheel": "සුක්කානම",
+          "seats": "ආසන",
+          "lights": "පහන්",
+          "audio-video": "ශ්‍රව්‍ය/වීඩියෝ",
+          "mirrros": "දර්පණ"
+        }
+      }
+    },
+    "gallery": {
+      "heading": "ගැලරිය",
+      "click-drop": "මෙතැන ක්ලික් කරන්න හෝ ඉමේජ්ය ඇදගෙනවිත් දමන්න",
+      "video-url": "වීඩියෝ url: https: //"
+    },
+    "contact-hours": {
+      "heading": "සම්බන්ධතා පැය",
+      "heading-tip": "විකල්ප",
+      "accordion": {
+        "heading": "හමුවීමට/ ඇමතුමට වඩාත් සුදුසු වේලාවන් එක් කරන්න ...",
+        "start-time": "සිට",
+        "end-time": "දක්වා"
+      }
+    }
+  }
+}
