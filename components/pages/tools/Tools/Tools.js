@@ -24,7 +24,6 @@ const Tools = (props) => {
     const value = event?.target?.value ?? event?.value ?? event;
     const id = event?.target?.id ?? event?.id;
     setInputValues({ ...inputValues, [id]: value });
-    console.log(inputValues);
   };
   const dropdownHandleChange = (e) => {
     handleOnChange({ target: { value: e.target.value, id: e.target.id } });
@@ -47,18 +46,21 @@ const Tools = (props) => {
 
     let type = inputValues?.percentageType;
     let paymentPeriodType = inputValues?.paymentPeriod;
-    console.log(type, paymentPeriodType);
 
     if (paymentPeriodType == 'year') {
       mortgageTime *= 12;
-      console.log('Time', mortgageTime);
     }
-
-    console.log(mortgageTime);
 
     let amortization = [];
     let regularPayment = (amount / mortgageTime).toFixed(2);
     let totalSums = { monthlyInterest: 0, mortgageSum: 0, total: 0 };
+    let mortgageMonthlyPayment = 0;
+    if (type == 'even') {
+      let rate = percentage / 12;
+      mortgageMonthlyPayment =
+        (amount * (rate * Math.pow(1 + rate, mortgageTime))) /
+        (Math.pow(1 + rate, mortgageTime) - 1);
+    }
 
     while (amount > 0) {
       let fromPaymentDate = new Date(fromDate);
@@ -69,27 +71,107 @@ const Tools = (props) => {
       let monthlyPayment = parseFloat(
         (((amount * percentage) / 360) * accruedDays).toFixed(2)
       );
-      let totalAmount = parseFloat(monthlyPayment) + parseFloat(regularPayment);
+      if (type != 'even') {
+        if (amount - regularPayment > 0) {
+          let totalAmount =
+            parseFloat(monthlyPayment) + parseFloat(regularPayment);
+          amortization.push({
+            paymentDate: formatDate(paymentDate, t),
+            percantage: `${monthlyPayment.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            fromMortgageSum: `${regularPayment} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            total: `${totalAmount.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            left: `${(amount - regularPayment).toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+          });
 
-      totalSums.monthlyInterest += monthlyPayment;
-      totalSums.mortgageSum += parseFloat(regularPayment);
-      totalSums.total += totalAmount;
+          totalSums.monthlyInterest += monthlyPayment;
+          totalSums.mortgageSum += parseFloat(regularPayment);
+          totalSums.total += totalAmount;
+        }
 
-      amortization.push({
-        paymentDate: formatDate(paymentDate, t),
-        percantage: `${monthlyPayment} ${submitCurrency || 'ALL'}`,
-        fromMortgageSum: `${regularPayment} ${submitCurrency || 'ALL'}`,
-        total: `${totalAmount.toFixed(2)} ${submitCurrency || 'ALL'}`,
-        left: `${(amount - regularPayment).toFixed(2)} ${
-          submitCurrency || 'ALL'
-        }`,
-      });
+        if (amount - regularPayment < 0) {
+          let totalAmount = parseFloat(monthlyPayment) + parseFloat(amount);
+
+          amortization.push({
+            paymentDate: formatDate(paymentDate, t),
+            percantage: `${parseFloat(monthlyPayment).toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            fromMortgageSum: `${parseFloat(amount).toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            total: `${totalAmount.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            left: `${0} ${submitCurrency || t('tools:mortgage.no-currency')}`,
+          });
+
+          totalSums.monthlyInterest += monthlyPayment;
+          totalSums.mortgageSum += parseFloat(amount);
+          totalSums.total += totalAmount;
+        }
+      }
+
+      if (type == 'even') {
+        regularPayment =
+          parseFloat(mortgageMonthlyPayment) - parseFloat(monthlyPayment);
+        if (amount - regularPayment > 0) {
+          amortization.push({
+            paymentDate: formatDate(paymentDate, t),
+            percantage: `${monthlyPayment.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            fromMortgageSum: `${regularPayment.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            total: `${mortgageMonthlyPayment.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            left: `${(amount - regularPayment).toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+          });
+
+          totalSums.monthlyInterest += monthlyPayment;
+          totalSums.mortgageSum += parseFloat(regularPayment);
+          totalSums.total += mortgageMonthlyPayment;
+        }
+
+        if (amount - regularPayment < 0) {
+          const lastPayment = parseFloat(amount) + parseFloat(monthlyPayment);
+          amortization.push({
+            paymentDate: formatDate(paymentDate, t),
+            percantage: `${monthlyPayment.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            fromMortgageSum: `${amount.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            total: `${lastPayment.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            left: `${(0).toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+          });
+
+          totalSums.monthlyInterest += monthlyPayment;
+          totalSums.mortgageSum += parseFloat(amount);
+          totalSums.total += lastPayment;
+        }
+      }
+
       amount = amount - regularPayment;
     }
     setTotals(totalSums);
-    console.log(totalSums);
     setMortgage(amortization);
-    console.log(amortization[0]);
     setMonthlyPayment(amortization[0].total);
   };
 
@@ -105,14 +187,16 @@ const Tools = (props) => {
             xl={8}
             className={'feature_suggestion'}
           >
-            <h3 className={'suggestion_title'}>Mortgage Calculator</h3>
+            <h3 className={'suggestion_title'}>
+              {t('tools:mortgage.heading')}
+            </h3>
             <div className={'separator'}></div>
             <Row className={'suggestion__text'}>
               <Col lg={8} md={8} sm={8}>
                 <Form.Group>
                   <NumberFormat
                     customInput={CustomFormControl}
-                    label={'Mortgage amount'}
+                    label={t('tools:mortgage.amount')}
                     id={'mortgage'}
                     onValueChange={(e) => {
                       let payload = {
@@ -137,7 +221,7 @@ const Tools = (props) => {
                     prepend={
                       submitCurrency
                         ? { values: [submitCurrency] }
-                        : { values: ['ALL'] }
+                        : { values: [t('tools:mortgage.no-currency')] }
                     }
                   />
                 </Form.Group>
@@ -152,11 +236,11 @@ const Tools = (props) => {
                   />
                 </Form.Group>
               </Col>
-              <Col lg={4} md={4} sm={12}>
+              <Col lg={5} md={5} sm={12}>
                 <Form.Group>
                   <NumberFormat
                     customInput={CustomFormControl}
-                    label={'Percentage'}
+                    label={t('tools:mortgage.percentage')}
                     id={'percentage'}
                     onValueChange={(e) => {
                       let payload = {
@@ -181,11 +265,11 @@ const Tools = (props) => {
                       values: [
                         {
                           value: 'even',
-                          label: 'Even',
+                          label: t('tools:mortgage.even'),
                         },
                         {
                           value: 'desc',
-                          label: 'Descending',
+                          label: t('tools:mortgage.descending'),
                         },
                       ],
                       id: 'percentageType',
@@ -194,11 +278,11 @@ const Tools = (props) => {
                   />
                 </Form.Group>
               </Col>
-              <Col lg={4} md={4} sm={12}>
+              <Col lg={3} md={3} sm={12}>
                 <Form.Group>
                   <NumberFormat
                     customInput={CustomFormControl}
-                    label={'Time period'}
+                    label={t('tools:mortgage.time')}
                     id={'mortgageTime'}
                     onValueChange={(e) => {
                       let payload = {
@@ -216,18 +300,18 @@ const Tools = (props) => {
                     thousandsGroupStyle="thousand"
                     fixedDecimalScale={true}
                     isAllowed={(values) =>
-                      values.value >= 0 && values.value <= 99
+                      values.value >= 0 && values.value <= 480
                     }
                     inputValues={inputValues}
                     append={{
                       values: [
                         {
                           value: 'month',
-                          label: 'Months',
+                          label: t('tools:mortgage.month'),
                         },
                         {
                           value: 'year',
-                          label: 'Years',
+                          label: t('tools:mortgage.year'),
                         },
                       ],
                       id: 'paymentPeriod',
@@ -263,13 +347,13 @@ const Tools = (props) => {
           <Col xs={12} sm={12} md={12} lg={4} xl={4} className={'info'}>
             <div className={'rating_container'}>
               <div className={'monthly__payment'}>
-                <span>Monthly payment:</span>{' '}
+                <span>{t('tools:mortgage.payment')}:</span>{' '}
                 <span className={'amount'}>{formatNumber(monthlyPayment)}</span>
               </div>
             </div>
 
             <div className={'tool_button'} onClick={handleMortgageCalculation}>
-              Calculate
+              {t('tools:mortgage.submit')}
             </div>
           </Col>
         </Row>
@@ -283,13 +367,13 @@ const Tools = (props) => {
                 <thead className="thead-dark">
                   <tr>
                     <th className="first__col__row" scope="col">
-                      Payment Date
+                      {t('tools:mortgage.table.date')}
                     </th>
-                    <th scope="col">Interest payment</th>
-                    <th scope="col">Subtotal</th>
-                    <th scope="col">Total monthly</th>
+                    <th scope="col"> {t('tools:mortgage.table.interest')}</th>
+                    <th scope="col"> {t('tools:mortgage.table.principal')}</th>
+                    <th scope="col"> {t('tools:mortgage.table.total')}</th>
                     <th className={'last__col__row'} scope="col">
-                      Amount left
+                      {t('tools:mortgage.table.amount')}
                     </th>
                   </tr>
                 </thead>
@@ -310,15 +394,24 @@ const Tools = (props) => {
                 </tbody>
                 <tfoot className="table__footer">
                   <tr>
-                    <td className={'first__foot__col'}>Sum</td>
+                    <td className={'first__foot__col'}>
+                      {' '}
+                      {t('tools:mortgage.table.sum')}
+                    </td>
                     <td>{`${totals.monthlyInterest.toFixed(2)}   ${
-                      submitCurrency ? submitCurrency : 'ALL'
+                      submitCurrency
+                        ? submitCurrency
+                        : t('tools:mortgage.no-currency')
                     }`}</td>
                     <td>{`${totals.mortgageSum.toFixed(2)}   ${
-                      submitCurrency ? submitCurrency : 'ALL'
+                      submitCurrency
+                        ? submitCurrency
+                        : t('tools:mortgage.no-currency')
                     }`}</td>{' '}
                     <td>{`${totals.total.toFixed(2)}   ${
-                      submitCurrency ? submitCurrency : 'ALL'
+                      submitCurrency
+                        ? submitCurrency
+                        : t('tools:mortgage.no-currency')
                     }`}</td>
                     <td></td>
                   </tr>
