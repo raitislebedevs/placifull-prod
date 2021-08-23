@@ -1,0 +1,25 @@
+{
+  "title": "Playground section",
+  "subtitle": "Help tools",
+  "mortgage": {
+    "heading": "Mortgage calculator",
+    "amount": "Mortgage amount",
+    "percentage": "Percentage",
+    "time": "Time period",
+    "year": "Years",
+    "month": "Month",
+    "no-currency": "ALL",
+    "payment": "Monthly payment",
+    "even": "Even",
+    "descending": "Descending",
+    "submit": "Calculate",
+    "table": {
+      "date": "Payment date",
+      "interest": "Interst payment",
+      "principal": "Principal payment",
+      "total": "Total monthly",
+      "amount": "Amount left",
+      "sum": "Sum"
+    }
+  }
+}

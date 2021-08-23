@@ -8,11 +8,11 @@ const UserBoard = (props) => {
   return (
     <div className="termsPage-container main-container">
       <Head>
-        <title>{t('voting-board:title')}</title>
+        <title>{t('tools:title')}</title>
 
         <meta
           name="keywords"
-          content="voting board, user input, user suggestions, user meaningful, meaningful life, balsošanas dēlis, lietotāja ieteikumi, lietotāja viedoklis"
+          content="mortgage calculator, interest calculator, amortization schedule"
         />
       </Head>
       <HeroTerms t={t} />
@@ -22,7 +22,7 @@ const UserBoard = (props) => {
 };
 
 UserBoard.getInitialProps = async () => ({
-  namespacesRequired: ['voting-board', 'navbar', 'footer', 'error'],
+  namespacesRequired: ['tools', 'common', 'navbar', 'footer', 'error'],
 });
 
 UserBoard.propTypes = {
