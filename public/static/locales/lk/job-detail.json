@@ -1,0 +1,63 @@
+{
+  "header": {
+    "salary-month": "/මස",
+    "buttons": {
+      "apply": "දැන්ම අයදුම් කරන්න",
+      "share": "රැකියා බෙදා ගන්න"
+    }
+  },
+  "contact-form": {
+    "heading": "සමාගම සමඟ ඍජුව සම්බන්ධ වන්න",
+    "form": {
+      "heading": "ඔබේ ප්‍රශ්නය මෙතැනින් ලියන්න",
+      "fullName": "සම්පූර්ණ නම*",
+      "phoneNumber": "දුරකථන අංකය*",
+      "email": "විද්‍යුත් තැපැල් ලිපිනය*",
+      "message": "ඔබේ පණිවිඩය",
+      "submit": "පණිවුඩය යවන්න"
+    }
+  },
+  "about": {
+    "description": "විස්තර",
+    "requirements": "අවශ්‍යතා",
+    "benefits": "ප්‍රතිලාභ"
+  },
+  "job-overview": {
+    "heading": "රැකියා දළ විශ්ලේෂණය",
+    "items": {
+      "offered-salary": "පිරිනැමූ වැටුප",
+      "languages": "භාෂාව",
+      "native": "ස්වදේශික",
+      "industry": "කර්මාන්තය"
+    },
+    "views": "බැලූවන්",
+    "applicants": "අයදුම්කරුවන්",
+    "salary": {
+      "monthly": "මාසිකව",
+      "annual": "වාර්ෂික",
+      "hourly": "පැයකට"
+    }
+  },
+
+  "application": {
+    "header": "සඳහා අයදුම් කරන්න",
+    "body": {
+      "proposal": "යෝජිත වැටුප"
+    },
+    "info": "ඔබේ CV එක රැකියාවට යවනු ඇත*"
+  },
+
+  "extra": {
+    "heading": "මෙම ගිණුමේ පැතිකඩ මඟින් ලැයිස්තුගත කර ඇති රැකියා",
+    "table": {
+      "number": "Nr.",
+      "country": "රට",
+      "full-address": "කාර්යාල ලිපිනය",
+      "position": "තනතුර",
+      "contract": "කොන්ත්‍රාත් වර්ගය",
+      "time": "වැඩ කරන වෙලාව",
+      "salary": "සිට වැටුප",
+      "end-date": "අවසාන දිනය"
+    }
+  }
+}

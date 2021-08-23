@@ -1,0 +1,89 @@
+{
+  "color": {
+    "label": "වර්ණ",
+    "options": {
+      "red": "රතු",
+      "orange": "තැඹිලි",
+      "yellow": "කහ",
+      "green": "හරිත",
+      "blue": "නිල්",
+      "violent": "වයලට්",
+      "pink": "රෝස",
+      "tan": "ටැන්",
+      "beige": "ලා දුඹුරු",
+      "white": "සුදු",
+      "silver": "රිදී",
+      "gray": "අළු",
+      "black": "කලු",
+      "brown": "දුඹුරු",
+      "gold": "රන්",
+      "indigo": "ඉන්ඩිගෝ",
+      "purple": "දම්",
+      "lime": "දෙහි",
+      "azure": "අසුර්",
+      "other": "වෙනත්"
+    }
+  },
+  "gear-box": {
+    "label": "ගියර් පෙට්ටිය",
+    "options": {
+      "manual": "අත්පොත",
+      "automatic": "ස්වයංක්‍රීය",
+      "other": "වෙනත්"
+    }
+  },
+  "engine": {
+    "label": "එන්ජින් වර්ගය",
+    "options": {
+      "diesel": "ඩීසල්",
+      "benzine": "බෙන්සීන්",
+      "gas": "ගෑස්",
+      "electric": "විද්‍යුත්",
+      "other": "වෙනත්"
+    }
+  },
+  "features": {
+    "heading": "විශේෂාංග",
+    "category": {
+      "equipment": "උපකරණ",
+      "interior": "අභ්යන්තර",
+      "steering-wheel": "සුක්කානම",
+      "seats": "ආසන",
+      "lights": "පහන්",
+      "audio-video": "ශ්‍රව්‍ය/වීඩියෝ",
+      "mirrors": "දර්පණ"
+    }
+  },
+  "condition": {
+    "label": "තත්ත්වය",
+    "options": {
+      "brandNew": "අලුත්ම අලුත්",
+      "likeNew": "අළුත් වගේ",
+      "used": "භාවිතා කර ඇත",
+      "requiresFixing": "සවි කිරීම/සෑදීම් අවශ්‍යයි",
+      "afterCrash": "කැඩීම්/අනතුරකට පසු"
+    }
+  },
+
+  "transport-type": {
+    "label": "ප්‍රවාහන වර්ගය",
+    "options": {
+      "car": "මෝටර් රථ",
+      "truck": "ට්‍රක් රථය",
+      "motorcycle": "යතුරුපැදිය",
+      "boat": "බෝට්ටු",
+      "airTransport": "ගුවන් ප්‍රවාහන",
+      "others": "වෙනත්"
+    }
+  },
+
+  "action": {
+    "label": "ක්‍රියාව",
+    "options": {
+      "sell": "විකිණීමට",
+      "rent": "කුලියට",
+      "exchange": "හුවමාරුවට",
+      "forParts": "කොටස් සඳහා"
+    }
+  }
+}

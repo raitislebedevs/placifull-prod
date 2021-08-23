@@ -1,0 +1,16 @@
+{
+  "title": "Placifull බ්ලොග්",
+  "hero": {
+    "heading": "උපදෙසක් අවශ්යද?"
+  },
+  "blog-item": {
+    "button": "තවත් බලන්න"
+  },
+  "search": {
+    "real-estate": "නිශ්චල දේපල",
+    "transport": "ප්‍රවාහන",
+    "job": "රැකියා",
+    "other": "වෙනත්",
+    "all": "සියල්ල"
+  }
+}

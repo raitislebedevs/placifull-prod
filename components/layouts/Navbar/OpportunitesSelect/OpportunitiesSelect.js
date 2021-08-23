@@ -42,6 +42,9 @@ const OpportunitiesSelect = (props) => {
             <a>{t('navbar:opportunities.job-search')}</a>
           </Link>
         </Dropdown.Item>
+        {/* <Dropdown.Item as="div">
+          <a id="tools">{t('navbar:opportunities.tools')}</a>
+        </Dropdown.Item> */}
       </Dropdown.Menu>
     </Dropdown>
   );

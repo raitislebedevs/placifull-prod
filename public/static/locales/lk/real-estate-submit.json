@@ -1,0 +1,54 @@
+{
+  "heading": "ලැයිස්තුව ඉදිරිපත් කරන්න",
+  "title": "නිශ්චල දේපල",
+  "form": {
+    "submit": "ඉදිරිපත් කරන්න",
+    "submit-confirm": "දත්ත පටිගත කරමින්…",
+    "preview-sneak-peak": "උත්පාදනයවෙමින් ...",
+    "preview": "පෙරදසුන",
+    "no-currency": "සියල්ල ",
+    "no-features": "කරුණාකර ලැයිස්තුගත ‍වර්‍ගයක් තෝරන්න",
+    "general-information": {
+      "heading": "සාමාන්ය තොරතුරු",
+      "currency-input": "මුදල්",
+      "input-fields": {
+        "name": "ඔබගේ ලැයිස්තුගත නම",
+        "description": "විස්තර",
+        "price": "මිල",
+        "bed-rooms": "නිදන කාමර",
+        "bath-rooms": "නාන කාමර",
+        "area": "දේපල කලාපය",
+        "start-renting": "කුලියට දීම ආරම්භ කරන්න",
+        "end-renting": "කුලියට දීම අවසන් කරන්න",
+        "year-built": "ඉදි කළ වර්ෂය"
+      }
+    },
+    "detail-information": {
+      "heading": "තොරතුරු විස්තර ",
+      "contact": {
+        "heading": "අමතන්න",
+        "email": "විද්‍යුත් තැපෑල",
+        "address": "ලිපිනය",
+        "contact-times": {
+          "label": "සම්බන්ධතා කාලය",
+          "placeholder": "කැමති වේලාව තෝරන්න"
+        },
+        "listing-website": "වෙබ් අඩවිය: https: //"
+      }
+    },
+    "gallery": {
+      "real-estate": "ගැලරිය",
+      "click-drop": "මෙතැන ක්ලික් කරන්න හෝ ඉමේජය ඇදගෙනවිත් දමන්න",
+      "video-url": "වීඩියෝව https: //"
+    },
+    "contact-hours": {
+      "heading": "සම්බන්ධතා පැය",
+      "heading-tip": "විකල්ප",
+      "accordion": {
+        "heading": "හමුවීමට/සංවාදයට වඩාත් සුදුසුම කාලය එකතු කරන්න ...",
+        "start-time": "සිට",
+        "end-time": "දක්වා"
+      }
+    }
+  }
+}

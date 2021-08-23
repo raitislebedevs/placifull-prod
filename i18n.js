@@ -24,6 +24,7 @@ module.exports = new NextI18Next({
     'ro',
     'jp',
     'id',
+    'lk',
   ],
   localeSubpaths: {
     de: 'de',
@@ -46,6 +47,7 @@ module.exports = new NextI18Next({
     ro: 'ro',
     jp: 'jp',
     id: 'id',
+    lk: 'lk',
   },
   localePath: path.resolve('./public/static/locales'),
 });

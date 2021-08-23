@@ -1,0 +1,56 @@
+{
+  "job-card": {
+    "location": "ස්ථානය",
+    "salary": "වැටුප",
+    "button": "විස්තර බලන්න",
+    "contract-type": {
+      "label": "කොන්ත්‍රාත් වර්ගය",
+      "options": {
+        "temporarly": "තාවකාලිකව",
+        "fullTime": "පූර්ණ කාලීන",
+        "partTime": "අර්ධ කාලීන",
+        "remoteFullTime": "දුරස්ථ (පූර්ණ කාලීන)",
+        "remotePartTime": "දුරස්ථ (අර්ධ කාලීන)",
+        "other": "වෙනත්"
+      }
+    },
+    "working-schedule": {
+      "label": "වැඩ කාල සටහන",
+      "options": {
+        "officeHours": "කාර්යාල වේලාවන්",
+        "shifts": "මුර",
+        "flexible": "නම්යශීලී",
+        "other": "වෙනත්"
+      }
+    }
+  },
+
+  "transport-card": {
+    "gear-box": {
+      "label": "ගියර් පෙට්ටිය",
+      "options": {
+        "manual": "අත්පොත",
+        "automatic": "ස්වයංක්‍රීය",
+        "other": "වෙනත්"
+      }
+    }
+  },
+
+  "real-estate-card": {
+    "location": "ස්ථානය",
+    "working-schedule": "වැඩ කාල සටහන",
+    "salary": "වැටුප",
+    "contract-type": "කොන්ත්‍රාත් වර්ගය",
+    "button": "විස්තර බලන්න"
+  },
+
+  "action": {
+    "label": "ක්‍රියාව",
+    "options": {
+      "sell": "විකුණන්න",
+      "rent": "කුලියට",
+      "exchange": "හුවමාරුව",
+      "forParts": "කොටස් සඳහා"
+    }
+  }
+}

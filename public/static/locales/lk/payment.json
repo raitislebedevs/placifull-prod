@@ -1,0 +1,89 @@
+{
+  "currency": "€ ",
+  "payment-modal": {
+    "header": "මිලදී ගැනීමේ සැලැස්මේ විස්තර",
+    "sub-header": "කරුණාකර පහත විස්තර වලින් ඔබේ සැලැස්ම තෝරන්න",
+    "total-cost": "පිරිවැය:",
+    "expiry-date": "කල්පිරෙන දිනය:",
+    "expiry-label": "කල්පිරෙන දිනය",
+    "quantity": "ප්‍රමාණය:",
+    "quantity-label": "ප්‍රමාණය",
+    "listed": "ලැයිස්තුගත:",
+    "purchase": "මිලදී ගත්:",
+    "extend-expiry": "කල් ඉකුත්වීම දිගු කරන්න",
+    "promote": "ප්‍රවර්ධනය කරන්න",
+    "subscription-valid": "විකල්පය වලංගු වේ",
+    "days": "දින",
+    "browser-cv": "CV සෙවීම",
+    "purchase-text": {
+      "user-held": "පරිශීලකයා සතු ය",
+      "purchase": "මිලදී"
+    },
+    "form": {
+      "added-days": {
+        "label": "ලැයිස්තුගත කිරීම දිගු කරන්නේ",
+        "suffix": "  දින"
+      },
+      "card-details": {
+        "label": "කාඩ්පත් තොරතුරු ලබා දෙන්න",
+        "card-holder": "කාඩ් හිමියා",
+        "card-number": "කාඩ්පත් අංකය",
+        "card-date": "කල්පිරෙන දිනය",
+        "card-csv": "CSV"
+      },
+      "buttons": {
+        "decline": "ප්‍රතික්ෂේප කරන්න",
+        "proceed": "ඉදිරියට යන්න"
+      },
+
+      "purchase-items": {
+        "intro": "හැඳින්වීම",
+        "single": "තනි",
+        "quarterly": "කාර්තුමය වශයෙන්",
+        "life": "වාර්ෂිකව"
+      },
+      "user-stock": {
+        "single": "තනි",
+        "quartery": "කාර්තුමය වශයෙන්",
+        "life": "වාර්ෂිකව"
+      }
+    }
+  },
+
+  "receipt-modal": {
+    "header": "විස්තර සාරාංශය",
+    "sub-header": "ඉදිරියට යාමට පෙර කරුණාකර ඔබේ මිලදී ගැනීමේ විස්තර සමාලෝචනය කරන්න.",
+    "card-details": {
+      "card-holder": "කාඩ්පත් ලාභියාගේ නම",
+      "card-number": "කාඩ්පත් විස්තර",
+      "card-date": "කල්පිරෙන දිනය"
+    },
+
+    "receipt-table": {
+      "plan": "සැලැස්ම",
+      "quantity": "ප්‍රමාණය",
+      "promote": "උසස් කර ඇත",
+      "extend-expiry": "දිගු කර ඇති කල් ඉකුත්වීම",
+      "total": "එකතුව",
+      "total-amount": "මුලු වටිනාකම:",
+      "price": "මිල",
+      "expiry-date": "කල්පිරෙන දිනය",
+      "no-expiry": "නැත",
+      "plans": {
+        "standalone": "තනි",
+        "subscriptionQuarterly": "කාර්තුවේ",
+        "subscriptionYearly": "අවුරුදු",
+        "activeSubscription": "CV සොයන්න"
+      }
+    },
+    "thank-you-message": "Placifull සමාගමට සහයෝගය දැක්වීම ගැන ඔබට ස්තුතියි. ඔබගේ තේරීම ගැන ඔබ තෘප්තිමත් වනු ඇතැයි අපි විශ්වාස කරන්නෙමු.",
+    "buttons": {
+      "cancel": "අවලංගු කරන්න",
+      "proceed": "ගෙවා ඉදිරියට යන්න"
+    }
+  },
+  "error": {
+    "transaction": "ගනුදෙනුව අසාර්ථක විය",
+    "subscriptions": "දායකත්වයට අසමත් වීම"
+  }
+}

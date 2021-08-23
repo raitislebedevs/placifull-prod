@@ -64,11 +64,18 @@ const languages = [
   },
   {
     value: {
-      lang: 'in',
-      flag: 'IN',
+      lang: 'lk',
+      flag: 'LK',
     },
-    label: 'हिन्दी, हिंदी',
+    label: 'සිංහල',
   },
+  // {
+  //   value: {
+  //     lang: 'in',
+  //     flag: 'IN',
+  //   },
+  //   label: 'हिन्दी, हिंदी',
+  // },
   {
     value: {
       lang: 'jp',

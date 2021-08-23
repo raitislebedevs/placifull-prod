@@ -1,0 +1,58 @@
+{
+  "title": "ප්‍රවාහනය සඳහා සොයන්න",
+  "hero": {
+    "form": {
+      "currency": "මුදල්",
+      "no-currency": "සියල්ල ",
+      "min-price": "අවම: 0.00",
+      "max-price": "උපරිම: 9,999,999,999",
+      "transport-brand": "ප්‍රවාහන වෙළඳ නාමය",
+      "transport-model": "ප්‍රවාහන ආකෘතිය",
+      "min-age": "අවම වයස",
+      "max-age": "උපරිම වයස",
+      "submit": "දැන්ම සොයන්න",
+      "accordion": "වැඩි දියුණු කළ සෙවීම",
+      "accordion-right": {
+        "economy": {
+          "label": "ඉන්ධන ආර්ථිකය",
+          "items": {
+            "from": "සිට: 0",
+            "to": "දක්වා: 999"
+          }
+        },
+        "speed": {
+          "label": "උපරිම වේගය",
+          "items": {
+            "from": "සිට: 0",
+            "to": "දක්වා: 999"
+          }
+        },
+        "millage": {
+          "label": "සැතපුම්",
+          "items": {
+            "from": "සිට: 0",
+            "to": "දක්වා: 9,999,999"
+          }
+        },
+        "units": "ඒකක"
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "තෝරා ගනු ලබනුයේ",
+        "options": {
+          "price": "මිල",
+          "speed": "වේගය",
+          "millage": "මිලේජ්",
+          "fuel-economy": "ඉන්ධන ආර්ථිකය",
+          "popularity": "ජනප්‍රියත්වය",
+          "views": "බැලුවා",
+          "country": "රට",
+          "insert-date": "දිනය ඇතුළත් කරන්න"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "header": {
+    "heading": "උදව් සහ සහයෝගය",
+    "title": "අපව අමතන්න",
+    "info": {
+      "text": "  WhatsApp සම්බන්ධතාවය",
+      "phone": "  +371 9999999999"
+    }
+  },
+  "contact-form": {
+    "contact": {
+      "heading": "  සබඳතා තොරතුරු",
+      "items": {
+        "item-1": {
+          "label": "  ස්ථානය",
+          "description": "  4758 නැන්සි වීදිය"
+        },
+        "item-2": {
+          "label": "  දුරකථන අංකය",
+          "description": "  +1 919-571-2528"
+        },
+        "item-3": {
+          "label": "  විද්‍යුත් තැපෑල",
+          "description": "  hello@example.com"
+        },
+        "item-4": {
+          "label": "  පාරිභෝගික සත්කාර",
+          "description": "  support@example.com"
+        }
+      }
+    },
+    "form": {
+      "heading": "  පෝරමය",
+      "name": "  නම",
+      "email": "  විද්‍යුත් තැපෑල",
+      "subject": "  විෂය",
+      "message": "  පණිවුඩය",
+      "submit": "  පණිවුඩය යවන්න"
+    }
+  }
+}

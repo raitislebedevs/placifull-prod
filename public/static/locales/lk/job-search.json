@@ -1,0 +1,62 @@
+{
+  "title": "රැකියා සෙවීම",
+  "form": {
+    "currency": "මුදල්",
+    "no-currency": "සියල්ල ",
+    "languages": {
+      "native": "ස්වදේශීය භාෂා",
+      "english": "ඉංග්‍රීසියෙන් තියෙන භාෂා"
+    },
+    "submit": "දැන්ම සොයන්න",
+    "accordion": {
+      "label": "වැඩි දියුණු කළ සෙවීම",
+      "searchFilter": {
+        "heading": "විශේෂාංග",
+        "licenses": "ප්‍රවාහන බලපත්‍රය",
+        "education": "අධ්‍යාපනය/උපාධිය",
+        "expierience": "අත්දැකීම වසර වලින්",
+        "candiadate": "අපේක්ෂකයාට පුළුවන් වන්නේ:",
+        "benefits": "ප්‍රතිලාභ"
+      }
+    },
+    "accordion-right": {
+      "hourly-rate": {
+        "label": "පැයට අනුපාතය",
+        "items": {
+          "from": "සිට: 0",
+          "to": "දක්වා: 999,999"
+        }
+      },
+      "monthly-salary": {
+        "label": "මාසික වැටුප",
+        "items": {
+          "from": "සිට: 0",
+          "to": "දක්වා: 999,999,999"
+        }
+      },
+      "yearly-salary": {
+        "label": "වාර්ෂික වැටුප",
+        "items": {
+          "from": "සිට: 0",
+          "to": "දක්වා: 99,999,999,999"
+        }
+      }
+    }
+  },
+  "search-result": {
+    "filters": {
+      "sort-by": {
+        "label": "තෝරා ගනු ලැබෙනුයේ",
+        "options": {
+          "monthly-salary": "මාසික වැටුප",
+          "annual-salary": "වාර්ෂික වැටුප",
+          "hourly-salary": "පැයට අනුපාතය",
+          "popularity": "ජනප්‍රියත්වය",
+          "views": "බැලුවා",
+          "country": "රට",
+          "insert-date": "දිනය ඇතුළත් කරන්න"
+        }
+      }
+    }
+  }
+}
