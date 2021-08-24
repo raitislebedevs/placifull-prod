@@ -1,5 +1,4 @@
 .blog-container {
-  margin-top: 42px;
   margin-bottom: 42px;
   .blog__item {
     background-color: #ffffff;
@@ -69,7 +68,6 @@
   }
 
   .blog__filters {
-    margin-bottom: 42px;
     .option__item {
       background-color: #ffffff;
       border-radius: 5px;
@@ -83,5 +81,15 @@
   .blog__items__loading {
     text-align: center;
     padding: 100px 0px;
+  }
+
+  .search-result__header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 42px;
+    .filter__option {
+      display: flex;
+      justify-content: center;
+    }
   }
 }

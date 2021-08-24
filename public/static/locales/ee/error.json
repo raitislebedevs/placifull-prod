@@ -15,12 +15,16 @@
           "provide": "  Volitamata juurdepääs!"
         },
         "email": {
-          "confirmed": "  Peate oma e -posti aadressi kinnitama",
-          "taken": "  Selle e -postiga kasutaja on juba olemas",
-          "already-confirmed": "  E -post on juba kinnitatud",
-          "format": "  Sobimatu e -posti vorming"
+          "confirmed": "  Peate oma e-maili aadressi kinnitama",
+          "taken": "  Selle e-mailiga kasutaja on juba olemas",
+          "already-confirmed": "  E-mail on juba kinnitatud",
+          "format": "  Sobimatu e-maili vorming",
+          "not-send": "Me ei saanud saata sisestatud e-maili aadressile kirja. Palun kontrolli, kas e-maili aadress on korrektne või kontakteeru klienditoega."
         }
       }
+    },
+    "advanced": {
+      "allow_register": "Hetkel ei ole uute liitujate registreerumine võimalik."
     }
   }
 }

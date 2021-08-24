@@ -18,7 +18,7 @@
 
   "general-info": {
     "heading": "Üldinfo",
-    "property-area": "Kinnisavar valdkond",
+    "property-area": "Kinnisavara valdkond",
     "rooms": "Tube",
     "year-built": "Ehitusaasta",
     "price": "Hind",
@@ -28,13 +28,12 @@
     "min-time": "Miinimumaeg",
     "bid-price": "Kinnisvara pakkumise hind",
     "submit": "Pakkumine",
-    "bid-placeholder": "Pakkumine 20% marginaliga"
+    "bid-placeholder": "Pakkumine 20% marginalis"
   },
 
   "contact-form": {
     "heading": "Kontakteeru omanikuga otse",
     "not-specified": "Pole täpsustatud",
-
     "form": {
       "heading": "Kirjuta oma küsimus siia",
       "fullName": "Täisnimi*",

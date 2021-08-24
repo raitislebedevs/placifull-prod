@@ -1,0 +1,16 @@
+{
+  "title": "Placifull blogi",
+  "hero": {
+    "heading": "Otsite nõu?"
+  },
+  "blog-item": {
+    "button": "Näe rohkem"
+  },
+  "search": {
+    "real-estate": "Kinnisvara",
+    "transport": "Transport",
+    "job": "Tööd",
+    "other": "Muu",
+    "all": "Kõik"
+  }
+}

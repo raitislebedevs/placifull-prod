@@ -14,7 +14,7 @@
 
   "nonNeeded": "Ei ole vajalik",
   "highSchool": "Keskkool",
-  "collage": "Keskkool",
+  "collage": "Kolledž",
   "vacational": "Kutseharidus",
   "undergraduate": "Bakalaureusekraad",
   "bachelorDegree": "Bakalaureusekraad",
@@ -35,10 +35,10 @@
   "findNewClients": "Uute klientide leidmine",
   "learnNewThings": "Uute asjade õppimine",
   "holdUnderPressure": "Tugev pingetaluvus",
-  "trainPeople": "Kliendite/kolleegide treenimine",
+  "trainPeople": "Klientide/kolleegide treenimine",
 
   "insuarance": "Kindlustus",
-  "extraVacationDarys": "Lisa puhkuse päevad",
+  "extraVacationDarys": "Lisa puhkusepäevad",
   "sicknessDays": "Haiguspäevad",
   "workRemotly": "Kaugtöö",
   "freeParking": "Tasuta parkimine kontoris",

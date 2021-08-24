@@ -6,78 +6,78 @@
   "title": "Tingimused",
   "introduction": {
     "first": "Tere tulemast meie veebisaidile",
-    "second": "Kasutades meie veebisaiti ja/või pakutavaid teenuseid, tunnistate, et olete lugenud ja mõistnud järgmisi tingimusi ja privaatsus- ja viitamispoliitikat ning nõustute nende järgimisega. Kui kui te ei nõustu „Tingimuste” ja/või „Privaatsus- ja viitamispoliitika” mis tahes osaga, ei tohi te seda veebisaiti kasutada."
+    "second": "Kasutades meie veebisaiti ja/või pakutavaid teenuseid kinnitad, et oled lugenud ja mõistnud meie privaatsustingimusi ning nõustud nende järgimisega. Kui Sa ei nõustu privaatsustingimuste mistahes osaga, ei tohi Sa seda veebisaiti kasutada."
   },
   "user-aggrements": {
     "title": "Tingimused",
-    "intro": "Selle veebisaidi kasutamisel kehtivad järgmised tingimused ja tingimused:",
+    "intro": "Selle veebisaidi kasutamisel kehtivad järgmised tingimused:",
     "rules": {
-      "rule-one": "Mõiste “Placifull” “või” meie viitab veebisaidi omanikele, kelle registrijärgne asukoht on [aadress]. Meie ettevõtte registreerimisnumber on [ettevõtte registreerimisnumber ja registreerimise koht]. ",
-      "rule-two": "Mõiste “kasutaja” või “sina” viitab igale isikule, kes siseneb veebisaidile, kasutab seda või kasutab seda, olenemata asjaolust, et selline isik võis külastada ainult veebisaidi avalehte",
-      "rule-three": "“See veebisait” tähendab Placifulli veebisaiti, mis asub aadressil http://www.placifull.com ja sisaldab selle mis tahes osa või elementi.",
+      "rule-one": "Mõiste “Placifull” või 'meie' viitab veebisaidi omanikele, kelle registrijärgne asukoht on [aadress]. Meie ettevõtte registreerimisnumber on [ettevõtte registreerimisnumber ja registreerimise koht]. ",
+      "rule-two": "Mõiste “kasutaja” või “sina” viitab igale isikule, kes siseneb veebisaidile ja kasutab seda olenemata asjaolust, et selline isik võis külastada ainult veebisaidi avalehte",
+      "rule-three": "“See veebisait” tähendab Placifulli veebisaiti, mis asub aadressil http://www.placifull.com ja sisaldab selle mistahes osa või elementi.",
       "rule-four": {
         "rule": "Selle veebisaidi sisu on mõeldud ainult üldiseks teavitamiseks ja kasutamiseks. Placifull jätab selgesõnaliselt endale õiguse oma äranägemise järgi igal ajal ilma ette teatamata teha järgmist:",
-        "point-one": "Muutke neid tingimusi;",
-        "point-two": "Muutke veebisaidilt saadaolevat sisu ja/või teenuseid;",
-        "point-three": "katkestage veebisaidil või veebisaidil saadaolevate teenuste osutamine; ja/või",
-        "point-four": "Muutke veebisaidile juurdepääsuks ja kasutamiseks vajalikku tarkvara ja riistvara."
+        "point-one": "Muuta tingimusi;",
+        "point-two": "Muuta veebisaidilt saadaolevat sisu ja/või teenuseid;",
+        "point-three": "Lõpetada veebisaidil saadaolevate teenuste osutamise; ja/või",
+        "point-four": "Muuta veebisaidile juurdepääsuks ja kasutamiseks vajalikku tarkvara ja riistvara."
       },
-      "rule-five": "Ei Placifull ega kolmandad osapooled ei anna mingit garantiid ega garantiid sellelt veebisaidilt leitud või pakutava teabe ja materjalide täpsuse, õigeaegsuse, toimivuse, täielikkuse või sobivuse kohta. Te tunnistate, et selline teave ja materjalid võivad sisaldada ebatäpsusi või vigu ning Placifull välistab selgesõnaliselt vastutuse selliste ebatäpsuste või vigade eest täies ulatuses, mis on lubatud Läti seadustega.",
-      "rule-six": "Sellel veebisaidil oleva teabe või materjalide kasutamine on täielikult teie enda vastutusel, mille eest Placifull ei vastuta. Teie vastutate selle eest, et selle saidi kaudu kättesaadavad tooted, teenused või teave oleksid teie enda vastutusel veebisait vastab teie erinõuetele. ",
-      "rule-seven": "Placifull jätab endale õiguse uurida meie tingimuste ja/või meie privaatsus- ja suunamispoliitika kaebusi, kahtlusi või teatatud rikkumisi ning võtta mis tahes meetmeid, mida peame asjakohaseks, sealhulgas aruandlus, kuid mitte ainult mis tahes kahtlustatav ebaseaduslik tegevus asjaomastele asutustele, reguleerivatele asutustele või kolmandatele isikutele ning selliste isikute või üksuste omistamiseks vajaliku teabe avaldamine ja teave.",
-      "rule-eight": "Placifull ei vastuta meie veebisaidile või sellelt lingitud sidumata veebisaitide sisu eest. Need lingid on esitatud ainult teie mugavuse huvides ja te pääsete neile omal vastutusel. Kõik muud veebisaidid, mis on juurdepääsetavad saidilt see sait on Placifullist sõltumatu ja Placifull ei ole kontrolli selle teise veebisaidi sisu üle. Lisaks ei tähenda link ühelegi teisele veebisaidile, et Placifull toetab või võtab endale vastutuse sellise teise veebisaidi sisu või kasutamise eest.",
-      "rule-nine": "Sellel veebisaidil oma CV avaldamisega lubate kõigil, kes on ostnud brauseri CV-plaani, oma CV-d vaadata.",
-      "rule-ten": "Tugi on saadaval ainult inglise ja/või läti keeles. Kui võtate Placifulliga ühendust mõnes muus keeles, kasutatakse vastuse lubamiseks Google'i tõlget. Seega ei garanteeri me teenuse kvaliteeti ega suhtlemisel tehtud viga on kasutaja vastutus.",
-      "rule-eleven": "Placifull ei anna mingeid garantiisid ega kinnitusi selle kohta, et see veebisait ja klienditoe keskus on alati saadaval. Kasutajad tunnistavad, et veebisait ja klienditoe keskus ei pruugi olla saadaval värskenduste või muude põhjuste tõttu mõistlik kontroll Placifuli üle, sealhulgas, kuid mitte ainult, viirusnakkus, elektrikatkestus või muu vääramatu jõud. ",
+      "rule-five": "Ei Placifull ega kolmandad osapooled ei anna mingit garantiid sellelt veebisaidilt leitud või pakutava teabe ja materjalide täpsuse, õigeaegsuse, toimivuse, täielikkuse või sobivuse kohta. Te teadvustate, et selline teave ja materjalid võivad sisaldada ebatäpsusi või vigu. Eesti seaduse järgi on Placifull täies ulatuses vabastatud vastutusest selliste ebatäpsuste või vigade ees.",
+      "rule-six": "Sellel veebisaidil oleva teabe või materjalide kasutamine on täielikult teie enda vastutusel. Teie vastutate selle eest, et selle saidi kaudu kättesaadavad tooted, teenused või teave vastaksid teie nõuetele. ",
+      "rule-seven": "Placifull jätab endale õiguse uurida meie tingimuste ja/või meie privaatsus- ja suunamispoliitika kaebusi, kahtlusi või teatatud rikkumisi ning võtta mis tahes meetmeid, mida peame asjakohaseks, sealhulgas anda aru, kuid mitte ainult, mistahes ebaseadusliku tegevuse kohta asjakohastele asutustele, reguleerivatele asutustele või kolmandatele isikutele ning avaldada sellistele isikutele või üksusteele vajalikku teavet.",
+      "rule-eight": "Placifull ei vastuta veebisaidile või sellelt lingitud sisu eest. Need lingid on esitatud ainult Sinu mugavuse huvides ja Sa kasutad neid omal vastutusel. Kõik muud veebisaidid, mis on juurdepääsetavad Placifull saidilt on Placifullist sõltumatud ja Placifullil ei ole kontrolli selle teise veebisaidi sisu üle. Lisaks ei tähenda link ühelegi teisele veebisaidile, et Placifull toetab või võtab endale vastutuse teise veebisaidi sisu või kasutamise eest.",
+      "rule-nine": "Sellel veebisaidil oma CV avaldamisega lubad kõigil, kes on ostnud 'Kuva CV-sid' plaani vaadata oma CV-d.",
+      "rule-ten": "Tugi on saadaval ainult inglise ja/või läti keeles. Kui võtate Placifulliga ühendust mõnes muus keeles, kasutatakse vastuse võimaldamiseks Google'i tõlget. Seega ei garanteeri me teenuse kvaliteeti. Suhtlemisel tehtud viga on kasutaja vastutusel.",
+      "rule-eleven": "Placifull ei anna mingeid garantiisid ega kinnitusi selle kohta, et see veebisait ja klienditoe keskus on alati saadaval. Kasutajad teadvustavad, et veebisait ja klienditoe keskus ei pruugi olla saadaval värskenduste või muude põhjuste tõttu, sealhulgas, kuid mitte ainult, viirusnakkuse, elektrikatkestuse või muu vääramatu jõu tõttu. ",
       "rule-twele": "Kasutajal on keelatud Placifulliga vaenulikul või ähvardaval viisil ühendust võtta. Selline suhtlus peatatakse viivitamatult ja kasutajat ei abistata probleemide ilmnemisel.",
-      "rule-thriteen": "Selle veebisaidi kasutamine ja selle kasutamisest tulenevad vaidlused alluvad Läti seadustele."
+      "rule-thriteen": "Selle veebisaidi kasutamine ja selle kasutamisest tulenevad vaidlused alluvad Eesti seadustele."
     }
   },
   "privacy-policy": {
-    "title": "Privaatsus- ja Viitamispoliitika",
-    "intro": "Pange tähele, et selle veebisaidi kasutamisel nõustute järgmisega:",
+    "title": "Privaatsus- ja viitamispoliitika",
+    "intro": "Pane tähele, et selle veebisaidi kasutamisel nõustud järgmisega:",
     "rules": {
-      "rule-one": "Placifull võtab kõik mõistlikud meetmed, et kaitsta veebisaidi sisu parimate Placifulli meeskonna teadmiste kohaselt, kuid Placifull ei anna mingeid garantiisid ega kinnitusi, et sisu peab olema 100% turvaline.",
-      "rule-two": "Placifull on juurdepääs/kogumine ainult teabele, mille te meile vabatahtlikult annate. Me ei müü ega laena seda teavet kellelegi. Kasutame teie teavet, et vastata teile põhjusel, miks meiega ühendust võtsite. ei jaga teie teavet ühegi kolmanda osapoolega, välja arvatud juhul, kui see on vajalik teie taotluse täitmiseks.",
-      "rule-three": "Kui saadate oma CV, saavad seda vaadata inimesed, kellel on plaan “Brauseri CV“, kuhu olete märkinud, avaldage oma isiklikud andmed oma profiilil. Placifull ei vastuta andmete eest, mis on lekkinud või millele on juurdepääs volitamata viisil.",
-      "rule-four": "Selle veebisaidi kasutaja saab jagada talle määratud suunamismärki teistele inimestele. Kui selle märgiga ostetakse võimalus, krediteeritakse kasutajale 10% kuni 25% ostusummast .",
-      "rule-five": "Kui krediteeritud summa jõuab 25 euroni, on kasutajal õigus see summa tagasi võtta.",
-      "rule-six": "Kui selle veebisaidi kasutajat kahtlustatakse mingil viisil pettuses, saab sellega seotud konto blokeerida ja selle summa vähendada nullini"
+      "rule-one": "Placifull võtab kasutusele kõik mõistlikud meetmed, et kaitsta veebisaidi sisu Placifulli meeskonna parimate teadmiste kohaselt. Samas Placifull ei anna mingeid garantiisid ega kinnitusi, et sisu on 100% turvaline.",
+      "rule-two": "Placifullil on juurdepääs ainult teabele, mille te meile vabatahtlikult annate. Me ei müü ega laena seda teavet kellelegi. Kasutame Sinu teavet vaid selleks, et vastata küsimustele, millega Sa ise meie poole pöördud. Me ei jaga Sinu teavet ühegi kolmanda osapoolega, välja arvatud juhul, kui see on vajalik Sinu taotluse täitmiseks.",
+      "rule-three": "Kui saadad oma CV, saavad seda vaadata inimesed, kellel on plaan “Kuva CV-sid“, kuhu oled avaldanud oma isiklikud andmed. Placifull ei vastuta andmete eest, mis on lekkinud või millele on juurdepääs volitamata viisil.",
+      "rule-four": "Selle veebisaidi kasutaja saab jagada talle määratud suunamismärki teistele inimestele. Kui selle märgiga ostetakse võimalus, krediteeritakse kasutajale 10% kuni 25% ostusummast.",
+      "rule-five": "Kui kontol olev summa jõuab 25 euroni, on kasutajal õigus see summa välja võtta.",
+      "rule-six": "Kui selle veebisaidi kasutajat kahtlustatakse mingil viisil pettuses, saab sellega seotud konto blokeerida ja kontol oleva summa nullida."
     }
   },
   "faq": {
-    "title": "Kasutajate küsimus ja vastus:",
+    "title": "Kasutajate küsimused ja vastused:",
     "question-one": {
       "questions": "Kuidas Placifull töötab?",
-      "answer": "Iga kasutaja saab avaldada kirje, mis kuvatakse seejärel avalikkusele. Need kirjed on kõigile veebis vabalt kättesaadavad. Enne kirje avaldamist peate ostma selle paigutamise võimaluse meie veebisaidil. Seda saab teha lehelt Profiil, kus näete kolme ostuvalikut."
+      "answer": "Iga kasutaja saab avaldada kuulutuse, mis seejärel kuvatakse avalikkusele. Need kuulutused on kõigile veebis vabalt kättesaadavad. Enne kuulutuse avaldamist pead ostma selle postitamise võimaluse meie veebisaidilt. Seda saab teha lehelt 'Profiil', kus näed kolme ostuvalikut."
     },
     "question-two": {
-      "questions": "Kuidas ma saan oma kirje Placifulli panna?",
-      "answer": "Teil peab olema valik, mis võimaldab teil kirje paigutada. Valida on kolm võimalust. Esimene võimalus on üks postitus. Ostate selle ja kasutate seda alati, kui see teile kõige paremini sobib. Sellel valikul pole aegumiskuupäeva. Teisel ja kolmandal valikul on aegumiskuupäev ja piiratud kogused. Need määravad, kui palju aktiivseid kirjeid teil konkreetse valiku korral on. Kui need on aegunud, saate need uuesti lisada. Saate need kustutada ja sisestada jälle nii mitu korda kui soovite. "
+      "questions": "Kuidas ma saan oma kuulutust Placifulli lisada?",
+      "answer": "Sul peab olema valik, mis võimaldab Sul kuulutuse lisada. Valida on kolme võimaluse vahel. Esimene võimalus on üksik postitus, mille saate osta ja sobivad hetkel kasutada. Sellel valikul pole aegumiskuupäeva. Teisel ja kolmandal valikul on aegumiskuupäev ja piiratud kogused. Need määravad, kui palju aktiivseid kuulutusi Sul konkreetse valiku korral on. Kui need on aegunud, saad need uuesti osta. Saad need kustutada ja uuesti sisestada nii mitu korda kui soovid."
     },
     "question-three": {
-      "questions": "Kuidas makse on kaitstud?",
-      "answer": "Me kasutame makse töötlemiseks Stripe'i. Väljad, mis küsivad teie kaarditeavet, on Stripe'i komponendid, nii et Placifull ei ole tegelikult juurdepääsu teie täielikule kaarditeabele."
+      "questions": "Kuidas on minu maksed kaitstud?",
+      "answer": "Me kasutame makse töötlemiseks Stripe'i. Väljad, mis küsivad Sinu kaarditeavet tulevad Stripe'i keskkonnast. Seega Placifullil ei ole tegelikult juurdepääsu Sinu kaarditeabele."
     },
     "question-four": {
-      "questions": "Minu kaardilt laeti raha, kuid midagi ei ostetud?",
-      "answer": "Ebatõenäolisel juhul, kui teie kaardilt on tasu võetud, kui midagi pole ostetud, võtke meiega ühendust e -posti või WhatsAppi kaudu, esitades kõik üksikasjad. Kehtivad nõuded tagastatakse esimesel võimalusel"
+      "questions": "Minu kaardilt võeti raha, kuid ma ei ostnud midagi?",
+      "answer": "Kuigi see on väga ebatõenäoline, et ilma ostu sooritamata võetakse Sinu kaardilt raha, siis sellise olukorra puhul võta palun meiega ühendust e-maili või WhatsAppi kaudu ja kirjeldage olukorda. Kaebuste puhul, millel on alust, tagastatakse raha esimesel võimalusel."
     },
     "question-five": {
-      "questions": "Miks mu kirje kadus?",
-      "answer": "Kirje kuvatakse 30 päeva, välja arvatud juhul, kui olete ostnud laiendatud valiku, mis võimaldab kirjel olla aktiivne kauem kui 30 päeva."
+      "questions": "Miks mu kuulutus kadus?",
+      "answer": "Kuulutust kuvatakse 30 päeva, välja arvatud juhul, kui oled ostnud laiendatud valiku, mis võimaldab kuulutusel olla aktiivne kauem kui 30 päeva."
     },
     "question-six": {
-      "questions": "Ostsin reklaamitud funktsiooni, kuid ei näe oma kirjet?",
-      "answer": "Kui olete reklaamitud valiku ostnud, kuvatakse teie kirjed avalehel. Süsteem võtab kõik kirjed, millele on lisatud reklaamitud märgend, ja valib juhuslikult, mida ekraanil kuvada."
+      "questions": "Ostsin reklaamitud funktsiooni, kuid ei näe oma kuulutust?",
+      "answer": "Kui oled ostnud reklaamitud kuulutuse kuvatakse Sinu kuulutused avalehel. Süsteem koondab kõik promotud kuulutuse märkega kuulutused ja valib juhuslikult, millist ekraanil kuvada."
     },
     "question-seven": {
-      "questions": "Kuidas ma saan oma suunamisboonuse tagasi võtta?",
-      "answer": "Kui olete jõudnud 25 € -ni, saate selle oma kontolt välja võtta. Selleks võtke meiega ühendust ja kanname raha teie pangakontole"
+      "questions": "Kuidas ma saan oma suunamisboonuse välja võtta?",
+      "answer": "Kui oled jõudnud 25 € -ni, saad selle oma kontolt välja võtta. Selleks võta meiega ühendust ja kanname raha Sinu pangakontole"
     }
   },
   "end": {
-    "title": "Kas teil on veel küsimusi?",
-    "goodbye-text": "Palun võtke meiega ühendust kontaktlehelt ja me võtame teiega ühendust niipea kui võimalik. Lühidalt öeldes tahame teha kõik, mida saame teha, et seda saiti paremaks muuta. Veenduge, et meie fookus on arutada kasutajaga mis tahes küsimusi/küsimusi kõige kõrgemal prioriteedil."
+    "title": "Kas Sul on veel küsimusi?",
+    "goodbye-text": "Palun võta meiega ühendust kontaktlehelt ja me vastame Sulle niipea kui võimalik. Lühidalt öeldes tahame teha kõik, mida saame, et seda saiti paremaks muuta. Meie kõrgeim prioriteet on arutada kasutajaga mistahes probleeme/küsimusi."
   }
 }

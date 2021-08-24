@@ -1,6 +1,6 @@
 {
   "heading": "Registreeru",
-  "title": "Ootasime teid!",
+  "title": "Ootasime Sind!",
   "form": {
     "first-name": "Eesnimi",
     "last-name": "Perekonnanimi",
@@ -17,8 +17,8 @@
       "password-required": "Parool on nõutud",
       "first-name-required": "Eesnimi on nõutud",
       "last-name-required": "Perekonnanimi on nõutud",
-      "confirm-password-required": "Palun kinnitage oma parool",
-      "accept-terms": "Nõustuge tingimustega",
+      "confirm-password-required": "Palun kinnita oma parool",
+      "accept-terms": "Nõustu tingimustega",
       "password-not-match": "Paroolid ei sobi"
     }
   },

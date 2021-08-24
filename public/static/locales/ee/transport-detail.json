@@ -32,7 +32,7 @@
     "doors": "Uksed",
     "bid-price": "Sõiduki pakkumise hind",
     "submit": "PAKKUMINE",
-    "bid-placeholder": "Pakkumine 20% marginaliga"
+    "bid-placeholder": "Pakkumine 20% marginalis"
   },
   "features": {
     "heading": "Funktsioonid"
@@ -50,7 +50,7 @@
     }
   },
   "extra": {
-    "heading": "Muud selle profiili alt postitatud sõidukid",
+    "heading": "Muud selle profiili alt postitatud transpordivahendid",
     "table": {
       "number": "Nr.",
       "country": "Riik",

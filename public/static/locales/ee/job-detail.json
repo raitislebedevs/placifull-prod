@@ -26,12 +26,12 @@
     "heading": "Töö ülevaade",
     "items": {
       "offered-salary": "Pakutav palk",
-      "languages": "Kell",
+      "languages": "Keel",
       "native": "Rahvus",
       "industry": "Valdkond"
     },
-    "views": "vaatamised",
-    "applicants": "kandideerijad",
+    "views": "vaatamist",
+    "applicants": "kandideerijaid",
     "salary": {
       "monthly": "kuine",
       "annual": "aastane",
