@@ -96,7 +96,7 @@ const SigninForm = (props) => {
               touched,
               values,
             }) => (
-              <div itemScope itemType="https://schema.org/Person">
+              <div>
                 <Form onSubmit={handleSubmit}>
                   <Row className="mt-4">
                     <Col
@@ -114,20 +114,18 @@ const SigninForm = (props) => {
                         </Form.Label>
                         <div className="items__input">
                           <AiOutlineUser className="input__icon" size="20px" />
-                          <div itemProp="email">
-                            <Form.Control
-                              onChange={handleChange}
-                              value={values.identifier}
-                              onBlur={handleBlur}
-                              isInvalid={Boolean(
-                                touched.identifier && errors.identifier
-                              )}
-                              id="identifier"
-                              type="email"
-                              className="input__text"
-                              placeholder={t('signin:form.email')}
-                            />
-                          </div>
+                          <Form.Control
+                            onChange={handleChange}
+                            value={values.identifier}
+                            onBlur={handleBlur}
+                            isInvalid={Boolean(
+                              touched.identifier && errors.identifier
+                            )}
+                            id="identifier"
+                            type="email"
+                            className="input__text"
+                            placeholder={t('signin:form.email')}
+                          />
                           <Form.Control.Feedback type="invalid" tooltip>
                             {touched.identifier && errors.identifier}
                           </Form.Control.Feedback>

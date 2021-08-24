@@ -4,12 +4,12 @@
     "currency": "Valuuta",
     "no-currency": "KÕIK",
     "languages": {
-      "native": "Emakeel",
+      "native": "Emakeeled",
       "english": "Keeled inglise keeles"
     },
     "submit": "Otsi kohe",
     "accordion": {
-      "label": "Täpsem otsing",
+      "label": "TÄPSEM OTSING",
       "searchFilter": {
         "heading": "Funktsioonid",
         "licenses": "Sõiduluba",

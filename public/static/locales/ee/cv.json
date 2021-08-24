@@ -36,14 +36,14 @@
     "primary": "Põhiharidus",
     "secondary": "Keskharidus",
     "vocational": "Kutseharidus",
-    "bachelors": "Bakalaureus",
-    "master": "Magister",
-    "doctorate": "Doktor",
+    "bachelors": "Bakalaureusekraad",
+    "master": "Magistrikraad",
+    "doctorate": "Doktorikraad",
     "other": "Muu"
   },
 
   "seniority": {
-    "title": "Positsioon",
+    "title": "Ametiaste",
     "volunteer": "Vabatahtlik",
     "intern": "Praktikant",
     "junior": "Juunior",
@@ -56,5 +56,5 @@
 
   "avarage-grade": "Keskmine hinne",
   "present": "Praegu",
-  "license-category": "Litsentsi kategooria"
+  "license-category": "Loa kategooria"
 }

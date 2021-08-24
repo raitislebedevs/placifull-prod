@@ -1,6 +1,6 @@
 {
   "main": {
-    "success": "Makse õnnestus",
+    "success": "Makse õnnestus.",
     "plan_update": "Me ei saanud uuendada sinu plaani.",
     "card_not": "Kaardimakse ei õnnestunud.",
     "pay": "Maksa €",
@@ -12,10 +12,10 @@
     "phone": "(941) 555-7777"
   },
   "incomplete": {
-    "incomplete_cvc": "Sinu kaardi turvakood on puudulik",
-    "incomplete_expiry": "Sinu kaardi aegumiskuupäev on puudulik",
+    "incomplete_cvc": "Sinu kaardi turvakood on puudulik.",
+    "incomplete_expiry": "Sinu kaardi aegumiskuupäev on puudulik.",
     "incomplete_number": "Sinu kaardinumber on puudulik",
-    "email_invalid": "E -posti aadress ei sobi"
+    "email_invalid": "E -maili aadress ei sobi"
   },
 
   "declined": {

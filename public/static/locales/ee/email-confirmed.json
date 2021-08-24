@@ -1,17 +1,17 @@
 {
   "heading": "E-maili kinnitus",
-  "title": "E-maili kinnitus",
-  "description": "Konto edukaks kinnitamiseks kinnitage oma e -posti aadress",
+  "title": "E-maili Kinnitus",
+  "description": "  Konto edukaks kinnitamiseks kinnitage oma e-maili aadress",
   "form": {
-    "heading": "E-posti aadress",
-    "placeholder": "Sisestage oma profiili e -posti aadress",
-    "submit": "Saada",
-    "confirmed": "E-post on juba kinnitatud?",
-    "sign-in": "Logi sisse",
-    "success-text": "Teie e -posti aadressile saadeti e -posti kinnituse link",
+    "heading": "  E-maili aadress",
+    "placeholder": "  Sisestage oma profiili e-maili aadress",
+    "submit": "  Saada",
+    "confirmed": "  E-mail on juba kinnitatud?",
+    "sign-in": "  Logi sisse",
+    "success-text": "Teie e-maili aadressile saadeti e-maili kinnitamise link",
     "error": {
-      "email-invalid": "Palun sisesta kehtiv email",
-      "email-required": "E -posti aadress on kohustuslik"
+      "email-invalid": "  Palun sisesta kehtiv e-mail",
+      "email-required": "  E-maili aadress on nõutav"
     }
   }
 }

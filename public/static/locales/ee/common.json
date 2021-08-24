@@ -66,14 +66,14 @@
     "email-send": "Saadeti e-mail",
     "no-email": "Kuulutuse e-maili ei ole olemas",
     "subscribed": "Palju õnne, oled liitunud :)",
-    "already-applied": "Oled sellele positsioonile avalduse teinud",
+    "already-applied": "Oled sellele positsioonile avalduse esitanud",
     "already": "Oled juba liitunud / vale e-mail",
-    "country-error": "Tundmatu viga riigi sisendis",
+    "country-error": "Tundmatu viga riigi väljal",
     "location-error": "Asukohta ei tuvastatud",
     "unknown-error": "Tundmatu serveri viga",
     "search-results": {
-      "found": "Found",
-      "items": "esemeid"
+      "found": "Leitud",
+      "items": "kuulutusi"
     },
     "not-found": "Ei leidnud uusi tulemusi",
     "messages": {
@@ -83,7 +83,7 @@
       "error": "Viga"
     },
     "logout-success": "Näeme hiljem!",
-    "bid-placed": "Pakkumine tehti",
+    "bid-placed": "Pakkumine on esitatud",
     "your-referral": "Ei saa kasutada oma suunamiskoodi :)",
     "minimal-withdraw": "Minimaalne väljamakstav summa on 25 €"
   },
@@ -139,5 +139,5 @@
     "profile": "Profiil",
     "log-out": "Logi välja"
   },
-  "preview-close": "Sule eelvaade"
+  "preview-close": "Sulge eelvaade"
 }

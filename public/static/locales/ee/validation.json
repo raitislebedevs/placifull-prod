@@ -40,7 +40,7 @@
 
   "real-estate": {
     "address": {
-      "mapPoint": "Palun märki kaardile aadress",
+      "mapPoint": "Palun märgi kaardile aadress",
       "address": "Kuulutuse aadress on nõutud."
     },
     "rooms": "Tubade arv on nõutud.",

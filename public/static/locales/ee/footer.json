@@ -2,9 +2,9 @@
   "top": {
     "list-menu": {
       "menu-1": {
-        "text-head": "Alustage oma reisi",
+        "text-head": "Alusta oma teekonda",
         "items": {
-          "item-1": " Mida sa veel ootad? Alustage oma unistuste maja, ideaalse auto, unistuste töö ja riigi otsimist, kus olete alati tahtnud elada."
+          "item-1": "Mida sa veel ootad? Alusta oma unistuste maja, ideaalse auto, unistuste töö otsimist riigis, kus oled alati tahtnud elada."
         }
       },
       "menu-2": {
@@ -14,9 +14,9 @@
           "item-2": "Meeskond",
           "item-3": "Karjäär",
           "item-4": "Blogi",
-          "item-5": "Hinnakujundus",
-          "item-6": "Edendatud",
-          "item-7": "Hääletuskogu"
+          "item-5": "Hinnad",
+          "item-6": "Esiletõstetud kuulutused",
+          "item-7": "Hääletustahvel"
         }
       },
       "menu-3": {
@@ -25,7 +25,7 @@
           "item-1": "Logi sisse",
           "item-2": "Registreeru",
           "item-3": "Kinnisvara",
-          "item-4": "Sõidukid",
+          "item-4": "Transport",
           "item-5": "Töö",
           "item-6": "Teenuse tingimused"
         }
@@ -34,7 +34,7 @@
         "text-head": "Uudiskiri",
         "items": {
           "item-1": "Registreeru ja saa e-maili teel värskeid nõuandeid.",
-          "item-2": "Kirjuta oma e-mail",
+          "item-2": "See väli on nõutud",
           "item-3": "Sinu e-mail",
           "item-4": "Liitu"
         }
