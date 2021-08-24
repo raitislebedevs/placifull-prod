@@ -1,6 +1,11 @@
 .blog__item__container {
   margin: 0% 20%;
   margin-bottom: 7%;
+
+  @include media-breakpoint-down(md) {
+    margin: 0% 2%;
+    margin-bottom: 7%;
+  }
   .blog__image__container {
     margin: 3% 17%;
     max-width: 100%;
