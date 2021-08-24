@@ -1,4 +1,5 @@
 .blog__item__container {
+  margin: 0% 20%;
   margin-bottom: 7%;
   .blog__image__container {
     margin: 3% 17%;
@@ -23,12 +24,36 @@
       font-size: 12px;
     }
 
-    .blog__icon {
-      color: theme-color("primary");
-      font-size: 18px;
-    }
     .blog__creation__date {
       margin-right: 25px;
+    }
+  }
+  .blog__icon {
+    color: theme-color("primary");
+    font-size: 18px;
+  }
+  .photograph__author {
+    color: lightgray;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    padding-bottom: 10px;
+    font-weight: 900;
+    margin: 10px 15px;
+    transition: all 0.75s;
+    .photography {
+      transition: all 0.75s;
+      margin-right: 10px;
+      color: lightgray;
+    }
+    &:hover {
+      cursor: pointer;
+      transition: all 0.75s;
+      color: black;
+      .photography {
+        transition: all 0.75s;
+        color: theme-color("primary");
+      }
     }
   }
 }

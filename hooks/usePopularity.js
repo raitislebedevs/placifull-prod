@@ -21,7 +21,7 @@ const usePopularity = (component, Service) => {
       let usersVoted = component?.popularity?.usersVoted || [];
       const local = await LanguageService.LOCAL();
 
-      if (usersVoted.includes(local.IPv4)) return;
+      if (usersVoted.includes(local?.IPv4)) return;
 
       let newRate =
         parseFloat(
@@ -53,7 +53,7 @@ const usePopularity = (component, Service) => {
       const local = await LanguageService.LOCAL();
       let usersViewed = component?.popularity?.usersViewed || [];
 
-      if (usersViewed.includes(local.IPv4)) return;
+      if (usersViewed.includes(local?.IPv4)) return;
 
       usersViewed.push(local.IPv4);
       setStarValue(component?.popularity?.rating || 0);

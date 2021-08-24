@@ -225,7 +225,7 @@ const BlogSection = (props) => {
                       {formatDate(item.insertDate, t)}
                     </span>
                     <span className={'blog__author'}>
-                      <BsPerson className={'blog__icon'} /> {item.author}
+                      <BsPerson className={'blog__icon'} /> {item?.author}
                     </span>
                   </div>
                   <div className={'footer__container'}>

@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { SelectInputSubmit } from 'components/common';
 import { BlogService } from 'services';
 import { useDropzone } from 'react-dropzone';
-import { FaRegTimesCircle } from 'react-icons/fa';
+import { FaRegTimesCircle, FaHeading } from 'react-icons/fa';
 import { RiUploadCloud2Fill } from 'react-icons/ri';
 import RichText from 'components/common/RichText';
 
@@ -15,6 +15,7 @@ const BlogContent = (props) => {
     author: ' ',
     blogInformation: '',
     blogType: '',
+    photograph: '',
   });
 
   const [files, setFiles] = useState([]);
@@ -74,6 +75,12 @@ const BlogContent = (props) => {
       setIsSubmitting(false);
       return;
     }
+
+    if (!inputValues?.photograph) {
+      setIsSubmitting(false);
+      return;
+    }
+
     try {
       let payload = {
         header: inputValues.header,
@@ -82,6 +89,7 @@ const BlogContent = (props) => {
         blogType: inputValues.blogType,
         author: inputValues.author,
         insertDate: new Date(),
+        photograph: inputValues.photograph,
         blogInformationText: pureText,
         popularity: {
           views: 1,
@@ -140,7 +148,7 @@ const BlogContent = (props) => {
             <Col xs={12} sm={12} md={12} lg={12} xl={12}>
               <Form.Group>
                 <div className="profile__input">
-                  <AiOutlineUser className="input__icon" size="20px" />
+                  <FaHeading className="input__icon" size="20px" />
                   <Form.Control
                     name="header"
                     id="header"
@@ -186,7 +194,6 @@ const BlogContent = (props) => {
             <Col xs={12} sm={12} md={12} lg={12} xl={12}>
               <Form.Group>
                 <div className="profile__input form-control-container">
-                  <FiMessageCircle className="input__icon" size="20px" />
                   <RichText
                     name="blogInformation"
                     rows={17}
@@ -204,6 +211,22 @@ const BlogContent = (props) => {
                       {5000 - inputValues.blogInformation?.length}
                     </div>
                   </>
+                </div>
+              </Form.Group>
+            </Col>
+            <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+              <Form.Group>
+                <div className="profile__input">
+                  <AiOutlineUser className="input__icon" size="20px" />
+                  <Form.Control
+                    name="photograph"
+                    id="photograph"
+                    type="text"
+                    onChange={handleOnChange}
+                    className="input__text"
+                    maxLength={'33'}
+                    placeholder={'Photograph'}
+                  />
                 </div>
               </Form.Group>
             </Col>
