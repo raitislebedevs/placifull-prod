@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Spinner, Row, Col, Form } from 'react-bootstrap';
+import { Container, Row, Col, Form } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { CustomFormControl } from 'components/common';
 import { CurrencyInput } from 'components/common';
