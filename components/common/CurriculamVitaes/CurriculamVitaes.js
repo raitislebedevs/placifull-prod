@@ -74,12 +74,12 @@ const CurriculamVitaes = (props) => {
       let dateA = new Date(a.fromDate),
         dateB = new Date(b.fromDate);
       return dateB - dateA;
-    }),
-      EducationHistory?.sort((a, b) => {
-        let dateA = new Date(a.fromYear),
-          dateB = new Date(b.fromYear);
-        return dateB - dateA;
-      });
+    });
+    EducationHistory?.sort((a, b) => {
+      let dateA = new Date(a.fromYear),
+        dateB = new Date(b.fromYear);
+      return dateB - dateA;
+    });
   }, []);
 
   return (

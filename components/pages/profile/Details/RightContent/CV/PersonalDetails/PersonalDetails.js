@@ -1,15 +1,18 @@
 import { useEffect, useState } from 'react';
-import { Row, Col, Form, Button } from 'react-bootstrap';
+import { Row, Col, Form, Button, Spinner } from 'react-bootstrap';
 import { CustomFormControl, SelectInputSubmit } from 'components/common';
 import { HiOutlineUsers } from 'react-icons/hi';
+import { AiOutlineDownload } from 'react-icons/ai';
 import fields from './fields';
 import Datetime from 'react-datetime';
+import generateResume from 'utils/generateResume';
 
 const PersonalDetails = (props) => {
-  const { t, handleOnChange, inputValues, personalDetail } = props;
+  const { t, handleOnChange, inputValues, personalDetail, submitCurrency } =
+    props;
   const inputFields = fields(t);
   const [isCVPublished, setIsCVPublished] = useState(inputValues.isPublished);
-
+  const [cvDownload, setCvDownload] = useState(false);
   useEffect(() => {
     let payload = { id: 'isPublished', value: isCVPublished };
     handleOnChange(payload);
@@ -17,13 +20,22 @@ const PersonalDetails = (props) => {
 
   useEffect(() => {}, []);
 
+  const downloadResume = async (e) => {
+    e.preventDefault();
+    setCvDownload(true);
+    try {
+      await generateResume(inputValues, t, submitCurrency);
+    } catch (error) {}
+    setCvDownload(false);
+  };
+
   return (
     <div className="wrapper__body ">
       <Row className="wrapper__body--header mb-4">
         <Col
-          xl={12}
-          lg={12}
-          md={12}
+          xl={6}
+          lg={6}
+          md={6}
           sm={12}
           xs={12}
           className="wrapper__body--heading__col"
@@ -53,6 +65,33 @@ const PersonalDetails = (props) => {
               </Button>
             )}
           </div>
+        </Col>
+        <Col
+          xl={3}
+          lg={3}
+          md={3}
+          sm={12}
+          xs={12}
+          className="wrapper__body--heading__col"
+        >
+          {!cvDownload ? (
+            <div
+              onClick={(e) => downloadResume(e)}
+              className="save__all__button"
+            >
+              <AiOutlineDownload />
+            </div>
+          ) : (
+            <div className="save__all__button">
+              <Spinner
+                as="span"
+                animation="border"
+                variant="danger"
+                size="sm"
+                role="status"
+              />
+            </div>
+          )}
         </Col>
       </Row>
       <Row className="body__item">

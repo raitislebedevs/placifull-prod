@@ -135,8 +135,12 @@
     .wrapper__body {
       padding: 5px 10px;
       width: 100%;
-
+      .save__all__button {
+        margin: 5px;
+      }
       .wrapper__body--header {
+        display: flex;
+        justify-content: space-between;
         .wrapper__body--heading__col {
           text-align: left;
           display: grid;

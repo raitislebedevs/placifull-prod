@@ -44,7 +44,7 @@ export const random = (min, max) =>
 export const formatMonth = (date, t) => {
   let year = moment(Date.parse(date)).format('YYYY');
   let month = t(`common:month.${moment(Date.parse(date)).format('MMM')}`);
-  return `${year} - ${month}`;
+  return `${year} ${month}`;
 };
 
 export const formatDate = (date, t) => {
