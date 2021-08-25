@@ -40,10 +40,10 @@
   },
   "salary": {
     "heading": "Alga",
-    "monthly-from": "Alga no",
-    "monthly-to": "Alga līdz",
+    "monthly-from": "Mēnešalga no",
+    "monthly-to": "Mēnešalga līdz",
     "hourly-rate-from": "Stundas likme no",
-    "annual-from": "Stundas likme līdz",
+    "annual-from": "Gada alga līdz",
     "annual-to": "Gada alga līdz",
     "hourly-rate-to": "Stundas likme līdz"
   },
