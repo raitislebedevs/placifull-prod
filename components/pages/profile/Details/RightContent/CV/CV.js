@@ -357,12 +357,14 @@ const CV = (props) => {
                 />
               </div>
             ) : (
-              <div
-                onClick={() => handleCvUpdates()}
-                className="save__all__button"
-              >
-                <RiSaveLine /> {t('profile:overview.button-label.save-all')}
-              </div>
+              <>
+                <div
+                  onClick={() => handleCvUpdates()}
+                  className="save__all__button"
+                >
+                  <RiSaveLine /> {t('profile:overview.button-label.save-all')}
+                </div>
+              </>
             )}
           </Col>
         </Row>
