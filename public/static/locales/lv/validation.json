@@ -82,5 +82,6 @@
   "email": {
     "full-name": "Lūdzu norādiet savu vārdu",
     "message": "Ziņa ir nepieciešama"
-  }
+  },
+  "size": "Faili ir lielāki par 60 MB"
 }

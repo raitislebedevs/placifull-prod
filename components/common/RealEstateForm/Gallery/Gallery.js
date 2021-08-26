@@ -5,6 +5,7 @@ import { Row, Col, Form } from 'react-bootstrap';
 import { FaRegTimesCircle } from 'react-icons/fa';
 import { RiUploadCloud2Fill } from 'react-icons/ri';
 import { AiOutlineVideoCamera } from 'react-icons/ai';
+import { maxTotalSize } from 'constants/fileManipulation';
 
 const Gallery = (props) => {
   const { t, inputValues, handleOnChange } = props;
@@ -12,6 +13,16 @@ const Gallery = (props) => {
   const { getRootProps, getInputProps } = useDropzone({
     accept: 'image/*',
     onDrop: (acceptedFiles) => {
+      var totalSize = acceptedFiles.reduce((a, b) => a + (b.size || 0), 0);
+      if (totalSize > maxTotalSize) {
+        TostifyCustomContainer(
+          'warning',
+          t('common:toast.messages.warning'),
+          t('validation:size')
+        );
+        return;
+      }
+
       setFiles(
         acceptedFiles.map((file) =>
           Object.assign(file, {
