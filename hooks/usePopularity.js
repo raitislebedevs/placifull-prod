@@ -22,7 +22,7 @@ const usePopularity = (component, Service) => {
       const local = await LanguageService.LOCAL();
 
       if (usersVoted.includes(local?.IPv4)) return;
-
+      usersVoted.push(local.IPv4);
       let newRate =
         parseFloat(
           ((rate + rating * voteCount) / (voteCount + 1)).toFixed(1)
