@@ -52,10 +52,12 @@ const RealEstateCard = (props) => {
         >
           {item?.listingGallery?.length > 0 ? (
             item?.listingGallery?.map((i) => (
-              <a
-                className="carousel-container__item"
-                style={{ backgroundImage: `url(${i.url}` }}
-              >
+              <a key={i?.id}>
+                <img
+                  src={i.url}
+                  className="carousel-container__item"
+                  alt="Card"
+                />
                 <div className="item__name-address">
                   {item?.country?.native && (
                     <div className="name-address__address">

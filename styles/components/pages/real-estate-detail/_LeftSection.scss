@@ -148,6 +148,7 @@
         cursor: pointer;
         position: absolute;
         top: 40%;
+        height: 100%;
         width: auto;
         padding: 16px;
         margin-top: -22px;
@@ -158,8 +159,6 @@
         border-radius: 0 3px 3px 0;
         user-select: none;
         z-index: 99;
-      }
-      .next {
         right: -15px;
         border-radius: 3px 0 0 3px;
       }
@@ -167,10 +166,9 @@
         left: -15px;
         border-radius: 3px 0 0 3px;
       }
-      .carousel-with-custom-dots {
-        padding-bottom: 125px;
-      }
+
       .custom-dot {
+        transition: 0.75s all;
         border: none;
         margin: 10px;
         outline: none;
@@ -187,10 +185,12 @@
         }
       }
       .custom-dot--active {
+        transition: 0.75s all;
         transform: scale(1.1);
         outline: auto;
       }
       .carousel-with-custom-dots {
+        padding-bottom: 125px;
         height: 100%;
         .react-multi-carousel-track {
           height: 100%;

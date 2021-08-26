@@ -59,65 +59,45 @@
         .cover__item {
           height: 100%;
           .carousel-container__item {
-            height: 100%;
+            object-fit: cover;
             width: 100%;
-            position: relative;
-            background-size: 100% 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            display: block;
-            transition: 0.5s background-size;
-            background-color: #a0a0a0;
-            &::after {
-              opacity: 0.3;
-              background: linear-gradient(
-                to bottom,
-                transparent 0%,
-                black 100%
-              );
-              background-color: rgba(0, 0, 0, 0.1);
-              position: absolute;
-              bottom: 0;
-              left: 0;
-              height: 100%;
-              width: 100%;
-              content: "";
-            }
+            height: 100%;
+            transition: 0.5s all;
+            background-color: #fff;
+
             &:hover {
-              background-size: 115% 115%;
-              .item__name-address {
-                bottom: 30px;
+              width: 105%;
+              height: 105%;
+            }
+          }
+          .item__name-address {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            z-index: 1;
+            transition: 0.75s all;
+            .name-address__address {
+              border: 1px solid white;
+              color: #fff;
+              box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+              font-size: 9px;
+              text-transform: uppercase;
+              font-weight: 800;
+              border-radius: 5px;
+              padding: 3px 5px;
+              width: fit-content;
+              .wrapper__icon {
+                transform: translateY(-2px);
+                margin-right: 5px;
               }
             }
-            .item__name-address {
-              position: absolute;
-              bottom: 15px;
-              left: 15px;
-              z-index: 1;
-              transition: 0.75s all;
-              .name-address__address {
-                border: 1px solid white;
-                color: #fff;
-                box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
-                font-size: 9px;
-                text-transform: uppercase;
-                font-weight: 800;
-                border-radius: 5px;
-                padding: 3px 5px;
-                width: fit-content;
-                .wrapper__icon {
-                  transform: translateY(-2px);
-                  margin-right: 5px;
-                }
-              }
-              .name-address__name {
-                text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-                color: #fff;
-                font-size: 16px;
-                font-weight: bold;
-                margin-bottom: 2px;
-                margin-top: 5px;
-              }
+            .name-address__name {
+              text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+              color: #fff;
+              font-size: 16px;
+              font-weight: bold;
+              margin-bottom: 2px;
+              margin-top: 5px;
             }
           }
         }
