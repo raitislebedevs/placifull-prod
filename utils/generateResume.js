@@ -105,7 +105,7 @@ const generateResume = async (cv, t, cvCurrency) => {
     writeText(doc, cv?.cvProfession, 1);
   }
 
-  doc.setFontSize(10);
+  doc.setFontSize(8);
   //Line
   doc.setDrawColor(243, 246, 251);
   doc.setLineWidth(2.5);
@@ -360,7 +360,6 @@ const generateResume = async (cv, t, cvCurrency) => {
 
   function pngItems(doc, png, text) {
     doc.addImage(png, 'PNG', leftPadding, yAxis, 8, 8);
-    doc.setFontSize(10);
     yAxis = yAxis + 6;
     splitText = doc.splitTextToSize(text, leftMaxWide - 12);
     doc.text(leftPadding + 12, yAxis, splitText);

@@ -82,5 +82,7 @@
   "email": {
     "full-name": "Palun lisa oma nimi",
     "message": "Sõnum on nõutud"
-  }
+  },
+
+  "size": "Suurus on suurem kui 60 MB"
 }

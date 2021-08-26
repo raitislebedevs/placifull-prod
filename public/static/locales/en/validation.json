@@ -82,5 +82,6 @@
   "email": {
     "full-name": "Please provide your name",
     "message": "Message is required"
-  }
+  },
+  "size": "Size is bigger than 60 MB"
 }

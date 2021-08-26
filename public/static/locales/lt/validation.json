@@ -82,5 +82,6 @@
   "email": {
     "full-name": "Prašome nurodyti savo vardą",
     "message": "Privalote pridėti žinutę"
-  }
+  },
+  "size": "Dydis yra didesnis nei 60 MB"
 }
