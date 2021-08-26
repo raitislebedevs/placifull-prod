@@ -4,7 +4,7 @@ import LanguageService from 'services/languageService.js';
 //Based on Popularity component
 const usePopularity = (component, Service) => {
   const [isLoading, setIsLoading] = useState(false);
-  const [liveViews, setLiveViews] = useState(2);
+  const [liveViews, setLiveViews] = useState(component?.popularity?.views || 0);
   const [starValue, setStarValue] = useState();
 
   useEffect(() => {
