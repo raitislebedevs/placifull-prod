@@ -7,6 +7,7 @@ import { BlogService } from 'services';
 import { useDropzone } from 'react-dropzone';
 import { FaRegTimesCircle, FaHeading } from 'react-icons/fa';
 import { RiUploadCloud2Fill } from 'react-icons/ri';
+import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import RichText from 'components/common/RichText';
 
 const BlogContent = (props) => {
@@ -50,6 +51,24 @@ const BlogContent = (props) => {
     },
   ];
 
+  const languages = [
+    {
+      value: '',
+      label: 'Blog language',
+      id: 'language',
+    },
+    {
+      value: 'english',
+      label: 'English',
+      id: 'language',
+    },
+    {
+      value: 'latvian',
+      label: 'Latviešu',
+      id: 'language',
+    },
+  ];
+
   const handleOnChange = (event) => {
     const value = event?.target?.value ?? event?.value ?? event;
     const id = event?.target?.id ?? event?.id;
@@ -59,24 +78,14 @@ const BlogContent = (props) => {
   const insertNewBlogPost = async (event) => {
     event.preventDefault();
     setIsSubmitting(true);
-    if (!inputValues?.header) {
-      setIsSubmitting(false);
-      return;
-    }
-    if (!inputValues?.blogInformation) {
-      setIsSubmitting(false);
-      return;
-    }
-    if (!inputValues?.blogType) {
-      setIsSubmitting(false);
-      return;
-    }
-    if (!inputValues?.author) {
-      setIsSubmitting(false);
-      return;
-    }
-
-    if (!inputValues?.photograph) {
+    if (
+      !inputValues?.header ||
+      !inputValues?.blogInformation ||
+      !inputValues?.blogType ||
+      !inputValues?.author ||
+      !inputValues?.photograph ||
+      !inputValues.language
+    ) {
       setIsSubmitting(false);
       return;
     }
@@ -87,6 +96,7 @@ const BlogContent = (props) => {
         blogInformation: inputValues.blogInformation,
         blogInformationText: pureText,
         blogType: inputValues.blogType,
+        language: inputValues.language,
         author: inputValues.author,
         insertDate: new Date(),
         photograph: inputValues.photograph,
@@ -108,6 +118,11 @@ const BlogContent = (props) => {
 
       await BlogService.CREATE(formData);
 
+      TostifyCustomContainer(
+        'success',
+        'Success',
+        'New blog content was posted! :)'
+      );
       setIsSubmitting(false);
     } catch (e) {
       setIsSubmitting(false);
@@ -175,6 +190,7 @@ const BlogContent = (props) => {
                 />
               </Form.Group>
             </Col>
+
             <Col xs={12} sm={12} md={6} lg={6} xl={6}>
               <Form.Group>
                 <div className="profile__input">
@@ -214,7 +230,7 @@ const BlogContent = (props) => {
                 </div>
               </Form.Group>
             </Col>
-            <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+            <Col xs={12} sm={12} md={6} lg={6} xl={6}>
               <Form.Group>
                 <div className="profile__input">
                   <AiOutlineUser className="input__icon" size="20px" />
@@ -228,6 +244,19 @@ const BlogContent = (props) => {
                     placeholder={'Photograph'}
                   />
                 </div>
+              </Form.Group>
+            </Col>
+            <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+              <Form.Group>
+                <SelectInputSubmit
+                  id={'language'}
+                  clearIds={[]}
+                  maxLength={10}
+                  onChange={handleOnChange}
+                  isSearchable={true}
+                  options={languages}
+                  placeholder={'Language'}
+                />
               </Form.Group>
             </Col>
             <Col lg={12}>
