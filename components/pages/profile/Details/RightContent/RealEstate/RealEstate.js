@@ -40,7 +40,7 @@ const responsive = {
 
 const RealEstate = (props) => {
   const { t, user } = props;
-  const [limit, setLimit] = useState(7);
+  const [limit, setLimit] = useState(9);
   const [skip, setSkip] = useState(0);
   const [total, setTotal] = useState(0);
   const [items, setItems] = useState([]);
@@ -72,10 +72,8 @@ const RealEstate = (props) => {
       });
       setTotal(count.data);
       setItems(result.data);
-      setIsLoading(false);
-    } catch (e) {
-      setIsLoading(false);
-    }
+    } catch (e) {}
+    setIsLoading(false);
   };
 
   const handlePageChange = (page) => {

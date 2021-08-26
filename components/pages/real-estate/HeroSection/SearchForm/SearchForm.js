@@ -24,7 +24,6 @@ import Datetime from 'react-datetime';
 import housingFields from './housingFields';
 import landFields from './landFields';
 import TagServices from 'services/tagServices';
-import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import guidGenerator from 'utils/guidGenerator';
 import { cleanObject } from 'utils/standaloneFunctions';
 
@@ -665,7 +664,7 @@ const SearchForm = (props) => {
                           >
                             <div className="right__header">
                               {group.label}{' '}
-                              {group?.tick && (
+                              {/* {group?.tick && (
                                 <>
                                   <input
                                     type="checkbox"
@@ -674,7 +673,7 @@ const SearchForm = (props) => {
                                     id={'messarmentUnits'}
                                   />
                                 </>
-                              )}
+                              )} */}
                               :
                             </div>
                             <Form.Group>

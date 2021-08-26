@@ -60,6 +60,10 @@ const BlogSection = (props) => {
 
   const languages = [
     {
+      value: '',
+      label: t('blog:search.all'),
+    },
+    {
       value: 'english',
       label: 'English',
     },
@@ -71,8 +75,8 @@ const BlogSection = (props) => {
 
   const [limit, setLimit] = useState(9);
   const [skip, setSkip] = useState(0);
-  const [total, setTotal] = useState('');
-  const [sort, setSort] = useState('');
+  const [total, setTotal] = useState(0);
+  const [language, setLanguage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [items, setItems] = useState([]);
   const [activeItem, setActiveItem] = useState(blogFilters[0]);
@@ -86,21 +90,38 @@ const BlogSection = (props) => {
   const getBlogPosts = async () => {
     try {
       setIsLoading(true);
+
+      let filter = {};
+      if (!language && activeItem.filter) {
+        filter = {
+          blogType_contains: activeItem.filter,
+        };
+      }
+
+      if (language && activeItem.filter) {
+        filter = {
+          blogType_contains: activeItem.filter,
+          language_contains: language || null,
+        };
+      }
+
+      if (language && !activeItem.filter) {
+        filter = {
+          language_contains: language || null,
+        };
+      }
+
       const result = await BlogService.FIND({
         _limit: limit,
         _start: skip,
-        _where: {
-          blogType_contains: activeItem.filter,
-        },
+        _where: filter,
       });
 
       const count = await BlogService.COUNT({
-        _where: {
-          blogType: activeItem.filter,
-        },
+        _where: filter,
       });
 
-      setTotal(count.data);
+      setTotal(count.data || 9);
       setItems(result.data);
     } catch (e) {
       console.log(e);
@@ -110,10 +131,10 @@ const BlogSection = (props) => {
 
   useEffect(() => {
     getBlogPosts();
-  }, [activeItem]);
+  }, [activeItem, limit, language, skip]);
 
-  const onSortChange = (e) => {
-    setSort(e.value);
+  const onLanguageChange = (e) => {
+    setLanguage(e.value, language);
   };
 
   return (
@@ -149,7 +170,6 @@ const BlogSection = (props) => {
                 <SelectInput
                   onChange={(e) => {
                     setLimit(e.value);
-                    setSkip(0);
                   }}
                   id="limit"
                   defaultValue={limitOptions[0]}
@@ -161,7 +181,7 @@ const BlogSection = (props) => {
             <Col lg={4} md={4} sm={4} xs={12}>
               <div className={'filter__option'}>
                 <SelectInput
-                  onChange={onSortChange}
+                  onChange={onLanguageChange}
                   id="language"
                   defaultValue={languages[0]}
                   options={languages}
@@ -253,7 +273,7 @@ const BlogSection = (props) => {
             breakLinkClassName={'page-link'}
             pageCount={Math.ceil(total / limit)}
             marginPagesDisplayed={2}
-            pageRangeDisplayed={4}
+            pageRangeDisplayed={2}
             onPageChange={handlePageChange}
             containerClassName={'pagination'}
             subContainerClassName={'page-item'}

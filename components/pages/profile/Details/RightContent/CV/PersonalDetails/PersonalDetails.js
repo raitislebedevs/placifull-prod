@@ -36,8 +36,8 @@ const PersonalDetails = (props) => {
           xl={6}
           lg={6}
           md={6}
-          sm={6}
-          xs={6}
+          sm={12}
+          xs={12}
           className="wrapper__body--heading__col"
         >
           <div>
@@ -70,8 +70,8 @@ const PersonalDetails = (props) => {
           xl={3}
           lg={3}
           md={3}
-          sm={3}
-          xs={3}
+          sm={12}
+          xs={12}
           className="wrapper__body--heading__col"
         >
           {!cvDownload ? (

@@ -7,7 +7,7 @@ const inputFields = (t, listingItem, listingCurrency) => [
     label: t('real-estate-detail:general-info.property-area'),
     value: listingItem?.area ? (
       <span>
-        {listingItem?.area}{' '}
+        {formatNumber(listingItem?.area)}{' '}
         {listingItem?.areaMeasurement === 'metter' ? 'm' : 'ft'}
         <sup>2</sup>
       </span>
