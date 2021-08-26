@@ -1,12 +1,12 @@
 .carousel__modal {
-  .modalHeader.custom {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: 0.67s all;
+  .modalHeader {
     position: absolute;
     right: 0px;
-    z-index: 999;
+    z-index: 99999999;
     width: 100%;
-    background: #ffffff05;
-    border-radius: 15px;
-
+    border: none;
     button.close {
       font-size: 2rem;
       position: relative;
@@ -15,29 +15,21 @@
       color: black;
     }
   }
-  .modal-content {
-    background: transparent;
-    border: none;
-  }
-  .modal-body {
-    padding: 0 0.5rem;
-  }
-
   .information__cover {
-    width: 100%;
-    height: 500px;
+    width: 100% !important;
+    height: 90vh !important;
 
     .carousel-with-custom-dots {
-      height: 100%;
+      height: 100% !important;
       .react-multi-carousel-track {
-        height: 100%;
+        height: 100% !important;
         .cover__item {
-          height: 100%;
+          height: 100% !important;
           .item__image {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            border-radius: 15px;
+            height: 100% !important;
+            width: 100% !important;
+            object-fit: contain !important;
+            border-radius: 15px !important;
           }
         }
       }

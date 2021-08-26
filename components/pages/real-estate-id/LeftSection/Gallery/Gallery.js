@@ -122,7 +122,7 @@ const Gallery = (props) => {
           infinite={true}
           centerMode={false}
           responsive={responsive}
-          containerClass=" carousel-with-custom-dots"
+          containerClass="carousel-with-custom-dots"
           itemClass="cover__item"
           renderDotsOutside
           dotListClass="react-multi-carousel-list"
@@ -151,11 +151,7 @@ const Gallery = (props) => {
         centered
         size={'xl'}
       >
-        <ModalHeader
-          bsPrefix="custom"
-          closeButton
-          className="modalHeader"
-        ></ModalHeader>
+        <ModalHeader closeButton className="modalHeader"></ModalHeader>
         <Modal.Body>
           <div className="information__cover">
             <Carousel
@@ -164,7 +160,7 @@ const Gallery = (props) => {
               infinite={true}
               centerMode={false}
               responsive={responsive}
-              containerClass=" carousel-with-custom-dots"
+              containerClass="carousel-with-custom-dots"
               itemClass="cover__item"
             >
               {modalGallery?.length > 0 ? (
