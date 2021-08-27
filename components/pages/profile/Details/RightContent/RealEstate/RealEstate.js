@@ -15,6 +15,7 @@ import { ModalAsk } from 'components/common';
 import useSubscriptions from 'hooks/useSubscriptions';
 import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
 import { FileServices } from 'services';
+import { isListingsFree } from 'constants/parameters';
 
 const noRealEstate =
   'https://placifull-static.s3.eu-central-1.amazonaws.com/RealEstate.webp';
@@ -85,27 +86,21 @@ const RealEstate = (props) => {
   const handleDeleteListing = async () => {
     try {
       setIsLoading(true);
-      await getSubscriptions(t, user?.id);
-      let result = await handleUpdate(
-        subscriptions,
-        subscriptions.realEstate,
-        removableListing,
-        subscriptions.id
-      );
+
+      if (!isListingsFree) {
+        await getSubscriptions(t, user?.id);
+        await handleUpdate(
+          subscriptions,
+          subscriptions.realEstate,
+          removableListing,
+          subscriptions.id
+        );
+      }
 
       let removeableListing = items.filter(
         (item) => item.id === removableListing
       )[0];
       let awsS3items = removeableListing?.listingGallery;
-      if (!result) {
-        setIsLoading(false);
-        await getRealEstate();
-        return TostifyCustomContainer(
-          'warning',
-          t('error:listing.not-deleted')
-        );
-      }
-
       await RealEstateListingServices.DELETE(removableListing);
 
       awsS3items.forEach(async (element) => {

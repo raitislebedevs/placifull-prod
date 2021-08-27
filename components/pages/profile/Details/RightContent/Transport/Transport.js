@@ -81,39 +81,35 @@ const Transport = (props) => {
   const handleDeleteListing = async () => {
     try {
       setIsLoading(true);
-      await getSubscriptions(t, user?.id);
-      let result = await handleUpdate(
-        subscriptions,
-        subscriptions.transport,
-        removableListing,
-        subscriptions.id
-      );
+
+      if (!isListingsFree) {
+        await getSubscriptions(t, user?.id);
+        await handleUpdate(
+          subscriptions,
+          subscriptions.transport,
+          removableListing,
+          subscriptions.id
+        );
+      }
 
       let removeableListing = items.filter(
         (item) => item.id === removableListing
       )[0];
       let awsS3items = removeableListing?.listingGallery;
 
-      if (result) {
-        await TransportListingService.DELETE(removableListing);
+      await TransportListingService.DELETE(removableListing);
 
-        awsS3items.forEach(async (element) => {
-          await FileServices.DELETE_FILE(element.id);
-        });
+      awsS3items.forEach(async (element) => {
+        await FileServices.DELETE_FILE(element.id);
+      });
 
-        setIsLoading(false);
-        handleCloseDeleteModal();
-        await getTransport();
-        return TostifyCustomContainer(
-          'success',
-          t('common:toast.messages.success'),
-          t('profile:toast.item-deleted')
-        );
-      }
-      TostifyCustomContainer(
-        'warning',
-        t('common:toast.messages.warning'),
-        t('error:listing.not-deleted')
+      setIsLoading(false);
+      handleCloseDeleteModal();
+      await getTransport();
+      return TostifyCustomContainer(
+        'success',
+        t('common:toast.messages.success'),
+        t('profile:toast.item-deleted')
       );
     } catch (e) {
       setIsLoading(false);

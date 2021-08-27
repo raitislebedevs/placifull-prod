@@ -11,6 +11,7 @@ import { formatNumber, getExpiryCount } from 'utils/standaloneFunctions';
 import { ModalAsk } from 'components/common';
 import useSubscriptions from 'hooks/useSubscriptions';
 import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
+import { isListingsFree } from 'constants/parameters';
 
 const noJobs =
   'https://placifull-static.s3.eu-central-1.amazonaws.com/Jobs.webp';
@@ -64,13 +65,17 @@ const Jobs = (props) => {
   const handleDeleteListing = async () => {
     try {
       setIsLoading(true);
-      await getSubscriptions(t, user?.id);
-      let result = await handleUpdate(
-        subscriptions,
-        subscriptions.jobs,
-        removableListing,
-        subscriptions.id
-      );
+
+      if (!isListingsFree) {
+        await getSubscriptions(t, user?.id);
+        await handleUpdate(
+          subscriptions,
+          subscriptions.jobs,
+          removableListing,
+          subscriptions.id
+        );
+      }
+
       let removeableListing = items.filter(
         (item) => item.id === removableListing
       )[0];
@@ -78,7 +83,7 @@ const Jobs = (props) => {
 
       let logoId = removeableListing?.companyLogo.id;
 
-      if (result) await VacancyListingService.DELETE(removableListing);
+      await VacancyListingService.DELETE(removableListing);
 
       await FileServices.DELETE_FILE(logoId);
       awsS3items.forEach(async (element) => {
