@@ -78,9 +78,9 @@ const Header = (props) => {
               )}
               <Col lg={3} md={6} sm={6} xs={6} className="date__ago  p-1">
                 <AiOutlineClockCircle />{' '}
-                {getDayCount(listingItem?.insertDate) == 1
+                {getDayCount(listingItem?.insertDate) == 0
                   ? t('common:listing-input-date.today')
-                  : getDayCount(listingItem?.insertDate) == 2
+                  : getDayCount(listingItem?.insertDate) == 1
                   ? t('common:listing-input-date.yesterday')
                   : `${getDayCount(listingItem?.insertDate)} ${t(
                       'common:listing-input-date.days-ago'
