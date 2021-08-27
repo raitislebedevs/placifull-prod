@@ -19,12 +19,12 @@ export const formatPhoneNumber = (phone) => {
 
 export const getDayCount = (inputDate) => {
   let inputTime = new Date(inputDate);
-  return Math.round((new Date() - inputTime) / (1000 * 60 * 60 * 24));
+  return Math.floor((new Date() - inputTime) / (1000 * 60 * 60 * 24));
 };
 
 export const getExpiryCount = (inputDate) => {
   let inputTime = new Date(inputDate);
-  return Math.round((inputTime - new Date()) / (1000 * 60 * 60 * 24));
+  return Math.floor((inputTime - new Date()) / (1000 * 60 * 60 * 24));
 };
 
 export const cleanObject = (obj) => {
