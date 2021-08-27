@@ -4,6 +4,7 @@ import LanguageService from 'services/languageService.js';
 //Based on Popularity component
 const usePopularity = (component, Service) => {
   const [isLoading, setIsLoading] = useState(false);
+  const [isViewed, setIsViewed] = useState(false);
   const [liveViews, setLiveViews] = useState(component?.popularity?.views || 0);
   const [starValue, setStarValue] = useState(
     component?.popularity?.rating || 5
@@ -58,7 +59,10 @@ const usePopularity = (component, Service) => {
       const local = await LanguageService.LOCAL();
       let usersViewed = component?.popularity?.usersViewed || [];
 
-      if (usersViewed.includes(local?.IPv4)) return;
+      if (usersViewed.includes(local?.IPv4) || isViewed) {
+        setIsViewed(true);
+        return;
+      }
 
       usersViewed.push(local.IPv4);
       setStarValue(component?.popularity?.rating || 0);
