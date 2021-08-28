@@ -124,6 +124,8 @@ const RealEstatePost = (props) => {
       latitude: inputValues?.latitude || null,
       longitude: inputValues?.longitude || null,
 
+      inFloor: inputValues?.apartmentInFloor || null,
+      floors: inputValues?.floorCount || null,
       //End of Address fields
 
       videoLink: inputValues?.videoLink || null,
@@ -335,6 +337,7 @@ const RealEstatePost = (props) => {
         )}
         heading={t('real-estate-submit:form.contact-hours.accordion.heading')}
         inputValues={inputValues}
+        setInputValues={setInputValues}
         handleOnChange={handleOnChange}
         t={t}
       />

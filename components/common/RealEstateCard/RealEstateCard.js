@@ -8,6 +8,7 @@ import {
   FaRegStar,
   FaParking,
   FaRegEye,
+  FaRegBuilding,
 } from 'react-icons/fa';
 import { GiFamilyHouse } from 'react-icons/gi';
 import { IoBedSharp } from 'react-icons/io5';
@@ -99,11 +100,23 @@ const RealEstateCard = (props) => {
           <div className="upper-real-estate-item__wrapper">
             <GiFamilyHouse className="wrapper__icon" />
             <div className="wrapper__text">
-              {item?.area || 0}{' '}
+              {formatNumber(item?.area) || 0}{' '}
               {item?.areaMeasurement === 'metter' ? 'm' : 'ft'}
               <sup>2</sup>
             </div>
           </div>
+          {item?.floors && !item?.inFloor && (
+            <div className="upper-real-estate-item__wrapper">
+              <FaRegBuilding className="wrapper__icon" />
+              <div className="wrapper__text">{item.floors}</div>
+            </div>
+          )}
+          {item?.floors && item?.inFloor && (
+            <div className="upper-real-estate-item__wrapper">
+              <FaRegBuilding className="wrapper__icon" />
+              <div className="wrapper__text">{`${item.inFloor}/${item?.floors}`}</div>
+            </div>
+          )}
           <div className="upper-real-estate-item__wrapper">
             <IoBedSharp className="wrapper__icon" />
             <div className="wrapper__text">{item?.rooms || 0}</div>
@@ -129,8 +142,8 @@ const RealEstateCard = (props) => {
             emptySymbol={<FaRegStar className="ratings__icon" />}
           />
           <div className="real-estate-item-card__count">
-            <FaRegEye className="viewed__icon" />({item?.popularity?.views || 0}
-            )
+            <FaRegEye className="viewed__icon" />(
+            {formatNumber(item?.popularity?.views) || 0})
           </div>
         </div>
       </div>

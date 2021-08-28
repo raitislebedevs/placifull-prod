@@ -20,6 +20,24 @@
     }
   }
 }
+
+.firstInput {
+  position: relative;
+}
+
+.firstInput {
+  &::after {
+    content: "/";
+    font-size: 48px;
+    font-weight: 800;
+    position: absolute;
+    left: 100%;
+    top: 20%;
+    height: 100%;
+    transform: translateX(-50%);
+    font-size: 18px;
+  }
+}
 .form-control-container {
   position: relative;
   .max__length__counter {

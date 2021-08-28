@@ -150,6 +150,51 @@ const GeneralInformation = (props) => {
             );
           }
           if (
+            item.type === 'smallNumber' &&
+            isRendeable(item.category, item.action)
+          ) {
+            return (
+              <Col
+                lg={2}
+                md={2}
+                sm={6}
+                key={item.key}
+                className={`decorator__container ${item?.className}`}
+              >
+                <Form.Group>
+                  {item?.decorator}
+                  <NumberFormat
+                    customInput={CustomFormControl}
+                    label={item.label}
+                    id={item.key}
+                    onValueChange={(e) => {
+                      let payload = {
+                        target: {
+                          value: e?.floatValue || 0,
+                          id: item.key,
+                        },
+                      };
+                      handleOnChange(payload);
+                    }}
+                    autoComplete="current-text"
+                    thousandSeparator={item.thousandSeparator}
+                    decimalScale={item.decimalpoints}
+                    allowNegative={true}
+                    thousandsGroupStyle="thousand"
+                    fixedDecimalScale={true}
+                    isAllowed={(values) =>
+                      values.value >= item.min && values.value <= item.max
+                    }
+                    inputValues={inputValues}
+                    append={item?.append}
+                    placeholderClassName={item?.className}
+                    prepend={item?.prepend}
+                  />
+                </Form.Group>
+              </Col>
+            );
+          }
+          if (
             item.type === 'yearPicker' &&
             isRendeable(item.category, item.action)
           ) {
