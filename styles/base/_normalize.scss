@@ -30,7 +30,7 @@ ul {
 }
 
 a {
-  transition: 0.2s color;
+  transition: 0.5s all;
   &:hover {
     text-decoration: none;
   }
@@ -47,6 +47,7 @@ p {
     border: none;
     .dropdown-item {
       &:hover {
+        transition: 0.5s all;
         background-color: $dark-red-transparent;
       }
     }
@@ -99,6 +100,7 @@ p {
     border-radius: 5px;
     transition: all 0.3s ease, height 0s;
     &:hover {
+      transition: 0.5s all;
       border: 1px solid #b1b1b1;
     }
     &:focus {
@@ -178,6 +180,7 @@ p {
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       cursor: pointer;
       &:hover {
+        transition: 0.5s all;
         background-color: transparentize(
           $color: theme-color("primary"),
           $amount: 0.8

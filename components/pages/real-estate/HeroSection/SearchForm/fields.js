@@ -81,8 +81,8 @@ const fields = (t) => ({
       key: 'areaMeasurement',
       type: 'select',
       tick: true,
-      convert: <FaBullseye />,
-      noConvert: <RiFilterOffFill />,
+      noConvert: <FaBullseye />,
+      convert: <RiFilterOffFill />,
       options: [
         {
           value: '',

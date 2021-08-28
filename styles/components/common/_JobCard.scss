@@ -66,6 +66,7 @@
       .list__item {
         margin-bottom: 10px;
         &:hover {
+          transition: 0.5s all;
           color: theme-color("primary");
         }
       }
@@ -155,6 +156,7 @@
         .list__item {
           margin-bottom: 0px;
           &:hover {
+            transition: 0.5s all;
             color: theme-color("primary");
           }
         }

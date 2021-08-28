@@ -20,10 +20,12 @@
           font-size: 11px;
           color: #686262;
           &:hover {
+            transition: 0.5s all;
             color: theme-color("primary") !important;
           }
         }
         &:hover {
+          transition: 0.5s all;
           color: #fff;
         }
         .link__icon {
@@ -98,6 +100,7 @@
         align-items: center;
         cursor: pointer;
         &:hover {
+          transition: 0.5s all;
           a {
             color: theme-color("primary");
           }
@@ -126,12 +129,14 @@
     .nav-item__link {
       @include media-breakpoint-down(md) {
         &:hover {
+          transition: 0.5s all;
           .dropdown-icon {
             color: theme-color("primary") !important;
           }
         }
       }
       &:hover {
+        transition: 0.5s all;
         .dropdown-icon {
           color: #fff;
         }
@@ -174,6 +179,7 @@
       .nav-link {
         color: #686262;
         &:hover {
+          transition: 0.5s all;
           color: theme-color("primary");
         }
       }
@@ -185,6 +191,7 @@
     }
     .nav-item__link {
       &:hover {
+        transition: 0.5s all;
         .dropdown-icon {
           color: theme-color("primary");
         }
@@ -236,6 +243,7 @@
       transition: all 0.2s;
     }
     &:hover:after {
+      transition: 0.5s all;
       opacity: 1;
     }
   }
@@ -293,6 +301,7 @@
         -o-transition: all 0.2s;
         transition: all 0.2s;
         &:hover {
+          transition: 0.5s all;
           color: theme-color("primary");
         }
       }
