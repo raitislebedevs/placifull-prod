@@ -19,8 +19,8 @@
       "accordion-right": {
         "utility-label": "光熱水費の範囲",
         "utility": {
-          "from-price": "から：0.00",
-          "to-price": "まで：9,999,999,999"
+          "from-price": "から",
+          "to-price": "まで"
         },
         "year-label": "建築年",
         "built": {

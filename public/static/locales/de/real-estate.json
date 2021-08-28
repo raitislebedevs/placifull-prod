@@ -19,8 +19,8 @@
       "accordion-right": {
         "utility-label": "Bereich der Versorgungsrechnung",
         "utility": {
-          "from-price": "Von: 0.00",
-          "to-price": "Bis: 9,999,999,999"
+          "from-price": "Von",
+          "to-price": "Bis"
         },
         "year-label": "Jahr gebaut",
         "built": {

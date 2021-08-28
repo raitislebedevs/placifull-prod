@@ -19,8 +19,8 @@
       "accordion-right": {
         "utility-label": "Rentang Tagihan Keperluan",
         "utility": {
-          "from-price": "Dari: 0,00",
-          "to-price": "Sampai : 9.999.999.999"
+          "from-price": "Dari",
+          "to-price": "Sampai"
         },
         "year-label": "Tahun Dibangun",
         "built": {

@@ -1,4 +1,6 @@
-import { RiCalendar2Line } from 'react-icons/ri';
+import { RiCalendar2Line, RiFilterOffFill } from 'react-icons/ri';
+import { Gi3DStairs } from 'react-icons/gi';
+import { FaBuilding, FaBullseye } from 'react-icons/fa';
 
 const fields = (t) => ({
   accordionRight: [
@@ -79,6 +81,8 @@ const fields = (t) => ({
       key: 'areaMeasurement',
       type: 'select',
       tick: true,
+      convert: <FaBullseye />,
+      noConvert: <RiFilterOffFill />,
       options: [
         {
           value: '',
@@ -106,6 +110,57 @@ const fields = (t) => ({
           id: 'areaMeasurement',
         },
       ],
+    },
+  ],
+  accordionBottom: [
+    {
+      key: 'minFloor',
+      thousand: true,
+      allowNegative: true,
+      decorator: <Gi3DStairs />,
+      type: 'number',
+      prefix: 'currency',
+      placeholder: t(
+        'real-estate:hero.form.accordion-right.utility.from-price'
+      ),
+      min: -9,
+      max: 250,
+    },
+    {
+      key: 'maxFloor',
+      thousand: true,
+      allowNegative: true,
+      decorator: <Gi3DStairs />,
+      type: 'number',
+      prefix: 'currency',
+      placeholder: t('real-estate:hero.form.accordion-right.utility.to-price'),
+      min: -9,
+      max: 250,
+    },
+
+    {
+      key: 'minFloors',
+      thousand: true,
+      allowNegative: false,
+      decorator: <FaBuilding />,
+      type: 'number',
+      prefix: 'currency',
+      placeholder: t(
+        'real-estate:hero.form.accordion-right.utility.from-price'
+      ),
+      min: 1,
+      max: 250,
+    },
+    {
+      key: 'maxFloors',
+      thousand: true,
+      allowNegative: false,
+      decorator: <FaBuilding />,
+      type: 'number',
+      prefix: 'currency',
+      placeholder: t('real-estate:hero.form.accordion-right.utility.to-price'),
+      min: 0,
+      max: 250,
     },
   ],
 });

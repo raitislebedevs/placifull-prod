@@ -19,8 +19,8 @@
       "accordion-right": {
         "utility-label": "उपयोगिता बिल रेंज",
         "utility": {
-          "from-price": "से: 0.00",
-          "to-price": "प्रति: 9,999,999,999"
+          "from-price": "से",
+          "to-price": "प्रति"
         },
         "year-label": "निर्माण वर्ष",
         "built": {

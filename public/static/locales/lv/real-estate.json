@@ -19,8 +19,8 @@
       "accordion-right": {
         "utility-label": "Komunālie maksājumi",
         "utility": {
-          "from-price": "No: 0.00",
-          "to-price": "Līdz: 9,999,999,999"
+          "from-price": "No",
+          "to-price": "Līdz"
         },
         "year-label": "Celšanas gads",
         "built": {

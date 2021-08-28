@@ -19,8 +19,8 @@
       "accordion-right": {
         "utility-label": "Rango de coste de servicios públicos",
         "utility": {
-          "from-price": "Desde: 0.00",
-          "to-price": "Hasta: 9,999,999,999"
+          "from-price": "Desde",
+          "to-price": "Hasta"
         },
         "year-label": "Año de construcción",
         "built": {
