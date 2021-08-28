@@ -44,7 +44,6 @@
     padding: 20px 20px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-
     .datetime {
       border: 1px solid rgba(0, 0, 0, 0.1);
       //box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
@@ -335,6 +334,7 @@
       }
       @include media-breakpoint-down(sm) {
         width: 100%;
+        margin-bottom: 15px;
       }
     }
     .button-container__button {

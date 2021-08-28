@@ -1,5 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
-import { withTranslation } from 'i18n';
+import { useEffect, useMemo } from 'react';
 import fields from './fields';
 import { Row, Col, Form } from 'react-bootstrap';
 import { CustomFormControl } from 'components/common';
@@ -36,7 +35,7 @@ const UltilitiesTab = (props) => {
             lg={4}
             md={4}
             sm={6}
-            xs={6}
+            xs={12}
             key={item.key}
             className="form__item"
           >
@@ -74,7 +73,7 @@ const UltilitiesTab = (props) => {
             </Form.Group>
           </Col>
         ))}
-        <Col lg={4} md={4} sm={6} xs={6} className="form__item">
+        <Col lg={4} md={4} sm={6} xs={12} className="form__item">
           <Form.Group>
             <NumberFormat
               customInput={CustomFormControl}

@@ -158,6 +158,7 @@ const GeneralInformation = (props) => {
                 lg={2}
                 md={2}
                 sm={6}
+                xs={6}
                 key={item.key}
                 className={`decorator__container ${item?.className}`}
               >
