@@ -26,6 +26,7 @@ import landFields from './landFields';
 import TagServices from 'services/tagServices';
 import guidGenerator from 'utils/guidGenerator';
 import { cleanObject } from 'utils/standaloneFunctions';
+import { MEETER_FEET_AREA } from 'constants/conversation';
 
 function AccordionToggle({ children, eventKey, callback }) {
   const currentEventKey = useContext(AccordionContext);
@@ -190,6 +191,44 @@ const SearchForm = (props) => {
         }
       });
 
+      let minValue = parseFloat(
+        inputValues?.minArea
+          ? Number(inputValues?.minArea.replace(/[^\d.-]/g, ''))
+          : 0
+      );
+      let maxValue = parseFloat(
+        inputValues?.maxArea
+          ? Number(inputValues?.maxArea.replace(/[^\d.-]/g, ''))
+          : 99999999999999
+      );
+
+      let convertHelper = {};
+      if (getConverted && inputValues?.areaMeasurement?.value) {
+        convertHelper.areaMeasurement =
+          inputValues?.areaMeasurement?.value == 'metter' ? 'feet' : 'metter';
+        convertHelper.metter = {
+          area_gte:
+            inputValues?.areaMeasurement?.value == 'metter'
+              ? minValue
+              : minValue / MEETER_FEET_AREA,
+
+          area_lte:
+            inputValues?.areaMeasurement?.value == 'metter'
+              ? maxValue
+              : maxValue / MEETER_FEET_AREA,
+        };
+        convertHelper.feet = {
+          area_gte:
+            inputValues?.areaMeasurement?.value == 'feet'
+              ? minValue
+              : minValue * MEETER_FEET_AREA,
+          area_lte:
+            inputValues?.areaMeasurement?.value == 'feet'
+              ? maxValue
+              : maxValue * MEETER_FEET_AREA,
+        };
+      }
+
       let filter = {
         ...cleanObject({
           category_contains: inputValues?.category?.value || null,
@@ -237,11 +276,14 @@ const SearchForm = (props) => {
           yearBuilt_lte: inputValues?.maxYear
             ? new Date(inputValues?.maxYear)
             : null,
+
+          convertHelper: convertHelper || null,
         }),
       };
 
       setFilter(filter);
     } catch (e) {
+      console.log(e);
       setIsFetchingListing(false);
     }
   };

@@ -17,6 +17,7 @@
           text-align: center;
           line-height: 32px;
           &:hover {
+            transition: 0.5s all;
             background-color: $home-color;
             transition-duration: 0.5s;
             cursor: pointer;

@@ -66,6 +66,7 @@
             background-color: #fff;
 
             &:hover {
+              transition: 0.5s all;
               width: 105%;
               height: 105%;
             }
@@ -123,6 +124,7 @@
       font-size: 18px;
       color: black;
       &:hover {
+        transition: 0.5s all;
         color: theme-color("primary");
       }
     }
@@ -264,6 +266,7 @@
                 content: "";
               }
               &:hover {
+                transition: 0.5s all;
                 background-size: 105% 105%;
                 .item__name-address {
                   bottom: 18px;
@@ -323,6 +326,7 @@
         font-size: 14px;
         color: black;
         &:hover {
+          transition: 0.5s all;
           color: theme-color("primary");
         }
       }
