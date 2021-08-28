@@ -319,6 +319,7 @@ const TransportSubmit = (props) => {
         sectionHeadingTip={t('transport-submit:form.contact-hours.heading-tip')}
         heading={t('transport-submit:form.contact-hours.accordion.heading')}
         inputValues={inputValues}
+        setInputValues={setInputValues}
         handleOnChange={handleOnChange}
         t={t}
       />

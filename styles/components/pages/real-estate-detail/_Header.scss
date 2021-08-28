@@ -58,15 +58,35 @@
     .listing__name {
       margin-top: 10px;
       font-weight: 800;
+      @include media-breakpoint-down(md) {
+        text-align: center;
+      }
     }
   }
-  .listing__location {
-    font-size: 16px;
-    color: $black-text;
+  .address__details {
+    display: flex;
+    margin-left: 1%;
+    @include media-breakpoint-down(md) {
+      justify-content: space-around;
+    }
     svg {
       font-size: 18px;
       color: theme-color("primary");
       margin-right: 5px;
+    }
+    .listing__location {
+      font-size: 16px;
+      color: $black-text;
+    }
+
+    .floor__count {
+      padding-left: 20px;
+      @include media-breakpoint-down(md) {
+        padding-left: 0px;
+      }
+      .wrapper__text {
+        font-size: 15px;
+      }
     }
   }
   .__right {
@@ -78,11 +98,13 @@
     }
     .listing__popularity {
       display: flex;
-      justify-content: flex-end;
-      padding: 0px 0px 0px 20px;
+      justify-content: space-around;
       @include media-breakpoint-down(md) {
-        justify-content: flex-start;
-        padding: 0px 0px 0px 0;
+        padding-top: 10px;
+        .spinner__classs {
+          padding: 0px 38px;
+          margin: 0px;
+        }
       }
       .ratings {
         .real-estate-item-card__ratings {
@@ -90,6 +112,14 @@
           z-index: 2;
           margin-left: 15px;
           font-size: 17px;
+          transition: 0.5s all;
+        }
+        .rating__value {
+          padding-left: 5px;
+          font-weight: 600;
+          color: #666;
+          font-size: 13px;
+          line-height: 21px;
         }
       }
       .popularity__icons {
@@ -98,9 +128,10 @@
         color: darken($color: theme-color("primary"), $amount: 7);
         border: 1px solid #e8e8e8;
         text-align: center;
-        margin: 0 5px;
+        padding: 2px 5px;
         border-radius: 4px;
-
+        transition: 0.75s color;
+        transition: background-color 0.75s;
         &:hover {
           cursor: pointer;
           background-color: darken($color: theme-color("primary"), $amount: 15);
@@ -109,6 +140,9 @@
         }
 
         &.flagged {
+          transition: 0.75s color;
+          transition: background-color 0.75s;
+          padding: 2px 5px;
           cursor: pointer;
           background-color: darken($color: theme-color("primary"), $amount: 15);
           color: #e8e8e8;
@@ -124,8 +158,6 @@
       }
 
       .left__label {
-        &.date__ago {
-        }
         div {
           width: 100%;
           border-radius: 7px;
@@ -152,7 +184,7 @@
       padding: 5px;
       color: #229954;
       border: 2px solid #229954;
-      border-radius: 25px 0px;
+      border-radius: 15px 0px;
     }
   }
 }

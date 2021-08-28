@@ -318,6 +318,7 @@ const JobPost = (props) => {
         sectionHeadingTip={t('job-submit:form.contact-hours.heading-tip')}
         heading={t('job-submit:form.contact-hours.accordion.heading')}
         inputValues={inputValues}
+        setInputValues={setInputValues}
         handleOnChange={handleOnChange}
         t={t}
       />

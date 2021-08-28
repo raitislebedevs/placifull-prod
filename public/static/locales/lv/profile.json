@@ -17,7 +17,7 @@
   },
   "hover-texts": {
     "real-estate": "Nekustamie īpašumi",
-    "transport": "Trasnsports",
+    "transport": "Transports",
     "job": "Darbs",
     "browser": "Meklēt CV"
   },
@@ -27,7 +27,7 @@
       "profile": "Profils",
       "cv": "CV",
       "real-estate": "Nekustamie īpašumi",
-      "transport": "Trasnsports",
+      "transport": "Transports",
       "jobs": "Darbs",
       "browser": "Meklēt CV",
       "payment": "Maksājumu kvītis",
@@ -389,7 +389,7 @@
     "balance": "Summa",
     "code": "Kods",
     "percantage": "Procenti",
-    "next": "Nākamais līmenis:",
+    "next": "Nākamais līmenis",
     "withdraw": "Izņemt"
   },
   "referral-modal": {

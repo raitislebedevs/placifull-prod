@@ -2,6 +2,8 @@ import { BiBath } from 'react-icons/bi';
 import { RiCalendar2Line } from 'react-icons/ri';
 import { BsHouse } from 'react-icons/bs';
 import { AiOutlineFieldTime } from 'react-icons/ai';
+import { Gi3DStairs } from 'react-icons/gi';
+import { FaBuilding } from 'react-icons/fa';
 
 const fields = (t) => [
   {
@@ -291,6 +293,31 @@ const fields = (t) => [
     label: t(
       'real-estate-submit:form.general-information.input-fields.year-built'
     ),
+    category: [
+      'exclusive',
+      'houses',
+      'apartments',
+      'commercial',
+      'offices',
+      'farmhouse',
+    ],
+  },
+  {
+    key: 'apartmentInFloor',
+    type: 'smallNumber',
+    decorator: <Gi3DStairs />,
+    min: -8,
+    max: 999,
+    className: 'firstInput',
+    category: ['apartments', 'commercial', 'offices'],
+  },
+  {
+    key: 'floorCount',
+    type: 'smallNumber',
+    className: 'secondInput',
+    decorator: <FaBuilding />,
+    min: -8,
+    max: 999,
     category: [
       'exclusive',
       'houses',
