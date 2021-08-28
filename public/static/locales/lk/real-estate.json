@@ -19,8 +19,8 @@
       "accordion-right": {
         "utility-label": "උපයෝගිතා බිල් පරාසය",
         "utility": {
-          "from-price": "සිට: 0.00",
-          "to-price": "දක්වා: 9,999,999,999"
+          "from-price": "සිට",
+          "to-price": "දක්වා"
         },
         "year-label": "ඉදි කළ වර්ෂය",
         "built": {

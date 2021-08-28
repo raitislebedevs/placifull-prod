@@ -19,8 +19,8 @@
       "accordion-right": {
         "utility-label": "نطاق فواتير المرافق العامّة",
         "utility": {
-          "from-price": "ابتداءً من: 0,00",
-          "to-price": "إلى: 9,999,999,999"
+          "from-price": "ابتداءً من",
+          "to-price": "إلى"
         },
         "year-label": "سنة البناء",
         "built": {

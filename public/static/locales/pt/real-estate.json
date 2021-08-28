@@ -19,8 +19,8 @@
       "accordion-right": {
         "utility-label": "Faixa de preço dos serviços públicos",
         "utility": {
-          "from-price": "A partir de: 0,00",
-          "to-price": "Até: 9.999.999,99"
+          "from-price": "De",
+          "to-price": "Até"
         },
         "year-label": "Ano de construção",
         "built": {

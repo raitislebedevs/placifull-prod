@@ -58,6 +58,7 @@ const SearchForm = (props) => {
   const [realEstateTags, setRealEstateTags] = useState([]);
   const [landTags, setlandTags] = useState([]);
   const [agentTags, setAgentTags] = useState([]);
+  const [getConverted, setGetConverted] = useState(false);
 
   const formFields = mainFields(t);
   const inputFields = fields(t, submitCurrency);
@@ -109,7 +110,6 @@ const SearchForm = (props) => {
     const value = event?.target?.checked;
     const id = event?.target?.id ?? event?.id;
     setInputValues({ ...inputValues, [id]: value });
-    console.log(inputValues);
   };
 
   const tagFields = useMemo(() => {
@@ -217,6 +217,12 @@ const SearchForm = (props) => {
           totalUltilities_lte:
             Number(inputValues?.maxBill?.replace(/[^\d.-]/g, '')) || null,
           tags: listTagId.length > 0 ? listTagId : null,
+
+          inFloor_gte: Number(inputValues?.minFloor) || null,
+          inFloor_lte: Number(inputValues?.maxFloor) || null,
+
+          floors_gte: Number(inputValues?.minFloors) || null,
+          floors_lte: Number(inputValues?.maxFloors) || null,
 
           moveInDate_gte: inputValues?.moveInDate
             ? new Date(inputValues?.moveInDate)
@@ -490,96 +496,246 @@ const SearchForm = (props) => {
               {t('real-estate:hero.form.accordion')}
             </AccordionToggle>
             <Accordion.Collapse eventKey={1}>
-              <Row>
-                {tagOptions.length > 0 ? (
-                  <Col lg={10} md={10}>
-                    <Row>
-                      <Col lg={3} md={3}>
-                        <div className="accordion__category__container">
-                          {Object?.keys(tagFields).map((category) => (
-                            <Row key={guidGenerator()}>
-                              <Col lg={12} md={12}>
-                                <div
-                                  className={`accordion__category__option`}
-                                  key={tagFields[category].label}
-                                >
+              <div>
+                <Row>
+                  {tagOptions.length > 0 ? (
+                    <Col lg={10} md={10}>
+                      <Row>
+                        <Col lg={3} md={3}>
+                          <div className="accordion__category__container">
+                            {Object?.keys(tagFields).map((category) => (
+                              <Row key={guidGenerator()}>
+                                <Col lg={12} md={12}>
                                   <div
-                                    className={`category__header ${
-                                      activeItem[0]?.parentFilter === category
-                                        ? 'category__header--active'
+                                    className={`accordion__category__option`}
+                                    key={tagFields[category].label}
+                                  >
+                                    <div
+                                      className={`category__header ${
+                                        activeItem[0]?.parentFilter === category
+                                          ? 'category__header--active'
+                                          : ''
+                                      }`}
+                                      onClick={() =>
+                                        setActiveItem(tagFields[category].items)
+                                      }
+                                    >
+                                      {tagFields[category].label}:
+                                    </div>
+                                  </div>
+                                </Col>
+                              </Row>
+                            ))}
+                          </div>
+                        </Col>
+
+                        <Col lg={9} md={9}>
+                          <Row>
+                            <Col
+                              xs={12}
+                              sm={12}
+                              md={12}
+                              lg={12}
+                              xl={12}
+                              className="accordion__category"
+                            >
+                              <div className="category__items-wrapper">
+                                {activeItem.map((item) => (
+                                  <label
+                                    key={guidGenerator()}
+                                    className={`items-wrapper__item ${
+                                      inputValues[item.nameTag]
+                                        ? 'items-wrapper__item--active'
                                         : ''
                                     }`}
+                                  >
+                                    <input
+                                      type="checkbox"
+                                      checked={inputValues[item.nameTag]}
+                                      onChange={handleCheckBoxChange}
+                                      id={item.nameTag}
+                                    />
+                                    <FontAwesomeIcon
+                                      icon={
+                                        inputValues[item.nameTag]
+                                          ? 'check'
+                                          : 'plus'
+                                      }
+                                      className="item__icon"
+                                    />{' '}
+                                    {t(`real-estate-tags:${item.nameTag}`)}
+                                  </label>
+                                ))}
+                              </div>
+                            </Col>
+                          </Row>
+                        </Col>
+                      </Row>
+                    </Col>
+                  ) : (
+                    <Col lg={10} md={10} className={'empty__tags'}>
+                      <em> {t('real-estate:no-tags')} </em>
+                    </Col>
+                  )}
+                  <Col lg={2}>
+                    {inputFields.accordionRight.map((group) => {
+                      if (
+                        group?.type === 'bills' &&
+                        isRendeable(group?.category, inputValues?.action)
+                      ) {
+                        return (
+                          <div className="accordion__right" key={group?.key}>
+                            <div className="right__header">{group.label}:</div>
+                            <Row>
+                              {group.items.map((item) => (
+                                <Col lg={12} md={6} sm={6}>
+                                  <NumberFormat
+                                    key={item.key}
+                                    customInput={Form.Control}
+                                    id={item.key}
+                                    className="form__input"
+                                    value={inputValues[item.key]}
+                                    placeholder={item.placeholder}
+                                    onChange={handleOnChange}
+                                    autoComplete="current-text"
+                                    thousandSeparator={item.thousand}
+                                    allowNegative={false}
+                                    isAllowed={(values) =>
+                                      values.value >= item.min &&
+                                      values.value <= item.max
+                                    }
+                                    prefix={
+                                      item.prefix == 'currency'
+                                        ? `${
+                                            submitCurrency
+                                              ? submitCurrency
+                                              : t('common:currency.no-currency')
+                                          } `
+                                        : item.prefix
+                                    }
+                                    suffix={item.suffix}
+                                  />
+                                </Col>
+                              ))}
+                            </Row>
+                          </div>
+                        );
+                      }
+                      if (
+                        group?.type === 'years' &&
+                        isRendeable(group?.category, inputValues?.action)
+                      ) {
+                        return (
+                          <div
+                            className="accordion__right"
+                            key={guidGenerator()}
+                          >
+                            <div className="right__header">{group.label}:</div>
+
+                            <Row>
+                              {group.items.map((item) => (
+                                <Col
+                                  lg={12}
+                                  md={6}
+                                  sm={6}
+                                  className={'decorator__container'}
+                                  key={guidGenerator()}
+                                >
+                                  <Form.Group>
+                                    {item?.decorator}
+                                    <Datetime
+                                      inputProps={{
+                                        className: 'datetime',
+                                        readOnly: true,
+                                      }}
+                                      value={inputValues[item.key]}
+                                      onChange={(e) =>
+                                        handleOnChange({
+                                          target: { value: e, id: item.key },
+                                        })
+                                      }
+                                      timeFormat={false}
+                                      dateFormat={'YYYY'} //'YYYY'
+                                      closeOnClickOutside
+                                      closeOnSelect
+                                      renderInput={(props) => {
+                                        return (
+                                          <Form.Control
+                                            {...props}
+                                            id={item.key}
+                                            label={item.placeholder}
+                                            placeholder={item.placeholder}
+                                          />
+                                        );
+                                      }}
+                                    />
+                                  </Form.Group>
+                                </Col>
+                              ))}
+                            </Row>
+                          </div>
+                        );
+                      }
+                      if (group?.type === 'select') {
+                        return (
+                          <>
+                            <div
+                              className="accordion__right"
+                              key={guidGenerator()}
+                            >
+                              <div className="right__header">
+                                {group.label}{' '}
+                                {getConverted ? (
+                                  <span
+                                    className={'convert__meassarment'}
                                     onClick={() =>
-                                      setActiveItem(tagFields[category].items)
+                                      setGetConverted(!getConverted)
                                     }
                                   >
-                                    {tagFields[category].label}:
-                                  </div>
-                                </div>
-                              </Col>
-                            </Row>
-                          ))}
-                        </div>
-                      </Col>
-
-                      <Col lg={9} md={9}>
-                        <Row>
-                          <Col
-                            xs={12}
-                            sm={12}
-                            md={12}
-                            lg={12}
-                            xl={12}
-                            className="accordion__category"
-                          >
-                            <div className="category__items-wrapper">
-                              {activeItem.map((item) => (
-                                <label
-                                  key={guidGenerator()}
-                                  className={`items-wrapper__item ${
-                                    inputValues[item.nameTag]
-                                      ? 'items-wrapper__item--active'
-                                      : ''
-                                  }`}
-                                >
-                                  <input
-                                    type="checkbox"
-                                    checked={inputValues[item.nameTag]}
-                                    onChange={handleCheckBoxChange}
-                                    id={item.nameTag}
-                                  />
-                                  <FontAwesomeIcon
-                                    icon={
-                                      inputValues[item.nameTag]
-                                        ? 'check'
-                                        : 'plus'
+                                    {group.convert}
+                                  </span>
+                                ) : (
+                                  <span
+                                    className={'convert__meassarment'}
+                                    onClick={() =>
+                                      setGetConverted(!getConverted)
                                     }
-                                    className="item__icon"
-                                  />{' '}
-                                  {t(`real-estate-tags:${item.nameTag}`)}
-                                </label>
-                              ))}
+                                  >
+                                    {group.noConvert}
+                                  </span>
+                                )}
+                                :
+                              </div>
+                              <Form.Group>
+                                <SelectInputSearchForm
+                                  id={group.key}
+                                  onChange={handleOnChange}
+                                  value={inputValues[group.key]}
+                                  options={group.options}
+                                  placeholder={group.label}
+                                />
+                              </Form.Group>
                             </div>
-                          </Col>
-                        </Row>
-                      </Col>
-                    </Row>
+                          </>
+                        );
+                      }
+                    })}
                   </Col>
-                ) : (
-                  <Col lg={10} md={10} className={'empty__tags'}>
-                    <em> {t('real-estate:no-tags')} </em>
-                  </Col>
-                )}
-                <Col lg={2}>
-                  {inputFields.accordionRight.map((group) => {
-                    if (
-                      group?.type === 'bills' &&
-                      isRendeable(group?.category, inputValues?.action)
-                    ) {
+                </Row>
+                <Row>
+                  <Col lg={4} md={0} sm={0} xs={0}></Col>
+                  {inputFields.accordionBottom.map((item) => {
+                    if (item?.type === 'number') {
                       return (
-                        <div className="accordion__right" key={group?.key}>
-                          <div className="right__header">{group.label}:</div>
-                          {group.items.map((item) => (
+                        <Col
+                          lg={2}
+                          md={3}
+                          sm={6}
+                          xs={6}
+                          className={'decorator__container'}
+                        >
+                          <Form.Group>
+                            {item?.decorator}{' '}
                             <NumberFormat
                               key={item.key}
                               customInput={Form.Control}
@@ -590,108 +746,19 @@ const SearchForm = (props) => {
                               onChange={handleOnChange}
                               autoComplete="current-text"
                               thousandSeparator={item.thousand}
-                              allowNegative={false}
+                              allowNegative={item?.allowNegative || false}
                               isAllowed={(values) =>
                                 values.value >= item.min &&
                                 values.value <= item.max
                               }
-                              prefix={
-                                item.prefix == 'currency'
-                                  ? `${
-                                      submitCurrency ? submitCurrency : 'ALL'
-                                    } `
-                                  : item.prefix
-                              }
-                              suffix={item.suffix}
                             />
-                          ))}
-                        </div>
-                      );
-                    }
-                    if (
-                      group?.type === 'years' &&
-                      isRendeable(group?.category, inputValues?.action)
-                    ) {
-                      return (
-                        <div className="accordion__right" key={guidGenerator()}>
-                          <div className="right__header">{group.label}:</div>
-
-                          {group.items.map((item) => (
-                            <div
-                              className={'decorator__container'}
-                              key={guidGenerator()}
-                            >
-                              <Form.Group>
-                                {item?.decorator}
-                                <Datetime
-                                  inputProps={{
-                                    className: 'datetime',
-                                    readOnly: true,
-                                  }}
-                                  value={inputValues[item.key]}
-                                  onChange={(e) =>
-                                    handleOnChange({
-                                      target: { value: e, id: item.key },
-                                    })
-                                  }
-                                  timeFormat={false}
-                                  dateFormat={'YYYY'} //'YYYY'
-                                  closeOnClickOutside
-                                  closeOnSelect
-                                  renderInput={(props) => {
-                                    return (
-                                      <Form.Control
-                                        {...props}
-                                        id={item.key}
-                                        label={item.placeholder}
-                                        placeholder={item.placeholder}
-                                      />
-                                    );
-                                  }}
-                                />
-                              </Form.Group>
-                            </div>
-                          ))}
-                        </div>
-                      );
-                    }
-                    if (group?.type === 'select') {
-                      return (
-                        <>
-                          <div
-                            className="accordion__right"
-                            key={guidGenerator()}
-                          >
-                            <div className="right__header">
-                              {group.label}{' '}
-                              {/* {group?.tick && (
-                                <>
-                                  <input
-                                    type="checkbox"
-                                    checked={inputValues.messarmentUnits}
-                                    onChange={handleCheckBoxChange}
-                                    id={'messarmentUnits'}
-                                  />
-                                </>
-                              )} */}
-                              :
-                            </div>
-                            <Form.Group>
-                              <SelectInputSearchForm
-                                id={group.key}
-                                onChange={handleOnChange}
-                                value={inputValues[group.key]}
-                                options={group.options}
-                                placeholder={group.label}
-                              />
-                            </Form.Group>
-                          </div>
-                        </>
+                          </Form.Group>
+                        </Col>
                       );
                     }
                   })}
-                </Col>
-              </Row>
+                </Row>
+              </div>
             </Accordion.Collapse>
           </Accordion>
         </div>

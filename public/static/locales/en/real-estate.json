@@ -19,8 +19,8 @@
       "accordion-right": {
         "utility-label": "Utility Bill Range",
         "utility": {
-          "from-price": "From: 0.00",
-          "to-price": "To: 9,999,999,999"
+          "from-price": "From",
+          "to-price": "To"
         },
         "year-label": "Year Built",
         "built": {

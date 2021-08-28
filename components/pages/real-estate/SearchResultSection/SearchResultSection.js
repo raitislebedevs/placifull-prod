@@ -135,7 +135,7 @@ const SearchResultSection = (props) => {
       const count = await RealEstateListingServices.COUNT_SEARCH({
         _where: filter,
       });
-      setTotal(count.data);
+      setTotal(count?.data || 1);
       setIsLoading(false);
       if (count.data)
         TostifyCustomContainer(
@@ -159,6 +159,8 @@ const SearchResultSection = (props) => {
         t('common:toast.messages.info'),
         `${t('common:toast.not-found')}`
       );
+      setListSearchResult([]);
+
       setIsLoading(false);
     } catch (e) {
       console.log(e);

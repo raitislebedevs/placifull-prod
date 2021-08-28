@@ -19,8 +19,8 @@
       "accordion-right": {
         "utility-label": "Komunalinių sąskaitų diapazonas",
         "utility": {
-          "from-price": "Nuo: 0.00",
-          "to-price": "Iki: 9,999,999,999"
+          "from-price": "Nuo",
+          "to-price": "Iki"
         },
         "year-label": "Pastatymo metai",
         "built": {

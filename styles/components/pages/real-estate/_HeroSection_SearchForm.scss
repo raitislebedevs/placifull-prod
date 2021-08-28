@@ -183,6 +183,7 @@
       .accordion__right {
         .right__header {
           margin-top: 15px;
+          margin-bottom: 5px;
           color: white;
           font-size: 14px;
         }
@@ -191,6 +192,13 @@
           @include media-breakpoint-down(md) {
             width: 100%;
           }
+        }
+        .convert__meassarment {
+          transition: 0.5s all;
+          padding: 3px 5px;
+          font-size: 14px;
+          color: lightgray;
+          cursor: pointer;
         }
       }
     }

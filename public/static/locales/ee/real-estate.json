@@ -19,8 +19,8 @@
       "accordion-right": {
         "utility-label": "Kommunaalteenuste arve vahemik",
         "utility": {
-          "from-price": "Alates: 0,00",
-          "to-price": "Kuni: 9,999,999,999"
+          "from-price": "Alates",
+          "to-price": "Kuni"
         },
         "year-label": "Ehitusaasta",
         "built": {

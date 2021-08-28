@@ -19,8 +19,8 @@
       "accordion-right": {
         "utility-label": "Media costo utenze",
         "utility": {
-          "from-price": "Da: 0,00",
-          "to-price": "A: 9.999.999.999"
+          "from-price": "Da",
+          "to-price": "A"
         },
         "year-label": "Anno di costruzione",
         "built": {
