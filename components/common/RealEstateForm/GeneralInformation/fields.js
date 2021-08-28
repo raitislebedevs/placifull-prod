@@ -282,26 +282,7 @@ const fields = (t) => [
       'land',
     ],
   },
-  {
-    key: 'yearBuilt',
-    type: 'yearPicker',
-    decorator: <AiOutlineFieldTime />,
-    decimalpoints: 0,
-    thousandSeparator: false,
-    min: 0,
-    max: 9999,
-    label: t(
-      'real-estate-submit:form.general-information.input-fields.year-built'
-    ),
-    category: [
-      'exclusive',
-      'houses',
-      'apartments',
-      'commercial',
-      'offices',
-      'farmhouse',
-    ],
-  },
+
   {
     key: 'apartmentInFloor',
     type: 'smallNumber',
@@ -318,6 +299,26 @@ const fields = (t) => [
     decorator: <FaBuilding />,
     min: -8,
     max: 999,
+    category: [
+      'exclusive',
+      'houses',
+      'apartments',
+      'commercial',
+      'offices',
+      'farmhouse',
+    ],
+  },
+  {
+    key: 'yearBuilt',
+    type: 'yearPicker',
+    decorator: <AiOutlineFieldTime />,
+    decimalpoints: 0,
+    thousandSeparator: false,
+    min: 0,
+    max: 9999,
+    label: t(
+      'real-estate-submit:form.general-information.input-fields.year-built'
+    ),
     category: [
       'exclusive',
       'houses',

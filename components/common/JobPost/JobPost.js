@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Button, Spinner } from 'react-bootstrap';
+import { Row, Col, Button, Spinner } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { VacancyListingService } from 'services';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
@@ -10,7 +10,7 @@ import DetailInformation from '../JobForm/DetailInformation';
 import Preview from '../JobForm/Preview';
 import Gallery from '../JobForm/Gallery';
 import { dayCostJobs, defaultExpiryDays } from 'constants/listingDetails';
-import { ListingPayment, SpinnerModal, StripeContainer } from '../index';
+import { ListingPayment, SpinnerModal } from '../index';
 import useSubscription from 'hooks/useSubscription';
 import useJobPost from 'hooks/useJobPost';
 import { useRouter } from 'next/router';
@@ -323,39 +323,55 @@ const JobPost = (props) => {
         t={t}
       />
       <div className="form__button-container">
-        <Button
-          variant="outline-primary"
-          disabled={previewJobModal || isLoading}
-          onClick={!previewJobModal ? handlePreview : null}
-          size="lg"
-          className="button-container__buttonOutline"
-        >
-          {previewJobModal ? (
-            <>
-              <Spinner as="span" animation="border" size="sm" role="status" />{' '}
-              {t('job-submit:form.preview-sneak-peak')}
-            </>
-          ) : (
-            <>{t('job-submit:form.preview')}</>
-          )}
-        </Button>
-        <Button
-          variant="primary"
-          disabled={isLoading || previewJobModal}
-          type="submit"
-          size="lg"
-          className="button-container__button"
-          onClick={(e) => handlePayment(e)}
-        >
-          {isLoading ? (
-            <>
-              <Spinner as="span" animation="border" size="sm" role="status" />{' '}
-              {t('job-submit:form.submit-confirm')}
-            </>
-          ) : (
-            <>{t('job-submit:form.submit')}</>
-          )}
-        </Button>
+        <Row>
+          <Col>
+            <Button
+              variant="outline-primary"
+              disabled={previewJobModal || isLoading}
+              onClick={!previewJobModal ? handlePreview : null}
+              size="lg"
+              className="button-container__buttonOutline"
+            >
+              {previewJobModal ? (
+                <>
+                  <Spinner
+                    as="span"
+                    animation="border"
+                    size="sm"
+                    role="status"
+                  />{' '}
+                  {t('job-submit:form.preview-sneak-peak')}
+                </>
+              ) : (
+                <>{t('job-submit:form.preview')}</>
+              )}
+            </Button>{' '}
+          </Col>
+          <Col>
+            <Button
+              variant="primary"
+              disabled={isLoading || previewJobModal}
+              type="submit"
+              size="lg"
+              className="button-container__button"
+              onClick={(e) => handlePayment(e)}
+            >
+              {isLoading ? (
+                <>
+                  <Spinner
+                    as="span"
+                    animation="border"
+                    size="sm"
+                    role="status"
+                  />{' '}
+                  {t('job-submit:form.submit-confirm')}
+                </>
+              ) : (
+                <>{t('job-submit:form.submit')}</>
+              )}
+            </Button>{' '}
+          </Col>
+        </Row>
       </div>
       <Preview
         previewModal={previewJobModal}

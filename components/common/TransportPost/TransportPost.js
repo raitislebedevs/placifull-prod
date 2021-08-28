@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Button, Spinner } from 'react-bootstrap';
+import { Row, Col, Button, Spinner } from 'react-bootstrap';
 import { useRouter } from 'next/router';
 import { connect } from 'react-redux';
 import { TransportListingService } from 'services';
@@ -325,39 +325,55 @@ const TransportSubmit = (props) => {
       />
 
       <div className="form__button-container">
-        <Button
-          variant="outline-primary"
-          disabled={isPreview || isLoading}
-          onClick={!isPreview ? handlePreview : null}
-          size="lg"
-          className="button-container__buttonOutline"
-        >
-          {isPreview ? (
-            <>
-              <Spinner as="span" animation="border" size="sm" role="status" />{' '}
-              {t('transport-submit:form.preview-sneak-peak')}
-            </>
-          ) : (
-            <>{t('transport-submit:form.preview')}</>
-          )}
-        </Button>
-        <Button
-          variant="primary"
-          disabled={isLoading || isPreview}
-          type="submit"
-          size="lg"
-          className="button-container__button"
-          onClick={(e) => handlePayment(e)}
-        >
-          {isLoading ? (
-            <>
-              <Spinner as="span" animation="border" size="sm" role="status" />{' '}
-              {t('transport-submit:form.submit')}
-            </>
-          ) : (
-            <>{t('transport-submit:form.submit')}</>
-          )}
-        </Button>
+        <Row>
+          <Col>
+            <Button
+              variant="outline-primary"
+              disabled={isPreview || isLoading}
+              onClick={!isPreview ? handlePreview : null}
+              size="lg"
+              className="button-container__buttonOutline"
+            >
+              {isPreview ? (
+                <>
+                  <Spinner
+                    as="span"
+                    animation="border"
+                    size="sm"
+                    role="status"
+                  />{' '}
+                  {t('transport-submit:form.preview-sneak-peak')}
+                </>
+              ) : (
+                <>{t('transport-submit:form.preview')}</>
+              )}
+            </Button>
+          </Col>
+          <Col>
+            <Button
+              variant="primary"
+              disabled={isLoading || isPreview}
+              type="submit"
+              size="lg"
+              className="button-container__button"
+              onClick={(e) => handlePayment(e)}
+            >
+              {isLoading ? (
+                <>
+                  <Spinner
+                    as="span"
+                    animation="border"
+                    size="sm"
+                    role="status"
+                  />{' '}
+                  {t('transport-submit:form.submit')}
+                </>
+              ) : (
+                <>{t('transport-submit:form.submit')}</>
+              )}
+            </Button>{' '}
+          </Col>
+        </Row>
       </div>
       <Preview
         t={t}

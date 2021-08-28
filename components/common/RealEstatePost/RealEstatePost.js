@@ -1,6 +1,6 @@
 //Base Required for The page functionality
 import { useEffect, useState } from 'react';
-import { Button, Spinner } from 'react-bootstrap';
+import { Row, Col, Button, Spinner } from 'react-bootstrap';
 import { connect } from 'react-redux';
 //Inner Submit Page Components & Other Custom made components
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
@@ -343,39 +343,55 @@ const RealEstatePost = (props) => {
       />
 
       <div className="form__button-container">
-        <Button
-          variant="outline-primary"
-          disabled={isLoading}
-          onClick={!previewModal ? handlePreview : null}
-          size="lg"
-          className="button-container__buttonOutline"
-        >
-          {previewModal ? (
-            <>
-              <Spinner as="span" animation="border" size="sm" role="status" />{' '}
-              {t('real-estate-submit:form.preview-sneak-peak')}
-            </>
-          ) : (
-            <>{t('real-estate-submit:form.preview')}</>
-          )}
-        </Button>
-        <Button
-          variant="primary"
-          disabled={isLoading}
-          type="submit"
-          size="lg"
-          className="button-container__button"
-          onClick={(e) => handlePayment(e)}
-        >
-          {isLoading ? (
-            <>
-              <Spinner as="span" animation="border" size="sm" role="status" />{' '}
-              {t('real-estate-submit:form.submit-confirm')}
-            </>
-          ) : (
-            <>{t('real-estate-submit:form.submit')}</>
-          )}
-        </Button>
+        <Row>
+          <Col>
+            <Button
+              variant="outline-primary"
+              disabled={isLoading}
+              onClick={!previewModal ? handlePreview : null}
+              size="lg"
+              className="button-container__buttonOutline"
+            >
+              {previewModal ? (
+                <>
+                  <Spinner
+                    as="span"
+                    animation="border"
+                    size="sm"
+                    role="status"
+                  />{' '}
+                  {t('real-estate-submit:form.preview-sneak-peak')}
+                </>
+              ) : (
+                <>{t('real-estate-submit:form.preview')}</>
+              )}
+            </Button>
+          </Col>
+          <Col>
+            <Button
+              variant="primary"
+              disabled={isLoading}
+              type="submit"
+              size="lg"
+              className="button-container__button"
+              onClick={(e) => handlePayment(e)}
+            >
+              {isLoading ? (
+                <>
+                  <Spinner
+                    as="span"
+                    animation="border"
+                    size="sm"
+                    role="status"
+                  />{' '}
+                  {t('real-estate-submit:form.submit-confirm')}
+                </>
+              ) : (
+                <>{t('real-estate-submit:form.submit')}</>
+              )}
+            </Button>
+          </Col>
+        </Row>
       </div>
       <Preview
         previewModal={previewModal}
