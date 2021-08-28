@@ -1,0 +1,1 @@
+export const MEETER_FEET_AREA = 10.7639104;
