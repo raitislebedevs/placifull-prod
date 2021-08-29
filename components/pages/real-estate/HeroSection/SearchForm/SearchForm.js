@@ -50,7 +50,8 @@ function AccordionToggle({ children, eventKey, callback }) {
 }
 
 const SearchForm = (props) => {
-  const { t, setFilter, isFetchingListing, setIsFetchingListing } = props;
+  const { t, setFilter, isFetchingListing, setIsFetchingListing, polygon } =
+    props;
 
   const [inputValues, setInputValues] = useState({ tags: [] });
   const [activeItem, setActiveItem] = useState([]);
@@ -228,7 +229,7 @@ const SearchForm = (props) => {
               : maxValue * MEETER_FEET_AREA,
         };
       }
-
+      console.log(polygon);
       let filter = {
         ...cleanObject({
           category_contains: inputValues?.category?.value || null,
@@ -278,6 +279,7 @@ const SearchForm = (props) => {
             : null,
 
           convertHelper: convertHelper || null,
+          polygon: polygon || null,
         }),
       };
 

@@ -9,11 +9,13 @@ import Link from 'next/link';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
+import Cookies from 'js-cookie';
 import { ConnectionServices } from 'services';
 import { LoadingOverlay } from 'components/common';
 import { connect } from 'react-redux';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import { referralCode } from 'utils/standaloneFunctions';
+import { loginSuccess } from 'actions/connection';
 
 const RegisterForm = (props) => {
   const { t, isLoadingUser, dispatch, user, isLoadingRouter } = props;
@@ -53,8 +55,10 @@ const RegisterForm = (props) => {
           t('register:success-text')
         );
         setTimeout(() => {
-          router.push('/sign-in');
-        }, 1500);
+          dispatch(loginSuccess(data?.user));
+          Cookies.set('access_token', data?.jwt);
+          router.push('/profile');
+        }, 1000);
       }
       if (error) {
         setErrorText(error);
