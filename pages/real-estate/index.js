@@ -7,8 +7,17 @@ import Head from 'next/head';
 const RealEstate = (props) => {
   const [listSearchResult, setListSearchResult] = useState([]);
   const [filter, setFilter] = useState({});
+  const [polygon, setPolygon] = useState([]);
   const [isFetchingListing, setIsFetchingListing] = useState(false);
   const { t } = props;
+
+  const polygonCreated = (e) => {
+    console.log(e.layer.editing.latlngs[0]);
+    if (e.layer.editing?.latlngs.length > 0) {
+      setPolygon(e.layer.editing?.latlngs[0]);
+    }
+    console.log(polygon);
+  };
   return (
     <div className="real-estate-container main-container">
       <Head>
@@ -17,10 +26,12 @@ const RealEstate = (props) => {
       <HeroSection
         t={t}
         setFilter={setFilter}
+        polygon={polygon}
         listSearchResult={listSearchResult}
         isFetchingListing={isFetchingListing}
         setListSearchResult={setListSearchResult}
         setIsFetchingListing={setIsFetchingListing}
+        polygonCreated={polygonCreated}
       />
       <SearchResultSection
         t={t}

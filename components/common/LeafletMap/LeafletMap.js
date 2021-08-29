@@ -2,6 +2,7 @@ import 'leaflet/dist/leaflet.css';
 import 'esri-leaflet-geocoder/dist/esri-leaflet-geocoder.css';
 import 'leaflet/dist/leaflet.js';
 import 'esri-leaflet-geocoder/dist/esri-leaflet-geocoder.js';
+import 'node_modules/leaflet-draw/dist/leaflet.draw.css';
 
 import React, { useState, useEffect } from 'react';
 import L from 'leaflet';
@@ -11,22 +12,23 @@ import {
   TileLayer,
   useMap,
   Marker,
+  FeatureGroup,
   useMapEvents,
-  Popup
+  Popup,
 } from 'react-leaflet';
 import {
   OpenStreetMapProvider,
   AlgoliaProvider,
-  EsriProvider
+  EsriProvider,
 } from 'leaflet-geosearch';
-
+import { EditControl } from 'react-leaflet-draw';
 //Change icon Marker, because icon from the library broken
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl:
     'https://unpkg.com/leaflet@1.4.0/dist/images/marker-icon-2x.png',
   iconUrl: 'https://unpkg.com/leaflet@1.4.0/dist/images/marker-icon.png',
-  shadowUrl: 'https://unpkg.com/leaflet@1.4.0/dist/images/marker-shadow.png'
+  shadowUrl: 'https://unpkg.com/leaflet@1.4.0/dist/images/marker-shadow.png',
 });
 
 //set up search provider
@@ -58,13 +60,15 @@ export default function LeafletMap(props) {
     zoom,
     markers,
     marker,
+    drawSearch,
+    polygonCreated,
     setCurrentCenter,
     currentPosition,
     setCurrentPosition,
     searchText,
     handleSearchResult,
     setIsLoadingSearch,
-    listSearchResult
+    listSearchResult,
   } = props;
   const [map, setMap] = useState(null);
   useEffect(() => {
@@ -94,6 +98,7 @@ export default function LeafletMap(props) {
       <MapContainer
         style={{ height: '100%', width: '100%' }}
         id={id}
+        scrollWheelZoom={false}
         center={currentCenter}
         whenCreated={setMap}
         zoom={zoom || 10}
@@ -126,6 +131,35 @@ export default function LeafletMap(props) {
         {marker && (
           <Marker position={{ lat: marker.lat, lng: marker.lng }}></Marker>
         )}
+        {drawSearch && (
+          <FeatureGroup>
+            <EditControl
+              position="topright"
+              onCreated={polygonCreated}
+              draw={{
+                repeatMode: true,
+                circle: false,
+                rectangle: false,
+                marker: false,
+                circlemarker: false,
+                polyline: false,
+                polygon: {
+                  shapeOptions: {
+                    color: 'darkred',
+                  },
+                  allowIntersection: false,
+                  drawError: {
+                    color: 'red',
+                    timeout: 1000,
+                  },
+                  showLength: true,
+                  showArea: true,
+                  metric: true,
+                },
+              }}
+            />
+          </FeatureGroup>
+        )}
         {children}
       </MapContainer>
     </>
@@ -136,11 +170,15 @@ export default function LeafletMap(props) {
 //See more: https://react-leaflet.js.org/docs/api-map#hooks
 function MapComponent({ setCurrentPosition, currentPosition }) {
   const map = useMap();
+  map.scrollWheelZoom.disable();
+
   const mapEvent = useMapEvents({
-    click: e => {
+    click: (e) => {
       setCurrentPosition({ ...currentPosition, position: e.latlng });
-    }
+    },
   });
+  const drawnItems = new L.FeatureGroup().addTo(map);
+
   useEffect(() => {
     //Resize the view
     setTimeout(() => {
@@ -152,7 +190,7 @@ function MapComponent({ setCurrentPosition, currentPosition }) {
     const results = new L.LayerGroup().addTo(map);
 
     //Handle search
-    searchControl.on('results', function(data) {
+    searchControl.on('results', function (data) {
       results.clearLayers();
       for (let i = data.results.length - 1; i >= 0; i--) {
         results.addLayer(L.marker(data.results[i].latlng));

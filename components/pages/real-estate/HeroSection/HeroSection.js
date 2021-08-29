@@ -7,6 +7,8 @@ const HeroSection = (props) => {
     listSearchResult,
     setListSearchResult,
     setFilter,
+    polygon,
+    polygonCreated,
     isFetchingListing,
     setIsFetchingListing,
   } = props;
@@ -15,12 +17,14 @@ const HeroSection = (props) => {
       <Map
         listSearchResult={listSearchResult}
         setListSearchResult={setListSearchResult}
+        polygonCreated={polygonCreated}
         t={t}
       />
       <SearchForm
         listSearchResult={listSearchResult}
         setListSearchResult={setListSearchResult}
         setFilter={setFilter}
+        polygon={polygon}
         isFetchingListing={isFetchingListing}
         setIsFetchingListing={setIsFetchingListing}
         t={t}
