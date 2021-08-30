@@ -13,7 +13,7 @@
     "city": "Consider City",
     "description": {
       "minLength": "Description must be 20 characters long.",
-      "maxLength": "Description can't exceed 5000 characters.",
+      "maxLength": "Description can't exceed 10000 characters.",
       "required": "Description is required."
     },
 

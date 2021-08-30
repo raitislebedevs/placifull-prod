@@ -273,13 +273,13 @@ const GeneralInformation = (props) => {
                       as="textarea"
                       setPureText={setPureText}
                       handleOnChange={handleOnChange}
-                      maxLength={'5000'}
+                      maxLength={'10000'}
                       className="form-control input__text"
                       initialValue={item.label}
                     />
                     <>
                       <div className={'max__length__counter'}>
-                        {5000 - inputValues[item.key]?.length}
+                        {10000 - inputValues[item.key]?.length}
                       </div>
                     </>
                   </div>
