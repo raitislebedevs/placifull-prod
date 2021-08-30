@@ -29,6 +29,7 @@
     "js-cookie": "^2.2.1",
     "jspdf": "^2.3.1",
     "leaflet": "^1.7.1",
+    "leaflet-draw": "^1.0.4",
     "leaflet-geosearch": "^3.2.1",
     "moment": "^2.29.1",
     "next": "^10.2.3",
