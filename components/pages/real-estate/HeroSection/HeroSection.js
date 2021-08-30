@@ -10,6 +10,7 @@ const HeroSection = (props) => {
     polygon,
     polygonCreated,
     isFetchingListing,
+    polygonsDeleted,
     setIsFetchingListing,
   } = props;
   return (
@@ -18,6 +19,7 @@ const HeroSection = (props) => {
         listSearchResult={listSearchResult}
         setListSearchResult={setListSearchResult}
         polygonCreated={polygonCreated}
+        polygonsDeleted={polygonsDeleted}
         t={t}
       />
       <SearchForm

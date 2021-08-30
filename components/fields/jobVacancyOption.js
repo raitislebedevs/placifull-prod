@@ -6,6 +6,11 @@ const jobVacancyOption = (t) => ({
       placeholder: t('job-common:work-area.label'),
       options: [
         {
+          value: '',
+          label: t('job-common:work-area.label'),
+          id: 'vacancyOption',
+        },
+        {
           value: 'intern',
           label: t('job-common:work-area.options.intern'),
           id: 'vacancyOption',
