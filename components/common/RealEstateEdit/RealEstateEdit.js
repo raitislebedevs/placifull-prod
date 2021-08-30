@@ -13,13 +13,21 @@ import Preview from '../RealEstateForm/Preview';
 
 const RealEstatePost = (props) => {
   const { t, user, item } = props;
+  console.log(item);
   const [isLoading, setIsLoading] = useState(false);
   const [submitCurrency, setsubmitCurrency] = useState();
   const [addressPosition, setAddressPosition] = useState(null);
   const [previewModal, setPreviewModal] = useState(false);
   const [previewItem, setPreviewItem] = useState({});
   const [tagOptions, setTagOptions] = useState([]);
-  const [inputValues, setInputValues] = useState({});
+  const [inputValues, setInputValues] = useState({
+    name: item?.name || null,
+    price: item?.price || null,
+    // rooms: item?.rooms || null,
+    // area: item?.area || null,
+    // baths: item?.baths || null,
+    // yearBuilt: item?.yearBuilt || null,
+  });
 
   const handleOnChange = (event) => {
     const value = event?.target?.value ?? event?.value ?? event;
@@ -59,14 +67,14 @@ const RealEstatePost = (props) => {
 
   const PopulatePayload = (inputValues) => {
     let payload = {
-      name: inputValues?.name || null,
-      description: inputValues?.description || null,
-      price: inputValues?.price || null,
+      name: inputValues?.name || item?.name || null,
+      description: inputValues?.description || item?.description || null,
+      price: inputValues?.price || item?.price || null,
       rooms: inputValues?.rooms || null,
       area: inputValues?.area || null,
       bathCount: inputValues?.baths || null,
       yearBuilt: inputValues?.yearBuilt || null,
-      insertDate: new Date(),
+      insertDate: item.insertDate,
       contactHours: {
         monday_open: inputValues?.monday_open || null,
         monday_close: inputValues?.monday_close || null,
@@ -220,10 +228,9 @@ const RealEstatePost = (props) => {
         setInputValues={setInputValues}
         submitCurrency={submitCurrency}
         setsubmitCurrency={setsubmitCurrency}
-        item={item}
         t={t}
       />
-      <DetailInformation
+      {/* <DetailInformation
         inputValues={inputValues}
         addressPosition={addressPosition}
         setAddressPosition={setAddressPosition}
@@ -233,14 +240,12 @@ const RealEstatePost = (props) => {
         submitCurrency={submitCurrency}
         tagOptions={tagOptions}
         setTagOptions={setTagOptions}
-        item={item}
         t={t}
-      />
+      /> */}
       <SocialLinks
         prefix={''}
         inputValues={inputValues}
         handleOnChange={handleOnChange}
-        item={item}
         t={t}
       />
       <ContactHours
@@ -251,11 +256,10 @@ const RealEstatePost = (props) => {
         )}
         heading={t('real-estate-submit:form.contact-hours.accordion.heading')}
         inputValues={inputValues}
+        setInputValues={setInputValues}
         handleOnChange={handleOnChange}
-        item={item}
         t={t}
       />
-
       <div className="form__button-container">
         <Button
           variant="outline-primary"

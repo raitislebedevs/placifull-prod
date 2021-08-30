@@ -1,17 +1,24 @@
 import { withTranslation } from 'i18n';
 import PropTypes from 'prop-types';
+import { LoadingOverlay } from 'components/common';
 import { RealEstateListingServices } from 'services';
 import { useRouter } from 'next/router';
 import { RealEstateEdit } from 'components/common';
+import { useEffect } from 'react';
 
 const RealEstateEditListing = (props) => {
   const { t, listingItem } = props;
   const router = useRouter();
 
-  if (!listingItem) {
-    router.push('/404');
-  }
+  useEffect(() => {
+    if (!listingItem) {
+      router.push('/404');
+    }
+  }, []);
 
+  if (!listingItem) {
+    return <LoadingOverlay />;
+  }
   return (
     <div className="submit-container main-container">
       <div className="form__section">
@@ -29,12 +36,13 @@ RealEstateEditListing.getInitialProps = async ({ query }) => {
       listingItem: data,
       namespacesRequired: [
         'common',
+        'navbar',
+        'footer',
+        'validation',
         'real-estate-common',
         'real-estate-submit',
         'real-estate-tags',
-        'navbar',
-        'footer',
-        'tags',
+        'real-estate-detail',
       ],
     };
   } catch {}
@@ -44,12 +52,4 @@ RealEstateEditListing.propTypes = {
   t: PropTypes.func.isRequired,
 };
 
-export default withTranslation([
-  'payment',
-  'common',
-  'add-listing',
-  'real-estate-common',
-  'real-estate-submit',
-  'real-estate-tags',
-  'real-estate-validation',
-])(RealEstateEditListing);
+export default withTranslation()(RealEstateEditListing);
