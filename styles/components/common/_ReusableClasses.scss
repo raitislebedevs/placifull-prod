@@ -80,3 +80,27 @@
     font-weight: 700;
   }
 }
+
+.color__modal {
+  display: flex;
+  justify-content: center;
+
+  .modal__body {
+    display: flex;
+    justify-content: center;
+  }
+  .modal__footer {
+    display: flex;
+    justify-content: center;
+    button {
+      padding: 5px 20px;
+      margin: 0px 15px;
+
+      svg {
+        font-size: 20px;
+        font-weight: 900;
+        color: #fff;
+      }
+    }
+  }
+}

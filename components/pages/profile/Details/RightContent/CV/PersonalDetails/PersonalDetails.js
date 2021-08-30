@@ -1,6 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Row, Col, Form, Button, Spinner } from 'react-bootstrap';
-import { CustomFormControl, SelectInputSubmit } from 'components/common';
+import {
+  CustomFormControl,
+  SelectInputSubmit,
+  ColorPickerModal,
+} from 'components/common';
 import { HiOutlineUsers } from 'react-icons/hi';
 import { AiOutlineDownload } from 'react-icons/ai';
 import fields from './fields';
@@ -11,6 +15,8 @@ const PersonalDetails = (props) => {
   const { t, handleOnChange, inputValues, personalDetail, submitCurrency } =
     props;
   const inputFields = fields(t);
+  const [cvColor, setCvColor] = useState(false);
+  const [color, setColor] = useState({ r: 165, g: 42, b: 42, a: 1 });
   const [isCVPublished, setIsCVPublished] = useState(inputValues.isPublished);
   const [cvDownload, setCvDownload] = useState(false);
   useEffect(() => {
@@ -22,9 +28,11 @@ const PersonalDetails = (props) => {
 
   const downloadResume = async (e) => {
     e.preventDefault();
+    setCvColor(false);
     setCvDownload(true);
+
     try {
-      await generateResume(inputValues, t, submitCurrency);
+      await generateResume(inputValues, t, submitCurrency, color);
     } catch (error) {}
     setCvDownload(false);
   };
@@ -75,10 +83,7 @@ const PersonalDetails = (props) => {
           className="wrapper__body--heading__col"
         >
           {!cvDownload ? (
-            <div
-              onClick={(e) => downloadResume(e)}
-              className="save__all__button"
-            >
+            <div onClick={() => setCvColor(true)} className="save__all__button">
               <AiOutlineDownload />
             </div>
           ) : (
@@ -239,6 +244,13 @@ const PersonalDetails = (props) => {
           </div>
         </Col>
       </Row>
+      <ColorPickerModal
+        color={color}
+        setColor={setColor}
+        show={cvColor}
+        nextAction={downloadResume}
+        onHide={() => setCvColor(false)}
+      />
     </div>
   );
 };

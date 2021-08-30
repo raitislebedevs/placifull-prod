@@ -46,7 +46,7 @@ const marker = '/static/images/resume/marker.png';
 
 // jsPDF.API.events.push(['addFonts', callAddFont]);
 
-const generateResume = async (cv, t, cvCurrency) => {
+const generateResume = async (cv, t, cvCurrency, rgb) => {
   let doc = new jsPDF('portrait', 'px', 'a4');
 
   doc.addFileToVFS('CustomPdfFont.ttf', openSansRegular);
@@ -64,6 +64,9 @@ const generateResume = async (cv, t, cvCurrency) => {
   let pageCount = 1;
   let showAge = cv?.showAge;
   let location = true;
+  let red = rgb?.r || 165;
+  let green = rgb?.g || 42;
+  let blue = rgb?.b || 42;
 
   let cvPdfNormalFont = 'MainPdf';
   let cvPdfBoldFont = 'MainPdf';
@@ -87,7 +90,7 @@ const generateResume = async (cv, t, cvCurrency) => {
   });
 
   console.log(cv);
-  doc.setFillColor(165, 42, 42);
+  doc.setFillColor(red, green, blue);
   doc.rect(0, 0, 135, 840, 'F');
 
   //595 × 842 points.
@@ -399,8 +402,8 @@ const generateResume = async (cv, t, cvCurrency) => {
 
   function writeMainHeader(doc, text) {
     doc.setFontSize(12);
-    doc.setTextColor(165, 42, 42);
-    doc.setDrawColor(165, 42, 42);
+    doc.setTextColor(red, green, blue);
+    doc.setDrawColor(red, green, blue);
     yAxis = yAxis + 10;
     doc.setFont(cvPdfNormalFont, 'normal');
     writeText(doc, text, -3);
@@ -455,7 +458,7 @@ const generateResume = async (cv, t, cvCurrency) => {
     if (pageInfo > pageCount) {
       yAxis = 20;
       doc.addPage();
-      doc.setFillColor(165, 42, 42);
+      doc.setFillColor(red, green, blue);
       doc.rect(0, 0, 135, 840, 'F');
       return;
     }
