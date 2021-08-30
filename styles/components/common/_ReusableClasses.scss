@@ -59,3 +59,24 @@
     padding-left: 5px;
   }
 }
+
+.rich__text {
+  position: relative;
+  .label {
+    color: gray;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: none;
+  }
+  .max__length__counter {
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+    font-size: 11px;
+    color: lightgray;
+    font-weight: 700;
+  }
+}

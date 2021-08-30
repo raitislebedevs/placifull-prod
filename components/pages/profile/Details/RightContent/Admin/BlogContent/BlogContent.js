@@ -220,11 +220,10 @@ const BlogContent = (props) => {
                     handleOnChange={handleOnChange}
                     maxLength={'5000'}
                     className="form-control input__text"
-                    initialValue={'Blog information'}
                   />
                   <>
                     <div className={'max__length__counter'}>
-                      {5000 - inputValues.blogInformation?.length}
+                      {5000 - pureText?.length}
                     </div>
                   </>
                 </div>

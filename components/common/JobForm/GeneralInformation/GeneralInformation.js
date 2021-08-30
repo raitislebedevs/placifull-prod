@@ -11,6 +11,7 @@ import fields from './fields';
 import NumberFormat from 'react-number-format';
 import locationFields from './locationFields';
 import LanguageService from 'services/languageService';
+import RichText from 'components/common/RichText';
 
 const GeneralInformation = (props) => {
   const {
@@ -29,7 +30,7 @@ const GeneralInformation = (props) => {
     jobCity: [],
     jobState: [],
   });
-
+  const [pureText, setPureText] = useState('');
   const [languages, setLanguages] = useState();
   const autocompletFields = locationFields(t);
   const countryComponentIds = {
@@ -173,19 +174,26 @@ const GeneralInformation = (props) => {
             return (
               <Col lg={12} key={item.key}>
                 <Form.Group>
-                  <CustomFormControl
-                    id={item.key}
-                    as="textarea"
-                    rows={4}
-                    valueLength={2000 - inputValues[item.key]?.length}
-                    maxLength={'2000'}
-                    onChange={handleOnChange}
-                    value={inputValues[item.key]}
-                    type="text"
-                    style={{ resize: 'vertical', height: 'auto' }}
-                    label={item.label}
-                    autoComplete="current-text"
-                  />
+                  <div className="rich__text">
+                    <div className={`label`}> {item.label}</div>
+                    <RichText
+                      name={item.key}
+                      rows={17}
+                      id={item.key}
+                      type="text"
+                      as="textarea"
+                      setPureText={setPureText}
+                      handleOnChange={handleOnChange}
+                      maxLength={'5000'}
+                      className="form-control input__text"
+                      initialValue={item.label}
+                    />
+                    <>
+                      <div className={'max__length__counter'}>
+                        {5000 - inputValues[item.key]?.length}
+                      </div>
+                    </>
+                  </div>
                 </Form.Group>
               </Col>
             );

@@ -25,17 +25,21 @@ const RichText = (props) => {
         onChange={onChange}
         init={{
           selector: id,
-          height: 300,
-          menubar: false,
+          icons: 'thin',
           branding: false,
-          plugins: [],
+          plugins:
+            'print preview importcss fullscreen hr pagebreak advlist lists checklist help ',
+
+          mobile: {
+            plugins:
+              'print preview importcss fullscreen hr pagebreak advlist lists checklist help',
+          },
+          menubar: false,
           toolbar:
-            'undo redo | ' +
-            'bold italic backcolor forecolor strikethrough fontsizeselect | alignleft aligncenter ' +
-            'alignright alignjustify | bullist numlist outdent indent | ' +
-            'removeformat ',
-          content_style:
-            'body { font-family:sans-serif,Helvetica,Arial; font-size:14px }',
+            'undo redo | bold italic underline strikethrough | fontselect fontsizeselect formatselect | alignleft aligncenter alignright alignjustify | outdent indent |  numlist   | forecolor backcolor  removeformat | fullscreen  preview print ',
+          height: 300,
+          //checklist to add later
+          //bullist needs to sort out styling.
         }}
       />
     </>
