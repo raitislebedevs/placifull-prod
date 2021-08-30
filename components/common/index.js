@@ -32,5 +32,6 @@ export { default as CheckoutForm } from './CheckoutForm';
 export { default as StripeContainer } from './StripeContainer';
 export { default as ProfilePayment } from './ProfilePayment';
 export { default as RichText } from './RichText';
+export { default as ColorPickerModal } from './ColorPickerModal';
 
 // export { default as LeafletMap } from './LeafletMap' //Don't add this, because it is not SSR, it wont run
