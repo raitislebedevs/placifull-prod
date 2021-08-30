@@ -13,7 +13,7 @@
     "city": "Informe a cidade",
     "description": {
       "minLength": "A descrição deve ter 20 caracteres.",
-      "maxLength": "A descrição não pode exceder 5000 caracteres.",
+      "maxLength": "A descrição não pode exceder 25000 caracteres.",
       "required": "A descrição é necessária."
     },
 

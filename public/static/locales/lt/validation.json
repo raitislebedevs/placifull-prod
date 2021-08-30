@@ -13,7 +13,7 @@
     "city": "Apsvarstykite miestą",
     "description": {
       "minLength": "Aprašymas privalo turėti bent 20 simbolių",
-      "maxLength": "Aprašymas negali viršyti 5000 simbolių",
+      "maxLength": "Aprašymas negali viršyti 25000 simbolių",
       "required": "Privalote pridėti aprašymą"
     },
 

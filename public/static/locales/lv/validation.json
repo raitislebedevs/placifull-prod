@@ -13,7 +13,7 @@
     "city": "Apsveriet pievienot pilsētu",
     "description": {
       "minLength": "Apraksts jābūt 20 rakstzīmju garam.",
-      "maxLength": "Apraksts nedrīkst pārsniegt 5000 rakstzīmes",
+      "maxLength": "Apraksts nedrīkst pārsniegt 25000 rakstzīmes",
       "required": "Nepieciešams apraksts"
     },
 

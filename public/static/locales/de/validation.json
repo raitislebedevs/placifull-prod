@@ -13,7 +13,7 @@
     "city": "Stadt berücksichtigen",
     "description": {
       "minLength": "Die Beschreibung muss 20 Zeichen lang sein.",
-      "maxLength": "Beschreibung darf nicht mehr als 5000 Zeichen enthalten.",
+      "maxLength": "Beschreibung darf nicht mehr als 25000 Zeichen enthalten.",
       "required": "Beschreibung ist erforderlich."
     },
 

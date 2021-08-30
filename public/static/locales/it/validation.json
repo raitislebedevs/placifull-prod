@@ -13,7 +13,7 @@
     "city": "Considera la città",
     "description": {
       "minLength": "La descrizione deve essere lunga 20 caratteri.",
-      "maxLength": "La descrizione non può superare i 5000 caratteri.",
+      "maxLength": "La descrizione non può superare i 25000 caratteri.",
       "required": "È richiesta la descrizione."
     },
 
