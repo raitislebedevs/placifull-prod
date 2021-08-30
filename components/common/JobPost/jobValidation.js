@@ -8,16 +8,16 @@ const JobValidation = async (inputValues, t) => {
     jobCountry: Yup.string().required(t('validation:common.country')),
     jobDescription: Yup.string()
       .min(10, t('validation:common.description.minLength'))
-      .max(2000, t('validation:common.description.maxLength'))
+      .max(22500, t('validation:common.description.maxLength'))
       .required(t('validation:common.description.required')),
 
     jobRequirements: Yup.string()
       .min(10, t('validation:common.description.minLength'))
-      .max(2000, t('validation:common.description.maxLength')),
+      .max(22500, t('validation:common.description.maxLength')),
 
     jobOffer: Yup.string()
       .min(10, t('validation:common.description.minLength'))
-      .max(2000, t('validation:common.description.maxLength')),
+      .max(22500, t('validation:common.description.maxLength')),
 
     jobPhone: Yup.string()
       .min(6, t('validation:common.phone.minLength'))
