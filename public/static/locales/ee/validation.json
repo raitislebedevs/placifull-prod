@@ -13,7 +13,7 @@
     "city": "Vali linn",
     "description": {
       "minLength": "Kirjeldus peab olema 20 tähemärki pikk.",
-      "maxLength": "Kirjeldus ei tohi ületada 1000 tähemärki.",
+      "maxLength": "Kirjeldus ei tohi ületada 5000 tähemärki.",
       "required": "Kirjeldus on nõutud."
     },
 

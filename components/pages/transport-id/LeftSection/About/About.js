@@ -1,4 +1,5 @@
 import { SectionHeading } from 'components/common';
+import { Markup } from 'interweave';
 
 const About = (props) => {
   const { t, listingItem } = props;
@@ -8,7 +9,10 @@ const About = (props) => {
       <SectionHeading className="about__heading">
         {t('transport-detail:about.heading')}
       </SectionHeading>
-      <div className="about__description">{listingItem?.description}</div>
+      <div className="about__description">
+        {' '}
+        <Markup content={listingItem?.description} />
+      </div>
     </div>
   );
 };

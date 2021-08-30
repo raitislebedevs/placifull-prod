@@ -34,7 +34,7 @@ const getRealEstateSchema = (category, t) => {
 
       description: Yup.string()
         .min(10, t('validation:common.description.minLength'))
-        .max(2000, t('validation:common.description.maxLength'))
+        .max(5750, t('validation:common.description.maxLength'))
         .required(t('validation:common.description.required')),
 
       price: Yup.string()

@@ -1,4 +1,5 @@
 import { SectionHeading } from 'components/common';
+import { Markup } from 'interweave';
 
 const About = (props) => {
   const { t, listingItem } = props;
@@ -11,7 +12,7 @@ const About = (props) => {
             {t('job-detail:about.description')}
           </SectionHeading>
           <div className="about__description">
-            {listingItem?.positionDescription}
+            <Markup content={listingItem?.positionDescription} />
           </div>{' '}
         </>
       )}
@@ -22,7 +23,7 @@ const About = (props) => {
             {t('job-detail:about.requirements')}
           </SectionHeading>
           <div className="about__description">
-            {listingItem?.positionRequirements}
+            <Markup content={listingItem?.positionRequirements} />
           </div>
         </>
       )}
@@ -33,7 +34,7 @@ const About = (props) => {
             {t('job-detail:about.benefits')}
           </SectionHeading>
           <div className="about__description">
-            {listingItem?.positionBenefits}
+            <Markup content={listingItem?.positionBenefits} />
           </div>
         </>
       )}

@@ -11,6 +11,7 @@ import fields from './fields';
 import NumberFormat from 'react-number-format';
 import locationFields from './locationFields';
 import Datetime from 'react-datetime';
+import RichText from 'components/common/RichText';
 
 const GeneralInformation = (props) => {
   const {
@@ -23,6 +24,7 @@ const GeneralInformation = (props) => {
   } = props;
   const fieldsInput = fields(t);
 
+  const [pureText, setPureText] = useState('');
   const dropdownHandleChange = (e) => {
     handleOnChange({ target: { value: e.target.value, id: e.target.id } });
   };
@@ -104,19 +106,26 @@ const GeneralInformation = (props) => {
             return (
               <Col lg={12} key={item.key}>
                 <Form.Group>
-                  <CustomFormControl
-                    as="textarea"
-                    rows={6}
-                    id={item.key}
-                    onChange={handleOnChange}
-                    value={inputValues[item.key]}
-                    valueLength={2000 - inputValues[item.key]?.length}
-                    maxLength={'2000'}
-                    type="text"
-                    style={{ resize: 'vertical', height: 'auto' }}
-                    label={item.label}
-                    autoComplete="current-text"
-                  />
+                  <div className="rich__text">
+                    <div className={`label`}> {item.label}</div>
+                    <RichText
+                      name={item.key}
+                      rows={17}
+                      id={item.key}
+                      type="text"
+                      as="textarea"
+                      setPureText={setPureText}
+                      handleOnChange={handleOnChange}
+                      maxLength={'5000'}
+                      className="form-control input__text"
+                      initialValue={item.label}
+                    />
+                    <>
+                      <div className={'max__length__counter'}>
+                        {5000 - inputValues[item.key]?.length}
+                      </div>
+                    </>
+                  </div>
                 </Form.Group>
               </Col>
             );

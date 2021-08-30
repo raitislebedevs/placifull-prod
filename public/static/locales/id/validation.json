@@ -13,7 +13,7 @@
     "city": "Tambahkan kota",
     "description": {
       "minLength": "Panjang karakter harus mencapai 20 karakter.",
-      "maxLength": "Deskripsi tidak dapat melebihi 1000 karakter.",
+      "maxLength": "Deskripsi tidak dapat melebihi 5000 karakter.",
       "required": "Deskripsi diperlukan."
     },
 
