@@ -49,7 +49,8 @@ function AccordionToggle({ children, eventKey, callback }) {
 }
 
 const SearchForm = (props) => {
-  const { t, setFilter, isFetchingListing, setIsFetchingListing } = props;
+  const { t, setFilter, isFetchingListing, setIsFetchingListing, polygon } =
+    props;
   const [inputValues, setInputValues] = useState({});
   const [tagOptions, setTagOptions] = useState([]);
   const [activeItem, setActiveItem] = useState([]);
@@ -172,6 +173,7 @@ const SearchForm = (props) => {
 
           //List of Tags
           tags: listTagId.length > 0 ? listTagId : null,
+          polygon: polygon || null,
         }),
       };
 

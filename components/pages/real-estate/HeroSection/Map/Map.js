@@ -140,7 +140,7 @@ const PopupComponent = ({ item, t }) => {
 
 const Map = (props) => {
   const [searchItems, setSearchItems] = useState();
-  const { t, listSearchResult, polygonCreated } = props;
+  const { t, listSearchResult, polygonCreated, polygonsDeleted } = props;
 
   useEffect(() => {
     setSearchItems(
@@ -160,7 +160,8 @@ const Map = (props) => {
     <div className="hero__map">
       <LeafletMap
         polygonCreated={polygonCreated}
-        //drawSearch={true}
+        polygonsDeleted={polygonsDeleted}
+        drawSearch={true}
         listSearchResult={items}
         currentCenter={
           items[0]?.latitude

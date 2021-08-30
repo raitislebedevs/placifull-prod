@@ -62,6 +62,7 @@ export default function LeafletMap(props) {
     marker,
     drawSearch,
     polygonCreated,
+    polygonsDeleted,
     setCurrentCenter,
     currentPosition,
     setCurrentPosition,
@@ -136,6 +137,7 @@ export default function LeafletMap(props) {
             <EditControl
               position="topright"
               onCreated={polygonCreated}
+              onDeleted={polygonsDeleted}
               draw={{
                 repeatMode: true,
                 circle: false,

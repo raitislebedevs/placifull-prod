@@ -48,7 +48,8 @@ function AccordionToggle({ children, eventKey, callback }) {
 }
 
 const SearchForm = (props) => {
-  const { t, setFilter, isFetchingListing, setIsFetchingListing } = props;
+  const { t, setFilter, isFetchingListing, setIsFetchingListing, polygon } =
+    props;
   const [inputValues, setInputValues] = useState({});
   const [tagOptions, setTagOptions] = useState([]);
   const [activeItem, setActiveItem] = useState([]);
@@ -202,6 +203,8 @@ const SearchForm = (props) => {
           hourlySalaryTo_lte:
             Number(inputValues?.hourlySalaryTo?.replace(/[^\d.-]/g, '')) ||
             null,
+
+          polygon: polygon || null,
         }),
       };
 

@@ -11,8 +11,26 @@ import Head from 'next/head';
 const Transport = (props) => {
   const [listSearchResult, setListSearchResult] = useState([]);
   const [filter, setFilter] = useState({});
+  const [polygon, setPolygon] = useState([]);
   const [isFetchingListing, setIsFetchingListing] = useState(false);
   const { t } = props;
+
+  const polygonCreated = (e) => {
+    let polygonData = e.layer.editing?.latlngs;
+    if (polygonData.length > 0) {
+      let index = polygonData.length - 1;
+      let data = polygonData[index];
+      let searchArea = [];
+      data[index].forEach((el) => {
+        let polygonPoint = [el?.lat, el?.lng];
+        searchArea.push(polygonPoint);
+      });
+      setPolygon(searchArea);
+    }
+  };
+  const polygonsDeleted = () => {
+    setPolygon([]);
+  };
   return (
     <div className="vehicles-container main-container">
       <Head>
@@ -25,10 +43,13 @@ const Transport = (props) => {
       </Head>
       <HeroSection
         t={t}
+        polygon={polygon}
         listSearchResult={listSearchResult}
         isFetchingListing={isFetchingListing}
         setListSearchResult={setListSearchResult}
         setIsFetchingListing={setIsFetchingListing}
+        polygonCreated={polygonCreated}
+        polygonsDeleted={polygonsDeleted}
         setFilter={setFilter}
       />
       <SearchResultSection

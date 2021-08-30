@@ -12,11 +12,22 @@ const RealEstate = (props) => {
   const { t } = props;
 
   const polygonCreated = (e) => {
-    console.log(e.layer.editing.latlngs[0]);
-    if (e.layer.editing?.latlngs.length > 0) {
-      setPolygon(e.layer.editing?.latlngs[0]);
+    let polygonData = e.layer.editing?.latlngs;
+    if (polygonData.length > 0) {
+      let index = polygonData.length - 1;
+      let data = polygonData[index];
+      let searchArea = [];
+      data[index].forEach((el) => {
+        let polygonPoint = [el?.lat, el?.lng];
+        searchArea.push(polygonPoint);
+      });
+
+      setPolygon(searchArea);
     }
-    console.log(polygon);
+  };
+
+  const polygonsDeleted = () => {
+    setPolygon([]);
   };
   return (
     <div className="real-estate-container main-container">
@@ -32,6 +43,7 @@ const RealEstate = (props) => {
         setListSearchResult={setListSearchResult}
         setIsFetchingListing={setIsFetchingListing}
         polygonCreated={polygonCreated}
+        polygonsDeleted={polygonsDeleted}
       />
       <SearchResultSection
         t={t}
