@@ -30,14 +30,17 @@ const RichText = (props) => {
           plugins:
             'print preview importcss fullscreen hr pagebreak advlist lists checklist help ',
 
-          mobile: {
-            plugins:
-              'print preview importcss fullscreen hr pagebreak advlist lists checklist help',
-          },
           menubar: false,
           toolbar:
             'undo redo | bold italic underline strikethrough | fontselect fontsizeselect formatselect | alignleft aligncenter alignright alignjustify | outdent indent |  numlist   | forecolor backcolor  removeformat | fullscreen  preview print ',
           height: 300,
+          mobile: {
+            menubar: false,
+            plugins:
+              'print preview importcss fullscreen hr pagebreak advlist lists checklist help ',
+            toolbar:
+              'bold italic underline | forecolor backcolor  removeformat | numlist',
+          },
           //checklist to add later
           //bullist needs to sort out styling.
         }}
