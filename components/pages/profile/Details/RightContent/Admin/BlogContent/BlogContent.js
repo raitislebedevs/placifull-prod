@@ -218,12 +218,12 @@ const BlogContent = (props) => {
                     as="textarea"
                     setPureText={setPureText}
                     handleOnChange={handleOnChange}
-                    maxLength={'10000'}
+                    maxLength={'25000'}
                     className="form-control input__text"
                   />
                   <>
                     <div className={'max__length__counter'}>
-                      {10000 - pureText?.length}
+                      {25000 - pureText?.length}
                     </div>
                   </>
                 </div>
