@@ -159,6 +159,8 @@
         border-radius: 0 3px 3px 0;
         user-select: none;
         z-index: 99;
+      }
+      .next {
         right: -15px;
         border-radius: 3px 0 0 3px;
       }
@@ -182,6 +184,11 @@
           min-width: 120px;
           height: 90px;
           object-fit: cover;
+        }
+        &:hover {
+          transition: 0.75s all;
+          transform: scale(1.1);
+          outline: auto;
         }
       }
       .custom-dot--active {

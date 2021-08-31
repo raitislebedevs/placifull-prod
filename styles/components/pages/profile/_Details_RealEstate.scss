@@ -9,6 +9,8 @@
   .real-estate__list-items {
     .listings__not__placed {
       padding: 42px 0px;
+      display: flex;
+      justify-content: center;
     }
     width: 100%;
     .list-items__loading {

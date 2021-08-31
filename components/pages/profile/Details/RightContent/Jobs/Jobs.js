@@ -12,6 +12,8 @@ import { ModalAsk } from 'components/common';
 import useSubscriptions from 'hooks/useSubscriptions';
 import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
 import { isListingsFree } from 'constants/parameters';
+import { FileServices } from 'services/index';
+import Image from 'next/image';
 
 const noJobs =
   'https://placifull-static.s3.eu-central-1.amazonaws.com/Jobs.webp';
@@ -86,9 +88,12 @@ const Jobs = (props) => {
       await VacancyListingService.DELETE(removableListing);
 
       await FileServices.DELETE_FILE(logoId);
-      awsS3items.forEach(async (element) => {
-        await FileServices.DELETE_FILE(element.id);
-      });
+
+      if (awsS3items.length > 0) {
+        awsS3items?.forEach(async (element) => {
+          await FileServices.DELETE_FILE(element.id);
+        });
+      }
 
       await getJobPosts();
       await updateSubscription();
@@ -149,11 +154,14 @@ const Jobs = (props) => {
             {' '}
             {items?.length === 0 ? (
               <div className={'listings__not__placed'}>
-                <img
+                <Image
                   src={noJobs}
                   id="logo"
                   className="mx-auto d-block"
                   alt="Jobs"
+                  width={469}
+                  height={300}
+                  quality={100}
                 />
               </div>
             ) : (

@@ -11,6 +11,9 @@ import { getExpiryCount } from 'utils/standaloneFunctions';
 import { ModalAsk } from 'components/common';
 import useSubscriptions from 'hooks/useSubscriptions';
 import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
+import { isListingsFree } from 'constants/parameters';
+import { FileServices } from 'services/index';
+import Image from 'next/image';
 
 const noTransport =
   'https://placifull-static.s3.eu-central-1.amazonaws.com/Transport.webp';
@@ -157,11 +160,13 @@ const Transport = (props) => {
             {' '}
             {items?.length === 0 ? (
               <div className={'listings__not__placed'}>
-                <img
+                <Image
                   src={noTransport}
                   id="logo"
-                  className="mx-auto d-block"
                   alt="Transport"
+                  width={545}
+                  height={300}
+                  quality={100}
                 />
               </div>
             ) : (
