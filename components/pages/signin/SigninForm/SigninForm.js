@@ -247,7 +247,7 @@ const SigninForm = (props) => {
                           <p>{t('signin:heading-texts.facebook')}</p>
                         </Button>
                       </Col> */}
-                        {/* <Col
+                        <Col
                           xs={12}
                           sm={12}
                           md={12}
@@ -266,7 +266,7 @@ const SigninForm = (props) => {
                             <FcGoogle size="25px" className="button-social" />
                             <p>{t('signin:form.google')}</p>
                           </Button>
-                        </Col> */}
+                        </Col>
                       </Row>
                     </Col>
                     <Col
