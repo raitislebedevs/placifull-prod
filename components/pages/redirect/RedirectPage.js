@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
-import { Spinner } from 'react-bootstrap';
+import { Col, Spinner } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { useRouter } from 'next/router';
-import { toast } from 'react-toastify';
 import { ConnectionServices } from 'services';
 import { loginSuccess } from 'actions';
 import Cookies from 'js-cookie';
+import Image from 'next/image';
+import TostifyCustomContainer from 'components//common/TostifyCustomContainer/TostifyCustomContainer';
 
 const RedirectPage = (props) => {
   const { t, provider, dispatch } = props;
@@ -20,7 +21,7 @@ const RedirectPage = (props) => {
     let query = window.location.search;
     window.history.replaceState(null, null, window.location.pathname);
     if (!provider || !query) {
-      toast.error('No Credential found');
+      TostifyCustomContainer('error', 'Error', 'No Credential found');
       router.push('/');
       return;
     }
@@ -34,10 +35,10 @@ const RedirectPage = (props) => {
         dispatch(loginSuccess(data?.user));
         Cookies.set('access_token', data?.jwt);
         router.push('/profile');
-      }, 2000);
+      }, 1500);
     }
     if (error) {
-      toast.error('No Credential found');
+      TostifyCustomContainer('error', 'Error', 'Something went bad :(');
       router.push('/');
     }
   };
@@ -45,6 +46,17 @@ const RedirectPage = (props) => {
   return (
     <div className="redirect">
       <div className="redirect-container">
+        <div className={'redirect_logo'}>
+          <Image
+            src={
+              'https://placifull-static.s3.eu-central-1.amazonaws.com/PlacifullLogo.png'
+            }
+            id="PlacifullLogo"
+            alt="PlacifullLogo"
+            width={314}
+            height={100}
+          />
+        </div>
         <div className={'redirect__content'}>
           {isSuccess ? (
             t('redirect:success')

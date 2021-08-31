@@ -173,6 +173,7 @@ const ResetPasswordForm = (props) => {
                       type="submit"
                       className="btn-block"
                       id="reset-password"
+                      disabled={isSubmitting}
                     >
                       {isSubmitting ? (
                         <>
