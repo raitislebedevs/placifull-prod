@@ -38,7 +38,7 @@ const RedirectPage = (props) => {
       }, 1500);
     }
     if (error) {
-      TostifyCustomContainer('error', 'Error', 'Something went bad :(');
+      TostifyCustomContainer('error', 'Error', 'Login failed');
       router.push('/');
     }
   };
