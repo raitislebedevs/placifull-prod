@@ -17,16 +17,16 @@ const Redirect = (props) => {
   );
 };
 
-// Redirect.getInitialProps = async ({ query }) => {
-//   return {
-//     provider: query.provider,
-//     namespacesRequired: ['common', 'redirect', 'navbar', 'footer'],
-//   };
-// };
+Redirect.getInitialProps = async ({ query }) => {
+  return {
+    provider: query.provider,
+    //namespacesRequired: ['common', 'redirect', 'navbar', 'footer'],
+  };
+};
 
-// Redirect.propTypes = {
-//   t: PropTypes.func.isRequired,
-// };
+Redirect.propTypes = {
+  t: PropTypes.func.isRequired,
+};
 
 export default withTranslation(['common', 'redirect', 'navbar', 'footer'])(
   Redirect

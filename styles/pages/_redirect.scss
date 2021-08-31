@@ -2,6 +2,9 @@
   height: 100% !important;
   width: 100%;
   position: absolute;
+  font-size: 26px;
+  top: 0px;
+  left: 0px;
   z-index: 30000;
   .row {
     height: 100%;
@@ -10,10 +13,17 @@
     height: 100%;
     background-color: #fff;
     color: theme-color("primary");
+    .redirect_logo {
+      padding-top: 15%;
+      padding-bottom: 3%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
     .redirect__content {
       height: 100%;
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
       flex-direction: column;
     }

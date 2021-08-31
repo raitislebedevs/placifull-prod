@@ -247,26 +247,26 @@ const SigninForm = (props) => {
                           <p>{t('signin:heading-texts.facebook')}</p>
                         </Button>
                       </Col> */}
-                        {/* <Col
-                        xs={12}
-                        sm={12}
-                        md={12}
-                        lg={12}
-                        xl={12}
-                        className="mt-3"
-                      >
-                        <Button
-                          variant="outline-secondary"
-                          className="items__button-social btn"
-                          id="googleSigIn"
-                          onClick={() => {
-                            handleSigninProvider('google');
-                          }}
+                        <Col
+                          xs={12}
+                          sm={12}
+                          md={12}
+                          lg={12}
+                          xl={12}
+                          className="mt-3"
                         >
-                          <FcGoogle size="25px" className="button-social" />
-                          <p>{t('signin:form.google')}</p>
-                        </Button>
-                      </Col> */}
+                          <Button
+                            variant="outline-secondary"
+                            className="items__button-social btn"
+                            id="googleSigIn"
+                            onClick={() => {
+                              handleSigninProvider('google');
+                            }}
+                          >
+                            <FcGoogle size="25px" className="button-social" />
+                            <p>{t('signin:form.google')}</p>
+                          </Button>
+                        </Col>
                       </Row>
                     </Col>
                     <Col
