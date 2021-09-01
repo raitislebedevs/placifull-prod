@@ -58,6 +58,10 @@
         height: 100%;
         .cover__item {
           height: 100%;
+          div {
+            width: 100%;
+            height: 100%;
+          }
           .carousel-container__item {
             object-fit: cover;
             width: 100%;
@@ -147,6 +151,7 @@
     }
     .inforamtion__bottom-real-estate-item {
       margin-top: 5px;
+      padding-top: 15px;
       margin-bottom: 5px;
       display: flex;
       justify-content: space-between;

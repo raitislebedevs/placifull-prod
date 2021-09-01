@@ -15,6 +15,7 @@ import { IoBedSharp } from 'react-icons/io5';
 import Link from 'next/link';
 import Carousel from 'react-multi-carousel';
 import { formatNumber } from 'utils';
+import Image from 'next/image';
 
 const responsive = {
   superLargeDesktop: {
@@ -53,13 +54,13 @@ const RealEstateCard = (props) => {
         >
           {item?.listingGallery?.length > 0 ? (
             item?.listingGallery?.map((i) => (
-              <a key={i?.id}>
+              <div classNama="cover__image" key={i?.id}>
                 <img
                   src={i.url}
                   className="carousel-container__item"
                   alt="Card"
                 />
-                <div className="item__name-address">
+                <span className="item__name-address">
                   {item?.country?.native && (
                     <div className="name-address__address">
                       <FaSearchLocation className="wrapper__icon" />{' '}
@@ -67,12 +68,12 @@ const RealEstateCard = (props) => {
                       {item?.city?.name && `, ${item?.city?.name} `}
                     </div>
                   )}
-                </div>
-              </a>
+                </span>
+              </div>
             ))
           ) : (
             <a className="carousel-container__item">
-              <div className="item__name-address">
+              <span className="item__name-address">
                 {item?.country?.native && (
                   <div className="name-address__address">
                     <FaSearchLocation className="wrapper__icon" />{' '}
@@ -80,7 +81,7 @@ const RealEstateCard = (props) => {
                     {item?.city?.name && `, ${item?.city?.name} `}
                   </div>
                 )}
-              </div>
+              </span>
             </a>
           )}
         </Carousel>

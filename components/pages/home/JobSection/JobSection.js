@@ -131,6 +131,7 @@ const JobSection = (props) => {
                           alt="Transport"
                           width={483}
                           height={300}
+                          quality={100}
                         />
                       </div>
                     ) : (
