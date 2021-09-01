@@ -21,8 +21,7 @@ const RedirectPage = (props) => {
     let query = window.location.search;
     window.history.replaceState(null, null, window.location.pathname);
     if (!provider || !query) {
-      TostifyCustomContainer('error', 'Error', 'No Credential found');
-      router.push('/');
+      router.push('/sign-in');
       return;
     }
     const { data, error } = await ConnectionServices.LOGIN_WITH_PROVIDER(
@@ -38,8 +37,7 @@ const RedirectPage = (props) => {
       }, 1500);
     }
     if (error) {
-      TostifyCustomContainer('error', 'Error', 'Login failed');
-      router.push('/');
+      router.push('/sign-in');
     }
   };
 
