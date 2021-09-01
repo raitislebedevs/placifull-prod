@@ -55,10 +55,13 @@ const RealEstateCard = (props) => {
           {item?.listingGallery?.length > 0 ? (
             item?.listingGallery?.map((i) => (
               <div classNama="cover__image" key={i?.id}>
-                <img
+                <Image
                   src={i.url}
                   className="carousel-container__item"
                   alt="Card"
+                  width={483}
+                  height={300}
+                  quality={100}
                 />
                 <span className="item__name-address">
                   {item?.country?.native && (
