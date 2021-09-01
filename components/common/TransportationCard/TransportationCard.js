@@ -13,7 +13,6 @@ import { BsGear } from 'react-icons/bs';
 import Link from 'next/link';
 import Carousel from 'react-multi-carousel';
 import { formatNumber } from 'utils';
-import Image from 'next/image';
 
 const responsive = {
   superLargeDesktop: {
@@ -66,13 +65,10 @@ const TransportationCard = (props) => {
           {item?.listingGallery?.length > 0 ? (
             item?.listingGallery?.map((i) => (
               <div key={i?.id}>
-                <Image
+                <img
                   src={i.url}
                   className="carousel-container__item"
                   alt="Card"
-                  width={483}
-                  height={300}
-                  quality={100}
                 />
                 <span className="item__name-address">
                   {item?.country?.native || item?.city?.name ? (
