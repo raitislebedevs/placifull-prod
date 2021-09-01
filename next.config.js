@@ -14,11 +14,7 @@ module.exports = withImages({
     webpack5: true,
   },
   images: {
-    domains: [
-      'placifull-static.s3.eu-central-1.amazonaws.com',
-      'placifull-prod.s3.eu-central-1.amazonaws.com',
-      'placifull-development.s3.eu-north-1.amazonaws.com',
-    ],
+    domains: ['placifull-static.s3.eu-central-1.amazonaws.com'],
   },
   rewrites: async () =>
     nextI18NextRewrites({
