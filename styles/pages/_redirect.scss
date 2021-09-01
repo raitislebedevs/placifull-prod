@@ -16,9 +16,28 @@
     .redirect_logo {
       padding-top: 15%;
       padding-bottom: 3%;
+      padding-right: 10px;
+      padding-left: 10px;
       display: flex;
       justify-content: center;
       align-content: center;
+      transition: all 0.75;
+
+      @include media-breakpoint-down(md) {
+        transition: all 0.75;
+        padding-top: 25%;
+        padding-bottom: 5%;
+      }
+      @include media-breakpoint-down(sm) {
+        transition: all 0.75;
+        padding-top: 40%;
+        padding-bottom: 5%;
+      }
+      @include media-breakpoint-down(xs) {
+        transition: all 0.75;
+        padding-top: 75%;
+        padding-bottom: 5%;
+      }
     }
     .redirect__content {
       height: 100%;
@@ -26,6 +45,8 @@
       justify-content: flex-start;
       align-items: center;
       flex-direction: column;
+      text-align: center;
+      font-size: 20px;
     }
   }
 }
