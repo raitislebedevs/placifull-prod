@@ -53,6 +53,7 @@ const RedirectPage = (props) => {
             alt="PlacifullLogo"
             width={314}
             height={100}
+            quality={100}
           />
         </div>
         <div className={'redirect__content'}>

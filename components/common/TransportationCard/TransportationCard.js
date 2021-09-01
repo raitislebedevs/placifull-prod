@@ -64,13 +64,13 @@ const TransportationCard = (props) => {
         >
           {item?.listingGallery?.length > 0 ? (
             item?.listingGallery?.map((i) => (
-              <a key={i?.id}>
+              <div key={i?.id}>
                 <img
                   src={i.url}
                   className="carousel-container__item"
                   alt="Card"
                 />
-                <div className="item__name-address">
+                <span className="item__name-address">
                   {item?.country?.native || item?.city?.name ? (
                     <>
                       <div className="name-address__address">
@@ -86,8 +86,8 @@ const TransportationCard = (props) => {
                   ) : (
                     ''
                   )}
-                </div>
-              </a>
+                </span>
+              </div>
             ))
           ) : (
             <a className="carousel-container__item">
