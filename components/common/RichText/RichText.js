@@ -5,6 +5,7 @@ const RichText = (props) => {
   const { t, value, initialValue, handleOnChange, id, setPureText } = props;
   const editorRef = useRef(null);
   const onChange = () => {
+    console.log(initialValue);
     if (editorRef.current) {
       let richText = editorRef.current.getContent();
       var pureText = editorRef.current
@@ -15,6 +16,7 @@ const RichText = (props) => {
       handleOnChange({ target: { value: richText, id } });
     }
   };
+
   return (
     <>
       <Editor

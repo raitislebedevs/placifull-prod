@@ -52,4 +52,13 @@ RealEstateEditListing.propTypes = {
   t: PropTypes.func.isRequired,
 };
 
-export default withTranslation()(RealEstateEditListing);
+export default withTranslation([
+  'common',
+  'navbar',
+  'footer',
+  'validation',
+  'real-estate-common',
+  'real-estate-submit',
+  'real-estate-tags',
+  'real-estate-detail',
+])(RealEstateEditListing);

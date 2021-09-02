@@ -19,9 +19,13 @@ const ContactTab = (props) => {
     handleOnChange,
     addressPosition,
     setAddressPosition,
+    initialItem,
+    initialCoordinates,
+    initialAddress,
   } = props;
   const [isLoadingSearch, setIsLoadingSearch] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
+  const [countryCode, setCountryCode] = useState();
   const [searchText, setSearchText] = useState('');
   const [isSearching, setIsSearching] = useState(false);
   const [currentCenter, setCurrentCenter] = useState({
@@ -36,13 +40,23 @@ const ContactTab = (props) => {
       setDebounceTimer(Date.now());
     };
   };
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setCountryCode(localStorage.getItem('countryCode') || 'lv');
+    }
+  }, []);
+  useEffect(() => {
+    if (initialItem?.phone) {
+      handleOnChange({ target: { value: initialItem?.phone, id: 'phone' } });
+    }
+  }, [countryCode, initialItem?.phone]);
 
   useEffect(() => {
     if (debounceTimer) {
       clearTimeout(timeOutDebounce);
       let timeout = setTimeout(() => {
         setSearchText(inputValues.address);
-      }, 500);
+      }, 250);
       setTimeOutDebounce(timeout);
     }
   }, [debounceTimer]);
@@ -123,6 +137,8 @@ const ContactTab = (props) => {
               handleSelectSearchResult={handleSelectSearchResult}
               isLoadingSearch={isLoadingSearch}
               searchResults={searchResults}
+              initialValue={initialAddress}
+              inputValues={inputValues}
               id="address"
               type="text"
               label={
@@ -142,6 +158,7 @@ const ContactTab = (props) => {
             <LeafletMap
               currentCenter={currentCenter}
               setCurrentCenter={setCurrentCenter}
+              initialCoordinates={initialCoordinates}
               zoom={10}
               id="addressPosition"
               searchText={searchText}
@@ -158,7 +175,8 @@ const ContactTab = (props) => {
             <AiOutlinePhone className={'mandatory'} />
             <PhoneInput
               containerClass="phone__input__field"
-              country={localStorage.getItem('countryCode') || 'lv'}
+              country={countryCode}
+              placeholder={initialItem?.phone}
               enableSearch={true}
               id="phone"
               className="form-control"
@@ -176,6 +194,7 @@ const ContactTab = (props) => {
             <CustomFormControl
               onChange={handleOnChange}
               value={inputValues.realEstateEmail}
+              defaultValue={initialItem.email}
               id="realEstateEmail"
               type="text"
               valueLength={75 - inputValues['realEstateEmail']?.length}
@@ -198,6 +217,9 @@ const ContactTab = (props) => {
               id="contactTimes"
               onChange={handleOnChange}
               options={contactTimeOptions}
+              value={contactTimeOptions.filter(
+                (option) => option.value === inputValues.contactTimes
+              )}
               placeholder={
                 <>
                   {t(
@@ -215,6 +237,7 @@ const ContactTab = (props) => {
             <CustomFormControl
               onChange={handleOnChange}
               value={inputValues.websiteLink}
+              defaultValue={initialItem?.websiteLink}
               valueLength={250 - inputValues['websiteLink']?.length}
               maxLength={'250'}
               id="websiteLink"

@@ -19,9 +19,12 @@ const GeneralInformation = (props) => {
     inputValues,
     handleOnChange,
     setInputValues,
+    initialNumberValues,
     setsubmitCurrency,
     submitCurrency,
-    item,
+    initialValues,
+    initialRichText,
+    initialItem,
   } = props;
 
   useEffect(() => {
@@ -89,7 +92,7 @@ const GeneralInformation = (props) => {
             <CustomFormControl
               id={'name'}
               onChange={handleOnChange}
-              value={inputValues['name'] || item?.name}
+              value={inputValues['name'] || initialItem?.name}
               type="text"
               valueLength={75 - inputValues['name']?.length}
               maxLength={'75'}
@@ -110,6 +113,7 @@ const GeneralInformation = (props) => {
             <CurrencyInput
               handleOnChange={handleOnChange}
               setCurrency={setsubmitCurrency}
+              initialSelect={inputValues?.currency}
               placeholder={t(
                 'real-estate-submit:form.general-information.currency-input'
               )}
@@ -129,6 +133,9 @@ const GeneralInformation = (props) => {
                     id={item.key}
                     onChange={handleOnChange}
                     options={item.options}
+                    value={item.options.filter(
+                      (option) => option.value === inputValues[item.key]
+                    )}
                     placeholder={item.label}
                   />
                 </Form.Group>
@@ -146,6 +153,9 @@ const GeneralInformation = (props) => {
                     id={item.key}
                     onChange={handleOnChange}
                     options={item.options}
+                    value={item.options.filter(
+                      (option) => option.value === inputValues[item.key]
+                    )}
                     placeholder={item.label}
                   />
                 </Form.Group>
@@ -171,6 +181,7 @@ const GeneralInformation = (props) => {
                     customInput={CustomFormControl}
                     label={item.label}
                     id={item.key}
+                    defaultValue={initialNumberValues[item.key]}
                     onValueChange={(e) => {
                       let payload = {
                         target: {
@@ -216,6 +227,7 @@ const GeneralInformation = (props) => {
                     key={item.key}
                     inputProps={{ className: 'datetime', readOnly: true }}
                     value={inputValues[item.key]}
+                    initialValue={initialNumberValues[item.key]}
                     onChange={(e) =>
                       handleOnChange({ target: { value: e, id: item.key } })
                     }
@@ -275,7 +287,7 @@ const GeneralInformation = (props) => {
                       handleOnChange={handleOnChange}
                       maxLength={'25000'}
                       className="form-control input__text"
-                      initialValue={item.label}
+                      initialValue={initialRichText || ''}
                     />
                     <>
                       <div className={'max__length__counter'}>
@@ -305,6 +317,7 @@ const GeneralInformation = (props) => {
                     customInput={CustomFormControl}
                     label={item.label}
                     id={item.key}
+                    defaultValue={initialNumberValues[item.key]}
                     onValueChange={(e) => {
                       let payload = {
                         target: {
@@ -344,6 +357,7 @@ const GeneralInformation = (props) => {
                     customInput={CustomFormControl}
                     label={item.label}
                     id={item.key}
+                    defaultValue={initialNumberValues[item.key]}
                     onValueChange={(e) => {
                       let payload = {
                         target: {
@@ -423,6 +437,7 @@ const GeneralInformation = (props) => {
                 selectOptions={selectOptions}
                 setSelectOptions={setSelectOptions}
                 isMandatory={true}
+                initialValues={initialValues}
               />
             );
           }

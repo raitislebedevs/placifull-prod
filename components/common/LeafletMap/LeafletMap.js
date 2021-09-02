@@ -67,6 +67,7 @@ export default function LeafletMap(props) {
     currentPosition,
     setCurrentPosition,
     searchText,
+    initialCoordinates,
     handleSearchResult,
     setIsLoadingSearch,
     listSearchResult,
@@ -132,6 +133,14 @@ export default function LeafletMap(props) {
         {marker && (
           <Marker position={{ lat: marker.lat, lng: marker.lng }}></Marker>
         )}
+        {initialCoordinates && !currentPosition && (
+          <Marker
+            position={{
+              lat: initialCoordinates.latitude,
+              lng: initialCoordinates.longitude,
+            }}
+          ></Marker>
+        )}
         {drawSearch && (
           <FeatureGroup>
             <EditControl
@@ -188,7 +197,7 @@ function MapComponent({ setCurrentPosition, currentPosition }) {
     }, 250);
 
     //Add search to map
-    const searchControl = new ELG.Geosearch().addTo(map);
+    const searchControl = new ELG.Geosearch();
     const results = new L.LayerGroup().addTo(map);
 
     //Handle search

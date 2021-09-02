@@ -3,7 +3,7 @@ import { Row, Col, Form } from 'react-bootstrap';
 import fields from './fields';
 
 const SocialLinks = (props) => {
-  const { t, inputValues, handleOnChange, prefix } = props;
+  const { t, inputValues, handleOnChange, prefix, initialItem } = props;
   const fieldsInput = fields(t);
   return (
     <div className="form__section">

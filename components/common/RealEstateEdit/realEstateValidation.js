@@ -12,7 +12,9 @@ const RealEstateValidation = async (inputValues, t) => {
     longitude: Yup.string().required(
       t('real-estate-validation:address.mapPoint')
     ),
-    address: Yup.string().required(t('real-estate-validation:address.address')),
+    fullAddress: Yup.string().required(
+      t('real-estate-validation:address.address')
+    ),
     description: Yup.string()
       .min(10, t('real-estate-validation:description.minLength'))
       .max(1250, t('real-estate-validation:description.maxLength'))
@@ -26,13 +28,12 @@ const RealEstateValidation = async (inputValues, t) => {
       .min(6, t('real-estate-validation:phone.minLength'))
       .max(20, t('real-estate-validation:phone.minLength'))
       .required(t('real-estate-validation:phone.required')),
-    realEstateEmail: Yup.string()
+    email: Yup.string()
       .email(t('real-estate-validation:email.valid'))
       .required(t('real-estate-validation:email.required')),
-    contactTimes: Yup.string().required(
+    contactTime: Yup.string().required(
       t('real-estate-validation:contact.required')
     ),
-    listingGallery: Yup.array().required('No Gallery is added'),
   });
 
   let schemaResult = await RealEstateSchema.validate(inputValues, {

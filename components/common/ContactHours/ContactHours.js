@@ -43,6 +43,7 @@ const ContactHours = (props) => {
     setInputValues,
     inputValues,
     sectionHeading,
+    initialItem,
     sectionHeadingTip,
     heading,
   } = props;
