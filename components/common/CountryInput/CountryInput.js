@@ -36,9 +36,9 @@ const CountryInput = (props) => {
     selectOptions,
     setSelectOptions,
     searchForm,
-    locationValue,
-    setLocationValue,
+    //For initilizing values
     initialValues,
+    //For initilizing values
     onlyCountry,
     t,
   } = props;
@@ -231,36 +231,6 @@ const CountryInput = (props) => {
   }, []);
 
   useEffect(() => {
-    if (initialValues?.country) {
-      setLocationValue((prev) => ({
-        ...prev,
-        country: selectOptions.country.filter(
-          (option) => option.value === initialValues.country.id
-        ),
-      }));
-      if (initialValues.state) handleGetStates();
-    }
-    if (initialValues?.state) {
-      setLocationValue((prev) => ({
-        ...prev,
-        state: selectOptions.state.filter(
-          (option) => option.value === initialValues.state.id
-        ),
-      }));
-      if (initialValues.city) handleGetCities();
-    }
-
-    if (initialValues?.city) {
-      setLocationValue((prev) => ({
-        ...prev,
-        city: selectOptions.city.filter(
-          (option) => option.value === initialValues.city.id
-        ),
-      }));
-    }
-  }, [selectOptions.country]);
-
-  useEffect(() => {
     if (inputValues[country] && !onlyCountry) {
       handleGetStates();
     }
@@ -318,8 +288,8 @@ const CountryInput = (props) => {
                       onChange={handleChangeLocation}
                       isLoading={loaders.includes(item.key)}
                       isSearchable={true}
+                      value={!inputValues[item.key] && initialValues[item.key]}
                       maxLength={10}
-                      value={!inputValues[item.key] && locationValue[item.key]}
                       options={
                         loaders.includes(item.key)
                           ? []

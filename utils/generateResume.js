@@ -89,7 +89,6 @@ const generateResume = async (cv, t, cvCurrency, rgb) => {
     return dateB - dateA;
   });
 
-  console.log(cv);
   doc.setFillColor(red, green, blue);
   doc.rect(0, 0, 135, 840, 'F');
 

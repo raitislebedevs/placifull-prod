@@ -50,22 +50,11 @@ KanBoard.getInitialProps = async ({ query }) => {
       kanBanItems: data?.Applicants,
       kanBanId: id,
       kanBanListing: data,
-      // namespacesRequired: [
-      //   'common',
-      //   'navbar',
-      //   'footer',
-      //   'kanban',
-      //   'job-common',
-      // ],
     };
   } catch (error) {
     console.log(error);
   }
 };
-
-// KanBoard.propTypes = {
-//   t: PropTypes.func.isRequired,
-// };
 
 export default withTranslation([
   'common',

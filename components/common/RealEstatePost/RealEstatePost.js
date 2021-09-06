@@ -38,6 +38,7 @@ const RealEstatePost = (props) => {
   const initial = {
     tags: [],
     name: '',
+    price: '',
     address: '',
     realEstateEmail: '',
     description: '',

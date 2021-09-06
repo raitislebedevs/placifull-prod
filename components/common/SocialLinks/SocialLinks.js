@@ -3,8 +3,9 @@ import { Row, Col, Form } from 'react-bootstrap';
 import fields from './fields';
 
 const SocialLinks = (props) => {
-  const { t, inputValues, handleOnChange, prefix } = props;
+  const { t, inputValues, handleOnChange, prefix, initialItem } = props;
   const fieldsInput = fields(t);
+
   return (
     <div className="form__section">
       <SectionHeading>{t('common:social.heading')}</SectionHeading>
@@ -16,6 +17,7 @@ const SocialLinks = (props) => {
                 onChange={handleOnChange}
                 value={inputValues[prefix + item.key]}
                 id={prefix + item.key}
+                defaultValue={initialItem?.socialLinks[item.key]}
                 valueLength={250 - inputValues[prefix + item.key]?.length}
                 maxLength={'250'}
                 type="text"

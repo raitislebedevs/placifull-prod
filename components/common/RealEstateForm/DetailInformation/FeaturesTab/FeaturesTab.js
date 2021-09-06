@@ -46,45 +46,47 @@ const FeaturesTab = (props) => {
           {t('real-estate-submit:form.no-features')}{' '}
         </div>
       ) : (
-        <Row>
-          {Object.keys(fieldsInput).map((category, index) => (
-            <Col lg={12} md={6} key={index}>
-              <div className="wrapper__category">
-                <div className="category__header">
-                  {fieldsInput[category].label}:
-                </div>
-                <div className="category__items-wrapper">
-                  {fieldsInput[category].items.map((item, index) => (
-                    <label
-                      key={index}
-                      className={`items-wrapper__item ${
-                        inputValues?.tags?.includes(item.id)
-                          ? 'items-wrapper__item--active'
-                          : ''
-                      }`}
-                    >
-                      <input
-                        type="checkbox"
-                        checked={inputValues?.tags?.includes(item.id)}
-                        onChange={handleFeatureItemCheckbox}
-                        id={item.id}
-                      />
-                      <FontAwesomeIcon
-                        icon={
+        <>
+          <Row>
+            {Object.keys(fieldsInput).map((category, index) => (
+              <Col lg={12} md={6} key={index}>
+                <div className="wrapper__category">
+                  <div className="category__header">
+                    {fieldsInput[category].label}:
+                  </div>
+                  <div className="category__items-wrapper">
+                    {fieldsInput[category].items.map((item, index) => (
+                      <label
+                        key={item.id}
+                        className={`items-wrapper__item ${
                           inputValues?.tags?.includes(item.id)
-                            ? 'check'
-                            : 'plus'
-                        }
-                        className="item__icon"
-                      />{' '}
-                      {t(`real-estate-tags:${item.nameTag}`)}
-                    </label>
-                  ))}
+                            ? 'items-wrapper__item--active'
+                            : ''
+                        }`}
+                      >
+                        <input
+                          type="checkbox"
+                          checked={inputValues?.tags?.includes(item.id)}
+                          onChange={handleFeatureItemCheckbox}
+                          id={item.id}
+                        />
+                        <FontAwesomeIcon
+                          icon={
+                            inputValues?.tags?.includes(item.id)
+                              ? 'check'
+                              : 'plus'
+                          }
+                          className="item__icon"
+                        />{' '}
+                        {t(`real-estate-tags:${item.nameTag}`)}
+                      </label>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            </Col>
-          ))}
-        </Row>
+              </Col>
+            ))}
+          </Row>
+        </>
       )}
     </div>
   );

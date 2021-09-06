@@ -15,6 +15,7 @@ const RichText = (props) => {
       handleOnChange({ target: { value: richText, id } });
     }
   };
+
   return (
     <>
       <Editor

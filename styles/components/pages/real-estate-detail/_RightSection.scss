@@ -61,6 +61,23 @@
         &.info {
           color: theme-color("primary");
           margin: 1px 0px;
+          margin-top: 10px;
+        }
+      }
+      .social__Links {
+        display: flex;
+        justify-content: space-around;
+        .social__network {
+          width: 33px;
+          height: 33px;
+          padding-top: 3px;
+          border: 1px solid theme-color("primary");
+          border-radius: 7px;
+          font-size: 15px;
+          &:hover {
+            color: black;
+            transition-duration: 0.75s;
+          }
         }
       }
     }

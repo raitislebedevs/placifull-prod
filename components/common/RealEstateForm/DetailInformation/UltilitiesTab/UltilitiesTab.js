@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import fields from './fields';
 import { Row, Col, Form } from 'react-bootstrap';
 import { CustomFormControl } from 'components/common';
@@ -7,10 +7,10 @@ import NumberFormat from 'react-number-format';
 const UltilitiesTab = (props) => {
   const { t, inputValues, handleOnChange, submitCurrency } = props;
   const fieldsInput = fields(t);
-
   // Compute total ultilities fee. Only run when the fields that sum the total change
   // I'm using checkDependencies here and pass into useMemo to prevent it from running(render) when other inputValues fields change
   const checkDependencies = fieldsInput.map((item) => inputValues[item.key]);
+
   const total = useMemo(() => {
     let sum = 0;
     fieldsInput.map((item) => {
@@ -18,6 +18,7 @@ const UltilitiesTab = (props) => {
         sum += inputValues[item.key];
       }
     });
+
     return sum;
   }, checkDependencies);
 
@@ -44,6 +45,7 @@ const UltilitiesTab = (props) => {
                 customInput={CustomFormControl}
                 id={item.key}
                 className="form__input"
+                defaultValue={inputValues[item.key]}
                 label={item.label}
                 thousandSeparator={true}
                 decimalScale={2}

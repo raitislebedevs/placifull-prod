@@ -96,6 +96,7 @@ const CurrencyInput = (props) => {
     let initialCurrency = selectOptions.currency.filter(
       (ccy) => ccy?.value === initialSelect
     )[0];
+
     setSelectedCurrency(initialCurrency);
     setCurrency(initialCurrency?.fullValue?.symbol);
   };

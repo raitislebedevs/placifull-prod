@@ -20,12 +20,19 @@ const DetailInformation = (props) => {
     handleOnChange,
     handleCheckBoxChange,
     handleFeatureItemCheckbox,
+    initialNumberValues,
+    initialCoordinates,
     addressPosition,
     setAddressPosition,
     submitCurrency,
+    initTags,
     tagOptions,
+    initialItem,
     setTagOptions,
+    initialAddress,
   } = props;
+  const [initilize, setInitilize] = useState(true);
+  const [category, setCategory] = useState(inputValues.category);
 
   useEffect(() => {
     initilizeTags();
@@ -33,7 +40,7 @@ const DetailInformation = (props) => {
 
   useEffect(() => {
     handleGetTags();
-  }, [inputValues.category]);
+  }, [inputValues.category, realEstateTags, landTags, agentTags]);
 
   const handleGetTags = async () => {
     setIsLoadingTag(true);
@@ -41,7 +48,15 @@ const DetailInformation = (props) => {
     if (inputValues.category === 'land') setTagOptions(landTags);
     if (inputValues.category === 'agents') setTagOptions(agentTags);
 
-    inputValues.tags = [];
+    if (initilize && initTags?.length > 0) {
+      setIsLoadingTag(false);
+      setInitilize(false);
+      return;
+    }
+    if (category !== inputValues.category) {
+      inputValues.tags = [];
+      setCategory('');
+    }
     setIsLoadingTag(false);
   };
 
@@ -92,8 +107,11 @@ const DetailInformation = (props) => {
               addressPosition={addressPosition}
               setAddressPosition={setAddressPosition}
               inputValues={inputValues}
+              initialItem={initialItem}
+              initialCoordinates={initialCoordinates}
               handleCheckBoxChange={handleCheckBoxChange}
               handleOnChange={handleOnChange}
+              initialAddress={initialAddress}
               t={t}
             />
           </Tab>
@@ -104,6 +122,7 @@ const DetailInformation = (props) => {
             <FeaturesTab
               inputValues={inputValues}
               tagOptions={tagOptions}
+              initTags={initTags}
               isLoadingTag={isLoadingTag}
               handleFeatureItemCheckbox={handleFeatureItemCheckbox}
               handleOnChange={handleOnChange}
@@ -117,6 +136,7 @@ const DetailInformation = (props) => {
             >
               <UltilitiesTab
                 inputValues={inputValues}
+                initialNumberValues={initialNumberValues}
                 handleOnChange={handleOnChange}
                 submitCurrency={submitCurrency}
                 t={t}

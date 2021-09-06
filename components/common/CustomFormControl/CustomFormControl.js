@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { Form, InputGroup } from 'react-bootstrap';
 import Dropdown from 'react-dropdown';
 
@@ -10,14 +10,22 @@ const CustomFormControl = (props) => {
     placeholderClassName,
     dropdownHandleChange,
     inputValues,
+    addressInitialValue,
     maxLength,
     valueLength,
     tReady, //remove from rest to not have an error
     ...rest
   } = props;
+
+  const [intitialValue, setIntitialValue] = useState(
+    rest.defaultValue ? true : false
+  );
   const inputEl = useRef(null);
   const onClickHandler = () => {
     inputEl.current.focus();
+  };
+  const onChangeInput = () => {
+    if (!props.value && intitialValue) setIntitialValue(false);
   };
 
   return (
@@ -26,7 +34,7 @@ const CustomFormControl = (props) => {
         <div
           onClick={() => onClickHandler()}
           className={`form-label-inline ${
-            props.value ? 'form-label-inline--has-text' : ''
+            props.value || intitialValue ? 'form-label-inline--has-text' : ''
           }`}
         >
           {label}
@@ -76,7 +84,12 @@ const CustomFormControl = (props) => {
           ) : (
             ''
           )}
-          <Form.Control maxLength={maxLength} {...rest} ref={inputEl} />
+          <Form.Control
+            onBlur={() => onChangeInput()}
+            maxLength={maxLength}
+            {...rest}
+            ref={inputEl}
+          />
           <>
             {(valueLength || valueLength == 0) && (
               <div className={'max__length__counter'}>{valueLength}</div>

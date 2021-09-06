@@ -5,10 +5,11 @@ import { Row, Col, Form } from 'react-bootstrap';
 import { FaRegTimesCircle } from 'react-icons/fa';
 import { RiUploadCloud2Fill } from 'react-icons/ri';
 import { AiOutlineVideoCamera } from 'react-icons/ai';
+import { FcApproval } from 'react-icons/fc';
 import { maxTotalSize } from 'constants/fileManipulation';
 
 const Gallery = (props) => {
-  const { t, inputValues, handleOnChange } = props;
+  const { t, inputValues, handleOnChange, initialItem } = props;
   const [files, setFiles] = useState([]);
   const { getRootProps, getInputProps } = useDropzone({
     accept: 'image/*',
@@ -84,6 +85,29 @@ const Gallery = (props) => {
                 </div>
               </div>
             ))}
+
+            {!files.length &&
+              initialItem?.listingGallery &&
+              initialItem.listingGallery.map((file, index) => (
+                <div
+                  key={index}
+                  className="dropzone-thumbnail-container__thumb"
+                >
+                  <div className="thumb__inner">
+                    <div
+                      className="inner__remove"
+                      // onClick={() => handleRemoveFile(index)}
+                    >
+                      <FcApproval size={18} />
+                    </div>
+                    <img
+                      src={file.url}
+                      className="inner__image"
+                      alt="Preview File"
+                    />
+                  </div>
+                </div>
+              ))}
           </aside>
         </section>
 
@@ -94,6 +118,7 @@ const Gallery = (props) => {
               onChange={handleOnChange}
               value={inputValues.videoLink}
               id="videoLink"
+              defaultValue={initialItem?.videoLink}
               valueLength={250 - inputValues['videoLink']?.length}
               maxLength={'250'}
               type="text"

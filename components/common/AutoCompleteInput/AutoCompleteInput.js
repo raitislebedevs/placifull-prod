@@ -10,6 +10,7 @@ const AutoCompleteInput = (props) => {
     handleSelectSearchResult,
     isLoadingSearch,
     searchResults,
+    initialValue,
     setSearchText,
     searchText,
     t,
@@ -33,6 +34,7 @@ const AutoCompleteInput = (props) => {
     <div ref={wrapperRef}>
       <CustomFormControl
         {...rest}
+        defaultValue={initialValue}
         valueLength={100 - searchText?.length}
         maxLength={'100'}
       />

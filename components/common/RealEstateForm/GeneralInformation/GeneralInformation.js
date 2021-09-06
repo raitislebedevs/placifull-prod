@@ -19,9 +19,12 @@ const GeneralInformation = (props) => {
     inputValues,
     handleOnChange,
     setInputValues,
+    initialNumberValues,
     setsubmitCurrency,
     submitCurrency,
-    item,
+    initialValues,
+    initialRichText,
+    initialItem,
   } = props;
 
   useEffect(() => {
@@ -89,7 +92,7 @@ const GeneralInformation = (props) => {
             <CustomFormControl
               id={'name'}
               onChange={handleOnChange}
-              value={inputValues['name'] || item?.name}
+              value={inputValues['name'] || initialItem?.name}
               type="text"
               valueLength={75 - inputValues['name']?.length}
               maxLength={'75'}
@@ -110,6 +113,7 @@ const GeneralInformation = (props) => {
             <CurrencyInput
               handleOnChange={handleOnChange}
               setCurrency={setsubmitCurrency}
+              initialSelect={inputValues?.currency}
               placeholder={t(
                 'real-estate-submit:form.general-information.currency-input'
               )}
@@ -129,6 +133,9 @@ const GeneralInformation = (props) => {
                     id={item.key}
                     onChange={handleOnChange}
                     options={item.options}
+                    value={item.options.filter(
+                      (option) => option.value === inputValues[item.key]
+                    )}
                     placeholder={item.label}
                   />
                 </Form.Group>
@@ -146,6 +153,9 @@ const GeneralInformation = (props) => {
                     id={item.key}
                     onChange={handleOnChange}
                     options={item.options}
+                    value={item.options.filter(
+                      (option) => option.value === inputValues[item.key]
+                    )}
                     placeholder={item.label}
                   />
                 </Form.Group>
@@ -153,7 +163,7 @@ const GeneralInformation = (props) => {
             );
           }
           if (
-            item.type === 'smallNumber' &&
+            item.type === 'apartmentInFloor' &&
             isRendeable(item.category, item.action)
           ) {
             return (
@@ -171,6 +181,7 @@ const GeneralInformation = (props) => {
                     customInput={CustomFormControl}
                     label={item.label}
                     id={item.key}
+                    defaultValue={initialNumberValues?.apartmentInFloor}
                     onValueChange={(e) => {
                       let payload = {
                         target: {
@@ -199,7 +210,54 @@ const GeneralInformation = (props) => {
             );
           }
           if (
-            item.type === 'yearPicker' &&
+            item.type === 'floorCount' &&
+            isRendeable(item.category, item.action)
+          ) {
+            return (
+              <Col
+                lg={2}
+                md={2}
+                sm={6}
+                xs={6}
+                key={item.key}
+                className={`decorator__container ${item?.className}`}
+              >
+                <Form.Group>
+                  {item?.decorator}
+                  <NumberFormat
+                    customInput={CustomFormControl}
+                    label={item.label}
+                    id={item.key}
+                    defaultValue={initialNumberValues?.floorCount}
+                    onValueChange={(e) => {
+                      let payload = {
+                        target: {
+                          value: e?.floatValue || 0,
+                          id: item.key,
+                        },
+                      };
+                      handleOnChange(payload);
+                    }}
+                    autoComplete="current-text"
+                    thousandSeparator={item.thousandSeparator}
+                    decimalScale={item.decimalpoints}
+                    allowNegative={true}
+                    thousandsGroupStyle="thousand"
+                    fixedDecimalScale={true}
+                    isAllowed={(values) =>
+                      values.value >= item.min && values.value <= item.max
+                    }
+                    inputValues={inputValues}
+                    append={item?.append}
+                    placeholderClassName={item?.className}
+                    prepend={item?.prepend}
+                  />
+                </Form.Group>
+              </Col>
+            );
+          }
+          if (
+            item.type === 'yearBuilt' &&
             isRendeable(item.category, item.action)
           ) {
             return (
@@ -216,6 +274,7 @@ const GeneralInformation = (props) => {
                     key={item.key}
                     inputProps={{ className: 'datetime', readOnly: true }}
                     value={inputValues[item.key]}
+                    initialValue={initialNumberValues?.yearBuilt}
                     onChange={(e) =>
                       handleOnChange({ target: { value: e, id: item.key } })
                     }
@@ -275,11 +334,11 @@ const GeneralInformation = (props) => {
                       handleOnChange={handleOnChange}
                       maxLength={'25000'}
                       className="form-control input__text"
-                      initialValue={item.label}
+                      initialValue={initialRichText || ''}
                     />
                     <>
                       <div className={'max__length__counter'}>
-                        {25000 - inputValues[item.key]?.length}
+                        {25000 - inputValues[item.key]?.length || 25000}
                       </div>
                     </>
                   </div>
@@ -305,6 +364,145 @@ const GeneralInformation = (props) => {
                     customInput={CustomFormControl}
                     label={item.label}
                     id={item.key}
+                    defaultValue={initialNumberValues[item.key]}
+                    onValueChange={(e) => {
+                      let payload = {
+                        target: {
+                          value: e?.floatValue || 0,
+                          id: item.key,
+                        },
+                      };
+                      handleOnChange(payload);
+                    }}
+                    dropdownHandleChange={dropdownHandleChange}
+                    autoComplete="current-text"
+                    thousandSeparator={item.thousandSeparator}
+                    decimalScale={item.decimalpoints}
+                    allowNegative={false}
+                    thousandsGroupStyle="thousand"
+                    fixedDecimalScale={true}
+                    isAllowed={(values) =>
+                      values.value >= item.min && values.value <= item.max
+                    }
+                    inputValues={inputValues}
+                    append={item?.append}
+                    placeholderClassName={item?.className}
+                    prepend={item?.prepend}
+                  />
+                </Form.Group>
+              </Col>
+            );
+          }
+          if (
+            item.type === 'rooms' &&
+            isRendeable(item.category, item.action)
+          ) {
+            return (
+              <Col
+                lg={4}
+                md={4}
+                sm={6}
+                key={item.key}
+                className={'decorator__container'}
+              >
+                <Form.Group>
+                  {item?.decorator}
+                  <NumberFormat
+                    customInput={CustomFormControl}
+                    label={item.label}
+                    id={item.key}
+                    defaultValue={initialNumberValues?.rooms}
+                    onValueChange={(e) => {
+                      let payload = {
+                        target: {
+                          value: e?.floatValue || 0,
+                          id: item.key,
+                        },
+                      };
+                      handleOnChange(payload);
+                    }}
+                    dropdownHandleChange={dropdownHandleChange}
+                    autoComplete="current-text"
+                    thousandSeparator={item.thousandSeparator}
+                    decimalScale={item.decimalpoints}
+                    allowNegative={false}
+                    thousandsGroupStyle="thousand"
+                    fixedDecimalScale={true}
+                    isAllowed={(values) =>
+                      values.value >= item.min && values.value <= item.max
+                    }
+                    inputValues={inputValues}
+                    append={item?.append}
+                    placeholderClassName={item?.className}
+                    prepend={item?.prepend}
+                  />
+                </Form.Group>
+              </Col>
+            );
+          }
+          if (
+            item.type === 'baths' &&
+            isRendeable(item.category, item.action)
+          ) {
+            return (
+              <Col
+                lg={4}
+                md={4}
+                sm={6}
+                key={item.key}
+                className={'decorator__container'}
+              >
+                <Form.Group>
+                  {item?.decorator}
+                  <NumberFormat
+                    customInput={CustomFormControl}
+                    label={item.label}
+                    id={item.key}
+                    defaultValue={initialNumberValues?.baths}
+                    onValueChange={(e) => {
+                      let payload = {
+                        target: {
+                          value: e?.floatValue || 0,
+                          id: item.key,
+                        },
+                      };
+                      handleOnChange(payload);
+                    }}
+                    dropdownHandleChange={dropdownHandleChange}
+                    autoComplete="current-text"
+                    thousandSeparator={item.thousandSeparator}
+                    decimalScale={item.decimalpoints}
+                    allowNegative={false}
+                    thousandsGroupStyle="thousand"
+                    fixedDecimalScale={true}
+                    isAllowed={(values) =>
+                      values.value >= item.min && values.value <= item.max
+                    }
+                    inputValues={inputValues}
+                    append={item?.append}
+                    placeholderClassName={item?.className}
+                    prepend={item?.prepend}
+                  />
+                </Form.Group>
+              </Col>
+            );
+          }
+          if (item.type === 'area' && isRendeable(item.category, item.action)) {
+            return (
+              <Col
+                lg={4}
+                md={4}
+                sm={6}
+                key={item.key}
+                className={'decorator__container'}
+              >
+                <Form.Group>
+                  {item?.decorator}
+                  <NumberFormat
+                    customInput={CustomFormControl}
+                    label={item.label}
+                    id={item.key}
+                    defaultValue={initialNumberValues?.area}
                     onValueChange={(e) => {
                       let payload = {
                         target: {
@@ -344,6 +542,7 @@ const GeneralInformation = (props) => {
                     customInput={CustomFormControl}
                     label={item.label}
                     id={item.key}
+                    defaultValue={initialNumberValues?.price}
                     onValueChange={(e) => {
                       let payload = {
                         target: {
@@ -423,6 +622,7 @@ const GeneralInformation = (props) => {
                 selectOptions={selectOptions}
                 setSelectOptions={setSelectOptions}
                 isMandatory={true}
+                initialValues={initialValues}
               />
             );
           }

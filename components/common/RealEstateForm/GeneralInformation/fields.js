@@ -211,7 +211,7 @@ const fields = (t) => [
   },
   {
     key: 'rooms',
-    type: 'number',
+    type: 'rooms',
     decorator: <BsHouse />,
     decimalpoints: 0,
     label: (
@@ -228,7 +228,7 @@ const fields = (t) => [
   },
   {
     key: 'baths',
-    type: 'number',
+    type: 'baths',
     decorator: <BiBath />,
     decimalpoints: 0,
     thousandSeparator: false,
@@ -246,7 +246,7 @@ const fields = (t) => [
   },
   {
     key: 'area',
-    type: 'number',
+    type: 'area',
     decimalpoints: 2,
     label: (
       <>
@@ -285,7 +285,7 @@ const fields = (t) => [
 
   {
     key: 'apartmentInFloor',
-    type: 'smallNumber',
+    type: 'apartmentInFloor',
     decorator: <Gi3DStairs />,
     min: -8,
     max: 999,
@@ -294,7 +294,7 @@ const fields = (t) => [
   },
   {
     key: 'floorCount',
-    type: 'smallNumber',
+    type: 'floorCount',
     className: 'secondInput',
     decorator: <FaBuilding />,
     min: -8,
@@ -310,7 +310,7 @@ const fields = (t) => [
   },
   {
     key: 'yearBuilt',
-    type: 'yearPicker',
+    type: 'yearBuilt',
     decorator: <AiOutlineFieldTime />,
     decimalpoints: 0,
     thousandSeparator: false,
