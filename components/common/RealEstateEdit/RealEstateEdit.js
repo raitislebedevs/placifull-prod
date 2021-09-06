@@ -27,7 +27,17 @@ const RealEstateEdit = (props) => {
     contactHours: item?.contactHours || null,
     contactTimes: item?.contactTime || null,
     tags: item?.tags || [],
+    coldWater: item?.ultilitiesPrice?.coldWater || null,
+    hotWater: item?.ultilitiesPrice?.hotWater || null,
+    electricity: item?.ultilitiesPrice?.electricity || null,
+    garbage: item?.ultilitiesPrice?.garbage || null,
+    propertyManagement: item?.ultilitiesPrice?.propertyManagement || null,
+    heating: item?.ultilitiesPrice?.heating || null,
+    parking: item?.ultilitiesPrice?.parking || null,
+    others: item?.ultilitiesPrice?.others || null,
+    totalUltilities: item?.totalUltilities || null,
   });
+
   const [initTags, setInitTags] = useState(item?.tags || []);
 
   const getCountryName = (item) => {
@@ -67,16 +77,6 @@ const RealEstateEdit = (props) => {
     floorCount: item?.floors || null,
     yearBuilt: item?.yearBuilt || null,
     price: item?.price || null,
-
-    coldWater: item?.ultilitiesPrice?.coldWater || null,
-    hotWater: item?.ultilitiesPrice?.hotWater || null,
-    electricity: item?.ultilitiesPrice?.electricity || null,
-    garbage: item?.ultilitiesPrice?.garbage || null,
-    propertyManagement: item?.ultilitiesPrice?.propertyManagement || null,
-    heating: item?.ultilitiesPrice?.heating || null,
-    parking: item?.ultilitiesPrice?.parking || null,
-    others: item?.ultilitiesPrice?.others || null,
-    totalUltilities: item?.totalUltilities || null,
   };
 
   let initialRichText = item?.description;
@@ -285,6 +285,7 @@ const RealEstateEdit = (props) => {
       <Gallery
         inputValues={inputValues}
         handleOnChange={handleOnChange}
+        initialItem={item}
         t={t}
       />
       <SocialLinks
@@ -302,6 +303,7 @@ const RealEstateEdit = (props) => {
         )}
         heading={t('real-estate-submit:form.contact-hours.accordion.heading')}
         inputValues={inputValues}
+        initialItem={item}
         setInputValues={setInputValues}
         handleOnChange={handleOnChange}
         t={t}

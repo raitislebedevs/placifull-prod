@@ -2,7 +2,7 @@ import housingFields from './housingFields';
 import landFields from './landFields';
 import { Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 
 const FeaturesTab = (props) => {
@@ -11,6 +11,7 @@ const FeaturesTab = (props) => {
     inputValues,
     handleFeatureItemCheckbox,
     tagOptions,
+    initTags,
     isLoadingTag,
   } = props;
 
@@ -19,6 +20,10 @@ const FeaturesTab = (props) => {
   }
 
   const fieldsInput = useMemo(() => {
+    console.log('Input Values', inputValues.tags);
+    console.log('Initial Values', initTags);
+    console.log('Tag options', tagOptions);
+
     try {
       if (inputValues.category === 'agents') return;
 
@@ -37,7 +42,11 @@ const FeaturesTab = (props) => {
       );
       return [];
     }
-  }, [tagOptions]);
+  }, [tagOptions, initTags]);
+
+  useEffect(() => {
+    console.log(inputValues?.tags);
+  }, [inputValues?.tags]);
 
   return (
     <div className="tabs__wrapper">

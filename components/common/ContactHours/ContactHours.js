@@ -48,9 +48,8 @@ const ContactHours = (props) => {
     heading,
   } = props;
   const fieldsInput = fields(t);
-
   useEffect(() => {
-    if (inputValues?.jobContactTimes === 'officeHours') {
+    if (inputValues?.contactTimes === 'officeHours') {
       setInputValues({
         ...inputValues,
         monday_open: '09:00',
@@ -321,6 +320,7 @@ const ContactHours = (props) => {
                       <Form.Control
                         onChange={handleOnChange}
                         className="form__input"
+                        defaultValue={initialItem?.contactHours[item.key]}
                         id={prefix + item.key}
                         type="time"
                         value={inputValues[prefix + item.key]}

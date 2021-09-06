@@ -51,7 +51,7 @@ const UltilitiesTab = (props) => {
                 customInput={CustomFormControl}
                 id={item.key}
                 className="form__input"
-                defaultValue={initialNumberValues[item.key]}
+                defaultValue={inputValues[item.key]}
                 label={item.label}
                 thousandSeparator={true}
                 decimalScale={2}
@@ -88,7 +88,6 @@ const UltilitiesTab = (props) => {
               id="total"
               className="form__input"
               value={total}
-              defaultValue={initialNumberValues.totalUltilities}
               label={t('real-estate-common:utilities.total')}
               autoComplete="current-text"
               thousandSeparator={true}
