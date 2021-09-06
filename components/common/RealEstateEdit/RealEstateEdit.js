@@ -5,14 +5,14 @@ import { connect } from 'react-redux';
 //Inner Submit Page Components & Other Custom made components
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import RealEstateValidation from './realEstateValidation';
-import { RealEstateListingServices } from 'services';
+import { RealEstateListingServices, FileServices } from 'services';
 import Gallery from '../RealEstateForm/Gallery';
 import { ContactHours, SocialLinks } from 'components/common';
 import GeneralInformation from '../RealEstateForm/GeneralInformation';
 import DetailInformation from '../RealEstateForm/DetailInformation';
 
 const RealEstateEdit = (props) => {
-  const { t, user, item } = props;
+  const { t, user, item, tags } = props;
   const [isLoading, setIsLoading] = useState(false);
   const [submitCurrency, setsubmitCurrency] = useState();
   const [addressPosition, setAddressPosition] = useState(null);
@@ -26,7 +26,27 @@ const RealEstateEdit = (props) => {
     currency: item?.currency?.id || null,
     contactHours: item?.contactHours || null,
     contactTimes: item?.contactTime || null,
-    tags: item?.tags || [],
+
+    rooms: item?.rooms || null,
+    area: item?.area || null,
+    baths: item?.bathCount || null,
+    apartmentInFloor: item?.inFloor || null,
+    floorCount: item?.floors || null,
+    yearBuilt: item?.yearBuilt || null,
+    price: item?.price || null,
+
+    country: item?.country.id || null,
+    state: item?.state.id || null,
+    city: item?.city.id || null,
+    fullAddress: item?.fullAddress || null,
+    zipCode: item?.zipCode || null,
+    latitude: item?.latitude || null,
+    longitude: item?.longitude || null,
+    description: item?.description || null,
+    address: item?.fullAddress || null,
+    realEstateEmail: item?.email || null,
+
+    tags: tags,
     coldWater: item?.ultilitiesPrice?.coldWater || null,
     hotWater: item?.ultilitiesPrice?.hotWater || null,
     electricity: item?.ultilitiesPrice?.electricity || null,
@@ -38,7 +58,7 @@ const RealEstateEdit = (props) => {
     totalUltilities: item?.totalUltilities || null,
   });
 
-  const [initTags, setInitTags] = useState(item?.tags || []);
+  const [initTags, setInitTags] = useState(tags);
 
   const getCountryName = (item) => {
     if (item.native) {
@@ -128,35 +148,59 @@ const RealEstateEdit = (props) => {
       yearBuilt: inputValues?.yearBuilt || item?.yearBuilt || null,
       insertDate: item.insertDate,
       contactHours: {
-        monday_open: inputValues?.monday_open || item?.monday_open || null,
-        monday_close: inputValues?.monday_close || item?.monday_close || null,
-        tuesday_open: inputValues?.tuesday_open || item?.tuesday_open || null,
+        monday_open:
+          inputValues?.monday_open || item?.contactHours.monday_open || null,
+        monday_close:
+          inputValues?.monday_close || item?.contactHours.monday_close || null,
+        tuesday_open:
+          inputValues?.tuesday_open || item?.contactHours.tuesday_open || null,
         tuesday_close:
-          inputValues?.tuesday_close || item?.tuesday_close || null,
+          inputValues?.tuesday_close ||
+          item?.contactHours.tuesday_close ||
+          null,
         wednesday_open:
-          inputValues?.wednesday_open || item?.wednesday_open || null,
+          inputValues?.wednesday_open ||
+          item?.contactHours.wednesday_open ||
+          null,
         wednesday_close:
-          inputValues?.wednesday_close || item?.wednesday_close || null,
+          inputValues?.wednesday_close ||
+          item?.contactHours.wednesday_close ||
+          null,
         thursday_open:
-          inputValues?.thursday_open || item?.thursday_open || null,
+          inputValues?.thursday_open ||
+          item?.contactHours.thursday_open ||
+          null,
         thursday_close:
-          inputValues?.thursday_close || item?.thursday_close || null,
-        friday_open: inputValues?.friday_open || item?.friday_open || null,
-        friday_close: inputValues?.friday_close || item?.friday_close || null,
+          inputValues?.thursday_close ||
+          item?.contactHours.thursday_close ||
+          null,
+        friday_open:
+          inputValues?.friday_open || item?.contactHours.friday_open || null,
+        friday_close:
+          inputValues?.friday_close || item?.contactHours.friday_close || null,
         saturday_open:
-          inputValues?.saturday_open || item?.saturday_open || null,
+          inputValues?.saturday_open ||
+          item?.contactHours.saturday_open ||
+          null,
         saturday_close:
-          inputValues?.saturday_close || item?.saturday_close || null,
-        sunday_open: inputValues?.sunday_open || item?.sunday_open || null,
-        sunday_close: inputValues?.sunday_close || item?.sunday_close || null,
+          inputValues?.saturday_close ||
+          item?.contactHours.saturday_close ||
+          null,
+        sunday_open:
+          inputValues?.sunday_open || item?.contactHours.sunday_open || null,
+        sunday_close:
+          inputValues?.sunday_close || item?.contactHours.sunday_close || null,
       },
 
       socialLinks: {
-        facebookLink: inputValues?.facebookLink || item?.facebookLink || null,
+        facebookLink:
+          inputValues?.facebookLink || item?.socialLinks.facebookLink || null,
         instagramLink:
-          inputValues?.instagramLink || item?.instagramLink || null,
-        youtubeLink: inputValues?.youtubeLink || item?.youtubeLink || null,
-        twitterLink: inputValues?.twitterLink || item?.twitterLink || null,
+          inputValues?.instagramLink || item?.socialLinks.instagramLink || null,
+        youtubeLink:
+          inputValues?.youtubeLink || item?.socialLinks.youtubeLink || null,
+        twitterLink:
+          inputValues?.twitterLink || item?.socialLinks.twitterLink || null,
       },
 
       //Listing contact info
@@ -219,18 +263,48 @@ const RealEstateEdit = (props) => {
     setIsLoading(true);
     try {
       let payload = PopulatePayload(inputValues);
-      console.log(payload);
-      // const formData = new FormData();
-      // formData.append('data', JSON.stringify(payload));
-      // if (inputValues?.listingGallery) {
-      //   inputValues?.listingGallery.forEach((file) => {
-      //     if (file.preview) {
-      //       delete file.preview;
-      //     }
-      //     formData.append(`files.listingGallery`, file);
-      //   });
-      // }
-      // const { data, error } = await RealEstateListingServices.CREATE(formData);
+
+      e.preventDefault();
+
+      if (!user?.id) {
+        TostifyCustomContainer(
+          'info',
+          t('common:toast.messages.info'),
+          t('common:toast.logging-required')
+        );
+        return;
+      }
+      const { errors } = await RealEstateValidation(inputValues, t);
+      if (errors) {
+        for (let i = 0; i < 3; i++) {
+          if (errors[i])
+            TostifyCustomContainer(
+              'warning',
+              t('common:toast.messages.warning'),
+              errors[i]
+            );
+        }
+        setIsLoading(false);
+        return;
+      }
+
+      const formData = new FormData();
+
+      formData.append('data', JSON.stringify(payload));
+      if (inputValues?.listingGallery) {
+        await item?.listingGallery.forEach(async (element) => {
+          console.log(element);
+          await FileServices.DELETE_FILE(element.id);
+        });
+
+        // inputValues?.listingGallery.forEach((file) => {
+        //   formData.append(`files.listingGallery`, file);
+        // });
+      }
+      const { data, error } = await RealEstateListingServices.UPDATE(
+        item.id,
+        formData
+      );
       if (error) throw error?.message;
     } catch (e) {
       setIsLoading(false);

@@ -7,9 +7,8 @@ import { RealEstateEdit } from 'components/common';
 import { useEffect } from 'react';
 
 const RealEstateEditListing = (props) => {
-  const { t, listingItem } = props;
+  const { t, listingItem, tags } = props;
   const router = useRouter();
-
   useEffect(() => {
     if (!listingItem) {
       router.push('/404');
@@ -22,7 +21,7 @@ const RealEstateEditListing = (props) => {
   return (
     <div className="submit-container main-container">
       <div className="form__section">
-        <RealEstateEdit t={t} item={listingItem} />
+        <RealEstateEdit t={t} item={listingItem} tags={tags} />
       </div>
     </div>
   );
@@ -32,8 +31,15 @@ RealEstateEditListing.getInitialProps = async ({ query }) => {
   const { id } = query;
   try {
     const { data } = await RealEstateListingServices.GET(id);
+
+    let initialTags = [];
+    data?.tags.map((item) => {
+      initialTags.push(item.id);
+    });
+
     return {
       listingItem: data,
+      tags: initialTags,
       namespacesRequired: [
         'common',
         'navbar',

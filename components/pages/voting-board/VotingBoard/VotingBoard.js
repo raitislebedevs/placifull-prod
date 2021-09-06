@@ -171,13 +171,11 @@ const VotingBoard = (props) => {
   };
 
   const handleRatingChange = (e, id) => {
-    console.log(e);
     if (id === voteItem) {
       setRating(e);
       setVoteItem(id);
       return;
     }
-    console.log(e);
     setRating(e);
     setVoteItem(id);
     setVotingOption('');

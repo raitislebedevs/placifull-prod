@@ -5,13 +5,7 @@ import { CustomFormControl } from 'components/common';
 import NumberFormat from 'react-number-format';
 
 const UltilitiesTab = (props) => {
-  const {
-    t,
-    inputValues,
-    handleOnChange,
-    submitCurrency,
-    initialNumberValues,
-  } = props;
+  const { t, inputValues, handleOnChange, submitCurrency } = props;
   const fieldsInput = fields(t);
   // Compute total ultilities fee. Only run when the fields that sum the total change
   // I'm using checkDependencies here and pass into useMemo to prevent it from running(render) when other inputValues fields change

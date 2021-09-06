@@ -85,23 +85,28 @@ const Gallery = (props) => {
               </div>
             ))}
 
-            {initialItem.listingGallery.map((file, index) => (
-              <div key={index} className="dropzone-thumbnail-container__thumb">
-                <div className="thumb__inner">
-                  <div
-                    className="inner__remove"
-                    // onClick={() => handleRemoveFile(index)}
-                  >
-                    <FaRegTimesCircle size={18} />
+            {!files.length &&
+              initialItem?.listingGallery &&
+              initialItem.listingGallery.map((file, index) => (
+                <div
+                  key={index}
+                  className="dropzone-thumbnail-container__thumb"
+                >
+                  <div className="thumb__inner">
+                    <div
+                      className="inner__remove"
+                      // onClick={() => handleRemoveFile(index)}
+                    >
+                      <FaRegTimesCircle size={18} />
+                    </div>
+                    <img
+                      src={file.url}
+                      className="inner__image"
+                      alt="Preview File"
+                    />
                   </div>
-                  <img
-                    src={file.url}
-                    className="inner__image"
-                    alt="Preview File"
-                  />
                 </div>
-              </div>
-            ))}
+              ))}
           </aside>
         </section>
 

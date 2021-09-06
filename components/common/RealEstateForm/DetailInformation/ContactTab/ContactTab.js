@@ -194,7 +194,7 @@ const ContactTab = (props) => {
             <CustomFormControl
               onChange={handleOnChange}
               value={inputValues.realEstateEmail}
-              defaultValue={initialItem.email}
+              defaultValue={initialItem?.email}
               id="realEstateEmail"
               type="text"
               valueLength={75 - inputValues['realEstateEmail']?.length}

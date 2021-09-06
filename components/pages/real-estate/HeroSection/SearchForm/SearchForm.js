@@ -229,7 +229,6 @@ const SearchForm = (props) => {
               : maxValue * MEETER_FEET_AREA,
         };
       }
-      console.log(polygon);
       let filter = {
         ...cleanObject({
           category_contains: inputValues?.category?.value || null,

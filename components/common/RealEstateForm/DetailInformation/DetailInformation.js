@@ -13,7 +13,6 @@ const DetailInformation = (props) => {
   const [realEstateTags, setRealEstateTags] = useState([]);
   const [landTags, setlandTags] = useState([]);
   const [agentTags, setAgentTags] = useState([]);
-  const [initilize, setInitilize] = useState(true);
 
   const {
     t,
@@ -32,6 +31,8 @@ const DetailInformation = (props) => {
     setTagOptions,
     initialAddress,
   } = props;
+  const [initilize, setInitilize] = useState(true);
+  const [category, setCategory] = useState(inputValues.category);
 
   useEffect(() => {
     initilizeTags();
@@ -39,14 +40,23 @@ const DetailInformation = (props) => {
 
   useEffect(() => {
     handleGetTags();
-  }, [inputValues.category, initTags]);
+  }, [inputValues.category, realEstateTags, landTags, agentTags]);
 
   const handleGetTags = async () => {
     setIsLoadingTag(true);
     setTagOptions(realEstateTags);
     if (inputValues.category === 'land') setTagOptions(landTags);
     if (inputValues.category === 'agents') setTagOptions(agentTags);
-    inputValues.tags = [];
+
+    if (initilize && initTags?.length > 0) {
+      setIsLoadingTag(false);
+      setInitilize(false);
+      return;
+    }
+    if (category !== inputValues.category) {
+      inputValues.tags = [];
+      setCategory('');
+    }
     setIsLoadingTag(false);
   };
 

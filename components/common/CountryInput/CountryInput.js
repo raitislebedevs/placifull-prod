@@ -231,37 +231,6 @@ const CountryInput = (props) => {
   }, []);
 
   useEffect(() => {
-    // if (initialValues?.country) {
-    //   setLocationValue((prev) => ({
-    //     ...prev,
-    //     country: selectOptions.country.filter(
-    //       (option) => option.value === initialValues.country.id
-    //     )[0],
-    //   }));
-    //   if (initialValues.state) handleGetStates();
-    // }
-    // console.log(locationValue);
-    // if (initialValues?.state) {
-    //   setLocationValue((prev) => ({
-    //     ...prev,
-    //     state: selectOptions.state.filter(
-    //       (option) => option.value === initialValues.state.id
-    //     )[0],
-    //   }));
-    //   if (initialValues.city) handleGetCities();
-    // }
-    // console.log(locationValue);
-    // if (initialValues?.city) {
-    //   setLocationValue((prev) => ({
-    //     ...prev,
-    //     city: selectOptions.city.filter(
-    //       (option) => option.value === initialValues.city.id
-    //     )[0],
-    //   }));
-    // }
-  }, [selectOptions.country]);
-
-  useEffect(() => {
     if (inputValues[country] && !onlyCountry) {
       handleGetStates();
     }
