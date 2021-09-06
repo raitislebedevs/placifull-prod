@@ -5,6 +5,7 @@ import { Row, Col, Form } from 'react-bootstrap';
 import { FaRegTimesCircle } from 'react-icons/fa';
 import { RiUploadCloud2Fill } from 'react-icons/ri';
 import { AiOutlineVideoCamera } from 'react-icons/ai';
+import { FcApproval } from 'react-icons/fc';
 import { maxTotalSize } from 'constants/fileManipulation';
 
 const Gallery = (props) => {
@@ -97,7 +98,7 @@ const Gallery = (props) => {
                       className="inner__remove"
                       // onClick={() => handleRemoveFile(index)}
                     >
-                      <FaRegTimesCircle size={18} />
+                      <FcApproval size={18} />
                     </div>
                     <img
                       src={file.url}

@@ -7,12 +7,15 @@ import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import RealEstateValidation from './realEstateValidation';
 import { RealEstateListingServices, FileServices } from 'services';
 import Gallery from '../RealEstateForm/Gallery';
+import { useRouter } from 'next/router';
 import { ContactHours, SocialLinks } from 'components/common';
 import GeneralInformation from '../RealEstateForm/GeneralInformation';
 import DetailInformation from '../RealEstateForm/DetailInformation';
 
 const RealEstateEdit = (props) => {
   const { t, user, item, tags } = props;
+  const router = useRouter();
+
   const [isLoading, setIsLoading] = useState(false);
   const [submitCurrency, setsubmitCurrency] = useState();
   const [addressPosition, setAddressPosition] = useState(null);
@@ -35,9 +38,6 @@ const RealEstateEdit = (props) => {
     yearBuilt: item?.yearBuilt || null,
     price: item?.price || null,
 
-    country: item?.country.id || null,
-    state: item?.state.id || null,
-    city: item?.city.id || null,
     fullAddress: item?.fullAddress || null,
     zipCode: item?.zipCode || null,
     latitude: item?.latitude || null,
@@ -261,11 +261,20 @@ const RealEstateEdit = (props) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
+
+    if (user?.id !== item?.user?.id) {
+      console.log(user.id);
+      console.log(item.user?.id);
+      console.log(item.user);
+      router.push('/404');
+      return;
+    }
     try {
       let payload = PopulatePayload(inputValues);
-
       e.preventDefault();
-
+      if (!inputValues.country) {
+        inputValues.country = item?.country.id;
+      }
       if (!user?.id) {
         TostifyCustomContainer(
           'info',
@@ -293,19 +302,22 @@ const RealEstateEdit = (props) => {
       formData.append('data', JSON.stringify(payload));
       if (inputValues?.listingGallery) {
         await item?.listingGallery.forEach(async (element) => {
-          console.log(element);
           await FileServices.DELETE_FILE(element.id);
         });
 
-        // inputValues?.listingGallery.forEach((file) => {
-        //   formData.append(`files.listingGallery`, file);
-        // });
+        inputValues?.listingGallery.forEach((file) => {
+          formData.append(`files.listingGallery`, file);
+        });
       }
       const { data, error } = await RealEstateListingServices.UPDATE(
         item.id,
         formData
       );
       if (error) throw error?.message;
+
+      setTimeout(() => {
+        router.push(`/real-estate/${item.id}`);
+      }, 1000);
     } catch (e) {
       setIsLoading(false);
       return TostifyCustomContainer(

@@ -29,8 +29,8 @@ const ContactTab = (props) => {
   const [searchText, setSearchText] = useState('');
   const [isSearching, setIsSearching] = useState(false);
   const [currentCenter, setCurrentCenter] = useState({
-    lat: 56.946285,
-    lng: 24.105078,
+    lat: initialItem?.latitude || 56.946285,
+    lng: initialItem?.longitude || 24.105078,
   });
   const [debounceTimer, setDebounceTimer] = useState(0);
   const [timeOutDebounce, setTimeOutDebounce] = useState(0);
