@@ -119,7 +119,7 @@ const Gallery = (props) => {
               value={inputValues.videoLink}
               id="videoLink"
               defaultValue={initialItem?.videoLink}
-              valueLength={250 - inputValues['videoLink']?.length}
+              valueLength={250 - inputValues.videoLink?.length || 250}
               maxLength={'250'}
               type="text"
               label={t('real-estate-submit:form.gallery.video-url')}

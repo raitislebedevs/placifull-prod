@@ -56,7 +56,6 @@ const LoaderBar = (props) => {
     <ProgressBar
       aria-label="progressbar"
       label={` `}
-      visuallyHidden
       now={progress}
       className={`top-loader-bar ${
         progress > 0 ? 'top-loader-bar--show' : 'top-loader-bar--hide'

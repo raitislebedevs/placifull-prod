@@ -19,6 +19,9 @@ const DetailInformation = (props) => {
     setAddressPosition,
     tagOptions,
     setTagOptions,
+    initialItem,
+    initialCoordinates,
+    initialAddress,
   } = props;
 
   useEffect(() => {
@@ -60,8 +63,11 @@ const DetailInformation = (props) => {
             addressPosition={addressPosition}
             setAddressPosition={setAddressPosition}
             inputValues={inputValues}
+            initialItem={initialItem}
+            initialCoordinates={initialCoordinates}
             handleCheckBoxChange={handleCheckBoxChange}
             handleOnChange={handleOnChange}
+            initialAddress={initialAddress}
             t={t}
           />
         </Tab>

@@ -21,9 +21,12 @@ const GeneralInformation = (props) => {
     handleOnChange,
     setsubmitCurrency,
     submitCurrency,
+    initilizedValues,
+    initialValues,
+    initialRichText,
+    initialItem,
   } = props;
   const fieldsInput = fields(t);
-
   const [pureText, setPureText] = useState('');
   const dropdownHandleChange = (e) => {
     handleOnChange({ target: { value: e.target.value, id: e.target.id } });
@@ -56,8 +59,9 @@ const GeneralInformation = (props) => {
               id={'transportName'}
               onChange={handleOnChange}
               value={inputValues['transportName']}
+              defaultValue={initialItem?.name}
               type="text"
-              valueLength={75 - inputValues['transportName']?.length}
+              valueLength={75 - inputValues?.transportName?.length || 75}
               maxLength={'75'}
               label={
                 <>
@@ -76,6 +80,7 @@ const GeneralInformation = (props) => {
             <CurrencyInput
               handleOnChange={handleOnChange}
               setCurrency={setsubmitCurrency}
+              initialSelect={inputValues?.currency}
               placeholder={t('transport-submit:form.currency')}
               currencyId={'transportCurrency'}
               isMandatory={true}
@@ -94,6 +99,9 @@ const GeneralInformation = (props) => {
                     id={item.key}
                     onChange={handleOnChange}
                     options={item.options}
+                    value={item.options.filter(
+                      (option) => option.value === inputValues[item.key]
+                    )}
                     maxLength={7}
                     placeholder={item.label}
                     isSearchable={true}
@@ -118,11 +126,11 @@ const GeneralInformation = (props) => {
                       handleOnChange={handleOnChange}
                       maxLength={'25000'}
                       className="form-control input__text"
-                      initialValue={item.label}
+                      initialValue={initialRichText || ''}
                     />
                     <>
                       <div className={'max__length__counter'}>
-                        {25000 - inputValues[item.key]?.length}
+                        {25000 - inputValues[item.key]?.length || 25000}
                       </div>
                     </>
                   </div>
@@ -144,6 +152,9 @@ const GeneralInformation = (props) => {
                   <Datetime
                     inputProps={{ className: 'datetime', readOnly: true }}
                     value={inputValues[item.key]}
+                    initialValue={
+                      initilizedValues && initilizedValues?.productionYear
+                    }
                     onChange={(e) =>
                       handleOnChange({ target: { value: e, id: item.key } })
                     }
@@ -181,6 +192,13 @@ const GeneralInformation = (props) => {
                     customInput={CustomFormControl}
                     label={item.label}
                     id={item.key}
+                    defaultValue={
+                      typeof initilizedValues == 'undefined'
+                        ? null
+                        : typeof initilizedValues[item.key] == 'undefined'
+                        ? null
+                        : initilizedValues[item.key]
+                    }
                     onValueChange={(e) => {
                       let payload = {
                         target: {
@@ -263,6 +281,11 @@ const GeneralInformation = (props) => {
                     id={item.key}
                     value={inputValues[item.key]}
                     label={item.label}
+                    defaultValue={
+                      typeof initilizedValues[item.key] === 'undefined'
+                        ? null
+                        : initilizedValues[item.key]
+                    }
                     onChange={handleOnChange}
                     autoComplete="current-text"
                     thousandSeparator={true}
@@ -287,6 +310,13 @@ const GeneralInformation = (props) => {
                     id={item.key}
                     onChange={handleOnChange}
                     value={inputValues[item.key]}
+                    defaultValue={
+                      typeof initilizedValues == 'undefined'
+                        ? null
+                        : typeof initilizedValues[item.key] == 'undefined'
+                        ? null
+                        : initilizedValues[item.key]
+                    }
                     type="text"
                     valueLength={35 - inputValues[item.key]?.length}
                     maxLength={'35'}
@@ -309,6 +339,7 @@ const GeneralInformation = (props) => {
                     customInput={CustomFormControl}
                     label={item.label}
                     id={item.key}
+                    defaultValue={initilizedValues?.transportPrice}
                     onValueChange={(e) => {
                       let payload = {
                         target: {
@@ -350,6 +381,7 @@ const GeneralInformation = (props) => {
                 inputIds={countryComponentIds}
                 selectOptions={selectOptions}
                 setSelectOptions={setSelectOptions}
+                initialValues={initialValues}
               />
             );
           }

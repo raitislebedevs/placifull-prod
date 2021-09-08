@@ -21,14 +21,18 @@ const ContactTab = (props) => {
     handleOnChange,
     addressPosition,
     setAddressPosition,
+    initialItem,
+    initialCoordinates,
+    initialAddress,
   } = props;
   const [isLoadingSearch, setIsLoadingSearch] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
   const [searchText, setSearchText] = useState('');
+  const [countryCode, setCountryCode] = useState();
   const [isSearching, setIsSearching] = useState(false);
   const [currentCenter, setCurrentCenter] = useState({
-    lat: 56.946285,
-    lng: 24.105078,
+    lat: initialItem?.latitude || 56.946285,
+    lng: initialItem?.longitude || 24.105078,
   });
   const [debounceTimer, setDebounceTimer] = useState(0);
   const [timeOutDebounce, setTimeOutDebounce] = useState(0);
@@ -38,6 +42,19 @@ const ContactTab = (props) => {
       setDebounceTimer(Date.now());
     };
   };
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setCountryCode(localStorage.getItem('countryCode') || 'lv');
+    }
+  }, []);
+
+  useEffect(() => {
+    if (initialItem?.phone) {
+      handleOnChange({
+        target: { value: initialItem?.phone, id: 'transportPhone' },
+      });
+    }
+  }, [countryCode, initialItem?.phone]);
 
   useEffect(() => {
     if (debounceTimer) {
@@ -132,8 +149,11 @@ const ContactTab = (props) => {
               handleSelectSearchResult={handleSelectSearchResult}
               isLoadingSearch={isLoadingSearch}
               searchResults={searchResults}
+              initialValue={initialAddress}
+              inputValues={inputValues}
               id="address"
               type="text"
+              s
               label={
                 <>
                   {t(
@@ -151,6 +171,7 @@ const ContactTab = (props) => {
             <LeafletMap
               currentCenter={currentCenter}
               setCurrentCenter={setCurrentCenter}
+              initialCoordinates={initialCoordinates}
               zoom={10}
               id="addressPosition"
               searchText={searchText}
@@ -164,17 +185,17 @@ const ContactTab = (props) => {
         </Col>
         <Col lg={6} md={6} sm={6} className={'decorator__container'}>
           <Form.Group>
-            <AiOutlinePhone />
+            <AiOutlinePhone className={'mandatory'} />
             <PhoneInput
               containerClass="phone__input__field"
-              country={localStorage.getItem('countryCode') || 'lv'}
+              country={countryCode}
               enableSearch={true}
               id="transportPhone"
               className="form-control"
               onChange={(e) =>
                 handleOnChange({ target: { value: e, id: 'transportPhone' } })
               }
-              value={inputValues.phone}
+              value={inputValues?.transportPhone}
             />
           </Form.Group>
         </Col>
@@ -184,9 +205,10 @@ const ContactTab = (props) => {
             <CustomFormControl
               onChange={handleOnChange}
               value={inputValues.transportEmail}
+              defaultValue={initialItem?.email}
               id="transportEmail"
               type="text"
-              valueLength={75 - inputValues.transportEmail?.length}
+              valueLength={75 - inputValues.transportEmail?.length || 75}
               maxLength={'75'}
               label={
                 <>
@@ -203,7 +225,9 @@ const ContactTab = (props) => {
             <SelectInputSubmit
               id="transportContactTimes"
               onChange={handleOnChange}
-              value={inputValues.transportContactTimes}
+              value={contactTimeOptions.filter(
+                (option) => option.value === inputValues?.transportContactTime
+              )}
               options={contactTimeOptions}
               placeholder={
                 <>
@@ -222,6 +246,7 @@ const ContactTab = (props) => {
             <CustomFormControl
               onChange={handleOnChange}
               value={inputValues.transportWebsiteLink}
+              defaultValue={initialItem?.websiteLink}
               id="transportWebsiteLink"
               valueLength={250 - inputValues.transportWebsiteLink?.length}
               maxLength={'250'}

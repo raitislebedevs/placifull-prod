@@ -176,14 +176,13 @@ const ContactTab = (props) => {
             <PhoneInput
               containerClass="phone__input__field"
               country={countryCode}
-              placeholder={initialItem?.phone}
               enableSearch={true}
               id="phone"
               className="form-control"
               onChange={(e) =>
                 handleOnChange({ target: { value: e, id: 'phone' } })
               }
-              value={inputValues.phone}
+              value={inputValues?.phone}
             />
           </Form.Group>
         </Col>
@@ -197,7 +196,7 @@ const ContactTab = (props) => {
               defaultValue={initialItem?.email}
               id="realEstateEmail"
               type="text"
-              valueLength={75 - inputValues['realEstateEmail']?.length}
+              valueLength={75 - inputValues.realEstateEmail?.length || 75}
               maxLength={'75'}
               label={
                 <>
@@ -238,7 +237,7 @@ const ContactTab = (props) => {
               onChange={handleOnChange}
               value={inputValues.websiteLink}
               defaultValue={initialItem?.websiteLink}
-              valueLength={250 - inputValues['websiteLink']?.length}
+              valueLength={250 - inputValues.websiteLink?.length}
               maxLength={'250'}
               id="websiteLink"
               type="text"

@@ -1,15 +1,16 @@
 import { withTranslation } from 'i18n';
-import PropTypes from 'prop-types';
-import { LoadingOverlay } from 'components/common';
-import { RealEstateListingServices } from 'services';
-import { useRouter } from 'next/router';
-import { RealEstateEdit } from 'components/common';
 import { useEffect } from 'react';
+import { LoadingOverlay } from 'components/common';
+import PropTypes from 'prop-types';
+import { TransportListingService } from 'services';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
+import { TransportEdit } from 'components//common/index';
 
-const RealEstateEditListing = (props) => {
+const TransportEditing = (props) => {
   const { t, listingItem, tags } = props;
   const router = useRouter();
+
   useEffect(() => {
     if (!listingItem) {
       router.push('/404');
@@ -19,29 +20,23 @@ const RealEstateEditListing = (props) => {
   if (!listingItem) {
     return <LoadingOverlay />;
   }
+
   return (
     <div className="submit-container main-container">
       <Head>
         <title>{listingItem?.name}</title>
-
-        <meta
-          name="keywords"
-          content="edit listing, real estate, rent apartment, buy apartment, sell house, buy house, pirkt māju, pārdod māju"
-        />
       </Head>
-
       <div className="form__section">
-        <RealEstateEdit t={t} item={listingItem} tags={tags} />
+        <TransportEdit t={t} item={listingItem} tags={tags} />
       </div>
     </div>
   );
 };
 
-RealEstateEditListing.getInitialProps = async ({ query }) => {
+TransportEditing.getInitialProps = async ({ query }) => {
   const { id } = query;
   try {
-    const { data } = await RealEstateListingServices.GET(id);
-
+    const { data } = await TransportListingService.GET(id);
     let initialTags = [];
     data?.tags.map((item) => {
       initialTags.push(item.id);
@@ -51,30 +46,24 @@ RealEstateEditListing.getInitialProps = async ({ query }) => {
       listingItem: data,
       tags: initialTags,
       namespacesRequired: [
+        'payment',
+        'common',
         'common',
         'navbar',
         'footer',
+        'add-listing',
+        'transport-tags',
+        'transport-submit',
+        'transport-common',
+        'transport-detail',
         'validation',
-        'real-estate-common',
-        'real-estate-submit',
-        'real-estate-tags',
-        'real-estate-detail',
       ],
     };
   } catch {}
 };
 
-RealEstateEditListing.propTypes = {
+TransportEditing.propTypes = {
   t: PropTypes.func.isRequired,
 };
 
-export default withTranslation([
-  'common',
-  'navbar',
-  'footer',
-  'validation',
-  'real-estate-common',
-  'real-estate-submit',
-  'real-estate-tags',
-  'real-estate-detail',
-])(RealEstateEditListing);
+export default withTranslation()(TransportEditing);

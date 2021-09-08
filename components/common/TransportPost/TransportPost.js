@@ -107,7 +107,7 @@ const TransportSubmit = (props) => {
 
       phone: inputValues?.transportPhone || null,
       email: inputValues?.transportEmail || null,
-      websiteLink: inputValues?.websiteLink || null,
+      websiteLink: inputValues?.transportWebsiteLink || null,
 
       contactTime: inputValues?.transportContactTime || null,
       tags: inputValues?.tags || null,
