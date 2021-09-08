@@ -43,7 +43,7 @@ const RealEstateEdit = (props) => {
     latitude: item?.latitude || null,
     longitude: item?.longitude || null,
     description: item?.description || null,
-    address: item?.fullAddress || null,
+
     realEstateEmail: item?.email || null,
 
     tags: tags,
@@ -263,15 +263,12 @@ const RealEstateEdit = (props) => {
     setIsLoading(true);
 
     if (user?.id !== item?.user?.id) {
-      console.log(user.id);
-      console.log(item.user?.id);
-      console.log(item.user);
       router.push('/404');
       return;
     }
     try {
       let payload = PopulatePayload(inputValues);
-      e.preventDefault();
+
       if (!inputValues.country) {
         inputValues.country = item?.country.id;
       }

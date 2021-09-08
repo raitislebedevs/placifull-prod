@@ -5,6 +5,7 @@ import Carousel from 'react-multi-carousel';
 import { FaStar, FaRegStar, FaRegTrashAlt } from 'react-icons/fa';
 import { RiCalendar2Line } from 'react-icons/ri';
 import { RiEye2Line } from 'react-icons/ri';
+import { AiOutlineEdit } from 'react-icons/ai';
 import Rating from 'react-rating';
 import { TransportListingService } from 'services';
 import { getExpiryCount } from 'utils/standaloneFunctions';
@@ -14,6 +15,7 @@ import useUpdateSubscriptions from 'hooks/useUpdateSubscriptions';
 import { isListingsFree } from 'constants/parameters';
 import { FileServices } from 'services/index';
 import Image from 'next/image';
+import Link from 'node_modules/next/link';
 
 const noTransport =
   'https://placifull-static.s3.eu-central-1.amazonaws.com/Transport.webp';
@@ -293,19 +295,20 @@ const Transport = (props) => {
                           xs={12}
                           className="body__actions"
                         >
-                          {/*}
-                     <Link
-                        href={`/transport/edit/${item?.id}`}
-                        key={item.id}
-                      >
-                        <div className="action__wrapper">
-                          <AiOutlineEdit className="wrapper__icon" />{' '}
-                          <span className="wrapper__text">
-                            {t('profile:right-content.tabs.common.button-edit')}
-                          </span>
-                        </div>
-                      </Link>
-                      */}
+                          <Link
+                            href={`/transport/edit/${item?.id}`}
+                            key={item.id}
+                          >
+                            <div className="action__wrapper">
+                              <AiOutlineEdit className="wrapper__icon" />{' '}
+                              <span className="wrapper__text">
+                                {t(
+                                  'profile:right-content.tabs.common.button-edit'
+                                )}
+                              </span>
+                            </div>
+                          </Link>
+
                           <div
                             className="action__wrapper action__wrapper--danger"
                             onClick={() => handleOpenDeleteModal(item.id)}

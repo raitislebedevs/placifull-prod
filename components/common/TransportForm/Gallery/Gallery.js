@@ -5,10 +5,11 @@ import { Row, Col, Form } from 'react-bootstrap';
 import { FaRegTimesCircle } from 'react-icons/fa';
 import { RiUploadCloud2Fill } from 'react-icons/ri';
 import { maxTotalSize } from 'constants/fileManipulation';
+import { FcApproval } from 'react-icons/fc';
 import TostifyCustomContainer from '../../TostifyCustomContainer/TostifyCustomContainer';
 
 const Gallery = (props) => {
-  const { t, inputValues, handleOnChange } = props;
+  const { t, inputValues, handleOnChange, initialItem } = props;
   const [files, setFiles] = useState([]);
   const { getRootProps, getInputProps } = useDropzone({
     accept: 'image/*',
@@ -84,6 +85,29 @@ const Gallery = (props) => {
                 </div>
               </div>
             ))}
+
+            {!files.length &&
+              initialItem?.listingGallery &&
+              initialItem.listingGallery.map((file, index) => (
+                <div
+                  key={index}
+                  className="dropzone-thumbnail-container__thumb"
+                >
+                  <div className="thumb__inner">
+                    <div
+                      className="inner__remove"
+                      // onClick={() => handleRemoveFile(index)}
+                    >
+                      <FcApproval size={18} />
+                    </div>
+                    <img
+                      src={file.url}
+                      className="inner__image"
+                      alt="Preview File"
+                    />
+                  </div>
+                </div>
+              ))}
           </aside>
         </section>
 
@@ -92,6 +116,7 @@ const Gallery = (props) => {
             <CustomFormControl
               onChange={handleOnChange}
               value={inputValues.transportVideoLink}
+              defaultValue={initialItem?.videoUrl}
               id="transportVideoLink"
               type="text"
               valueLength={250 - inputValues.transportVideoLink?.length}

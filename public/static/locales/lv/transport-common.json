@@ -57,7 +57,7 @@
   "condition": {
     "label": "Stāvoklis",
     "options": {
-      "brandNew": "Jaun",
+      "brandNew": "Jauna",
       "likeNew": "Gandrīz jauna",
       "used": "Lietota",
       "requiresFixing": "Nepieciešams remonts",
