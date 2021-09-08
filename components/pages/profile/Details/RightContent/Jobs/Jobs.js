@@ -303,19 +303,20 @@ const Jobs = (props) => {
                             xs={12}
                             className="body__actions"
                           >
-                            {/*}
-                     <Link
-                        href={`/job-search/edit/${item?.id}`}
-                        key={item.id}
-                      >
-                        <div className="action__wrapper">
-                          <AiOutlineEdit className="wrapper__icon" />{' '}
-                          <span className="wrapper__text">
-                            {t('profile:right-content.tabs.common.button-edit')}
-                          </span>
-                        </div>
-                      </Link>
-                      */}
+                            <Link
+                              href={`/job-search/edit/${item?.id}`}
+                              key={item.id}
+                            >
+                              <div className="action__wrapper">
+                                <AiOutlineEdit className="wrapper__icon" />{' '}
+                                <span className="wrapper__text">
+                                  {t(
+                                    'profile:right-content.tabs.common.button-edit'
+                                  )}
+                                </span>
+                              </div>
+                            </Link>
+
                             <div
                               className="action__wrapper action__wrapper--danger"
                               onClick={() => handleOpenDeleteModal(item.id)}

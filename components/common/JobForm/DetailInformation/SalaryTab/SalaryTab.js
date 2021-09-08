@@ -4,7 +4,7 @@ import NumberFormat from 'react-number-format';
 import { useEffect, useState } from 'react';
 
 const SalaryTab = (props) => {
-  const { t, handleOnChange, submitCurrency } = props;
+  const { t, handleOnChange, submitCurrency, initialItem } = props;
   const [salary, setSalary] = useState({});
   const salaryFields = [
     {
@@ -112,6 +112,13 @@ const SalaryTab = (props) => {
                   <NumberFormat
                     customInput={CustomFormControl}
                     label={item.label}
+                    defaultValue={
+                      typeof initialItem == 'undefined'
+                        ? null
+                        : typeof initialItem[item.key] == 'undefined'
+                        ? null
+                        : initialItem[item.key]
+                    }
                     id={item.key}
                     value={salary[item.key]}
                     onValueChange={(e) => {

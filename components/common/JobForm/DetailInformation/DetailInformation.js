@@ -22,6 +22,9 @@ const DetailInformation = (props) => {
     setAddressPosition,
     tagOptions,
     setTagOptions,
+    initialCoordinates,
+    initialAddress,
+    initialItem,
   } = props;
 
   useEffect(() => {
@@ -65,6 +68,9 @@ const DetailInformation = (props) => {
             inputValues={inputValues}
             handleCheckBoxChange={handleCheckBoxChange}
             handleOnChange={handleOnChange}
+            initialItem={initialItem}
+            initialAddress={initialAddress}
+            initialCoordinates={initialCoordinates}
             t={t}
           />
         </Tab>
@@ -78,6 +84,7 @@ const DetailInformation = (props) => {
             handleCheckBoxChange={handleCheckBoxChange}
             handleOnChange={handleOnChange}
             submitCurrency={submitCurrency}
+            initialItem={initialItem}
             t={t}
           />
         </Tab>

@@ -21,6 +21,11 @@ const GeneralInformation = (props) => {
     setInputValues,
     setsubmitCurrency,
     submitCurrency,
+    initialValues,
+    initialItem,
+    jobDescription,
+    jobRequirements,
+    jobOffer,
   } = props;
 
   const fieldsInput = fields(t);
@@ -41,14 +46,12 @@ const GeneralInformation = (props) => {
 
   const onLanguageChange = (event) => {
     var languageList = [];
-
     event?.forEach((element) => {
       languageList.push(element?.value);
     });
 
     handleOnChange({ id: event[0]?.id, languageList });
   };
-
   const getlanguages = async () => {
     let englishName = [];
     let nativeName = [];
@@ -94,6 +97,7 @@ const GeneralInformation = (props) => {
             <CustomFormControl
               onChange={handleOnChange}
               value={inputValues.companyName}
+              defaultValue={initialItem?.companyName}
               id="companyName"
               type="text"
               valueLength={50 - inputValues.companyName?.length}
@@ -113,9 +117,10 @@ const GeneralInformation = (props) => {
             <CustomFormControl
               onChange={handleOnChange}
               value={inputValues.title}
+              defaultValue={initialItem?.positionHeader}
               id="title"
               type="text"
-              valueLength={75 - inputValues.companyName?.length}
+              valueLength={75 - inputValues.title?.length}
               maxLength={'75'}
               label={
                 <>
@@ -133,6 +138,7 @@ const GeneralInformation = (props) => {
               handleOnChange={handleOnChange}
               setCurrency={setsubmitCurrency}
               currencyId={'jobCurrency'}
+              initialSelect={inputValues?.jobCurrency}
               isMandatory={true}
             />
           </Form.Group>
@@ -148,6 +154,9 @@ const GeneralInformation = (props) => {
                     id={item.key}
                     onChange={handleOnChange}
                     maxLength={10}
+                    value={item.options.filter(
+                      (option) => option.value === inputValues[item.key]
+                    )}
                     options={item.options}
                     placeholder={item.label}
                     isSearchable={true}
@@ -170,7 +179,7 @@ const GeneralInformation = (props) => {
               </Col>
             );
           }
-          if (item.type === 'textarea') {
+          if (item.type === 'jobDescription') {
             return (
               <Col lg={12} key={item.key}>
                 <Form.Group>
@@ -186,7 +195,63 @@ const GeneralInformation = (props) => {
                       handleOnChange={handleOnChange}
                       maxLength={'25000'}
                       className="form-control input__text"
-                      initialValue={item.label}
+                      initialValue={jobDescription || ''}
+                    />
+                    <>
+                      <div className={'max__length__counter'}>
+                        {25000 - inputValues[item.key]?.length}
+                      </div>
+                    </>
+                  </div>
+                </Form.Group>
+              </Col>
+            );
+          }
+          if (item.type === 'jobRequirements') {
+            return (
+              <Col lg={12} key={item.key}>
+                <Form.Group>
+                  <div className="rich__text">
+                    <div className={`label`}> {item.label}</div>
+                    <RichText
+                      name={item.key}
+                      rows={17}
+                      id={item.key}
+                      type="text"
+                      as="textarea"
+                      setPureText={setPureText}
+                      handleOnChange={handleOnChange}
+                      maxLength={'25000'}
+                      className="form-control input__text"
+                      initialValue={jobRequirements || ''}
+                    />
+                    <>
+                      <div className={'max__length__counter'}>
+                        {25000 - inputValues[item.key]?.length}
+                      </div>
+                    </>
+                  </div>
+                </Form.Group>
+              </Col>
+            );
+          }
+          if (item.type === 'jobOffer') {
+            return (
+              <Col lg={12} key={item.key}>
+                <Form.Group>
+                  <div className="rich__text">
+                    <div className={`label`}> {item.label}</div>
+                    <RichText
+                      name={item.key}
+                      rows={17}
+                      id={item.key}
+                      type="text"
+                      as="textarea"
+                      setPureText={setPureText}
+                      handleOnChange={handleOnChange}
+                      maxLength={'25000'}
+                      className="form-control input__text"
+                      initialValue={jobOffer || ''}
                     />
                     <>
                       <div className={'max__length__counter'}>
@@ -228,6 +293,18 @@ const GeneralInformation = (props) => {
                   <SelectInputSubmit
                     id={item.type}
                     maxLength={15}
+                    clearIds={[]}
+                    defaultValue={
+                      initialItem?.nativeLanguages
+                        ? initialItem.nativeLanguages.map((el) => {
+                            return {
+                              value: el,
+                              label: el,
+                              id: 'languagesNative',
+                            };
+                          })
+                        : []
+                    }
                     onChange={onLanguageChange}
                     options={languages?.nativeName}
                     placeholder={item.placeholder}
@@ -245,6 +322,18 @@ const GeneralInformation = (props) => {
                   <SelectInputSubmit
                     id={item.type}
                     maxLength={15}
+                    clearIds={[]}
+                    defaultValue={
+                      initialItem?.enLanguages
+                        ? initialItem.enLanguages.map((el) => {
+                            return {
+                              value: el,
+                              label: el,
+                              id: 'languagesEnglish',
+                            };
+                          })
+                        : []
+                    }
                     onChange={onLanguageChange}
                     options={languages?.englishName}
                     placeholder={item.placeholder}
@@ -291,6 +380,8 @@ const GeneralInformation = (props) => {
                 setInputValues={setInputValues}
                 inputIds={countryComponentIds}
                 selectOptions={selectOptions}
+                initialValues={initialValues}
+                isMandatory={true}
                 setSelectOptions={setSelectOptions}
               />
             );

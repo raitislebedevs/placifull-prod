@@ -114,9 +114,6 @@ const GeneralInformation = (props) => {
               handleOnChange={handleOnChange}
               setCurrency={setsubmitCurrency}
               initialSelect={inputValues?.currency}
-              placeholder={t(
-                'real-estate-submit:form.general-information.currency-input'
-              )}
               currencyId={'currency'}
               isMandatory={true}
             />

@@ -21,17 +21,33 @@ const ContactTab = (props) => {
     handleOnChange,
     addressPosition,
     setAddressPosition,
+    initialItem,
+    initialCoordinates,
+    initialAddress,
   } = props;
   const [isLoadingSearch, setIsLoadingSearch] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
   const [searchText, setSearchText] = useState('');
+  const [countryCode, setCountryCode] = useState();
   const [isSearching, setIsSearching] = useState(false);
   const [currentCenter, setCurrentCenter] = useState({
-    lat: 56.946285,
-    lng: 24.105078,
+    lat: initialItem?.latitude || 56.946285,
+    lng: initialItem?.longitude || 24.105078,
   });
   const [debounceTimer, setDebounceTimer] = useState(0);
   const [timeOutDebounce, setTimeOutDebounce] = useState(0);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setCountryCode(localStorage.getItem('countryCode') || 'lv');
+    }
+  }, []);
+
+  useEffect(() => {
+    if (initialItem?.phone) {
+      handleOnChange({ target: { value: initialItem?.phone, id: 'phone' } });
+    }
+  }, [countryCode, initialItem?.phone]);
 
   const contactTimeOptions = [
     {
@@ -127,6 +143,7 @@ const ContactTab = (props) => {
               setSearchText={setSearchText}
               handleSelectSearchResult={handleSelectSearchResult}
               isLoadingSearch={isLoadingSearch}
+              initialValue={initialAddress}
               searchResults={searchResults}
               id="officeAddress"
               type="text"
@@ -148,6 +165,7 @@ const ContactTab = (props) => {
               zoom={10}
               id="addressPosition"
               searchText={searchText}
+              initialCoordinates={initialCoordinates}
               isLoadingSearch={isLoadingSearch}
               handleSearchResult={handleSearchResult}
               setIsLoadingSearch={setIsLoadingSearch}
@@ -161,7 +179,7 @@ const ContactTab = (props) => {
             <AiOutlinePhone />
             <PhoneInput
               containerClass="phone__input__field"
-              country={localStorage.getItem('countryCode') || 'lv'}
+              country={countryCode}
               enableSearch={true}
               id="jobPhone"
               className="form-control"
@@ -178,6 +196,7 @@ const ContactTab = (props) => {
             <CustomFormControl
               onChange={handleOnChange}
               value={inputValues.jobEmail}
+              defaultValue={initialItem?.email}
               id="jobEmail"
               valueLength={75 - inputValues.jobEmail?.length}
               maxLength={'75'}
@@ -199,6 +218,9 @@ const ContactTab = (props) => {
               id="jobContactTimes"
               onChange={handleOnChange}
               options={contactTimeOptions}
+              value={contactTimeOptions.filter(
+                (option) => option.value === inputValues?.jobContactTimes
+              )}
               placeholder={
                 <>
                   {t('job-common:contact-times.label')}{' '}
@@ -214,6 +236,7 @@ const ContactTab = (props) => {
             <CustomFormControl
               onChange={handleOnChange}
               value={inputValues.jobListingWebsite}
+              defaultValue={initialItem?.websiteLink}
               id="jobListingWebsite"
               valueLength={250 - inputValues.jobListingWebsite?.length}
               maxLength={'250'}

@@ -6,7 +6,6 @@ import { ConnectionServices } from 'services';
 import { loginSuccess } from 'actions';
 import Cookies from 'js-cookie';
 import Image from 'next/image';
-import TostifyCustomContainer from 'components//common/TostifyCustomContainer/TostifyCustomContainer';
 
 const RedirectPage = (props) => {
   const { t, provider, dispatch } = props;
