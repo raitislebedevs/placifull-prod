@@ -129,6 +129,7 @@ const SearchResultSection = (props) => {
   const getJobListings = async () => {
     try {
       setIsLoading(true);
+      filter.isPublished = true;
       const { data } = await VacancyListingService.FIND_FORM({
         _limit: limit,
         _start: skip,

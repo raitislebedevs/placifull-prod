@@ -22,6 +22,9 @@ const RealEstateDetail = (props) => {
     if (!listingItem) {
       router.push('/404');
     }
+    if (!listingItem?.isPublished) {
+      router.push('/real-estate');
+    }
   }, []);
 
   if (!listingItem) {

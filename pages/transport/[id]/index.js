@@ -22,6 +22,9 @@ const TransportDetail = (props) => {
     if (!listingItem) {
       router.push('/404');
     }
+    if (!listingItem?.isPublished) {
+      router.push('/transport');
+    }
   }, []);
 
   if (!listingItem) {

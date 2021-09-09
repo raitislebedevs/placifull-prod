@@ -24,6 +24,7 @@ const RealEstateSection = (props) => {
       setIsLoading(true);
       const filter = {
         isPromotable: true,
+        isPublished: true,
       };
       const result = await RealEstateListingServices.FIND({
         _limit: limit,

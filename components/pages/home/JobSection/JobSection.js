@@ -25,6 +25,7 @@ const JobSection = (props) => {
       setIsLoading(true);
       const filter = {
         isPromotable: true,
+        isPublished: true,
       };
       const result = await VacancyListingService.FIND({
         _limit: limit,

@@ -162,11 +162,11 @@
             }
 
             .header__ratings-views {
+              cursor: pointer;
               padding-left: 10px;
               border-left: 1px solid #c1c1c1;
               margin-left: 10px;
               color: lighten($color: $dark, $amount: 25);
-
               font-size: 16px;
               @media (min-width: 180px) and (max-width: 405px) {
                 display: block;
