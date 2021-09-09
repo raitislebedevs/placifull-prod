@@ -256,7 +256,7 @@ const fields = (t) => [
 
   {
     key: 'jobDescription',
-    type: 'textarea',
+    type: 'jobDescription',
     label: (
       <>
         {t('job-submit:form.general-information.input-fields.description')}
@@ -266,7 +266,7 @@ const fields = (t) => [
   },
   {
     key: 'jobRequirements',
-    type: 'textarea',
+    type: 'jobRequirements',
     label: (
       <>
         {t('job-submit:form.general-information.input-fields.requirements')}
@@ -276,7 +276,7 @@ const fields = (t) => [
   },
   {
     key: 'jobOffer',
-    type: 'textarea',
+    type: 'jobOffer',
     label: (
       <>
         {t('job-submit:form.general-information.input-fields.beneftis')}

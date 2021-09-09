@@ -104,3 +104,26 @@
     }
   }
 }
+
+.social__Links {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 12px;
+  .social__network {
+    width: 33px;
+    height: 33px;
+    padding-top: 3px;
+    border: 1px solid theme-color("primary");
+    border-radius: 7px;
+    font-size: 15px;
+    &:hover {
+      cursor: pointer;
+      color: darkgreen;
+      border: 1px solid darkgreen;
+      transition-duration: 0.75s;
+      svg {
+        color: darkgreen;
+      }
+    }
+  }
+}

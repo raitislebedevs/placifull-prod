@@ -120,10 +120,10 @@ const JobPost = (props) => {
         sunday_close: inputValues?.jobsunday_close || null,
       },
       socialLinks: {
-        facebookLink: inputValues?.facebookLink || null,
-        instagramLink: inputValues?.instagramLink || null,
-        youtubeLink: inputValues?.youtubeLink || null,
-        twitterLink: inputValues?.twitterLink || null,
+        facebookLink: inputValues?.jobfacebookLink || null,
+        instagramLink: inputValues?.jobinstagramLink || null,
+        youtubeLink: inputValues?.jobyoutubeLink || null,
+        twitterLink: inputValues?.jobtwitterLink || null,
       },
 
       monthlySalaryFrom: inputValues?.monthlySalaryFrom || null,

@@ -5,9 +5,10 @@ import { Row, Col, Form } from 'react-bootstrap';
 import { FaRegTimesCircle } from 'react-icons/fa';
 import { RiUploadCloud2Fill } from 'react-icons/ri';
 import { AiOutlineVideoCamera } from 'react-icons/ai';
+import { FcApproval } from 'react-icons/fc';
 
 const Gallery = (props) => {
-  const { t, inputValues, handleOnChange } = props;
+  const { t, inputValues, handleOnChange, initialItem } = props;
   const [files, setFiles] = useState([]);
   const { getRootProps, getInputProps } = useDropzone({
     accept: 'image/*',
@@ -74,6 +75,21 @@ const Gallery = (props) => {
                 </div>
               </div>
             ))}
+
+            {!files.length && initialItem?.companyLogo && (
+              <div className="dropzone-thumbnail-container__thumb">
+                <div className="thumb__inner">
+                  <div className="inner__remove">
+                    <FcApproval size={18} />
+                  </div>
+                  <img
+                    src={initialItem?.companyLogo.url}
+                    className="inner__image"
+                    alt="Preview File"
+                  />
+                </div>
+              </div>
+            )}
           </aside>
         </section>
 
@@ -83,6 +99,7 @@ const Gallery = (props) => {
             <CustomFormControl
               onChange={handleOnChange}
               value={inputValues.jobVideoLink}
+              defaultValue={initialItem?.videoLink}
               valueLength={250 - inputValues.jobVideoLink?.length}
               maxLength={'250'}
               id="jobVideoLink"

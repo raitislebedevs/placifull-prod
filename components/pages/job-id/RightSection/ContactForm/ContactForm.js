@@ -4,6 +4,7 @@ import { Form, Button, Spinner } from 'react-bootstrap';
 import { formatPhoneNumber } from 'utils/standaloneFunctions';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import { CommonServices } from 'services';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import validation from './validation';
 import { connect } from 'react-redux';
 
@@ -88,43 +89,49 @@ const ContactForm = (props) => {
   const facebookLink = () => {
     if (listingItem?.socialLinks?.facebookLink)
       return (
-        <p>
-          <a href={`${listingItem?.socialLinks?.facebookLink}`}>
-            {t('common:social.facebook')}
+        <div className={'social__network'}>
+          {' '}
+          <a target="_blank" href={`${listingItem?.socialLinks?.facebookLink}`}>
+            <FontAwesomeIcon icon={['fab', 'facebook-f']} className="icon" />
           </a>
-        </p>
+        </div>
       );
   };
   const instagramLink = () => {
     if (listingItem?.socialLinks?.instagramLink)
       return (
-        <p>
-          <a href={`${listingItem?.socialLinks?.instagramLink}`}>
-            {t('common:social.instagram')}
+        <div className={'social__network'}>
+          {' '}
+          <a
+            target="_blank"
+            href={`${listingItem?.socialLinks?.instagramLink}`}
+          >
+            <FontAwesomeIcon icon={['fab', 'instagram']} className="icon" />
           </a>
-        </p>
+        </div>
       );
   };
 
   const youtubeLink = () => {
     if (listingItem?.socialLinks?.youtubeLink)
       return (
-        <p>
-          <a href={listingItem?.socialLinks?.youtubeLink}>
-            {t('common:social.youtube')}
+        <div className={'social__network'}>
+          {' '}
+          <a target="_blank" href={listingItem?.socialLinks?.youtubeLink}>
+            <FontAwesomeIcon icon={['fab', 'youtube']} className="icon" />
           </a>
-        </p>
+        </div>
       );
   };
 
   const twitterLink = () => {
     if (listingItem?.socialLinks?.twitterLink)
       return (
-        <p>
-          <a href={listingItem?.socialLinks?.twitterLink}>
-            {t('common:social.twitter')}
+        <div className={'social__network'}>
+          <a target="_blank" href={listingItem?.socialLinks?.twitterLink}>
+            <FontAwesomeIcon icon={['fab', 'twitter']} className="icon" />
           </a>
-        </p>
+        </div>
       );
   };
 
@@ -134,7 +141,9 @@ const ContactForm = (props) => {
         {t('job-detail:contact-form.heading')}
       </SubPageHeading>
       <div className="contact__information text-center">
-        {facebookLink()} {instagramLink()} {youtubeLink()} {twitterLink()}
+        <div className={'social__Links'}>
+          {facebookLink()} {instagramLink()} {youtubeLink()} {twitterLink()}
+        </div>
         <p className="info">{listingItem?.email}</p>
         <p>+{formatPhoneNumber(listingItem?.phone)}</p>
         <p className="info">{listingItem?.websiteLink}</p>

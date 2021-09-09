@@ -261,12 +261,13 @@ const RealEstateEdit = (props) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-
-    if (user?.id !== item?.user?.id) {
-      router.push('/404');
-      return;
-    }
     try {
+      if (user?.id !== item?.user.id) {
+        setTimeout(() => {
+          router.push(`/`);
+        }, 500);
+        return;
+      }
       let payload = PopulatePayload(inputValues);
 
       if (!inputValues.country) {
