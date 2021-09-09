@@ -125,6 +125,7 @@ const SearchResultSection = (props) => {
   const getRealEstate = async () => {
     try {
       setIsLoading(true);
+      filter.isPublished = true;
       //desc, asc
       const { data } = await RealEstateListingServices.FIND_FORM({
         _limit: limit,

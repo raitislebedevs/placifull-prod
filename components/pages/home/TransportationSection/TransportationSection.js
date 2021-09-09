@@ -24,6 +24,7 @@ const TransportationSection = (props) => {
       setIsLoading(true);
       const filter = {
         isPromotable: true,
+        isPublished: true,
       };
       const result = await TransportListingService.FIND({
         _limit: limit,

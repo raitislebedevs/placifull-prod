@@ -22,6 +22,9 @@ const VacancyDetail = (props) => {
     if (!listingItem) {
       router.push('/404');
     }
+    if (!listingItem?.isPublished) {
+      router.push('/job-search');
+    }
   }, []);
 
   if (!listingItem) {

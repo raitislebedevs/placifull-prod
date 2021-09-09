@@ -71,6 +71,7 @@ const RealEstatePost = (props) => {
   const PopulatePayload = (inputValues, promoted) => {
     var expiryDate = addDays(new Date(), defaultExpiryDays);
     let payload = {
+      isPublished: true,
       isPromotable: isListingsFree || promoted || false,
       name: inputValues?.name || null,
       description: inputValues?.description || null,

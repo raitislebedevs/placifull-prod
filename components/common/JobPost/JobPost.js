@@ -70,6 +70,7 @@ const JobPost = (props) => {
     var expiryDate = addDays(new Date(), defaultExpiryDays);
 
     let payload = {
+      isPublished: true,
       isPromotable: isListingsFree || isPromoted || null,
       companyName: inputValues?.companyName || null,
       positionHeader: inputValues?.title || null,

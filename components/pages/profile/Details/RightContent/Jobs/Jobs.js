@@ -3,7 +3,7 @@ import ReactPaginate from 'react-paginate';
 import { Row, Col, Button, Spinner } from 'react-bootstrap';
 import { FaStar, FaRegStar, FaRegTrashAlt } from 'react-icons/fa';
 import { AiOutlineEdit } from 'react-icons/ai';
-import { RiCalendar2Line, RiEye2Line } from 'react-icons/ri';
+import { RiCalendar2Line, RiEye2Line, RiEyeOffLine } from 'react-icons/ri';
 import Rating from 'react-rating';
 import { VacancyListingService } from 'services';
 import Link from 'next/link';
@@ -29,6 +29,29 @@ const Jobs = (props) => {
   const [removableListing, setRemovableListing] = useState('');
   const [subscriptions, getSubscriptions] = useSubscriptions();
   const [handleUpdate] = useUpdateSubscriptions();
+
+  const handleSubmit = async (published, id) => {
+    setIsLoading(true);
+    try {
+      let payload = {
+        isPublished: !published || false,
+      };
+      const formData = new FormData();
+      formData.append('data', JSON.stringify(payload));
+      const { data, error } = await VacancyListingService.UPDATE(id, formData);
+      if (error) throw error?.message;
+      getJobPosts();
+    } catch (e) {
+      setIsLoading(false);
+      console.log(e);
+      return TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.server-error')
+      );
+    }
+    setIsLoading(false);
+  };
 
   useEffect(() => {
     getJobPosts();
@@ -214,11 +237,26 @@ const Jobs = (props) => {
                                 {item?.ratings}
                               </span>
 
-                              <div className="header__ratings-views">
-                                <span>
+                              {item?.isPublished ? (
+                                <span
+                                  onClick={() =>
+                                    handleSubmit(item?.isPublished, item.id)
+                                  }
+                                  className="header__ratings-views"
+                                >
                                   <RiEye2Line /> {item?.popularity?.views || 0}
                                 </span>
-                              </div>
+                              ) : (
+                                <span
+                                  onClick={() =>
+                                    handleSubmit(item?.isPublished, item.id)
+                                  }
+                                  className="header__ratings-views"
+                                >
+                                  <RiEyeOffLine />{' '}
+                                  {item?.popularity?.views || 0}
+                                </span>
+                              )}
                             </div>
                           </Col>
                         </Row>

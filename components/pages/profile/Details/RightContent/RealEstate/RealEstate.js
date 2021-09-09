@@ -4,7 +4,7 @@ import { Row, Col, Spinner } from 'react-bootstrap';
 import { FaStar, FaRegStar, FaRegTrashAlt } from 'react-icons/fa';
 import { AiOutlineEdit } from 'react-icons/ai';
 import { RiCalendar2Line } from 'react-icons/ri';
-import { RiEye2Line } from 'react-icons/ri';
+import { RiEye2Line, RiEyeOffLine } from 'react-icons/ri';
 import Rating from 'react-rating';
 import RealEstateListingServices from 'services/realEstateListingServices';
 import Carousel from 'react-multi-carousel';
@@ -51,6 +51,32 @@ const RealEstate = (props) => {
   const [removableListing, setRemovableListing] = useState('');
   const [subscriptions, getSubscriptions] = useSubscriptions();
   const [handleUpdate] = useUpdateSubscriptions();
+
+  const handleSubmit = async (published, id) => {
+    setIsLoading(true);
+    try {
+      let payload = {
+        isPublished: !published || false,
+      };
+      const formData = new FormData();
+      formData.append('data', JSON.stringify(payload));
+      const { data, error } = await RealEstateListingServices.UPDATE(
+        id,
+        formData
+      );
+      if (error) throw error?.message;
+      getRealEstate();
+    } catch (e) {
+      setIsLoading(false);
+      console.log(e);
+      return TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        t('common:toast.server-error')
+      );
+    }
+    setIsLoading(false);
+  };
 
   useEffect(() => {
     getRealEstate();
@@ -248,9 +274,25 @@ const RealEstate = (props) => {
                               {item?.popularity?.rating || 0}
                             </span>
 
-                            <span className="header__ratings-views">
-                              <RiEye2Line /> {item?.popularity?.views || 0}
-                            </span>
+                            {item?.isPublished ? (
+                              <span
+                                onClick={() =>
+                                  handleSubmit(item?.isPublished, item.id)
+                                }
+                                className="header__ratings-views"
+                              >
+                                <RiEye2Line /> {item?.popularity?.views || 0}
+                              </span>
+                            ) : (
+                              <span
+                                onClick={() =>
+                                  handleSubmit(item?.isPublished, item.id)
+                                }
+                                className="header__ratings-views"
+                              >
+                                <RiEyeOffLine /> {item?.popularity?.views || 0}
+                              </span>
+                            )}
                           </div>
                         </div>
                       </div>

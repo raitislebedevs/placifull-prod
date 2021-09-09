@@ -129,6 +129,7 @@ const SearchResultSection = (props) => {
   const getTransport = async () => {
     try {
       setIsLoading(true);
+      filter.isPublished = true;
       const { data } = await TransportListingService.FIND_FORM({
         _limit: limit,
         _start: skip,
