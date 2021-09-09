@@ -269,19 +269,19 @@ const TransportEdit = (props) => {
     e.preventDefault();
     setIsLoading(true);
     try {
+      if (user?.id !== item?.user.id) {
+        setTimeout(() => {
+          router.push(`/`);
+        }, 500);
+        return;
+      }
+
       let payload = getPayload(inputValues);
 
       if (!inputValues?.transportCountry) {
         inputValues.transportCountry = item?.country.id;
       }
-      if (!user?.id) {
-        TostifyCustomContainer(
-          'info',
-          t('common:toast.messages.info'),
-          t('common:toast.logging-required')
-        );
-        return;
-      }
+
       const { errors } = await TransportValidation(inputValues, t);
       if (errors) {
         for (let i = 0; i < 3; i++) {

@@ -34,7 +34,7 @@ const JobEdit = (props) => {
 
     tags: tags,
   });
-  console.log(item);
+
   const getCountryName = (item) => {
     if (item.native) {
       return `${item.native}/${item.name}`;
@@ -230,15 +230,17 @@ const JobEdit = (props) => {
       },
       socialLinks: {
         facebookLink:
-          inputValues?.facebookLink || item?.socialLinks?.facebookLink || null,
+          inputValues?.jobfacebookLink ||
+          item?.socialLinks?.facebookLink ||
+          null,
         instagramLink:
-          inputValues?.instagramLink ||
+          inputValues?.jobinstagramLink ||
           item?.socialLinks?.instagramLink ||
           null,
         youtubeLink:
-          inputValues?.youtubeLink || item?.socialLinks?.youtubeLink || null,
+          inputValues?.jobyoutubeLink || item?.socialLinks?.youtubeLink || null,
         twitterLink:
-          inputValues?.twitterLink || item?.socialLinks?.twitterLink || null,
+          inputValues?.jobtwitterLink || item?.socialLinks?.twitterLink || null,
       },
 
       monthlySalaryFrom:
@@ -267,9 +269,15 @@ const JobEdit = (props) => {
     e.preventDefault();
     setIsLoading(true);
     try {
+      if (user?.id !== item?.user.id) {
+        setTimeout(() => {
+          router.push(`/`);
+        }, 500);
+        return;
+      }
       let payload = getPayload(inputValues);
 
-      const { errors } = await JobValidation(validation, t);
+      const { errors } = await JobValidation(payload, t);
       if (errors) {
         for (let i = 0; i < 3; i++) {
           if (errors[i])
@@ -313,6 +321,7 @@ const JobEdit = (props) => {
         t('common:toast.messages.error'),
         t('common:toast.server-error')
       );
+      console.log(e);
     }
 
     setIsLoading(false);

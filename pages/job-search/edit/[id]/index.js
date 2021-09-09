@@ -22,7 +22,7 @@ const VacancyDetail = (props) => {
   return (
     <div className="submit-container main-container">
       <Head>
-        <title>{listingItem?.name}</title>
+        <title>{listingItem?.positionHeader}</title>
       </Head>
       <div className="form__section">
         <JobEdit t={t} item={listingItem} tags={tags} />

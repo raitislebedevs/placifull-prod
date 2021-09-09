@@ -5,25 +5,25 @@ const JobValidation = async (inputValues, t) => {
     vacancyOption: Yup.string().required(t('validation:common.category')),
     contractType: Yup.string().required(t('validation:common.action')),
     workingTime: Yup.string().required(t('validation:common.condition')),
-    jobCountry: Yup.string().required(t('validation:common.country')),
-    jobDescription: Yup.string()
+    country: Yup.string().required(t('validation:common.country')),
+    positionDescription: Yup.string()
       .min(10, t('validation:common.description.minLength'))
       .max(22500, t('validation:common.description.maxLength'))
       .required(t('validation:common.description.required')),
 
-    jobRequirements: Yup.string()
+    positionRequirements: Yup.string()
       .min(10, t('validation:common.description.minLength'))
       .max(22500, t('validation:common.description.maxLength')),
 
-    jobOffer: Yup.string()
+    positionBenefits: Yup.string()
       .min(10, t('validation:common.description.minLength'))
       .max(22500, t('validation:common.description.maxLength')),
 
-    jobPhone: Yup.string()
+    phone: Yup.string()
       .min(6, t('validation:common.phone.minLength'))
       .max(20, t('validation:common.phone.minLength'))
       .required(t('validation:common.phone.required')),
-    jobEmail: Yup.string()
+    email: Yup.string()
       .email(t('validation:common.email.valid'))
       .required(t('validation:common.email.required')),
     officeAddress: Yup.string().required(t('validation:job.address.address')),
@@ -32,13 +32,7 @@ const JobValidation = async (inputValues, t) => {
     monthlySalaryFrom: Yup.number().required(t('validation:job.monthly-from')),
     monthlySalaryTo: Yup.number().required(t('validation:job.monthly-to')),
 
-    jobContactTimes: Yup.string().required(
-      t('validation:common.contact.required')
-    ),
-
-    size: Yup.number()
-      .required(t('validation:job.gallery'))
-      .max(5242880, t('validation:job.logo-size')),
+    contactTime: Yup.string().required(t('validation:common.contact.required')),
   });
 
   let schemaResult = await validationSchema
