@@ -38,7 +38,7 @@ const RealEstateEdit = (props) => {
     yearBuilt: item?.yearBuilt || null,
     price: item?.price || null,
 
-    fullAddress: item?.fullAddress || null,
+    address: item?.fullAddress || null,
     zipCode: item?.zipCode || null,
     latitude: item?.latitude || null,
     longitude: item?.longitude || null,
