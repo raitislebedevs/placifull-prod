@@ -71,6 +71,9 @@
         position: relative;
         display: flex;
         justify-content: center;
+        @include media-breakpoint-down(md) {
+          margin: 50px 0px;
+        }
         .home__icons {
           padding: 15px;
           max-width: 133px;
