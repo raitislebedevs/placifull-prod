@@ -1,7 +1,13 @@
-import { AiOutlineArrowRight } from 'react-icons/ai';
+import { AiOutlineArrowRight, AiOutlineCar } from 'react-icons/ai';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import { BiHome } from 'react-icons/bi';
+import { BsBriefcase } from 'react-icons/bs';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import { upperCaseFirstLetter } from 'utils/standaloneFunctions';
+const realEstateIntro = '/static/images/home-icons/property.svg';
+const transportIntro = '/static/images/home-icons/transport.svg';
+const jobIntro = '/static/images/home-icons/job.svg';
 
 const ReactTypingEffect = dynamic(() => import('react-typing-effect'), {
   ssr: false,
@@ -49,18 +55,69 @@ const HeroSection = (props) => {
                 <h1 className="content-hero__heading">
                   {t('hero-section.head.line-2')}
                 </h1>
-                <p className="content-hero__text">
-                  {t('hero-section.head.line-3')}
-                </p>
-                <Link href="/sign-in">
-                  <Button
-                    className="content-hero__button"
-                    aria-label="HeroButton"
-                  >
-                    <AiOutlineArrowRight className="button__icon" />{' '}
-                    {t('hero-section.button')}
-                  </Button>
-                </Link>
+                <Row className="content-hero__text">
+                  <Col xs={4} md={4} lg={4} xl={4}>
+                    <Link href="/real-estate">
+                      <div className={'container'}>
+                        <div className={'home__icons'}>
+                          <img alt="Real Estate" src={realEstateIntro} />
+                        </div>
+                        <div className="hover__container">
+                          <div className="hover__text">
+                            {upperCaseFirstLetter(
+                              t(
+                                'navbar:opportunities.real-estate'
+                              ).toLowerCase()
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  </Col>
+                  <Col xs={4} md={4} lg={4} xl={4}>
+                    <Link href="/job-search">
+                      <div className={'container'}>
+                        <div className={'home__icons'}>
+                          <img alt="Transport" src={transportIntro} />
+                        </div>
+                        <div className="hover__container">
+                          <div className="hover__text">
+                            {upperCaseFirstLetter(
+                              t('navbar:opportunities.vehicles').toLowerCase()
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  </Col>
+                  <Col xs={4} md={4} lg={4} xl={4}>
+                    <Link href="/transport">
+                      <div className={'container'}>
+                        <div className={'home__icons'}>
+                          <img alt="Job Search" src={jobIntro} />
+                        </div>
+                        <div className="hover__container">
+                          <div className="hover__text">
+                            {upperCaseFirstLetter(
+                              t('navbar:opportunities.job-search').toLowerCase()
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  </Col>
+                </Row>
+                <div>
+                  <Link href="/sign-in">
+                    <Button
+                      className="content-hero__button"
+                      aria-label="HeroButton"
+                    >
+                      <AiOutlineArrowRight className="button__icon" />{' '}
+                      {t('hero-section.button')}
+                    </Button>
+                  </Link>
+                </div>
               </div>
             </Col>
           </Row>
