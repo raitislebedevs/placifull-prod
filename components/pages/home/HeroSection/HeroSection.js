@@ -1,7 +1,5 @@
-import { AiOutlineArrowRight, AiOutlineCar } from 'react-icons/ai';
+import { AiOutlineArrowRight } from 'react-icons/ai';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import { BiHome } from 'react-icons/bi';
-import { BsBriefcase } from 'react-icons/bs';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { upperCaseFirstLetter } from 'utils/standaloneFunctions';
