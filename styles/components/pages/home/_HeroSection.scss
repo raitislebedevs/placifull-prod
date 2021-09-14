@@ -55,6 +55,12 @@
       .heading__type-write-cursor {
         font-weight: 700 !important;
         font-size: 50px !important;
+        @include media-breakpoint-down(md) {
+          font-size: 42px !important;
+        }
+        @include media-breakpoint-down(md) {
+          font-size: 32px !important;
+        }
         color: $white !important;
         animation: blink 0.7s steps(1) infinite;
       }
