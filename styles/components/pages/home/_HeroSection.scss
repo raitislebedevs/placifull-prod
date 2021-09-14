@@ -1,6 +1,12 @@
 .home-container__hero-section {
   padding: 260px 0;
-  margin-top: -74px;
+  margin-top: -150px;
+  @include media-breakpoint-down(md) {
+    margin-top: -92px;
+  }
+  @include media-breakpoint-down(sm) {
+    margin-top: -70px;
+  }
   width: 100%;
   background-size: cover;
   -ms-flex-item-align: center;
@@ -11,7 +17,7 @@
   background-color: theme-color("primary");
   background-image: url("https://placifull-static.s3.eu-central-1.amazonaws.com/enterprise.webp");
   .hero-section__bg-overlay {
-    background-color: rgba(60, 72, 88, 0.7);
+    background-color: rgba(60, 72, 88, 0.6);
     position: absolute;
     top: 0;
     right: 0;
@@ -27,7 +33,6 @@
     }
     @include media-breakpoint-down(sm) {
       margin-top: -7rem;
-      padding-top: 0px;
     }
     .content-hero__heading {
       margin-left: -20px;
@@ -35,14 +40,14 @@
       color: #fff;
       margin-bottom: 1rem;
       font-weight: 677;
-      font-size: 3.5rem;
+      font-size: 3rem;
       line-height: 1.2;
       @include media-breakpoint-down(md) {
-        font-size: 3rem;
+        font-size: 2rem;
         padding: 0px 10px;
       }
       @include media-breakpoint-down(sm) {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
       }
       .heading__type-write {
         color: theme-color("primary");
@@ -55,8 +60,69 @@
       }
     }
     .content-hero__text {
-      padding: 0px 10%;
-      color: rgba(255, 255, 255, 0.5);
+      color: theme-color("primary");
+      .container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        .home__icons {
+          padding: 15px;
+          max-width: 133px;
+          border-radius: 15px;
+          background-color: rgba(255, 255, 255);
+          transition: 0.75s ease;
+          img {
+            width: 75px;
+            height: auto;
+            @include media-breakpoint-down(md) {
+              width: 50px;
+              height: auto;
+            }
+
+            @include media-breakpoint-down(xs) {
+              width: 40px;
+              height: auto;
+            }
+          }
+        }
+        .hover__container {
+          transition: 0.75s ease;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          text-align: center;
+          .hover__text {
+            color: white;
+            font-size: 20px;
+            font-weight: 900;
+            padding: 16px 20px;
+            @include media-breakpoint-down(md) {
+              font-size: 16px;
+              font-weight: 800;
+            }
+            @include media-breakpoint-down(xs) {
+              font-size: 14px;
+              font-weight: 700;
+            }
+          }
+        }
+        &:hover {
+          cursor: pointer;
+          .home__icons {
+            background-color: rgba(0, 0, 0, 0.5);
+            transition: 0.75s ease;
+          }
+          .hover__container {
+            opacity: 1;
+            .hover__text {
+              opacity: 1;
+            }
+          }
+        }
+      }
     }
     .content-hero__button {
       margin-top: 30px;

@@ -82,3 +82,7 @@ export const textColumnSize = (items) => {
 export const sleep = (milliseconds) => {
   return new Promise((resolve) => setTimeout(resolve, milliseconds));
 };
+
+export const upperCaseFirstLetter = (string) => {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+};
