@@ -3,8 +3,6 @@ import { useRouter } from 'next/router';
 import { Form, Button, Row, Col, FormCheck, Spinner } from 'react-bootstrap';
 import { AiOutlineUser } from 'react-icons/ai';
 import { FiKey } from 'react-icons/fi';
-import { FaFacebook } from 'react-icons/fa';
-import { FcGoogle } from 'react-icons/fc';
 import Link from 'next/link';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { Formik } from 'formik';
