@@ -38,16 +38,16 @@
       margin-left: -20px;
       margin-right: -20px;
       color: #fff;
-      margin-bottom: 1rem;
+      //margin-bottom: 1rem;
       font-weight: 677;
       font-size: 3rem;
       line-height: 1.2;
       @include media-breakpoint-down(md) {
-        font-size: 2rem;
+        font-size: 2.5rem;
         padding: 0px 10px;
       }
       @include media-breakpoint-down(sm) {
-        font-size: 1.5rem;
+        font-size: 2rem;
       }
       .heading__type-write {
         color: theme-color("primary");
@@ -71,6 +71,7 @@
         position: relative;
         display: flex;
         justify-content: center;
+        margin: 25px 0px;
         @include media-breakpoint-down(md) {
           margin: 50px 0px;
         }
