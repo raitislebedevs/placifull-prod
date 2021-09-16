@@ -136,6 +136,7 @@ const SelectInputSubmit = (props) => {
             ? inputValue
             : inputValue.substr(0, maxLength)
         }
+        id={id}
         isMulti={isMulti}
         styles={customStyles}
         placeholder={placeholder}
@@ -154,6 +155,7 @@ const SelectInputSubmit = (props) => {
       onChange={onChange}
       isMulti={isMulti}
       options={options}
+      id={id}
       onInputChange={(inputValue) =>
         inputValue.length <= maxLength
           ? inputValue
