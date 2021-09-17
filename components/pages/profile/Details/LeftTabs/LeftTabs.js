@@ -133,13 +133,13 @@ const LeftTabs = (props) => {
       disabled: true,
       admin: false,
     },
-    {
-      key: 'api-development',
-      label: 'Api',
-      icon: <AiFillApi size="30px" />,
-      disabled: true,
-      admin: false,
-    },
+    // {
+    //   key: 'api-development',
+    //   label: 'Api',
+    //   icon: <AiFillApi size="30px" />,
+    //   disabled: true,
+    //   admin: false,
+    // },
 
     /*{
       key: 'payment-receipts',
