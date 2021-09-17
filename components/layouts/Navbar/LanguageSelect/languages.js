@@ -81,7 +81,7 @@ const languages = [
       lang: 'jp',
       flag: 'JP',
     },
-    label: '日本人',
+    label: '日本',
   },
   // {
   //   value: {
