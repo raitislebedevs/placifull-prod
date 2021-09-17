@@ -29,8 +29,8 @@ const RichText = (props) => {
           icons: 'thin',
           branding: false,
           plugins:
-            'print preview importcss fullscreen hr pagebreak advlist lists checklist help ',
-
+            'print preview importcss fullscreen hr pagebreak advlist lists  help ',
+          //checklist
           menubar: false,
           toolbar:
             'undo redo | bold italic underline strikethrough | fontselect fontsizeselect formatselect | alignleft aligncenter alignright alignjustify | outdent indent |  numlist   | forecolor backcolor  removeformat | fullscreen  preview print ',
@@ -38,7 +38,8 @@ const RichText = (props) => {
           mobile: {
             menubar: false,
             plugins:
-              'print preview importcss fullscreen hr pagebreak advlist lists checklist help ',
+              'print preview importcss fullscreen hr pagebreak advlist lists  help ',
+            //checklist
             toolbar:
               'bold italic underline | forecolor backcolor  removeformat | numlist',
           },

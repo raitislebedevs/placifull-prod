@@ -4,6 +4,7 @@ import {
   AiTwotoneFolderOpen,
   AiTwotoneCar,
   AiOutlineLogin,
+  AiFillApi,
 } from 'react-icons/ai';
 import { FcCancel } from 'react-icons/fc';
 import { GiModernCity, GiArchiveResearch } from 'react-icons/gi';
@@ -132,6 +133,13 @@ const LeftTabs = (props) => {
       disabled: true,
       admin: false,
     },
+    {
+      key: 'api-development',
+      label: 'Api',
+      icon: <AiFillApi size="30px" />,
+      disabled: true,
+      admin: false,
+    },
 
     /*{
       key: 'payment-receipts',
@@ -174,6 +182,9 @@ const LeftTabs = (props) => {
           <Row>
             {tabsMenu.map((item) => {
               if (item.key === 'blog-content' && !user?.blogContent) {
+                return;
+              }
+              if (item.key === 'api-development' && !user?.apiClient) {
                 return;
               }
               return (

@@ -5,7 +5,7 @@ import Transport from './Transport';
 import BrowseCV from './BrowseCV';
 import PaymentReceipts from './PaymentReceipts';
 import Jobs from './Jobs/Jobs';
-import BlogContent from './Admin/BlogContent';
+import { ApiConnection, BlogContent } from './Admin';
 
 const RightContent = (props) => {
   const { t, currentTab, user, isMobile, isSmall } = props;
@@ -51,6 +51,10 @@ const RightContent = (props) => {
     {
       key: 'blog-content',
       component: <BlogContent user={user} t={t} />,
+    },
+    {
+      key: 'api-development',
+      component: <ApiConnection user={user} t={t} />,
     },
   ];
   return (
