@@ -15,6 +15,10 @@ class MyDocument extends Document {
 
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
+            href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
+            rel="stylesheet"
+          />
+          <link
             href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
             rel="stylesheet"
           />
@@ -66,7 +70,7 @@ class MyDocument extends Document {
           `,
             }}
           />
-          <script
+          {/* <script
             dangerouslySetInnerHTML={{
               __html: `
               (function(h,o,t,j,a,r){
@@ -79,7 +83,7 @@ class MyDocument extends Document {
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
           `,
             }}
-          />
+          /> */}
         </Head>
         <body>
           <Main />
