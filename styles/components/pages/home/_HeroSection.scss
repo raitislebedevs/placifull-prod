@@ -101,21 +101,30 @@
           position: absolute;
           top: 50%;
           left: 50%;
-          transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
+          transform: translate(-63%, -50%);
+          -ms-transform: translate(-63%, -50%);
+          @include media-breakpoint-down(md) {
+            transform: translate(-67%, -50%);
+            -ms-transform: translate(-67%, -50%);
+          }
+          @include media-breakpoint-down(xs) {
+            transform: translate(-70%, -50%);
+            -ms-transform: translate(-70%, -50%);
+          }
           text-align: center;
+          margin: 0px 18px;
           .hover__text {
             color: white;
-            font-size: 20px;
-            font-weight: 900;
-            padding: 16px 20px;
+            font-size: 17px;
+            font-weight: 800;
+            margin: 16px 20px;
             @include media-breakpoint-down(md) {
-              font-size: 16px;
-              font-weight: 800;
-            }
-            @include media-breakpoint-down(xs) {
               font-size: 14px;
               font-weight: 700;
+            }
+            @include media-breakpoint-down(xs) {
+              font-size: 13px;
+              font-weight: 600;
             }
           }
         }
