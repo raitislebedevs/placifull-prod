@@ -8,15 +8,25 @@ import {
 import { HiOutlineUsers } from 'react-icons/hi';
 import { AiOutlineDownload } from 'react-icons/ai';
 import fields from './fields';
+import { connect } from 'react-redux';
 import Datetime from 'react-datetime';
 import generateResume from 'utils/generateResume';
 
 const PersonalDetails = (props) => {
-  const { t, handleOnChange, inputValues, personalDetail, submitCurrency } =
-    props;
+  const {
+    t,
+    user,
+    handleOnChange,
+    inputValues,
+    personalDetail,
+    submitCurrency,
+  } = props;
   const inputFields = fields(t);
+  const { userInfo } = user;
+
   const [cvColor, setCvColor] = useState(false);
-  const [color, setColor] = useState({ r: 165, g: 42, b: 42, a: 1 });
+  const [color, setColor] = useState({ r: 165, g: 42, b: 42 });
+  const [template, setTemplate] = useState('placifull');
   const [isCVPublished, setIsCVPublished] = useState(inputValues.isPublished);
   const [cvDownload, setCvDownload] = useState(false);
   useEffect(() => {
@@ -30,9 +40,17 @@ const PersonalDetails = (props) => {
     e.preventDefault();
     setCvColor(false);
     setCvDownload(true);
-
+    console.log(template);
+    console.log(userInfo?.avatar);
     try {
-      await generateResume(inputValues, t, submitCurrency, color);
+      await generateResume(
+        inputValues,
+        t,
+        submitCurrency,
+        color,
+        template,
+        userInfo?.avatar
+      );
     } catch (error) {}
     setCvDownload(false);
   };
@@ -248,6 +266,9 @@ const PersonalDetails = (props) => {
         color={color}
         setColor={setColor}
         show={cvColor}
+        cvTemplate={true}
+        setTemplate={setTemplate}
+        template={template}
         nextAction={downloadResume}
         onHide={() => setCvColor(false)}
       />
@@ -255,4 +276,8 @@ const PersonalDetails = (props) => {
   );
 };
 
-export default PersonalDetails;
+export const mapStateToProps = (state) => ({
+  user: state.connectionReducer.user,
+});
+
+export default connect(mapStateToProps)(PersonalDetails);
