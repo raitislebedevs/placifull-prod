@@ -40,8 +40,6 @@ const PersonalDetails = (props) => {
     e.preventDefault();
     setCvColor(false);
     setCvDownload(true);
-    console.log(template);
-    console.log(userInfo?.avatar);
     try {
       await generateResume(
         inputValues,

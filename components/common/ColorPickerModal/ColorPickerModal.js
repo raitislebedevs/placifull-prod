@@ -43,7 +43,7 @@ const ColorPickerModal = (props) => {
                     sm={4}
                     md={4}
                     lg={4}
-                    xl={3}
+                    xl={4}
                     className={'checkbox__container'}
                   >
                     <div className={'checkbox__item'}>

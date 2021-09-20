@@ -543,9 +543,9 @@ const SearchForm = (props) => {
                   {t('real-estate:hero.form.accordion')}
                 </AccordionToggle>
               </Col>
-              <Col lg={2} md={4}>
+              {/* <Col lg={1} md={2}>
                 <Button
-                  variant="success"
+                  variant="primary"
                   size="lg"
                   disabled={isFetchingListing}
                   className="alert__button alert__on"
@@ -560,14 +560,13 @@ const SearchForm = (props) => {
                   ) : (
                     <>
                       <IoIosSave className="button__icon" />
-                      {t('real-estate:hero.form.submit')}
                     </>
                   )}
                 </Button>
               </Col>
-              <Col lg={2} md={4}>
+              <Col lg={1} md={2}>
                 <Button
-                  variant="info"
+                  variant="primary"
                   size="lg"
                   disabled={isFetchingListing}
                   className="alert__button alert__clear"
@@ -582,11 +581,10 @@ const SearchForm = (props) => {
                   ) : (
                     <>
                       <FaRemoveFormat className="button__icon" />
-                      {t('real-estate:hero.form.submit')}
                     </>
                   )}
                 </Button>
-              </Col>
+              </Col> */}
             </Row>
 
             <Accordion.Collapse eventKey={1}>

@@ -47,6 +47,11 @@ export const formatMonth = (date, t) => {
   return `${year} ${month}`;
 };
 
+export const formatYear = (date) => {
+  let year = moment(Date.parse(date)).format('YYYY');
+  return `${year}`;
+};
+
 export const formatDate = (date, t) => {
   let year = moment(Date.parse(date)).format('YYYY');
   let days = moment(Date.parse(date)).format('DD');
