@@ -48,13 +48,16 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
   doc.setFillColor(230, 230, 232);
   doc.rect(10, 0, 125, 840, 'F');
 
-  let extension = avatar?.ext.replace('.', '').toUpperCase();
-  let image = avatar.url;
-  doc.addImage(image, extension, 27, 15, 82, 75);
-  doc.setLineWidth(0);
-  doc.setDrawColor(0);
-  doc.setFillColor(255, 255, 255);
-
+  try {
+    let extension = avatar?.ext.replace('.', '').toUpperCase();
+    let image = avatar.url;
+    doc.addImage(image, extension, 27, 15, 82, 75);
+    doc.setLineWidth(0);
+    doc.setDrawColor(0);
+    doc.setFillColor(255, 255, 255);
+  } catch (error) {
+    console.log(error);
+  }
   doc.setLineWidth(20);
   doc.setDrawColor(230, 230, 232);
   doc.circle(67, 52, 47, 'S');
