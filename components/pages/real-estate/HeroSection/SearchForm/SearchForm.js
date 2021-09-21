@@ -17,6 +17,8 @@ import {
 } from 'components/common';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fields from './fields';
+import { FaRemoveFormat } from 'react-icons/fa';
+import { IoIosSave } from 'react-icons/io';
 import mainFields from './mainFields';
 import locationFields from './locationFields';
 import NumberFormat from 'react-number-format';
@@ -535,9 +537,56 @@ const SearchForm = (props) => {
             </Col>
           </Row>
           <Accordion className="form__accordion">
-            <AccordionToggle eventKey={1}>
-              {t('real-estate:hero.form.accordion')}
-            </AccordionToggle>
+            <Row>
+              <Col>
+                <AccordionToggle eventKey={1}>
+                  {t('real-estate:hero.form.accordion')}
+                </AccordionToggle>
+              </Col>
+              {/* <Col lg={1} md={2}>
+                <Button
+                  variant="primary"
+                  size="lg"
+                  disabled={isFetchingListing}
+                  className="alert__button alert__on"
+                >
+                  {isFetchingListing ? (
+                    <Spinner
+                      as="span"
+                      animation="border"
+                      size="sm"
+                      role="status"
+                    />
+                  ) : (
+                    <>
+                      <IoIosSave className="button__icon" />
+                    </>
+                  )}
+                </Button>
+              </Col>
+              <Col lg={1} md={2}>
+                <Button
+                  variant="primary"
+                  size="lg"
+                  disabled={isFetchingListing}
+                  className="alert__button alert__clear"
+                >
+                  {isFetchingListing ? (
+                    <Spinner
+                      as="span"
+                      animation="border"
+                      size="sm"
+                      role="status"
+                    />
+                  ) : (
+                    <>
+                      <FaRemoveFormat className="button__icon" />
+                    </>
+                  )}
+                </Button>
+              </Col> */}
+            </Row>
+
             <Accordion.Collapse eventKey={1}>
               <div>
                 <Row>
