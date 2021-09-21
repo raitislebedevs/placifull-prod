@@ -191,7 +191,9 @@ const placifullTemplate = async (doc, cv, t, cvCurrency, rgb) => {
       }
     });
   }
-
+  if (yAxis + 50 > macPageHeight) {
+    createNewPage(doc);
+  }
   if (workExpierience.length != 0) {
     writeMainHeader(doc, t('cv:labels.expierience'));
 
@@ -221,7 +223,9 @@ const placifullTemplate = async (doc, cv, t, cvCurrency, rgb) => {
       }
     });
   }
-
+  if (yAxis + 50 > macPageHeight) {
+    createNewPage(doc);
+  }
   if (transportLicenses.length != 0) {
     writeMainHeader(doc, t('cv:labels.licenses'));
     transportLicenses.forEach((el, idx, array) => {
@@ -253,7 +257,9 @@ const placifullTemplate = async (doc, cv, t, cvCurrency, rgb) => {
       }
     });
   }
-
+  if (yAxis + 50 > macPageHeight) {
+    createNewPage(doc);
+  }
   if (workExpectations.length != 0) {
     writeMainHeader(doc, t('cv:labels.expectations'));
 

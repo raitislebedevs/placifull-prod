@@ -304,7 +304,7 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
   }
 
   yAxis = yAxis + 20;
-  if (yAxis > macPageHeight) {
+  if (yAxis + 50 > macPageHeight) {
     createNewPage(doc);
   }
 
