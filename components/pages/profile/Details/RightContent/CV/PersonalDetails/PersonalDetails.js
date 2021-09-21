@@ -25,7 +25,7 @@ const PersonalDetails = (props) => {
   const { userInfo } = user;
 
   const [cvColor, setCvColor] = useState(false);
-  const [color, setColor] = useState({ r: 165, g: 42, b: 42 });
+  const [color, setColor] = useState({});
   const [template, setTemplate] = useState('placifull');
   const [isCVPublished, setIsCVPublished] = useState(inputValues.isPublished);
   const [cvDownload, setCvDownload] = useState(false);

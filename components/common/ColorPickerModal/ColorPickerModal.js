@@ -1,14 +1,19 @@
 import { Container, Button, Row, Col } from 'react-bootstrap';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Modal } from 'react-bootstrap';
 import { SketchPicker } from 'react-color';
 import { AiOutlineCheck, AiOutlineClose } from 'react-icons/ai';
 const ColorPickerModal = (props) => {
   const { color, setColor, nextAction, cvTemplate, template, setTemplate } =
     props;
-
+  const defaultColor = { r: 165, g: 42, b: 42 };
   const hangleTemplate = (e) => {
     if (e?.target?.checked) setTemplate(e?.target?.id);
+  };
+
+  const handleColorChange = (e) => {
+    let rgb = e?.rgb;
+    setColor({ r: rgb.r, g: rgb.g, b: rgb.b });
   };
 
   const templates = [
@@ -30,7 +35,11 @@ const ColorPickerModal = (props) => {
       className="color__modal"
     >
       <Modal.Body className="modal__body">
-        <SketchPicker color={color} onChange={setColor} disableAlpha={true} />
+        <SketchPicker
+          color={color ? color : defaultColor}
+          onChangeComplete={handleColorChange}
+          disableAlpha={true}
+        />
       </Modal.Body>
       <Modal.Footer className="modal__footer">
         <Container>
@@ -52,6 +61,7 @@ const ColorPickerModal = (props) => {
                           type="checkbox"
                           id={item.id}
                           onClick={hangleTemplate}
+                          checked={template && template == item.id}
                         />
                         <svg viewBox="0 0 21 21">
                           <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
