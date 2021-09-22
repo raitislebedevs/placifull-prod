@@ -73,7 +73,7 @@ const Footer = (props) => {
                   <li className="list-inline-item top__button-social">
                     <div className="button-social__icon">
                       <a
-                        href="https://facebook.com"
+                        href="https://www.facebook.com/placifull"
                         data-size="large"
                         aria-label="Facebook"
                       >
@@ -158,7 +158,7 @@ const Footer = (props) => {
                     {t('footer:top.list-menu.menu-2.items.item-2')}
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/#pricing-panel" className="list__items">
                     {' '}
                     <FontAwesomeIcon
@@ -167,7 +167,7 @@ const Footer = (props) => {
                     />{' '}
                     {t('footer:top.list-menu.menu-2.items.item-5')}
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a href="/#promoted-section" className="list__items">
                     {' '}
