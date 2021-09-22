@@ -170,7 +170,7 @@ const BlogContent = (props) => {
                     type="text"
                     onChange={handleOnChange}
                     className="input__text"
-                    maxLength={'33'}
+                    maxLength={'100'}
                     placeholder={'Blog Post Header'}
                   />
                 </div>
