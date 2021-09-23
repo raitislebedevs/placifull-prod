@@ -168,6 +168,11 @@ const fields = (t) => [
         id: 'workExpierience',
       },
       {
+        value: 'science',
+        label: t('job-common:work-area.options.science'),
+        id: 'workExpierience',
+      },
+      {
         value: 'others',
         label: t('job-common:work-area.options.others'),
         id: 'workExpierience',
@@ -183,7 +188,7 @@ const fields = (t) => [
       {
         value: '',
         label: t('profile:right-content.browser-cv.work-expectations'),
-        id: 'workExpierience',
+        id: 'workExpectations',
       },
       {
         value: 'intern',
@@ -340,6 +345,11 @@ const fields = (t) => [
       {
         value: 'government',
         label: t('job-common:work-area.options.government'),
+        id: 'workExpectations',
+      },
+      {
+        value: 'science',
+        label: t('job-common:work-area.options.science'),
         id: 'workExpectations',
       },
       {
@@ -515,6 +525,11 @@ const fields = (t) => [
       {
         value: 'government',
         label: t('job-common:work-area.options.government'),
+        id: 'educationFit',
+      },
+      {
+        value: 'science',
+        label: t('job-common:work-area.options.science'),
         id: 'educationFit',
       },
       {

@@ -242,6 +242,11 @@ const fields = (t) => [
         id: 'qualificationArea',
       },
       {
+        value: 'science',
+        label: t('job-common:work-area.options.science'),
+        id: 'qualificationArea',
+      },
+      {
         value: 'others',
         label: t('job-common:work-area.options.others'),
         id: 'qualificationArea',

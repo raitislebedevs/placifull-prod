@@ -81,6 +81,7 @@
       "tourismCateringHotels": "Tourism/Catering/Hotels",
       "managment": "Management",
       "government": "Government",
+      "science": "Education/Science",
       "others": "Others"
     }
   }
