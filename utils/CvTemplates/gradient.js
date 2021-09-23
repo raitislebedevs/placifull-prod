@@ -10,6 +10,7 @@ const calendar = '/static/images/resume/calendar.png';
 const female = '/static/images/resume/female.png';
 const male = '/static/images/resume/male.png';
 const marker = '/static/images/resume/marker.png';
+const background = '/static/images/resume/JShine.jpg';
 
 const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
   let macPageHeight = 575;
@@ -44,6 +45,8 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
       dateB = new Date(b.fromYear);
     return dateB - dateA;
   });
+
+  doc.addImage(background, 'JPG', 0, 0, 75, 540);
 
   doc.setFillColor(38, 55, 65);
   doc.rect(0, 0, 540, 67, 'F');

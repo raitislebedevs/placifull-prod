@@ -168,6 +168,11 @@ const fields = (t) => [
         id: 'vacancyOption',
       },
       {
+        value: 'science',
+        label: t('job-common:work-area.options.science'),
+        id: 'vacancyOption',
+      },
+      {
         value: 'others',
         label: t('job-common:work-area.options.others'),
         id: 'vacancyOption',
