@@ -59,31 +59,23 @@ VacancyDetail.getInitialProps = async ({ query }) => {
     const { data } = await VacancyListingService.GET(id);
     return {
       listingItem: data,
-      // namespacesRequired: [
-      //   'common',
-      //   'navbar',
-      //   'footer',
-      //   'job-tags',
-      //   'job-detail',
-      //   'job-common',
-      //   'job-application',
-      // ],
+      namespacesRequired: [
+        'common',
+        'navbar',
+        'footer',
+        'job-tags',
+        'job-detail',
+        'job-common',
+        'job-application',
+      ],
     };
   } catch {
     listingItem = {};
   }
 };
 
-// VacancyDetail.propTypes = {
-//   t: PropTypes.func.isRequired,
-// };
+VacancyDetail.propTypes = {
+  t: PropTypes.func.isRequired,
+};
 
-export default withTranslation([
-  'common',
-  'navbar',
-  'footer',
-  'job-tags',
-  'job-detail',
-  'job-common',
-  'job-application',
-])(VacancyDetail);
+export default withTranslation()(VacancyDetail);
