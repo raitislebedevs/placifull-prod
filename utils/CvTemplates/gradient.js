@@ -10,11 +10,11 @@ const calendar = '/static/images/resume/calendar.png';
 const female = '/static/images/resume/female.png';
 const male = '/static/images/resume/male.png';
 const marker = '/static/images/resume/marker.png';
-const background = '/static/images/resume/JShine.jpg';
+const background = '/static/images/resume/JShine.png';
 
-const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
+const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
   let macPageHeight = 575;
-  let leftPadding = 20;
+  let leftPadding = 10;
   let yAxis = 100;
   let splitText = [];
   let maxWide = 110;
@@ -46,14 +46,9 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
     return dateB - dateA;
   });
 
-  doc.addImage(background, 'JPG', 0, 0, 75, 540);
-
-  doc.setFillColor(38, 55, 65);
-  doc.rect(0, 0, 540, 67, 'F');
-
   doc.setFillColor(230, 230, 232);
   doc.rect(0, 0, 125, 840, 'F');
-
+  doc.addImage(background, 'PNG', 0, 0, 540, 100);
   let extension = avatar?.ext.replace('.', '').toUpperCase();
   let image = avatar.url;
   doc.addImage(image, extension, 27, 15, 82, 75);
@@ -63,12 +58,13 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
 
   doc.setLineWidth(20);
   doc.setDrawColor(230, 230, 232);
-  doc.circle(67, 52, 47, 'S');
+  // doc.circle(67, 52, 47, 'S');
 
   doc.setLineWidth(1);
-  doc.setDrawColor(38, 55, 65);
+  doc.setDrawColor(255, 255, 255);
   doc.circle(67, 52, 37.5, 'S');
-
+  doc.setLineWidth(1);
+  doc.circle(67, 52, 43, 'S');
   //Name and position
 
   //595 × 842 points.
@@ -159,32 +155,33 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
   if (yAxis > macPageHeight) {
     createNewPage(doc);
   }
-  //   writeHeader(doc, t('cv:labels.languages'));
-  //   doc.setFont(cvPdfNormalFont, 'normal');
-  //   yAxis = yAxis + 5;
-  //   doc.setFontSize(8);
-  //   if (languageSkills.length != 0) {
-  //     languageSkills.forEach((element) => {
-  //       if (element?.languageName) {
-  //         let height = writeLanguage(doc, element?.languageName);
-  //         yAxis -= 1.5;
-  //         let skill = getRatingValue(element?.level);
-  //         for (var i = 0; i < 7; i++) {
-  //           if (skill > i) {
-  //             doc.setFillColor(38, 55, 65);
-  //             doc.circle(75 + i * 7.5, yAxis, 3, 'F');
-  //             continue;
-  //           }
-  //           doc.setFillColor(220, 220, 220);
-  //           doc.circle(75 + i * 7.5, yAxis, 3, 'F');
-  //         }
-  //         yAxis += height + 8.5;
-  //         if (yAxis > macPageHeight) {
-  //           createNewPage(doc);
-  //         }
-  //       }
-  //     });
-  //   }
+
+  writeHeader(doc, t('cv:labels.languages'));
+  doc.setFont(cvPdfNormalFont, 'normal');
+  yAxis = yAxis + 5;
+  doc.setFontSize(8);
+  if (languageSkills.length != 0) {
+    languageSkills.forEach((element) => {
+      if (element?.languageName) {
+        let height = writeLanguage(doc, element?.languageName);
+        yAxis -= 1.5;
+        let skill = getRatingValue(element?.level);
+        for (var i = 0; i < 7; i++) {
+          if (skill > i) {
+            doc.setFillColor(38, 55, 65);
+            doc.circle(75 + i * 7.5, yAxis, 3, 'F');
+            continue;
+          }
+          doc.setFillColor(220, 220, 220);
+          doc.circle(75 + i * 7.5, yAxis, 3, 'F');
+        }
+        yAxis += height + 8.5;
+        if (yAxis > macPageHeight) {
+          createNewPage(doc);
+        }
+      }
+    });
+  }
 
   //   yAxis = yAxis + 15;
   //   if (yAxis > macPageHeight) {
@@ -527,4 +524,4 @@ const getExpierience = (level) => {
   }
 };
 
-export default simpleGrey;
+export default gradient;
