@@ -1,6 +1,7 @@
 import { openSansBold } from 'fonts/OpenSans-Bold-bold';
 import { openSansRegular } from 'fonts/OpenSans-Regular-normal';
 import jsPDF from 'jspdf';
+import gradient from './CvTemplates/gradient';
 import placifullTemplate from './CvTemplates/placifullTemplate';
 import simpleGrey from './CvTemplates/simpleGrey';
 
@@ -16,6 +17,9 @@ const generateResume = async (cv, t, cvCurrency, rgb, template, avatar) => {
 
   if (template === 'simpleGrey')
     simpleGrey(doc, cv, t, cvCurrency, rgb, avatar);
+
+  if (template === 'sunsetGadient')
+    gradient(doc, cv, t, cvCurrency, rgb, avatar);
 };
 
 export default generateResume;
