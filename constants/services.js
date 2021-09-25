@@ -114,3 +114,7 @@ export const REFERRAL_PROGRAM = {
 export const BLOGS = {
   BASE: '/blogs',
 };
+
+export const REAL_ESTATE_FILTER = {
+  BASE: '/real-estate-filters',
+};

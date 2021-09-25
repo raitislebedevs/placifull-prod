@@ -4,6 +4,7 @@ import { Form, Button, Spinner } from 'react-bootstrap';
 import { formatPhoneNumber } from 'utils/standaloneFunctions';
 import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
 import { CommonServices } from 'services';
+import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import validation from './validation';
 import { connect } from 'react-redux';
@@ -145,8 +146,12 @@ const ContactForm = (props) => {
         <div className={'social__Links'}>
           {facebookLink()} {instagramLink()} {youtubeLink()} {twitterLink()}
         </div>
-        <p className="info">{listingItem?.email}</p>
-        <p>+ {formatPhoneNumber(listingItem?.phone)}</p>
+        <p className="info">
+          <AiOutlineMail /> {listingItem?.email}
+        </p>
+        <p>
+          <AiOutlinePhone /> + {formatPhoneNumber(listingItem?.phone)}
+        </p>
         <p className="info">{listingItem?.websiteLink}</p>
       </div>
       <Form className="contact-form__form" onSubmit={handleSubmit}>

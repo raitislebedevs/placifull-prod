@@ -181,6 +181,11 @@ const RealEstatePost = (props) => {
         t('common:toast.messages.success'),
         t('common:toast.submit-success')
       );
+
+      RealEstateListingServices.NOTIFY_USERS({
+        id: listingId,
+      });
+
       setTimeout(() => {
         router.push(`/real-estate/${listingId}`);
       }, 1500);
@@ -252,6 +257,7 @@ const RealEstatePost = (props) => {
   // Opportunity to look at the listing preview
   const handlePreview = async (e) => {
     e.preventDefault();
+
     const { errors } = await RealEstateValidation(inputValues, t);
     if (errors) {
       for (let i = 0; i < 3; i++) {

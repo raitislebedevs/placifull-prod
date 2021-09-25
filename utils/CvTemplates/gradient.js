@@ -13,7 +13,7 @@ const marker = '/static/images/resume/marker.png';
 const background = '/static/images/resume/JShine.png';
 
 const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
-  let macPageHeight = 575;
+  let maxPageHeight = 575;
   let leftPadding = 10;
   let yAxis = 100;
   let splitText = [];
@@ -112,7 +112,7 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
 
   if (educationDetail.length != 0) {
     yAxis = yAxis + 15;
-    if (yAxis > macPageHeight) {
+    if (yAxis > maxPageHeight) {
       createNewPage(doc);
     }
     writeHeader(doc, t('cv:labels.education'));
@@ -146,13 +146,13 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
       if (idx === array.length - 1) {
         return;
       }
-      if (yAxis > macPageHeight) {
+      if (yAxis > maxPageHeight) {
         createNewPage(doc);
       }
     });
   }
   yAxis = yAxis + 25;
-  if (yAxis > macPageHeight) {
+  if (yAxis > maxPageHeight) {
     createNewPage(doc);
   }
 
@@ -176,7 +176,7 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
           doc.circle(75 + i * 7.5, yAxis, 3, 'F');
         }
         yAxis += height + 8.5;
-        if (yAxis > macPageHeight) {
+        if (yAxis > maxPageHeight) {
           createNewPage(doc);
         }
       }
@@ -184,7 +184,7 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
   }
 
   //   yAxis = yAxis + 15;
-  //   if (yAxis > macPageHeight) {
+  //   if (yAxis > maxPageHeight) {
   //     createNewPage(doc);
   //   }
   //   writeHeader(doc, t('cv:labels.computer-skills'));
@@ -201,7 +201,7 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
 
   //         writeComputerSkill(doc, element);
   //         yAxis += height + 8.5;
-  //         if (yAxis > macPageHeight) {
+  //         if (yAxis > maxPageHeight) {
   //           createNewPage(doc);
   //         }
   //       }
@@ -209,7 +209,7 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
   //   }
 
   //   yAxis = yAxis + 25;
-  //   if (yAxis > macPageHeight) {
+  //   if (yAxis > maxPageHeight) {
   //     createNewPage(doc);
   //   }
 
@@ -230,7 +230,7 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
   //       if (idx === array.length - 1) {
   //         return;
   //       }
-  //       if (yAxis > macPageHeight) {
+  //       if (yAxis > maxPageHeight) {
   //         createNewPage(doc);
   //       }
   //     });
@@ -251,7 +251,7 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
 
   //   if (workExpierience.length != 0) {
   //     yAxis = yAxis + 20;
-  //     if (yAxis > macPageHeight) {
+  //     if (yAxis > maxPageHeight) {
   //       createNewPage(doc);
   //     }
   //     writeHeader(doc, t('cv:labels.expierience'));
@@ -285,14 +285,14 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
   //       if (idx === array.length - 1) {
   //         return;
   //       }
-  //       if (yAxis > macPageHeight) {
+  //       if (yAxis > maxPageHeight) {
   //         createNewPage(doc);
   //       }
   //     });
   //   }
 
   //   yAxis = yAxis + 20;
-  //   if (yAxis > macPageHeight) {
+  //   if (yAxis > maxPageHeight) {
   //     createNewPage(doc);
   //   }
 
@@ -346,7 +346,7 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
   //       if (idx === array.length - 1) {
   //         return;
   //       }
-  //       if (yAxis > macPageHeight) {
+  //       if (yAxis > maxPageHeight) {
   //         createNewPage(doc);
   //       }
   //     });

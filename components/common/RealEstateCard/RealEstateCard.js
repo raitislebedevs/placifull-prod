@@ -54,7 +54,7 @@ const RealEstateCard = (props) => {
         >
           {item?.listingGallery?.length > 0 ? (
             item?.listingGallery?.map((i) => (
-              <div classNama="cover__image" key={i?.id}>
+              <div className="cover__image" key={i?.id}>
                 <img
                   src={i.url}
                   className="carousel-container__item"
