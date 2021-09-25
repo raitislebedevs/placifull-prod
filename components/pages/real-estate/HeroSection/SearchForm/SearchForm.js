@@ -17,7 +17,6 @@ import {
 } from 'components/common';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fields from './fields';
-import { FaRemoveFormat } from 'react-icons/fa';
 import { IoIosSave } from 'react-icons/io';
 import mainFields from './mainFields';
 import locationFields from './locationFields';
@@ -723,26 +722,49 @@ const SearchForm = (props) => {
                 </AccordionToggle>
               </Col>
               <Col lg={1} md={2}>
-                <Button
-                  variant="primary"
-                  size="lg"
-                  disabled={isSavingFilter}
-                  onClick={saveUserFilter}
-                  className="alert__button alert__on"
-                >
-                  {isSavingFilter ? (
-                    <Spinner
-                      as="span"
-                      animation="border"
-                      size="sm"
-                      role="status"
-                    />
-                  ) : (
-                    <>
-                      <IoIosSave className="button__icon" />
-                    </>
-                  )}
-                </Button>
+                {_.isEmpty(filterItem) ? (
+                  <Button
+                    variant="dark"
+                    size="lg"
+                    disabled={isSavingFilter}
+                    onClick={saveUserFilter}
+                    className="alert__button alert__on"
+                  >
+                    {isSavingFilter ? (
+                      <Spinner
+                        as="span"
+                        animation="border"
+                        size="sm"
+                        role="status"
+                      />
+                    ) : (
+                      <>
+                        <IoIosSave className="button__icon" />
+                      </>
+                    )}
+                  </Button>
+                ) : (
+                  <Button
+                    variant="primary"
+                    size="lg"
+                    disabled={isSavingFilter}
+                    onClick={saveUserFilter}
+                    className="alert__button alert__on"
+                  >
+                    {isSavingFilter ? (
+                      <Spinner
+                        as="span"
+                        animation="border"
+                        size="sm"
+                        role="status"
+                      />
+                    ) : (
+                      <>
+                        <IoIosSave className="button__icon" />
+                      </>
+                    )}
+                  </Button>
+                )}
               </Col>
               {/* <Col lg={1} md={2}>
                 <Button
