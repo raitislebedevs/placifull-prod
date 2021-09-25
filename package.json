@@ -31,6 +31,7 @@
     "leaflet": "^1.7.1",
     "leaflet-draw": "^1.0.4",
     "leaflet-geosearch": "^3.2.1",
+    "loadash": "^1.0.0",
     "moment": "^2.29.1",
     "next": "^10.2.3",
     "next-compose-plugins": "^2.2.1",

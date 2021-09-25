@@ -25,10 +25,13 @@ import NumberFormat from 'react-number-format';
 import Datetime from 'react-datetime';
 import housingFields from './housingFields';
 import landFields from './landFields';
+import { connect } from 'react-redux';
 import TagServices from 'services/tagServices';
 import guidGenerator from 'utils/guidGenerator';
 import { cleanObject } from 'utils/standaloneFunctions';
 import { MEETER_FEET_AREA } from 'constants/conversation';
+import RealEstateFilterService from 'services/realEstateFilterService';
+import _ from 'lodash';
 
 function AccordionToggle({ children, eventKey, callback }) {
   const currentEventKey = useContext(AccordionContext);
@@ -52,8 +55,14 @@ function AccordionToggle({ children, eventKey, callback }) {
 }
 
 const SearchForm = (props) => {
-  const { t, setFilter, isFetchingListing, setIsFetchingListing, polygon } =
-    props;
+  const {
+    t,
+    setFilter,
+    isFetchingListing,
+    setIsFetchingListing,
+    polygon,
+    user,
+  } = props;
 
   const [inputValues, setInputValues] = useState({ tags: [] });
   const [activeItem, setActiveItem] = useState([]);
@@ -63,6 +72,8 @@ const SearchForm = (props) => {
   const [landTags, setlandTags] = useState([]);
   const [agentTags, setAgentTags] = useState([]);
   const [getConverted, setGetConverted] = useState(false);
+  const [isSavingFilter, setIsSavingFilter] = useState(false);
+  const [filterItem, setFilterItem] = useState({});
 
   const formFields = mainFields(t);
   const inputFields = fields(t, submitCurrency);
@@ -288,6 +299,174 @@ const SearchForm = (props) => {
     } catch (e) {
       console.log(e);
       setIsFetchingListing(false);
+    }
+  };
+
+  ///
+  ///
+  ///
+  ///
+  /// FILTERING CODE
+  ///
+  ///
+  ///
+  ///
+
+  useEffect(() => {}, []);
+
+  const saveUserFilter = async () => {
+    setIsSavingFilter(true);
+    if (user?.id) {
+      await realEstateFilter();
+      await getRealEstateFilter();
+    }
+
+    setIsSavingFilter(false);
+  };
+
+  const realEstateFilter = async () => {
+    try {
+      let convertHelper = {};
+      let payload = getPayload(convertHelper);
+      let isFilterSaved = _.isEmpty(filterItem);
+      let isPayloadEmpty = _.isEmpty(payload);
+
+      payload.convertHelper = convertHelper || null;
+      payload.polygon = polygon || null;
+      payload.user = user?.id || null;
+
+      if (getConverted && inputValues?.areaMeasurement?.value) {
+        convertHelper.areaMeasurement =
+          inputValues?.areaMeasurement?.value == 'metter' ? 'feet' : 'metter';
+        convertHelper.metter = {
+          area_gte:
+            inputValues?.areaMeasurement?.value == 'metter'
+              ? minValue
+              : minValue / MEETER_FEET_AREA,
+
+          area_lte:
+            inputValues?.areaMeasurement?.value == 'metter'
+              ? maxValue
+              : maxValue / MEETER_FEET_AREA,
+        };
+        convertHelper.feet = {
+          area_gte:
+            inputValues?.areaMeasurement?.value == 'feet'
+              ? minValue
+              : minValue * MEETER_FEET_AREA,
+          area_lte:
+            inputValues?.areaMeasurement?.value == 'feet'
+              ? maxValue
+              : maxValue * MEETER_FEET_AREA,
+        };
+      }
+
+      if (!user?.id) {
+        return;
+      }
+
+      if (isPayloadEmpty && filterItem?.id) {
+        await RealEstateFilterService.DELETE(filterItem?.id);
+        return;
+      }
+
+      if (filterItem?.id && !isPayloadEmpty) {
+        await RealEstateFilterService.DELETE(filterItem?.id);
+        const formData = new FormData();
+        formData.append('data', JSON.stringify(payload));
+        await RealEstateFilterService.CREATE(formData);
+        return;
+      }
+
+      if (isFilterSaved && !isPayloadEmpty) {
+        const formData = new FormData();
+        formData.append('data', JSON.stringify(payload));
+        await RealEstateFilterService.CREATE(formData);
+        return;
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const getPayload = () => {
+    let payload = {};
+    let listTagId = [];
+    tagOptions.map((tag) => {
+      if (inputValues[`${tag.nameTag}`]) {
+        listTagId.push(tag.id);
+      }
+    });
+
+    payload = {
+      ...cleanObject({
+        category_contains: inputValues?.category?.value || null,
+        action_contains: inputValues?.action?.value || null,
+        condition_contains: inputValues?.condition?.value || null,
+        areaMeasurement_contains: inputValues?.areaMeasurement?.value || null,
+
+        country_id: inputValues?.country || null,
+        state_id: inputValues?.state || null,
+        city_id: inputValues?.city || null,
+        currency_id: inputValues?.currency || null,
+
+        price_gte:
+          Number(inputValues?.minPrice?.replace(/[^\d.-]/g, '')) || null,
+        price_lte:
+          Number(inputValues?.maxPrice?.replace(/[^\d.-]/g, '')) || null,
+        rooms_gte:
+          Number(inputValues?.minRoom?.replace(/[^\d.-]/g, '')) || null,
+        rooms_lte:
+          Number(inputValues?.maxRoom?.replace(/[^\d.-]/g, '')) || null,
+        area_gte: Number(inputValues?.minArea?.replace(/m2/g, '')) || null,
+        area_lte: Number(inputValues?.maxArea?.replace(/m2/g, '')) || null,
+        totalUltilities_gte:
+          Number(inputValues?.minBill?.replace(/[^\d.-]/g, '')) || null,
+        totalUltilities_lte:
+          Number(inputValues?.maxBill?.replace(/[^\d.-]/g, '')) || null,
+        tags: listTagId.length > 0 ? listTagId : null,
+
+        inFloor_gte: Number(inputValues?.minFloor) || null,
+        inFloor_lte: Number(inputValues?.maxFloor) || null,
+
+        floors_gte: Number(inputValues?.minFloors) || null,
+        floors_lte: Number(inputValues?.maxFloors) || null,
+
+        moveInDate_gte: inputValues?.moveInDate
+          ? new Date(inputValues?.moveInDate)
+          : null,
+        moveOutDate_lte: inputValues?.moveOutDate
+          ? new Date(inputValues?.moveOutDate)
+          : null,
+
+        yearBuilt_gte: inputValues?.minYear
+          ? new Date(inputValues?.minYear)
+          : null,
+        yearBuilt_lte: inputValues?.maxYear
+          ? new Date(inputValues?.maxYear)
+          : null,
+      }),
+    };
+
+    return payload;
+  };
+
+  useEffect(() => {
+    if (user?.id) getRealEstateFilter();
+  }, [user]);
+
+  const getRealEstateFilter = async () => {
+    try {
+      const { data } = await RealEstateFilterService.FIND({
+        _where: {
+          user: user.id,
+        },
+      });
+      if (data.length > 0) return setFilterItem(data[0]);
+
+      setFilterItem({});
+    } catch (e) {
+      console.log(e);
     }
   };
 
@@ -543,14 +722,15 @@ const SearchForm = (props) => {
                   {t('real-estate:hero.form.accordion')}
                 </AccordionToggle>
               </Col>
-              {/* <Col lg={1} md={2}>
+              <Col lg={1} md={2}>
                 <Button
                   variant="primary"
                   size="lg"
-                  disabled={isFetchingListing}
+                  disabled={isSavingFilter}
+                  onClick={saveUserFilter}
                   className="alert__button alert__on"
                 >
-                  {isFetchingListing ? (
+                  {isSavingFilter ? (
                     <Spinner
                       as="span"
                       animation="border"
@@ -564,14 +744,15 @@ const SearchForm = (props) => {
                   )}
                 </Button>
               </Col>
-              <Col lg={1} md={2}>
+              {/* <Col lg={1} md={2}>
                 <Button
                   variant="primary"
                   size="lg"
-                  disabled={isFetchingListing}
+                  disabled={isSavingFilter}
+                  onClick={clearUserFilter}
                   className="alert__button alert__clear"
                 >
-                  {isFetchingListing ? (
+                  {isSavingFilter ? (
                     <Spinner
                       as="span"
                       animation="border"
@@ -859,4 +1040,8 @@ const SearchForm = (props) => {
   );
 };
 
-export default SearchForm;
+export const mapStateToProps = (state) => ({
+  user: state.connectionReducer.user,
+});
+
+export default connect(mapStateToProps)(SearchForm);
