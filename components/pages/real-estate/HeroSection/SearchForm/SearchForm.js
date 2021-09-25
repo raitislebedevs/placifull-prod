@@ -311,8 +311,6 @@ const SearchForm = (props) => {
   ///
   ///
 
-  useEffect(() => {}, []);
-
   const saveUserFilter = async () => {
     setIsSavingFilter(true);
     if (user?.id) {
@@ -461,7 +459,7 @@ const SearchForm = (props) => {
           user: user.id,
         },
       });
-      if (data.length > 0) return setFilterItem(data[0]);
+      if (data?.length > 0) return setFilterItem(data[0]);
 
       setFilterItem({});
     } catch (e) {

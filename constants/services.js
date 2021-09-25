@@ -118,3 +118,7 @@ export const BLOGS = {
 export const REAL_ESTATE_FILTER = {
   BASE: '/real-estate-filters',
 };
+
+export const TRANSPORT_FILTER = {
+  BASE: '/transport-filters',
+};

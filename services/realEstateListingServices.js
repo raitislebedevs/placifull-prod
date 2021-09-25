@@ -4,8 +4,6 @@ import axios from 'axios';
 
 class RealEstateListingServices extends CoreServices {
   async NOTIFY_USERS(payload) {
-    console.log(payload);
-    console.log(`${this.apiEnpoint}${this.service}/notify-user`);
     try {
       await axios.post(
         `${this.apiEnpoint}${this.service}/notify-user`,

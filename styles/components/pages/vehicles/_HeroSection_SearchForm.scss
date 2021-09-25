@@ -84,6 +84,25 @@
           margin-right: 3px;
         }
       }
+      .alert__button {
+        transition: 1s all;
+        width: 100%;
+        height: 34px;
+        padding-top: 0px;
+        border-radius: 7px;
+        font-size: 20px;
+        .button__icon {
+          margin-right: 3px;
+        }
+      }
+      .alert__on {
+        //background-color: darkgreen;
+        border: none;
+      }
+      .alert__clear {
+        //background-color: darkblue;
+        border: none;
+      }
     }
     @media screen and (max-width: 990px) {
       .form__accordion {

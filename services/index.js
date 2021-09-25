@@ -19,3 +19,5 @@ export { default as SubscriberService } from './subscriberService';
 export { default as VotingBoardService } from './votingBoardService';
 export { default as RefferalServices } from './refferalServices';
 export { default as BlogService } from './blogService';
+export { default as RealEstateFilterService } from './realEstateFilterService';
+export { default as TransportFilterService } from './transportFilterService';
