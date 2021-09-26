@@ -122,3 +122,7 @@ export const REAL_ESTATE_FILTER = {
 export const TRANSPORT_FILTER = {
   BASE: '/transport-filters',
 };
+
+export const VACANCY_FILTERS = {
+  BASE: '/vacancy-filters',
+};

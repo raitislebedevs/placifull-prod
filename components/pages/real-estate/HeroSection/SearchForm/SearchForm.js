@@ -719,7 +719,7 @@ const SearchForm = (props) => {
                   {t('real-estate:hero.form.accordion')}
                 </AccordionToggle>
               </Col>
-              <Col lg={1} md={2}>
+              <Col lg={1} md={2} sm={2} xs={6}>
                 {_.isEmpty(filterItem) ? (
                   <Button
                     variant="dark"

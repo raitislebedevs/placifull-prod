@@ -21,3 +21,4 @@ export { default as RefferalServices } from './refferalServices';
 export { default as BlogService } from './blogService';
 export { default as RealEstateFilterService } from './realEstateFilterService';
 export { default as TransportFilterService } from './transportFilterService';
+export { default as VacancyFilter } from './vacancyFilter';

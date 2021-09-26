@@ -25,6 +25,10 @@ import guidGenerator from 'utils/guidGenerator';
 import jobVacancyOption from 'components//fields/jobVacancyOption';
 import locationNotMandatory from 'components//fields/locationNotMandatory';
 import jobSearchFields from 'components//fields/jobSearchFields';
+import _ from 'lodash';
+import { connect } from 'react-redux';
+import { IoIosSave } from 'react-icons/io';
+import { VacancyFilter } from 'services';
 
 function AccordionToggle({ children, eventKey, callback }) {
   const currentEventKey = useContext(AccordionContext);
@@ -48,13 +52,21 @@ function AccordionToggle({ children, eventKey, callback }) {
 }
 
 const SearchForm = (props) => {
-  const { t, setFilter, isFetchingListing, setIsFetchingListing, polygon } =
-    props;
+  const {
+    t,
+    setFilter,
+    isFetchingListing,
+    setIsFetchingListing,
+    polygon,
+    user,
+  } = props;
   const [inputValues, setInputValues] = useState({});
   const [tagOptions, setTagOptions] = useState([]);
   const [activeItem, setActiveItem] = useState([]);
   const [languages, setLanguages] = useState();
   const [submitCurrency, setsubmitCurrency] = useState();
+  const [isSavingFilter, setIsSavingFilter] = useState(false);
+  const [filterItem, setFilterItem] = useState({});
   const inputFields = jobVacancyOption(t);
   const [selectOptions, setSelectOptions] = useState({
     country: [],
@@ -219,6 +231,128 @@ const SearchForm = (props) => {
     }
   };
 
+  ///
+  ///
+  ///
+  ///
+  /// FILTERING CODE
+  ///
+  ///
+  ///
+  ///
+
+  const saveUserFilter = async () => {
+    setIsSavingFilter(true);
+    if (user?.id) {
+      await realEstateFilter();
+      await getRealEstateFilter();
+    }
+
+    setIsSavingFilter(false);
+  };
+
+  const realEstateFilter = async () => {
+    try {
+      let payload = getPayload();
+      let isFilterSaved = _.isEmpty(filterItem);
+      let isPayloadEmpty = _.isEmpty(payload);
+
+      payload.polygon = polygon || null;
+      payload.user = user?.id || null;
+
+      if (!user?.id) {
+        return;
+      }
+
+      if (isPayloadEmpty && filterItem?.id) {
+        await VacancyFilter.DELETE(filterItem?.id);
+        return;
+      }
+
+      if (filterItem?.id && !isPayloadEmpty) {
+        await VacancyFilter.DELETE(filterItem?.id);
+        const formData = new FormData();
+        formData.append('data', JSON.stringify(payload));
+        await VacancyFilter.CREATE(formData);
+        return;
+      }
+
+      if (isFilterSaved && !isPayloadEmpty) {
+        const formData = new FormData();
+        formData.append('data', JSON.stringify(payload));
+        await VacancyFilter.CREATE(formData);
+        return;
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const getPayload = () => {
+    let payload = {};
+    let listTagId = [];
+    tagOptions.map((tag) => {
+      if (inputValues[`${tag.nameTag}`]) {
+        listTagId.push(tag.id);
+      }
+    });
+
+    payload = {
+      ...cleanObject({
+        vacancyOption_contains: inputValues?.vacancyOption?.value || null,
+        contractType_contains: inputValues?.contractType?.value || null,
+        workingTime_contains: inputValues?.workingTime?.value || null,
+        country_id: inputValues?.country || null,
+        state_id: inputValues?.state || null,
+        city_id: inputValues?.city || null,
+        currency_id: inputValues?.jobCurrency || null,
+
+        enLanguages: inputValues?.languagesEnglish?.languageList || null,
+        nativeLanguages: inputValues?.languagesNative?.languageList || null,
+        tags: listTagId.length > 0 ? listTagId : null,
+
+        annualSalaryFrom_gte:
+          Number(inputValues?.annualSalaryFrom?.replace(/[^\d.-]/g, '')) ||
+          null,
+        annualSalaryTo_lte:
+          Number(inputValues?.annualSalaryTo?.replace(/[^\d.-]/g, '')) || null,
+
+        monthlySalaryFrom_gte:
+          Number(inputValues?.monthlySalaryFrom?.replace(/[^\d.-]/g, '')) ||
+          null,
+        monthlySalaryTo_lte:
+          Number(inputValues?.monthlySalaryTo?.replace(/[^\d.-]/g, '')) || null,
+
+        hourlySalaryFrom_gte:
+          Number(inputValues?.hourlySalaryFrom?.replace(/[^\d.-]/g, '')) ||
+          null,
+        hourlySalaryTo_lte:
+          Number(inputValues?.hourlySalaryTo?.replace(/[^\d.-]/g, '')) || null,
+      }),
+    };
+
+    return payload;
+  };
+
+  useEffect(() => {
+    if (user?.id) getRealEstateFilter();
+  }, [user]);
+
+  const getRealEstateFilter = async () => {
+    try {
+      const { data } = await VacancyFilter.FIND({
+        _where: {
+          user: user.id,
+        },
+      });
+      if (data?.length > 0) return setFilterItem(data[0]);
+
+      setFilterItem({});
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
   return (
     <div className="hero__search-form">
       <Container>
@@ -332,9 +466,81 @@ const SearchForm = (props) => {
             </Col>
           </Row>
           <Accordion className="form__accordion">
-            <AccordionToggle eventKey={1}>
-              {t('job-search:form.accordion.label')}
-            </AccordionToggle>
+            <Row>
+              <Col>
+                <AccordionToggle eventKey={1}>
+                  {t('job-search:form.accordion.label')}
+                </AccordionToggle>
+              </Col>
+              <Col lg={1} md={2} sm={2} xs={6}>
+                {_.isEmpty(filterItem) ? (
+                  <Button
+                    variant="dark"
+                    size="lg"
+                    disabled={isSavingFilter}
+                    onClick={saveUserFilter}
+                    className="alert__button alert__on"
+                  >
+                    {isSavingFilter ? (
+                      <Spinner
+                        as="span"
+                        animation="border"
+                        size="sm"
+                        role="status"
+                      />
+                    ) : (
+                      <>
+                        <IoIosSave className="button__icon" />
+                      </>
+                    )}
+                  </Button>
+                ) : (
+                  <Button
+                    variant="primary"
+                    size="lg"
+                    disabled={isSavingFilter}
+                    onClick={saveUserFilter}
+                    className="alert__button alert__on"
+                  >
+                    {isSavingFilter ? (
+                      <Spinner
+                        as="span"
+                        animation="border"
+                        size="sm"
+                        role="status"
+                      />
+                    ) : (
+                      <>
+                        <IoIosSave className="button__icon" />
+                      </>
+                    )}
+                  </Button>
+                )}
+              </Col>
+              {/* <Col lg={1} md={2}>
+                <Button
+                  variant="primary"
+                  size="lg"
+                  disabled={isSavingFilter}
+                  onClick={clearUserFilter}
+                  className="alert__button alert__clear"
+                >
+                  {isSavingFilter ? (
+                    <Spinner
+                      as="span"
+                      animation="border"
+                      size="sm"
+                      role="status"
+                    />
+                  ) : (
+                    <>
+                      <FaRemoveFormat className="button__icon" />
+                    </>
+                  )}
+                </Button>
+              </Col> */}
+            </Row>
+
             <Accordion.Collapse eventKey={1}>
               <Row>
                 {tagOptions.length > 0 ? (
@@ -452,4 +658,8 @@ const SearchForm = (props) => {
   );
 };
 
-export default SearchForm;
+export const mapStateToProps = (state) => ({
+  user: state.connectionReducer.user,
+});
+
+export default connect(mapStateToProps)(SearchForm);
