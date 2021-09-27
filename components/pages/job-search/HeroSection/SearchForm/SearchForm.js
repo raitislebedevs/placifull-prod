@@ -375,6 +375,7 @@ const SearchForm = (props) => {
                       value={inputValues[item.key]}
                       options={item.options}
                       placeholder={item.placeholder}
+                      isSearchable={true}
                     />
                   </Col>
                 );
@@ -389,6 +390,7 @@ const SearchForm = (props) => {
                         searchForm={true}
                         placeholder={t('job-search:form.currency')}
                         currencyId={item.key}
+                        isSearchable={true}
                       />
                     </Form.Group>
                   </Col>
