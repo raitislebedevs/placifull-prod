@@ -7,6 +7,7 @@ import { CommonServices } from 'services';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import validation from './validation';
 import { connect } from 'react-redux';
+import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
 
 const ContactForm = (props) => {
   const { t, listingItem, user } = props;
@@ -144,8 +145,12 @@ const ContactForm = (props) => {
         <div className={'social__Links'}>
           {facebookLink()} {instagramLink()} {youtubeLink()} {twitterLink()}
         </div>
-        <p className="info">{listingItem?.email}</p>
-        <p>+{formatPhoneNumber(listingItem?.phone)}</p>
+        <p className="info">
+          <AiOutlineMail /> {listingItem?.email}
+        </p>
+        <p>
+          <AiOutlinePhone /> + {formatPhoneNumber(listingItem?.phone)}
+        </p>
         <p className="info">{listingItem?.websiteLink}</p>
       </div>
       <Form className="contact-form__form" onSubmit={handleSubmit}>

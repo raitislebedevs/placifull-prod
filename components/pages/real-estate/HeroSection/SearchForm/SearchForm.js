@@ -719,51 +719,53 @@ const SearchForm = (props) => {
                   {t('real-estate:hero.form.accordion')}
                 </AccordionToggle>
               </Col>
-              <Col lg={1} md={2}>
-                {_.isEmpty(filterItem) ? (
-                  <Button
-                    variant="dark"
-                    size="lg"
-                    disabled={isSavingFilter}
-                    onClick={saveUserFilter}
-                    className="alert__button alert__on"
-                  >
-                    {isSavingFilter ? (
-                      <Spinner
-                        as="span"
-                        animation="border"
-                        size="sm"
-                        role="status"
-                      />
-                    ) : (
-                      <>
-                        <IoIosSave className="button__icon" />
-                      </>
-                    )}
-                  </Button>
-                ) : (
-                  <Button
-                    variant="primary"
-                    size="lg"
-                    disabled={isSavingFilter}
-                    onClick={saveUserFilter}
-                    className="alert__button alert__on"
-                  >
-                    {isSavingFilter ? (
-                      <Spinner
-                        as="span"
-                        animation="border"
-                        size="sm"
-                        role="status"
-                      />
-                    ) : (
-                      <>
-                        <IoIosSave className="button__icon" />
-                      </>
-                    )}
-                  </Button>
-                )}
-              </Col>
+              {user?.id && (
+                <Col lg={1} md={2} sm={2} xs={6}>
+                  {_.isEmpty(filterItem) ? (
+                    <Button
+                      variant="dark"
+                      size="lg"
+                      disabled={isSavingFilter}
+                      onClick={saveUserFilter}
+                      className="alert__button alert__on"
+                    >
+                      {isSavingFilter ? (
+                        <Spinner
+                          as="span"
+                          animation="border"
+                          size="sm"
+                          role="status"
+                        />
+                      ) : (
+                        <>
+                          <IoIosSave className="button__icon" />
+                        </>
+                      )}
+                    </Button>
+                  ) : (
+                    <Button
+                      variant="primary"
+                      size="lg"
+                      disabled={isSavingFilter}
+                      onClick={saveUserFilter}
+                      className="alert__button alert__on"
+                    >
+                      {isSavingFilter ? (
+                        <Spinner
+                          as="span"
+                          animation="border"
+                          size="sm"
+                          role="status"
+                        />
+                      ) : (
+                        <>
+                          <IoIosSave className="button__icon" />
+                        </>
+                      )}
+                    </Button>
+                  )}
+                </Col>
+              )}
               {/* <Col lg={1} md={2}>
                 <Button
                   variant="primary"

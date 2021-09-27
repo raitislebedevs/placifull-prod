@@ -77,7 +77,7 @@ const jobVacancyOption = (t) => ({
         },
         {
           value: 'infromationTechnology',
-          label: t('job-common:work-area.options.it'),
+          label: t('job-common:work-area.options.infromationTechnology'),
           id: 'vacancyOption',
         },
         {

@@ -164,6 +164,10 @@ const TransportSubmit = (props) => {
         getSubscriptions(user.id);
       }
 
+      TransportListingService.NOTIFY_USERS({
+        id: listingId,
+      });
+
       setTimeout(() => {
         router.push(`/transport/${listingId}`);
       }, 1500);
@@ -290,11 +294,6 @@ const TransportSubmit = (props) => {
         setsubmitCurrency={setsubmitCurrency}
         t={t}
       />
-      <Gallery
-        inputValues={inputValues}
-        handleOnChange={handleOnChange}
-        t={t}
-      />
       <DetailInformation
         inputValues={inputValues}
         addressPosition={addressPosition}
@@ -305,6 +304,11 @@ const TransportSubmit = (props) => {
         submitCurrency={submitCurrency}
         tagOptions={tagOptions}
         setTagOptions={setTagOptions}
+        t={t}
+      />
+      <Gallery
+        inputValues={inputValues}
+        handleOnChange={handleOnChange}
         t={t}
       />
       <SocialLinks

@@ -162,7 +162,9 @@ const JobPost = (props) => {
         t('common:toast.messages.success'),
         t('common:toast.submit-success')
       );
-
+      VacancyListingService.NOTIFY_USERS({
+        id: listingId,
+      });
       setTimeout(() => {
         router.push(`/job-search/${listingId}`);
       }, 1500);

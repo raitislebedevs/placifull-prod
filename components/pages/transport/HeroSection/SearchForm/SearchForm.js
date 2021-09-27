@@ -29,6 +29,7 @@ import {
 import _ from 'lodash';
 import { connect } from 'react-redux';
 import { IoIosSave } from 'react-icons/io';
+import { TransportFilterService } from 'services/index';
 
 function AccordionToggle({ children, eventKey, callback }) {
   const currentEventKey = useContext(AccordionContext);
@@ -213,71 +214,43 @@ const SearchForm = (props) => {
   const saveUserFilter = async () => {
     setIsSavingFilter(true);
     if (user?.id) {
-      await realEstateFilter();
-      await getRealEstateFilter();
+      await transportFilter();
+      await getTransportFilter();
     }
 
     setIsSavingFilter(false);
   };
 
-  const realEstateFilter = async () => {
+  const transportFilter = async () => {
     try {
-      let convertHelper = {};
-      let payload = getPayload(convertHelper);
+      let payload = getPayload();
       let isFilterSaved = _.isEmpty(filterItem);
       let isPayloadEmpty = _.isEmpty(payload);
 
-      payload.convertHelper = convertHelper || null;
       payload.polygon = polygon || null;
       payload.user = user?.id || null;
-
-      if (getConverted && inputValues?.areaMeasurement?.value) {
-        convertHelper.areaMeasurement =
-          inputValues?.areaMeasurement?.value == 'metter' ? 'feet' : 'metter';
-        convertHelper.metter = {
-          area_gte:
-            inputValues?.areaMeasurement?.value == 'metter'
-              ? minValue
-              : minValue / MEETER_FEET_AREA,
-
-          area_lte:
-            inputValues?.areaMeasurement?.value == 'metter'
-              ? maxValue
-              : maxValue / MEETER_FEET_AREA,
-        };
-        convertHelper.feet = {
-          area_gte:
-            inputValues?.areaMeasurement?.value == 'feet'
-              ? minValue
-              : minValue * MEETER_FEET_AREA,
-          area_lte:
-            inputValues?.areaMeasurement?.value == 'feet'
-              ? maxValue
-              : maxValue * MEETER_FEET_AREA,
-        };
-      }
 
       if (!user?.id) {
         return;
       }
 
       if (isPayloadEmpty && filterItem?.id) {
-        await RealEstateFilterService.DELETE(filterItem?.id);
+        await TransportFilterService.DELETE(filterItem?.id);
         return;
       }
 
       if (filterItem?.id && !isPayloadEmpty) {
-        await RealEstateFilterService.DELETE(filterItem?.id);
+        await TransportFilterService.DELETE(filterItem?.id);
         const formData = new FormData();
         formData.append('data', JSON.stringify(payload));
-        await RealEstateFilterService.CREATE(formData);
+        await TransportFilterService.CREATE(formData);
         return;
       }
 
       if (isFilterSaved && !isPayloadEmpty) {
         const formData = new FormData();
         formData.append('data', JSON.stringify(payload));
-        await RealEstateFilterService.CREATE(formData);
+        await TransportFilterService.CREATE(formData);
         return;
       }
     } catch (error) {
@@ -296,51 +269,50 @@ const SearchForm = (props) => {
 
     payload = {
       ...cleanObject({
-        category_contains: inputValues?.category?.value || null,
+        // name conventions mainly for DDL
+        transportType_contains: inputValues?.transportType?.value || null,
         action_contains: inputValues?.action?.value || null,
         condition_contains: inputValues?.condition?.value || null,
-        areaMeasurement_contains: inputValues?.areaMeasurement?.value || null,
+        engineType_contains: inputValues?.engineType?.value || null,
+        gearBox_contains: inputValues?.gearBox?.value || null,
+        color_contains: inputValues?.color?.value || null,
+
+        transportBrand_contains: inputValues?.transportBrand || null,
+        transportModel_contains: inputValues?.transportModel || null,
+
+        //Messurments
+
+        distanceMesurment_contains: inputValues?.millageMesurment || null,
+        speedMesurment_contains: inputValues?.speedMesurment || null,
+        fuelEconomyMesurment_contains:
+          inputValues?.fuelEconomyMesurment || null,
+        //Relationship Id's year
 
         country_id: inputValues?.country || null,
         state_id: inputValues?.state || null,
         city_id: inputValues?.city || null,
         currency_id: inputValues?.currency || null,
 
+        //Greatar than or equal, less than or equal comparisions
         price_gte:
           Number(inputValues?.minPrice?.replace(/[^\d.-]/g, '')) || null,
         price_lte:
           Number(inputValues?.maxPrice?.replace(/[^\d.-]/g, '')) || null,
-        rooms_gte:
-          Number(inputValues?.minRoom?.replace(/[^\d.-]/g, '')) || null,
-        rooms_lte:
-          Number(inputValues?.maxRoom?.replace(/[^\d.-]/g, '')) || null,
-        area_gte: Number(inputValues?.minArea?.replace(/m2/g, '')) || null,
-        area_lte: Number(inputValues?.maxArea?.replace(/m2/g, '')) || null,
-        totalUltilities_gte:
-          Number(inputValues?.minBill?.replace(/[^\d.-]/g, '')) || null,
-        totalUltilities_lte:
-          Number(inputValues?.maxBill?.replace(/[^\d.-]/g, '')) || null,
+
+        year_gte: inputValues?.minAge ? new Date(inputValues?.minAge) : null,
+        year_lte: inputValues?.maxAge ? new Date(inputValues?.maxAge) : null,
+
+        fuelEconomy_gte: Number(inputValues?.minUsage) || null,
+        fuelEconomy_lte: Number(inputValues?.maxUsage) || null,
+
+        maxSpeed_gte: Number(inputValues?.minSpeed) || null,
+        maxSpeed_lte: Number(inputValues?.maxSpeed) || null,
+
+        distance_gte: Number(inputValues?.minMillage) || null,
+        distance_lte: Number(inputValues?.maxMillage) || null,
+
+        //List of Tags
         tags: listTagId.length > 0 ? listTagId : null,
-
-        inFloor_gte: Number(inputValues?.minFloor) || null,
-        inFloor_lte: Number(inputValues?.maxFloor) || null,
-
-        floors_gte: Number(inputValues?.minFloors) || null,
-        floors_lte: Number(inputValues?.maxFloors) || null,
-
-        moveInDate_gte: inputValues?.moveInDate
-          ? new Date(inputValues?.moveInDate)
-          : null,
-        moveOutDate_lte: inputValues?.moveOutDate
-          ? new Date(inputValues?.moveOutDate)
-          : null,
-
-        yearBuilt_gte: inputValues?.minYear
-          ? new Date(inputValues?.minYear)
-          : null,
-        yearBuilt_lte: inputValues?.maxYear
-          ? new Date(inputValues?.maxYear)
-          : null,
       }),
     };
 
@@ -348,18 +320,18 @@ const SearchForm = (props) => {
   };
 
   useEffect(() => {
-    if (user?.id) getRealEstateFilter();
+    if (user?.id) getTransportFilter();
   }, [user]);
 
-  const getRealEstateFilter = async () => {
+  const getTransportFilter = async () => {
     try {
-      const { data } = await RealEstateFilterService.FIND({
+      const { data } = await TransportFilterService.FIND({
         _where: {
           user: user.id,
         },
       });
-      if (data.length > 0) return setFilterItem(data[0]);
 
+      if (data?.length > 0) return setFilterItem(data[0]);
       setFilterItem({});
     } catch (e) {
       console.log(e);
@@ -559,54 +531,56 @@ const SearchForm = (props) => {
             <Row>
               <Col>
                 <AccordionToggle eventKey={1}>
-                  {t('real-estate:hero.form.accordion')}
+                  {t('transport:hero.form.accordion')}
                 </AccordionToggle>
               </Col>
-              <Col lg={1} md={2}>
-                {_.isEmpty(filterItem) ? (
-                  <Button
-                    variant="dark"
-                    size="lg"
-                    disabled={isSavingFilter}
-                    onClick={saveUserFilter}
-                    className="alert__button alert__on"
-                  >
-                    {isSavingFilter ? (
-                      <Spinner
-                        as="span"
-                        animation="border"
-                        size="sm"
-                        role="status"
-                      />
-                    ) : (
-                      <>
-                        <IoIosSave className="button__icon" />
-                      </>
-                    )}
-                  </Button>
-                ) : (
-                  <Button
-                    variant="primary"
-                    size="lg"
-                    disabled={isSavingFilter}
-                    onClick={saveUserFilter}
-                    className="alert__button alert__on"
-                  >
-                    {isSavingFilter ? (
-                      <Spinner
-                        as="span"
-                        animation="border"
-                        size="sm"
-                        role="status"
-                      />
-                    ) : (
-                      <>
-                        <IoIosSave className="button__icon" />
-                      </>
-                    )}
-                  </Button>
-                )}
-              </Col>
+              {user?.id && (
+                <Col lg={1} md={2} sm={2} xs={6}>
+                  {_.isEmpty(filterItem) ? (
+                    <Button
+                      variant="dark"
+                      size="lg"
+                      disabled={isSavingFilter}
+                      onClick={saveUserFilter}
+                      className="alert__button alert__on"
+                    >
+                      {isSavingFilter ? (
+                        <Spinner
+                          as="span"
+                          animation="border"
+                          size="sm"
+                          role="status"
+                        />
+                      ) : (
+                        <>
+                          <IoIosSave className="button__icon" />
+                        </>
+                      )}
+                    </Button>
+                  ) : (
+                    <Button
+                      variant="primary"
+                      size="lg"
+                      disabled={isSavingFilter}
+                      onClick={saveUserFilter}
+                      className="alert__button alert__on"
+                    >
+                      {isSavingFilter ? (
+                        <Spinner
+                          as="span"
+                          animation="border"
+                          size="sm"
+                          role="status"
+                        />
+                      ) : (
+                        <>
+                          <IoIosSave className="button__icon" />
+                        </>
+                      )}
+                    </Button>
+                  )}
+                </Col>
+              )}
               {/* <Col lg={1} md={2}>
                 <Button
                   variant="primary"
