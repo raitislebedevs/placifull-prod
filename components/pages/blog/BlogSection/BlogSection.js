@@ -115,6 +115,7 @@ const BlogSection = (props) => {
         _limit: limit,
         _start: skip,
         _where: filter,
+        _sort: 'insertDate:desc',
       });
 
       const count = await BlogService.COUNT({
