@@ -283,7 +283,7 @@ const GeneralInformation = (props) => {
                     label={item.label}
                     defaultValue={
                       typeof initilizedValues[item.key] === 'undefined'
-                        ? null
+                        ? undefined
                         : initilizedValues[item.key]
                     }
                     onChange={handleOnChange}
@@ -312,9 +312,9 @@ const GeneralInformation = (props) => {
                     value={inputValues[item.key]}
                     defaultValue={
                       typeof initilizedValues == 'undefined'
-                        ? null
+                        ? undefined
                         : typeof initilizedValues[item.key] == 'undefined'
-                        ? null
+                        ? undefined
                         : initilizedValues[item.key]
                     }
                     type="text"

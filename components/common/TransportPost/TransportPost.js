@@ -59,6 +59,22 @@ const TransportSubmit = (props) => {
     fuelEconomyMesurment: 'litrePerKilometer',
     millageMesurment: 'kilometer',
     speedMesurment: 'kilometerPerHour',
+    address: '',
+
+    transportmonday_open: '',
+    transportmonday_close: '',
+    transporttuesday_open: '',
+    transporttuesday_close: '',
+    transportwednesday_open: '',
+    transportwednesday_close: '',
+    transportthursday_open: '',
+    transportthursday_close: '',
+    transportfriday_open: '',
+    transportfriday_close: '',
+    transportsaturday_open: '',
+    transportsaturday_close: '',
+    transportsunday_open: '',
+    transportsunday_close: '',
   };
 
   const [

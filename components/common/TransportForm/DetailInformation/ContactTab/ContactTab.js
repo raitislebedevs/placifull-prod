@@ -153,7 +153,6 @@ const ContactTab = (props) => {
               inputValues={inputValues}
               id="address"
               type="text"
-              s
               label={
                 <>
                   {t(
@@ -225,10 +224,10 @@ const ContactTab = (props) => {
             <SelectInputSubmit
               id="transportContactTimes"
               onChange={handleOnChange}
+              options={contactTimeOptions}
               value={contactTimeOptions.filter(
                 (option) => option.value === inputValues?.transportContactTime
               )}
-              options={contactTimeOptions}
               placeholder={
                 <>
                   {t(
