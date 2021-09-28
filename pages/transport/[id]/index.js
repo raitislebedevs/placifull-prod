@@ -35,11 +35,7 @@ const TransportDetail = (props) => {
     <div className="transport-detail-container main-container">
       <Head>
         <title>{listingItem?.name}</title>
-        <meta
-          property="og:url"
-          content={`https://placifull.com/real-estate/${listingItem?.id}`}
-          key="ogurl"
-        />
+
         <meta
           property="og:image"
           content={

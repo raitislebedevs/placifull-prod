@@ -36,11 +36,6 @@ const RealEstateDetail = (props) => {
       <Head>
         <title>{listingItem?.name}</title>
         <meta
-          property="og:url"
-          content={`https://placifull.com/real-estate/${listingItem?.id}`}
-          key="ogurl"
-        />
-        <meta
           property="og:image"
           content={
             listingItem?.listingGallery.length > 0

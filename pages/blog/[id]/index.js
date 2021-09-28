@@ -27,11 +27,6 @@ const BlogDetails = (props) => {
       <Head>
         <title>{blogItem?.header}</title>
         <meta
-          property="og:url"
-          content={`https://placifull.com/blog/${blogItem?.id}`}
-          key="ogurl"
-        />
-        <meta
           property="og:image"
           content={blogItem?.gallery.url}
           key="ogimage"
