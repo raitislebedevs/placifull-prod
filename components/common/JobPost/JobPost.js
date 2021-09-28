@@ -47,6 +47,22 @@ const JobPost = (props) => {
     jobinstagramLink: '',
     jobyoutubeLink: '',
     jobtwitterLink: '',
+    officeAddress: '',
+
+    jobmonday_open: '',
+    jobmonday_close: '',
+    jobtuesday_open: '',
+    jobtuesday_close: '',
+    jobwednesday_open: '',
+    jobwednesday_close: '',
+    jobthursday_open: '',
+    jobthursday_close: '',
+    jobfriday_open: '',
+    jobfriday_close: '',
+    jobsaturday_open: '',
+    jobsaturday_close: '',
+    jobsunday_open: '',
+    jobsunday_close: '',
   };
   const [
     inputValues,

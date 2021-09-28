@@ -883,7 +883,7 @@ const SearchForm = (props) => {
                             <div className="right__header">{group.label}:</div>
                             <Row>
                               {group.items.map((item) => (
-                                <Col lg={12} md={6} sm={6}>
+                                <Col key={item.key} lg={12} md={6} sm={6}>
                                   <NumberFormat
                                     key={item.key}
                                     customInput={Form.Control}
@@ -934,7 +934,7 @@ const SearchForm = (props) => {
                                   md={6}
                                   sm={6}
                                   className={'decorator__container'}
-                                  key={guidGenerator()}
+                                  key={item.key}
                                 >
                                   <Form.Group>
                                     {item?.decorator}
@@ -973,50 +973,45 @@ const SearchForm = (props) => {
                       }
                       if (group?.type === 'select') {
                         return (
-                          <>
-                            <div
-                              className="accordion__right"
-                              key={guidGenerator()}
-                            >
-                              <div className="right__header">
-                                {group.label}{' '}
-                                {getConverted ? (
-                                  <span
-                                    className={'convert__meassarment'}
-                                    onClick={() =>
-                                      setGetConverted(!getConverted)
-                                    }
-                                  >
-                                    {group.convert}
-                                  </span>
-                                ) : (
-                                  <span
-                                    className={'convert__meassarment'}
-                                    onClick={() =>
-                                      setGetConverted(!getConverted)
-                                    }
-                                  >
-                                    {group.noConvert}
-                                  </span>
-                                )}
-                                :
-                              </div>
-                              <Form.Group>
-                                <SelectInputSearchForm
-                                  id={group.key}
-                                  onChange={handleOnChange}
-                                  value={inputValues[group.key]}
-                                  options={group.options}
-                                  placeholder={group.label}
-                                />
-                              </Form.Group>
+                          <div
+                            className="accordion__right"
+                            key={guidGenerator()}
+                          >
+                            <div className="right__header">
+                              {group.label}{' '}
+                              {getConverted ? (
+                                <span
+                                  className={'convert__meassarment'}
+                                  onClick={() => setGetConverted(!getConverted)}
+                                >
+                                  {group.convert}
+                                </span>
+                              ) : (
+                                <span
+                                  className={'convert__meassarment'}
+                                  onClick={() => setGetConverted(!getConverted)}
+                                >
+                                  {group.noConvert}
+                                </span>
+                              )}
+                              :
                             </div>
-                          </>
+                            <Form.Group>
+                              <SelectInputSearchForm
+                                id={group.key}
+                                onChange={handleOnChange}
+                                value={inputValues[group.key]}
+                                options={group.options}
+                                placeholder={group.label}
+                              />
+                            </Form.Group>
+                          </div>
                         );
                       }
                     })}
                   </Col>
                 </Row>
+
                 <Row>
                   <Col lg={4} md={0} sm={0} xs={0}></Col>
                   {inputFields.accordionBottom.map((item) => {
@@ -1028,6 +1023,7 @@ const SearchForm = (props) => {
                           sm={6}
                           xs={6}
                           className={'decorator__container'}
+                          key={item.key}
                         >
                           <Form.Group>
                             {item?.decorator}{' '}

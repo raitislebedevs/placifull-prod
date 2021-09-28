@@ -58,6 +58,7 @@ const ColorPickerModal = (props) => {
                     lg={4}
                     xl={4}
                     className={'checkbox__container'}
+                    key={item.id}
                   >
                     <div className={'checkbox__item'}>
                       <label class="checkbox bounce">

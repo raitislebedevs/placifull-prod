@@ -92,9 +92,9 @@ const GeneralInformation = (props) => {
             <CustomFormControl
               id={'name'}
               onChange={handleOnChange}
-              value={inputValues['name'] || initialItem?.name}
+              value={inputValues?.name || initialItem?.name}
+              valueLength={75 - inputValues?.name?.length}
               type="text"
-              valueLength={75 - inputValues['name']?.length}
               maxLength={'75'}
               label={
                 <>
