@@ -44,7 +44,7 @@ const VacancyDetail = (props) => {
           property="og:image"
           content={
             listingItem?.listingGallery.length > 0
-              ? listingItem?.listingGallery[0]
+              ? listingItem?.listingGallery[0].url
               : ''
           }
           key="ogimage"
