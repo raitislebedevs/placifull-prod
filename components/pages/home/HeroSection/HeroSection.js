@@ -106,7 +106,6 @@ const HeroSection = (props) => {
                   </Col>
                 </Row>
                 <div>
-                  {}
                   <Link href="/sign-in">
                     <Button
                       className="content-hero__button"
