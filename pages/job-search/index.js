@@ -58,28 +58,21 @@ const JobSearch = (props) => {
   );
 };
 
-// JobSearch.getInitialProps = async () => ({
-//   namespacesRequired: [
-//     'common',
-//     'navbar',
-//     'footer',
-//     'blog',
-//     'job-search',
-//     'job-common',
-//     'job-tags',
-//   ],
-// });
+JobSearch.getInitialProps = async () => ({
+  namespacesRequired: [
+    'common',
+    'navbar',
+    'footer',
+    'blog',
+    'real-estate-detail',
+    'job-search',
+    'job-common',
+    'job-tags',
+  ],
+});
 
-// JobSearch.propTypes = {
-//   t: PropTypes.func.isRequired,
-// };
+JobSearch.propTypes = {
+  t: PropTypes.func.isRequired,
+};
 
-export default withTranslation([
-  'common',
-  'navbar',
-  'footer',
-  'blog',
-  'job-search',
-  'job-common',
-  'job-tags',
-])(JobSearch);
+export default withTranslation()(JobSearch);

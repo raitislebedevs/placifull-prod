@@ -71,6 +71,7 @@ Transport.getInitialProps = async () => ({
     'navbar',
     'footer',
     'transport',
+    'transport-detail',
     'transport-common',
     'transport-tags',
   ],
