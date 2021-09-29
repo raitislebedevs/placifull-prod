@@ -73,7 +73,7 @@ const HeroSection = (props) => {
                     </Link>
                   </Col>
                   <Col xs={4} md={4} lg={4} xl={4}>
-                    <Link href="/job-search">
+                    <Link href="/transport">
                       <div className={'container'}>
                         <div className={'home__icons'}>
                           <img alt="Transport" src={transportIntro} />
@@ -89,7 +89,7 @@ const HeroSection = (props) => {
                     </Link>
                   </Col>
                   <Col xs={4} md={4} lg={4} xl={4}>
-                    <Link href="/transport">
+                    <Link href="/job-search">
                       <div className={'container'}>
                         <div className={'home__icons'}>
                           <img alt="Job Search" src={jobIntro} />
