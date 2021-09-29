@@ -201,9 +201,9 @@ const RealEstatePost = (props) => {
         id: listingId,
       });
 
-      setTimeout(() => {
-        router.push(`/real-estate/${listingId}`);
-      }, 1500);
+      // setTimeout(() => {
+      //   router.push(`/real-estate/${listingId}`);
+      // }, 1500);
     } catch (e) {
       TostifyCustomContainer(
         'error',

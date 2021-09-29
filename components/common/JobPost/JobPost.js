@@ -181,9 +181,9 @@ const JobPost = (props) => {
       VacancyListingService.NOTIFY_USERS({
         id: listingId,
       });
-      setTimeout(() => {
-        router.push(`/job-search/${listingId}`);
-      }, 1500);
+      // setTimeout(() => {
+      //   router.push(`/job-search/${listingId}`);
+      // }, 1500);
     } catch (e) {
       TostifyCustomContainer(
         'error',
