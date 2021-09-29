@@ -166,7 +166,7 @@ const BlogSection = (props) => {
         </Row>
         <Container>
           <Row className="search-result__header">
-            <Col lg={4} md={4} sm={4} xs={12}>
+            <Col lg={4} md={4} sm={4} xs={6}>
               <div className={'filter__option'}>
                 <SelectInput
                   onChange={(e) => {
@@ -179,7 +179,7 @@ const BlogSection = (props) => {
                 />
               </div>
             </Col>
-            <Col lg={4} md={4} sm={4} xs={12}>
+            <Col lg={4} md={4} sm={4} xs={6}>
               <div className={'filter__option'}>
                 <SelectInput
                   onChange={onLanguageChange}
