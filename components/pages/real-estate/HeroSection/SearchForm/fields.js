@@ -113,13 +113,38 @@ const fields = (t) => ({
     },
   ],
   accordionBottom: [
+    // {
+    //   key: 'minAreaPrice',
+    //   thousand: true,
+    //   allowNegative: true,
+    //   decorator: <Gi3DStairs />,
+    //   type: 'number',
+    //   prefix: 'currency',
+    //   placeholder: t(
+    //     'real-estate:hero.form.accordion-right.utility.from-price'
+    //   ),
+    //   min: -9,
+    //   max: 250,
+    // },
+    // {
+    //   key: 'maxAreaPrice',
+    //   thousand: true,
+    //   allowNegative: true,
+    //   decorator: <Gi3DStairs />,
+    //   type: 'number',
+    //   placeholder: t(
+    //     'real-estate:hero.form.accordion-right.utility.from-price'
+    //   ),
+    //   min: -9,
+    //   max: 250,
+    // },
+
     {
       key: 'minFloor',
       thousand: true,
       allowNegative: true,
       decorator: <Gi3DStairs />,
       type: 'number',
-      prefix: 'currency',
       placeholder: t(
         'real-estate:hero.form.accordion-right.utility.from-price'
       ),
@@ -132,7 +157,6 @@ const fields = (t) => ({
       allowNegative: true,
       decorator: <Gi3DStairs />,
       type: 'number',
-      prefix: 'currency',
       placeholder: t('real-estate:hero.form.accordion-right.utility.to-price'),
       min: -9,
       max: 250,
@@ -144,7 +168,6 @@ const fields = (t) => ({
       allowNegative: false,
       decorator: <FaBuilding />,
       type: 'number',
-      prefix: 'currency',
       placeholder: t(
         'real-estate:hero.form.accordion-right.utility.from-price'
       ),
@@ -157,7 +180,6 @@ const fields = (t) => ({
       allowNegative: false,
       decorator: <FaBuilding />,
       type: 'number',
-      prefix: 'currency',
       placeholder: t('real-estate:hero.form.accordion-right.utility.to-price'),
       min: 0,
       max: 250,

@@ -64,6 +64,7 @@ RealEstate.getInitialProps = async () => ({
     'footer',
     'blog',
     'real-estate',
+    'real-estate-detail',
     'real-estate-common',
     'real-estate-tags',
   ],

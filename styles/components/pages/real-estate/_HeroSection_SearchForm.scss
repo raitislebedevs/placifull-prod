@@ -221,6 +221,29 @@
           cursor: pointer;
         }
       }
+
+      .checkbox__container {
+        transition: 1s all;
+        border: 2px #fff solid;
+        border-radius: 10px;
+        padding-top: 5px;
+        margin-top: 15px;
+
+        .filter {
+          color: #fff;
+          text-align: center;
+          font-size: 14px;
+          padding-bottom: 2px;
+        }
+        &.promote {
+          border-color: theme-color("primary");
+        }
+        .checkbox__item {
+          display: flex;
+          justify-content: center;
+          align-content: center;
+        }
+      }
     }
   }
 
