@@ -291,6 +291,7 @@ const SearchForm = (props) => {
 
           convertHelper: convertHelper || null,
           polygon: polygon || null,
+          isPromotable: inputValues?.promoted || null,
         }),
       };
 
@@ -442,6 +443,7 @@ const SearchForm = (props) => {
         yearBuilt_lte: inputValues?.maxYear
           ? new Date(inputValues?.maxYear)
           : null,
+        isPromotable: inputValues?.promoted || null,
       }),
     };
 
@@ -872,7 +874,34 @@ const SearchForm = (props) => {
                       <em> {t('real-estate:no-tags')} </em>
                     </Col>
                   )}
+
                   <Col lg={2}>
+                    <Col
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      lg={12}
+                      xl={12}
+                      className={`checkbox__container ${
+                        inputValues?.promoted ? 'promote' : null
+                      }`}
+                    >
+                      <div className={'text__container filter'}>
+                        {t('real-estate-detail:about.featured')}
+                      </div>
+                      <div className={'checkbox__item'}>
+                        <label class="checkbox bounce">
+                          <input
+                            type="checkbox"
+                            id={'promoted'}
+                            onClick={handleCheckBoxChange}
+                          />
+                          <svg viewBox="0 0 21 21">
+                            <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
+                          </svg>
+                        </label>
+                      </div>
+                    </Col>
                     {inputFields.accordionRight.map((group) => {
                       if (
                         group?.type === 'bills' &&
