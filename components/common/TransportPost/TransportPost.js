@@ -184,9 +184,9 @@ const TransportSubmit = (props) => {
         id: listingId,
       });
 
-      // setTimeout(() => {
-      //   router.push(`/transport/${listingId}`);
-      // }, 1500);
+      setTimeout(() => {
+        router.push(`/transport/${listingId}`);
+      }, 1500);
     } catch (e) {
       TostifyCustomContainer(
         'error',

@@ -185,6 +185,11 @@ const jobVacancyOption = (t) => ({
       placeholder: t('job-common:contract-type.label'),
       options: [
         {
+          value: '',
+          label: t('job-common:contract-type.label'),
+          id: 'contractType',
+        },
+        {
           value: 'temporarly',
           label: t('job-common:contract-type.options.temporarly'),
           id: 'contractType',
@@ -221,6 +226,11 @@ const jobVacancyOption = (t) => ({
       type: 'select',
       placeholder: t('job-common:working-time.label'),
       options: [
+        {
+          value: '',
+          label: t('job-common:working-time.label'),
+          id: 'workingTime',
+        },
         {
           value: 'officeHours',
           label: t('job-common:working-time.options.officeHours'),
