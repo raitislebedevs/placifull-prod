@@ -37,7 +37,7 @@ const ChangePassword = (props) => {
   return (
     <div className="right-content__profile">
       <div className="card-body">
-        <Col xs={12} sm={12} md={6} lg={12} xl={12} className="pl-0">
+        <Col xs={12} sm={12} md={12} lg={12} xl={12} className="pl-0">
           <h5 className="text-md-left mt-4">
             {t('profile:right-content.profile.password-form.text')}
           </h5>

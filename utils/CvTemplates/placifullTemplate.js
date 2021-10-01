@@ -11,7 +11,7 @@ const male = '/static/images/resume/male.png';
 const marker = '/static/images/resume/marker.png';
 
 const placifullTemplate = async (doc, cv, t, cvCurrency, rgb) => {
-  let macPageHeight = 575;
+  let maxPageHeight = 575;
   let leftPadding = 15;
   let yAxis = 20;
   let splitText = [];
@@ -146,7 +146,7 @@ const placifullTemplate = async (doc, cv, t, cvCurrency, rgb) => {
 
         writeComputerSkill(doc, element);
         yAxis += height + 8.5;
-        if (yAxis > macPageHeight) {
+        if (yAxis > maxPageHeight) {
           createNewPage(doc);
         }
       }
@@ -186,12 +186,12 @@ const placifullTemplate = async (doc, cv, t, cvCurrency, rgb) => {
       if (idx === array.length - 1) {
         return;
       }
-      if (yAxis > macPageHeight) {
+      if (yAxis > maxPageHeight) {
         createNewPage(doc);
       }
     });
   }
-  if (yAxis + 50 > macPageHeight) {
+  if (yAxis + 50 > maxPageHeight) {
     createNewPage(doc);
   }
   if (workExpierience.length != 0) {
@@ -218,12 +218,12 @@ const placifullTemplate = async (doc, cv, t, cvCurrency, rgb) => {
       if (idx === array.length - 1) {
         return;
       }
-      if (yAxis > macPageHeight) {
+      if (yAxis > maxPageHeight) {
         createNewPage(doc);
       }
     });
   }
-  if (yAxis + 50 > macPageHeight) {
+  if (yAxis + 50 > maxPageHeight) {
     createNewPage(doc);
   }
   if (transportLicenses.length != 0) {
@@ -252,12 +252,12 @@ const placifullTemplate = async (doc, cv, t, cvCurrency, rgb) => {
       if (idx === array.length - 1) {
         return;
       }
-      if (yAxis > macPageHeight) {
+      if (yAxis > maxPageHeight) {
         createNewPage(doc);
       }
     });
   }
-  if (yAxis + 50 > macPageHeight) {
+  if (yAxis + 50 > maxPageHeight) {
     createNewPage(doc);
   }
   if (workExpectations.length != 0) {
@@ -305,7 +305,7 @@ const placifullTemplate = async (doc, cv, t, cvCurrency, rgb) => {
       if (idx === array.length - 1) {
         return;
       }
-      if (yAxis > macPageHeight) {
+      if (yAxis > maxPageHeight) {
         createNewPage(doc);
       }
     });

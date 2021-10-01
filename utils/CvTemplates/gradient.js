@@ -1,16 +1,9 @@
-import {
-  formatMonth,
-  formatNumber,
-  formatYear,
-} from 'utils/standaloneFunctions';
+import { formatNumber, formatYear } from 'utils/standaloneFunctions';
 
-const mail = '/static/images/resume/mail.png';
-const phone = '/static/images/resume/phone.png';
-const calendar = '/static/images/resume/calendar.png';
-const female = '/static/images/resume/female.png';
-const male = '/static/images/resume/male.png';
-const marker = '/static/images/resume/marker.png';
-const background = '/static/images/resume/JShine.png';
+const mail = '/static/images/resume/emailBlack.png';
+const phone = '/static/images/resume/phone-call.png';
+const marker = '/static/images/resume/locationBlack.png';
+const background = '/static/images/resume/ResumeBackground.png';
 
 const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
   let maxPageHeight = 575;
@@ -22,9 +15,9 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
   let pageInfo = 1;
   let pageCount = 1;
   let location = true;
-  let red = rgb?.r || 165;
-  let green = rgb?.g || 42;
-  let blue = rgb?.b || 42;
+  let red = rgb?.r || 52;
+  let green = rgb?.g || 148;
+  let blue = rgb?.b || 230;
   let cvPdfNormalFont = 'MainPdf';
   let cvPdfBoldFont = 'MainPdf';
 
@@ -45,27 +38,26 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
       dateB = new Date(b.fromYear);
     return dateB - dateA;
   });
+  try {
+    let extension = avatar?.ext.replace('.', '').toUpperCase();
+    let image = avatar.url;
+    doc.addImage(image, extension, 27, 14, 82, 75);
+    doc.setLineWidth(0);
+    doc.setDrawColor(0);
+    doc.setFillColor(255, 255, 255);
+  } catch (error) {}
+  doc.addImage(background, 'PNG', 0, 0, 457, 631);
 
-  doc.setFillColor(230, 230, 232);
-  doc.rect(0, 0, 125, 840, 'F');
-  doc.addImage(background, 'PNG', 0, 0, 540, 100);
-  let extension = avatar?.ext.replace('.', '').toUpperCase();
-  let image = avatar.url;
-  doc.addImage(image, extension, 27, 15, 82, 75);
-  doc.setLineWidth(0);
-  doc.setDrawColor(0);
-  doc.setFillColor(255, 255, 255);
-
-  doc.setLineWidth(20);
-  doc.setDrawColor(230, 230, 232);
-  // doc.circle(67, 52, 47, 'S');
+  doc.setLineWidth(2);
+  doc.setDrawColor(255, 255, 255);
+  doc.circle(68, 52, 39, 'S');
 
   doc.setLineWidth(1);
   doc.setDrawColor(255, 255, 255);
-  doc.circle(67, 52, 37.5, 'S');
-  doc.setLineWidth(1);
-  doc.circle(67, 52, 43, 'S');
-  //Name and position
+  doc.circle(68, 52, 43, 'S');
+
+  doc.setFillColor(230, 230, 232);
+  doc.rect(0, 97, 127, 630, 'F');
 
   //595 × 842 points.
   //First Last Name
@@ -83,7 +75,7 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
 
   doc.setFontSize(10);
   doc.setTextColor(38, 55, 65);
-
+  yAxis = yAxis + 15;
   if (cv?.cvPersonalEmail) {
     pngItems(doc, mail, cv?.cvPersonalEmail);
   }
@@ -110,39 +102,196 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
     pngItems(doc, marker, `${cv?.country}`);
   }
 
-  if (educationDetail.length != 0) {
-    yAxis = yAxis + 15;
+  yAxis = yAxis + 25;
+  if (yAxis > maxPageHeight) {
+    createNewPage(doc);
+  }
+
+  writeHeader(doc, t('cv:labels.computer-skills'));
+  doc.setFont(cvPdfNormalFont, 'normal');
+  doc.setFontSize(9);
+
+  if (computerSkills.length != 0) {
+    yAxis += 10;
+    computerSkills.forEach((element) => {
+      if (element?.skill) {
+        let height = writeLanguage(doc, element?.skill);
+        yAxis -= 1.5;
+
+        writeLineSkill(doc, element);
+        yAxis += height + 8.5;
+        if (yAxis > maxPageHeight) {
+          createNewPage(doc);
+        }
+      }
+    });
+  }
+  yAxis = yAxis + 25;
+  if (yAxis > maxPageHeight) {
+    createNewPage(doc);
+  }
+  writeHeader(doc, t('cv:labels.languages'));
+  doc.setFont(cvPdfNormalFont, 'normal');
+  yAxis = yAxis + 5;
+  doc.setFontSize(9);
+  if (languageSkills.length != 0) {
+    languageSkills.forEach((element) => {
+      if (element?.languageName) {
+        let height = writeLanguage(doc, element?.languageName);
+        yAxis -= 1.5;
+        writeLanguageLineSkill(doc, element?.level);
+        yAxis += height + 8.5;
+        if (yAxis > maxPageHeight) {
+          createNewPage(doc);
+        }
+      }
+    });
+  }
+
+  yAxis = yAxis + 25;
+  if (yAxis + 50 > maxPageHeight) {
+    createNewPage(doc);
+  }
+
+  if (workExpectations.length != 0) {
+    writeHeader(doc, t('cv:labels.expectations'));
+    workExpectations.forEach((el, idx, array) => {
+      yAxis = yAxis + 10;
+      doc.setFontSize(9);
+      doc.setFont(cvPdfNormalFont, 'bold');
+      let salaryCount = 0;
+      if (el?.position) {
+        writeText(doc, el?.position);
+      }
+      if (el?.vacancyOption) {
+        writeText(doc, t(`job-common:work-area.options.${el?.vacancyOption}`));
+      }
+      yAxis = yAxis + 3;
+      doc.setFontSize(8);
+      doc.setFont(cvPdfNormalFont, 'normal');
+      if (el?.hourlyRate && cvCurrency) {
+        textInfo(
+          doc,
+          `${t(
+            `job-common:salary.hourly-rate-from`
+          )}: ${cvCurrency} ${formatNumber(el?.hourlyRate)}`
+        );
+        salaryCount++;
+      }
+      if (el?.monthly && cvCurrency) {
+        textInfo(
+          doc,
+          `${t(`job-common:salary.monthly-from`)}: ${cvCurrency} ${formatNumber(
+            el?.monthly
+          )}`
+        );
+        salaryCount++;
+      }
+
+      if (el?.yearly && cvCurrency) {
+        textInfo(
+          doc,
+          `${t(`job-common:salary.annual-from`)}: ${cvCurrency} ${formatNumber(
+            el?.yearly
+          )}`
+        );
+        salaryCount++;
+      }
+
+      if (idx === array.length - 1) {
+        return;
+      }
+      if (yAxis > maxPageHeight) {
+        createNewPage(doc);
+      }
+    });
+  }
+  doc.setPage(1);
+  pageInfo = 1;
+  leftPadding = 150;
+  yAxis = 95;
+
+  maxWide = 275;
+  writeHeader(doc, t('cv:labels.about-me'));
+  doc.setFontSize(8);
+  doc.setFont(cvPdfNormalFont, 'normal');
+  yAxis = yAxis + 4;
+  writeText(doc, cv?.aboutMe);
+
+  if (workExpierience.length != 0) {
+    yAxis = yAxis + 20;
     if (yAxis > maxPageHeight) {
       createNewPage(doc);
     }
-    writeHeader(doc, t('cv:labels.education'));
+    writeHeader(doc, t('cv:labels.expierience'));
+    yAxis = yAxis + 5;
+    workExpierience.forEach((el, idx, array) => {
+      doc.setFontSize(9);
+      doc.setFont(cvPdfNormalFont, 'bold');
+      if (el?.companyName) {
+        writeText(doc, el?.companyName);
+      }
+      doc.setFont(cvPdfNormalFont, 'normal');
+      let text = `${el?.fromDate && formatYear(el?.fromDate)} - ${
+        el?.toDate ? formatYear(el?.toDate) : t(`cv:present`)
+      }`;
+      if (el?.fromDate) {
+        writeDateCenter(doc, text);
+      }
 
+      doc.setFont(cvPdfNormalFont, 'bold');
+      if (el?.positionName) {
+        writeText(doc, el?.positionName);
+      }
+
+      doc.setFontSize(8);
+      doc.setFont(cvPdfNormalFont, 'normal');
+      if (el?.positionDescription) {
+        yAxis = yAxis + 2;
+        writeParagraph(doc, el?.positionDescription);
+      }
+      yAxis += 12;
+      if (idx === array.length - 1) {
+        return;
+      }
+      if (yAxis > maxPageHeight) {
+        createNewPage(doc);
+      }
+    });
+  }
+
+  yAxis = yAxis + 25;
+  if (yAxis + 50 > maxPageHeight) {
+    createNewPage(doc);
+  }
+
+  if (educationDetail.length != 0) {
+    writeHeader(doc, t('cv:labels.education'));
+    yAxis = yAxis + 10;
     educationDetail.forEach((el, idx, array) => {
-      yAxis = yAxis + 15;
-      doc.setFontSize(10);
-      doc.setFont(cvPdfBoldFont, 'bold');
+      let initialY = yAxis;
+      doc.setFontSize(9);
+      doc.setFont(cvPdfNormalFont, 'bold');
       let edu = t(`cv:qualification.${el?.qualification}`);
       if (el?.studyArea && el?.qualification) {
         writeText(doc, `${el?.studyArea}, ${edu}`);
       }
-      doc.setFontSize(8);
       doc.setFont(cvPdfNormalFont, 'normal');
-
       if (el?.schoolName) {
         writeText(doc, el?.schoolName);
-        yAxis = yAxis + 1;
       }
-      let text = `${formatMonth(el?.fromYear, t)} - ${
-        el?.toYear ? formatMonth(el?.toYear, t) : t(`cv:present`)
-      }`;
-      if (el?.fromYear) {
-        writeText(doc, text);
-        yAxis = yAxis + 1;
-      }
-
       if (el?.avarageGrade) {
         writeText(doc, `${t(`cv:avarage-grade`)}: ${el?.avarageGrade}`);
       }
+      doc.setFont(cvPdfNormalFont, 'normal');
+      let text = `${el?.fromYear && formatYear(el?.fromYear)} - ${
+        el?.toYear ? formatYear(el?.toYear) : t(`cv:present`)
+      }`;
+
+      if (el?.fromYear) {
+        writeDateCenter(doc, text, initialY);
+      }
+      yAxis = yAxis + 20;
       if (idx === array.length - 1) {
         return;
       }
@@ -156,201 +305,34 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
     createNewPage(doc);
   }
 
-  writeHeader(doc, t('cv:labels.languages'));
+  writeHeader(doc, t('cv:labels.licenses'));
   doc.setFont(cvPdfNormalFont, 'normal');
-  yAxis = yAxis + 5;
-  doc.setFontSize(8);
-  if (languageSkills.length != 0) {
-    languageSkills.forEach((element) => {
-      if (element?.languageName) {
-        let height = writeLanguage(doc, element?.languageName);
-        yAxis -= 1.5;
-        let skill = getRatingValue(element?.level);
-        for (var i = 0; i < 7; i++) {
-          if (skill > i) {
-            doc.setFillColor(38, 55, 65);
-            doc.circle(75 + i * 7.5, yAxis, 3, 'F');
-            continue;
-          }
-          doc.setFillColor(220, 220, 220);
-          doc.circle(75 + i * 7.5, yAxis, 3, 'F');
-        }
-        yAxis += height + 8.5;
-        if (yAxis > maxPageHeight) {
-          createNewPage(doc);
-        }
+  yAxis = yAxis + 10;
+  if (transportLicenses.length != 0) {
+    transportLicenses.forEach((el, idx, array) => {
+      let initialY = yAxis;
+      if (el?.issueCountry) {
+        doc.setFontSize(10);
+        doc.setFont(cvPdfNormalFont, 'normal');
+        writeText(doc, el?.issueCountry);
+        doc.setFontSize(8);
+        writeDateCenter(
+          doc,
+          `${t(`cv:license-category`)}: ${el?.licence}`,
+          initialY
+        );
+        yAxis = yAxis + 5;
+      }
+
+      if (idx === array.length - 1) {
+        return;
+      }
+      if (yAxis > maxPageHeight) {
+        createNewPage(doc);
       }
     });
   }
-
-  //   yAxis = yAxis + 15;
-  //   if (yAxis > maxPageHeight) {
-  //     createNewPage(doc);
-  //   }
-  //   writeHeader(doc, t('cv:labels.computer-skills'));
-  //   doc.setFont(cvPdfNormalFont, 'normal');
-  //   yAxis = yAxis + 5;
-  //   doc.setFontSize(8);
-
-  //   if (computerSkills.length != 0) {
-  //     yAxis += 10;
-  //     computerSkills.forEach((element) => {
-  //       if (element?.skill) {
-  //         let height = writeLanguage(doc, element?.skill);
-  //         yAxis -= 1.5;
-
-  //         writeComputerSkill(doc, element);
-  //         yAxis += height + 8.5;
-  //         if (yAxis > maxPageHeight) {
-  //           createNewPage(doc);
-  //         }
-  //       }
-  //     });
-  //   }
-
-  //   yAxis = yAxis + 25;
-  //   if (yAxis > maxPageHeight) {
-  //     createNewPage(doc);
-  //   }
-
-  //   writeHeader(doc, t('cv:labels.licenses'));
-  //   doc.setFont(cvPdfNormalFont, 'normal');
-  //   yAxis = yAxis + 5;
-  //   doc.setFontSize(8);
-
-  //   if (transportLicenses.length != 0) {
-  //     transportLicenses.forEach((el, idx, array) => {
-  //       if (el?.issueCountry) {
-  //         writeText(doc, el?.issueCountry);
-  //         writeText(doc, `${t(`cv:license-category`)}: ${el?.licence}`);
-  //         yAxis = yAxis + 2;
-  //       }
-  //       doc.setFont(cvPdfNormalFont, 'normal');
-
-  //       if (idx === array.length - 1) {
-  //         return;
-  //       }
-  //       if (yAxis > maxPageHeight) {
-  //         createNewPage(doc);
-  //       }
-  //     });
-  //   }
-  //   // Right Page
-
-  //   doc.setPage(1);
-  //   pageInfo = 1;
-  //   leftPadding = 150;
-  //   yAxis = 85;
-
-  //   maxWide = 275;
-  //   writeHeader(doc, t('cv:labels.about-me'));
-  //   doc.setFontSize(8);
-  //   doc.setFont(cvPdfNormalFont, 'normal');
-  //   yAxis = yAxis + 4;
-  //   writeText(doc, cv?.aboutMe);
-
-  //   if (workExpierience.length != 0) {
-  //     yAxis = yAxis + 20;
-  //     if (yAxis > maxPageHeight) {
-  //       createNewPage(doc);
-  //     }
-  //     writeHeader(doc, t('cv:labels.expierience'));
-  //     yAxis = yAxis + 5;
-  //     workExpierience.forEach((el, idx, array) => {
-  //       doc.setFontSize(9);
-  //       doc.setFont(cvPdfNormalFont, 'bold');
-  //       if (el?.companyName) {
-  //         writeText(doc, el?.companyName);
-  //       }
-  //       doc.setFont(cvPdfNormalFont, 'normal');
-  //       let text = `${el?.fromDate && formatYear(el?.fromDate)} - ${
-  //         el?.toDate ? formatYear(el?.toDate) : t(`cv:present`)
-  //       }`;
-  //       if (el?.fromDate) {
-  //         writeDateCenter(doc, text);
-  //       }
-
-  //       doc.setFont(cvPdfNormalFont, 'bold');
-  //       if (el?.positionName) {
-  //         writeText(doc, el?.positionName);
-  //       }
-
-  //       doc.setFontSize(8);
-  //       doc.setFont(cvPdfNormalFont, 'normal');
-  //       if (el?.positionDescription) {
-  //         yAxis = yAxis + 2;
-  //         writeParagraph(doc, el?.positionDescription);
-  //       }
-  //       yAxis += 12;
-  //       if (idx === array.length - 1) {
-  //         return;
-  //       }
-  //       if (yAxis > maxPageHeight) {
-  //         createNewPage(doc);
-  //       }
-  //     });
-  //   }
-
-  //   yAxis = yAxis + 20;
-  //   if (yAxis > maxPageHeight) {
-  //     createNewPage(doc);
-  //   }
-
-  //   if (workExpectations.length != 0) {
-  //     writeHeader(doc, t('cv:labels.expectations'));
-  //     yAxis = yAxis + 10;
-  //     workExpectations.forEach((el, idx, array) => {
-  //       doc.setFontSize(9);
-  //       doc.setFont(cvPdfNormalFont, 'bold');
-  //       let salaryCount = 0;
-  //       if (el?.position) {
-  //         writeText(doc, el?.position);
-  //       }
-  //       doc.setFontSize(8);
-  //       doc.setFont(cvPdfNormalFont, 'normal');
-  //       if (el?.hourlyRate && cvCurrency) {
-  //         textInfo(
-  //           doc,
-  //           `${t(
-  //             `job-common:salary.hourly-rate-from`
-  //           )}: ${cvCurrency} ${formatNumber(el?.hourlyRate)}`
-  //         );
-  //         salaryCount++;
-  //       }
-  //       if (el?.monthly && cvCurrency) {
-  //         textInfo(
-  //           doc,
-  //           `${t(`job-common:salary.monthly-from`)}: ${cvCurrency} ${formatNumber(
-  //             el?.monthly
-  //           )}`
-  //         );
-  //         salaryCount++;
-  //       }
-
-  //       if (el?.yearly && cvCurrency) {
-  //         textInfo(
-  //           doc,
-  //           `${t(`job-common:salary.annual-from`)}: ${cvCurrency} ${formatNumber(
-  //             el?.yearly
-  //           )}`
-  //         );
-  //         salaryCount++;
-  //       }
-  //       yAxis -= 12 * (salaryCount - 1);
-  //       doc.setFontSize(9);
-  //       doc.setFont(cvPdfNormalFont, 'bold');
-  //       if (el?.vacancyOption) {
-  //         writeText(doc, t(`job-common:work-area.options.${el?.vacancyOption}`));
-  //       }
-  //       yAxis += 40;
-  //       if (idx === array.length - 1) {
-  //         return;
-  //       }
-  //       if (yAxis > maxPageHeight) {
-  //         createNewPage(doc);
-  //       }
-  //     });
-  //   }
+  // Right Page
 
   const documentName = `${cv?.cvFirstName}.${cv?.cvLasttName}.pdf`;
   doc.save(documentName);
@@ -366,9 +348,9 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
 
   function textInfo(doc, text) {
     doc.setFontSize(8);
-    doc.setTextColor(0, 0, 0);
+    doc.setTextColor(38, 55, 65);
     doc.setFont(cvPdfNormalFont, 'normal');
-    writeRightCenter(doc, text, 10);
+    writeText(doc, text);
   }
 
   function pngItems(doc, png, text) {
@@ -380,15 +362,12 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
     yAxis = yAxis + dim.h + 3;
   }
   function writeHeader(doc, text) {
-    doc.setFontSize(12);
+    doc.setTextColor(red, green, blue);
+    doc.setFontSize(14);
     doc.setFont(cvPdfBoldFont, 'bold');
     writeText(doc, text);
     dim = doc.getTextDimensions(splitText);
-    yAxis = yAxis - 6;
-    doc.setDrawColor(180, 180, 180);
-    doc.setLineWidth(1);
-    doc.line(leftPadding, yAxis, leftPadding + dim.w, yAxis);
-    yAxis = yAxis + 5;
+    doc.setTextColor(38, 55, 65);
   }
 
   function writeLanguage(doc, text) {
@@ -399,43 +378,64 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
     return dim.h;
   }
 
-  function writeRightCenter(doc, text, yHeight = 0) {
-    dim = doc.getTextDimensions(text);
-    let centerWrite = (240 - dim.w) / 2;
-    yAxis -= 6;
-    doc.text(240 + centerWrite, yAxis, text);
-    dim = doc.getTextDimensions(text);
-    yAxis = yAxis + dim.h + yHeight;
-  }
+  function writeDateCenter(doc, text, initialY) {
+    let yPosition = initialY || yAxis;
 
-  function writeDateCenter(doc, text) {
     dim = doc.getTextDimensions(text);
     let centerWrite = (240 - dim.w) / 2;
 
     doc.setFillColor(230, 230, 232);
-    doc.rect(236 + centerWrite, yAxis - dim.h - 1, dim.w + 8, dim.h + 4, 'F');
+    doc.rect(
+      236 + centerWrite,
+      yPosition - dim.h - 1,
+      dim.w + 8,
+      dim.h + 4,
+      'F'
+    );
     doc.setDrawColor(180, 180, 180);
     doc.setLineWidth(1);
     doc.line(
       236 + centerWrite,
-      yAxis + dim.h - 3,
+      yPosition + dim.h - 3,
       244 + centerWrite + dim.w,
-      yAxis + dim.h - 3
+      yPosition + dim.h - 3
     );
 
-    doc.text(240 + centerWrite, yAxis, text);
+    doc.text(240 + centerWrite, yPosition, text);
   }
 
-  function writeComputerSkill(doc, el) {
+  function writeLineSkill(doc, el) {
     let knowladge = getKnowladge(el?.expierienceGathered);
     let expierience = getExpierience(el?.yearExpierience);
 
     doc.setDrawColor(180, 180, 180);
-    doc.setLineWidth(1);
-    doc.line(leftPadding + 70, yAxis, 128, yAxis);
+    doc.setLineWidth(3);
+    doc.line(leftPadding + 70, yAxis, 120, yAxis);
 
-    doc.setFillColor(38, 55, 65);
-    doc.circle(leftPadding + 71 + knowladge * expierience, yAxis, 2, 'F');
+    doc.setDrawColor(red, green, blue);
+    doc.line(
+      leftPadding + 70,
+      yAxis,
+      leftPadding + 70 + knowladge * expierience,
+      yAxis
+    );
+
+    yAxis += 2;
+  }
+
+  function writeLanguageLineSkill(doc, el) {
+    let expierience = getRatingValue(el);
+    doc.setDrawColor(180, 180, 180);
+    doc.setLineWidth(3);
+    doc.line(leftPadding + 70, yAxis, 120, yAxis);
+
+    doc.setDrawColor(red, green, blue);
+    doc.line(
+      leftPadding + 70,
+      yAxis,
+      leftPadding + 70 + 6 * expierience,
+      yAxis
+    );
 
     yAxis += 2;
   }
@@ -456,7 +456,7 @@ const gradient = async (doc, cv, t, cvCurrency, rgb, avatar) => {
       yAxis = 20;
       doc.addPage();
       doc.setFillColor(230, 230, 232);
-      doc.rect(10, 0, 125, 840, 'F');
+      doc.rect(0, 0, 127, 840, 'F');
       return;
     }
 

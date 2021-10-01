@@ -9,7 +9,7 @@ const phone = '/static/images/resume/phone-call.png';
 const marker = '/static/images/resume/locationBlack.png';
 
 const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
-  let macPageHeight = 575;
+  let maxPageHeight = 575;
   let leftPadding = 20;
   let yAxis = 100;
   let splitText = [];
@@ -125,7 +125,7 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
 
   if (educationDetail.length != 0) {
     yAxis = yAxis + 15;
-    if (yAxis > macPageHeight) {
+    if (yAxis > maxPageHeight) {
       createNewPage(doc);
     }
     writeHeader(doc, t('cv:labels.education'));
@@ -159,13 +159,13 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
       if (idx === array.length - 1) {
         return;
       }
-      if (yAxis > macPageHeight) {
+      if (yAxis > maxPageHeight) {
         createNewPage(doc);
       }
     });
   }
   yAxis = yAxis + 25;
-  if (yAxis > macPageHeight) {
+  if (yAxis > maxPageHeight) {
     createNewPage(doc);
   }
   writeHeader(doc, t('cv:labels.languages'));
@@ -188,7 +188,7 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
           doc.circle(75 + i * 7.5, yAxis, 3, 'F');
         }
         yAxis += height + 8.5;
-        if (yAxis > macPageHeight) {
+        if (yAxis > maxPageHeight) {
           createNewPage(doc);
         }
       }
@@ -196,7 +196,7 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
   }
 
   yAxis = yAxis + 15;
-  if (yAxis > macPageHeight) {
+  if (yAxis > maxPageHeight) {
     createNewPage(doc);
   }
   writeHeader(doc, t('cv:labels.computer-skills'));
@@ -213,7 +213,7 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
 
         writeComputerSkill(doc, element);
         yAxis += height + 8.5;
-        if (yAxis > macPageHeight) {
+        if (yAxis > maxPageHeight) {
           createNewPage(doc);
         }
       }
@@ -221,7 +221,7 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
   }
 
   yAxis = yAxis + 25;
-  if (yAxis > macPageHeight) {
+  if (yAxis > maxPageHeight) {
     createNewPage(doc);
   }
 
@@ -242,7 +242,7 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
       if (idx === array.length - 1) {
         return;
       }
-      if (yAxis > macPageHeight) {
+      if (yAxis > maxPageHeight) {
         createNewPage(doc);
       }
     });
@@ -263,7 +263,7 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
 
   if (workExpierience.length != 0) {
     yAxis = yAxis + 20;
-    if (yAxis > macPageHeight) {
+    if (yAxis > maxPageHeight) {
       createNewPage(doc);
     }
     writeHeader(doc, t('cv:labels.expierience'));
@@ -297,14 +297,14 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
       if (idx === array.length - 1) {
         return;
       }
-      if (yAxis > macPageHeight) {
+      if (yAxis > maxPageHeight) {
         createNewPage(doc);
       }
     });
   }
 
   yAxis = yAxis + 20;
-  if (yAxis + 50 > macPageHeight) {
+  if (yAxis + 50 > maxPageHeight) {
     createNewPage(doc);
   }
 
@@ -358,7 +358,7 @@ const simpleGrey = async (doc, cv, t, cvCurrency, rgb, avatar) => {
       if (idx === array.length - 1) {
         return;
       }
-      if (yAxis > macPageHeight) {
+      if (yAxis > maxPageHeight) {
         createNewPage(doc);
       }
     });
