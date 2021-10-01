@@ -25,10 +25,10 @@ const ColorPickerModal = (props) => {
       id: 'simpleGrey',
       label: 'Simple Grey',
     },
-    // {
-    //   id: 'sunsetGadient',
-    //   label: 'Sunset Gradient',
-    // },
+    {
+      id: 'sunsetGadient',
+      label: 'Sunset Gradient',
+    },
   ];
   return (
     <Modal
