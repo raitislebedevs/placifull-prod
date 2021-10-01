@@ -20,7 +20,7 @@ const fields = (t) => [
     type: 'text',
     label: (
       <div>
-        <AiFillInstagram /> {t('common:social.twitter')}{' '}
+        <AiFillInstagram /> {t('common:social.instagram')}{' '}
       </div>
     ),
   },
@@ -38,7 +38,7 @@ const fields = (t) => [
     type: 'text',
     label: (
       <div>
-        <AiFillTwitterSquare /> {t('common:social.pinterest')}{' '}
+        <AiFillTwitterSquare /> {t('common:social.twitter')}{' '}
       </div>
     ),
   },
