@@ -91,3 +91,7 @@ export const sleep = (milliseconds) => {
 export const upperCaseFirstLetter = (string) => {
   return string.charAt(0).toUpperCase() + string.slice(1);
 };
+
+export const getPosition = (string, subString, index) => {
+  return string.split(subString, index).join(subString).length;
+};
