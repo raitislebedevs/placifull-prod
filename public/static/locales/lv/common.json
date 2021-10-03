@@ -3,7 +3,7 @@
     "loading": "procesē…",
     "loading-right": "Procesē…",
     "loading-left": "…Procesē",
-    "no-results": "Resultāti nav atrasti"
+    "no-results": "Rezultāti nav atrasti"
   },
   "user": {
     "name": "Nosaukums",
@@ -75,7 +75,7 @@
       "found": "Atrasti ",
       "items": "sludinājumi"
     },
-    "not-found": "Jauni rezūltāti netika atrasti",
+    "not-found": "Jauni rezultāti netika atrasti",
     "messages": {
       "success": "Izdevās",
       "info": "Informācija",

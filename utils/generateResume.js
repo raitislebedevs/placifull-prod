@@ -3,6 +3,7 @@ import { openSansRegular } from 'fonts/OpenSans-Regular-normal';
 import jsPDF from 'jspdf';
 import gradient from './CvTemplates/gradient';
 import placifullTemplate from './CvTemplates/placifullTemplate';
+import radientBlue from './CvTemplates/radientBlue';
 import simpleGrey from './CvTemplates/simpleGrey';
 
 const generateResume = async (cv, t, cvCurrency, rgb, template, avatar) => {
@@ -20,6 +21,9 @@ const generateResume = async (cv, t, cvCurrency, rgb, template, avatar) => {
 
   if (template === 'sunsetGadient')
     gradient(doc, cv, t, cvCurrency, rgb, avatar);
+
+  if (template === 'radientBlue')
+    radientBlue(doc, cv, t, cvCurrency, rgb, avatar);
 };
 
 export default generateResume;
