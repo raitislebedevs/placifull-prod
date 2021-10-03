@@ -11,6 +11,7 @@ import fields from './fields';
 import { connect } from 'react-redux';
 import Datetime from 'react-datetime';
 import generateResume from 'utils/generateResume';
+import { i18n } from 'i18n';
 
 const PersonalDetails = (props) => {
   const {
@@ -40,6 +41,7 @@ const PersonalDetails = (props) => {
     e.preventDefault();
     setCvColor(false);
     setCvDownload(true);
+    console.log(i18n.language);
     try {
       await generateResume(
         inputValues,
@@ -262,12 +264,12 @@ const PersonalDetails = (props) => {
       </Row>
       <ColorPickerModal
         color={color}
-        setColor={setColor}
+        setcolor={setColor}
         show={cvColor}
-        cvTemplate={true}
-        setTemplate={setTemplate}
+        resume={true}
+        settemplate={setTemplate}
         template={template}
-        nextAction={downloadResume}
+        action={downloadResume}
         onHide={() => setCvColor(false)}
       />
     </div>

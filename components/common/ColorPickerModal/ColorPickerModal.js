@@ -1,19 +1,18 @@
 import { Container, Button, Row, Col } from 'react-bootstrap';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Modal } from 'react-bootstrap';
 import { SketchPicker } from 'react-color';
 import { AiOutlineCheck, AiOutlineClose } from 'react-icons/ai';
 const ColorPickerModal = (props) => {
-  const { color, setColor, nextAction, cvTemplate, template, setTemplate } =
-    props;
+  const { color, setcolor, action, resume, template, settemplate } = props;
   const defaultColor = { r: 165, g: 42, b: 42 };
   const hangleTemplate = (e) => {
-    if (e?.target?.checked) setTemplate(e?.target?.id);
+    if (e?.target?.checked) settemplate(e?.target?.id);
   };
 
   const handleColorChange = (e) => {
     let rgb = e?.rgb;
-    setColor({ r: rgb.r, g: rgb.g, b: rgb.b });
+    setcolor({ r: rgb.r, g: rgb.g, b: rgb.b });
   };
 
   const templates = [
@@ -29,6 +28,10 @@ const ColorPickerModal = (props) => {
       id: 'sunsetGadient',
       label: 'Sunset Gradient',
     },
+    // {
+    //   id: 'radientBlue',
+    //   label: 'Radiant Blue',
+    // },
   ];
   return (
     <Modal
@@ -47,7 +50,7 @@ const ColorPickerModal = (props) => {
       </Modal.Body>
       <Modal.Footer className="modal__footer">
         <Container>
-          {cvTemplate && (
+          {resume && (
             <Row>
               {templates.map((item) => {
                 return (
@@ -61,11 +64,11 @@ const ColorPickerModal = (props) => {
                     key={item.id}
                   >
                     <div className={'checkbox__item'}>
-                      <label class="checkbox bounce">
+                      <label className="checkbox bounce">
                         <input
                           type="checkbox"
                           id={item.id}
-                          onClick={hangleTemplate}
+                          onChange={hangleTemplate}
                           checked={template && template == item.id}
                         />
                         <svg viewBox="0 0 21 21">
@@ -86,7 +89,7 @@ const ColorPickerModal = (props) => {
 
             <Button
               onClick={(event) => {
-                nextAction(event);
+                action(event);
               }}
             >
               <AiOutlineCheck />
