@@ -1,1 +1,1 @@
-export const maxTotalSize = 62914560; //60 MB -> 62914560
+export const maxTotalSize = 104857600; //60 MB -> 62914560
