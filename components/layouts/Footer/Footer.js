@@ -144,17 +144,13 @@ const Footer = (props) => {
               <ul className="list-unstyled top__list mt-4">
                 <li>
                   <a href="/#about-us" className="list__items">
-                    <FontAwesomeIcon icon="chevron-right" className="icon" />{' '}
+                    <FontAwesomeIcon icon="chevron-right" className="icon" />
                     {t('footer:top.list-menu.menu-2.items.item-1')}
                   </a>
                 </li>
                 <li>
                   <a href="/#about-us" className="list__items">
-                    {' '}
-                    <FontAwesomeIcon
-                      icon="chevron-right"
-                      className="icon"
-                    />{' '}
+                    <FontAwesomeIcon icon="chevron-right" className="icon" />
                     {t('footer:top.list-menu.menu-2.items.item-2')}
                   </a>
                 </li>
@@ -170,34 +166,34 @@ const Footer = (props) => {
                 </li> */}
                 <li>
                   <a href="/#promoted-section" className="list__items">
-                    {' '}
-                    <FontAwesomeIcon
-                      icon="chevron-right"
-                      className="icon"
-                    />{' '}
+                    <FontAwesomeIcon icon="chevron-right" className="icon" />
                     {t('footer:top.list-menu.menu-2.items.item-6')}
                   </a>
                 </li>
                 <li>
                   <a href="/voting-board" className="list__items">
-                    {' '}
-                    <FontAwesomeIcon
-                      icon="chevron-right"
-                      className="icon"
-                    />{' '}
+                    <FontAwesomeIcon icon="chevron-right" className="icon" />
                     {t('footer:top.list-menu.menu-2.items.item-7')}
                   </a>
                 </li>
                 <li>
                   <a href="/blog" className="list__items">
-                    {' '}
-                    <FontAwesomeIcon
-                      icon="chevron-right"
-                      className="icon"
-                    />{' '}
+                    <FontAwesomeIcon icon="chevron-right" className="icon" />
                     {t('footer:top.list-menu.menu-2.items.item-4')}
                   </a>
                 </li>
+                <li>
+                  <a href="/tools/mortgage-calculator" className="list__items">
+                    <FontAwesomeIcon icon="chevron-right" className="icon" />
+                    {t('footer:top.list-menu.menu-2.items.item-8')}
+                  </a>
+                </li>
+                {/* <li>
+                  <a href="/tools/finance-calculator" className="list__items">
+                    <FontAwesomeIcon icon="chevron-right" className="icon" />
+                    {t('footer:top.list-menu.menu-2.items.item-9')}
+                  </a>
+                </li> */}
               </ul>
             </Col>
 
