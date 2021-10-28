@@ -237,3 +237,46 @@
     transform: scale(1);
   }
 }
+
+.input__bounty__section {
+  padding: 25px;
+  border: gold 4px solid;
+  border-radius: 22px;
+}
+
+.bounty {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 5px;
+  .bounty__text {
+    display: inline-block;
+    font-weight: 600;
+    color: #666;
+    font-size: 17px;
+    margin-left: 27px;
+    position: relative;
+    top: -15px;
+    background-color: #fff;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .bounty__border {
+    border: gold 2px solid;
+    border-radius: 22px;
+  }
+  .bounty__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    .bounty__label {
+      font-weight: 600;
+      color: #666;
+      font-size: 13px;
+    }
+    .bounty__currency {
+      color: #229954;
+      font-weight: bold;
+    }
+  }
+}

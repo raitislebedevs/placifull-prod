@@ -10,7 +10,7 @@ import GeneralInformation from '../TransportForm/GeneralInformation';
 import DetailInformation from '../TransportForm/DetailInformation';
 import Gallery from '../TransportForm/Gallery';
 import Preview from '../TransportForm/Preview';
-import { ListingPayment, SpinnerModal } from '../index';
+import { BountyDetails, ListingPayment, SpinnerModal } from '../index';
 import { dayCostTransport, defaultExpiryDays } from 'constants/listingDetails';
 import useSubscription from 'hooks/useSubscription';
 import usePostInputValues from 'hooks/usePostInputValues';
@@ -155,7 +155,12 @@ const TransportSubmit = (props) => {
         youtubeLink: inputValues?.transportyoutubeLink || null,
         twitterLink: inputValues?.transporttwitterLink || null,
       },
-
+      //Bounty Rewards
+      BountyReward: {
+        oneToFive: inputValues?.oneToFive || 0,
+        sixToFifteen: inputValues?.sixToFifteen || 0,
+        sixteenPlus: inputValues?.sixteenPlus || 0,
+      },
       //Specifications.
       insertDate: new Date(),
       user: user?.id || null,
@@ -340,6 +345,12 @@ const TransportSubmit = (props) => {
         heading={t('transport-submit:form.contact-hours.accordion.heading')}
         inputValues={inputValues}
         setInputValues={setInputValues}
+        handleOnChange={handleOnChange}
+        t={t}
+      />
+      <BountyDetails
+        submitCurrency={submitCurrency}
+        inputValues={inputValues}
         handleOnChange={handleOnChange}
         t={t}
       />

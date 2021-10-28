@@ -139,5 +139,12 @@
     "profile": "Profils",
     "log-out": "Iziet"
   },
-  "preview-close": "Aizvērt Priekštatījumu"
+  "preview-close": "Aizvērt Priekštatījumu",
+
+  "bounty": {
+    "label": "Atlīdzība par atrašanu",
+    "oneToFive": "1-5 dienas",
+    "sixToFifteen": "6-15 dienas",
+    "sixteenPlus": "16+ dienas"
+  }
 }

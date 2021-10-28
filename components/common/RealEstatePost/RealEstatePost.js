@@ -13,7 +13,7 @@ import Gallery from '../RealEstateForm/Gallery';
 import Preview from '../RealEstateForm/Preview';
 import moment from 'moment';
 import { defaultExpiryDays, dayCostRealEstate } from 'constants/listingDetails';
-import { ListingPayment, SpinnerModal } from '../index';
+import { BountyDetails, ListingPayment, SpinnerModal } from '../index';
 import useSubscription from 'hooks/useSubscription';
 import usePostInputValues from 'hooks/usePostInputValues';
 import { useRouter } from 'next/router';
@@ -167,6 +167,12 @@ const RealEstatePost = (props) => {
       },
       totalUltilities: inputValues?.totalUltilities || null,
 
+      //Bounty Rewards
+      BountyReward: {
+        oneToFive: inputValues?.oneToFive || 0,
+        sixToFifteen: inputValues?.sixToFifteen || 0,
+        sixteenPlus: inputValues?.sixteenPlus || 0,
+      },
       expiryDate: expiryDate || null,
       user: user?.id || null,
     };
@@ -361,6 +367,13 @@ const RealEstatePost = (props) => {
         heading={t('real-estate-submit:form.contact-hours.accordion.heading')}
         inputValues={inputValues}
         setInputValues={setInputValues}
+        handleOnChange={handleOnChange}
+        t={t}
+      />
+
+      <BountyDetails
+        submitCurrency={submitCurrency}
+        inputValues={inputValues}
         handleOnChange={handleOnChange}
         t={t}
       />

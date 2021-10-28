@@ -35,6 +35,7 @@ export { default as RichText } from './RichText';
 export { default as ColorPickerModal } from './ColorPickerModal';
 export { default as TransportEdit } from './TransportEdit';
 export { default as JobEdit } from './JobEdit';
-
+export { default as BountyDetails } from './BountyDetails';
+export { default as BountyMarker } from './BountyMarker';
 //Don't add this, because it is not SSR, it wont run
 // export { default as LeafletMap } from './LeafletMap'

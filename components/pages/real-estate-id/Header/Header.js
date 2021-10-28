@@ -1,4 +1,4 @@
-import { PageHeading } from 'components/common';
+import { PageHeading, BountyMarker } from 'components/common';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Spinner, Row, Col } from 'react-bootstrap';
 import { AiOutlineClockCircle } from 'react-icons/ai';

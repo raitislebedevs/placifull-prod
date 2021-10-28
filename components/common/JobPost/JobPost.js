@@ -10,7 +10,7 @@ import DetailInformation from '../JobForm/DetailInformation';
 import Preview from '../JobForm/Preview';
 import Gallery from '../JobForm/Gallery';
 import { dayCostJobs, defaultExpiryDays } from 'constants/listingDetails';
-import { ListingPayment, SpinnerModal } from '../index';
+import { BountyDetails, ListingPayment, SpinnerModal } from '../index';
 import useSubscription from 'hooks/useSubscription';
 import useJobPost from 'hooks/useJobPost';
 import { useRouter } from 'next/router';
@@ -151,6 +151,13 @@ const JobPost = (props) => {
 
       hourlySalaryFrom: inputValues?.hourlySalaryFrom || null,
       hourlySalaryTo: inputValues?.hourlySalaryTo || null,
+
+      //Bounty Rewards
+      BountyReward: {
+        oneToFive: inputValues?.oneToFive || 0,
+        sixToFifteen: inputValues?.sixToFifteen || 0,
+        sixteenPlus: inputValues?.sixteenPlus || 0,
+      },
 
       expiryDate: expiryDate || null,
       user: user?.id || null,
@@ -338,6 +345,12 @@ const JobPost = (props) => {
         heading={t('job-submit:form.contact-hours.accordion.heading')}
         inputValues={inputValues}
         setInputValues={setInputValues}
+        handleOnChange={handleOnChange}
+        t={t}
+      />
+      <BountyDetails
+        submitCurrency={submitCurrency}
+        inputValues={inputValues}
         handleOnChange={handleOnChange}
         t={t}
       />

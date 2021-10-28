@@ -137,5 +137,12 @@
     }
   },
   "user-box": { "profile": "Profile", "log-out": "Log out" },
-  "preview-close": "Close Preview"
+  "preview-close": "Close Preview",
+
+  "bounty": {
+    "label": "Bounty rewards",
+    "oneToFive": "1-5 days",
+    "sixToFifteen": "6-15 days",
+    "sixteenPlus": "16+ days"
+  }
 }
