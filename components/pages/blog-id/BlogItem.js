@@ -5,15 +5,9 @@ import { MdPhotoCamera } from 'react-icons/md';
 import { AiOutlineFieldTime, AiOutlineEye } from 'react-icons/ai';
 import { formatDate } from 'utils/standaloneFunctions';
 import { Markup } from 'interweave';
-import usePopularity from 'hooks/usePopularity';
-import { BlogService } from 'services';
 
 const BlogItem = (props) => {
   const { blogItem, t } = props;
-  const [liveViews, starValue, isLoading, handleRating] = usePopularity(
-    blogItem,
-    BlogService
-  );
 
   return (
     <Row>

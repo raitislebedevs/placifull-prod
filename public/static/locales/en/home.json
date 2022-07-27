@@ -262,7 +262,7 @@
       },
       "post": {
         "title": "Please choose option",
-        "body": " Do you want to Purchase new options for your profile or use the existing ones?",
+        "body": "Do you want to Purchase new options for your profile or use the existing ones?",
         "post": "No, post listing",
         "purchase": "Yes, purchase"
       }

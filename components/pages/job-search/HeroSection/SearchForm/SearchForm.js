@@ -523,7 +523,7 @@ const SearchForm = (props) => {
                   )}
                 </Col>
               )}
-              {/* <Col lg={1} md={2}>
+              <Col lg={1} md={2}>
                 <Button
                   variant="primary"
                   size="lg"
@@ -544,7 +544,7 @@ const SearchForm = (props) => {
                     </>
                   )}
                 </Button>
-              </Col> */}
+              </Col>
             </Row>
 
             <Accordion.Collapse eventKey={1}>
