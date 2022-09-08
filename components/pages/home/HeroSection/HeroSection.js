@@ -30,7 +30,6 @@ const HeroSection = (props) => {
               <div className="hero-section__content-hero">
                 <h1 className="content-hero__heading">
                   {t('hero-section.head.line-1')}
-                  {'  '}
                   <div>
                     <span className="heading__type-write element">
                       <span className="type-write__wrap">

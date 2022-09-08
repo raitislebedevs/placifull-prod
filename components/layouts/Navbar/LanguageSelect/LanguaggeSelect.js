@@ -87,7 +87,7 @@ const LanguageSelect = (props) => {
     control: (provided) => ({
       ...provided,
       border: 'none',
-      width: 125,
+      width: 150,
       backgroundColor: 'transparent',
       boxShadow: 'none',
       cursor: 'pointer',
@@ -117,7 +117,7 @@ const LanguageSelect = (props) => {
       ...provided,
       color: state.isSelected ? 'white' : '#707070',
       backgroundColor: state.isSelected ? '#a52a2a' : 'white',
-      fontSize: '11px',
+      fontSize: '13px',
       fontWeight: 'bold',
       padding: 10,
       cursor: 'pointer',
@@ -134,9 +134,8 @@ const LanguageSelect = (props) => {
     }),
     singleValue: (provided, state) => ({
       ...provided,
-      color: showNavbarLight ? '#686262' : '#9f9f9f',
-      fontSize: '11px',
-      fontWeight: 'bold',
+      color: showNavbarLight ? '#686262' : 'rgba(255, 255, 255, 0.75)',
+      fontSize: '15px',
     }),
   };
 

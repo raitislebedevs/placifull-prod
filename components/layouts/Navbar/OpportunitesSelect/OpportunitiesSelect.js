@@ -27,21 +27,21 @@ const OpportunitiesSelect = (props) => {
         {t('navbar:opportunities.base')}
       </Dropdown.Toggle>
       <Dropdown.Menu>
-        <Dropdown.Item as="div">
-          <Link id="real-estate" href="/real-estate">
+        <Link id="real-estate" href="/real-estate">
+          <Dropdown.Item as="div">
             <a>{t('navbar:opportunities.real-estate')}</a>
-          </Link>
-        </Dropdown.Item>
-        <Dropdown.Item as="div">
-          <Link id="transport" href="/transport">
+          </Dropdown.Item>
+        </Link>
+        <Link id="transport" href="/transport">
+          <Dropdown.Item as="div">
             <a>{t('navbar:opportunities.vehicles')}</a>
-          </Link>
-        </Dropdown.Item>
-        <Dropdown.Item as="div">
-          <Link id="jobs" href="/job-search">
+          </Dropdown.Item>
+        </Link>
+        <Link id="jobs" href="/job-search">
+          <Dropdown.Item as="div">
             <a>{t('navbar:opportunities.job-search')}</a>
-          </Link>
-        </Dropdown.Item>
+          </Dropdown.Item>
+        </Link>
         {/* <Dropdown.Item as="div">
           <a id="tools">{t('navbar:opportunities.tools')}</a>
         </Dropdown.Item> */}
