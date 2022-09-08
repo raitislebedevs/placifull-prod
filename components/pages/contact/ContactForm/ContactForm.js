@@ -6,37 +6,12 @@ import { connect } from 'react-redux';
 import useEmail from 'hooks/useEmail';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
+import { infoCard } from '../Constants/infoCard';
 
 const ContactForm = (props) => {
   const { t, user } = props;
   const [sendEmail] = useEmail(t);
-
-  const infoCardMenu = [
-    {
-      key: 'location',
-      label: t('contact:contact-form.contact.items.item-1.label'),
-      description: 'Latvija, Rīga',
-      type: 'text',
-    },
-    {
-      key: 'phone',
-      label: t('contact:contact-form.contact.items.item-2.label'),
-      description: '+371 26 843 180',
-      type: 'text',
-    },
-    {
-      key: 'email',
-      label: t('contact:contact-form.contact.items.item-3.label'),
-      description: 'placifull@placifull.com',
-      type: 'link',
-    },
-    {
-      key: 'customer-care',
-      label: t('contact:contact-form.contact.items.item-4.label'),
-      description: 'customercare@placifull.com',
-      type: 'link',
-    },
-  ];
+  const infoCardMenu = infoCard(t);
 
   const handleSubmit = async (values) => {
     let payload = {
@@ -195,11 +170,7 @@ const ContactForm = (props) => {
                   </>
                 ) : (
                   <>
-                    {' '}
-                    <FontAwesomeIcon
-                      icon="envelope"
-                      className="button__icon"
-                    />{' '}
+                    <FontAwesomeIcon icon="envelope" className="button__icon" />
                     {t('contact:contact-form.form.submit')}
                   </>
                 )}
