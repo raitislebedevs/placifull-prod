@@ -55,9 +55,14 @@
     }
   }
 
-  .monthly__payment {
-    font-size: x-large;
-    text-align: center;
+  .payment__info {
+    display: flex;
+    font-size: large;
+    justify-content: space-between;
+    margin-top: 0.25rem;
+    .amount {
+      border-bottom: 1px solid #343a40;
+    }
   }
 
   .table__overflow {

@@ -1,15 +1,24 @@
 {
   "title": "Playground section",
   "subtitle": "Help tools",
+  "tool-types": {
+    "all": "All",
+    "mortgage": "Mortgage calculator"
+  },
   "mortgage": {
     "heading": "Mortgage calculator",
     "amount": "Mortgage amount",
-    "percentage": "Percentage",
-    "time": "Time period",
+    "deposit": "Deposit",
+    "percentage": "Interest",
+    "from-date": "From date: ",
+    "to-date": "To date: ",
+    "time": "Period",
     "year": "Years",
     "month": "Month",
     "no-currency": "ALL",
     "payment": "Monthly payment",
+    "total": "Total payment",
+    "paid-in-percentage": "Total interest payment:",
     "even": "Even",
     "descending": "Descending",
     "submit": "Calculate",

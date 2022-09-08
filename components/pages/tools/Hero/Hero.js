@@ -1,8 +1,13 @@
 import { FaChevronRight } from 'react-icons/fa';
 import { Container } from 'react-bootstrap';
+import { ToggleNav } from 'components//common/index';
+import { toolOptions } from './Constants/toolOptions';
+import { useState } from 'react';
 
 const HeroTerms = (props) => {
   const { t } = props;
+  const filters = toolOptions(t);
+  const [activeItem, setActiveItem] = useState(filters[0]);
 
   return (
     <div className="terms__link__container">
@@ -37,6 +42,11 @@ const HeroTerms = (props) => {
           </svg>
         </div>
       </div>
+      <ToggleNav
+        toggles={filters}
+        activeToggle={activeItem}
+        setActiveToggle={setActiveItem}
+      />
     </div>
   );
 };

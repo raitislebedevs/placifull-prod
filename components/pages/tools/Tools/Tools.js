@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col, Form } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { CustomFormControl } from 'components/common';
@@ -7,10 +7,10 @@ import NumberFormat from 'react-number-format';
 import { RiCalendar2Line } from 'react-icons/ri';
 import Datetime from 'react-datetime';
 import { formatDate, formatNumber } from 'utils/standaloneFunctions';
+import * as moment from 'node_modules/moment/moment';
 
 const Tools = (props) => {
-  const { t, user } = props;
-
+  const { t } = props;
   const [submitCurrency, setSubmitCurrency] = useState('');
   const [inputValues, setInputValues] = useState({
     fromDate: new Date(),
@@ -33,22 +33,33 @@ const Tools = (props) => {
     if (
       !inputValues?.mortgage ||
       !inputValues?.percentage ||
-      !inputValues?.mortgageTime
+      (!inputValues?.mortgageTime && !inputValues?.toDate)
     ) {
       return;
     }
     let amount = inputValues?.mortgage || 0;
+    let deposit = inputValues?.deposit || 0;
+
+    amount -= deposit;
+
     let percentage = inputValues?.percentage / 100;
     let fromDate = inputValues?.fromDate
       ? new Date(inputValues?.fromDate)
       : new Date();
-    let mortgageTime = inputValues?.mortgageTime || 1;
+    let toDate = inputValues?.toDate
+      ? new Date(inputValues?.toDate)
+      : new Date();
 
+    let mortgageTime = inputValues?.mortgageTime || 1;
     let type = inputValues?.percentageType;
     let paymentPeriodType = inputValues?.paymentPeriod;
 
-    if (paymentPeriodType == 'year') {
-      mortgageTime *= 12;
+    if (toDate && fromDate && !inputValues?.mortgageTime) {
+      mortgageTime = moment(toDate).diff(moment(fromDate), 'month');
+    }
+
+    if (paymentPeriodType == 'year' && inputValues?.mortgageTime) {
+      mortgageTime = inputValues?.mortgageTime * 12;
     }
 
     let amortization = [];
@@ -61,8 +72,9 @@ const Tools = (props) => {
         (amount * (rate * Math.pow(1 + rate, mortgageTime))) /
         (Math.pow(1 + rate, mortgageTime) - 1);
     }
-
+    let iteration = 0;
     while (amount > 0) {
+      iteration++;
       let fromPaymentDate = new Date(fromDate);
       let paymentDate = new Date(fromDate.setMonth(fromDate.getMonth() + 1));
       let diffTime = Math.abs(paymentDate - fromPaymentDate);
@@ -192,7 +204,7 @@ const Tools = (props) => {
             </h3>
             <div className={'separator'}></div>
             <Row className={'suggestion__text'}>
-              <Col lg={8} md={8} sm={8}>
+              <Col lg={4} md={4} sm={4}>
                 <Form.Group>
                   <NumberFormat
                     customInput={CustomFormControl}
@@ -228,6 +240,40 @@ const Tools = (props) => {
               </Col>
               <Col lg={4} md={4} sm={4}>
                 <Form.Group>
+                  <NumberFormat
+                    customInput={CustomFormControl}
+                    label={t('tools:mortgage.deposit')}
+                    id={'deposit'}
+                    onValueChange={(e) => {
+                      let payload = {
+                        target: {
+                          value: e?.floatValue || 0,
+                          id: 'deposit',
+                        },
+                      };
+                      handleOnChange(payload);
+                    }}
+                    dropdownHandleChange={dropdownHandleChange}
+                    autoComplete="current-text"
+                    decimalScale={2}
+                    allowNegative={false}
+                    thousandsGroupStyle="thousand"
+                    fixedDecimalScale={true}
+                    isAllowed={(values) =>
+                      values.value >= 0 &&
+                      values.value <= 99999999999999999999999
+                    }
+                    inputValues={inputValues}
+                    prepend={
+                      submitCurrency
+                        ? { values: [submitCurrency] }
+                        : { values: [t('tools:mortgage.no-currency')] }
+                    }
+                  />
+                </Form.Group>
+              </Col>
+              <Col lg={4} md={4} sm={4}>
+                <Form.Group>
                   <CurrencyInput
                     handleOnChange={handleOnChange}
                     setCurrency={setSubmitCurrency}
@@ -236,7 +282,7 @@ const Tools = (props) => {
                   />
                 </Form.Group>
               </Col>
-              <Col lg={5} md={5} sm={12}>
+              <Col lg={4} md={4} sm={12}>
                 <Form.Group>
                   <NumberFormat
                     customInput={CustomFormControl}
@@ -278,7 +324,7 @@ const Tools = (props) => {
                   />
                 </Form.Group>
               </Col>
-              <Col lg={3} md={3} sm={12}>
+              <Col lg={4} md={4} sm={12}>
                 <Form.Group>
                   <NumberFormat
                     customInput={CustomFormControl}
@@ -335,19 +381,54 @@ const Tools = (props) => {
                         <Form.Control
                           {...props}
                           id={'fromDate'}
-                          placeholder={formatDate(new Date(), t)}
+                          placeholder={t('tools:mortgage.from-date')}
                         />
                       );
                     }}
                   />
                 </Form.Group>
-              </Col>{' '}
+              </Col>
+              <Col lg={4} md={4} sm={6} className={'decorator__container'}>
+                <Form.Group>
+                  <RiCalendar2Line />
+                  <Datetime
+                    inputProps={{ className: 'datetime', readOnly: true }}
+                    value={inputValues['toDate']}
+                    onChange={(e) =>
+                      handleOnChange({ target: { value: e, id: 'toDate' } })
+                    }
+                    timeFormat={false}
+                    dateFormat={'YYYY-MM-DD'}
+                    renderInput={(props) => {
+                      return (
+                        <Form.Control
+                          {...props}
+                          id={'toDate'}
+                          placeholder={t('tools:mortgage.to-date')}
+                        />
+                      );
+                    }}
+                  />
+                </Form.Group>
+              </Col>
             </Row>
           </Col>
           <Col xs={12} sm={12} md={12} lg={4} xl={4} className={'info'}>
-            <div className={'rating_container'}>
-              <div className={'monthly__payment'}>
-                <span>{t('tools:mortgage.payment')}:</span>{' '}
+            <div>
+              <div className={'payment__info'}>
+                <span>{t('tools:mortgage.total')}:</span>
+                <span className={'amount'}>
+                  {formatNumber(totals?.total?.toFixed(2))}
+                </span>
+              </div>
+              <div className={'payment__info'}>
+                <span>{t('tools:mortgage.paid-in-percentage')}:</span>
+                <span className={'amount'}>
+                  {formatNumber(totals?.monthlyInterest?.toFixed(2))}
+                </span>
+              </div>
+              <div className={'payment__info'}>
+                <span>{t('tools:mortgage.payment')}:</span>
                 <span className={'amount'}>{formatNumber(monthlyPayment)}</span>
               </div>
             </div>
@@ -395,7 +476,6 @@ const Tools = (props) => {
                 <tfoot className="table__footer">
                   <tr>
                     <td className={'first__foot__col'}>
-                      {' '}
                       {t('tools:mortgage.table.sum')}
                     </td>
                     <td>{`${totals.monthlyInterest.toFixed(2)}   ${
@@ -407,7 +487,7 @@ const Tools = (props) => {
                       submitCurrency
                         ? submitCurrency
                         : t('tools:mortgage.no-currency')
-                    }`}</td>{' '}
+                    }`}</td>
                     <td>{`${totals.total.toFixed(2)}   ${
                       submitCurrency
                         ? submitCurrency
