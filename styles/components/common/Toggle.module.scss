@@ -1,0 +1,23 @@
+.blog__filters {
+  .option__item {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #777777;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.service__option.nav.nav-pills {
+  .nav-link {
+    border: 1px solid theme-color("primary");
+    transition: all 0.5s ease;
+    &:hover {
+      background: theme-color("primary");
+      color: white;
+      padding: 0.49rem 1rem;
+      border-radius: 10px;
+    }
+  }
+}

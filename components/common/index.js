@@ -37,5 +37,7 @@ export { default as TransportEdit } from './TransportEdit';
 export { default as JobEdit } from './JobEdit';
 export { default as BountyDetails } from './BountyDetails';
 export { default as BountyMarker } from './BountyMarker';
+export { default as ToggleNav } from './ToggleNav';
+export { default as BlogItem } from './BlogItem';
 //Don't add this, because it is not SSR, it wont run
 // export { default as LeafletMap } from './LeafletMap'
