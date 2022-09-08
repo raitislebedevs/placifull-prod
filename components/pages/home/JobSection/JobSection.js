@@ -84,14 +84,11 @@ const JobSection = (props) => {
             <Col xs={12} sm={12} md={12} lg={4} xl={4}>
               <div className="job-section__left">
                 <span className="left-badge">{t('job-section.badge')}</span>
-                <div className="left-title">
-                  {t('job-section.head.line-1')}{' '}
-                </div>
+                <div className="left-title">{t('job-section.head.line-1')}</div>
                 <p className="text-muted mx-auto mx-lg-left para-desc mb-0">
-                  {t('job-section.head.line-2')}{' '}
+                  {t('job-section.head.line-2')}
                   <span className="text-primary font-weight-bold">
-                    {' '}
-                    {t('job-section.head.line-3')}{' '}
+                    {t('job-section.head.line-3')}
                   </span>
                   {t('job-section.head.line-4')}
                 </p>
@@ -110,7 +107,6 @@ const JobSection = (props) => {
               xl={8}
               className="job-section__right"
             >
-              {' '}
               <div className="job__list-items">
                 {isLoading ? (
                   <div className="featured__items__loading">
