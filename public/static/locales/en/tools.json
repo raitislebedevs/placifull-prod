@@ -9,6 +9,7 @@
     "heading": "Mortgage calculator",
     "amount": "Mortgage amount",
     "deposit": "Deposit",
+    "extra-payment": "Extra payment",
     "percentage": "Interest",
     "from-date": "From date: ",
     "to-date": "To date: ",

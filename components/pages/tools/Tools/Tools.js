@@ -38,6 +38,7 @@ const Tools = (props) => {
       return;
     }
     let amount = inputValues?.mortgage || 0;
+    let extraPayment = inputValues?.extraPayment || 0;
     let deposit = inputValues?.deposit || 0;
 
     amount -= deposit;
@@ -63,18 +64,18 @@ const Tools = (props) => {
     }
 
     let amortization = [];
-    let regularPayment = (amount / mortgageTime).toFixed(2);
+    let regularPayment = (amount / mortgageTime + extraPayment).toFixed(2);
     let totalSums = { monthlyInterest: 0, mortgageSum: 0, total: 0 };
     let mortgageMonthlyPayment = 0;
     if (type == 'even') {
       let rate = percentage / 12;
       mortgageMonthlyPayment =
         (amount * (rate * Math.pow(1 + rate, mortgageTime))) /
-        (Math.pow(1 + rate, mortgageTime) - 1);
+          (Math.pow(1 + rate, mortgageTime) - 1) +
+        extraPayment;
     }
-    let iteration = 0;
+
     while (amount > 0) {
-      iteration++;
       let fromPaymentDate = new Date(fromDate);
       let paymentDate = new Date(fromDate.setMonth(fromDate.getMonth() + 1));
       let diffTime = Math.abs(paymentDate - fromPaymentDate);
@@ -249,6 +250,40 @@ const Tools = (props) => {
                         target: {
                           value: e?.floatValue || 0,
                           id: 'deposit',
+                        },
+                      };
+                      handleOnChange(payload);
+                    }}
+                    dropdownHandleChange={dropdownHandleChange}
+                    autoComplete="current-text"
+                    decimalScale={2}
+                    allowNegative={false}
+                    thousandsGroupStyle="thousand"
+                    fixedDecimalScale={true}
+                    isAllowed={(values) =>
+                      values.value >= 0 &&
+                      values.value <= 99999999999999999999999
+                    }
+                    inputValues={inputValues}
+                    prepend={
+                      submitCurrency
+                        ? { values: [submitCurrency] }
+                        : { values: [t('tools:mortgage.no-currency')] }
+                    }
+                  />
+                </Form.Group>
+              </Col>
+              <Col lg={4} md={4} sm={4}>
+                <Form.Group>
+                  <NumberFormat
+                    customInput={CustomFormControl}
+                    label={t('tools:mortgage.extra-payment')}
+                    id={'extraPayment'}
+                    onValueChange={(e) => {
+                      let payload = {
+                        target: {
+                          value: e?.floatValue || 0,
+                          id: 'extraPayment',
                         },
                       };
                       handleOnChange(payload);
