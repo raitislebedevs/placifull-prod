@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { Container, Row, Col, Spinner } from 'react-bootstrap';
+import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 import { BsPerson } from 'react-icons/bs';
 import { MdPhotoCamera } from 'react-icons/md';
-import { AiOutlineFieldTime, AiOutlineEye } from 'react-icons/ai';
+import { AiOutlineFieldTime } from 'react-icons/ai';
 import { formatDate } from 'utils/standaloneFunctions';
 import { Markup } from 'interweave';
 
