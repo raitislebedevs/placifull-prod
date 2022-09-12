@@ -3,7 +3,8 @@
   "subtitle": "Help tools",
   "tool-types": {
     "all": "All",
-    "mortgage": "Mortgage calculator"
+    "mortgage": "Mortgage calculator",
+    "salary": "Salary calculator"
   },
   "mortgage": {
     "heading": "Mortgage calculator",
@@ -31,5 +32,10 @@
       "amount": "Amount left",
       "sum": "Sum"
     }
+  },
+
+  "salary": {
+    "heading": "Salary calculator",
+    "bruto": "Bruto salary"
   }
 }

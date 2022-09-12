@@ -88,7 +88,7 @@ const JobSection = (props) => {
                 <p className="text-muted mx-auto mx-lg-left para-desc mb-0">
                   {t('job-section.head.line-2')}
                   <span className="text-primary font-weight-bold">
-                    {t('job-section.head.line-3')}
+                    {` ${t('job-section.head.line-3')} `}
                   </span>
                   {t('job-section.head.line-4')}
                 </p>

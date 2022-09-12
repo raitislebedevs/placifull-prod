@@ -9,7 +9,7 @@ import Datetime from 'react-datetime';
 import { formatDate, formatNumber } from 'utils/standaloneFunctions';
 import * as moment from 'node_modules/moment/moment';
 
-const Tools = (props) => {
+const MortgageCalculator = (props) => {
   const { t } = props;
   const [submitCurrency, setSubmitCurrency] = useState('');
   const [inputValues, setInputValues] = useState({
@@ -334,7 +334,7 @@ const Tools = (props) => {
                     }}
                     dropdownHandleChange={dropdownHandleChange}
                     autoComplete="current-text"
-                    decimalScale={2}
+                    decimalScale={4}
                     allowNegative={false}
                     thousandsGroupStyle="thousand"
                     fixedDecimalScale={true}
@@ -544,4 +544,4 @@ export const mapStateToProps = (state) => ({
   user: state.connectionReducer.user,
 });
 
-export default connect(mapStateToProps)(Tools);
+export default connect(mapStateToProps)(MortgageCalculator);

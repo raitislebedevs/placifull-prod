@@ -641,7 +641,7 @@ const SearchForm = (props) => {
                       {t('real-estate-detail:about.featured')}
                     </div>
                     <div className={'checkbox__item'}>
-                      <label class="checkbox bounce">
+                      <label className="checkbox bounce">
                         <input
                           type="checkbox"
                           id={'promoted'}

@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { Provider } from 'react-redux';
 import { useStore } from '../store/';

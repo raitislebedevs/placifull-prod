@@ -2,6 +2,7 @@ import config from '../config';
 import axios from 'axios';
 import Cookies from 'js-cookie';
 import qs from 'qs';
+import TostifyCustomContainer from 'components//common/TostifyCustomContainer/TostifyCustomContainer';
 
 class CoreServices {
   constructor(service) {
@@ -32,11 +33,25 @@ class CoreServices {
     let { status, data } = error?.response || {};
     let msg = '';
     if (status === 500) {
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        'Internal error'
+      );
+
       msg = 'internal-error';
     } else {
       msg = data?.message?.[0]?.messages?.[0]?.id;
+      TostifyCustomContainer('error', t('common:toast.messages.error'), msg);
     }
-    if (!msg) msg = 'connection-error';
+    if (!msg) {
+      msg = 'connection-error';
+      TostifyCustomContainer(
+        'error',
+        t('common:toast.messages.error'),
+        'Connection error'
+      );
+    }
     return msg;
   }
 

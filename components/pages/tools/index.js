@@ -1,4 +1,4 @@
 import HeroTerms from './Hero';
-import Tools from './Tools';
-
-export { HeroTerms, Tools };
+import MortgageCalculator from './MortgageCalculator';
+import SalaryCalculator from './SalaryCalculator';
+export { HeroTerms, MortgageCalculator, SalaryCalculator };

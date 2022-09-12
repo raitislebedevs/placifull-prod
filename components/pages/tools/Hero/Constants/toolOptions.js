@@ -7,6 +7,11 @@ export const toolOptions = (t) => [
   {
     key: 1,
     title: t('tools:tool-types.mortgage'),
-    filter: 'realEstate',
+    filter: 'mortgage',
   },
+  // {
+  //   key: 2,
+  //   title: t('tools:tool-types.salary'),
+  //   filter: 'salary',
+  // },
 ];
