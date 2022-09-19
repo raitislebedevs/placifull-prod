@@ -23,7 +23,7 @@ import TostifyCustomContainer from 'components/common/TostifyCustomContainer';
  *
  * @requires props All prop elements are required.
  *
- * @returns {Country/State/City} Will return the currency choosen for the particular input.
+ * @returns {Country/State/City} Will return the Country choosen for the particular input.
  */
 
 const CountryInput = (props) => {

@@ -9,9 +9,9 @@ export const toolOptions = (t) => [
     title: t('tools:tool-types.mortgage'),
     filter: 'mortgage',
   },
-  // {
-  //   key: 2,
-  //   title: t('tools:tool-types.salary'),
-  //   filter: 'salary',
-  // },
+  {
+    key: 2,
+    title: t('tools:tool-types.salary'),
+    filter: 'salary',
+  },
 ];

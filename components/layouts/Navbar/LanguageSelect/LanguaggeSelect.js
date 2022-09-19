@@ -123,19 +123,23 @@ const LanguageSelect = (props) => {
       cursor: 'pointer',
       ':active': {
         ...provided[':active'],
-        backgroundColor: state.isSelected ? '#a52a2a' : 'rgba(124,32,32,0.2)',
+        backgroundColor: state.isSelected
+          ? '#a52a2a'
+          : 'rgba(255, 255, 255, 0.75)',
       },
       borderBottom: '1px solid rgba(0, 0, 0, 0.1)',
       ':hover': {
         ...provided[':hover'],
-        backgroundColor: state.isSelected ? '#a52a2a' : 'rgba(124,32,32,0.1)',
+        backgroundColor: state.isSelected
+          ? '#a52a2a'
+          : 'rgba(255, 255, 255, 0.75)',
         color: state.isSelected ? 'white' : '#a52a2a',
       },
     }),
     singleValue: (provided, state) => ({
       ...provided,
       color: showNavbarLight ? '#686262' : 'rgba(255, 255, 255, 0.75)',
-      fontSize: '15px',
+      fontSize: '13px',
     }),
   };
 
@@ -148,7 +152,7 @@ const LanguageSelect = (props) => {
       onChange={handleLanguageChange}
       options={languages}
       styles={customStyles}
-      instanceId="my-react-select"
+      instanceId="languageSelect"
     />
   );
 };

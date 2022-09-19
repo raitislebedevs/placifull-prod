@@ -34,9 +34,9 @@ const UserBoard = (props) => {
         {(activeItem.filter === 'mortgage' || !activeItem.filter) && (
           <MortgageCalculator t={t} />
         )}
-        {(activeItem.filter === 'salary' || !activeItem.filter) && (
+        {/* {(activeItem.filter === 'salary' || !activeItem.filter) && (
           <SalaryCalculator t={t} />
-        )}
+        )} */}
       </>
     </div>
   );
