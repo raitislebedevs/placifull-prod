@@ -174,7 +174,6 @@ const ApplicantForm = (props) => {
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={props.onHide} disabled={hasApplied}>
-            {' '}
             {t('job-application:job-apply.close')}
           </Button>
           {hasApplied ? (

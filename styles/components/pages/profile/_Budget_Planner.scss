@@ -1,0 +1,138 @@
+.budget__container {
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.13);
+  padding: 1.25rem;
+  border-radius: 5px;
+  .budget__heading {
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+  }
+  .account__info {
+    height: 100%;
+    padding: 0.2rem;
+
+    .ballance__info {
+      font-size: 12px;
+    }
+  }
+
+  .loader {
+    text-align: center;
+    padding: 200px 0px;
+  }
+  .account__container {
+    margin-top: 1.5rem;
+    border-top: 2px solid #1f1f1f;
+    .table__overflow {
+      overflow-x: auto;
+      .extra__heading {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-bottom: 15px;
+        color: #1f1f1f;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .table__Listing {
+        overflow-x: auto;
+        width: 100%;
+
+        td {
+          border: 1px solid #ddd;
+          padding: 8px;
+          font-size: 12px;
+          word-wrap: break-word;
+          white-space: normal;
+          /* min-width: 100px; */
+          max-width: 175px;
+        }
+        th {
+          border: 1px solid #ddd;
+          padding: 8px;
+          font-size: 12px;
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #343a40;
+          color: white;
+          word-wrap: break-word;
+          white-space: normal;
+          /* min-width: 100px; */
+          max-width: 175px;
+        }
+        tr:nth-child(even) {
+          background-color: #f5f5f5;
+        }
+        .standalone__row {
+          &:hover {
+            cursor: pointer;
+            color: green;
+          }
+        }
+        .area__column {
+          min-width: 125px;
+        }
+
+        .first__col__row {
+          border-top: 1px solid #fff;
+          border-left: 1px solid #fff;
+          border-radius: 5px 0 0 0;
+        }
+
+        .last__col__row {
+          border-top: 1px solid #fff;
+          border-right: 1px solid #fff;
+          border-radius: 0 5px 0 0;
+        }
+        .spent__amount {
+          min-width: 100px;
+          text-align: right;
+        }
+        .summary__amount {
+          text-align: right;
+        }
+        tfoot {
+          border-top: 2px solid #1f1f1f;
+        }
+        .summary__row {
+          font-weight: bold;
+          border-top: 2px solid #1f1f1f;
+        }
+      }
+    }
+    .button__container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 12px;
+      }
+    }
+
+    .account__actions {
+      .fx__rate {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .summary__info {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid #1f1f1f;
+  }
+  .account__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0px;
+    color: theme-color("primary");
+    font-size: 15px;
+    height: 100%;
+  }
+}
