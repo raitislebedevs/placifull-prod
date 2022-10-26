@@ -9,6 +9,7 @@ export { default as AutoCompleteInput } from './AutoCompleteInput';
 export { default as JobCard } from './JobCard';
 export { default as TransportationCard } from './TransportationCard';
 export { default as ModalAsk } from './ModalAsk';
+export { default as AccountSettingsModal } from './AccountSettingsModal';
 export { default as SelectInputSubmit } from './SelectInputSubmit';
 export { default as ContactHours } from './ContactHours';
 export { default as SocialLinks } from './SocialLinks';
@@ -39,5 +40,7 @@ export { default as BountyDetails } from './BountyDetails';
 export { default as BountyMarker } from './BountyMarker';
 export { default as ToggleNav } from './ToggleNav';
 export { default as BlogItem } from './BlogItem';
+export { default as DepositAccount } from './DepositAccount';
+
 //Don't add this, because it is not SSR, it wont run
 // export { default as LeafletMap } from './LeafletMap'
