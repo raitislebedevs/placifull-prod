@@ -70,10 +70,13 @@ function DepositAccount(props) {
         ) : (
           <>
             <div className="budget__heading">
-              <span onClick={() => setIsSettingsOpened(!isSettingsOpened)}>
-                Debit Accounts [To be created]
+              <div>Debit Accounts</div>
+              <div
+                className="settings__button"
+                onClick={() => setIsSettingsOpened(!isSettingsOpened)}
+              >
                 <AiOutlineSetting />
-              </span>
+              </div>
             </div>
             <div className="summary__info">
               <Row>
@@ -136,62 +139,102 @@ function DepositAccount(props) {
                     name: 'Income',
                     type: 'area',
                     fill: 'gradient',
-                    data: [23, 11, 22, -27, 13, 22, 37, 21, 44, 22, 30],
+                    data: [
+                      2232, 2232, 2232, 2232, 2232, 2856, 2856, 2856, 2856,
+                      2865, 3000,
+                    ],
                   },
                   {
                     name: 'Spent',
                     type: 'area',
                     fill: 'gradient',
-                    data: [44, 55, 41, -67, 22, 43, 21, 41, 56, 27, 43],
+                    data: [
+                      10, 45, 145, 256, 365, 478, 855, 2000, 2000, 2000, 2222,
+                    ],
                   },
                   {
                     name: 'Saved',
                     type: 'line',
                     fill: 'fill',
-                    data: [30, 25, 36, 30, -45, -35, -64, 52, 59, 36, 39],
+                    data: [
+                      2222, 2185, 2085, 1976, 1867, 2386, 2001, 856, 856, 856,
+                      788,
+                    ],
                   },
                 ]}
               />
             </div>
-            {/* <div>
-              <AppPieGraphics
-                title="Current Visits"
-                chartData={[
-                  { label: 'America', value: 4344 },
-                  { label: 'Asia', value: 5435 },
-                  { label: 'Europe', value: 1443 },
-                  { label: 'Africa', value: 4443 },
-                ]}
-                chartColors={[
-                  theme.palette.primary.main,
-                  theme.palette.info.main,
-                  theme.palette.warning.main,
-                  theme.palette.error.main,
-                ]}
-              />
-            </div> */}
 
             <div className="account__container">
+              <div className="account__heading">
+                <div>Swedbank [EUR]</div>
+                <div
+                  className="settings__button"
+                  onClick={() => setIsSettingsOpened(!isSettingsOpened)}
+                >
+                  <AiOutlineSetting />
+                </div>
+              </div>
               <div className="account__info">
                 <Row>
-                  <Col xl={4} lg={4} md={4} sm={6} xs={6}>
-                    <div className="account__name"> Swedbank [EUR]</div>
+                  <Col>
+                    <div>
+                      <AppPieGraphics
+                        title={'Summary'}
+                        chartData={[
+                          { label: 'Spent', value: 1800.54 },
+                          { label: 'Saved', value: 150.98 },
+                          { label: 'Budget', value: 2572.78 },
+                          { label: 'Income', value: 3352.33 },
+                          { label: 'Invested', value: 350.33 },
+                        ]}
+                        chartType={'polarArea'}
+                        chartColors={[
+                          theme.palette.error.main,
+                          theme.palette.success.light,
+                          theme.palette.info.main,
+                          theme.palette.success.dark,
+                          theme.palette.warning.main,
+                        ]}
+                      />
+                    </div>
                   </Col>
-                  <Col xl={2} lg={2} md={4} sm={6} xs={6}>
-                    <div className="ballance__info">Ballance</div>
-                    <div>$ 852.25</div>
-                  </Col>
-                  <Col xl={2} lg={2} md={4} sm={6} xs={6}>
-                    <div className="ballance__info">Spend</div>
-                    <div>$ 852.25</div>
-                  </Col>
-                  <Col xl={2} lg={2} md={4} sm={6} xs={6}>
-                    <div className="ballance__info">Saved</div>
-                    <div>$ 852.25</div>
-                  </Col>
-                  <Col xl={2} lg={2} md={4} sm={6} xs={6}>
-                    <div className="button__container">
-                      <Button>Edit</Button>
+                  <Col>
+                    <div>
+                      <AppPieGraphics
+                        title={'Spend data'}
+                        subheader={'(-43.24%) spent in period'}
+                        chartData={[
+                          { label: 'Fruits & Vegitables', value: 4344 },
+                          { label: 'Seeds and Grains', value: 5435 },
+                          { label: 'Bulcinas', value: 1443 },
+                          { label: 'Komunálie', value: 4443 },
+                          { label: 'Transport', value: 4443 },
+                          { label: 'Health', value: 4443 },
+                          { label: 'Hobbies', value: 4443 },
+                          { label: 'Savings', value: 4443 },
+                          { label: 'Cool Stuff', value: 4443 },
+                          { label: 'Personal Projects', value: 4443 },
+                        ]}
+                        chartColors={[
+                          theme.palette.secondary.dark,
+                          theme.palette.error.dark,
+                          theme.palette.warning.dark,
+                          theme.palette.info.dark,
+                          theme.palette.success.dark,
+                          theme.palette.secondary.light,
+                          theme.palette.error.light,
+                          theme.palette.warning.light,
+                          theme.palette.info.light,
+                          theme.palette.success.light,
+                          theme.palette.secondary.main,
+                          theme.palette.error.main,
+                          theme.palette.warning.main,
+                          theme.palette.info.main,
+                          theme.palette.success.main,
+                        ]}
+                        chartType={'donut'}
+                      />
                     </div>
                   </Col>
                 </Row>
@@ -224,10 +267,10 @@ function DepositAccount(props) {
                       <td scope="col">1</td>
                       <td scope="col">Fruits & Vegitables</td>
                       <td scope="col" className="spent__amount">
-                        $ {formatNumber(25.66)}
+                        $ {formatNumber(25.44)}
                       </td>
                       <td scope="col" className="spent__amount">
-                        $ {formatNumber(25.66)}
+                        $ {formatNumber(25.44)}
                       </td>
                       <td scope="col" className="spent__amount">
                         $ {formatNumber(25.66)}
@@ -422,112 +465,121 @@ function DepositAccount(props) {
                         $ {formatNumber(8.88)}
                       </td>
                     </tr>
-                    <tr className={'standalone__row summary__row'}>
-                      <td scope="col"></td>
-                      <td scope="col">Total spent</td>
-                      <td scope="col" className="summary__amount">
-                        $ {formatNumber(620.54)}
-                      </td>
-
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                    </tr>
-                    <tr className={'standalone__row'}>
-                      <td scope="col"></td>
-                      <td scope="col">Total saved</td>
-                      <td scope="col" className="summary__amount">
-                        $ {formatNumber(8520.54)}
-                      </td>
-
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                    </tr>
                   </tfoot>
                 </table>
               </div>
               <div className="account__actions">
                 <Row>
-                  <Col xl={3} lg={3} md={4} sm={6} xs={6}>
+                  <Col xl={3} lg={3} sm={6} xs={6}>
                     <div className="button__container">
-                      <Button variant="danger">+ Expense</Button>
+                      <div className="button_action spent">+ Expense</div>
                     </div>
                   </Col>
-                  <Col xl={3} lg={3} md={4} sm={6} xs={6}>
+                  <Col xl={3} lg={3} sm={6} xs={6}>
                     <div className="button__container">
-                      <Button variant="success">+ Income</Button>
+                      <div className="button_action income">+ Income</div>
                     </div>
                   </Col>
-                  <Col lg={4} md={4} sm={6}>
-                    <div className="fx__rate">
-                      <Form.Group>
-                        <NumberFormat
-                          customInput={CustomFormControl}
-                          label={'FX rate'}
-                          id={'percentage'}
-                          value={inputValues.percentage}
-                          onChange={handleOnChange}
-                          autoComplete="current-text"
-                          thousandSeparator={true}
-                          decimalScale={8}
-                          allowNegative={false}
-                          thousandsGroupStyle="thousand"
-                          fixedDecimalScale={true}
-                          isAllowed={(values) =>
-                            values.value > 0 && values.value <= 999999999
-                          }
-                          prepend={{ values: [submitCurrency] }}
-                        />
-                      </Form.Group>
+                  <Col xl={3} lg={3} sm={6} xs={6}>
+                    <div className="button__container">
+                      <div className="button_action budget">Budget</div>
                     </div>
                   </Col>
-                  <Col xl={2} lg={2} md={4} sm={6} xs={6}>
-                    <div className="button__container">
-                      <Button variant="info">Budget</Button>
-                    </div>
+                  <Col lg={3} md={3} sm={6}>
+                    <Form.Group className="fx__rate">
+                      <NumberFormat
+                        customInput={CustomFormControl}
+                        label={'FX rate'}
+                        id={'percentage'}
+                        value={inputValues.percentage}
+                        onChange={handleOnChange}
+                        autoComplete="current-text"
+                        thousandSeparator={true}
+                        decimalScale={8}
+                        allowNegative={false}
+                        thousandsGroupStyle="thousand"
+                        fixedDecimalScale={true}
+                        isAllowed={(values) =>
+                          values.value > 0 && values.value <= 999999999
+                        }
+                        prepend={{ values: [submitCurrency] }}
+                      />
+                    </Form.Group>
                   </Col>
                 </Row>
               </div>
             </div>
 
             <div className="account__container">
+              <div className="account__heading">
+                <div>Revoult [EUR]</div>
+                <div
+                  className="settings__button"
+                  onClick={() => setIsSettingsOpened(!isSettingsOpened)}
+                >
+                  <AiOutlineSetting />
+                </div>
+              </div>
               <div className="account__info">
                 <Row>
-                  <Col xl={4} lg={4} md={4} sm={6} xs={6}>
-                    <div className="account__name">Revoult [EUR]</div>
+                  <Col>
+                    <div>
+                      <AppPieGraphics
+                        title={'Summary'}
+                        chartData={[
+                          { label: 'Spent', value: 1800.54 },
+                          { label: 'Saved', value: 150.98 },
+                          { label: 'Budget', value: 2572.78 },
+                          { label: 'Income', value: 3352.33 },
+                          { label: 'Invested', value: 350.33 },
+                        ]}
+                        chartType={'polarArea'}
+                        chartColors={[
+                          theme.palette.error.main,
+                          theme.palette.success.light,
+                          theme.palette.info.main,
+                          theme.palette.success.dark,
+                          theme.palette.warning.main,
+                        ]}
+                      />
+                    </div>
                   </Col>
-                  <Col xl={2} lg={2} md={4} sm={6} xs={6}>
-                    <div className="ballance__info">Ballance</div>
-                    <div>$ 852.25</div>
-                  </Col>
-                  <Col xl={2} lg={2} md={4} sm={6} xs={6}>
-                    <div className="ballance__info">Spend</div>
-                    <div>$ 852.25</div>
-                  </Col>
-                  <Col xl={2} lg={2} md={4} sm={6} xs={6}>
-                    <div className="ballance__info">Saved</div>
-                    <div>$ 852.25</div>
-                  </Col>
-                  <Col xl={2} lg={2} md={4} sm={6} xs={6}>
-                    <div className="button__container">
-                      <Button>Edit</Button>
+                  <Col>
+                    <div>
+                      <AppPieGraphics
+                        title={'Spend data'}
+                        subheader={'(-43.24%) spent in period'}
+                        chartData={[
+                          { label: 'Fruits & Vegitables', value: 4344 },
+                          { label: 'Seeds and Grains', value: 5435 },
+                          { label: 'Bulcinas', value: 1443 },
+                          { label: 'Komunálie', value: 4443 },
+                          { label: 'Transport', value: 4443 },
+                          { label: 'Health', value: 4443 },
+                          { label: 'Hobbies', value: 4443 },
+                          { label: 'Savings', value: 4443 },
+                          { label: 'Cool Stuff', value: 4443 },
+                          { label: 'Personal Projects', value: 4443 },
+                        ]}
+                        chartColors={[
+                          theme.palette.secondary.dark,
+                          theme.palette.error.dark,
+                          theme.palette.warning.dark,
+                          theme.palette.info.dark,
+                          theme.palette.success.dark,
+                          theme.palette.secondary.light,
+                          theme.palette.error.light,
+                          theme.palette.warning.light,
+                          theme.palette.info.light,
+                          theme.palette.success.light,
+                          theme.palette.secondary.main,
+                          theme.palette.error.main,
+                          theme.palette.warning.main,
+                          theme.palette.info.main,
+                          theme.palette.success.main,
+                        ]}
+                        chartType={'donut'}
+                      />
                     </div>
                   </Col>
                 </Row>
@@ -560,10 +612,10 @@ function DepositAccount(props) {
                       <td scope="col">1</td>
                       <td scope="col">Fruits & Vegitables</td>
                       <td scope="col" className="spent__amount">
-                        $ {formatNumber(25.66)}
+                        $ {formatNumber(25.44)}
                       </td>
                       <td scope="col" className="spent__amount">
-                        $ {formatNumber(25.66)}
+                        $ {formatNumber(25.44)}
                       </td>
                       <td scope="col" className="spent__amount">
                         $ {formatNumber(25.66)}
@@ -758,86 +810,46 @@ function DepositAccount(props) {
                         $ {formatNumber(8.88)}
                       </td>
                     </tr>
-                    <tr className={'standalone__row summary__row'}>
-                      <td scope="col"></td>
-                      <td scope="col">Total spent</td>
-                      <td scope="col" className="summary__amount">
-                        $ {formatNumber(620.54)}
-                      </td>
-
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                    </tr>
-                    <tr className={'standalone__row'}>
-                      <td scope="col"></td>
-                      <td scope="col">Total saved</td>
-                      <td scope="col" className="summary__amount">
-                        $ {formatNumber(8520.54)}
-                      </td>
-
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                      <td scope="col"></td>
-                    </tr>
                   </tfoot>
                 </table>
               </div>
               <div className="account__actions">
                 <Row>
-                  <Col xl={3} lg={3} md={4} sm={6} xs={6}>
+                  <Col xl={3} lg={3} sm={6} xs={6}>
                     <div className="button__container">
-                      <Button variant="danger">+ Expense</Button>
+                      <div className="button_action spent">+ Expense</div>
                     </div>
                   </Col>
-                  <Col xl={3} lg={3} md={4} sm={6} xs={6}>
+                  <Col xl={3} lg={3} sm={6} xs={6}>
                     <div className="button__container">
-                      <Button variant="success">+ Income</Button>
+                      <div className="button_action income">+ Income</div>
                     </div>
                   </Col>
-                  <Col lg={4} md={4} sm={6}>
-                    <div className="fx__rate">
-                      <Form.Group>
-                        <NumberFormat
-                          customInput={CustomFormControl}
-                          label={'FX rate'}
-                          id={'percentage'}
-                          value={inputValues.percentage}
-                          onChange={handleOnChange}
-                          autoComplete="current-text"
-                          thousandSeparator={true}
-                          decimalScale={8}
-                          allowNegative={false}
-                          thousandsGroupStyle="thousand"
-                          fixedDecimalScale={true}
-                          isAllowed={(values) =>
-                            values.value > 0 && values.value <= 999999999
-                          }
-                          prepend={{ values: [submitCurrency] }}
-                        />
-                      </Form.Group>
+                  <Col xl={3} lg={3} sm={6} xs={6}>
+                    <div className="button__container">
+                      <div className="button_action budget">Budget</div>
                     </div>
                   </Col>
-                  <Col xl={2} lg={2} md={4} sm={6} xs={6}>
-                    <div className="button__container">
-                      <Button variant="info">Budget</Button>
-                    </div>
+                  <Col lg={3} md={3} sm={6}>
+                    <Form.Group className="fx__rate">
+                      <NumberFormat
+                        customInput={CustomFormControl}
+                        label={'FX rate'}
+                        id={'percentage'}
+                        value={inputValues.percentage}
+                        onChange={handleOnChange}
+                        autoComplete="current-text"
+                        thousandSeparator={true}
+                        decimalScale={8}
+                        allowNegative={false}
+                        thousandsGroupStyle="thousand"
+                        fixedDecimalScale={true}
+                        isAllowed={(values) =>
+                          values.value > 0 && values.value <= 999999999
+                        }
+                        prepend={{ values: [submitCurrency] }}
+                      />
+                    </Form.Group>
                   </Col>
                 </Row>
               </div>

@@ -7,7 +7,7 @@ import { formatNumber } from 'utils/standaloneFunctions';
 // // components
 // import { useChart } from '../../../components/chart';
 const ReactApexChart = dynamic(() => import('react-apexcharts'), {
-  ssr: false,
+  ssr: false
 });
 // ----------------------------------------------------------------------
 
@@ -15,7 +15,7 @@ AppLineGraphics.propTypes = {
   title: PropTypes.string,
   subheader: PropTypes.string,
   chartData: PropTypes.array.isRequired,
-  chartLabels: PropTypes.arrayOf(PropTypes.string).isRequired,
+  chartLabels: PropTypes.arrayOf(PropTypes.string).isRequired
 };
 
 export default function AppLineGraphics({
@@ -27,22 +27,22 @@ export default function AppLineGraphics({
   ...other
 }) {
   const chartOptions = useChart({
-    plotOptions: { bar: { columnWidth: '16%' } },
-    fill: { type: chartData.map((i) => i.fill) },
+    plotOptions: { bar: { columnWidth: '66%' } },
+    fill: { type: chartData.map(i => i.fill) },
     labels: chartLabels,
     xaxis: { type: 'datetime' },
     tooltip: {
       shared: true,
       intersect: false,
       y: {
-        formatter: (y) => {
+        formatter: y => {
           if (typeof y !== 'undefined') {
             return `${currency} ${formatNumber(y.toFixed(2))}`;
           }
           return y;
-        },
-      },
-    },
+        }
+      }
+    }
   });
 
   return (

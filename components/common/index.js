@@ -41,6 +41,7 @@ export { default as BountyMarker } from './BountyMarker';
 export { default as ToggleNav } from './ToggleNav';
 export { default as BlogItem } from './BlogItem';
 export { default as DepositAccount } from './DepositAccount';
+export { default as Loans } from './Loans';
 
 //Don't add this, because it is not SSR, it wont run
 // export { default as LeafletMap } from './LeafletMap'
