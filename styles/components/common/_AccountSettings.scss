@@ -1,0 +1,80 @@
+.account__modal {
+  .button__container {
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    .button_action {
+      margin-top: 0.5rem;
+      font-size: 0.75rem;
+      padding: 0.5rem;
+      color: #fff;
+      border-radius: 0.25rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      &:hover {
+        cursor: pointer;
+      }
+      &.income {
+        width: 100%;
+        background-color: #66bb6a;
+        &:hover {
+          background-color: #388e3c;
+        }
+      }
+      &.spent {
+        width: 100%;
+        background-color: #f44336;
+        &:hover {
+          background-color: #d32f2f;
+        }
+      }
+      &.budget {
+        width: 100%;
+        background-color: #29b6f6;
+        &:hover {
+          background-color: #0288d1;
+        }
+      }
+      &.category {
+        width: 100%;
+        background-color: #ffb74d;
+        &:hover {
+          background-color: #f57c00;
+        }
+      }
+    }
+  }
+  .action_container {
+    display: flex;
+    justify-content: space-between;
+    .label {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      font-size: 0.75rem;
+      border: solid 1px #888;
+      padding: 0rem 0.75rem;
+      border-radius: 0.25rem;
+      margin-right: 1rem;
+    }
+    .action {
+      display: flex;
+      justify-content: space-between;
+    }
+    .icon {
+      font-size: 1.5rem;
+      padding: 0rem 0.25rem;
+      :hover {
+        cursor: pointer;
+        color: theme-color("primary");
+      }
+    }
+  }
+}

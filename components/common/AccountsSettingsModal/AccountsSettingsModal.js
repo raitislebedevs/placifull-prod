@@ -1,9 +1,15 @@
 import { useState } from 'react';
 import { Row, Col, Form, Modal, Button, Spinner } from 'react-bootstrap';
 import { CurrencyInput } from '../index';
-import { AiOutlineEdit } from 'react-icons/ai';
+import {
+  AiOutlineEdit,
+  AiOutlineUserAdd,
+  AiOutlineUserDelete
+} from 'react-icons/ai';
 
-function AccountSettingsModal(props) {
+import { MdAddchart } from 'react-icons/md';
+
+function AccountsSettingsModal(props) {
   const {
     showModal,
     handleModalClose,
@@ -68,41 +74,69 @@ function AccountSettingsModal(props) {
           </Col>
           <Col xl={12} lg={12} md={12} sm={12} xs={12}>
             <Row>
-              <Col>Account name</Col>
+              <Col>Accounts</Col>
               <Col>
                 <div className="action_container">
-                  <span className="label">Swedbank</span>
+                  <span className="label">4</span>
                   <span className="action">
                     <div className="icon">
-                      <AiOutlineEdit />
+                      <MdAddchart />
                     </div>
                   </span>
                 </div>
               </Col>
             </Row>
           </Col>
-        </Row>
+          <Col xl={12} lg={12} md={12} sm={12} xs={12}>
+            <Row>
+              <Col>Linked users</Col>
+              <Col>
+                <div className="action_container">
+                  <span className="label">John Doe</span>
 
-        <Row>
-          <Col xl={6} lg={6} md={6} sm={12} xs={12}>
-            <div className="button__container">
-              <div className="button_action budget">Transfer</div>
-            </div>
-          </Col>
-
-          <Col xl={6} lg={6} md={6} sm={12} xs={12}>
-            <div className="button__container">
-              <div className="button_action budget">Import from csv...</div>
-            </div>
+                  <span className="action">
+                    <div className="icon">
+                      <AiOutlineUserAdd />
+                    </div>
+                    <div className="icon">
+                      <AiOutlineUserDelete />
+                    </div>
+                  </span>
+                </div>
+              </Col>
+            </Row>
           </Col>
           <Col xl={12} lg={12} md={12} sm={12} xs={12}>
+            <Row>
+              <Col>Managed users</Col>
+              <Col>
+                <div className="action_container">
+                  <span className="label">John Doe Junior</span>
+                  <span className="action">
+                    <div className="icon">
+                      <AiOutlineUserAdd />
+                    </div>
+                    <div className="icon">
+                      <AiOutlineUserDelete />
+                    </div>
+                  </span>
+                </div>
+              </Col>
+            </Row>
+          </Col>
+          <Col xl={6} lg={6} sm={12} xs={12}>
             <div className="button__container">
-              <div className="button_action budget">Reoccuring expenses</div>
+              <div className="button_action category">Categories</div>
             </div>
           </Col>
-          <Col xl={12} lg={12} md={12} sm={12} xs={12}>
+          <Col xl={6} lg={6} sm={12} xs={12}>
             <div className="button__container">
-              <div className="button_action spent">Close account</div>
+              <div className="button_action category">Sub categories</div>
+            </div>
+          </Col>
+          <Col xl={12} lg={12} sm={12} xs={12}>
+            <div className="button__container">
+              <div className="button_action budget">Master budget</div>
             </div>
           </Col>
         </Row>
@@ -134,4 +168,4 @@ function AccountSettingsModal(props) {
   );
 }
 
-export default AccountSettingsModal;
+export default AccountsSettingsModal;
