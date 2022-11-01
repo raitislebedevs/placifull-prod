@@ -44,6 +44,7 @@ export { default as Loans } from './Loans';
 export { default as AccountSettingsModal } from './AccountSettingsModal';
 export { default as AccountsSettingsModal } from './AccountsSettingsModal';
 export { default as ExpenseModal } from './ExpenseModal';
+export { default as CategoryData } from './CategoryData';
 
 //Don't add this, because it is not SSR, it wont run
 // export { default as LeafletMap } from './LeafletMap'

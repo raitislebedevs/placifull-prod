@@ -10,7 +10,7 @@ import AppPieGraphics from '../AppPieGraphics/AppPieGraphics';
 import { useTheme } from '@mui/material/styles';
 import AccountsSettingsModal from '../AccountsSettingsModal/AccountsSettingsModal';
 import AccountSettingsModal from '../AccountSettingsModal/AccountSettingsModal';
-import { ExpenseModal } from '../index';
+import { CategoryData, ExpenseModal } from '../index';
 
 function DepositAccount(props) {
   const { user, t } = props;
@@ -21,6 +21,7 @@ function DepositAccount(props) {
     false
   );
   const [isExpensesOpened, setIsExpensesOpened] = useState(false);
+  const [isCategoriesOpened, setIsCategoriesOpened] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [inputValues, setInputValues] = useState({});
   const [submitCurrency, setSubmitCurrency] = useState('ALL');
@@ -54,6 +55,13 @@ function DepositAccount(props) {
 
   const processSettings = () => {
     console.log('Settings Processed');
+  };
+
+  const openCategories = category => {
+    console.log(category);
+
+    setIsAccountsSettingsOpened(!isAccountsSettingsOpened);
+    setIsCategoriesOpened(!isCategoriesOpened);
   };
 
   const handleExpandedRows = rowId => {
@@ -671,11 +679,6 @@ function DepositAccount(props) {
                     </div>
                   </Col>
 
-                  <Col xl={3} lg={3} sm={6} xs={6}>
-                    <div className="button__container">
-                      <div className="button_action budget">Budget</div>
-                    </div>
-                  </Col>
                   {/* <Col lg={3} md={3} sm={6}>
                     <Form.Group className="fx__rate">
                       <NumberFormat
@@ -721,6 +724,7 @@ function DepositAccount(props) {
         setSubmitCurrency={setSubmitCurrency}
         handleOnChange={handleOnChange}
         processSubmit={processSettings}
+        processCategories={openCategories}
         headerText={'Accounts actions'}
         submitText={'Submit'}
         cancelText={'Cancel'}
@@ -733,6 +737,16 @@ function DepositAccount(props) {
         setSubmitCurrency={setSubmitCurrency}
         handleOnChange={handleOnChange}
         processSubmit={processSettings}
+        headerText={'Account actions'}
+        submitText={'Submit'}
+        cancelText={'Cancel'}
+      />
+
+      <CategoryData
+        showModal={isCategoriesOpened}
+        handleModalClose={() => {
+          setIsCategoriesOpened(!isCategoriesOpened);
+        }}
         headerText={'Account actions'}
         submitText={'Submit'}
         cancelText={'Cancel'}

@@ -14,6 +14,7 @@ function AccountsSettingsModal(props) {
     showModal,
     handleModalClose,
     processSubmit,
+    processCategories,
     headerText,
     submitText,
     cancelText,
@@ -125,13 +126,19 @@ function AccountsSettingsModal(props) {
             </Row>
           </Col>
           <Col xl={6} lg={6} sm={12} xs={12}>
-            <div className="button__container">
-              <div className="button_action category">Categories</div>
+            <div
+              onClick={() => processCategories('income')}
+              className="button__container"
+            >
+              <div className="button_action income">Income categories</div>
             </div>
           </Col>
           <Col xl={6} lg={6} sm={12} xs={12}>
-            <div className="button__container">
-              <div className="button_action category">Sub categories</div>
+            <div
+              onClick={() => processCategories('expense')}
+              className="button__container"
+            >
+              <div className="button_action spent">Expense categories</div>
             </div>
           </Col>
           <Col xl={12} lg={12} sm={12} xs={12}>

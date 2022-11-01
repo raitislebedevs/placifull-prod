@@ -95,9 +95,15 @@ function AccountSettingsModal(props) {
               <div className="button_action budget">Import from csv...</div>
             </div>
           </Col>
+
+          <Col xl={12} lg={12} sm={12} xs={12}>
+            <div className="button__container">
+              <div className="button_action budget">Budget</div>
+            </div>
+          </Col>
           <Col xl={12} lg={12} md={12} sm={12} xs={12}>
             <div className="button__container">
-              <div className="button_action budget">Reoccuring expenses</div>
+              <div className="button_action category">Reoccuring expenses</div>
             </div>
           </Col>
           <Col xl={12} lg={12} md={12} sm={12} xs={12}>
