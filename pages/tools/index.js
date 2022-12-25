@@ -12,7 +12,7 @@ import { useState } from 'react';
 const UserBoard = props => {
   const { t } = props;
   const filters = toolOptions(t);
-  // const [activeItem, setActiveItem] = useState(filters[0]);
+  const [activeItem, setActiveItem] = useState(filters[0]);
 
   return (
     <div className="termsPage-container main-container">
@@ -23,8 +23,7 @@ const UserBoard = props => {
           content="mortgage calculator, interest calculator, amortization schedule"
         />
       </Head>
-
-      {/* <HeroTerms
+      <HeroTerms
         filters={filters}
         activeItem={activeItem}
         setActiveItem={setActiveItem}
@@ -37,7 +36,7 @@ const UserBoard = props => {
         {(activeItem.filter === 'salary' || !activeItem.filter) && (
           <SalaryCalculator t={t} />
         )}
-      </> */}
+      </>
     </div>
   );
 };
@@ -46,8 +45,8 @@ UserBoard.getInitialProps = async () => ({
   namespacesRequired: ['tools', 'common', 'navbar', 'footer', 'error']
 });
 
-UserBoard.propTypes = {
-  t: PropTypes.func.isRequired
-};
+// UserBoard.propTypes = {
+//   t: PropTypes.func.isRequired
+// };
 
 export default withTranslation()(UserBoard);
