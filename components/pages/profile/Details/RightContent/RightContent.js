@@ -6,7 +6,6 @@ import BrowseCV from './BrowseCV';
 import PaymentReceipts from './PaymentReceipts';
 import Jobs from './Jobs/Jobs';
 import { ApiConnection, BlogContent } from './Admin';
-import Budget from './Budget';
 
 const RightContent = (props) => {
   const { t, currentTab, user, isMobile, isSmall } = props;
@@ -48,10 +47,6 @@ const RightContent = (props) => {
     {
       key: 'payment-receipts',
       component: <PaymentReceipts user={user} t={t} />,
-    },
-    {
-      key: 'budget',
-      component: <Budget user={user} t={t} />,
     },
     {
       key: 'blog-content',
