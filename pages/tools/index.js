@@ -23,7 +23,7 @@ const UserBoard = props => {
           content="mortgage calculator, interest calculator, amortization schedule"
         />
       </Head>
-      <HeroTerms
+      {/* <HeroTerms
         filters={filters}
         activeItem={activeItem}
         setActiveItem={setActiveItem}
@@ -36,7 +36,7 @@ const UserBoard = props => {
         {(activeItem.filter === 'salary' || !activeItem.filter) && (
           <SalaryCalculator t={t} />
         )}
-      </>
+      </> */}
     </div>
   );
 };

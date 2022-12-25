@@ -531,5 +531,4 @@ export const mapStateToProps = state => ({
   user: state.connectionReducer.user
 });
 
-export default MortgageCalculator;
-//connect(mapStateToProps)(
+export default connect(mapStateToProps)(MortgageCalculator);
