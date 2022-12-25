@@ -7,7 +7,7 @@ import {
   AiFillApi,
 } from 'react-icons/ai';
 import { FcCancel } from 'react-icons/fc';
-import { GiModernCity, GiArchiveResearch, GiMoneyStack } from 'react-icons/gi';
+import { GiModernCity, GiArchiveResearch } from 'react-icons/gi';
 import { MdPayment } from 'react-icons/md';
 import { FaBlog } from 'react-icons/fa';
 import { CgWorkAlt } from 'react-icons/cg';
@@ -126,12 +126,6 @@ const LeftTabs = (props) => {
       icon: <GiArchiveResearch size="30px" />,
       disabled: permissions?.browserCv,
     },
-    // {
-    //   key: 'budget',
-    //   label: t('profile:left-tab.titles.budget'),
-    //   icon: <GiMoneyStack size="30px" />,
-    //   disabled: true,
-    // },
     {
       key: 'blog-content',
       label: 'Blog Content',

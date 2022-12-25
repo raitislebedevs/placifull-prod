@@ -4,16 +4,17 @@ import Head from 'next/head';
 import {
   HeroTerms,
   MortgageCalculator,
-  SalaryCalculator
+  SalaryCalculator,
 } from 'components/pages/tools';
 import { toolOptions } from 'components//pages/tools/Hero/Constants/toolOptions';
 import { useState } from 'react';
 
-const UserBoard = props => {
+const UserBoard = (props) => {
   const { t } = props;
   const filters = toolOptions(t);
   const [activeItem, setActiveItem] = useState(filters[0]);
 
+  console.log(activeItem);
   return (
     <div className="termsPage-container main-container">
       <Head>
@@ -33,20 +34,20 @@ const UserBoard = props => {
         {(activeItem.filter === 'mortgage' || !activeItem.filter) && (
           <MortgageCalculator t={t} />
         )}
-        {(activeItem.filter === 'salary' || !activeItem.filter) && (
+        {/* {(activeItem.filter === 'salary' || !activeItem.filter) && (
           <SalaryCalculator t={t} />
-        )}
+        )} */}
       </>
     </div>
   );
 };
 
 UserBoard.getInitialProps = async () => ({
-  namespacesRequired: ['tools', 'common', 'navbar', 'footer', 'error']
+  namespacesRequired: ['tools', 'common', 'navbar', 'footer', 'error'],
 });
 
-// UserBoard.propTypes = {
-//   t: PropTypes.func.isRequired
-// };
+UserBoard.propTypes = {
+  t: PropTypes.func.isRequired,
+};
 
 export default withTranslation()(UserBoard);

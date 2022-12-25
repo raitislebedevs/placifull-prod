@@ -36,9 +36,6 @@
 
   "salary": {
     "heading": "Salary calculator",
-    "bruto": "Bruto salary",
-    "net": "Net salary",
-    "potential": "Possible savings",
-    "children": "Children"
+    "bruto": "Bruto salary"
   }
 }

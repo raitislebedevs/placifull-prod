@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import { Button, Row, Col } from 'react-bootstrap';
 import { SigninForm, SigninImage } from 'components/pages/signin';
 
-const SignIn = props => {
+const SignIn = (props) => {
   const { t } = props;
   return (
     <div className="signin-container">
@@ -29,11 +29,11 @@ const SignIn = props => {
 };
 
 SignIn.getInitialProps = async () => ({
-  namespacesRequired: ['signin', 'common', 'navbar', 'footer', 'error']
+  namespacesRequired: ['signin', 'common', 'navbar', 'footer', 'error'],
 });
 
 SignIn.propTypes = {
-  t: PropTypes.func.isRequired
+  t: PropTypes.func.isRequired,
 };
 
 export default withTranslation()(SignIn);

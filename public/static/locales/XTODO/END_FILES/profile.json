@@ -1,0 +1,336 @@
+{
+  "overview": {
+    "button-label": {
+      "label-1": "Change Picture",
+      "label-2": "Delete Picture"
+    },
+    "setting-label": "Purchached",
+    "delete-avatar-modal": {
+      "header": "Delete avatar",
+      "body": "Do you want to delete your avatar?",
+      "submit": "Delete",
+      "cancel": "Cancel"
+    }
+  },
+  "left-tab": {
+    "titles": {
+      "title-1": "Profile",
+      "title-2": "CV",
+      "title-3": "Real Estate",
+      "title-4": "Transport",
+      "title-5": "Jobs",
+      "title-6": "Browser CV",
+      "title-7": "Payment Receipts",
+      "title-8": "Logout"
+    }
+  },
+  "right-content": {
+    "profile": {
+      "personal-details": {
+        "heading": "Personal Detail:",
+        "labels": {
+          "first-name": "First Name",
+          "last-name": "Last Name",
+          "email": "Your Email",
+          "phone-number": "Phone Nr.",
+          "about-me": "About Me",
+          "country": "Country",
+          "state": "State/Region",
+          "city": "City",
+          "birth-date": "Birth Date",
+          "gender": {
+            "label": "Sex",
+            "men": "Male",
+            "women": "Female",
+            "not-specified": "Don't show"
+          },
+          "age": {
+            "label": "Show age",
+            "yes": "Yes",
+            "no": "No",
+            "only-birth-date": "Only Birth Date"
+          }
+        },
+        "sub-form-2": {
+          "text-2": "Contact Info:",
+          "labels": {
+            "label-1": "Facebook:",
+            "placeholder-1": "Url",
+            "label-2": "Youtube:",
+            "placeholder-2": "Url",
+            "label-3": "Instagram:",
+            "placeholder-3": "Url",
+            "label-4": "Twitter:",
+            "placeholder-4": "Url"
+          }
+        },
+        "button-save": "Save Changes"
+      },
+      "form-2": {
+        "text": "Change password:",
+        "labels": {
+          "label-1": "Old password",
+          "label-2": "New password",
+          "label-3": "Re-type New password"
+        },
+        "button-save": "Save password"
+      },
+      "form-3": {
+        "text": "Delete Account:",
+        "content": "Do you want to delete the account? Please press below 'Delete' button",
+        "button-delete": "Delete Account"
+      }
+    },
+    "real-estate": {
+      "title": "My Listings",
+      "button-edit": "Edit",
+      "button-reviews": "Reviews",
+      "button-delete": "Delete"
+    },
+    "cv": {
+      "title": "Curriculum Vitaes",
+      "sections": {
+        "section-1": {
+          "title": "Personal Details",
+          "accordion": {
+            "title": "Personal Details",
+            "input-1": {
+              "label": "First name",
+              "placeholder": "First name"
+            },
+            "input-2": {
+              "label": "Last name",
+              "placeholder": "Last name"
+            },
+            "input-3": {
+              "label": "Email",
+              "placeholder": "email@example.com"
+            },
+            "input-4": {
+              "label": "Phone",
+              "placeholder": "+1 234567890"
+            },
+            "input-5": {
+              "label": "Birthday",
+              "placeholder": "MM/DD/YYYY"
+            },
+            "input-6": {
+              "label": "Show?",
+              "placeholder": "No"
+            },
+            "input-7": {
+              "label": "Gender",
+              "placeholder": "Select Gender"
+            },
+            "input-8": {
+              "label": "Show?",
+              "placeholder": "No"
+            },
+            "input-9": {
+              "label": "Country",
+              "placeholder": "Select Country"
+            },
+            "input-10": {
+              "label": "City",
+              "placeholder": "Select City"
+            },
+            "input-11": {
+              "label": "Region",
+              "placeholder": "Select Region"
+            },
+            "input-12": {
+              "label": "What's different about you?",
+              "placeholder": "Short description on who you are and what you are looking for..."
+            }
+          }
+        },
+        "section-2": {
+          "title": "Education",
+          "accordion": {
+            "title": "Education History",
+            "input-1": {
+              "label": "School Name",
+              "placeholder": "School Name"
+            },
+            "input-2": {
+              "label": "Country",
+              "placeholder": "Country"
+            },
+            "input-3": {
+              "label": "From",
+              "placeholder": "Year"
+            },
+            "input-4": {
+              "label": "To",
+              "placeholder": "Year"
+            },
+            "input-5": {
+              "label": "Qualification",
+              "placeholder": "Select Qualification"
+            },
+            "input-6": {
+              "label": "Education Area",
+              "placeholder": "Select Area"
+            },
+            "input-7": {
+              "label": "Education Major",
+              "placeholder": "Select Major"
+            },
+            "input-8": {
+              "label": "Average Grade",
+              "placeholder": "A+"
+            },
+            "button-add": "Add Another Education"
+          }
+        },
+        "section-3": {
+          "title": "Work Experience",
+          "accordion": {
+            "title": "Work Experience History",
+            "input-1": {
+              "label": "Company Name",
+              "placeholder": "Company Name"
+            },
+            "input-2": {
+              "label": "From Year",
+              "placeholder": "Year"
+            },
+            "input-3": {
+              "label": "From Month",
+              "placeholder": "Month"
+            },
+            "input-4": {
+              "label": "To Year",
+              "placeholder": "Year"
+            },
+            "input-5": {
+              "label": "To Month",
+              "placeholder": "Month"
+            },
+            "input-6": {
+              "label": "Work Area",
+              "placeholder": "Select Area"
+            },
+            "input-7": {
+              "label": "Position",
+              "placeholder": "Position"
+            },
+            "input-8": {
+              "label": "Seniority",
+              "placeholder": "Select Seniority"
+            },
+            "button-add": "Add Another Work Experience"
+          }
+        },
+        "section-4": {
+          "title": "Language Skills",
+          "accordion": {
+            "title": "Language Skills",
+            "input-1": {
+              "label": "Language",
+              "placeholder": "Title"
+            },
+            "input-2": {
+              "label": "Certificate",
+              "placeholder": "Select Certifiate"
+            },
+            "input-3": {
+              "label": "Language Level",
+              "placeholder": "Select Level"
+            },
+            "button-add": "Add Another Language Skill"
+          }
+        },
+        "section-5": {
+          "title": "Computer Skills",
+          "accordion": {
+            "title": "Computer Skills",
+            "input-1": {
+              "label": "Computer Skill",
+              "placeholder": "Title"
+            },
+            "input-2": {
+              "label": "Skill Level",
+              "placeholder": "Select Level"
+            },
+            "input-3": {
+              "label": "Type",
+              "placeholder": "Select Type"
+            },
+            "input-4": {
+              "label": "Link",
+              "placeholder": "https://www.example.com"
+            },
+            "button-add": "Add Another Language Skill"
+          }
+        },
+        "section-6": {
+          "title": "Transportation License",
+          "accordion": {
+            "title": "Transportation License",
+            "input-1": {
+              "label": "Country",
+              "placeholder": "Select Country"
+            },
+            "input-2": {
+              "label": "Transportation Type",
+              "placeholder": "Select Type"
+            },
+            "input-3": {
+              "label": "Category",
+              "placeholder": "Category"
+            },
+            "input-4": {
+              "label": "Experience",
+              "placeholder": "Select Experience"
+            },
+            "button-add": "Add Another Lience"
+          }
+        },
+        "section-7": {
+          "title": "Work Expectations",
+          "accordion": {
+            "title": "Work Expectations",
+            "input-1": {
+              "label": "Work Area",
+              "placeholder": "Select Area"
+            },
+            "input-2": {
+              "label": "Position",
+              "placeholder": "Position"
+            },
+            "input-3": {
+              "label": "Seniority",
+              "placeholder": "Select Seniority"
+            },
+            "input-4": {
+              "label": "Country",
+              "placeholder": "Select Country"
+            },
+            "input-5": {
+              "label": "City",
+              "placeholder": "Select City"
+            },
+            "input-6": {
+              "label": "Hourly Rate",
+              "placeholder": "$ 99/hr"
+            },
+            "input-7": {
+              "label": "Salary After Tax",
+              "placeholder": "$ 2000"
+            },
+            "input-8": {
+              "label": "Onsite/ Remote",
+              "placeholder": "Select Type"
+            },
+            "input-9": {
+              "label": "Start Time",
+              "placeholder": "Select Start Time"
+            },
+            "button-add": "Add Another Lience"
+          }
+        }
+      }
+    }
+  }
+}

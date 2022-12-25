@@ -3,7 +3,7 @@ import { Row, Col, Form, Button, Spinner } from 'react-bootstrap';
 import {
   CustomFormControl,
   SelectInputSubmit,
-  ColorPickerModal
+  ColorPickerModal,
 } from 'components/common';
 import { HiOutlineUsers } from 'react-icons/hi';
 import { AiOutlineDownload } from 'react-icons/ai';
@@ -13,14 +13,14 @@ import Datetime from 'react-datetime';
 import generateResume from 'utils/generateResume';
 import { i18n } from 'i18n';
 
-const PersonalDetails = props => {
+const PersonalDetails = (props) => {
   const {
     t,
     user,
     handleOnChange,
     inputValues,
     personalDetail,
-    submitCurrency
+    submitCurrency,
   } = props;
   const inputFields = fields(t);
   const { userInfo } = user;
@@ -37,11 +37,11 @@ const PersonalDetails = props => {
 
   useEffect(() => {}, []);
 
-  const downloadResume = async e => {
+  const downloadResume = async (e) => {
     e.preventDefault();
     setCvColor(false);
     setCvDownload(true);
-
+    console.log(i18n.language);
     try {
       await generateResume(
         inputValues,
@@ -118,7 +118,7 @@ const PersonalDetails = props => {
         </Col>
       </Row>
       <Row className="body__item">
-        {inputFields.map(item => {
+        {inputFields.map((item) => {
           if (item.type === 'text') {
             return (
               <Col xs={12} sm={12} md={6} lg={6} xl={6} key={item.key}>
@@ -164,7 +164,7 @@ const PersonalDetails = props => {
                     id={item.key}
                     clearIds={[]}
                     value={item.options.filter(
-                      option => option.value === inputValues[item.key]
+                      (option) => option.value === inputValues[item.key]
                     )}
                     onChange={handleOnChange}
                     options={item.options}
@@ -190,12 +190,12 @@ const PersonalDetails = props => {
                     (personalDetail?.birthDay &&
                       Date.parse(personalDetail[item.key]))
                   }
-                  onChange={e =>
+                  onChange={(e) =>
                     handleOnChange({ target: { value: e, id: item.key } })
                   }
                   timeFormat={false}
                   dateFormat={true}
-                  renderInput={props => {
+                  renderInput={(props) => {
                     return (
                       <Form.Control
                         {...props}
@@ -276,8 +276,8 @@ const PersonalDetails = props => {
   );
 };
 
-export const mapStateToProps = state => ({
-  user: state.connectionReducer.user
+export const mapStateToProps = (state) => ({
+  user: state.connectionReducer.user,
 });
 
 export default connect(mapStateToProps)(PersonalDetails);

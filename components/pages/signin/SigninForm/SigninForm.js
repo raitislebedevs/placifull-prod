@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import { Form, Button, Row, Col, Spinner } from 'react-bootstrap';
 import { AiOutlineUser } from 'react-icons/ai';
 import { FiKey } from 'react-icons/fi';
+import { FaFacebook } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import Link from 'next/link';
 import { Formik } from 'formik';
@@ -14,12 +15,12 @@ import { connect } from 'react-redux';
 import { LoadingOverlay } from 'components/common';
 import TostifyCustomContainer from 'components//common/TostifyCustomContainer/TostifyCustomContainer';
 
-const SigninForm = props => {
+const SigninForm = (props) => {
   const { t, isLoadingUser, dispatch, user, isLoadingRouter } = props;
   const router = useRouter();
   const [errorText, setErrorText] = useState('');
 
-  const handleSignin = async payload => {
+  const handleSignin = async (payload) => {
     setErrorText('');
     try {
       const { data, error } = await ConnectionServices.LOGIN(payload);
@@ -44,7 +45,7 @@ const SigninForm = props => {
     }
   };
 
-  const handleSigninProvider = provider => {
+  const handleSigninProvider = (provider) => {
     ConnectionServices.REDIRECT_PROVIDER(provider);
   };
 
@@ -73,7 +74,7 @@ const SigninForm = props => {
           <Formik
             initialValues={{
               identifier: '',
-              password: ''
+              password: '',
             }}
             validationSchema={Yup.object().shape({
               identifier: Yup.string()
@@ -82,9 +83,9 @@ const SigninForm = props => {
                 .required(t('signin:form.error.email-required')),
               password: Yup.string()
                 .max(255)
-                .required(t('signin:form.error.password-required'))
+                .required(t('signin:form.error.password-required')),
             })}
-            onSubmit={value => handleSignin(value)}
+            onSubmit={(value) => handleSignin(value)}
           >
             {({
               errors,
@@ -93,7 +94,7 @@ const SigninForm = props => {
               handleSubmit,
               isSubmitting,
               touched,
-              values
+              values,
             }) => (
               <div>
                 <Form onSubmit={handleSubmit}>
@@ -312,11 +313,11 @@ const SigninForm = props => {
   );
 };
 
-export const mapStateToProps = state => ({
+export const mapStateToProps = (state) => ({
   isLogged: state.connectionReducer.isLogged,
   user: state.connectionReducer.user,
   isLoadingUser: state.connectionReducer.isLoadingUser,
-  isLoadingRouter: state.connectionReducer.isLoadingRouter
+  isLoadingRouter: state.connectionReducer.isLoadingRouter,
 });
 
 export default connect(mapStateToProps)(SigninForm);

@@ -1,0 +1,290 @@
+{
+  "hero-section": {
+    "head": {
+      "line-1": "Placifull where Simplicity meets ",
+      "line-2": "Carefully Crafted Solutions to Fulfill Your Dream",
+      "line-3": "Search job listings, Real Estate, and Transportation to suit all your needs in every corner of the world.",
+      "options": {
+        "text-1": "Opportunity",
+        "text-2": "Connectivity",
+        "text-3": "Affordability",
+        "text-4": "Reachability"
+      }
+    },
+    "button": "Get Started"
+  },
+  "real-estate-section": {
+    "badge": "Promoted Items",
+    "head": {
+      "line-1": "Real Estate",
+      "line-2": "Most promoted items on ",
+      "line-3": "Placifull",
+      "line-4": " that requires your full attention."
+    },
+    "card": {
+      "items": {
+        "item-1": "Beds",
+        "item-2": "Baths"
+      }
+    },
+    "button": "See All"
+  },
+  "transportation-section": {
+    "badge": "Promoted Items",
+    "head": {
+      "line-1": "Transportation",
+      "line-2": "These transports on ",
+      "line-3": "Placifull",
+      "line-4": " calls for your time."
+    },
+    "button": "See All"
+  },
+  "job-section": {
+    "badge": "Promoted Items",
+    "head": {
+      "line-1": "Premium Jobs",
+      "line-2": "Thirsting for a change? At ",
+      "line-3": "Placifull ",
+      "line-4": "find the dream job you always wanted."
+    },
+    "jobs": {
+      "location": "Location",
+      "working-schedule": "Working Schedule",
+      "salary": "Salary",
+      "working-place": "Working Place",
+      "button": "View Detail"
+    },
+    "button": "See More"
+  },
+  "service-section": {
+    "head": {
+      "line-1": "What we are about!",
+      "line-2": "Explore what we value the most. In ",
+      "line-3": "Placifull",
+      "line-4": " we listen what you have to say."
+    },
+    "services": {
+      "service-1": {
+        "open-modal": "Learn More",
+        "name": "Listing Opportunities",
+        "description": "Our main focus is to help people move to a different country. Moving abroad opens up many challanges, so we are here to help you with the search tools you need. Job, house, transportation all can be found in one place. You don't need to search elsewhere.",
+
+        "modal": {
+          "header": "Explore",
+          "description": "There are plenty of opportunities with the listing option we provide here. We want to make the page extremly functional and usufull. Firstly for real-estate and vechicles there will be always the option to input a listing for free. Secondly we want to provide a broad searching opportunities for the user, including utilities which play a big rule when we are renting/buying a household, features which are specific for the listing you are inputting in Placifull. Lastly we want to make more listing options. We are not done yet and there are big plans comming up.",
+          "close-button": "Close"
+        }
+      },
+      "service-2": {
+        "open-modal": "Help Us Now",
+        "name": "Help Us Improve",
+        "description": "We are a small team behind the curtains, so any changes you suggest we will be looking at and would add to our voting board. If the suggestion will reach 10 000 up votes we will implement the changes on our site. You can mail the suggestion or as many as you would like.",
+
+        "modal": {
+          "header": "Improve",
+          "description": "At Placifull we want to make you involved in building this page and actually listen to the users. We came up with the idea to have a voting board. Don't be shy, if there is something lacking in the page, missing then contact us and we will take a look at it and will add it to the voting board. It is of the highest importance to make the changes together.",
+          "close-button": "Close",
+          "contact-button": "Get In Touch"
+        }
+      },
+      "service-3": {
+        "name": "Like & Share",
+        "description": "Enjoyed the introduction, please spread the word around to help us improve the site and give people the chance to get more affordable and good quality service."
+      },
+      "service-4": {
+        "open-modal": "Improve Us Now",
+        "name": "Improve our Quality",
+        "description": "Something does not work? Payment didn't go through? Don't hesitate to contact us with the complaint, we will look at it as a priority.",
+        "modal": {
+          "header": "Quality",
+          "description": "Oops! You tried to do something and it didn't work, then we are embarressed by it! We won't quit on this though, let us know the issue and we will fix the issue with care. We will put the issue in our bakclog and prioritise it over other enhancments planned. Your worries will come first!",
+          "close-button": "Close",
+          "contact-button": "Get In Touch"
+        }
+      },
+      "service-5": {
+        "open-modal": "Applly Now",
+        "name": "Carrear Opportunities",
+        "description": "We work hard and we rest hard. Do you want to be part of us? Then write us. You choose what you want to work at, where and with the salary you want. If we like it we will hire you. On top of it we have only a 4 day working week with staggering 20 working days vacation!",
+        "modal": {
+          "header": "Carrrear",
+          "description": "You probably think this sounds too good to be true, but no it is not. We actually will ask you work only 4 days working week and no the working day won't be 12 hours, but will be 8 hours. On Friday you will have the freedom to come to office or not, though instead of working you will asked to read books, educate yourself on something you wanted to learn a long time ago. At Placifull we would provide 20 day of vacation as we care about your well being, so in the end you would have 5 free weeks per year, which sums up to more than 70 days of vacation per year! So what are you waiting for? Write what would you want to do in our company, developer, designer, talking with clients and what salary would you expect to have.",
+          "close-button": "Close",
+          "contact-button": "Apply Now"
+        },
+        "modal-apply": {
+          "form":{
+            "header": "Give us your proposition!",
+            "firstName":"First Name",
+            "lastName": "Last Name",
+            "email": "Email Address",
+            "phone":"Phone",
+            "dreamJob":"What would you like to work as?",
+            "applyText": "Why should we hire you?",
+            "salary":"Expected Salary (monthly)",
+            "positionName":"Position name",
+            "apply":"I am Ready!"
+          }
+        }
+      }
+    },
+    "learn-more": "Learn More"
+  },
+  "price-section": {
+    "badge": "",
+    "head": {
+      "line-1": "Our Listing Rates"
+    },
+    "prices": {
+      "price-1": {
+        "name": "Real Estate",
+        "tiers": {
+          "tier-1": {
+            "name": "Free",
+            "offer-1": "No Payment",
+            "offer-2": "List up to 3 days",
+            "offer-3": "Navigate through listings",
+            "offer-4": "Re-post From scracth",
+            "button": "Try Now"
+          },
+          "tier-2": {
+            "name": "Single Post",
+            "offer-1": "Pay once, use when needed.",
+            "offer-2": "List up to 45 days",
+            "offer-3": "Follow user bids",
+            "offer-4": "Edit on need",
+            "button": "Try Now"
+          },
+          "tier-3": {
+            "name": "Quarterly",
+            "offer-1": "Have 4 active items",
+            "offer-2": "List up to 90 days",
+            "offer-3": "Follow user bids",
+            "offer-4": "Close sooner and use again",
+            "button": "Try Now"
+          },
+          "tier-4": {
+            "name": "Life",
+            "offer-1": "Have 8 active items",
+            "offer-2": "List up to 120 days",
+            "offer-3": "Follow user bids",
+            "offer-4": "Close, Re-open on need",
+            "button": "Try Now"
+          }
+        }
+      },
+      "price-2": {
+        "name": "Transportation",
+        "tiers": {
+          "tier-1": {
+            "name": "Free",
+            "offer-1": "No Payment",
+            "offer-2": "List up to 3 days",
+            "offer-3": "Navigate through listings",
+            "offer-4": "Re-post From scracth",
+            "button": "Try Now"
+          },
+          "tier-2": {
+            "name": "Single Post",
+            "offer-1": "Pay once, use when needed.",
+            "offer-2": "List up to 45 days",
+            "offer-3": "Follow user bids",
+            "offer-4": "Edit on need",
+            "button": "Try Now"
+          },
+          "tier-3": {
+            "name": "Quarterly",
+            "offer-1": "Have 5 active items",
+            "offer-2": "List up to 90 days",
+            "offer-3": "Follow user bids",
+            "offer-4": "Close sooner and use again",
+            "button": "Try Now"
+          },
+          "tier-4": {
+            "name": "Life",
+            "offer-1": "Have 10 active items",
+            "offer-2": "List up to 120 days",
+            "offer-3": "Follow user bids",
+            "offer-4": "Close, Re-open on need",
+            "button": "Try Now"
+          }
+        }
+      },
+      "price-3": {
+        "name": "Jobs",
+        "tiers": {
+          "tier-1": {
+            "name": "Single Post",
+            "offer-1": "Pay once, use when needed.",
+            "offer-2": "List up to 45 days",
+            "offer-3": "Follow user bids",
+            "offer-4": "Edit on need",
+            "button": "Try Now"
+          },
+          "tier-2": {
+            "name": "Semi-Annually",
+            "offer-1": "Have 3 active items",
+            "offer-2": "List up to 60 days",
+            "offer-3": "Follow user bids",
+            "offer-4": "Close sooner and use again",
+            "button": "Try Now"
+          },
+          "tier-3": {
+            "name": "Anually",
+            "offer-1": "Have 7 active items",
+            "offer-2": "List up to 90 days",
+            "offer-3": "Follow user bids",
+            "offer-4": "Close sooner and use again",
+            "button": "Try Now"
+          },
+          "tier-4": {
+            "name": "Life",
+            "offer-1": "Have 10 active items",
+            "offer-2": "List up to 120 days",
+            "offer-3": "Follow user bids",
+            "offer-4": "Close, Re-open on need",
+            "button": "Try Now"
+          }
+        }
+      },
+      "price-4": {
+        "name": "Others",
+        "tiers": {
+          "tier-1": {
+            "name": "Free",
+            "offer-1": "Browser Listings",
+            "offer-2": "Rate Listings",
+            "offer-3": "Be part oF us",
+            "offer-4": "Share the word",
+            "button": "Try Now"
+          },
+          "tier-2": {
+            "name": "Promoted Item",
+            "offer-1": "Pay on submit",
+            "offer-2": "Promoted area",
+            "offer-3": "Marked as featured",
+            "offer-4": "Extra 5 days",
+            "button": "Try Now"
+          },
+          "tier-3": {
+            "name": "Search CV",
+            "offer-1": "Pay once use a Lifetime",
+            "offer-2": "Use Job apply Board",
+            "offer-3": "Browser CV's",
+            "offer-4": "Raise tasks",
+            "button": "Try Now"
+          },
+          "tier-4": {
+            "name": "Add Extra days",
+            "offer-1": "Extend the listing days",
+            "offer-2": "Choose day count",
+            "offer-3": "Up to 360 days",
+            "offer-4": "Pay 0.07 $ per day",
+            "button": "Try Now"
+          }
+        }
+      }
+    },
+    "off": "Off"
+  }
+}
