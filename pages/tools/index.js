@@ -12,7 +12,7 @@ import { useState } from 'react';
 const UserBoard = props => {
   const { t } = props;
   const filters = toolOptions(t);
-  const [activeItem, setActiveItem] = useState(filters[0]);
+  // const [activeItem, setActiveItem] = useState(filters[0]);
 
   return (
     <div className="termsPage-container main-container">
@@ -23,6 +23,7 @@ const UserBoard = props => {
           content="mortgage calculator, interest calculator, amortization schedule"
         />
       </Head>
+
       {/* <HeroTerms
         filters={filters}
         activeItem={activeItem}
