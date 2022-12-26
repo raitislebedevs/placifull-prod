@@ -17,20 +17,20 @@ function SalaryCalculator(props) {
     {
       value: 'lv',
       label: 'Latvija',
-      id: 'country'
-    }
+      id: 'country',
+    },
   ]);
 
   const [inputValues, setInputValues] = useState({});
-  const handleOnChange = event => {
+  const handleOnChange = (event) => {
     const value = event?.target?.value ?? event?.value ?? event;
     const id = event?.target?.id ?? event?.id;
     setInputValues({ ...inputValues, [id]: value });
   };
-  const dropdownHandleChange = e => {
+  const dropdownHandleChange = (e) => {
     handleOnChange({ target: { value: e.target.value, id: e.target.id } });
   };
-  const handleSalaryCalculation = e => {
+  const handleSalaryCalculation = (e) => {
     let salaryData = calculateSalary(inputValues);
     setTotals(salaryData);
   };
@@ -55,12 +55,12 @@ function SalaryCalculator(props) {
                   customInput={CustomFormControl}
                   label={t('tools:salary.bruto')}
                   id={'salary'}
-                  onValueChange={e => {
+                  onValueChange={(e) => {
                     let payload = {
                       target: {
                         value: e?.floatValue || 0,
-                        id: 'salary'
-                      }
+                        id: 'salary',
+                      },
                     };
                     handleOnChange(payload);
                   }}
@@ -70,7 +70,7 @@ function SalaryCalculator(props) {
                   allowNegative={false}
                   thousandsGroupStyle="thousand"
                   fixedDecimalScale={true}
-                  isAllowed={values =>
+                  isAllowed={(values) =>
                     values.value >= 0 && values.value <= 99999999999999999999999
                   }
                   inputValues={inputValues}
@@ -99,7 +99,7 @@ function SalaryCalculator(props) {
                   onChange={handleOnChange}
                   maxLength={10}
                   value={countryList.filter(
-                    option => option.value === inputValues['country']
+                    (option) => option.value === inputValues['country']
                   )}
                   options={countryList}
                   placeholder={'Country'}
@@ -113,12 +113,12 @@ function SalaryCalculator(props) {
                   customInput={CustomFormControl}
                   label={t('tools:salary.children')}
                   id={'children'}
-                  onValueChange={e => {
+                  onValueChange={(e) => {
                     let payload = {
                       target: {
                         value: e?.floatValue || 0,
-                        id: 'children'
-                      }
+                        id: 'children',
+                      },
                     };
                     handleOnChange(payload);
                   }}
@@ -128,7 +128,7 @@ function SalaryCalculator(props) {
                   allowNegative={false}
                   thousandsGroupStyle="thousand"
                   fixedDecimalScale={true}
-                  isAllowed={values =>
+                  isAllowed={(values) =>
                     values.value >= 0 && values.value <= 99999999999999999999999
                   }
                   inputValues={inputValues}

@@ -9,23 +9,23 @@ import Datetime from 'react-datetime';
 import { formatDate, formatNumber } from 'utils/standaloneFunctions';
 import * as moment from 'node_modules/moment/moment';
 
-const MortgageCalculator = props => {
+const MortgageCalculator = (props) => {
   const { t } = props;
   const [submitCurrency, setSubmitCurrency] = useState('');
   const [inputValues, setInputValues] = useState({
     fromDate: new Date(),
     percentageType: 'even',
-    paymentPeriod: 'year'
+    paymentPeriod: 'year',
   });
   const [mortgage, setMortgage] = useState([]);
   const [monthlyPayment, setMonthlyPayment] = useState(0);
   const [totals, setTotals] = useState({});
-  const handleOnChange = event => {
+  const handleOnChange = (event) => {
     const value = event?.target?.value ?? event?.value ?? event;
     const id = event?.target?.id ?? event?.id;
     setInputValues({ ...inputValues, [id]: value });
   };
-  const dropdownHandleChange = e => {
+  const dropdownHandleChange = (e) => {
     handleOnChange({ target: { value: e.target.value, id: e.target.id } });
   };
 
@@ -90,14 +90,18 @@ const MortgageCalculator = props => {
             parseFloat(monthlyPayment) + parseFloat(regularPayment);
           amortization.push({
             paymentDate: formatDate(paymentDate, t),
-            percantage: `${monthlyPayment.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            fromMortgageSum: `${regularPayment} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            total: `${totalAmount.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            left: `${(amount - regularPayment).toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`
+            percantage: `${monthlyPayment.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            fromMortgageSum: `${regularPayment} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            total: `${totalAmount.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            left: `${(amount - regularPayment).toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
           });
 
           totalSums.monthlyInterest += monthlyPayment;
@@ -110,15 +114,16 @@ const MortgageCalculator = props => {
 
           amortization.push({
             paymentDate: formatDate(paymentDate, t),
-            percantage: `${parseFloat(monthlyPayment).toFixed(
-              2
-            )} ${submitCurrency || t('tools:mortgage.no-currency')}`,
-            fromMortgageSum: `${parseFloat(amount).toFixed(
-              2
-            )} ${submitCurrency || t('tools:mortgage.no-currency')}`,
-            total: `${totalAmount.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            left: `${0} ${submitCurrency || t('tools:mortgage.no-currency')}`
+            percantage: `${parseFloat(monthlyPayment).toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            fromMortgageSum: `${parseFloat(amount).toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            total: `${totalAmount.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            left: `${0} ${submitCurrency || t('tools:mortgage.no-currency')}`,
           });
 
           totalSums.monthlyInterest += monthlyPayment;
@@ -133,14 +138,18 @@ const MortgageCalculator = props => {
         if (amount - regularPayment > 0) {
           amortization.push({
             paymentDate: formatDate(paymentDate, t),
-            percantage: `${monthlyPayment.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            fromMortgageSum: `${regularPayment.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            total: `${mortgageMonthlyPayment.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            left: `${(amount - regularPayment).toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`
+            percantage: `${monthlyPayment.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            fromMortgageSum: `${regularPayment.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            total: `${mortgageMonthlyPayment.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            left: `${(amount - regularPayment).toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
           });
 
           totalSums.monthlyInterest += monthlyPayment;
@@ -152,14 +161,18 @@ const MortgageCalculator = props => {
           const lastPayment = parseFloat(amount) + parseFloat(monthlyPayment);
           amortization.push({
             paymentDate: formatDate(paymentDate, t),
-            percantage: `${monthlyPayment.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            fromMortgageSum: `${amount.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            total: `${lastPayment.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            left: `${(0).toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`
+            percantage: `${monthlyPayment.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            fromMortgageSum: `${amount.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            total: `${lastPayment.toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
+            left: `${(0).toFixed(2)} ${
+              submitCurrency || t('tools:mortgage.no-currency')
+            }`,
           });
 
           totalSums.monthlyInterest += monthlyPayment;
@@ -198,12 +211,12 @@ const MortgageCalculator = props => {
                     customInput={CustomFormControl}
                     label={t('tools:mortgage.amount')}
                     id={'mortgage'}
-                    onValueChange={e => {
+                    onValueChange={(e) => {
                       let payload = {
                         target: {
                           value: e?.floatValue || 0,
-                          id: 'mortgage'
-                        }
+                          id: 'mortgage',
+                        },
                       };
                       handleOnChange(payload);
                     }}
@@ -213,7 +226,7 @@ const MortgageCalculator = props => {
                     allowNegative={false}
                     thousandsGroupStyle="thousand"
                     fixedDecimalScale={true}
-                    isAllowed={values =>
+                    isAllowed={(values) =>
                       values.value >= 0 &&
                       values.value <= 99999999999999999999999
                     }
@@ -232,12 +245,12 @@ const MortgageCalculator = props => {
                     customInput={CustomFormControl}
                     label={t('tools:mortgage.deposit')}
                     id={'deposit'}
-                    onValueChange={e => {
+                    onValueChange={(e) => {
                       let payload = {
                         target: {
                           value: e?.floatValue || 0,
-                          id: 'deposit'
-                        }
+                          id: 'deposit',
+                        },
                       };
                       handleOnChange(payload);
                     }}
@@ -247,7 +260,7 @@ const MortgageCalculator = props => {
                     allowNegative={false}
                     thousandsGroupStyle="thousand"
                     fixedDecimalScale={true}
-                    isAllowed={values =>
+                    isAllowed={(values) =>
                       values.value >= 0 &&
                       values.value <= 99999999999999999999999
                     }
@@ -266,12 +279,12 @@ const MortgageCalculator = props => {
                     customInput={CustomFormControl}
                     label={t('tools:mortgage.extra-payment')}
                     id={'extraPayment'}
-                    onValueChange={e => {
+                    onValueChange={(e) => {
                       let payload = {
                         target: {
                           value: e?.floatValue || 0,
-                          id: 'extraPayment'
-                        }
+                          id: 'extraPayment',
+                        },
                       };
                       handleOnChange(payload);
                     }}
@@ -281,7 +294,7 @@ const MortgageCalculator = props => {
                     allowNegative={false}
                     thousandsGroupStyle="thousand"
                     fixedDecimalScale={true}
-                    isAllowed={values =>
+                    isAllowed={(values) =>
                       values.value >= 0 &&
                       values.value <= 99999999999999999999999
                     }
@@ -310,12 +323,12 @@ const MortgageCalculator = props => {
                     customInput={CustomFormControl}
                     label={t('tools:mortgage.percentage')}
                     id={'percentage'}
-                    onValueChange={e => {
+                    onValueChange={(e) => {
                       let payload = {
                         target: {
                           value: e?.floatValue || 0,
-                          id: 'percentage'
-                        }
+                          id: 'percentage',
+                        },
                       };
                       handleOnChange(payload);
                     }}
@@ -325,7 +338,7 @@ const MortgageCalculator = props => {
                     allowNegative={false}
                     thousandsGroupStyle="thousand"
                     fixedDecimalScale={true}
-                    isAllowed={values =>
+                    isAllowed={(values) =>
                       values.value >= 0 && values.value <= 99
                     }
                     inputValues={inputValues}
@@ -333,14 +346,14 @@ const MortgageCalculator = props => {
                       values: [
                         {
                           value: 'even',
-                          label: t('tools:mortgage.even')
+                          label: t('tools:mortgage.even'),
                         },
                         {
                           value: 'desc',
-                          label: t('tools:mortgage.descending')
-                        }
+                          label: t('tools:mortgage.descending'),
+                        },
                       ],
-                      id: 'percentageType'
+                      id: 'percentageType',
                     }}
                     prepend={{ values: ['%'] }}
                   />
@@ -352,12 +365,12 @@ const MortgageCalculator = props => {
                     customInput={CustomFormControl}
                     label={t('tools:mortgage.time')}
                     id={'mortgageTime'}
-                    onValueChange={e => {
+                    onValueChange={(e) => {
                       let payload = {
                         target: {
                           value: e?.floatValue || 0,
-                          id: 'mortgageTime'
-                        }
+                          id: 'mortgageTime',
+                        },
                       };
                       handleOnChange(payload);
                     }}
@@ -367,7 +380,7 @@ const MortgageCalculator = props => {
                     allowNegative={false}
                     thousandsGroupStyle="thousand"
                     fixedDecimalScale={true}
-                    isAllowed={values =>
+                    isAllowed={(values) =>
                       values.value >= 0 && values.value <= 480
                     }
                     inputValues={inputValues}
@@ -375,14 +388,14 @@ const MortgageCalculator = props => {
                       values: [
                         {
                           value: 'month',
-                          label: t('tools:mortgage.month')
+                          label: t('tools:mortgage.month'),
                         },
                         {
                           value: 'year',
-                          label: t('tools:mortgage.year')
-                        }
+                          label: t('tools:mortgage.year'),
+                        },
                       ],
-                      id: 'paymentPeriod'
+                      id: 'paymentPeriod',
                     }}
                   />
                 </Form.Group>
@@ -393,12 +406,12 @@ const MortgageCalculator = props => {
                   <Datetime
                     inputProps={{ className: 'datetime', readOnly: true }}
                     value={inputValues['fromDate']}
-                    onChange={e =>
+                    onChange={(e) =>
                       handleOnChange({ target: { value: e, id: 'fromDate' } })
                     }
                     timeFormat={false}
                     dateFormat={'YYYY-MMM-DD'}
-                    renderInput={props => {
+                    renderInput={(props) => {
                       return (
                         <Form.Control
                           {...props}
@@ -416,12 +429,12 @@ const MortgageCalculator = props => {
                   <Datetime
                     inputProps={{ className: 'datetime', readOnly: true }}
                     value={inputValues['toDate']}
-                    onChange={e =>
+                    onChange={(e) =>
                       handleOnChange({ target: { value: e, id: 'toDate' } })
                     }
                     timeFormat={false}
                     dateFormat={'YYYY-MM-DD'}
-                    renderInput={props => {
+                    renderInput={(props) => {
                       return (
                         <Form.Control
                           {...props}
@@ -481,7 +494,7 @@ const MortgageCalculator = props => {
                   </tr>
                 </thead>
                 <tbody>
-                  {mortgage.map(item => {
+                  {mortgage.map((item) => {
                     return (
                       <tr className={'standalone__row'} key={item?.left}>
                         <td scope="row">{item.paymentDate}</td>
@@ -527,8 +540,8 @@ const MortgageCalculator = props => {
   );
 };
 
-export const mapStateToProps = state => ({
-  user: state.connectionReducer.user
+export const mapStateToProps = (state) => ({
+  user: state.connectionReducer.user,
 });
 
 export default connect(mapStateToProps)(MortgageCalculator);

@@ -132,6 +132,7 @@ const LeftTabs = (props) => {
     //   icon: <GiMoneyStack size="30px" />,
     //   disabled: true,
     // },
+
     {
       key: 'blog-content',
       label: 'Blog Content',
