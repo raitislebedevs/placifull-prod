@@ -30,7 +30,8 @@
       "principal": "Principal payment",
       "total": "Total monthly",
       "amount": "Amount left",
-      "sum": "Sum"
+      "sum": "Sum",
+      "obligatory": "Obligatory payment"
     }
   },
 

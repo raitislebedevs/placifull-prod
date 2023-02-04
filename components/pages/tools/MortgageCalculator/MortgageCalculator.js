@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, Form } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { CustomFormControl } from 'components/common';
@@ -28,6 +28,18 @@ const MortgageCalculator = props => {
   const dropdownHandleChange = e => {
     handleOnChange({ target: { value: e.target.value, id: e.target.id } });
   };
+
+  useEffect(() => {
+    if (
+      !inputValues?.mortgage ||
+      !inputValues?.percentage ||
+      (!inputValues?.mortgageTime && !inputValues?.toDate)
+    ) {
+      return;
+    }
+
+    handleMortgageCalculation();
+  }, [inputValues?.extraPayment]);
 
   const handleMortgageCalculation = () => {
     if (
@@ -65,16 +77,22 @@ const MortgageCalculator = props => {
 
     let amortization = [];
     let regularPayment = (amount / mortgageTime + extraPayment).toFixed(2);
-    let totalSums = { monthlyInterest: 0, mortgageSum: 0, total: 0 };
+    let totalSums = {
+      monthlyInterest: 0,
+      mortgageSum: 0,
+      obligatory: 0,
+      total: 0
+    };
     let mortgageMonthlyPayment = 0;
     if (type == 'even') {
       let rate = percentage / 12;
       mortgageMonthlyPayment =
-        (amount * (rate * Math.pow(1 + rate, mortgageTime))) /
-          (Math.pow(1 + rate, mortgageTime) - 1) +
+        (amount * (rate * Math.pow(1 + rate, mortgageTime - 1))) /
+          (Math.pow(1 + rate, mortgageTime - 1) - 1) +
         extraPayment;
+      console.log('Menesa maksajums', mortgageMonthlyPayment);
     }
-
+    let timeFlies = 0;
     while (amount > 0) {
       let fromPaymentDate = new Date(fromDate);
       let paymentDate = new Date(fromDate.setMonth(fromDate.getMonth() + 1));
@@ -84,6 +102,7 @@ const MortgageCalculator = props => {
       let monthlyPayment = parseFloat(
         (((amount * percentage) / 360) * accruedDays).toFixed(2)
       );
+      console.log(monthlyPayment);
       if (type != 'even') {
         if (amount - regularPayment > 0) {
           let totalAmount =
@@ -102,6 +121,7 @@ const MortgageCalculator = props => {
 
           totalSums.monthlyInterest += monthlyPayment;
           totalSums.mortgageSum += parseFloat(regularPayment);
+          totalSums.obligatory += totalAmount - extraPayment;
           totalSums.total += totalAmount;
         }
 
@@ -123,6 +143,7 @@ const MortgageCalculator = props => {
 
           totalSums.monthlyInterest += monthlyPayment;
           totalSums.mortgageSum += parseFloat(amount);
+          totalSums.obligatory += totalAmount - extraPayment;
           totalSums.total += totalAmount;
         }
       }
@@ -133,18 +154,18 @@ const MortgageCalculator = props => {
         if (amount - regularPayment > 0) {
           amortization.push({
             paymentDate: formatDate(paymentDate, t),
-            percantage: `${monthlyPayment.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            fromMortgageSum: `${regularPayment.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            total: `${mortgageMonthlyPayment.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            left: `${(amount - regularPayment).toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`
+            percantage: formatPaymentValue(monthlyPayment),
+            fromMortgageSum: formatPaymentValue(regularPayment),
+            obligatory: extraPayment
+              ? getDefaultPayment(mortgageMonthlyPayment.toFixed(2))
+              : null,
+            total: formatPaymentValue(mortgageMonthlyPayment),
+            left: formatPaymentValue(amount - regularPayment)
           });
 
           totalSums.monthlyInterest += monthlyPayment;
           totalSums.mortgageSum += parseFloat(regularPayment);
+          totalSums.obligatory += mortgageMonthlyPayment - extraPayment;
           totalSums.total += mortgageMonthlyPayment;
         }
 
@@ -152,29 +173,50 @@ const MortgageCalculator = props => {
           const lastPayment = parseFloat(amount) + parseFloat(monthlyPayment);
           amortization.push({
             paymentDate: formatDate(paymentDate, t),
-            percantage: `${monthlyPayment.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            fromMortgageSum: `${amount.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            total: `${lastPayment.toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`,
-            left: `${(0).toFixed(2)} ${submitCurrency ||
-              t('tools:mortgage.no-currency')}`
+            percantage: formatPaymentValue(monthlyPayment),
+            fromMortgageSum: formatPaymentValue(amount),
+            obligatory: extraPayment
+              ? getDefaultPayment(mortgageMonthlyPayment.toFixed(2))
+              : null,
+            total: formatPaymentValue(lastPayment),
+            left: formatPaymentValue(0)
           });
 
           totalSums.monthlyInterest += monthlyPayment;
           totalSums.mortgageSum += parseFloat(amount);
+          totalSums.obligatory += mortgageMonthlyPayment - extraPayment;
           totalSums.total += lastPayment;
         }
       }
-
+      // console.log('Regular payment', regularPayment);
       amount = amount - regularPayment;
+      if (extraPayment !== 0) {
+        timeFlies++;
+        let newDeadline = mortgageTime - timeFlies;
+        let rate = percentage / 12;
+        mortgageMonthlyPayment =
+          (amount * (rate * Math.pow(1 + rate, newDeadline))) /
+            (Math.pow(1 + rate, newDeadline) - 1) +
+          extraPayment;
+        regularPayment = (amount / newDeadline + extraPayment).toFixed(2);
+      }
     }
     setTotals(totalSums);
     setMortgage(amortization);
     setMonthlyPayment(amortization[0].total);
   };
 
+  const getDefaultPayment = total => {
+    let defaultPayment = (total - inputValues?.extraPayment).toFixed(2);
+    let result = `${defaultPayment} ${submitCurrency ||
+      t('tools:mortgage.no-currency')}`;
+    return result;
+  };
+
+  const formatPaymentValue = value => {
+    return `${value.toFixed(2)} ${submitCurrency ||
+      t('tools:mortgage.no-currency')}`;
+  };
   return (
     <>
       <Container className="tools_container">
@@ -474,6 +516,12 @@ const MortgageCalculator = props => {
                     </th>
                     <th scope="col"> {t('tools:mortgage.table.interest')}</th>
                     <th scope="col"> {t('tools:mortgage.table.principal')}</th>
+                    {inputValues?.extraPayment > 0 && (
+                      <th scope="col">
+                        {' '}
+                        {t('tools:mortgage.table.obligatory')}
+                      </th>
+                    )}
                     <th scope="col"> {t('tools:mortgage.table.total')}</th>
                     <th className={'last__col__row'} scope="col">
                       {t('tools:mortgage.table.amount')}
@@ -488,6 +536,9 @@ const MortgageCalculator = props => {
 
                         <td>{item?.percantage}</td>
                         <td>{formatNumber(item?.fromMortgageSum)}</td>
+                        {item?.obligatory && (
+                          <td>{formatNumber(item?.obligatory)}</td>
+                        )}
                         <td>{formatNumber(item?.total)}</td>
 
                         <td>{formatNumber(item?.left)}</td>
@@ -505,11 +556,19 @@ const MortgageCalculator = props => {
                         ? submitCurrency
                         : t('tools:mortgage.no-currency')
                     }`}</td>
+
                     <td>{`${totals.mortgageSum.toFixed(2)}   ${
                       submitCurrency
                         ? submitCurrency
                         : t('tools:mortgage.no-currency')
                     }`}</td>
+                    {inputValues?.extraPayment > 0 && (
+                      <td>{`${totals.obligatory.toFixed(2)}   ${
+                        submitCurrency
+                          ? submitCurrency
+                          : t('tools:mortgage.no-currency')
+                      }`}</td>
+                    )}
                     <td>{`${totals.total.toFixed(2)}   ${
                       submitCurrency
                         ? submitCurrency
