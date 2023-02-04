@@ -2,7 +2,7 @@ import { JobPost } from 'components/common';
 
 import { ListingNavigation } from '../index';
 
-const JobSubmit = props => {
+const JobSubmit = (props) => {
   const { t } = props;
 
   return (

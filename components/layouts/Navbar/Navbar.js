@@ -105,6 +105,17 @@ const Navbar = (props) => {
                 <div id="help-support">{t('navbar:help')}</div>
               </Nav.Link>
             </Nav.Item>
+            {user && (
+              <Nav.Item>
+                <Nav.Link
+                  href="/budget/accounts"
+                  active={router.pathname === '/budget'}
+                  className="nav-item__link"
+                >
+                  <div id="budget-planner">{t('navbar:budget')}</div>
+                </Nav.Link>
+              </Nav.Item>
+            )}
             <Nav.Item>
               <LanguaggeSelect showNavbarLight={showNavbarLight} />
             </Nav.Item>
